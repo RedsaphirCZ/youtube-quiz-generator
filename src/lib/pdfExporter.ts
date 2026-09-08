@@ -22,6 +22,7 @@ export const TRIM_H = CARD_FORMATS.poker.trimHeight;
 export const BLEED = CARD_FORMATS.poker.bleed;
 export const PAGE_W = TRIM_W + 2 * BLEED;
 export const PAGE_H = TRIM_H + 2 * BLEED;
+export const CARD_SAFE_MARGIN = 5; // mm inside the finished trim edge
 
 export function getCardPageSize(format: CardFormat): [number, number] {
   return [format.trimWidth + 2 * format.bleed, format.trimHeight + 2 * format.bleed];
@@ -114,6 +115,11 @@ export function fitTextToBox(
         };
       }
     } else {
+      const hasOverlongToken = text
+        .split(/\s+/)
+        .some((token) => doc.getTextWidth(token) > maxWidth);
+      if (hasOverlongToken) continue;
+
       const lines = doc.splitTextToSize(text, maxWidth);
       const totalH = lines.length * lineH;
 
@@ -141,7 +147,7 @@ export function fitTextToBox(
 }
 
 /**
- * Draws a single sharp-cornered Front card face on a 69.5 x 94.9 mm page with 3mm bleed.
+ * Draws a single sharp-cornered front card face for the selected format.
  * Uses font autoscaling for optimal readability on camera.
  */
 export function drawFrontCard(
@@ -152,8 +158,8 @@ export function drawFrontCard(
   format: CardFormat = CARD_FORMATS.poker
 ) {
   const [pageWidth, pageHeight] = getCardPageSize(format);
-  const safeX = format.bleed + 1.5;
-  const safeWidth = format.trimWidth - 3;
+  const safeX = format.bleed + CARD_SAFE_MARGIN;
+  const safeWidth = format.trimWidth - 2 * CARD_SAFE_MARGIN;
   applyCardPageBoxes(doc, format);
   const partNum = Math.floor(qIndex / 20) + 1;
   const partQNum = (qIndex % 20) + 1;
@@ -286,7 +292,7 @@ export function drawFrontCard(
 }
 
 /**
- * Draws a single sharp-cornered Back card face (Answer Reveal) on a 69.5 x 94.9 mm page with 3mm bleed.
+ * Draws a single sharp-cornered back card face for the selected format.
  * Uses font autoscaling for clean typography.
  */
 export function drawBackCard(
@@ -297,8 +303,8 @@ export function drawBackCard(
   format: CardFormat = CARD_FORMATS.poker
 ) {
   const [pageWidth, pageHeight] = getCardPageSize(format);
-  const safeX = format.bleed + 1.5;
-  const safeWidth = format.trimWidth - 3;
+  const safeX = format.bleed + CARD_SAFE_MARGIN;
+  const safeWidth = format.trimWidth - 2 * CARD_SAFE_MARGIN;
   applyCardPageBoxes(doc, format);
   doc.setFillColor(255, 255, 255);
   doc.rect(0, 0, pageWidth, pageHeight, 'F');
@@ -348,11 +354,8 @@ export function drawBackCard(
     const answer = `${q.target.toLocaleString('en-US')} ${q.metricUnit || ''}${q.imperialDisplay ? ` (${q.imperialDisplay})` : ''}`;
     drawText(answer, 40, 19, 26);
   }
-  doc.setTextColor(100, 90, 75);
-  doc.setFontSize(7);
-  doc.text('THE STORY BEHIND THE ANSWER', safeX + 2.5, 67);
   doc.setTextColor(30, 30, 30);
-  drawText(q.explanation || 'Explanation not provided; review before publication.', 70, pageHeight - safeX - 70, 15, 'normal');
+  drawText(q.explanation || 'Explanation not provided; review before publication.', 65, pageHeight - safeX - 65, 15, 'normal');
 }
 
 /**
