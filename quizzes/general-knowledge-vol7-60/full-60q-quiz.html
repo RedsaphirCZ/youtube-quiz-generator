@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Knowledge Vol 7: Ultimate Records, Discoveries &amp; Mysteries — Interactive Quiz</title>
+  <style>
+    :root {
+      --bg-parchment: #f5f2eb;
+      --card-surface: #ffffff;
+      --accent-red: #8b1e1e;
+      --accent-red-hover: #731818;
+      --accent-gold: #c59b27;
+      --accent-gold-light: #fef8e7;
+      --correct-green: #2e7d32;
+      --correct-green-bg: #e8f5e9;
+      --incorrect-red: #c62828;
+      --incorrect-red-bg: #ffebee;
+      --numeric-blue: #185a9d;
+      --numeric-blue-bg: #eef6fc;
+      --text-main: #2b2520;
+      --text-muted: #6b635b;
+      --border-subtle: #e0d8cb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    body {
+      background-color: var(--bg-parchment);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 1.4;
+      padding: 8px 12px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8px;
+      min-height: 0;
+    }
+
+    /* Header Banner */
+    header {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-red);
+      border-radius: 12px;
+      padding: 10px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-title-group h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--accent-red);
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+
+    .theme-badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--accent-gold-light);
+      border: 1px solid var(--accent-gold);
+      color: #7c5c0a;
+      font-size: 0.78rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    /* Status Bar */
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-subtle);
+      align-items: center;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .stat-value {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .btn-reset {
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-reset:hover {
+      background: #eee8dc;
+      color: var(--accent-red);
+      border-color: var(--accent-red);
+    }
+
+    /* Progress Bar */
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: #e6dfd1;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-red));
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Middle Section Wrapper */
+    .middle-section {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-y: auto;
+      padding-right: 2px;
+    }
+
+    /* Main Question Card */
+    .question-card {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 16px 20px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .question-badge {
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .badge-mcq {
+      background: var(--accent-gold-light);
+      color: #8c6a0c;
+      border: 1px solid rgba(197, 155, 39, 0.5);
+    }
+
+    .badge-number {
+      background: var(--numeric-blue-bg);
+      color: var(--numeric-blue);
+      border: 1px solid rgba(24, 90, 157, 0.4);
+    }
+
+    .card-counter {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .question-text {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    /* MCQ Option List */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      text-align: left;
+      background: #faf8f4;
+      border: 2.5px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 12px 18px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      gap: 14px;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      background: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .option-marker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #e8decb;
+      color: var(--text-main);
+      font-size: 1.05rem;
+      font-weight: 900;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .option-btn.selected-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+    }
+    .option-btn.selected-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn.selected-incorrect {
+      border-color: var(--incorrect-red);
+      background-color: var(--incorrect-red-bg);
+      color: #b71c1c;
+    }
+    .option-btn.selected-incorrect .option-marker {
+      background-color: var(--incorrect-red);
+      color: #fff;
+    }
+
+    .option-btn.reveal-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+      border-style: dashed;
+    }
+    .option-btn.reveal-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn:disabled {
+      cursor: default;
+    }
+
+    /* Number Guess Input View */
+    .number-input-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 8px;
+      background: #fff;
+      padding: 4px 12px;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .input-wrapper:focus-within {
+      border-color: var(--numeric-blue);
+      box-shadow: 0 0 0 3px rgba(24, 90, 157, 0.15);
+    }
+
+    .num-input {
+      border: none;
+      outline: none;
+      font-size: 1.15rem;
+      font-weight: 600;
+      width: 100%;
+      color: var(--text-main);
+      padding: 8px 4px;
+    }
+
+    .unit-label {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding-left: 8px;
+    }
+
+    .btn-check {
+      background: var(--numeric-blue);
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-check:hover:not(:disabled) {
+      background: #124479;
+    }
+
+    .btn-check:disabled {
+      opacity: 0.6;
+      cursor: default;
+    }
+
+    /* Numeric Comparison Metrics */
+    .metrics-box {
+      margin-top: 20px;
+      background: var(--numeric-blue-bg);
+      border: 1px solid rgba(24, 90, 157, 0.25);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+    }
+
+    .metric-card {
+      background: #fff;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid rgba(24, 90, 157, 0.15);
+    }
+
+    .metric-title {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .metric-data {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--numeric-blue);
+    }
+
+    .metric-direction-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .dir-exact { background: var(--correct-green-bg); color: var(--correct-green); }
+    .dir-high { background: #fff3e0; color: #e65100; }
+    .dir-low { background: #e1f5fe; color: #0277bd; }
+
+    /* Explanation Box */
+    .explanation-box {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-radius: 8px;
+      background: #faf8f5;
+      border-left: 4px solid var(--accent-gold);
+      font-size: 0.95rem;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    .explanation-box strong {
+      color: var(--accent-red);
+    }
+
+    /* Navigation Controls */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .nav-btn {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      color: var(--accent-red);
+      background: #faf7f0;
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .nav-btn-primary {
+      background: var(--accent-red);
+      color: #fff;
+      border-color: var(--accent-red);
+    }
+
+    .nav-btn-primary:hover:not(:disabled) {
+      background: var(--accent-red-hover);
+      color: #fff;
+    }
+
+    /* Jump Grid */
+    .jump-section {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 8px 12px;
+    }
+
+    .jump-header {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 800;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .jump-legend {
+      display: flex;
+      gap: 8px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 2px;
+    }
+
+    .jump-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+      gap: 4px;
+    }
+
+    .jump-btn {
+      width: 100%;
+      height: 24px;
+      border-radius: 5px;
+      font-size: 0.76rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border-subtle);
+      background: #fbf9f4;
+      color: var(--text-muted);
+      transition: all 0.15s;
+    }
+
+    .jump-btn:hover {
+      border-color: var(--accent-gold);
+      transform: scale(1.05);
+    }
+
+    .jump-btn.state-current {
+      outline: 2.5px solid var(--accent-red);
+      outline-offset: 1px;
+      font-weight: 800;
+    }
+
+    .jump-btn.state-correct {
+      background: var(--correct-green);
+      color: #ffffff;
+      border-color: var(--correct-green);
+    }
+
+    .jump-btn.state-incorrect {
+      background: var(--incorrect-red);
+      color: #ffffff;
+      border-color: var(--incorrect-red);
+    }
+
+    .jump-btn.state-number-checked {
+      background: var(--numeric-blue);
+      color: #ffffff;
+      border-color: var(--numeric-blue);
+    }
+
+    /* Summary Screen */
+    .summary-card {
+      display: none;
+      background: var(--card-surface);
+      border: 1px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-gold);
+      border-radius: 12px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .summary-title {
+      font-size: 1.8rem;
+      color: var(--accent-red);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .summary-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 24px;
+    }
+
+    .summary-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      max-width: 600px;
+      margin: 0 auto 32px auto;
+    }
+
+    .summary-stat-box {
+      background: #faf8f4;
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .summary-stat-val {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .summary-stat-lbl {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .btn-restart {
+      background: var(--accent-red);
+      color: #fff;
+      border: none;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .btn-restart:hover {
+      background: var(--accent-red-hover);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-top">
+        <div class="header-title-group">
+          <h1>General Knowledge Vol 7: Ultimate Records, Discoveries &amp; Mysteries</h1>
+        </div>
+        <span class="theme-badge">60 Questions</span>
+      </div>
+
+      <div class="status-bar">
+        <div class="stat-item">
+          <span class="stat-label">Question</span>
+          <span class="stat-value" id="disp-curr-q">1 / 60</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">MCQ Score</span>
+          <span class="stat-value" id="disp-mcq-score">0 / 0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Completed</span>
+          <span class="stat-value" id="disp-completed">0 / 60</span>
+        </div>
+        <button class="btn-reset" id="btn-reset-quiz">Reset Quiz</button>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-bar"></div>
+      </div>
+    </header>
+
+    <!-- Middle Section: Only this area adjusts while header and navigator stay locked -->
+    <div class="middle-section">
+      <!-- Interactive Question Card -->
+      <main class="question-card" id="main-question-card">
+        <div class="card-meta">
+          <span class="question-badge badge-mcq" id="card-badge">Multiple Choice</span>
+          <span class="card-counter" id="card-counter">Question 1 of 60</span>
+        </div>
+
+        <h2 class="question-text" id="card-question-text">Loading question...</h2>
+
+        <!-- MCQ View -->
+        <div class="options-grid" id="mcq-options-container">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Number View -->
+        <div class="number-input-form" id="number-input-container" style="display: none;">
+          <div class="input-row">
+            <div class="input-wrapper">
+              <input type="number" id="num-guess-input" class="num-input" placeholder="Enter estimated number" step="any" />
+              <span class="unit-label" id="unit-label"></span>
+            </div>
+            <button class="btn-check" id="btn-check-number">Check Estimate</button>
+          </div>
+
+          <div class="metrics-box" id="num-metrics-box" style="display: none;">
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-title">Target Value</div>
+                <div class="metric-data" id="m-target">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Your Guess</div>
+                <div class="metric-data" id="m-guess">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Off By</div>
+                <div class="metric-data" id="m-diff">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Closer Span</div>
+                <div class="metric-data" id="m-span">-</div>
+              </div>
+            </div>
+            <div>
+              <span class="metric-direction-badge" id="m-dir-badge">Direction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explanation -->
+        <div class="explanation-box" id="explanation-box" style="display: none;">
+          <strong>Fact & Context:</strong> <span id="explanation-text"></span>
+        </div>
+
+        <!-- Navigation Controls inside Card -->
+        <div class="nav-bar" id="nav-controls" style="margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border-subtle);">
+          <button class="nav-btn" id="btn-prev">Previous</button>
+          <button class="nav-btn nav-btn-primary" id="btn-next">Next</button>
+        </div>
+      </main>
+
+      <!-- Summary Screen -->
+      <section class="summary-card" id="summary-card" style="display: none;">
+        <h2 class="summary-title">Quiz Completed!</h2>
+        <p class="summary-subtitle">General Knowledge Vol 7: Ultimate Records, Discoveries &amp; Mysteries Knowledge Assessment</p>
+
+        <div class="summary-metrics-grid">
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-score">0 / 0</div>
+            <div class="summary-stat-lbl">MCQ Score</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-accuracy">0%</div>
+            <div class="summary-stat-lbl">Accuracy</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-completed">0 / 60</div>
+            <div class="summary-stat-lbl">Questions Checked</div>
+          </div>
+        </div>
+
+        <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+      </section>
+    </div>
+
+    <!-- 1-60 Jump Grid (Locked at bottom) -->
+    <section class="jump-section">
+      <div class="jump-header">
+        <span>Question Quick Jump (1–60)</span>
+        <div class="jump-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:#2e7d32"></div> Correct</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#c62828"></div> Incorrect</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#185a9d"></div> Estimate</div>
+        </div>
+      </div>
+      <div class="jump-grid" id="jump-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Summary Screen -->
+    <section class="summary-card" id="summary-card">
+      <h2 class="summary-title">Quiz Completed!</h2>
+      <p class="summary-subtitle">General Knowledge Vol 7: Ultimate Records, Discoveries &amp; Mysteries Knowledge Assessment</p>
+
+      <div class="summary-metrics-grid">
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-score">0 / 0</div>
+          <div class="summary-stat-lbl">MCQ Score</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-accuracy">0%</div>
+          <div class="summary-stat-lbl">Accuracy</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-completed">0 / 60</div>
+          <div class="summary-stat-lbl">Questions Checked</div>
+        </div>
+      </div>
+
+      <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+    </section>
+  </div>
+
+  <script>
+    const questions = [
+  {
+    "type": "mcq",
+    "question": "What massive apex predator dinosaur discovered in North America possessed 30-centimeter serrated teeth and a bite force exceeding 35,000 newtons?",
+    "options": [
+      "Tyrannosaurus rex",
+      "Spinosaurus",
+      "Giganotosaurus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tyrannosaurus rex lived during the late Cretaceous period (68–66 Ma). Biomechanical modeling shows its bone-crushing jaws could puncture solid bone with ease, supported by acute stereoscopic vision and an exceptional sense of smell."
+  },
+  {
+    "type": "mcq",
+    "question": "What transitional fossil discovered in Germany in 1861 possesses both avian feathers and reptilian teeth, clawed fingers, and a bony tail?",
+    "options": [
+      "Microraptor",
+      "Archaeopteryx",
+      "Confuciusornis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Preserved in the Solnhofen limestone, Archaeopteryx provided critical transitional evidence confirming Charles Darwin theory of evolution, establishing that modern birds are living avian dinosaurs."
+  },
+  {
+    "type": "mcq",
+    "question": "What catastrophic asteroid impact 66 million years ago off the coast of the Yucatan Peninsula triggered the Cretaceous-Paleogene (K-Pg) mass extinction?",
+    "options": [
+      "Manicouagan Crater",
+      "Vredefort Impact",
+      "Chicxulub Impact"
+    ],
+    "correctIndex": 2,
+    "explanation": "A 10-kilometer asteroid struck the shallow sea at Chicxulub, releasing energy equivalent to 100 million megatons of TNT. The resulting shockwaves, megatsunamis, and soot-induced nuclear winter wiped out 75 percent of all plant and animal species, including non-avian dinosaurs."
+  },
+  {
+    "type": "mcq",
+    "question": "What was the largest known flying creature in Earth history, a giant azhdarchid pterosaur with a wingspan of over 10 meters?",
+    "options": [
+      "Quetzalcoatlus northropi",
+      "Pteranodon",
+      "Hatzegopteryx"
+    ],
+    "correctIndex": 0,
+    "explanation": "Discovered in Texas, Quetzalcoatlus stood as tall as a giraffe on the ground and used a quadrupedal vault to launch into flight, soaring over Cretaceous landscapes on thin, skin-membrane wings."
+  },
+  {
+    "type": "mcq",
+    "question": "What enormous prehistoric apex predatory shark reached lengths up to 18 meters before going extinct roughly 3.6 million years ago?",
+    "options": [
+      "Dunkleosteus",
+      "Megalodon Otodus megalodon",
+      "Helicoprion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Megalodon had massive 18-centimeter triangular serrated teeth designed to sever the fins and crush the ribcages of large baleen whales in warm Miocene and Pliocene seas."
+  },
+  {
+    "type": "number",
+    "question": "How many million years ago did the Chicxulub asteroid impact trigger the mass extinction of the non-avian dinosaurs?",
+    "target": 66,
+    "metricUnit": "million years ago",
+    "imperialDisplay": "66 million years ago (K-Pg boundary)",
+    "explanation": "High-precision radiometric argon-argon dating places the K-Pg extinction event at exactly 66.0 million years ago."
+  },
+  {
+    "type": "mcq",
+    "question": "What fundamental physical constant represents the speed of light in a vacuum, denoted by the universal symbol c?",
+    "options": [
+      "150,000,000 meters per second",
+      "384,400,000 meters per second",
+      "299,792,458 meters per second"
+    ],
+    "correctIndex": 2,
+    "explanation": "In Einstein Special Relativity, the speed of light in a vacuum (c = 299,792,458 m/s, or approximately 300,000 km/s) is the ultimate cosmic speed limit for the propagation of energy, matter, and causal information."
+  },
+  {
+    "type": "mcq",
+    "question": "Which fundamental dimensionless physical constant approximately equal to one over 137 characterizes the strength of the electromagnetic interaction between charged particles?",
+    "options": [
+      "Fine-Structure Constant Alpha",
+      "Planck Length",
+      "Rydberg Constant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Denoted by the Greek letter alpha, the fine-structure constant (roughly 1/137.036) quantifies the coupling strength between photons and electrons, dictating atomic spectral lines and the structure of atoms throughout the universe."
+  },
+  {
+    "type": "mcq",
+    "question": "What fundamental constant in thermodynamics relates the average kinetic energy of gas particles to thermodynamic temperature, denoted by k or kB?",
+    "options": [
+      "Gas Constant",
+      "Boltzmann Constant",
+      "Avogadro Constant"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ludwig Boltzmann formulated the statistical foundation of entropy (S = k log W). The Boltzmann constant (1.380649 × 10^-23 J/K) bridges microscopic particle states with macroscopic thermodynamic temperature."
+  },
+  {
+    "type": "mcq",
+    "question": "What universal constant denoted by G was first empirically measured by Henry Cavendish in 1798 using a torsion balance to weigh the Earth?",
+    "options": [
+      "Hubble Constant",
+      "Coulomb Constant",
+      "Gravitational Constant"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Newtonian constant of gravitation (G ≈ 6.674 × 10^-11 m^3/kg/s^2) defines the strength of gravitational attraction between two masses in Newton Law of Universal Gravitation and Einstein Field Equations."
+  },
+  {
+    "type": "mcq",
+    "question": "What fundamental constant represents the number of constituent particles (atoms or molecules) contained in one mole of a substance?",
+    "options": [
+      "Avogadro Constant",
+      "Faraday Constant",
+      "Planck Constant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Named after Italian scientist Amedeo Avogadro, the constant is defined as exactly 6.02214076 × 10^23 particles per mole, serving as the universal conversion bridge between atomic mass units and grams."
+  },
+  {
+    "type": "number",
+    "question": "What is the speed of light in a vacuum rounded to the nearest thousand kilometers per second?",
+    "target": 300000,
+    "metricUnit": "km/s",
+    "imperialDisplay": "approx 300,000 km/s (186,282 mi/s)",
+    "explanation": "The exact speed of light is 299,792.458 km/s, commonly rounded to 300,000 km/s in physics calculations."
+  },
+  {
+    "type": "mcq",
+    "question": "What classical substitution cipher used by Julius Caesar shifts each letter in the plaintext alphabet forward by a fixed number of positions (typically 3)?",
+    "options": [
+      "Vigenere Cipher",
+      "Caesar Cipher",
+      "Playfair Cipher"
+    ],
+    "correctIndex": 1,
+    "explanation": "In the standard Caesar shift of 3, the letter A becomes D, B becomes E, and so forth. While easily broken today using letter frequency analysis, it was highly effective in antiquity against illiterate adversaries."
+  },
+  {
+    "type": "mcq",
+    "question": "What 16th-century polyalphabetic cipher was long described as the indecipherable cipher (le chiffre indechiffrable) until broken by Friedrich Kasiski in 1863?",
+    "options": [
+      "Enigma Cipher",
+      "Bacon Cipher",
+      "Vigenere Cipher"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Vigenere cipher uses a repeating keyword to apply different Caesar shifts across successive letters, flattening traditional single-alphabet frequency peaks."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the only mathematically unbreakable encryption system proven by information theory, provided the key is truly random, as long as the message, used once, and kept secret?",
+    "options": [
+      "One-Time Pad Vernam Cipher",
+      "RSA Encryption",
+      "AES-256"
+    ],
+    "correctIndex": 0,
+    "explanation": "Claude Shannon mathematically proved in 1949 that the one-time pad possesses perfect secrecy because every possible plaintext message of equal length is equally probable given the ciphertext."
+  },
+  {
+    "type": "mcq",
+    "question": "What asymmetric public-key cryptosystem invented in 1977 by Rivest, Shamir, and Adleman relies on the mathematical difficulty of factoring large prime numbers?",
+    "options": [
+      "Diffie-Hellman",
+      "RSA Algorithm",
+      "Elliptic Curve Cryptography"
+    ],
+    "correctIndex": 1,
+    "explanation": "RSA enables secure data transmission over insecure public networks by using a public key for encryption and a distinct private key for decryption, securing internet commerce and digital signatures."
+  },
+  {
+    "type": "mcq",
+    "question": "What decentralized cryptographic ledger technology introduced in 2008 by the pseudonymous Satoshi Nakamoto secures transactions using proof-of-work consensus?",
+    "options": [
+      "Hashgraph",
+      "Directed Acyclic Graph",
+      "Blockchain"
+    ],
+    "correctIndex": 2,
+    "explanation": "Blockchain chains cryptographically hashed blocks of transactional data, ensuring immutability through distributed peer-to-peer consensus without requiring a centralized third-party bank."
+  },
+  {
+    "type": "number",
+    "question": "What standard alphabetical shift number was traditionally used by Julius Caesar in his military communications?",
+    "target": 3,
+    "metricUnit": "positions shifted",
+    "imperialDisplay": "Shift of 3 (A becomes D)",
+    "explanation": "Roman historian Suetonius recorded that Caesar used a shift of three letters forward in the Latin alphabet for confidential military dispatches."
+  },
+  {
+    "type": "mcq",
+    "question": "What immense volcanic caldera in the northwestern United States last produced a catastrophic super-eruption roughly 631,000 years ago (Lava Creek Tuff)?",
+    "options": [
+      "Yellowstone Caldera",
+      "Long Valley Caldera",
+      "Valles Caldera"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Yellowstone supervolcano overlies a persistent mantle plume hotspot. A full VEI-8 super-eruption would eject over 1,000 cubic kilometers of pyroclastic ash, coating North America in volcanic ash and cooling global climate for years."
+  },
+  {
+    "type": "mcq",
+    "question": "What catastrophic super-eruption in Sumatra, Indonesia roughly 74,000 years ago is hypothesized to have triggered a global volcanic winter and human genetic bottleneck?",
+    "options": [
+      "Mount Tambora",
+      "Lake Toba Super-eruption",
+      "Krakatoa"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Youngest Toba Tuff eruption was the largest volcanic event on Earth in the last two million years, ejecting 2,800 cubic kilometers of magma and leaving behind the massive crater lake of Lake Toba."
+  },
+  {
+    "type": "mcq",
+    "question": "What Indonesian volcanic eruption in April 1815 was the most powerful in recorded human history (VEI-7), causing the 1816 Year Without a Summer?",
+    "options": [
+      "Krakatoa",
+      "Mount Merapi",
+      "Mount Tambora"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mount Tambora ejected 150 cubic kilometers of rock and ash into the stratosphere, killing over 70,000 people and injecting sulfur dioxide aerosols that reflected sunlight, causing worldwide crop failures, frosts in July, and snowstorms in New England."
+  },
+  {
+    "type": "mcq",
+    "question": "What fast-moving current of superheated gas, ash, and volcanic rock traveling up to 700 km/h at 1,000 degrees Celsius is the deadliest volcanic hazard?",
+    "options": [
+      "Pyroclastic Flow",
+      "Lahar",
+      "Lava Fountain"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pyroclastic flows (nuées ardentes) collapse down volcanic flanks at hurricane speeds, incinerating everything in their path. A single pyroclastic surge from Mount Pelee in Martinique killed all 30,000 residents of Saint-Pierre in 1902 in under two minutes."
+  },
+  {
+    "type": "mcq",
+    "question": "What index from VEI 0 to VEI 8 measures the explosive magnitude of volcanic eruptions based on ejected tephra volume and plume height?",
+    "options": [
+      "Richter Scale",
+      "Volcanic Explosivity Index VEI",
+      "Mercalli Scale"
+    ],
+    "correctIndex": 1,
+    "explanation": "Developed by Chris Newhall and Stephen Self in 1982, the VEI is logarithmic, with each step representing a tenfold increase in ejected tephra volume, with VEI 8 representing colossal supervolcanic eruptions."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did the catastrophic eruption of Mount Tambora occur in Indonesia, leading to the global Year Without a Summer?",
+    "target": 1815,
+    "metricUnit": "CE",
+    "imperialDisplay": "April 1815",
+    "explanation": "Mount Tambora erupted explosively on 10–11 April 1815 on the island of Sumbawa, Indonesia."
+  },
+  {
+    "type": "mcq",
+    "question": "What nuclear reaction splits a heavy atomic nucleus into lighter nuclei, releasing millions of times more energy than chemical combustion?",
+    "options": [
+      "Nuclear Fusion",
+      "Alpha Decay",
+      "Nuclear Fission"
+    ],
+    "correctIndex": 2,
+    "explanation": "Discovered by Otto Hahn and Fritz Strassmann in 1938 and explained by Lise Meitner, nuclear fission occurs when a fissile nucleus (like U-235 or Pu-239) absorbs a neutron, splitting into daughter fragments, gamma rays, and prompt neutrons that sustain a chain reaction."
+  },
+  {
+    "type": "mcq",
+    "question": "What nuclear reaction powers the core of the Sun and stars by fusing hydrogen isotopes into helium at tens of millions of degrees?",
+    "options": [
+      "Thermonuclear Fusion",
+      "Beta Decay",
+      "Electron Capture"
+    ],
+    "correctIndex": 0,
+    "explanation": "The proton-proton chain and CNO cycle fuse hydrogen nuclei into helium, converting mass deficit into immense energy according to Einstein equation E = mc^2. Replicating controlled fusion on Earth offers potentially limitless clean energy."
+  },
+  {
+    "type": "mcq",
+    "question": "What doughnut-shaped magnetic confinement device invented in the Soviet Union in the 1950s uses magnetic fields to contain high-temperature fusion plasma?",
+    "options": [
+      "Stellarator",
+      "Tokamak",
+      "Cyclotron"
+    ],
+    "correctIndex": 1,
+    "explanation": "Invented by Igor Tamm and Andrei Sakharov, the Tokamak uses toroidal and poloidal magnetic coils to confine plasma heated to over 150 million degrees Celsius, serving as the design basis for the multi-billion-dollar ITER project in Cadarache, France."
+  },
+  {
+    "type": "mcq",
+    "question": "Which nuclear power disaster in Soviet Ukraine on 26 April 1986 remains the worst nuclear accident in human history (INES Level 7)?",
+    "options": [
+      "Fukushima Daiichi Disaster",
+      "Three Mile Island",
+      "Chernobyl Disaster"
+    ],
+    "correctIndex": 2,
+    "explanation": "A sudden power surge during a safety test caused steam explosions and a graphite fire in Reactor No. 4 of the Chernobyl nuclear plant, releasing radioactive isotopes across Europe and establishing a 30-kilometer Exclusion Zone."
+  },
+  {
+    "type": "mcq",
+    "question": "What hydrogen isotope containing one proton and one neutron is combined with tritium in experimental nuclear fusion reactors?",
+    "options": [
+      "Deuterium Heavy Hydrogen",
+      "Protium",
+      "Helium-3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deuterium can be extracted in abundant quantities from ordinary seawater (one in every 6,420 hydrogen atoms is deuterium). The D-T fusion reaction produces helium-4 and a high-energy 14.1 MeV neutron."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did the catastrophic Chernobyl nuclear disaster take place in Soviet Ukraine on April 26th?",
+    "target": 1986,
+    "metricUnit": "CE",
+    "imperialDisplay": "April 1986",
+    "explanation": "The Chernobyl disaster occurred on 26 April 1986 at the Chernobyl Nuclear Power Plant near Pripyat."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the coldest naturally occurring temperature ever recorded on Earth surface, measured at Vostok Station, Antarctica in July 1983?",
+    "options": [
+      "Minus 65.4 degrees Celsius",
+      "Minus 89.2 degrees Celsius",
+      "Minus 102.5 degrees Celsius"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Soviet research station Vostok sits atop the Antarctic ice plateau at an altitude of 3,488 meters. On 21 July 1983, a persistent polar vortex and lack of cloud cover allowed radiant heat loss to plunge air temperatures to -89.2 °C (-128.6 °F)."
+  },
+  {
+    "type": "mcq",
+    "question": "What immense subglacial freshwater lake buried beneath 4 kilometers of Antarctic ice has remained sealed from Earth atmosphere for millions of years?",
+    "options": [
+      "Lake Ellsworth",
+      "Lake Mercer",
+      "Lake Vostok"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lake Vostok is kept liquid under 4,000 meters of ice by geothermal heat and immense ice overburden pressure. Russian scientists drilled through the ice cap in 2012 to sample its pristine, oxygen-supersaturated waters for extreme microbial life."
+  },
+  {
+    "type": "mcq",
+    "question": "What massive Antarctic glacier in the Amundsen Sea is nicknamed the Doomsday Glacier due to its potential to trigger rapid sea-level rise if it collapses?",
+    "options": [
+      "Thwaites Glacier",
+      "Pine Island Glacier",
+      "Ross Ice Shelf"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Thwaites Glacier spans 120 kilometers across West Antarctica. Because its grounding line rests on bedrock sloping downward below sea level (marine ice sheet instability), warm circumpolar deep water is melting it from below."
+  },
+  {
+    "type": "mcq",
+    "question": "What permanent floating sheet of glacial ice attached to a landmass can calve massive tabular icebergs into the Southern Ocean?",
+    "options": [
+      "Sea Ice Pack",
+      "Ice Shelf",
+      "Nunatak"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Ross Ice Shelf is the largest ice shelf in Antarctica, spanning an area the size of France. Ice shelves act as structural buttresses, holding back the flow of land-based grounded ice sheets into the ocean."
+  },
+  {
+    "type": "mcq",
+    "question": "What term describes permanently frozen subsoil that remains at or below zero degrees Celsius for at least two consecutive years in polar and subpolar regions?",
+    "options": [
+      "Tundra",
+      "Taiga",
+      "Permafrost"
+    ],
+    "correctIndex": 2,
+    "explanation": "Permafrost underlies roughly 15 percent of the Northern Hemisphere, containing vast quantities of trapped organic carbon. Thawing permafrost due to global warming releases methane and carbon dioxide in a dangerous positive feedback loop."
+  },
+  {
+    "type": "number",
+    "question": "What was the world-record lowest surface air temperature in negative degrees Celsius recorded at Vostok Station, Antarctica in 1983 (rounded to nearest integer)?",
+    "target": 89,
+    "metricUnit": "degrees Celsius below zero",
+    "imperialDisplay": "-89.2 degrees Celsius (-128.6 F)",
+    "explanation": "The record low temperature of -89.2 °C (rounded to -89 °C / -128.6 °F) was recorded at Vostok Station on 21 July 1983."
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the Seven Wonders of the Ancient World is the only one that still survives largely intact today?",
+    "options": [
+      "Great Pyramid of Giza",
+      "Hanging Gardens of Babylon",
+      "Lighthouse of Alexandria"
+    ],
+    "correctIndex": 0,
+    "explanation": "Built around 2560 BCE for Pharaoh Khufu, the Great Pyramid of Giza is both the oldest of the ancient wonders (by nearly two thousand years) and the only one to survive the ravages of war, earthquakes, and time."
+  },
+  {
+    "type": "mcq",
+    "question": "What colossal bronze statue of the sun god Helios stood overlooking the harbor entrance of a Greek island before being destroyed by an earthquake in 226 BCE?",
+    "options": [
+      "Statue of Zeus at Olympia",
+      "Colossus of Rhodes",
+      "Apollo of Delphi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sculpted by Chares of Lindos around 280 BCE and standing 33 meters high, the Colossus of Rhodes inspired the design and dimensions of the Statue of Liberty in New York."
+  },
+  {
+    "type": "mcq",
+    "question": "What legendary terraced rooftop gardens in Mesopotamia were said to have been built by King Nebuchadnezzar II for his homesick wife Amytis?",
+    "options": [
+      "Gardens of Nineveh",
+      "Gardens of Persepolis",
+      "Hanging Gardens of Babylon"
+    ],
+    "correctIndex": 2,
+    "explanation": "Classical historians described cascading vaulted terraces irrigated by Archimedean screw water pumps from the Euphrates River, though archaeological confirmation of their exact location remains debated."
+  },
+  {
+    "type": "mcq",
+    "question": "What monumental marble Greek temple in Ephesus (modern Turkey) was four times the size of the Parthenon, dedicated to the goddess of the hunt?",
+    "options": [
+      "Temple of Artemis",
+      "Temple of Hera",
+      "Temple of Apollo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Supported by 127 carved marble columns and rebuilt three times, the Temple of Artemis was famously burned down in 356 BCE by Herostratus in a bid to immortalize his name in history."
+  },
+  {
+    "type": "mcq",
+    "question": "What colossal 12-meter chryselephantine (gold and ivory) seated statue of the king of the gods sculpted by Phidias stood in a temple in the Peloponnese?",
+    "options": [
+      "Statue of Athena Parthenos",
+      "Statue of Zeus at Olympia",
+      "Apollo of Amyclae"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phidias sculpted the enthroned Zeus around 435 BCE inside the Temple of Zeus at Olympia. The statue sat on an elaborate throne of cedarwood and ebony encrusted with precious stones."
+  },
+  {
+    "type": "number",
+    "question": "How many distinct architectural and artistic monuments comprised the classical Seven Wonders of the Ancient World?",
+    "target": 7,
+    "metricUnit": "ancient wonders",
+    "imperialDisplay": "Seven Wonders of the Ancient World",
+    "explanation": "The canonical list compiled by Hellenistic travelers like Antipater of Sidon consisted of exactly seven ancient wonders."
+  },
+  {
+    "type": "mcq",
+    "question": "What microscopic eight-legged invertebrate (water bear) can survive the vacuum of space, temperatures from -272 to +150 °C, and radiation doses 1,000 times lethal to humans?",
+    "options": [
+      "Rotifer",
+      "Nematode",
+      "Tardigrade"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tardigrades enter a reversible state of suspended animation known as cryptobiosis (specifically anhydrobiosis), replacing intracellular water with protective intrinsically disordered proteins to survive decades without moisture."
+  },
+  {
+    "type": "mcq",
+    "question": "What thermophilic bacterium discovered in the hot springs of Yellowstone National Park provided the heat-stable DNA polymerase (Taq polymerase) used in PCR?",
+    "options": [
+      "Thermus aquaticus",
+      "Deinococcus radiodurans",
+      "Bacillus subtilis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thomas Brock discovered Thermus aquaticus in Mushroom Spring in 1969. Kary Mullis utilized its heat-resistant enzyme to automate the Polymerase Chain Reaction (PCR), winning the 1993 Nobel Prize in Chemistry."
+  },
+  {
+    "type": "mcq",
+    "question": "Which bacterium is recognized by Guinness World Records as the world toughest bacterium, capable of surviving radiation doses up to 15,000 grays?",
+    "options": [
+      "Halobacterium salinarum",
+      "Deinococcus radiodurans",
+      "Clostridium botulinum"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deinococcus radiodurans can reconstruct its entire genome within hours after being shattered into hundreds of double-stranded DNA fragments by ionizing radiation, using multiple genomic copies and unique repair proteins."
+  },
+  {
+    "type": "mcq",
+    "question": "What species of small hydrozoan jellyfish (Turritopsis dohrnii) is biologically immortal, able to revert its mature cells back into a juvenile polyp stage indefinitely?",
+    "options": [
+      "Moon Jellyfish",
+      "Comb Jelly",
+      "Immortal Jellyfish Turritopsis dohrnii"
+    ],
+    "correctIndex": 2,
+    "explanation": "When exposed to environmental stress, physical damage, or old age, Turritopsis dohrnii undergoes cellular transdifferentiation, transforming its specialized adult medusa cells back into juvenile polyp colonies."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the longest-lived vertebrate species known to science, an Arctic shark that can live for over 400 years?",
+    "options": [
+      "Greenland Shark Somniosus microcephalus",
+      "Basking Shark",
+      "Sleeper Shark"
+    ],
+    "correctIndex": 0,
+    "explanation": "Radiocarbon eye lens dating of Greenland sharks reveals an average lifespan exceeding 250 years, with the oldest verified individual estimated at nearly 400 years old. They grow less than 1 cm per year and reach sexual maturity at roughly age 150."
+  },
+  {
+    "type": "number",
+    "question": "Approximately how many years can a Greenland shark live in cold Arctic waters, making it the longest-living vertebrate on Earth?",
+    "target": 400,
+    "metricUnit": "years",
+    "imperialDisplay": "approx 400 years of lifespan",
+    "explanation": "Radiocarbon dating published in Science in 2016 estimated that female Greenland sharks can live to approximately 392 ± 120 years."
+  },
+  {
+    "type": "mcq",
+    "question": "What manned rocket aircraft holds the official world speed record for a manned powered aircraft at Mach 6.70 (7,274 km/h), set by William Pete Knight in 1967?",
+    "options": [
+      "Lockheed SR-71 Blackbird",
+      "North American X-15",
+      "Bell X-1"
+    ],
+    "correctIndex": 1,
+    "explanation": "The rocket-powered X-15 was dropped from a B-52 mother ship, utilizing a reaction control thruster system above the atmosphere. Eight X-15 pilots earned astronaut wings by exceeding an altitude of 50 miles (80 km)."
+  },
+  {
+    "type": "mcq",
+    "question": "What supersonic commercial airliner completed the fastest transatlantic passenger crossing from New York to London in 2 hours, 52 minutes, and 59 seconds in 1996?",
+    "options": [
+      "Tupolev Tu-144",
+      "Boeing 747",
+      "Concorde"
+    ],
+    "correctIndex": 2,
+    "explanation": "British Airways Concorde (G-BOAD) set the commercial transatlantic speed record on 7 February 1996, cruising at Mach 2.04 with ogival delta wings and Olympus 593 afterburning turbojets."
+  },
+  {
+    "type": "mcq",
+    "question": "What Austrian skydiver broke the sound barrier in freefall during a stratospheric parachute jump from an altitude of 39,045 meters (128,100 feet) in 2012?",
+    "options": [
+      "Felix Baumgartner",
+      "Alan Eustace",
+      "Joe Kittinger"
+    ],
+    "correctIndex": 0,
+    "explanation": "During the Red Bull Stratos mission on 14 October 2012, Felix Baumgartner stepped out of a pressurized helium balloon capsule, reaching a peak terminal velocity of 1,357.6 km/h (Mach 1.25) in freefall before deploying his parachute."
+  },
+  {
+    "type": "mcq",
+    "question": "What British supersonic jet car driven by RAF pilot Andy Green in October 1997 became the first land vehicle to officially break the sound barrier, reaching 1,228 km/h?",
+    "options": [
+      "Bloodhound LSR",
+      "Thrust SSC",
+      "Blue Flame"
+    ],
+    "correctIndex": 1,
+    "explanation": "Powered by two Rolls-Royce Spey turbofan jet engines from a Phantom fighter generating 50,000 pounds of thrust, Thrust SSC broke the sound barrier in the Black Rock Desert of Nevada, creating a distinct sonic boom on the desert floor."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Apollo mission crew holds the all-time absolute speed record for the fastest speed ever achieved by human beings at 39,897 km/h (24,791 mph) during Earth re-entry in 1969?",
+    "options": [
+      "Apollo 11",
+      "Apollo 13",
+      "Apollo 10"
+    ],
+    "correctIndex": 2,
+    "explanation": "On 26 May 1969, the Apollo 10 command module (Charlie Brown) carrying astronauts Thomas Stafford, John Young, and Eugene Cernan reached 39,897 km/h relative to Earth during their high-speed lunar return trajectory."
+  },
+  {
+    "type": "number",
+    "question": "What was the world-record top speed in kilometers per hour achieved by the Apollo 10 astronauts, the fastest humans in history (rounded to nearest hundred)?",
+    "target": 39900,
+    "metricUnit": "km/h",
+    "imperialDisplay": "24,791 mph (39,897 km/h)",
+    "explanation": "Apollo 10 set the Guinness World Record for the highest speed attained by a manned vehicle at 39,897 km/h (24,791 mph) upon atmospheric return."
+  },
+  {
+    "type": "mcq",
+    "question": "What revolutionary optical telescope launched into low Earth orbit in April 1990 has provided over 1.5 million observations and determined the Hubble Constant?",
+    "options": [
+      "Hubble Space Telescope",
+      "Spitzer Space Telescope",
+      "Kepler Space Telescope"
+    ],
+    "correctIndex": 0,
+    "explanation": "Operating above atmospheric distortion, Hubble 2.4-meter mirror captured deep-field images revealing thousands of primordial galaxies in tiny patches of dark sky, serviced by five Space Shuttle astronaut missions."
+  },
+  {
+    "type": "mcq",
+    "question": "What optical phenomenon caused by massive galaxies warping spacetime acts like a cosmic magnifying glass to reveal distant background galaxies behind them?",
+    "options": [
+      "Doppler Redshift",
+      "Gravitational Lensing",
+      "Compton Scattering"
+    ],
+    "correctIndex": 1,
+    "explanation": "Predicted by Albert Einstein General Theory of Relativity, gravitational lensing bends the paths of light rays around massive clusters of dark matter and galaxies, creating magnified arcs, multiple images, and Einstein Rings."
+  },
+  {
+    "type": "mcq",
+    "question": "What thermal remnant radiation of the Big Bang filling all of space with a blackbody spectrum at 2.725 kelvins was discovered by Penzias and Wilson in 1965?",
+    "options": [
+      "Hawking Radiation",
+      "Pulsar Timing Array",
+      "Cosmic Microwave Background CMB"
+    ],
+    "correctIndex": 2,
+    "explanation": "Arno Penzias and Robert Wilson discovered the CMB using the Holmdel Horn Antenna in New Jersey, providing conclusive observational evidence supporting the Big Bang theory over the Steady State model and earning the 1978 Nobel Prize in Physics."
+  },
+  {
+    "type": "mcq",
+    "question": "What mysterious, invisible form of mass accounts for roughly 85 percent of all matter in the universe, detected only by its gravitational effects on galactic rotation curves?",
+    "options": [
+      "Dark Matter",
+      "Dark Energy",
+      "Neutrino Fluid"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fritz Zwicky in 1933 and Vera Rubin in the 1970s demonstrated that stars at the outer edges of spiral galaxies rotate much faster than expected from visible baryonic matter alone, inferring a vast halo of non-luminous dark matter."
+  },
+  {
+    "type": "mcq",
+    "question": "What hypothetical repulsive energy field comprising roughly 68 percent of the total energy density of the universe is driving the accelerating expansion of the cosmos?",
+    "options": [
+      "Quintessence",
+      "Dark Energy",
+      "Vacuum Energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Discovered in 1998 through observations of distant Type Ia supernovae by Saul Perlmutter, Brian Schmidt, and Adam Riess (2011 Nobel Prize in Physics), dark energy counteracts gravity on cosmological scales."
+  },
+  {
+    "type": "number",
+    "question": "What is the estimated temperature in kelvins of the Cosmic Microwave Background (CMB) radiation throughout deep space (rounded to nearest integer)?",
+    "target": 3,
+    "metricUnit": "kelvins",
+    "imperialDisplay": "2.73 Kelvins (approx 3 K)",
+    "explanation": "COBE satellite measurements precisely determined the temperature of the Cosmic Microwave Background to be 2.7255 kelvins (approx 3 K / -270.4 °C)."
+  }
+];
+    const totalCount = questions.length;
+    let currentIndex = 0;
+    const userAnswers = {};
+
+    // DOM Elements
+    const dispCurrQ = document.getElementById('disp-curr-q');
+    const dispScore = document.getElementById('disp-mcq-score');
+    const dispCompleted = document.getElementById('disp-completed');
+    const progressBar = document.getElementById('progress-bar');
+    const jumpGrid = document.getElementById('jump-grid');
+    const cardBadge = document.getElementById('card-badge');
+    const cardCounter = document.getElementById('card-counter');
+    const cardQuestionText = document.getElementById('card-question-text');
+    const mcqContainer = document.getElementById('mcq-options-container');
+    const numContainer = document.getElementById('number-input-container');
+    const numInput = document.getElementById('num-guess-input');
+    const unitLabel = document.getElementById('unit-label');
+    const btnCheckNum = document.getElementById('btn-check-number');
+    const numMetricsBox = document.getElementById('num-metrics-box');
+    const mTarget = document.getElementById('m-target');
+    const mGuess = document.getElementById('m-guess');
+    const mDiff = document.getElementById('m-diff');
+    const mSpan = document.getElementById('m-span');
+    const mDirBadge = document.getElementById('m-dir-badge');
+    const explanationBox = document.getElementById('explanation-box');
+    const explanationText = document.getElementById('explanation-text');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const mainQuestionCard = document.getElementById('main-question-card');
+    const summaryCard = document.getElementById('summary-card');
+    const navControls = document.getElementById('nav-controls');
+    const btnReset = document.getElementById('btn-reset-quiz');
+    const btnRestart = document.getElementById('btn-restart-quiz');
+
+    function init() {
+      createJumpGrid();
+      renderQuestion(0);
+      updateStatusBar();
+      setupEventListeners();
+    }
+
+    function createJumpGrid() {
+      jumpGrid.innerHTML = '';
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'jump-btn';
+        btn.textContent = (i + 1);
+        btn.id = 'jump-btn-' + i;
+        btn.addEventListener('click', () => {
+          showQuestionView();
+          renderQuestion(i);
+        });
+        jumpGrid.appendChild(btn);
+      }
+    }
+
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = questions[index];
+      const ans = userAnswers[index];
+
+      // Update counters
+      dispCurrQ.textContent = (index + 1) + ' / ' + totalCount;
+      cardCounter.textContent = 'Question ' + (index + 1) + ' of ' + totalCount;
+      cardQuestionText.textContent = q.question;
+
+      // Update Nav Buttons
+      btnPrev.disabled = index === 0;
+      if (index === totalCount - 1) {
+        btnNext.textContent = 'Finish & Summary';
+      } else {
+        btnNext.textContent = 'Next';
+      }
+
+      // Reset dynamic containers
+      explanationBox.style.display = 'none';
+      explanationText.textContent = '';
+
+      if (q.type === 'mcq') {
+        cardBadge.className = 'question-badge badge-mcq';
+        cardBadge.textContent = 'Multiple Choice';
+        mcqContainer.style.display = 'flex';
+        numContainer.style.display = 'none';
+        renderMCQOptions(q, ans);
+      } else {
+        cardBadge.className = 'question-badge badge-number';
+        cardBadge.textContent = 'Guess the Number';
+        mcqContainer.style.display = 'none';
+        numContainer.style.display = 'flex';
+        renderNumberQuestion(q, ans);
+      }
+
+      updateJumpGridStyles();
+      updateStatusBar();
+    }
+
+    function renderMCQOptions(q, ans) {
+      mcqContainer.innerHTML = '';
+      const letters = ['A', 'B', 'C'];
+
+      q.options.forEach((optText, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.id = 'opt-btn-' + optIdx;
+
+        const marker = document.createElement('span');
+        marker.className = 'option-marker';
+        marker.textContent = letters[optIdx];
+
+        const textSpan = document.createElement('span');
+        textSpan.textContent = optText;
+
+        btn.appendChild(marker);
+        btn.appendChild(textSpan);
+
+        if (ans !== undefined) {
+          btn.disabled = true;
+          if (optIdx === q.correctIndex) {
+            btn.classList.add('selected-correct');
+          } else if (optIdx === ans.selectedOption) {
+            btn.classList.add('selected-incorrect');
+          }
+        } else {
+          btn.addEventListener('click', () => handleMCQAnswer(optIdx));
+        }
+
+        mcqContainer.appendChild(btn);
+      });
+
+      if (ans !== undefined) {
+        showExplanation(q.explanation);
+      }
+    }
+
+    function handleMCQAnswer(selectedIdx) {
+      const q = questions[currentIndex];
+      const isCorrect = selectedIdx === q.correctIndex;
+      userAnswers[currentIndex] = {
+        selectedOption: selectedIdx,
+        isCorrect: isCorrect,
+        isChecked: true
+      };
+
+      renderMCQOptions(q, userAnswers[currentIndex]);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function renderNumberQuestion(q, ans) {
+      unitLabel.textContent = q.metricUnit || '';
+      numInput.value = '';
+      numMetricsBox.style.display = 'none';
+
+      if (ans !== undefined) {
+        numInput.value = ans.guess;
+        numInput.disabled = true;
+        btnCheckNum.disabled = true;
+        displayNumberMetrics(q, ans.guess);
+        showExplanation(q.explanation);
+      } else {
+        numInput.disabled = false;
+        btnCheckNum.disabled = false;
+      }
+    }
+
+    function handleNumberCheck() {
+      const val = parseFloat(numInput.value);
+      if (isNaN(val)) return;
+
+      const q = questions[currentIndex];
+      userAnswers[currentIndex] = {
+        guess: val,
+        isChecked: true
+      };
+
+      numInput.disabled = true;
+      btnCheckNum.disabled = true;
+      displayNumberMetrics(q, val);
+      showExplanation(q.explanation);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function displayNumberMetrics(q, guess) {
+      const target = q.target;
+      const diff = Math.abs(guess - target);
+      const spanLow = target - diff;
+      const spanHigh = target + diff;
+      const unit = q.metricUnit ? ' ' + q.metricUnit : '';
+      const imp = q.imperialDisplay ? ' [' + q.imperialDisplay + ']' : '';
+
+      mTarget.textContent = target + unit + imp;
+      mGuess.textContent = guess + unit;
+      mDiff.textContent = diff.toLocaleString() + unit;
+      mSpan.textContent = '[' + spanLow.toLocaleString() + ' to ' + spanHigh.toLocaleString() + ']';
+
+      mDirBadge.className = 'metric-direction-badge';
+      if (guess === target) {
+        mDirBadge.classList.add('dir-exact');
+        mDirBadge.textContent = 'Exact Match!';
+      } else if (guess > target) {
+        mDirBadge.classList.add('dir-high');
+        mDirBadge.textContent = 'Higher than target';
+      } else {
+        mDirBadge.classList.add('dir-low');
+        mDirBadge.textContent = 'Lower than target';
+      }
+
+      numMetricsBox.style.display = 'flex';
+    }
+
+    function showExplanation(text) {
+      if (!text) return;
+      explanationText.textContent = text;
+      explanationBox.style.display = 'block';
+    }
+
+    function updateStatusBar() {
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      dispScore.textContent = mcqCorrect + ' / ' + mcqAnswered;
+      dispCompleted.textContent = completedCount + ' / ' + totalCount;
+      const pct = (completedCount / totalCount) * 100;
+      progressBar.style.width = pct + '%';
+    }
+
+    function updateJumpGridStyles() {
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.getElementById('jump-btn-' + i);
+        if (!btn) continue;
+
+        btn.className = 'jump-btn';
+        if (i === currentIndex) {
+          btn.classList.add('state-current');
+        }
+
+        const ans = userAnswers[i];
+        if (ans && ans.isChecked) {
+          if (questions[i].type === 'mcq') {
+            if (ans.isCorrect) {
+              btn.classList.add('state-correct');
+            } else {
+              btn.classList.add('state-incorrect');
+            }
+          } else {
+            btn.classList.add('state-number-checked');
+          }
+        }
+      }
+    }
+
+    function showSummary() {
+      mainQuestionCard.style.display = 'none';
+      navControls.style.display = 'none';
+      summaryCard.style.display = 'block';
+
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      document.getElementById('sum-score').textContent = mcqCorrect + ' / ' + mcqAnswered;
+      const acc = mcqAnswered > 0 ? Math.round((mcqCorrect / mcqAnswered) * 100) : 0;
+      document.getElementById('sum-accuracy').textContent = acc + '%';
+      document.getElementById('sum-completed').textContent = completedCount + ' / ' + totalCount;
+    }
+
+    function showQuestionView() {
+      mainQuestionCard.style.display = 'block';
+      navControls.style.display = 'flex';
+      summaryCard.style.display = 'none';
+    }
+
+    function setupEventListeners() {
+      btnPrev.addEventListener('click', () => {
+        if (currentIndex > 0) renderQuestion(currentIndex - 1);
+      });
+
+      btnNext.addEventListener('click', () => {
+        if (currentIndex === totalCount - 1) {
+          showSummary();
+        } else {
+          renderQuestion(currentIndex + 1);
+        }
+      });
+
+      btnCheckNum.addEventListener('click', handleNumberCheck);
+      numInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') handleNumberCheck();
+      });
+
+      btnReset.addEventListener('click', () => {
+        if (confirm('Are you sure you want to reset all answers and return to Question 1?')) {
+          for (let k in userAnswers) delete userAnswers[k];
+          showQuestionView();
+          renderQuestion(0);
+        }
+      });
+
+      btnRestart.addEventListener('click', () => {
+        for (let k in userAnswers) delete userAnswers[k];
+        showQuestionView();
+        renderQuestion(0);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

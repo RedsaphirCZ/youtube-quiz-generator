@@ -1,0 +1,640 @@
+{
+  "id": "general-knowledge-vol6-60",
+  "theme": "General Knowledge Vol 6: Wonders of Nature, Technology & Global Lore",
+  "title": "General Knowledge Vol 6: Wonders of Nature, Technology & Global Lore",
+  "description": "A 60-question grand master assessment exploring ancient dendrochronology, severe meteorology, lost cities, classical music, and robotic planetary probes.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which species of ancient bristlecone pine native to the White Mountains of California includes Methuselah, one of the oldest known living trees on Earth?",
+      "options": [
+        "Pinus longaeva",
+        "Pinus aristata",
+        "Sequoiadendron giganteum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Great Basin bristlecone pines (Pinus longaeva) thrive in harsh alkaline dolomite soils at altitudes over 3,000 meters. Their dense resinous wood resists rot, fungi, and insect boring, allowing individual trees to survive for nearly five millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "What clonal colony of a single male quaking aspen tree in Utah connected by an underground root system is one of the heaviest living organisms on Earth?",
+      "options": [
+        "Hyperion",
+        "Pando The Trembling Giant",
+        "Prometheus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pando encompasses over 40,000 genetically identical root-sprouted stems spanning 106 acres, with an estimated total plant mass exceeding 6,000 metric tons and a root age estimated at thousands of years."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the scientific study and dating of annual growth rings in trees to reconstruct historical climate changes called?",
+      "options": [
+        "Palynology",
+        "Phycology",
+        "Dendrochronology"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pioneered by A. E. Douglass in the early 20th century, dendrochronology cross-matches overlapping tree ring patterns to date ancient wooden artifacts, medieval buildings, and historical drought cycles with single-year precision."
+    },
+    {
+      "type": "mcq",
+      "question": "What carnivorous plant native exclusively to coastal bogs of North and South Carolina snaps shut on prey in fractions of a second using sensory trigger hairs?",
+      "options": [
+        "Venus Flytrap Dionaea muscipula",
+        "Pitcher Plant",
+        "Sundew"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an insect touches two sensitive trigger hairs on the inner leaf surface within twenty seconds, rapid calcium ion fluxes alter leaf cell turgor pressure, snapping the trap shut in roughly 100 milliseconds to digest prey in acidic enzymes."
+    },
+    {
+      "type": "mcq",
+      "question": "What parasitic tropical rainforest flower found in Southeast Asia produces the largest individual flower on Earth, smelling of rotting flesh?",
+      "options": [
+        "Titan Arum",
+        "Rafflesia arnoldii",
+        "Hydnora africana"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rafflesia arnoldii produces five-lobed reddish-brown blossoms that can measure over one meter across and weigh up to 10 kilograms. It possesses no leaves, stems, or roots, parasitizing Tetrastigma vines and attracting pollinating carrion flies with foul odors."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many years old is the ancient Methuselah bristlecone pine tree in California (measured via core sample)?",
+      "target": 4850,
+      "metricUnit": "years old",
+      "imperialDisplay": "approx 4,850 years old",
+      "explanation": "Core samples taken in 1957 by Edmund Schulman dated Methuselah germination to around 2832 BCE, making it over 4,850 years old today."
+    },
+    {
+      "type": "mcq",
+      "question": "What rotating, severe thunderstorm with a deep, persistently rotating updraft called a mesocyclone spawns the vast majority of violent tornadoes?",
+      "options": [
+        "Squall Line",
+        "Derecho",
+        "Supercell"
+      ],
+      "correctIndex": 2,
+      "explanation": "Supercells develop in environments with strong vertical wind shear and atmospheric instability. Their intense updrafts can exceed 150 km/h, supporting massive hail, destructive straight-line winds, and violent EF4/EF5 tornadoes."
+    },
+    {
+      "type": "mcq",
+      "question": "What scale designed by Tetsuya Fujita and updated in 2007 rates tornado intensity from EF0 to EF5 based on observed structural damage and estimated wind speed?",
+      "options": [
+        "Enhanced Fujita EF Scale",
+        "Saffir-Simpson Scale",
+        "Beaufort Scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Enhanced Fujita scale evaluates 28 specific damage indicators (including residential homes, strip malls, and transmission towers) to estimate 3-second gust wind speeds, with EF5 representing winds exceeding 200 mph (322 km/h)."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the calm, low-pressure center at the heart of a mature tropical cyclone surrounded by the most violent eyewall winds called?",
+      "options": [
+        "The Vortex Core",
+        "The Eye",
+        "The Apex"
+      ],
+      "correctIndex": 1,
+      "explanation": "The eye of a hurricane typically spans 30 to 65 kilometers in diameter, characterized by descending air, light winds, and clear skies, surrounded directly by the intense convective thunderstorms of the eyewall."
+    },
+    {
+      "type": "mcq",
+      "question": "What rapid electrical discharge between clouds and the ground produces plasma temperatures reaching up to 30,000 kelvins (five times hotter than the Sun surface)?",
+      "options": [
+        "Ball Lightning",
+        "St. Elmo Fire",
+        "Lightning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lightning occurs when charge separation between ice crystals in thunderclouds creates an electrical potential exceeding millions of volts. The rapid thermal expansion of surrounding air superheated to 30,000 K generates the acoustic shock wave known as thunder."
+    },
+    {
+      "type": "mcq",
+      "question": "What widespread, long-lived straight-line convective windstorm associated with fast-moving bands of severe thunderstorms travels hundreds of kilometers?",
+      "options": [
+        "Derecho",
+        "Haboob",
+        "Microburst"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derecho (from the Spanish for straight ahead) produces hurricane-force wind gusts exceeding 120 km/h along a continuous damage path of at least 400 miles, common across the American Midwest during summer months."
+    },
+    {
+      "type": "number",
+      "question": "What was the world-record highest non-tornadic wind gust in kilometers per hour recorded during Tropical Cyclone Olivia on Barrow Island, Australia in 1996?",
+      "target": 408,
+      "metricUnit": "km/h",
+      "imperialDisplay": "254 mph (408 km/h)",
+      "explanation": "The World Meteorological Organization officially verified an extreme 3-second wind gust of 408 km/h (254 mph) on Barrow Island on 10 April 1996."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 15th-century Inca citadel built on a mountain ridge 2,430 meters above sea level in Peru was brought to international fame by Hiram Bingham in 1911?",
+      "options": [
+        "Cusco",
+        "Machu Picchu",
+        "Choquequirao"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed under Inca Emperor Pachacuti with dry-stone ashlar masonry without mortar, Machu Picchu was abandoned during the Spanish conquest and remained largely hidden by cloud forest vegetation for centuries."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Indus Valley Civilization metropolis in Sindh, Pakistan featured the sophisticated Great Bath, grid street layout, and drainage systems around 2500 BCE?",
+      "options": [
+        "Harappa",
+        "Lothal",
+        "Mohenjo-daro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mohenjo-daro (meaning Mound of the Dead Men) housed up to 40,000 people and featured baked-brick homes, indoor covered sewage drains, and granaries, lacking signs of royal palaces or military fortifications."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Minoan Bronze Age settlement on the island of Santorini (Thera) was preserved beneath thick volcanic ash following an eruption around 1600 BCE?",
+      "options": [
+        "Akrotiri",
+        "Knossos",
+        "Phaistos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akrotiri has been dubbed the Minoan Pompeii, preserving multi-story stone buildings, hot-water plumbing systems, and vibrant fresco murals depicting boxing youths, blue monkeys, and flotillas."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Anatolian archaeological site in Turkey features massive carved T-shaped limestone pillars dating to 9500 BCE, recognized as the world oldest known megalithic temple?",
+      "options": [
+        "Catalhoyuk",
+        "Gobekli Tepe",
+        "Hattusa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excavated by Klaus Schmidt, Gobekli Tepe predates Stonehenge and the pyramids by over 6,000 years, constructed by hunter-gatherers before the advent of agriculture or pottery and decorated with carved reliefs of lions, vultures, and scorpions."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient city in modern Jordan was carved directly into pink sandstone cliff walls by the Nabataeans, featuring the iconic Al-Khazneh Treasury?",
+      "options": [
+        "Palmyra",
+        "Jerash",
+        "Petra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Petra was an essential trade crossroads for Arabian frankincense and spices. Its inhabitants engineered complex cisterns, dams, and ceramic conduits that collected flash flood waters to sustain a desert oasis city."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many years BCE does the monumental stone circle temple complex of Gobekli Tepe in Turkey date back to?",
+      "target": 9500,
+      "metricUnit": "BCE",
+      "imperialDisplay": "circa 9500 BCE (over 11,500 years ago)",
+      "explanation": "Radiocarbon dating confirms that the oldest monumental enclosures at Gobekli Tepe were constructed around 9500 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian musical genius composed over 600 classical works, including The Marriage of Figaro, Don Giovanni, and Requiem before dying at age 35 in 1791?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Franz Joseph Haydn",
+        "Franz Schubert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mozart was a child prodigy who performed across European royal courts from age six. His mastery of operatic characterization, melodic elegance, and orchestral color made him one of the most prolific and influential classical composers in history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German composer premiered his revolutionary Ninth Symphony (featuring Schiller Ode to Joy choral finale) in Vienna in 1824 while profoundly deaf?",
+      "options": [
+        "Johannes Brahms",
+        "Ludwig van Beethoven",
+        "Felix Mendelssohn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beethoven bridged the Classical and Romantic eras, expanding orchestral scale and harmonic tension. At the 1824 premiere, he had to be turned around by contralto Caroline Unger to see the ecstatic standing ovation of the audience."
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental four-opera cycle composed by Richard Wagner spans sixteen hours of performance based on Norse and Germanic mythology?",
+      "options": [
+        "Tristan und Isolde",
+        "Parsifal",
+        "Der Ring des Nibelungen The Ring Cycle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wagner composed The Ring of the Nibelung over 26 years, inventing leitmotifs (musical themes associated with characters or objects like the Ring and the Sword) and constructing the Bayreuth Festspielhaus specifically for its performance."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 18th-century Italian composer and violin virtuoso wrote the celebrated series of four violin concertos known as The Four Seasons (Le quattro stagioni)?",
+      "options": [
+        "Antonio Vivaldi",
+        "Arcangelo Corelli",
+        "Tomaso Albinoni"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antonio Vivaldi (the Red Priest of Venice) composed The Four Seasons in 1723 with accompanying sonnets, using violin pyrotechnics to evoke barking dogs, chirping birds, thunderstorms, and icy winter winds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian Romantic opera composer wrote beloved masterpieces including La Traviata, Rigoletto, Nabucco, and Aida?",
+      "options": [
+        "Giacomo Puccini",
+        "Giuseppe Verdi",
+        "Gioachino Rossini"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giuseppe Verdi was an artistic titan and a political symbol of the Italian unification movement (the Risorgimento), with his chorus Va, pensiero from Nabucco becoming an unofficial Italian national anthem."
+    },
+    {
+      "type": "number",
+      "question": "How many numbered complete symphonies did Ludwig van Beethoven compose during his lifetime?",
+      "target": 9,
+      "metricUnit": "symphonies",
+      "imperialDisplay": "Nine Complete Symphonies",
+      "explanation": "Beethoven composed nine completed orchestral symphonies, culminating in the monumental Symphony No. 9 in D minor, Op. 125."
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin robotic space probes launched by NASA in 1977 explored Jupiter, Saturn, Uranus, and Neptune, now traveling through interstellar space?",
+      "options": [
+        "Pioneer 10 and 11",
+        "Mariner 9 and 10",
+        "Voyager 1 and 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voyager 1 and 2 utilized a rare planetary alignment to complete the Grand Tour of the outer planets. Voyager 1 crossed into interstellar space in 2012, while Voyager 2 remains the only spacecraft to have visited Uranus (1986) and Neptune (1989)."
+    },
+    {
+      "type": "mcq",
+      "question": "What gold-plated copper phonograph record containing sounds, music, languages, and images of Earth was placed aboard both Voyager probes for extraterrestrial intelligence?",
+      "options": [
+        "The Golden Record",
+        "The Pioneer Plaque",
+        "The Cosmic Message"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curated by Carl Sagan and Ann Druyan, the Voyager Golden Record contains greetings in 55 human languages, natural Earth sounds, brainwaves, and music by Bach, Mozart, Chuck Berry, and Blind Willie Johnson."
+    },
+    {
+      "type": "mcq",
+      "question": "Which robotic space probe launched in 2006 performed the first close flyby of Pluto and its moon Charon on 14 July 2015?",
+      "options": [
+        "Dawn",
+        "New Horizons",
+        "Cassini"
+      ],
+      "correctIndex": 1,
+      "explanation": "NASA New Horizons flew within 12,500 kilometers of Pluto, revealing towering water-ice mountains, glacial nitrogen flows across Tombaugh Regio (the heart of Pluto), and a dynamic hazy atmosphere."
+    },
+    {
+      "type": "mcq",
+      "question": "Which joint NASA/ESA robotic spacecraft orbited Saturn for 13 years (2004–2017) before concluding with a planned plunge into Saturn atmosphere?",
+      "options": [
+        "Galileo",
+        "Juno",
+        "Cassini-Huygens"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cassini discovered water vapor geysers erupting from the south polar ocean of Enceladus and deployed the ESA Huygens probe to land on Titan surface in 2005."
+    },
+    {
+      "type": "mcq",
+      "question": "What nuclear-powered NASA rover equipped with a laser spectrometer and robotic arm landed in Gale Crater on Mars in August 2012 to assess ancient habitability?",
+      "options": [
+        "Curiosity",
+        "Opportunity",
+        "Perseverance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curiosity confirmed that ancient Gale Crater contained a freshwater lake system with all essential chemical building blocks (carbon, hydrogen, oxygen, nitrogen, phosphorus, sulfur) suitable for microbial life billions of years ago."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE were the Voyager 1 and Voyager 2 interstellar space probes launched from Cape Canaveral?",
+      "target": 1977,
+      "metricUnit": "CE",
+      "imperialDisplay": "August–September 1977",
+      "explanation": "Voyager 2 was launched on 20 August 1977, followed by Voyager 1 on a faster trajectory on 5 September 1977."
+    },
+    {
+      "type": "mcq",
+      "question": "What maritime trading alliance of northern German merchant guilds dominated Baltic and North Sea commercial trade from the 13th to 17th centuries?",
+      "options": [
+        "Lombard League",
+        "Hanseatic League",
+        "Swabian League"
+      ],
+      "correctIndex": 1,
+      "explanation": "Headquartered in Lubeck, the Hanseatic League maintained trade outposts (Kontore) in London, Bruges, Bergen, and Novgorod, securing monopoly privileges for trading timber, fur, grain, flax, and salted herring."
+    },
+    {
+      "type": "mcq",
+      "question": "What precious aromatic tree resin harvested in southern Arabia and the Horn of Africa was traded for millennia along the Incense Route for religious rituals?",
+      "options": [
+        "Myrrh",
+        "Benzoin",
+        "Frankincense"
+      ],
+      "correctIndex": 2,
+      "explanation": "Extracted from the sap of Boswellia trees in Dhofar (modern Oman) and Somalia, frankincense was burned in Egyptian, Roman, and Jerusalem temples, commanding prices comparable to pure silver and gold."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous commercial empire centered in the Indonesian archipelago was known as the Spice Islands, the exclusive ancient source of nutmeg and cloves?",
+      "options": [
+        "Maluku Islands Moluccas",
+        "Malacca",
+        "Sumatra"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Banda Islands and Moluccas were the only places on Earth where nutmeg and clove trees grew natively. The desire to monopolize this lucrative spice trade drove European exploration during the 16th century."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient overland trade network across the Sahara connected sub-Saharan gold and salt mines with Mediterranean ports using camel caravans?",
+      "options": [
+        "Royal Road",
+        "Trans-Saharan Trade Route",
+        "Amber Trail"
+      ],
+      "correctIndex": 1,
+      "explanation": "The introduction of the dromedary camel revolutionized trans-Saharan transit, allowing caravans of up to 10,000 camels to exchange Saharan rock salt block-for-block with West African alluvial gold."
+    },
+    {
+      "type": "mcq",
+      "question": "What fossilized tree resin harvested along the Baltic Sea coast was traded southward to the Roman Empire and Egypt along ancient trade tracks?",
+      "options": [
+        "Copal",
+        "Lignite",
+        "Amber"
+      ],
+      "correctIndex": 2,
+      "explanation": "Succinite (Baltic amber) formed 40 to 50 million years ago from conifer sap. Prized for its glowing golden translucency and electrostatic properties when rubbed, it was traded down the Vistula and Danube rivers."
+    },
+    {
+      "type": "number",
+      "question": "How many centuries approximately did the powerful Hanseatic League dominate trade across Northern Europe (from the 1200s to 1600s)?",
+      "target": 4,
+      "metricUnit": "centuries",
+      "imperialDisplay": "approx 4 centuries (13th to 17th century)",
+      "explanation": "The Hanseatic League operated as a dominant trade confederation for roughly 400 years, holding its final formal Diet in 1669."
+    },
+    {
+      "type": "mcq",
+      "question": "What brain imaging technique measures changes in blood oxygen levels (BOLD signal) to map localized neural activity in real time?",
+      "options": [
+        "fMRI Functional Magnetic Resonance Imaging",
+        "EEG",
+        "PET Scan"
+      ],
+      "correctIndex": 0,
+      "explanation": "fMRI detects differences in magnetic susceptibility between oxygenated and deoxygenated hemoglobin (hemodynamic response). When a brain region activates, local blood flow surges, providing millimeter-resolution functional mapping."
+    },
+    {
+      "type": "mcq",
+      "question": "What neurobiological rule popularized by Donald Hebb states that neurons that fire together, wire together, forming the basis of synaptic plasticity?",
+      "options": [
+        "Weber Law",
+        "Hebb Rule Hebbian Theory",
+        "Yerkes-Dodson Law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hebbian theory explains how repeated simultaneous activation of presynaptic and postsynaptic neurons strengthens the synaptic connection between them, a biological process known as Long-Term Potentiation (LTP)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which almond-shaped cluster of nuclei in the temporal lobe is the emotional processing hub of the brain, particularly for fear and threat detection?",
+      "options": [
+        "Cingulate Gyrus",
+        "Nucleus Accumbens",
+        "Amygdala"
+      ],
+      "correctIndex": 2,
+      "explanation": "The amygdala processes sensory stimuli directly from the thalamus to trigger instantaneous autonomic fight-or-flight responses before conscious cerebral analysis occurs. Bilateral damage to the amygdala eliminates normal fear responses."
+    },
+    {
+      "type": "mcq",
+      "question": "What neurotransmitter is centrally involved in the brain reward pathway, motivation, motor control, and reinforcement learning?",
+      "options": [
+        "Dopamine",
+        "Acetylcholine",
+        "Serotonin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dopamine is produced in the substantia nigra and ventral tegmental area (VTA), projecting along the mesolimbic pathway to the nucleus accumbens. Degeneration of dopaminergic neurons in the substantia nigra causes Parkinson disease."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of memory allows temporary holding and manipulation of information over seconds, traditionally limited to roughly 7 items?",
+      "options": [
+        "Procedural Memory",
+        "Working Memory Short-Term Memory",
+        "Episodic Memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Formulated in George Miller 1956 paper The Magical Number Seven, Plus or Minus Two, working memory is maintained in the dorsolateral prefrontal cortex for immediate cognitive problem-solving."
+    },
+    {
+      "type": "number",
+      "question": "What is the classical magical number of items George Miller estimated the average human short-term working memory can hold simultaneously?",
+      "target": 7,
+      "metricUnit": "items",
+      "imperialDisplay": "The Magical Number 7 (± 2)",
+      "explanation": "Cognitive psychologist George Miller proposed that human short-term working memory capacity is approximately 7 chunks of information."
+    },
+    {
+      "type": "mcq",
+      "question": "What isolated archipelago in the Pacific Ocean inspired Charles Darwin theory of natural selection through variations in giant tortoises and finches in 1835?",
+      "options": [
+        "Hawaiian Islands",
+        "Society Islands",
+        "Galapagos Islands"
+      ],
+      "correctIndex": 2,
+      "explanation": "Located 1,000 km off Ecuador, the volcanic Galapagos Islands harbor unique endemic fauna (marine iguanas, flightless cormorants, and Darwin finches). Darwin noted how beak morphology varied by island food sources in On the Origin of Species (1859)."
+    },
+    {
+      "type": "mcq",
+      "question": "What biogeographical imaginary line proposed by Alfred Russel Wallace in 1859 separates the distinct faunal zones of Asia and Australasia through Indonesia?",
+      "options": [
+        "Wallace Line",
+        "Weber Line",
+        "Huxley Line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Wallace Line runs through the deep Lombok Strait between Bali and Lombok. Deep oceanic trenches prevented land bridges during Pleistocene ice ages, preserving placental mammals to the west and marsupials and monotremes to the east."
+    },
+    {
+      "type": "mcq",
+      "question": "What unique ecosystem found in Madagascar accounts for 90 percent of all endemic lemur species, baobabs, and half of all chameleon species on Earth?",
+      "options": [
+        "Fynbos",
+        "Malagasy Spiny Forests",
+        "Cerrado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Madagascar split from the Indian tectonic plate roughly 88 million years ago. Its prolonged geological isolation allowed ancestral mammals and plants to evolve into thousands of species found nowhere else on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What subterranean river in Palawan, Philippines is one of the New 7 Wonders of Nature, flowing 8.2 kilometers through a giant limestone cave directly into the sea?",
+      "options": [
+        "Cenote Angelita",
+        "Tham Luang",
+        "Puerto Princesa Subterranean River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Puerto Princesa Underground River navigates through spectacular speleothem cave chambers with tidal influences, supporting unique bat and swiftlet colonies within a UNESCO World Heritage karst mountain park."
+    },
+    {
+      "type": "mcq",
+      "question": "What unusual pink-colored hypersaline lake on Middle Island off the coast of Western Australia retains its vibrant bubblegum-pink color year-round?",
+      "options": [
+        "Lake Hillier",
+        "Lake Natron",
+        "Lake Retba"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Hillier pink color is caused by the presence of the halophilic microalga Dunaliella salina and red halobacteria in the salt crust, which produce carotenoid pigments that remain vivid even when water is scooped into a bottle."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million years ago did Madagascar geologically separate from the Indian landmass, initiating its unique island evolution?",
+      "target": 88,
+      "metricUnit": "million years ago",
+      "imperialDisplay": "approx 88 million years ago",
+      "explanation": "Plate tectonic reconstruction dates the rifting of Madagascar from Greater India to approximately 88 million years ago in the Late Cretaceous."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 19th-century suspension bridge designed by John Augustus Roebling connected Manhattan and Brooklyn in 1883 using galvanized steel wire cables?",
+      "options": [
+        "Manhattan Bridge",
+        "Brooklyn Bridge",
+        "Williamsburg Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Completed by Washington Roebling and his wife Emily Warren Roebling after John Roebling death, the Brooklyn Bridge used massive pneumatic caissons sunk into the East River bedrock, standing as the longest suspension bridge in the world at its opening."
+    },
+    {
+      "type": "mcq",
+      "question": "What cable-stayed bridge spanning the Tarn Valley in southern France designed by Michel Virlogeux and Norman Foster is the tallest bridge in the world by structural height?",
+      "options": [
+        "Vasco da Gama Bridge",
+        "Akashi Kaikyo Bridge",
+        "Millau Viaduct"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Millau Viaduct reaches a structural mast height of 343 meters (1,125 feet), taller than the Eiffel Tower, carrying the A75 autoroute through morning clouds above the valley floor."
+    },
+    {
+      "type": "mcq",
+      "question": "What 55-kilometer bridge and undersea tunnel system opened in 2018 is the world longest sea-crossing fixed link, connecting Hong Kong, Zhuhai, and Macau?",
+      "options": [
+        "Hong Kong-Zhuhai-Macau Bridge",
+        "Hangzhou Bay Bridge",
+        "Jiaozhou Bay Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The megastructure incorporates three cable-stayed bridges, an artificial island archipelago, and a 6.7-kilometer immersed tube undersea tunnel designed to withstand Category 16 super typhoons and magnitude 8.0 earthquakes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Victorian combined bascule and suspension bridge crossing the River Thames in London opened in 1894, powered originally by hydraulic steam accumulators?",
+      "options": [
+        "London Bridge",
+        "Tower Bridge",
+        "Waterloo Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tower Bridge features two Neo-Gothic towers clad in Portland stone and Cornish granite. Its giant twin bascules can raise in under two minutes to allow tall-masted ships to enter the Pool of London."
+    },
+    {
+      "type": "mcq",
+      "question": "What suspension bridge in Japan completed in 1998 had the longest central suspension span in the world (1,991 meters) across the hazardous Akashi Strait?",
+      "options": [
+        "Seto Ohashi Bridge",
+        "Tatara Bridge",
+        "Akashi Kaikyo Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Akashi Kaikyo Bridge connects Kobe to Awaji Island. During its construction, the 1995 Great Hanshin earthquake lengthened the bridge span by over one meter, yet its robust tuned mass dampers kept the towers undamaged."
+    },
+    {
+      "type": "number",
+      "question": "What is the total structural height in meters of the tallest mast pylon (P2) on the famous Millau Viaduct in France?",
+      "target": 343,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,125 feet (343 m)",
+      "explanation": "The P2 pylon of the Millau Viaduct rises 343 meters above ground level, making it structurally taller than the Eiffel Tower (330 m)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish engineer demonstrated the world first working electromechanical television system in London in January 1926?",
+      "options": [
+        "John Logie Baird",
+        "Philo Farnsworth",
+        "Vladimir Zworykin"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Logie Baird transmitted moving silhouette images using a spinning Nipkow disk in 1925 and gave the first public demonstration of 30-line greyscale television to members of the Royal Institution in 1926."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British computer scientist invented the World Wide Web in 1989 while working at CERN, writing the first web browser and HTTP/HTML protocols?",
+      "options": [
+        "Vint Cerf",
+        "Tim Berners-Lee",
+        "Marc Andreessen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tim Berners-Lee created the HTML markup language, HTTP protocol, and URL addressing system on a NeXTcube computer, making the Web freely open and royalty-free to all humanity in April 1993."
+    },
+    {
+      "type": "mcq",
+      "question": "What solid-state semiconductor electronic amplifier invented at Bell Labs in December 1947 by Bardeen, Brattain, and Shockley replaced bulky vacuum tubes?",
+      "options": [
+        "The Integrated Circuit",
+        "The Microprocessor",
+        "The Transistor"
+      ],
+      "correctIndex": 2,
+      "explanation": "The point-contact transistor enabled the miniaturization of electronic devices, launching the modern digital computing revolution and earning its three inventors the 1956 Nobel Prize in Physics."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American inventor patented the modern safety elevator with an automatic emergency brake mechanism in 1853, enabling the construction of modern skyscrapers?",
+      "options": [
+        "Elisha Otis",
+        "Werner von Siemens",
+        "Thomas Edison"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elisha Otis demonstrated his spring-loaded safety catch at the 1854 New York Crystal Palace Exhibition by dramatically ordering the suspension rope cut while standing on the elevator platform, demonstrating that the cab remained suspended."
+    },
+    {
+      "type": "mcq",
+      "question": "What space-based satellite navigation system developed by the US Department of Defense became fully operational in 1995, providing global positioning coordinates?",
+      "options": [
+        "GLONASS",
+        "GPS Global Positioning System",
+        "Galileo"
+      ],
+      "correctIndex": 1,
+      "explanation": "GPS utilizes a constellation of at least 24 satellites broadcasting atomic-clock microwave time signals. Receivers triangulate signals from four or more satellites to compute latitude, longitude, altitude, and precise time within centimeters."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Tim Berners-Lee submit his famous proposal Information Management: A Proposal, outlining the World Wide Web at CERN?",
+      "target": 1989,
+      "metricUnit": "CE",
+      "imperialDisplay": "March 1989",
+      "explanation": "Tim Berners-Lee submitted his visionary proposal in March 1989, famously marked by his supervisor Mike Sendall with the comment: Vague but exciting..."
+    }
+  ]
+}

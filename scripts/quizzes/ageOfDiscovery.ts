@@ -1,0 +1,462 @@
+import { QuizDataset } from '../../src/types';
+
+export const ageOfDiscoveryQuiz: QuizDataset = {
+  id: "age-of-discovery-explorers-60",
+  theme: "The Age of Exploration: Navigators, Maps & Maritime Voyages",
+  title: "The Age of Exploration: Navigators, Maps & Maritime Voyages",
+  description: "A 60-question grand master assessment on Magellan, Columbus, Vasco da Gama, Zheng He, caravels, the Treaty of Tordesillas, and the mapping of global oceans.",
+  category: "Modern History & Landmark Wars",
+  difficulty: "moderate",
+  createdAt: "2026-08-27T00:00:00Z",
+  questions: [
+    // Cycle 1
+    {
+      type: "mcq",
+      question: "Which Portuguese royal prince established a renowned center for navigation, cartography, and shipbuilding at Sagres in the early 15th century?",
+      options: ["Prince Henry the Navigator", "King Manuel I", "Afonso de Albuquerque"],
+      correctIndex: 0,
+      explanation: "Prince Henry sponsored voyages down the western coast of Africa, developing oceanographic science and initiating European global expansion."
+    },
+    {
+      type: "mcq",
+      question: "What agile, shallow-draft sailing vessel developed by Portuguese shipwrights used triangular lateen sails to tack into prevailing winds?",
+      options: ["Carrack", "Caravel", "Galleon"],
+      correctIndex: 1,
+      explanation: "The caravel lateen rigging and maneuverability allowed explorers to navigate uncharted Atlantic currents and return safely."
+    },
+    {
+      type: "mcq",
+      question: "What major psychological and navigational barrier along the Sahara coast of Africa was first passed by Portuguese mariner Gil Eanes in 1434?",
+      options: ["Cape of Good Hope", "Cape Verde", "Cape Bojador"],
+      correctIndex: 2,
+      explanation: "Passing Cape Bojador shattered medieval myths of sea monsters and boiling equatorial waters, unlocking the West African coast."
+    },
+    {
+      type: "mcq",
+      question: "What navigational instrument measuring the angle of the sun or North Star above the horizon was adapted by mariners to determine latitude at sea?",
+      options: ["Mariners Astrolabe", "Magnetic Compass", "Octant"],
+      correctIndex: 0,
+      explanation: "Heavy cast-brass mariners astrolabes had cutouts to reduce wind resistance on pitching ship decks."
+    },
+    {
+      type: "mcq",
+      question: "What Portuguese sailing strategy, meaning return from the sea, involved sailing far out into the Atlantic in a wide arc to catch prevailing westerlies back to Lisbon?",
+      options: ["Derrotero", "Volta do mar", "Rumbo"],
+      correctIndex: 1,
+      explanation: "The volta do mar maneuver required bold navigation far into open ocean to catch clockwise Atlantic wind gyres."
+    },
+    {
+      type: "number",
+      question: "How many masts did a standard Portuguese exploration caravel typically feature for oceanic voyaging?",
+      target: 3,
+      metricUnit: "masts",
+      imperialDisplay: "3 masts",
+      explanation: "Most caravels featured two or three masts rigged with triangular lateen sails or a combination of square and lateen sails."
+    },
+
+    // Cycle 2
+    {
+      type: "mcq",
+      question: "Which Portuguese navigator became the first European to round the southernmost tip of Africa in 1488, opening the sea route to the Indian Ocean?",
+      options: ["Vasco da Gama", "Ferdinand Magellan", "Bartolomeu Dias"],
+      correctIndex: 2,
+      explanation: "Dias rounded the Cape after being blown south by a gale, originally naming it the Cape of Storms."
+    },
+    {
+      type: "mcq",
+      question: "What optimistic new name was bestowed upon the southern tip of Africa by King John II of Portugal to celebrate the open sea route to India?",
+      options: ["Cape of Good Hope", "Cape of Discovery", "Cape of Spices"],
+      correctIndex: 0,
+      explanation: "King John II renamed it the Cape of Good Hope because it promised direct maritime access to India spice wealth."
+    },
+    {
+      type: "mcq",
+      question: "What stone pillar crosses surmounted by the Portuguese royal coat of arms were erected by Portuguese explorers to claim newly discovered coastlines?",
+      options: ["Stelae", "Padroes", "Cairns"],
+      correctIndex: 1,
+      explanation: "Padroes inscribed in Latin and Portuguese marked sovereignty and served as permanent navigational landmarks."
+    },
+    {
+      type: "mcq",
+      question: "What valuable luxury commodities from the Malabar Coast of India drove European monarchs to seek direct maritime routes around Africa?",
+      options: ["Silk and jade", "Tea and porcelain", "Black pepper and spices"],
+      correctIndex: 2,
+      explanation: "Bypassing Ottoman and Venetian trade monopolies on black pepper, cinnamon, cloves, and nutmeg promised vast imperial wealth."
+    },
+    {
+      type: "mcq",
+      question: "Which Portuguese explorer led an expedition disguised as an Arabic-speaking merchant overland through Egypt and India to scout the spice trade in 1487?",
+      options: ["Pero da Covilha", "Duarte Pacheco Pereira", "Tristao da Cunha"],
+      correctIndex: 0,
+      explanation: "Covilha secret intelligence reports confirmed that the Indian Ocean was navigable and linked to the Atlantic around southern Africa."
+    },
+    {
+      type: "number",
+      question: "In what year CE did Bartolomeu Dias successfully navigate around the Cape of Good Hope into the Indian Ocean?",
+      target: 1488,
+      metricUnit: "year CE",
+      imperialDisplay: "1488 CE",
+      explanation: "Dias rounded the African continent in 1488, paving the way for Vasco da Gama historic voyage to India a decade later."
+    },
+
+    // Cycle 3
+    {
+      type: "mcq",
+      question: "Which Catholic monarchs of Spain agreed to finance Christopher Columbus transatlantic expedition in 1492 after the capture of Granada?",
+      options: ["Charles I and Isabella of Portugal", "Ferdinand II of Aragon and Isabella I of Castile", "Philip II and Mary I"],
+      correctIndex: 1,
+      explanation: "Queen Isabella and King Ferdinand sponsored Columbus voyage westward under the Capitulations of Santa Fe."
+    },
+    {
+      type: "mcq",
+      question: "What were the names of the three ships that comprised Columbus fleet on his maiden voyage across the Atlantic in 1492?",
+      options: ["Victoria, Trinidad, and Concepcion", "San Gabriel, San Rafael, and Berrio", "Santa Maria, Pinta, and Nina"],
+      correctIndex: 2,
+      explanation: "The Santa Maria served as flagship accompanied by two smaller caravels, the Pinta and the Nina."
+    },
+    {
+      type: "mcq",
+      question: "On what date in October 1492 did sailor Rodrigo de Triana aboard the Pinta first sight land in the Bahamas?",
+      options: ["October 12 1492", "October 31 1492", "September 8 1492"],
+      correctIndex: 0,
+      explanation: "Columbus made landfall on an island in the Bahamas called Guanahani by the indigenous Taino, which he renamed San Salvador."
+    },
+    {
+      type: "mcq",
+      question: "What indigenous Arawakan-speaking people did Columbus first encounter upon landing in the Caribbean?",
+      options: ["Caribs", "Taino", "Maya"],
+      correctIndex: 1,
+      explanation: "The peaceful Taino inhabited the Bahamas and Greater Antilles, cultivating cassava, sweet potatoes, and cotton."
+    },
+    {
+      type: "mcq",
+      question: "What Florentine navigator and merchant made voyages to the New World between 1499 and 1502, realizing it was a distinct fourth continent that was named after him?",
+      options: ["Giovanni da Verrazzano", "John Cabot", "Amerigo Vespucci"],
+      correctIndex: 2,
+      explanation: "German cartographer Martin Waldseemuller published a 1507 world map applying the Latin feminine name America in honor of Amerigo Vespucci."
+    },
+    {
+      type: "number",
+      question: "How many total crew members sailed across the Atlantic aboard the Santa Maria, Pinta, and Nina on Columbus 1492 voyage?",
+      target: 90,
+      metricUnit: "crewmen",
+      imperialDisplay: "90 crew members",
+      explanation: "Approximately 90 sailors and officers manned the three vessels, departing Palos de la Frontera on August 3, 1492."
+    },
+
+    // Cycle 4
+    {
+      type: "mcq",
+      question: "What 1494 treaty signed between Spain and Portugal divided the newly discovered lands of the world along a meridian 370 leagues west of Cape Verde?",
+      options: ["Treaty of Tordesillas", "Treaty of Zaragoza", "Treaty of Alcacovas"],
+      correctIndex: 0,
+      explanation: "The Treaty of Tordesillas granted Portugal lands discovered east of the line and Spain lands to the west."
+    },
+    {
+      type: "mcq",
+      question: "Which Pope drew the initial papal line of demarcation in his 1493 bull Inter caetera that preceded the Treaty of Tordesillas?",
+      options: ["Pope Julius II", "Pope Alexander VI", "Pope Leo X"],
+      correctIndex: 1,
+      explanation: "Spanish-born Pope Alexander VI issued bulls favoring Spanish claims, which Portugal renegotiated westward at Tordesillas."
+    },
+    {
+      type: "mcq",
+      question: "In which Indian coastal city did Portuguese explorer Vasco da Gama land in May 1498, establishing direct maritime contact with India?",
+      options: ["Goa", "Cochin", "Calicut"],
+      correctIndex: 2,
+      explanation: "Da Gama anchored at Kappad near Calicut, meeting the local ruler the Zamorin and initiating the Portuguese Estado da India."
+    },
+    {
+      type: "mcq",
+      question: "What famous Gujarati or Arab pilot is traditionally credited with guiding Vasco da Gama fleet across the Arabian Sea from Malindi to India?",
+      options: ["Ahmad ibn Majid", "Ibn Battuta", "Zheng He"],
+      correctIndex: 0,
+      explanation: "The skilled Indian Ocean navigator guided the Portuguese fleet using knowledge of seasonal monsoon wind patterns."
+    },
+    {
+      type: "mcq",
+      question: "Which Portuguese navigator accidentally discovered Brazil in April 1500 while making a wide westward swing on his way to India?",
+      options: ["Afonso de Albuquerque", "Pedro Alvares Cabral", "Gaspar Corte-Real"],
+      correctIndex: 1,
+      explanation: "Cabral claimed the land of Vera Cruz for the Portuguese crown under the boundaries established by the Treaty of Tordesillas."
+    },
+    {
+      type: "number",
+      question: "How many leagues west of the Cape Verde islands was the boundary meridian set by the Treaty of Tordesillas in 1494?",
+      target: 370,
+      metricUnit: "leagues",
+      imperialDisplay: "370 leagues",
+      explanation: "The line was shifted to 370 leagues west of Cape Verde, which later allowed Portugal to claim the eastern coast of Brazil."
+    },
+
+    // Cycle 5
+    {
+      type: "mcq",
+      question: "Which Portuguese-born explorer, sailing under the flag of Spain, commanded the 1519 expedition that achieved the first recorded global circumnavigation?",
+      options: ["Vasco da Gama", "Juan Sebastian Elcano", "Ferdinand Magellan"],
+      correctIndex: 2,
+      explanation: "Magellan discovered the strait connecting the Atlantic and Pacific oceans at the southern tip of South America before dying in the Philippines."
+    },
+    {
+      type: "mcq",
+      question: "What treacherous natural navigable passage between mainland South America and Tierra del Fuego was discovered by Magellan in 1520?",
+      options: ["Strait of Magellan", "Drake Passage", "Beagle Channel"],
+      correctIndex: 0,
+      explanation: "Navigating the 570-kilometer strait took 38 grueling days before the fleet emerged into what Magellan named the Pacific Ocean."
+    },
+    {
+      type: "mcq",
+      question: "On which Philippine island was Ferdinand Magellan killed in battle on April 27 1521, fighting against local chieftain Lapulapu?",
+      options: ["Cebu", "Mactan", "Leyte"],
+      correctIndex: 1,
+      explanation: "Magellan was killed during the Battle of Mactan when his heavily armored Spanish landing party was overwhelmed in the surf."
+    },
+    {
+      type: "mcq",
+      question: "Which Spanish navigator took command of the Victoria after Magellan death and completed the circumnavigation back to Spain in September 1522?",
+      options: ["Alvaro de Saavedra", "Ruy Lopez de Villalobos", "Juan Sebastian Elcano"],
+      correctIndex: 2,
+      explanation: "Elcano navigated the single surviving ship Victoria across the Indian Ocean and around Africa back to Sanlucar de Barrameda."
+    },
+    {
+      type: "mcq",
+      question: "What valuable Spice Islands in eastern Indonesia were the primary destination and objective of Magellan expedition?",
+      options: ["Moluccas", "Philippines", "Greater Sundas"],
+      correctIndex: 0,
+      explanation: "The Moluccas were the world sole source of cloves, mace, and nutmeg, commanding astronomical prices in European markets."
+    },
+    {
+      type: "number",
+      question: "Out of the five ships that departed Spain in Magellan 1519 armada, how many successfully returned to complete the full circumnavigation?",
+      target: 1,
+      metricUnit: "ship",
+      imperialDisplay: "1 ship (the Victoria)",
+      explanation: "Only the Victoria returned out of five ships, with just 18 surviving crew members out of roughly 270 men who began the voyage."
+    },
+
+    // Cycle 6
+    {
+      type: "mcq",
+      question: "Who was the Chinese admiral who led seven monumental maritime expeditions across Southeast Asia, India, Arabia, and East Africa between 1405 and 1433?",
+      options: ["Shi Lang", "Zheng He", "Zhang Qian"],
+      correctIndex: 1,
+      explanation: "Zheng He commanded armada fleets of colossal multi-decked treasure ships spreading the prestige of the Ming Yongle Emperor."
+    },
+    {
+      type: "mcq",
+      question: "What was the name of the colossal multi-masted flagship vessels used by Zheng He fleet, measuring up to 100 meters in length?",
+      options: ["Caravels", "Galleasses", "Treasure Ships"],
+      correctIndex: 2,
+      explanation: "Known as Baochuan, these four-to-nine-masted ships featured watertight bulkheads, balanced rudders, and battened lug sails."
+    },
+    {
+      type: "mcq",
+      question: "What exotic African animal brought back to Beijing by Zheng He from Malindi was celebrated at the imperial court as an auspicious mythical Qilin?",
+      options: ["Giraffe", "Zebra", "Rhinoceros"],
+      correctIndex: 0,
+      explanation: "The giraffe presented to the Yongle Emperor in 1414 was hailed as a living Qilin, symbolizing heavenly favor and benevolent rule."
+    },
+    {
+      type: "mcq",
+      question: "What navigational technology pioneered in China provided Zheng He navigators with reliable bearings on overcast nights across the Indian Ocean?",
+      options: ["Sextant", "Magnetic floating needle compass", "Chronometer"],
+      correctIndex: 1,
+      explanation: "Chinese navigators used wet magnetic compasses aligned with water-filled bowls, combined with celestial star altitude charts."
+    },
+    {
+      type: "mcq",
+      question: "Why did the Ming imperial government abruptly halt Zheng He expeditions and burn the naval records after the 1430s?",
+      options: ["Devastating pirate raids", "A complete defeat by European navies", "Confucian bureaucratic opposition and northern frontier threats"],
+      correctIndex: 2,
+      explanation: "Confucian court scholar-officials deemed the voyages exorbitant and redirected state resources toward rebuilding the Great Wall against Mongol raids."
+    },
+    {
+      type: "number",
+      question: "How many massive maritime diplomatic and trade expeditions did Admiral Zheng He lead across the Indian Ocean between 1405 and 1433?",
+      target: 7,
+      metricUnit: "expeditions",
+      imperialDisplay: "7 treasure voyages",
+      explanation: "Zheng He led seven voyages over nearly three decades, visiting over thirty states across the Indian Ocean littoral."
+    },
+
+    // Cycle 7
+    {
+      type: "mcq",
+      question: "Which Italian navigator sailing for King Henry VII of England explored the coast of Newfoundland in 1497, becoming the first European since the Vikings to reach North America?",
+      options: ["John Cabot", "Giovanni da Verrazzano", "Martin Frobisher"],
+      correctIndex: 0,
+      explanation: "John Cabot sailed the ship Matthew from Bristol, claiming Newfoundland and reporting waters teeming with cod."
+    },
+    {
+      type: "mcq",
+      question: "Which French explorer made three voyages between 1534 and 1542, exploring the Gulf of St. Lawrence and claiming Canada for King Francis I?",
+      options: ["Samuel de Champlain", "Jacques Cartier", "Robert de La Salle"],
+      correctIndex: 1,
+      explanation: "Cartier navigated the St. Lawrence River to the Iroquoian settlements of Stadacona and Hochelaga, naming the territory Canada."
+    },
+    {
+      type: "mcq",
+      question: "What mythical navigable northern sea route connecting the Atlantic and Pacific oceans through Arctic waters obsessed European explorers for centuries?",
+      options: ["Northeast Passage", "Suez Transit", "Northwest Passage"],
+      correctIndex: 2,
+      explanation: "Explorers including Frobisher, Davis, Hudson, and Baffin endured Arctic pack ice seeking a short northern trade route to Asia."
+    },
+    {
+      type: "mcq",
+      question: "Which English explorer sailed into New York Harbor in 1609 for the Dutch East India Company and explored the river and bay that bear his name?",
+      options: ["Henry Hudson", "William Barents", "Francis Drake"],
+      correctIndex: 0,
+      explanation: "Henry Hudson explored the Hudson River aboard the Halve Maen before being cast adrift by mutineers in Hudson Bay in 1611."
+    },
+    {
+      type: "mcq",
+      question: "Which French explorer founded Quebec City in 1608 and is celebrated as the Father of New France for his maps and alliances with indigenous tribes?",
+      options: ["Jacques Marquette", "Samuel de Champlain", "Louis Jolliet"],
+      correctIndex: 1,
+      explanation: "Champlain mapped Atlantic coastlines and the Great Lakes, cementing French fur trading alliances in North America."
+    },
+    {
+      type: "number",
+      question: "In what year CE did Jacques Cartier erect a wooden cross at Gaspe Peninsula, claiming the territory of Canada for the Kingdom of France?",
+      target: 1534,
+      metricUnit: "year CE",
+      imperialDisplay: "1534 CE",
+      explanation: "On July 24, 1534, Cartier claimed the land for King Francis I, initiating French colonial presence in North America."
+    },
+
+    // Cycle 8
+    {
+      type: "mcq",
+      question: "Which English privateer was knighted by Queen Elizabeth I after becoming the second captain to complete a global circumnavigation between 1577 and 1580?",
+      options: ["Walter Raleigh", "John Hawkins", "Francis Drake"],
+      correctIndex: 2,
+      explanation: "Drake raided Spanish treasure galleons along the Pacific coast of South America aboard the Golden Hind before returning to England."
+    },
+    {
+      type: "mcq",
+      question: "What was the original name of Sir Francis Drake 18-gun flagship before he renamed it the Golden Hind during the expedition?",
+      options: ["Pelican", "Revenge", "Discovery"],
+      correctIndex: 0,
+      explanation: "Drake renamed the Pelican to Golden Hind to honor his patron Sir Christopher Hatton, whose coat of arms bore a golden hind."
+    },
+    {
+      type: "mcq",
+      question: "What Spanish treasure galleon was captured by Francis Drake off Ecuador in 1579, yielding 26 tons of silver and gold?",
+      options: ["San Jose", "Nuestra Senora de la Concepcion", "Santa Margarita"],
+      correctIndex: 1,
+      explanation: "The capture of the Nuestra Senora de la Concepcion yielded over 300,000 British pounds in silver bullion and coins, making Drake voyage exceptionally lucrative."
+    },
+    {
+      type: "mcq",
+      question: "What broad body of open ocean between South Americas Cape Horn and the South Shetland Islands of Antarctica is named after Sir Francis Drake?",
+      options: ["Magellan Sea", "Tasman Sea", "Drake Passage"],
+      correctIndex: 2,
+      explanation: "The Drake Passage connects the southwestern Atlantic with the southeastern Pacific, known for fierce westerly gales and massive swells."
+    },
+    {
+      type: "mcq",
+      question: "Which English courtier and explorer sponsored the ill-fated Roanoke Island colony in 1585 and searched for the mythical golden city of El Dorado?",
+      options: ["Sir Walter Raleigh", "Richard Hakluyt", "Martin Frobisher"],
+      correctIndex: 0,
+      explanation: "Raleigh popularized tobacco in England and led an expedition up the Orinoco River in Guiana in search of El Dorado."
+    },
+    {
+      type: "number",
+      question: "What was the approximate displacement in metric tons of Sir Francis Drake flagship Golden Hind?",
+      target: 150,
+      metricUnit: "tons",
+      imperialDisplay: "150 metric tons",
+      explanation: "The Golden Hind was a compact 100 to 150-ton armed galleon measuring roughly 31 meters (102 feet) in length."
+    },
+
+    // Cycle 9
+    {
+      type: "mcq",
+      question: "What chartered company founded in Amsterdam in 1602 became the world first publicly traded corporation and dominated the Asian spice trade?",
+      options: ["British East India Company", "Dutch East India Company", "Danish East India Company"],
+      correctIndex: 1,
+      explanation: "The Dutch East India Company operated private armies, forts, and fleets, establishing its regional headquarters at Batavia."
+    },
+    {
+      type: "mcq",
+      question: "Which Dutch navigator sighted New Zealand, Fiji, and Tasmania between 1642 and 1643 while serving the Dutch East India Company?",
+      options: ["Willem Janszoon", "Dirk Hartog", "Abel Tasman"],
+      correctIndex: 2,
+      explanation: "Abel Tasman circumnavigated the Australian continent without sighting the mainland, proving that Australia was separated from an imagined southern continent."
+    },
+    {
+      type: "mcq",
+      question: "What was the first recorded European landfall in Australia in 1606 made by Dutch captain Willem Janszoon aboard the ship Duyfken?",
+      options: ["Cape York Peninsula", "Botany Bay", "Shark Bay"],
+      correctIndex: 0,
+      explanation: "Janszoon made landfall on the western coast of Cape York Peninsula in Queensland, making the first documented European contact with Aboriginal Australians."
+    },
+    {
+      type: "mcq",
+      question: "Which Flemish geographer and cartographer created the revolutionary 1569 world map projection with straight lines of constant compass bearing?",
+      options: ["Abraham Ortelius", "Gerardus Mercator", "Johannes Blaeu"],
+      correctIndex: 1,
+      explanation: "The Mercator projection transformed nautical navigation by allowing sailors to plot straight compass course lines directly on sea charts."
+    },
+    {
+      type: "mcq",
+      question: "What landmark atlas, Theatrum Orbis Terrarum, published in Antwerp in 1570 by Abraham Ortelius, is considered the first modern atlas?",
+      options: ["Geographia", "Cosmographia", "Theatrum Orbis Terrarum"],
+      correctIndex: 2,
+      explanation: "Ortelius compiled 53 uniform maps engraved on copper plates with accompanying explanatory text, standardizing global geographic visualization."
+    },
+    {
+      type: "number",
+      question: "In what year CE was the Dutch East India Company officially founded in Amsterdam?",
+      target: 1602,
+      metricUnit: "year CE",
+      imperialDisplay: "1602 CE",
+      explanation: "Chartered in 1602, the VOC became the most valuable trading corporation of the 17th century, monopolizing Asian maritime spice routes."
+    },
+
+    // Cycle 10
+    {
+      type: "mcq",
+      question: "Which British Royal Navy explorer led three historic expeditions across the Pacific, mapping New Zealand, eastern Australia, and Hawaii?",
+      options: ["Captain James Cook", "William Bligh", "George Vancouver"],
+      correctIndex: 0,
+      explanation: "Captain James Cook combined rigorous hydrographic surveying with scurvy prevention techniques aboard HMS Endeavour and HMS Resolution."
+    },
+    {
+      type: "mcq",
+      question: "What English clockmaker solved the famous longitude problem by inventing the H4 marine chronometer, keeping precise time at sea?",
+      options: ["John Flamsteed", "John Harrison", "Thomas Mudge"],
+      correctIndex: 1,
+      explanation: "John Harrison spring-driven, temperature-compensated H4 marine watch won the Longitude Act reward by maintaining accurate Greenwich time in rough seas."
+    },
+    {
+      type: "mcq",
+      question: "What dietary practice did Captain Cook strictly mandate aboard his ships to completely eliminate the deadly nutritional disease of scurvy?",
+      options: ["Daily rations of fresh fish", "Salted beef with vinegar", "Fresh greens, citrus fruit, and sauerkraut"],
+      correctIndex: 2,
+      explanation: "Cook enforced strict shipboard hygiene, fresh foraging, and vitamin C-rich sauerkraut, losing zero men to scurvy on his first voyage."
+    },
+    {
+      type: "mcq",
+      question: "In what year did Captain James Cook become the first recorded European to reach the Hawaiian Islands, which he named the Sandwich Islands?",
+      options: ["1778", "1769", "1789"],
+      correctIndex: 0,
+      explanation: "Cook reached Kauai in January 1778 during his search for the Northwest Passage, returning in 1779 where he was killed at Kealakekua Bay."
+    },
+    {
+      type: "mcq",
+      question: "What optical navigational instrument introduced in 1757 replaced the octant for measuring angles between celestial bodies and the horizon?",
+      options: ["Backstaff", "Sextant", "Cross-staff"],
+      correctIndex: 1,
+      explanation: "The marine sextant allowed sight angles up to 120 degrees, becoming the essential tool for celestial navigation and lunar distance calculations."
+    },
+    {
+      type: "number",
+      question: "In what year CE did John Harrison complete testing on his revolutionary H4 marine chronometer watch?",
+      target: 1759,
+      metricUnit: "year CE",
+      imperialDisplay: "1759 CE",
+      explanation: "Completed in 1759, the H4 watch underwent successful transatlantic trials to Jamaica in 1761, losing just 5.1 seconds over 81 days."
+    }
+  ]
+};

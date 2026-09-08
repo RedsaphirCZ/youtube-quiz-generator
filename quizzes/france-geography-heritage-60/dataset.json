@@ -1,0 +1,703 @@
+{
+  "id": "france-geography-heritage-60",
+  "theme": "France: Geography, Regions & Cultural Heritage",
+  "title": "France: Geography, Regions & Cultural Heritage",
+  "description": "A 60-question grand master assessment exploring Mont Blanc & the Alps, the Seine in Paris, the Loire châteaux, the Pyrenees, Provence & the French Riviera, Normandy, world wine terroirs, Corsica, the Massif Central, and overseas regions.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the European Union, standing at 4,808 meters in the French Alps on the border with Italy?",
+      "options": [
+        "Mont Blanc",
+        "Barre des Écrins",
+        "Aiguille du Midi"
+      ],
+      "correctIndex": 0,
+      "explanation": "First summited in 1786 by Jacques Balmat and Michel Paccard, Mont Blanc is the pinnacle of Western European mountaineering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous French Alpine valley resort town at the foot of Mont Blanc hosted the first Olympic Winter Games in 1924?",
+      "options": [
+        "Courchevel",
+        "Chamonix-Mont-Blanc",
+        "Val d Isère"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chamonix is the mountaineering capital of Europe, home to the Mer de Glace glacier and the soaring Aiguille du Midi cable car.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rocky needle peak in the Mont Blanc massif at 3,842 meters is accessible by the highest vertical ascent cable car in the world?",
+      "options": [
+        "Grandes Jorasses",
+        "Dent du Géant",
+        "Aiguille du Midi"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Aiguille du Midi cable car spans 2,800 vertical meters from Chamonix, featuring the Step into the Void glass skywalk viewing box.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak located entirely within French national territory, rising 4,102 meters in the Écrins National Park?",
+      "options": [
+        "Barre des Écrins",
+        "La Meije",
+        "Mont Pelvoux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Barre des Écrins in the Dauphiné Alps was the highest point in France prior to the 1860 Treaty of Turin that annexed Savoy and Mont Blanc.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic pre-Alpine limestone plateau in southeastern France served as a major stronghold for the French Resistance (Maquis) during World War II?",
+      "options": [
+        "Chartreuse Mountains",
+        "Vercors Massif",
+        "Bauges Massif"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fortress-like cliffs of the Vercors plateau provided natural defensive terrain, declared the Free Republic of Vercors in June 1944.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Chamonix-Mont-Blanc host the first ever Olympic Winter Games in history?",
+      "target": 1924,
+      "metricUnit": "year",
+      "imperialDisplay": "1924 AD",
+      "explanation": "The inaugural Winter Olympic Games took place in Chamonix from January 25 to February 5, 1924.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 777-kilometer river flows through Paris before emptying into the English Channel at Le Havre?",
+      "options": [
+        "The Loire",
+        "The Marne",
+        "The Seine"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Seine historical riverbanks in Paris are designated a UNESCO World Heritage site, spanned by thirty-seven bridges including the Pont Neuf.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 330-meter wrought-iron lattice tower was built by Gustave Eiffel on the Champ de Mars as the entrance arch for the 1889 Paris World Fair?",
+      "options": [
+        "Eiffel Tower",
+        "Montparnasse Tower",
+        "Arc de Triomphe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructed using 18,000 iron pieces and 2.5 million rivets, the Eiffel Tower was the tallest human-made structure on Earth for forty-one years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which former French royal palace in Paris along the Seine is the world most visited art museum, housing Leonardo da Vinci Mona Lisa?",
+      "options": [
+        "Musée d Orsay",
+        "The Louvre Musée du Louvre",
+        "Centre Pompidou"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originally built as a medieval fortress in the 12th century under Philip II, the Louvre features I.M. Pei iconic 1989 glass pyramid entrance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural island in the Seine River is the historic birthplace and cradle of Paris, site of the Notre-Dame Cathedral?",
+      "options": [
+        "Île Saint-Louis",
+        "Île aux Cygnes",
+        "Île de la Cité"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inhabited since the Celtic Parisii tribe founded Lutetia in the 3rd century BCE, the island also houses the Sainte-Chapelle and Conciergerie.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which opulent royal château southwest of Paris was expanded by Sun King Louis XIV into the seat of French political power in 1682?",
+      "options": [
+        "Palace of Versailles",
+        "Château de Fontainebleau",
+        "Château de Saint-Germain-en-Laye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Versailles is famous for its 73-meter Hall of Mirrors (Galerie des Glaces) and André Le Nôtre extensive classical geometric French gardens.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total height in meters of the Eiffel Tower in Paris, including its radio broadcasting antenna?",
+      "target": 330,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,083 feet",
+      "explanation": "Following the installation of a new six-meter radio antenna in 2022, the Eiffel Tower stands at exactly 330 meters tall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river located entirely within the territory of France, flowing 1,006 kilometers into the Atlantic Ocean at Saint-Nazaire?",
+      "options": [
+        "Rhône River",
+        "Loire River",
+        "Garonne River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Loire is nicknamed the last wild river in France due to its natural sandbanks and seasonal floods, flowing through the historic Garden of France.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal French Renaissance château in the Loire Valley was constructed for King Francis I, featuring a famous double-helix stone staircase designed by Leonardo da Vinci?",
+      "options": [
+        "Château d Amboise",
+        "Château de Blois",
+        "Château de Chambord"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chambord contains 440 rooms and a spectacular roofline of elaborate cupolas, lanterns, and chimneys resembling a stylized medieval city skyline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which graceful 16th-century château in the Loire Valley spans the River Cher on arched stone piers, nicknamed the Ladies Château (Château des Dames)?",
+      "options": [
+        "Château de Chenonceau",
+        "Château de Cheverny",
+        "Château de Chaumont"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chenonceau was shaped by notable women throughout French history, including Diane de Poitiers, Queen Catherine de' Medici, and Louise Dupin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Loire Valley château is internationally celebrated for having the most elaborate geometric Renaissance formal gardens and water mazes in France?",
+      "options": [
+        "Château d Ussé",
+        "Château de Villandry",
+        "Château de Sully"
+      ],
+      "correctIndex": 1,
+      "explanation": "Villandry features six distinct terraced gardens restored in the early 20th century, including a world-famous ornamental kitchen garden (potager).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which royal Loire château did Leonardo da Vinci spend the final three years of his life as Premier Painter and Engineer to King Francis I?",
+      "options": [
+        "Château de Langeais",
+        "Château de Chinon",
+        "Château du Clos Lucé Amboise"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leonardo resided at Clos Lucé from 1516 until his death in May 1519, connected by an underground tunnel to the royal Château d'Amboise.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Loire River, the longest river in France?",
+      "target": 1006,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "625 miles",
+      "explanation": "The Loire River flows for 1,006 kilometers from Mount Gerbier de Jonc in the Massif Central to the Atlantic Bay of Biscay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high mountain barrier stretches for 430 kilometers, forming the natural physical border between France and Spain?",
+      "options": [
+        "The Pyrenees",
+        "The Alps",
+        "The Jura Mountains"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Pyrenees separate the Iberian Peninsula from continental Western Europe, home to the tiny co-principality of Andorra.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal glacial cirque in the French Pyrenees features sheer 1,500-meter limestone walls and the 422-meter Gavarnie Falls?",
+      "options": [
+        "Cirque d Troumouse",
+        "Cirque de Gavarnie",
+        "Cirque d Estaubé"
+      ],
+      "correctIndex": 1,
+      "explanation": "Described by Victor Hugo as a colosseum of nature, Gavarnie is a UNESCO World Heritage natural monument on the border of Pyrenees National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the tallest coastal sand dune in Europe, rising over 100 meters high on the shore of the Arcachon Bay in southwestern France?",
+      "options": [
+        "Dune of Bolonia",
+        "Dune of Corrubedo",
+        "Dune of Pilat"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Dune of Pilat contains sixty million cubic meters of sand, continuously advancing inland into the maritime pine forest at up to five meters per year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the French Pyrenees, rising 3,298 meters on the Spanish frontier in the Hautes-Pyrénées?",
+      "options": [
+        "Vignemale Pique Longue",
+        "Pic du Midi de Bigorre",
+        "Montcalm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vignemale features the Glacier des Oulettes and the Gaube Lake, first ascended by mountaineer Count Henry Russell who carved caves near the summit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain peak in the French Pyrenees at 2,877 meters is famous for its high-altitude astronomical observatory and panoramic mountain viewing terraces?",
+      "options": [
+        "Pic du Canigou",
+        "Pic du Midi de Bigorre",
+        "Pic d Anie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pic du Midi was established in the 1870s and was used by NASA in 1969 to map lunar landing sites for the Apollo program due to exceptional atmospheric transparency.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate height in meters above sea level of the Dune of Pilat, the tallest sand dune in Europe?",
+      "target": 106,
+      "metricUnit": "meters",
+      "imperialDisplay": "348 feet",
+      "explanation": "The Dune of Pilat reaches an elevation of roughly 106 meters (fluctuating with seasonal Atlantic winds) on Arcachon Bay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Mediterranean coastal region in southeastern France stretches from Toulon to Menton on the Italian border, renowned for azure waters?",
+      "options": [
+        "Costa Brava",
+        "Riviera dei Fiori",
+        "French Riviera Côte d Azur"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Côte d'Azur became a glamorous resort destination for European royalty and artists in the late 19th century, centering on Nice, Cannes, and Monaco.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular river canyon in Provence, reaching depths of 700 meters, is often called the Grand Canyon of Europe?",
+      "options": [
+        "Gorges du Verdon",
+        "Gorges du Tarn",
+        "Gorges de l Ardèche"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carved by the turquoise-green Verdon River through limestone plateaus, the 25-kilometer canyon is a premier rock climbing and kayaking destination.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fierce, cold, dry northwesterly wind blows down the Rhône River valley into the Gulf of Lion in southern France, creating clear blue skies?",
+      "options": [
+        "The Tramontane",
+        "The Mistral",
+        "The Sirocco"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Mistral accelerates through the narrowing Rhône gap, reaching speeds over 100 km/h and drying out vineyards, influencing traditional house orientations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What expansive limestone plateau in Provence between the Luberon and the Verdon is famous for sweeping purple lavender fields blooming from June to August?",
+      "options": [
+        "Albion Plateau",
+        "Camargue Delta",
+        "Valensole Plateau"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Valensole plateau covers eight hundred square kilometers, supplying essential oils for the historic French perfume industry based in Grasse.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast wetland and river delta region in southern France where the Rhône enters the Mediterranean is famous for wild white horses, black bulls, and pink flamingos?",
+      "options": [
+        "The Camargue",
+        "Crau Plain",
+        "Aigues-Mortes Basin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering 930 square kilometers, the Camargue is Western Europe largest river delta, celebrated for traditional gardian cowboys and fleur de sel salt harvesting.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What maximum vertical depth in meters is reached by the towering limestone cliffs of the Gorges du Verdon in Provence?",
+      "target": 700,
+      "metricUnit": "meters",
+      "imperialDisplay": "2,296 feet deep",
+      "explanation": "The Gorges du Verdon canyon plunges up to 700 meters from the surrounding limestone plateau to the turquoise riverbed below.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Gothic Benedictine abbey perches atop a tidal granite island in Normandy, surrounded by Europe highest and fastest tides?",
+      "options": [
+        "St Michael Mount",
+        "Mont Saint-Michel",
+        "Abbey of Saint-Étienne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mont Saint-Michel and its bay are a UNESCO World Heritage site, dedicated to Archangel Michael in 708 CE and holding out against English siege in the Hundred Years' War.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastline in Normandy was the site of the historic Allied D-Day amphibious landings on June 6, 1944 (Operation Overlord)?",
+      "options": [
+        "Côte d Opale",
+        "Côte d Émeraude",
+        "Normandy Beaches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Allied forces landed across five codenamed assault sectors: Utah, Omaha, Gold, Juno, and Sword, initiating the liberation of Western Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rugged, westernmost peninsula region of France is characterized by Celtic heritage, Breton language, and dramatic Atlantic granite headlands like Pointe du Raz?",
+      "options": [
+        "Brittany Bretagne",
+        "Normandy",
+        "Poitou"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brittany has over 2,700 kilometers of jagged coastline, famous for cider, buckwheat crêpes (galettes), and ancient standing menhirs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spectacular coastal stretch in northern Brittany is renowned for giant, rounded pink granite boulders sculpted by ocean storms?",
+      "options": [
+        "Côte Sauvage",
+        "Pink Granite Coast Côte de Granit Rose",
+        "Côte d Albâtre"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rare pink feldspar granite formations at Ploumanac'h turn deep rose-gold in late afternoon sunlight, protected by maritime heritage conservancies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental 70-meter embroidered linen cloth in Normandy depicts the events leading up to the 1066 Norman conquest of England by William the Conqueror?",
+      "options": [
+        "Apocalypse Tapestry",
+        "Lady and the Unicorn",
+        "Bayeux Tapestry"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commissioned by Bishop Odo of Bayeux, the embroidery illustrates the Battle of Hastings, Halley Comet, and Anglo-Norman warfare with vivid medieval detail.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Allied forces launch the massive D-Day amphibious invasion along the beaches of Normandy, France?",
+      "target": 1944,
+      "metricUnit": "year",
+      "imperialDisplay": "1944 AD",
+      "explanation": "Operation Overlord commenced on June 6, 1944, with over 156,000 American, British, and Canadian troops landing in Normandy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which northeastern historical province of France is the only region in the world legally permitted to produce true sparkling Champagne wine?",
+      "options": [
+        "Champagne",
+        "Alsace",
+        "Lorraine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under Appellation d'Origine Contrôlée (AOC) laws, Champagne must be produced in chalk-cellar vineyards around Reims and Épernay using the traditional bottle-fermentation method.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous wine region in southwestern France along the Garonne and Dordogne rivers established the prestigious 1855 Official Wine Classification?",
+      "options": [
+        "Burgundy",
+        "Bordeaux",
+        "Rhône Valley"
+      ],
+      "correctIndex": 1,
+      "explanation": "Empereur Napoleon III requested the 1855 classification for the Paris Exposition, ranking premier crus like Château Lafite Rothschild and Château Margaux.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic wine region in eastern France is celebrated for terroir-driven single-varietal Pinot Noir and Chardonnay wines from the Côte d'Or escarpment?",
+      "options": [
+        "Beaujolais",
+        "Jura",
+        "Burgundy Bourgogne"
+      ],
+      "correctIndex": 2,
+      "explanation": "Burgundy UNESCO-inscribed Climats are precisely demarcated vineyard parcels cultivated for centuries by Cistercian monks in towns like Beaune and Dijon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which northeastern French region along the Rhine River on the German border is famous for aromatic white wines like Riesling and Gewürztraminer in timbered villages?",
+      "options": [
+        "Alsace",
+        "Lorraine",
+        "Franche-Comté"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sheltered by the Vosges mountains in a warm rain shadow, Alsace features the scenic 170-kilometer Route des Vins d'Alsace and half-timbered towns like Colmar.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic appellation in the southern Rhône Valley, named after the 14th-century summer palace of the Avignon Popes, produces rich Grenache blends?",
+      "options": [
+        "Gigondas",
+        "Châteauneuf-du-Pape",
+        "Hermitage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Châteauneuf-du-Pape vineyards are famous for large smooth galets roulés quartzite river stones that absorb daytime solar heat and warm the vines overnight.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Official Classification of Bordeaux Wine decreed for the Exposition Universelle de Paris by Napoleon III?",
+      "target": 1855,
+      "metricUnit": "year",
+      "imperialDisplay": "1855 AD",
+      "explanation": "The 1855 Bordeaux classification ranked the greatest Médoc and Graves estates, remaining the international benchmark of fine wine valuation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountainous French island in the Mediterranean Sea, nicknamed the Island of Beauty (Île de Beauté), was the birthplace of Napoleon Bonaparte?",
+      "options": [
+        "Sardinia",
+        "Elba",
+        "Corsica Corse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Corsica was sold by the Republic of Genoa to France in the 1768 Treaty of Versailles, just one year before Napoleon was born in the capital Ajaccio in August 1769.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 180-kilometer high-altitude mountain trekking trail traverses the rugged granite spine of Corsica from Calenzana to Conca?",
+      "options": [
+        "GR20",
+        "Tour du Mont Blanc",
+        "Camino de Santiago"
+      ],
+      "correctIndex": 0,
+      "explanation": "The GR20 (Grande Randonnée 20) is widely regarded as one of the toughest and most scenic long-distance alpine footpaths in Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning UNESCO World Heritage coastal landscape in western Corsica features sheer 300-meter pink-and-red volcanic porphyry rock formations over the sea?",
+      "options": [
+        "Scandola Reserve",
+        "Calanques de Piana",
+        "Cap Corse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eroded by wind and sea salt into bizarre sculpted tafoni cavities, the Calanques plunge vertically into the turquoise waters of the Gulf of Porto.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which medieval fortified citadel town on the southern tip of Corsica perches dramatically atop 70-meter white limestone sea cliffs above the Strait of Bonifacio?",
+      "options": [
+        "Calvi",
+        "Bastia",
+        "Bonifacio"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bonifacio overlooks the twelve-kilometer Strait of Bonifacio facing Sardinia, famous for the King of Aragon Staircase carved directly down the vertical cliff.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dense, aromatic evergreen Mediterranean scrubland covering over half of Corsica releases sweet scents of myrtle, rosemary, and cistus?",
+      "options": [
+        "Maquis",
+        "Garrigue",
+        "Chaparral"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon famously declared that he could recognize his native Corsica with his eyes closed purely by the unique aromatic scent of the maquis in the sea breeze.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Napoleon Bonaparte born in the Casa Buonaparte in Ajaccio, Corsica?",
+      "target": 1769,
+      "metricUnit": "year",
+      "imperialDisplay": "1769 AD",
+      "explanation": "Napoleon Bonaparte was born on August 15, 1769, shortly after France acquired sovereignty over Corsica from Genoa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient elevated plateau region covering roughly fifteen percent of southern central France is formed by extinct volcanoes and deep river gorges?",
+      "options": [
+        "The Jura",
+        "The Massif Central",
+        "The Morvan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Massif Central is France oldest mountain terrain, divided into volcanic basalt plateaus and limestone karsts like the Grands Causses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 40-kilometer tectonic fault chain in Auvergne features eighty volcanic cinder cones, lava domes, and maars that formed between 95,000 and 8,400 years ago?",
+      "options": [
+        "Monts Dore",
+        "Monts du Cantal",
+        "Chaîne des Puys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inscribed on the UNESCO World Heritage list in 2018, the Chaîne des Puys is dominated by the 1,465-meter lava dome of the Puy de Dôme.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which cable-stayed bridge spanning the Tarn River valley near Millau is the tallest bridge structure in the world, engineered with towers standing 343 meters high?",
+      "options": [
+        "Millau Viaduct",
+        "Pont de Normandie",
+        "Pont de Tancarville"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by French structural engineer Michel Virlogeux and British architect Norman Foster, the Millau Viaduct opened in 2004 carrying the A75 motorway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which natural limestone caves of Mount Combalou in the Massif Central must all authentic Roquefort blue cheese be aged according to French law?",
+      "options": [
+        "Comté Caves",
+        "Roquefort-sur-Soulzon Caves",
+        "Gouffre de Padirac"
+      ],
+      "correctIndex": 1,
+      "explanation": "Natural geological fissures called fleurines circulate moist cool air that fosters the microscopic blue mold Penicillium roqueforti in raw sheep milk cheeses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest volcanic summit in the Massif Central, rising 1,885 meters in the Monts Dore range of Auvergne?",
+      "options": [
+        "Puy de Dôme",
+        "Plomb du Cantal",
+        "Puy de Sancy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Puy de Sancy is an ancient stratovolcano inactive for over 200,000 years, offering alpine skiing and headwaters of the Dordogne River.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum structural mast height in meters of the Millau Viaduct in southern France?",
+      "target": 343,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,125 feet tall (taller than the Eiffel Tower)",
+      "explanation": "The Millau Viaduct reaches a structural mast height of 343 meters, making it the tallest bridge structure on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What geometric nickname is commonly used to describe mainland France due to its six-sided continental geographical shape?",
+      "options": [
+        "The Hexagon L Hexagone",
+        "The Pentagon",
+        "The Octagon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term L'Hexagone is widely used in French journalism and politics as a geographic shorthand for metropolitan France.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many total administrative regions comprise the French Republic following the major regional reform of 2016 (including five overseas regions)?",
+      "options": [
+        "13 Regions",
+        "18 Regions",
+        "22 Regions"
+      ],
+      "correctIndex": 1,
+      "explanation": "France consists of thirteen metropolitan regions in Europe and five overseas regions (Guadeloupe, Martinique, French Guiana, Réunion, and Mayotte).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French overseas department in South America is home to the European Space Agency primary equatorial rocket spaceport near Kourou?",
+      "options": [
+        "Guadeloupe",
+        "Martinique",
+        "French Guiana Guyane"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Guiana Space Centre (CSG) benefits from its proximity to the equator (five degrees North latitude), imparting maximum rotational boost to Ariane rockets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which active shield volcano on the French Indian Ocean island of Réunion is one of the most active volcanoes in the world, erupting dozens of times per decade?",
+      "options": [
+        "Piton de la Fournaise",
+        "Piton des Neiges",
+        "Mount Pelée"
+      ],
+      "correctIndex": 0,
+      "explanation": "Piton de la Fournaise (Peak of the Furnace) produces fluid basaltic lava flows that cascade down the Grand Brûlé caldera into the Indian Ocean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Due to its scattered overseas island territories across all oceans, which country possesses the largest Exclusive Economic Zone (EEZ) on Earth, covering 11.7 million sq km?",
+      "options": [
+        "United States",
+        "France",
+        "Australia"
+      ],
+      "correctIndex": 1,
+      "explanation": "French maritime exclusive economic zones encompass 11.7 million square kilometers across the Pacific, Atlantic, Indian, and Southern oceans.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total administrative regions (metropolitan plus overseas) comprise the French Republic?",
+      "target": 18,
+      "metricUnit": "regions",
+      "imperialDisplay": "18 administrative regions",
+      "explanation": "Since January 1, 2016, France is divided into eighteen official regions (13 in metropolitan France and 5 overseas).",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

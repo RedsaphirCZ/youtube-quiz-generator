@@ -1,0 +1,640 @@
+{
+  "id": "general-knowledge-vol5-60",
+  "theme": "General Knowledge Vol 5: Science, Arts & Human Civilization",
+  "title": "General Knowledge Vol 5: Science, Arts & Human Civilization",
+  "description": "A 60-question comprehensive assessment examining genetics, Renaissance technology, planetary geology, world philosophy, linguistics, and desert geography.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which Austrian monk discovered the fundamental laws of genetic inheritance by breeding pea plants in his abbey garden in 1865?",
+      "options": [
+        "Gregor Mendel",
+        "Hugo de Vries",
+        "Thomas Hunt Morgan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gregor Mendel established the principles of dominant and recessive alleles, segregation, and independent assortment. His empirical pea experiments published in 1866 went largely unappreciated until their famous rediscovery in 1900."
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary genome-editing tool adapted from a bacterial immune defense mechanism allows targeted DNA slicing?",
+      "options": [
+        "Zinc Finger Nuclease",
+        "CRISPR-Cas9",
+        "TALEN System"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emmanuelle Charpentier and Jennifer Doudna developed CRISPR-Cas9 as a precision genetic tool, earning the 2020 Nobel Prize in Chemistry. The system uses a guide RNA sequence to direct the Cas9 enzyme to cut specific genomic loci."
+    },
+    {
+      "type": "mcq",
+      "question": "Which molecular nitrogenous base pairs specifically with adenine in double-stranded DNA via two hydrogen bonds?",
+      "options": [
+        "Cytosine",
+        "Guanine",
+        "Thymine"
+      ],
+      "correctIndex": 2,
+      "explanation": "According to Chargaff base-pairing rules, the purine adenine always pairs with the pyrimidine thymine in DNA. In RNA transcripts, thymine is replaced by uracil."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the complete set of genetic instructions encoded within all chromosomes of an organism called?",
+      "options": [
+        "Genome",
+        "Proteome",
+        "Genotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human genome consists of over 3.2 billion nucleotide base pairs packaged within 23 chromosome pairs. The Human Genome Project successfully sequenced the complete euchromatic human DNA in 2003."
+    },
+    {
+      "type": "mcq",
+      "question": "Which cellular organelle packages proteins into membrane-bound vesicles before they are sent to their destination?",
+      "options": [
+        "Ribosome",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Named after Italian anatomist Camillo Golgi, the Golgi apparatus consists of flattened cisternae stacks. It modifies, sorts, and packages glycoproteins synthesized in the rough endoplasmic reticulum."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the initial draft of the complete Human Genome Project announced by international scientists?",
+      "target": 2000,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 2000",
+      "explanation": "President Bill Clinton and Prime Minister Tony Blair jointly announced the working draft of the Human Genome sequence on 26 June 2000, completing the final reference in 2003."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German craftsman invented the movable metal type mechanical printing press in Mainz around 1440?",
+      "options": [
+        "Johannes Fust",
+        "Peter Schoffer",
+        "Johannes Gutenberg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gutenberg combined hand-mold type casting, oil-based ink, and a wooden screw press to mass-produce printed books. The Gutenberg Bible printed in the 1450s sparked the European Printing Revolution and democratization of knowledge."
+    },
+    {
+      "type": "mcq",
+      "question": "What optical instrument improved by Galileo Galilei in 1609 allowed him to discover the four largest moons of Jupiter?",
+      "options": [
+        "Refracting Telescope",
+        "Compound Microscope",
+        "Reflecting Telescope"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galileo ground superior concave and convex glass lenses to construct a 20x magnification refractor telescope. His observations of Io, Europa, Ganymede, and Callisto provided conclusive observational proof against geocentrism."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Flemish anatomist revolutionized medicine in 1543 by publishing De humani corporis fabrica based on direct human dissection?",
+      "options": [
+        "William Harvey",
+        "Andreas Vesalius",
+        "Paracelsus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Andreas Vesalius challenged centuries of Galenic anatomical dogma by conducting his own meticulous human dissections in Padua. His beautifully illustrated atlas established modern scientific human anatomy."
+    },
+    {
+      "type": "mcq",
+      "question": "What Italian polymath designed forward-thinking conceptual sketches of helicopters, tanks, and automated calculating machines in his notebooks?",
+      "options": [
+        "Donatello",
+        "Michelangelo",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leonardo da Vinci codices contain thousands of mirror-written pages exploring fluid dynamics, avian biomechanics, military defense fortifications, and mechanical clockwork robotics centuries ahead of their practical engineering realization."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish astronomer published De revolutionibus orbium coelestium in 1543, proposing the mathematical heliocentric model of the universe?",
+      "options": [
+        "Nicolaus Copernicus",
+        "Tycho Brahe",
+        "Johannes Kepler"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nicolaus Copernicus placed the Sun at the center of the solar system, with Earth and other planets revolving in orbital spheres. His Copernican Revolution shattered medieval Ptolemaic cosmology."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Nicolaus Copernicus publish his epochal heliocentric treatise De revolutionibus orbium coelestium?",
+      "target": 1543,
+      "metricUnit": "CE",
+      "imperialDisplay": "1543 AD",
+      "explanation": "Copernicus received a printed copy of his revolutionary heliocentric masterwork on his deathbed on 24 May 1543."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest shield volcano and tallest planetary mountain in the Solar System, rising 22 kilometers on Mars?",
+      "options": [
+        "Mauna Kea",
+        "Olympus Mons",
+        "Alba Mons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Olympus Mons towers nearly three times higher than Mount Everest, spanning a footprint the size of the state of Arizona. It grew to immense proportions because Mars lacks shifting tectonic plates, allowing magma to plume repeatedly at a single hotspot."
+    },
+    {
+      "type": "mcq",
+      "question": "Which moon of Saturn is the only moon in the Solar System known to have a dense nitrogen atmosphere and liquid hydrocarbon lakes?",
+      "options": [
+        "Enceladus",
+        "Rhea",
+        "Titan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Titan surface atmospheric pressure is 50 percent greater than Earth, harboring clouds, rain, and seas composed of liquid methane and ethane. The ESA Huygens probe made history by landing on its frozen hydrocarbon surface in 2005."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive canyon network on Mars stretches over 4,000 kilometers long and reaches depths up to 7 kilometers?",
+      "options": [
+        "Valles Marineris",
+        "Grand Canyon",
+        "Argyre Planitia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Valles Marineris dwarfs Earth Grand Canyon, spanning nearly a quarter of Mars circumference along its equatorial trough. It was primarily formed by tectonic rifting during the volcanic uplift of the adjacent Tharsis bulge."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet experiences the most severe surface atmospheric greenhouse effect, maintaining average temperatures around 465 degrees Celsius?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Jupiter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venus thick atmosphere consists of over 96 percent carbon dioxide enveloped by dense sulfuric acid clouds with surface pressures 92 times Earth. This runaway greenhouse effect makes Venus hotter than Mercury despite being twice as far from the Sun."
+    },
+    {
+      "type": "mcq",
+      "question": "What icy moon of Jupiter is believed to harbor a subsurface liquid water ocean containing more water than all of Earth oceans combined?",
+      "options": [
+        "Ganymede",
+        "Callisto",
+        "Europa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Europa smooth, fractured ice crust covers a global brine ocean warmed by tidal gravitational flexing from Jupiter. It represents one of humanity prime candidates in the search for extraterrestrial microbial life."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many kilometers tall is Olympus Mons, the largest volcano on Mars and in the Solar System?",
+      "target": 22,
+      "metricUnit": "km",
+      "imperialDisplay": "approx 13.6 miles (72,000 ft)",
+      "explanation": "Olympus Mons stands approximately 21.9 km (roughly 22 km / 72,000 ft) above Mars datum elevation, nearly triple the height of Mount Everest above sea level."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Chinese philosopher founded Confucianism, emphasizing filial piety, social harmony, and moral righteousness (Ren)?",
+      "options": [
+        "Confucius",
+        "Laozi",
+        "Zhuangzi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Confucius (Kong Fuzi) lived during the Spring and Autumn period (551–479 BCE), compiling moral teachings recorded in the Analects. His philosophies served as the ethical backbone for Chinese civil service examinations and imperial statecraft for two millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary 6th-century BCE Chinese sage is traditionally credited with writing the Dao De Jing, the foundational text of Daoism?",
+      "options": [
+        "Mencius",
+        "Laozi",
+        "Han Feizi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Laozi taught the principle of Wu Wei (effortless action or non-striving) and alignment with the natural flow of the Dao (the Way). Daoist philosophy deeply shaped Chinese medicine, landscape painting, and martial arts."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian prince renounced his wealth, achieved enlightenment beneath the Bodhi tree, and became known as the Buddha?",
+      "options": [
+        "Mahavira",
+        "Chandragupta",
+        "Siddhartha Gautama"
+      ],
+      "correctIndex": 2,
+      "explanation": "Siddhartha Gautama formulated the Four Noble Truths and the Eightfold Path to overcome human suffering (dukkha) and attain Nirvana. Buddhism spread across Asia, establishing major traditions such as Theravada, Mahayana, and Vajrayana."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German Enlightenment philosopher published the Critique of Pure Reason in 1781 and formulated the Categorical Imperative in ethics?",
+      "options": [
+        "Immanuel Kant",
+        "Georg Wilhelm Friedrich Hegel",
+        "Arthur Schopenhauer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immanuel Kant synthesized rationalism and empiricism by arguing that human perception structures sensory experience through space and time. His deontological ethics asserted that actions must be judged by moral duty rather than consequences."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish existentialist philosopher explored anxiety, subjective faith, and the leap of faith in works like Fear and Trembling?",
+      "options": [
+        "Friedrich Nietzsche",
+        "Soren Kierkegaard",
+        "Jean-Paul Sartre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Soren Kierkegaard rejected Hegelian systematic rationalism, asserting that genuine religious faith requires passionate individual commitment in the face of objective uncertainty. He is regarded as the father of Christian existentialism."
+    },
+    {
+      "type": "number",
+      "question": "How many foundational Noble Truths did the Buddha teach in his first sermon at the Deer Park in Sarnath?",
+      "target": 4,
+      "metricUnit": "truths",
+      "imperialDisplay": "Four Noble Truths (Dukkha, Samudaya, Nirodha, Magga)",
+      "explanation": "The Buddha taught the Four Noble Truths: the reality of suffering, the cause of suffering (craving), the cessation of suffering (Nirvana), and the Eightfold Path leading to cessation."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient seafaring Mediterranean civilization created the first phonetic alphabet around 1050 BCE, ancestor to Greek and Latin scripts?",
+      "options": [
+        "Minoans",
+        "Mycenaeans",
+        "Phoenicians"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Phoenician alphabet used 22 consonant letter signs based on phonetic sounds rather than complex logographic hieroglyphs. It spread rapidly along Mediterranean maritime trade routes and was adopted and modified by the Greeks with vowel letters."
+    },
+    {
+      "type": "mcq",
+      "question": "Which black granodiorite slab discovered in Egypt in 1799 contained a decree inscribed in Hieroglyphs, Demotic, and Ancient Greek?",
+      "options": [
+        "Rosetta Stone",
+        "Palermo Stone",
+        "Merneptah Stele"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rosetta Stone was carved in 196 BCE under Ptolemy V and discovered by French soldiers during Napoleon expedition. By comparing the known Greek text with the Egyptian scripts, Jean-Francois Champollion cracked the hieroglyphic code in 1822."
+    },
+    {
+      "type": "mcq",
+      "question": "What language family includes Hindi, English, Spanish, Russian, Persian, and Bengali, spoken by nearly 3 billion people today?",
+      "options": [
+        "Afroasiatic",
+        "Indo-European",
+        "Sino-Tibetan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Indo-European language family traces its common ancestor to Proto-Indo-European spoken in the Pontic-Caspian steppe roughly 6,000 years ago. It comprises major branches including Germanic, Romance, Slavic, Indo-Iranian, and Celtic."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Korean monarch created the highly scientific Hangul phonetic alphabet in 1443 to increase literacy among commoners?",
+      "options": [
+        "King Taejo",
+        "King Gojong",
+        "King Sejong the Great"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Sejong the Great commissioned scholars to design Hangul letterforms that mirror the physiological shapes of the tongue and mouth during pronunciation. Promulgated in the Hunminjeongeum, Hangul is celebrated as one of the world most logical writing systems."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient sacred classical language of India was used to compose the Vedas, Upanishads, and the Mahabharata epic?",
+      "options": [
+        "Sanskrit",
+        "Prakrit",
+        "Pali"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sanskrit was formalized by the ancient grammarian Panini around the 4th century BCE in his foundational treatise Ashtadhyayi. It is a primary liturgical language of Hinduism, Buddhism, and Jainism and key to Indo-European comparative linguistics."
+    },
+    {
+      "type": "number",
+      "question": "How many letters comprised the classical Phoenician phonetic alphabet that gave rise to the Greek and Latin alphabets?",
+      "target": 22,
+      "metricUnit": "letters",
+      "imperialDisplay": "22 consonant characters",
+      "explanation": "The Phoenician abjad consisted of exactly 22 consonantal letter signs written from right to left."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest hot desert in the world, spanning over 9 million square kilometers across North Africa?",
+      "options": [
+        "Arabian Desert",
+        "Sahara Desert",
+        "Gobi Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sahara spans eleven North African nations from the Atlantic Ocean to the Red Sea, covering an area nearly equal to the United States. Its hyper-arid climate is dominated by subtropical high-pressure cells of the Hadley circulation."
+    },
+    {
+      "type": "mcq",
+      "question": "Which cold winter desert spanning northern China and southern Mongolia is known for dinosaur fossil beds and historic Silk Road routes?",
+      "options": [
+        "Taklamakan Desert",
+        "Karakum Desert",
+        "Gobi Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gobi Desert is a rain shadow desert formed because the towering Himalayan mountains block moist monsoon air from the Indian Ocean. In the 1920s, Roy Chapman Andrews discovered the first fossilized dinosaur eggs in its Flaming Cliffs."
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal desert in southern Africa is scientifically considered the oldest desert on Earth, having existed for over 55 million years?",
+      "options": [
+        "Namib Desert",
+        "Kalahari Desert",
+        "Karoo Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Namib Desert stretches along the Atlantic coast of Namibia, where the cold Benguela Current creates persistent coastal fog and hyper-aridity. It features some of the tallest sand dunes in the world at Sossusvlei and the bizarre ancient Welwitschia mirabilis plant."
+    },
+    {
+      "type": "mcq",
+      "question": "What vast arid depression in eastern California is the hottest place on Earth, holding the record air temperature of 56.7 degrees Celsius?",
+      "options": [
+        "Mojave Basin",
+        "Death Valley",
+        "Sonoran Sink"
+      ],
+      "correctIndex": 1,
+      "explanation": "Death Valley Badwater Basin sits 86 meters below sea level, where descending compressed air and steep barren mountain walls trap extreme radiant heat. The World Meteorological Organization officially verified its 56.7 °C (134 °F) record set in July 1913."
+    },
+    {
+      "type": "mcq",
+      "question": "What immense sandy desert occupying the southern third of the Arabian Peninsula translates in Arabic to the Empty Quarter?",
+      "options": [
+        "An-Nafud",
+        "Wahiba Sands",
+        "Rub al Khali"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Rub al Khali covers roughly 650,000 square kilometers across Saudi Arabia, Oman, the UAE, and Yemen. It is the world largest continuous sand desert, featuring longitudinal mega-dunes over 250 meters high."
+    },
+    {
+      "type": "number",
+      "question": "What was the world-record highest surface air temperature in degrees Celsius officially recorded in Death Valley in 1913?",
+      "target": 57,
+      "metricUnit": "degrees Celsius",
+      "imperialDisplay": "134 degrees Fahrenheit (56.7 C)",
+      "explanation": "The record temperature of 56.7 °C (rounded to 57 °C / 134.0 °F) was recorded at Greenland Ranch in Death Valley, California, on 10 July 1913."
+    },
+    {
+      "type": "mcq",
+      "question": "What allotrope of carbon consists of a single-atom-thick hexagonal lattice that is 200 times stronger than steel by weight?",
+      "options": [
+        "Graphene",
+        "Diamond",
+        "Fullerene"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andre Geim and Konstantin Novoselov isolated graphene in 2004 using adhesive tape on graphite, winning the 2010 Nobel Prize in Physics. Graphene exhibits extraordinary electrical conductivity, optical transparency, and ballistic electron transport."
+    },
+    {
+      "type": "mcq",
+      "question": "Which synthetic polymer invented by Wallace Carothers at DuPont in 1935 transformed the textile industry as synthetic silk?",
+      "options": [
+        "Polyester",
+        "Nylon",
+        "Teflon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nylon 66 was synthesized by polycondensing hexamethylenediamine and adipic acid into strong, elastic thermoplastic polyamide fibers. Its public debut at the 1939 New York World Fair revolutionized stockings and parachute manufacturing."
+    },
+    {
+      "type": "mcq",
+      "question": "What non-stick fluoropolymer discovered accidentally by Roy Plunkett in 1938 is chemically known as polytetrafluoroethylene (PTFE)?",
+      "options": [
+        "Bakelite",
+        "Kevlar",
+        "Teflon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Teflon features one of the strongest chemical bonds in organic chemistry (carbon-fluorine bonds), making it chemically inert, non-stick, and resistant to extreme temperatures. It was critically utilized during the Manhattan Project to seal uranium enrichment pipes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-strength para-aramid synthetic fiber invented by Stephanie Kwolek in 1965 is five times stronger than steel on an equal weight basis?",
+      "options": [
+        "Kevlar",
+        "Spandex",
+        "Rayon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stephanie Kwolek discovered liquid crystal polymer solutions at DuPont that formed tightly aligned interchain hydrogen-bonded fibers upon spinning. Kevlar became the world standard for bulletproof body armor, racing sails, and aerospace composites."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most abundant chemical element in the universe by mass, accounting for roughly 75 percent of all baryonic matter?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrogen was formed during Big Bang nucleosynthesis in the first minutes of the universe. It powers the thermonuclear fusion reactions at the cores of stars, generating helium and emitting massive stellar radiance."
+    },
+    {
+      "type": "number",
+      "question": "What is the atomic number of the element Carbon, the chemical basis for all known organic life?",
+      "target": 6,
+      "metricUnit": "atomic number",
+      "imperialDisplay": "Element 6 (C)",
+      "explanation": "Carbon has an atomic number of 6 with four valence electrons, enabling it to form versatile covalent bonds and millions of organic macromolecules."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Portuguese navigator sailing for the Spanish crown was the first European explorer to reach the Pacific Ocean from the Americas in 1520?",
+      "options": [
+        "Vasco Nunez de Balboa",
+        "Hernando de Soto",
+        "Ferdinand Magellan"
+      ],
+      "correctIndex": 2,
+      "explanation": "While Balboa crossed the Isthmus of Panama on foot in 1513 to see the Mar del Sur, Magellan was the first to sail his fleet through the Strait of Magellan directly into the Pacific Ocean in November 1520, naming it Mar Pacifico for its peaceful waters."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British explorer led the ill-fated 1845 Arctic expedition aboard HMS Erebus and HMS Terror to discover the Northwest Passage?",
+      "options": [
+        "John Franklin",
+        "James Clark Ross",
+        "Robert Peary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir John Franklin expedition vanished after their ships became trapped in multi-year sea ice near King William Island in the Canadian Arctic. All 129 crew members perished from hypothermia, starvation, and lead poisoning, with the shipwrecks finally located in 2014 and 2016."
+    },
+    {
+      "type": "mcq",
+      "question": "Who became the first person to reach the North Pole in a verified, undisputed airship flight aboard the Norge in May 1926?",
+      "options": [
+        "Richard E. Byrd",
+        "Roald Amundsen",
+        "Fridtjof Nansen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Roald Amundsen, Lincoln Ellsworth, and Italian aeronautical engineer Umberto Nobile flew the semi-rigid airship Norge over the North Pole on 12 May 1926. This cemented Amundsen as the first human to reach both the North and South Poles."
+    },
+    {
+      "type": "mcq",
+      "question": "What vast ice-covered continent surrounding the geographic South Pole contains roughly 70 percent of Earth fresh water and 90 percent of its ice?",
+      "options": [
+        "Greenland",
+        "Svalbard",
+        "Antarctica"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antarctica covers 14.2 million square kilometers and is the coldest, driest, and windiest continent on Earth. It is governed by the 1959 Antarctic Treaty System, reserving the land solely for peaceful scientific research."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary oceanographic explorer co-invented the Aqua-Lung in 1943 and introduced millions to undersea life aboard RV Calypso?",
+      "options": [
+        "Jacques-Yves Cousteau",
+        "Jacques Piccard",
+        "William Beebe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jacques-Yves Cousteau and engineer Emile Gagnan developed the open-circuit scuba regulator, allowing divers to swim untethered underwater. His pioneering documentaries and books brought marine conservation into global awareness."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the international Antarctic Treaty signed in Washington D.C., preserving the continent for peaceful scientific research?",
+      "target": 1959,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 1959",
+      "explanation": "The Antarctic Treaty was signed by twelve original nations on 1 December 1959 and entered into force in 1961, establishing freedom of scientific investigation and banning military activity."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American test pilot became the first person to break the sound barrier in level flight aboard the Bell X-1 on 14 October 1947?",
+      "options": [
+        "Bob Hoover",
+        "Chuck Yeager",
+        "Neil Armstrong"
+      ],
+      "correctIndex": 1,
+      "explanation": "Captain Chuck Yeager flew the rocket-powered Bell X-1 (named Glamorous Glennis) over Muroc Dry Lake, California, reaching Mach 1.06 (roughly 1,127 km/h) at 43,000 feet. His flight proved that aircraft could transcend the transonic compressibility barrier without disintegrating."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American aviator was the first woman to fly solo nonstop across the Atlantic Ocean in May 1932?",
+      "options": [
+        "Bessie Coleman",
+        "Jacqueline Cochran",
+        "Amelia Earhart"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amelia Earhart landed her Lockheed Vega 5B in a pasture at Culmore, Northern Ireland after a 14-hour flight from Newfoundland on 20–21 May 1932. She was awarded the Distinguished Flying Cross by the United States Congress."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary twin-engine reconnaissance aircraft operated by the USAF could cruise at Mach 3.2 and altitudes above 85,000 feet?",
+      "options": [
+        "SR-71 Blackbird",
+        "U-2 Dragon Lady",
+        "XB-70 Valkyrie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by Kelly Johnson and Lockheed Skunk Works, the SR-71 Blackbird utilized titanium alloy airframes, radar-absorbing coatings, and Pratt & Whitney J58 turbo-ramjet engines. No SR-71 was ever shot down by enemy missiles in over three decades of service."
+    },
+    {
+      "type": "mcq",
+      "question": "Where did Orville and Wilbur Wright achieve the first controlled, powered, heavier-than-air human flight on 17 December 1903?",
+      "options": [
+        "Dayton Ohio",
+        "Kitty Hawk North Carolina",
+        "Fort Myer Virginia"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Wright brothers launched their Wright Flyer four times against steady Atlantic coastal winds at Kill Devil Hills near Kitty Hawk. Orville initial 12-second flight covered 120 feet (37 meters), inaugurating the era of modern aviation."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the speed of an aircraft flying at Mach 1 defined as relative to the surrounding medium?",
+      "options": [
+        "The speed of light",
+        "The escape velocity",
+        "The local speed of sound"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after Austrian physicist Ernst Mach, the Mach number is a dimensionless quantity representing flow velocity divided by the local speed of sound. At standard sea-level temperature (15 °C), Mach 1 is approximately 340.3 m/s (1,225 km/h or 761 mph)."
+    },
+    {
+      "type": "number",
+      "question": "What was the duration in seconds of Orville Wright historic first powered flight at Kitty Hawk on 17 December 1903?",
+      "target": 12,
+      "metricUnit": "seconds",
+      "imperialDisplay": "12 seconds (120 feet)",
+      "explanation": "Orville Wright first flight lasted exactly 12 seconds, traveling 120 feet (37 meters) across the dunes of Kill Devil Hills."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish post-impressionist and cubist pioneer painted Guernica in 1937, portraying the horrors of aerial civilian bombing?",
+      "options": [
+        "Pablo Picasso",
+        "Salvador Dali",
+        "Joan Miro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pablo Picasso created the massive black-and-white oil mural following the Nazi Condor Legion bombing of the Basque town of Guernica during the Spanish Civil War. It stands as one of the most powerful anti-war political statements in human history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch master painted Girl with a Pearl Earring around 1665, renowned for his masterful rendering of soft window light?",
+      "options": [
+        "Rembrandt van Rijn",
+        "Johannes Vermeer",
+        "Frans Hals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Johannes Vermeer created exquisite intimate domestic scenes in Delft using rare pigments like genuine lapis lazuli (ultramarine). The painting is a tronie (a study of facial expression and exotic costume) rather than a formal portrait."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French artist founded Impressionism with his 1872 landscape painting Impression Sunrise depicting the port of Le Havre?",
+      "options": [
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Claude Monet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Claude Monet captured transient atmospheric light, shimmering water reflections, and spontaneous en plein air brushwork. Art critic Louis Leroy sarcastically derived the term Impressionist from Monet title, unintentionally naming the movement."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian expressionist artist created four versions of The Scream between 1893 and 1910, depicting existential dread under a blood-red sky?",
+      "options": [
+        "Edvard Munch",
+        "Gustav Klimt",
+        "Egon Schiele"
+      ],
+      "correctIndex": 0,
+      "explanation": "Edvard Munch painted The Scream based on a personal episode of sudden overwhelming anxiety while walking along a fjord at sunset. The agonized figure holding its head has become an iconic universal symbol of modern psychological angst."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch post-impressionist genius painted The Starry Night in June 1889 from the window of his asylum room in Saint-Remy-de-Provence?",
+      "options": [
+        "Paul Cezanne",
+        "Vincent van Gogh",
+        "Paul Gauguin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vincent van Gogh composed the swirling celestial sky, glowing crescent moon, and dark cypress tree with vigorous impasto brushstrokes. Painted while recovering from mental breakdown, it hangs today in the Museum of Modern Art (MoMA) in New York."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Pablo Picasso paint his monumental anti-war masterpiece Guernica for the Paris International Exposition?",
+      "target": 1937,
+      "metricUnit": "CE",
+      "imperialDisplay": "May-June 1937",
+      "explanation": "Picasso completed Guernica in June 1937 in Paris, immediately touring it internationally to raise funds and awareness for the Spanish Republican cause."
+    }
+  ]
+}

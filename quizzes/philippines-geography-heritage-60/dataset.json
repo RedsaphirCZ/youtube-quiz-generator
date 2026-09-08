@@ -1,0 +1,703 @@
+{
+  "id": "philippines-geography-heritage-60",
+  "theme": "Philippines: Geography, 7,641 Islands & Natural Wonders",
+  "title": "Philippines: Geography, 7,641 Islands & Natural Wonders",
+  "description": "A 60-question grand master assessment exploring the 7,641 islands, Manila & Intramuros (1571), Banaue Rice Terraces (2,000 yrs), Chocolate Hills (1,770 hills), Puerto Princesa underground river (8.2 km), Mayon volcano (1814), Jeepneys, Magellan (1521), and Mount Apo (2,954 m).",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "According to official nationwide hydrographic maritime mapping surveys by NAMRIA, exactly how many natural islands comprise the Philippine archipelago?",
+      "options": [
+        "7,641 Islands",
+        "7,107 Islands",
+        "6,500 Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2016, high-resolution satellite radar mapping discovered 534 previously uncounted islands and islets, raising the official count from 7,107 to 7,641.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into which three major geographical island groups is the Philippine archipelago traditionally divided from north to south?",
+      "options": [
+        "Luzon, Palawan, and Sulu",
+        "Luzon, Visayas, and Mindanao",
+        "Mindanao, Panay, and Samar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Represented by the three golden five-pointed stars on the national flag of the Philippines, Luzon is the largest, Visayas is the central group, and Mindanao is the south.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive marine ecosystem region surrounding the Philippines, Indonesia, and Malaysia contains over seventy-five percent of all known coral species on Earth?",
+      "options": [
+        "The Great Barrier Reef",
+        "The Mesoamerican Reef",
+        "The Coral Triangle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Verde Island Passage between Luzon and Mindoro is described by marine biologists as the 'Center of the Center of Marine Shorefish Biodiversity on Earth'.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What poetic title for the Philippine archipelago was popularized by national hero and martyr José Rizal in his patriotic farewell poem Mi último adiós?",
+      "options": [
+        "Pearl of the Orient Seas Perla del Mar de Oriente",
+        "Emerald of the Equator",
+        "Isles of Gold"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rizal wrote the 14-stanza poem on the eve of his execution at Bagumbayan (Luneta) on December 30, 1896, celebrating his homeland beauty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total combined coastline length of the Philippine archipelago in kilometers, making it the fifth longest coastline in the world?",
+      "options": [
+        "15,000 Kilometers",
+        "Over 36,289 Kilometers",
+        "22,000 Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "With 7,641 islands, the intricate bays, coves, and coral beaches of the Philippines give it more coastline than the entire contiguous United States.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official total number of surveyed natural islands that comprise the Philippine archipelago?",
+      "target": 7641,
+      "metricUnit": "islands",
+      "imperialDisplay": "7,641 islands (over 2,000 inhabited)",
+      "explanation": "The Philippine archipelago officially consists of 7,641 islands covering 300,000 square kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What capital city of the Philippines, situated on the eastern shore of Manila Bay at the mouth of the Pasig River, was founded by Miguel López de Legazpi in 1571?",
+      "options": [
+        "Quezon City",
+        "Cebu City",
+        "Manila"
+      ],
+      "correctIndex": 2,
+      "explanation": "Derived from the Tagalog phrase May-nilad (meaning 'where indigo-flowered mangrove trees thrive'), Metro Manila is one of the most densely populated urban regions on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 0.67-square-kilometer historic Spanish fortified walled city in Manila, meaning 'Within the Walls', served as the seat of the Spanish East Indies for over three centuries?",
+      "options": [
+        "Intramuros",
+        "Binondo",
+        "Quiapo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protected by thick stone ramparts, drawbridges, and moats, Intramuros houses Manila Cathedral, Casa Manila, and the historic citadel Fort Santiago.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental stone church inside Intramuros, completed in 1607, is the oldest stone church in the Philippines and a UNESCO World Heritage Baroque Church?",
+      "options": [
+        "Manila Cathedral",
+        "San Agustin Church",
+        "Quiapo Church"
+      ],
+      "correctIndex": 1,
+      "explanation": "San Agustin survived seven major earthquakes and the 1945 Battle of Manila, featuring trompe-l'œil ceiling frescoes and the tomb of Miguel López de Legazpi.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 250-year historic trans-Pacific trade route (1565 to 1815) used massive wooden sailing ships to exchange Chinese silks, porcelain, and spices in Manila for Mexican silver in Acapulco?",
+      "options": [
+        "The Spice Route",
+        "The Silk Road",
+        "The Manila-Acapulco Galleon Trade"
+      ],
+      "correctIndex": 2,
+      "explanation": "Connecting Asia, the Americas, and Europe for two and a half centuries, the galleons represented the very first true global trade network in human history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic neighborhood in Manila, established in 1594 by Spanish Governor Gómez Pérez Dasmariñas for Catholic Chinese immigrants, is the oldest Chinatown in the world?",
+      "options": [
+        "Binondo",
+        "Tondo",
+        "San Nicolas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Binondo is famous for authentic Chinese-Filipino bakeries selling hopia pastries, herbal apothecaries, and the minor basilica of Saint Lorenzo Ruiz.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Spanish conquistador Miguel López de Legazpi formally establish Manila as the colonial capital of the Philippines?",
+      "target": 1571,
+      "metricUnit": "year",
+      "imperialDisplay": "1571 AD",
+      "explanation": "Legazpi proclaimed Manila the capital of the Spanish East Indies on June 24, 1571.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 2,000-year-old agricultural wonders in the Cordillera Central mountains of northern Luzon were hand-carved into sheer mountain slopes by the indigenous Ifugao people?",
+      "options": [
+        "Batad Rice Terraces",
+        "Banaue Rice Terraces",
+        "Mayoyao Terraces"
+      ],
+      "correctIndex": 1,
+      "explanation": "Celebrated as the Eighth Wonder of the World, the stone and mud-walled terraces climb up to 1,500 meters altitude, fed by ancient mountain rainforest gravity irrigation streams.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Approximately how many thousands of years ago did the ancestors of the Ifugao people begin constructing the spectacular mountain rice terraces in Ifugao Province?",
+      "options": [
+        "500 Years Ago",
+        "1,000 Years Ago",
+        "2,000 Years Ago"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built largely with bare hands and stone tools before the arrival of Europeans, the interconnected terraces if placed end-to-end would circle halfway around the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which specific UNESCO World Heritage rice terrace cluster in Ifugao is famous for forming a colossal, breathtaking natural amphitheater of emerald-green terraces surrounding a village?",
+      "options": [
+        "Batad Rice Terraces",
+        "Bangaan Terraces",
+        "Hungduan Terraces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Batad requires a steep mountain hike down to the amphitheater basin, celebrated for the roaring Tappiya Waterfall plunging into a deep jungle pool.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred carved wooden humanoid figures, representing ancestral rice gods, are placed by Ifugao shamans in rice granaries to ensure bountiful harvest and protection against pests?",
+      "options": [
+        "Manunggul",
+        "Bulul",
+        "Lingling-o"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carved from narra or ipil hardwood and consecrated through animal sacrifices, Bulul statues are paired male and female figures seated with arms crossed over knees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain town in Sagada, Mountain Province, is famous for the ancient Igorot funeral tradition of hanging wooden coffins high on sheer limestone canyon cliffs?",
+      "options": [
+        "Kabayan Mummies",
+        "Bontoc Caves",
+        "The Hanging Coffins of Sagada"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Igorot believed that placing deceased elders high up on cliffs brought their spirits closer to their ancestral gods and protected bodies from floods and wild animals.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousands of years old are the historic mountain rice terraces hand-carved by the Ifugao people in the Cordilleras of the Philippines?",
+      "target": 2,
+      "metricUnit": "thousand years old",
+      "imperialDisplay": "2,000+ years old",
+      "explanation": "Archaeological and cultural records confirm the Ifugao rice terraces have been continuously cultivated for over 2,000 years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What extraordinary geological formation in Bohol Province features over 1,770 symmetrical, conical karst limestone hills that turn a uniform cocoa-brown color during the dry season?",
+      "options": [
+        "Chocolate Hills",
+        "The Haycock Hills",
+        "The Osmeña Peak"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ranging from thirty to fifty meters in height across fifty square kilometers, the hills were formed by the weathering of marine coral limestone uplifted from the ocean floor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many conical limestone dome hills are estimated to cover the landscape across the municipalities of Carmen, Batuan, and Sagbayan in Bohol?",
+      "options": [
+        "500 Hills",
+        "Over 1,770 Hills",
+        "1,000 Hills"
+      ],
+      "correctIndex": 1,
+      "explanation": "Declared the country third National Geological Monument, government surveys have counted between 1,776 and 1,790 individual hills.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tiny, nocturnal primate species endemic to the southern Philippines (measuring just twelve centimeters with giant eyes larger than its brain) is protected in Bohol sanctuaries?",
+      "options": [
+        "Slow Loris",
+        "Pygmy Marmoset",
+        "Philippine Tarsier Carlito syrichta Mawmag"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tarsiers can rotate their heads 180 degrees in either direction and leap up to five meters between trees, highly sensitive to noise and light.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scenic river cruise in Bohol takes visitors aboard motorized floating catamaran restaurants through lush coconut palm valleys while enjoying local buffets and folk music?",
+      "options": [
+        "Loboc River Cruise",
+        "Abatan River",
+        "Inabanga River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cruise passes Busay Falls, stopping at floating riverside platforms where local villagers perform traditional Tinikling bamboo dances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous karst limestone cave on Panglao Island in Bohol features a naturally illuminated subterranean freshwater pool beneath hanging stalactites?",
+      "options": [
+        "Calbiga Cave",
+        "Hinagdanan Cave",
+        "Sohoton Cave"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hinagdanan (meaning 'Laddered' in Cebuano) was discovered accidentally by a local farmer clearing land, featuring sunlight streaming through holes in the cave ceiling.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total number of conical limestone hills comprising the Chocolate Hills geological monument in Bohol, Philippines?",
+      "target": 1770,
+      "metricUnit": "hills",
+      "imperialDisplay": "1,770+ symmetrical hills",
+      "explanation": "Geologists have mapped at least 1,776 individual conical karst hills across Bohol.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage and New 7 Wonders of Nature site in Palawan features an 8.2-kilometer navigable underground river flowing through massive karst limestone caverns directly into the South China Sea?",
+      "options": [
+        "Underground River of Coron",
+        "Hinatuan Enchanted River",
+        "Puerto Princesa Subterranean River"
+      ],
+      "correctIndex": 2,
+      "explanation": "Featuring dramatic stalactites, bats, and a 360-meter Italian chamber (one of the largest cave rooms in the world), paddle boats guide visitors along the first 4.3 kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total navigable length in kilometers of the Puerto Princesa Subterranean River flowing beneath Saint Paul Mountain in Palawan?",
+      "options": [
+        "8.2 Kilometers",
+        "4.5 Kilometers",
+        "15.0 Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Until the 2007 discovery of Mexico subterranean river in Yucatán, Puerto Princesa was recognized as the longest underground river on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous tropical resort municipality on the northern tip of Palawan is renowned for towering black limestone karst cliffs, hidden beaches, and the Bacuit Archipelago lagoons?",
+      "options": [
+        "San Vicente",
+        "El Nido",
+        "Coron"
+      ],
+      "correctIndex": 1,
+      "explanation": "El Nido (meaning 'The Nest' in Spanish) is named for the edible nests of swiftlets (collocalia) harvested from sheer limestone cliff crevices for bird nest soup.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island municipality in the Calamian Islands of Palawan is world-renowned among scuba divers for twelve exceptionally preserved sunken Japanese naval supply shipwrecks from a 1944 WWII US air strike?",
+      "options": [
+        "Cuyo",
+        "Culion",
+        "Coron Busuanga"
+      ],
+      "correctIndex": 2,
+      "explanation": "Coron Bay shipwrecks (such as the 140-meter Akitsushima and Irako) lie at recreational dive depths surrounded by coral reefs and Kayangan Lake (cleanest lake in Asia).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pristine UNESCO World Heritage marine sanctuary in the middle of the Sulu Sea covers 97,030 hectares of pristine coral atolls hosting hammerhead sharks and manta rays?",
+      "options": [
+        "Tubbataha Reefs Natural Park",
+        "Apo Reef",
+        "Dauin Marine Sanctuary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tubbataha comprises two massive coral atolls (North and South) and Jessie Beazley Reef, accessible to liveaboard dive vessels only between March and June.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total surveyed length in kilometers of the Puerto Princesa Subterranean River in Palawan, Philippines?",
+      "target": 8,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "5.1 miles (8.2 km long)",
+      "explanation": "The underground river measures 8.2 kilometers (rounded to 8 km) from its mountain source to the sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous active stratovolcano in Albay Province, rising 2,463 meters above the Bicol Region, is celebrated worldwide for its extraordinarily perfect symmetrical conical shape?",
+      "options": [
+        "Mount Pinatubo",
+        "Mayon Volcano",
+        "Taal Volcano"
+      ],
+      "correctIndex": 1,
+      "explanation": "Revered in Bicolano mythology as the burial mound of the tragic maiden Daragang Magayon (Beautiful Lady), Mayon is the most active volcano in the Philippines with over fifty recorded eruptions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what catastrophic year did Mayon Volcano unleash its deadliest recorded eruption, burying the entire town of Cagsawa under pyroclastic flows and leaving only the stone Franciscan church belfry standing?",
+      "options": [
+        "1897",
+        "1993",
+        "1814"
+      ],
+      "correctIndex": 2,
+      "explanation": "On February 1, 1814, volcanic tephra and lahar killed over 1,200 people, leaving the iconic Cagsawa Ruins belfry framed against the conical volcano.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What complex volcano in Batangas Province, situated on an island within Lake Taal, is the second most active volcano in the Philippines and historically famous for having an island within a lake on an island within a lake?",
+      "options": [
+        "Taal Volcano",
+        "Mount Bulusan",
+        "Mount Kanlaon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taal Crater Lake contained Vulcan Point (a tiny rock islet), forming a nested island-lake geological phenomenon before the massive January 2020 explosive eruption.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcano in Zambales, Luzon, erupted on June 15, 1991, in the second largest terrestrial volcanic eruption of the 20th century, ejecting ten billion tons of magma into the stratosphere?",
+      "options": [
+        "Mayon Volcano",
+        "Mount Pinatubo",
+        "Mount Hibok-Hibok"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pinatubo sulfur dioxide aerosol cloud cooled global surface temperatures by 0.5°C for two years, transforming its summit into a turquoise crater lake.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What active stratovolcano on Negros Island, rising 2,465 meters, is the highest mountain in the Visayas and the center of Mount Kanlaon Natural Park?",
+      "options": [
+        "Mount Talinis",
+        "Mount Madjaas",
+        "Mount Kanlaon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kanlaon is a holy mountain in Visayan mythology, sacred to the supreme deity Kan-Laon, featuring hot mineral springs like Mambucal Springs.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what historic year did Mayon Volcano unleash the catastrophic eruption that buried the town of Cagsawa, creating the iconic Cagsawa Ruins?",
+      "target": 1814,
+      "metricUnit": "year",
+      "imperialDisplay": "1814 AD",
+      "explanation": "Mayon's most violent recorded eruption occurred on February 1, 1814.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colorful, flamboyant public transit vehicles, known as the King of the Road, were originally created after World War II by converting surplus US military Willys Jeeps?",
+      "options": [
+        "Jeepneys",
+        "Tricycles",
+        "Habal-Habal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crafted by coachbuilders like Sarao Motors, jeepneys feature elongated rear bench seats, chrome hood horses, airbrushed religious murals, and neon dashboard lights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which decade following the end of World War II were the first surplus American military jeeps converted into passenger Jeepneys in Manila?",
+      "options": [
+        "1960s",
+        "1940s",
+        "1970s"
+      ],
+      "correctIndex": 1,
+      "explanation": "When American forces left hundreds of surplus military Jeeps in the Philippines in 1945, ingenious Filipino mechanics transformed them into cheap mass public transportation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Filipino cultural spirit of communal unity and mutual cooperation is famously depicted by villagers collectively lifting and carrying a neighbor bamboo nipa hut (bahay kubo) on their shoulders?",
+      "options": [
+        "Pakikisama",
+        "Utang na Loob",
+        "Bayanihan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Derived from bayan (town/nation), Bayanihan represents community members coming together voluntarily to help neighbors in need without expecting monetary payment.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Filipino military-style communal feast involves piling mountains of garlic rice, grilled pork belly (liempo), seafood, and fruits directly onto fresh banana leaves to be eaten by hand (kamayan)?",
+      "options": [
+        "Boodle Fight",
+        "Fiesta",
+        "Kusina"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originating in the Philippine Armed Forces as a symbol of camaraderie, diners stand side-by-side eating without plates or utensils in a joyful free-for-all.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous and polarizing Filipino street food delicacy consists of a fertilized developing duck egg embryo (incubated for fourteen to eighteen days), boiled and eaten straight from the shell with salt and chili vinegar?",
+      "options": [
+        "Penoy",
+        "Balut",
+        "Kwek-Kwek"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sold nightly by street hawkers shouting 'Baluuuut!', eaters sip the warm savory broth from the cracked shell before seasoning the embryo and yolk.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In which decade did Filipino mechanics first begin converting surplus US military Willys jeeps into iconic passenger Jeepneys?",
+      "target": 1940,
+      "metricUnit": "decade",
+      "imperialDisplay": "1940s (1945 post-WWII)",
+      "explanation": "The Jeepney was born in the late 1940s (around 1945) immediately following the liberation of the Philippines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is widely regarded as the unofficial National Dish of the Philippines, consisting of pork or chicken braised in a savory marinade of cane vinegar, soy sauce, garlic, bay leaves, and black peppercorns?",
+      "options": [
+        "Sinigang",
+        "Kare-Kare",
+        "Philippine Adobo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Derived from the Spanish adobar (to marinate), the indigenous cooking method using acidic cane vinegar was used by early Filipinos to preserve meat in tropical climates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What celebratory Philippine centerpiece dish, praised by chef Anthony Bourdain as 'the best pig ever', consists of an entire whole pig slow-roasted over charcoal on a bamboo spit until the skin is glassy crisp?",
+      "options": [
+        "Lechón",
+        "Crispy Pata",
+        "Sisig"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cebu lechon is stuffed with aromatic lemongrass (tanglad), crushed garlic, scallions, and star anise, requiring no dipping sauce because the meat is deeply seasoned.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What beloved sour soup broth dish, voted repeatedly as the world best soup by TasteAtlas, is flavored with sour tamarind (sampalok) and packed with pork, kangkong (water spinach), radish, and eggplant?",
+      "options": [
+        "Bulalo",
+        "Sinigang",
+        "Tinola"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sinigang characteristic refreshing sourness stimulates the palate in tropical heat, customizable with souring agents like green mango, kamias, or guava.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous colorful Filipino shaved ice dessert, meaning 'Mix-Mix', layers sweetened red beans, nata de coco, macapuno coconut, leche flan, purple yam (ube) jam, evaporated milk, and ube ice cream?",
+      "options": [
+        "Mais con Yelo",
+        "Buko Pandan",
+        "Halo-Halo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diners mix all the layered sweet ingredients together with a long spoon before eating, the ultimate multi-textured dessert.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island province in the Western Visayas produces the Carabao Mango, certified by Guinness as the sweetest mango variety in the entire world?",
+      "options": [
+        "Guimaras",
+        "Cebu",
+        "Davao"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guimaras mangoes are strictly protected; bringing any foreign mangoes or mango seeds onto the island is banned by law to safeguard the disease-free genetic strain.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many core seasoning ingredients (cane vinegar, soy sauce, garlic, bay leaves, and whole black peppercorns) define classic Philippine Adobo?",
+      "target": 5,
+      "metricUnit": "core ingredients",
+      "imperialDisplay": "5 essential marinade ingredients",
+      "explanation": "Classic Philippine Adobo relies on five fundamental pantry ingredients: vinegar, soy sauce, garlic, bay leaf, and black peppercorns.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What oldest Spanish settlement and first capital of the Philippines, known as the Queen City of the South, was founded in 1565 on the island of Cebu?",
+      "options": [
+        "Iloilo City",
+        "Cebu City",
+        "Bacolod"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cebu features Fort San Pedro (the oldest triangular stone bastion fort in the Philippines) and the Colon Street (oldest national street in the country).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic Christian wooden cross, housed in an octagonal stone kiosk next to the Basilica Minore del Santo Niño in Cebu, was planted on April 21, 1521, by Portuguese explorer Ferdinand Magellan?",
+      "options": [
+        "Cross of Mactan",
+        "Holy Cross of Agno",
+        "Magellan Cross"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magellan planted the cross upon baptizing Rajah Humabon and Queen Juana, marking the arrival of Roman Catholicism in the Philippines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous battle fought on April 27, 1521, on the shores of Mactan Island saw indigenous chieftain Lapulapu defeat Spanish forces and kill Ferdinand Magellan?",
+      "options": [
+        "Battle of Mactan",
+        "Battle of Manila Bay",
+        "Battle of Tirad Pass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lapulapu is venerated as the First Filipino Hero for successfully resisting European foreign conquest, commemorated by a 20-meter bronze statue on Mactan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 16th-century Flemish wooden statue of the infant Jesus, gifted by Magellan to Queen Juana in 1521, is the oldest surviving religious relic in the Philippines?",
+      "options": [
+        "Black Nazarene",
+        "Santo Niño de Cebú",
+        "Our Lady of Peñafrancia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rediscovered unharmed inside a wooden pine box in a burned hut during Legazpi 1565 expedition, it is enshrined in the Basilica Minore del Santo Niño.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive cultural and religious dance festival, celebrated in Cebu every third Sunday of January, honors the Santo Niño with a distinctive two-steps-forward-one-step-backward street dance to the beat of drums?",
+      "options": [
+        "Ati-Atihan Festival",
+        "Dinagyang Festival",
+        "Sinulog Festival"
+      ],
+      "correctIndex": 2,
+      "explanation": "Millions chant 'Pit Señor! Viva Santo Niño!' while holding statues of the Christ child aloft, moving in rhythm mimicking the gentle current (sulog) of the Pahina River.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Ferdinand Magellan and his Spanish expedition arrive in the Philippines, planting Magellan's Cross in Cebu?",
+      "target": 1521,
+      "metricUnit": "year",
+      "imperialDisplay": "1521 AD",
+      "explanation": "Magellan made landfall in the Philippines on March 16, 1521, planting the historic cross in Cebu on April 21, 1521.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Philippines, rising 2,954 meters as a dormant stratovolcano on the island of Mindanao?",
+      "options": [
+        "Mount Apo",
+        "Mount Dulang-dulang",
+        "Mount Pulag"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Apo (meaning 'Grandfather of all mountains') is crowned by three rocky peaks, a 500-meter sulfur vent geothermal field, and ancient mossy cloud forests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered apex bird of prey, also known as the Monkey-Eating Eagle with a massive two-meter wingspan, is the official National Bird of the Philippines?",
+      "options": [
+        "Brahminy Kite",
+        "The Philippine Eagle",
+        "Philippine Hawk-Eagle"
+      ],
+      "correctIndex": 1,
+      "explanation": "With fewer than 400 pairs surviving in old-growth primary rainforests, killing a Philippine eagle carries a twelve-year prison sentence under wildlife protection laws.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative regions (such as Ilocos, Bicol, Central Visayas, and BARMM) is the Republic of the Philippines politically organized across its eighty-two provinces?",
+      "options": [
+        "12 Regions",
+        "22 Regions",
+        "17 Administrative Regions"
+      ],
+      "correctIndex": 2,
+      "explanation": "The seventeen regions group the eighty-two provinces and 149 cities for administrative coordination and economic development.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What are the two official national languages of the Republic of the Philippines under the 1987 Constitution, spoken alongside 180 indigenous Philippine languages?",
+      "options": [
+        "Filipino Tagalog and English",
+        "Tagalog and Spanish",
+        "Cebuano and English"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Philippines is the third largest English-speaking nation in the world by population, utilizing Filipino as the national lingua franca.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 2,928-meter mountain in Benguet, Luzon, the third highest peak in the country, is celebrated for its breathtaking 'Sea of Clouds' sunrise vista over rolling mountain ridges?",
+      "options": [
+        "Mount Kitanglad",
+        "Mount Pulag",
+        "Mount Halcon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sacred to the Ibaloi and Kalanguya indigenous tribes, Mount Pulag is home to rare dwarf bamboo grasslands and the ancient Kabayan burial mummies.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official summit elevation in meters above sea level of Mount Apo on the island of Mindanao, the highest mountain peak in the Philippines?",
+      "target": 2954,
+      "metricUnit": "meters",
+      "imperialDisplay": "9,692 feet",
+      "explanation": "Mount Apo reaches an official summit elevation of 2,954 meters above sea level.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

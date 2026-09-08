@@ -1,0 +1,703 @@
+{
+  "id": "artificial-intelligence-robotics-60",
+  "theme": "AI & Robotics: Neural Networks, Humanoids & Automation",
+  "title": "AI & Robotics: Neural Networks, Humanoids & Automation",
+  "description": "Comprehensive 60-question assessment exploring the Dartmouth workshop, neural network milestones, chess and Go triumphs, computer vision, and robotics history.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "At which 1956 summer research workshop at Dartmouth College was the formal term Artificial Intelligence first coined by computer scientist John McCarthy?",
+      "options": [
+        "Dartmouth Workshop",
+        "Macy Conferences",
+        "Bletchley Colloquium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Organized by John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon, the workshop founded AI as an academic discipline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In his landmark 1950 paper Computing Machinery and Intelligence, which British mathematician proposed the Imitation Game test of machine intelligence?",
+      "options": [
+        "Claude Shannon",
+        "Alan Turing",
+        "Norbert Wiener"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Turing Test assesses whether a human interrogator can distinguish conversational text responses of a machine from those of a human.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1956 computer program, written by Allen Newell, Herbert Simon, and Cliff Shaw, proved mathematical theorems and is celebrated as the first AI program?",
+      "options": [
+        "General Problem Solver",
+        "ELIZA",
+        "Logic Theorist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Logic Theorist proved thirty-eight of the first fifty-two theorems in Whitehead and Russell Principia Mathematica using heuristic search.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which early 1966 natural language processing chatbot created by Joseph Weizenbaum at MIT simulated a Rogerian psychotherapist?",
+      "options": [
+        "ELIZA",
+        "SHRDLU",
+        "PARRY"
+      ],
+      "correctIndex": 0,
+      "explanation": "ELIZA used pattern-matching and script substitution to reflect user statements as questions, creating the illusion of understanding.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1970s Stanford expert system used a rule-based knowledge engine of 600 rules to identify bacterial blood infections and recommend antibiotics?",
+      "options": [
+        "DENDRAL",
+        "MYCIN",
+        "PROSPECTOR"
+      ],
+      "correctIndex": 1,
+      "explanation": "MYCIN demonstrated that symbolic rule-based systems could rival human clinical specialists in narrow diagnostic domains.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Dartmouth Summer Research Project on Artificial Intelligence convened in New Hampshire?",
+      "target": 1956,
+      "metricUnit": "year",
+      "imperialDisplay": "1956 AD",
+      "explanation": "The Dartmouth workshop was held in July and August 1956, initiating the modern field of artificial intelligence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American psychologist invented the Perceptron in 1958 at Cornell Aeronautical Laboratory, creating the earliest electronic neural network model?",
+      "options": [
+        "Warren McCulloch",
+        "Walter Pitts",
+        "Frank Rosenblatt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rosenblatt Mark I Perceptron used optical photo-cells and motorized potentiometers to learn pattern recognition.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1969 book by Marvin Minsky and Seymour Papert proved that single-layer perceptrons could not compute the exclusive-or function, triggering the first AI Winter?",
+      "options": [
+        "Perceptrons",
+        "The Society of Mind",
+        "Cybernetics"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mathematical proof that single-layer networks could not solve non-linear XOR problems caused government funding for neural networks to evaporate for a decade.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which foundational learning algorithm for training multi-layer neural networks was popularized in a landmark 1986 Nature paper by Rumelhart, Hinton, and Williams?",
+      "options": [
+        "Hebbian Learning",
+        "Backpropagation",
+        "Genetic Algorithm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Backpropagation efficiently calculates the gradient of the loss function using the calculus chain rule to update synaptic weights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which recurrent artificial neural network model, invented by physicist John Hopfield in 1982, serves as an associative content-addressable memory system?",
+      "options": [
+        "Boltzmann Machine",
+        "Kohonen Map",
+        "Hopfield Network"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hopfield networks guaranteed convergence to local energy minima, bridging statistical physics and computational neuroscience.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What non-linear mathematical function, such as ReLU or Sigmoid, is applied to a neuron weighted sum to determine whether it should fire?",
+      "options": [
+        "Activation Function",
+        "Loss Function",
+        "Cost Matrix"
+      ],
+      "correctIndex": 0,
+      "explanation": "Activation functions introduce non-linearity into neural networks, enabling them to approximate complex multi-dimensional mathematical relationships.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did David Rumelhart, Geoffrey Hinton, and Ronald Williams publish their seminal Nature paper on the backpropagation algorithm?",
+      "target": 1986,
+      "metricUnit": "year",
+      "imperialDisplay": "1986 AD",
+      "explanation": "The landmark paper Learning representations by back-propagating errors was published in Nature on October 9, 1986.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In May 1997, which IBM supercomputer made history by becoming the first computer system to defeat a reigning world chess champion in a standard match?",
+      "options": [
+        "Deep Thought",
+        "Deep Blue",
+        "Watson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deep Blue defeated Garry Kasparov 3.5 to 2.5 in a six-game rematch in New York using custom chess VLSI chips evaluating 200 million positions per second.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In March 2016, which Google DeepMind AI program defeated legendary 18-time world Go champion Lee Sedol in Seoul, South Korea?",
+      "options": [
+        "AlphaZero",
+        "AlphaStar",
+        "AlphaGo"
+      ],
+      "correctIndex": 2,
+      "explanation": "AlphaGo combined deep convolutional policy networks with Monte Carlo Tree Search, famously playing creative Move 37 in Game Two.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which IBM question-answering computer system defeated legendary champions Ken Jennings and Brad Rutter on the quiz show Jeopardy in February 2011?",
+      "options": [
+        "IBM Watson",
+        "Deep Blue",
+        "DeepQA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Watson analyzed natural language clues, evaluated evidence across four terabytes of structured text, and buzzed in using a robotic finger.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which reinforcement learning backgammon program, developed by Gerald Tesauro at IBM in 1992, played at near-master level through self-play?",
+      "options": [
+        "Chinook",
+        "TD-Gammon",
+        "Stockfish"
+      ],
+      "correctIndex": 1,
+      "explanation": "TD-Gammon used temporal difference learning to train a neural network without human expert rules, discovering novel opening strategies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which DeepMind system mastered chess, shogi, and Go entirely from scratch in just twenty-four hours using pure reinforcement learning without any human games?",
+      "options": [
+        "AlphaGo Zero",
+        "AlphaFold",
+        "AlphaZero"
+      ],
+      "correctIndex": 2,
+      "explanation": "AlphaZero learned exclusively by playing millions of games against itself from raw board rules, convincingly defeating champion engines Stockfish and Elmo.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did IBM Deep Blue defeat world chess champion Garry Kasparov in their historic six-game match in New York City?",
+      "target": 1997,
+      "metricUnit": "year",
+      "imperialDisplay": "1997 AD",
+      "explanation": "Deep Blue defeated Garry Kasparov on May 11, 1997, marking a monumental milestone in artificial intelligence history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French computer scientist developed the pioneering LeNet-5 convolutional neural network in 1998, reading handwritten zip codes on checks?",
+      "options": [
+        "Yann LeCun",
+        "Geoffrey Hinton",
+        "Yoshua Bengio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yann LeCun utilized spatial weight sharing, convolutional filters, and subsampling pooling layers to recognize characters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive visual database of over fourteen million annotated images, organized by Stanford professor Fei-Fei Li in 2009, accelerated modern deep vision?",
+      "options": [
+        "COCO",
+        "ImageNet",
+        "MNIST"
+      ],
+      "correctIndex": 1,
+      "explanation": "The annual ImageNet Large Scale Visual Recognition Challenge served as the global benchmark proving ground for modern deep neural network architectures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep convolutional network architecture, developed by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, crushed the 2012 ImageNet challenge?",
+      "options": [
+        "VGGNet",
+        "GoogLeNet",
+        "AlexNet"
+      ],
+      "correctIndex": 2,
+      "explanation": "AlexNet utilized twin Nvidia GPUs, ReLU non-linearities, and dropout regularization, slashing image classification error rates from twenty-six to fifteen percent.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 152-layer deep neural network architecture introduced skip residual connections in 2015, solving the vanishing gradient problem in ultra-deep models?",
+      "options": [
+        "ResNet",
+        "DenseNet",
+        "MobileNet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invented by Kaiming He and Microsoft researchers, ResNet enabled networks over one hundred layers deep to surpass human visual accuracy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which popular real-time object detection algorithm, created by Joseph Redmon in 2015, frames object detection as a single regression problem from full image pixels?",
+      "options": [
+        "Faster R-CNN",
+        "YOLO",
+        "SSD"
+      ],
+      "correctIndex": 1,
+      "explanation": "YOLO, short for You Only Look Once, processes images in a single evaluation pass, enabling high-frame-rate real-time video object detection.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did AlexNet win the ImageNet competition, widely cited as the catalyst for the modern deep learning boom?",
+      "target": 2012,
+      "metricUnit": "year",
+      "imperialDisplay": "2012 AD",
+      "explanation": "AlexNet won the ImageNet Large Scale Visual Recognition Challenge in September 2012 by an astonishing 10.8 percentage point margin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which breakthrough 2017 research paper by Google Brain and Google Research introduced the Transformer architecture based purely on self-attention?",
+      "options": [
+        "Deep Residual Learning",
+        "Language Models are Few-Shot Learners",
+        "Attention Is All You Need"
+      ],
+      "correctIndex": 2,
+      "explanation": "Authors Ashish Vaswani, Noam Shazeer, and team replaced recurrent networks with parallel multi-head self-attention mechanisms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What attention mechanism in transformers enables the model to weigh the contextual importance of all other words in a sentence when encoding a given word?",
+      "options": [
+        "Self-Attention",
+        "Cross-Entropy",
+        "Max Pooling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Self-attention computes query, key, and value dot products across token sequences, capturing distant semantic dependencies across paragraphs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Google 2018 natural language model used bidirectional transformer encoders to pre-train deep contextualized representations on unlabeled text?",
+      "options": [
+        "ELMo",
+        "BERT",
+        "Word2Vec"
+      ],
+      "correctIndex": 1,
+      "explanation": "BERT, short for Bidirectional Encoder Representations from Transformers, set state-of-the-art records across eleven major NLP benchmarks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2013 technique developed by Tomas Mikolov at Google mapped words into continuous multi-dimensional vector spaces where semantic relationships are algebraic?",
+      "options": [
+        "GloVe",
+        "FastText",
+        "Word2Vec"
+      ],
+      "correctIndex": 2,
+      "explanation": "Word2Vec famously captured semantic analogies in vector space, such as vector King minus vector Man plus vector Woman equaling vector Queen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What generative artificial intelligence model family uses autoregressive transformer decoders pre-trained on internet-scale text to generate coherent human text?",
+      "options": [
+        "GPT",
+        "BERT",
+        "T5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Generative Pre-trained Transformers predict next-token probabilities sequentially across context windows, demonstrating few-shot learning.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the foundational Attention Is All You Need paper published by Google researchers at NeurIPS?",
+      "target": 2017,
+      "metricUnit": "year",
+      "imperialDisplay": "2017 AD",
+      "explanation": "The Transformer architecture was published in December 2017, becoming the architectural foundation for all modern large language models.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two American inventors created the Unimate, the world first industrial robotic arm installed at a General Motors factory in 1961?",
+      "options": [
+        "Victor Scheinman and Marvin Minsky",
+        "George Devol and Joseph Engelberger",
+        "Rodney Brooks and Marc Raibert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Devol patented the programmable robotic transfer mechanism, while Engelberger founded Unimation, earning the title Father of Robotics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneering mobile robot developed at Stanford Research Institute from 1966 to 1972 was the first robot to integrate vision, navigation, and problem-solving?",
+      "options": [
+        "Stanford Cart",
+        "Freddy II",
+        "Shakey the Robot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shakey used the A-star search algorithm, Hough transforms, and the STRIPS automated planner to navigate rooms and push blocks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which all-electric six-axis articulated robotic arm, designed by Victor Scheinman at Stanford in 1969, established the kinematic design of modern industrial robots?",
+      "options": [
+        "Stanford Arm",
+        "PUMA Arm",
+        "SCARA Arm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Stanford Arm featured six rotary joints driven by electric DC motors, allowing computer control of dexterous assembly tasks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which popular assembly robot design, invented by Hiroshi Makino in 1978, features rigid vertical motion with selective horizontal joint compliance?",
+      "options": [
+        "Delta Robot",
+        "SCARA Robot",
+        "Cartesian Gantry Robot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selective Compliance Assembly Robot Arms are widely used in high-speed electronics assembly for precise pick-and-place insertion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary science fiction author formulated the famous Three Laws of Robotics in his 1942 short story Runaround?",
+      "options": [
+        "Arthur C. Clarke",
+        "Philip K. Dick",
+        "Isaac Asimov"
+      ],
+      "correctIndex": 2,
+      "explanation": "Asimov laws dictated that a robot may not injure a human, must obey human orders, and must protect its own existence unless in conflict with the first two laws.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the first Unimate industrial robotic arm deployed on an active assembly line at General Motors in Ewing, New Jersey?",
+      "target": 1961,
+      "metricUnit": "year",
+      "imperialDisplay": "1961 AD",
+      "explanation": "The hydraulic Unimate arm was installed in 1961 to lift red-hot die-cast door handles and weld them onto auto bodies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic white humanoid robot was introduced by Honda in 2000, capable of fluid walking, running, climbing stairs, and greeting dignitaries?",
+      "options": [
+        "ASIMO",
+        "WABOT-1",
+        "QRIO"
+      ],
+      "correctIndex": 0,
+      "explanation": "ASIMO, short for Advanced Step in Innovative Mobility, pioneered Zero Moment Point dynamic trajectory balancing during bipedal gait.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Massachusetts engineering robotics company developed the Atlas bipedal humanoid robot and the four-legged Spot quadruped robot?",
+      "options": [
+        "iRobot",
+        "Boston Dynamics",
+        "Rethink Robotics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Founded by Marc Raibert as an MIT spinoff, Boston Dynamics achieved breakthroughs in real-time dynamic balance, parkour, and hydraulic control.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1973 robotic project at Waseda University in Japan was the world first full-scale anthropomorphic humanoid robot with limb control and vision?",
+      "options": [
+        "HRP-2",
+        "E0",
+        "WABOT-1"
+      ],
+      "correctIndex": 2,
+      "explanation": "WABOT-1 had artificial ears, mouth, and eyes, able to converse in Japanese and walk slowly with two artificial legs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What bipedal walking principle, pioneered by Miomir Vukobratović, ensures that dynamic ground reaction forces prevent a robot from tipping over?",
+      "options": [
+        "Zero Moment Point",
+        "Center of Gravity Inversion",
+        "Inverted Pendulum Vector"
+      ],
+      "correctIndex": 0,
+      "explanation": "ZMP balance algorithms ensure that the net horizontal inertia and gravity moments around the contact support polygon equal zero.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What robotic quadruped created by Boston Dynamics for DARPA in 2005 was nicknamed BigDog for carrying heavy military loads across rough terrain?",
+      "options": [
+        "WildCat",
+        "BigDog",
+        "Cheetah"
+      ],
+      "correctIndex": 1,
+      "explanation": "BigDog utilized a small go-kart engine and hydraulic actuators, famously recovering its footing on ice when kicked.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Honda officially introduce the ASIMO humanoid robot to the public in Tokyo?",
+      "target": 2000,
+      "metricUnit": "year",
+      "imperialDisplay": "2000 AD",
+      "explanation": "Honda unveiled ASIMO on November 20, 2000, following fourteen years of secret bipedal humanoid robotics research.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which microwave-oven-sized robotic rover deployed by NASA Mars Pathfinder on July 4, 1997, was the first wheeled vehicle on Mars?",
+      "options": [
+        "Spirit",
+        "Opportunity",
+        "Sojourner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sojourner operated for eighty-three days on the Martian surface, using a rocker-bogie suspension to analyze rock compositions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which one-ton car-sized NASA rover landed in Mars Gale Crater in August 2012 using an audacious rocket-powered sky crane descent stage?",
+      "options": [
+        "Curiosity",
+        "Perseverance",
+        "Opportunity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curiosity discovered chemical evidence of ancient habitable freshwater lakes and organic carbon molecules on early Mars.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What small robotic coaxial helicopter deployed by NASA Perseverance rover achieved the first powered controlled flight on another planet in 2021?",
+      "options": [
+        "Dragonfly",
+        "Ingenuity",
+        "Vinci"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ingenuity completed seventy-two successful flights through the thin Martian atmosphere over nearly three years of operations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2005 autonomous vehicle competition organized by DARPA was won by Stanford University robotic Volkswagen Touareg named Stanley?",
+      "options": [
+        "DARPA Urban Challenge",
+        "Indy Autonomous Challenge",
+        "DARPA Grand Challenge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Led by Sebastian Thrun, Stanley navigated 212 kilometers of rugged Mojave Desert terrain in under seven hours with zero human intervention.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What optical remote sensing sensor uses pulsed laser beams to generate precise three-dimensional point clouds of surrounding environments for self-driving cars?",
+      "options": [
+        "LiDAR",
+        "Sonar",
+        "Radar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Light Detection and Ranging measures the time-of-flight of millions of laser reflections per second to create high-definition 3D maps.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Stanford autonomous car Stanley win the historic DARPA Grand Challenge across the Mojave Desert?",
+      "target": 2005,
+      "metricUnit": "year",
+      "imperialDisplay": "2005 AD",
+      "explanation": "Stanley won the DARPA Grand Challenge on October 8, 2005, claiming the two-million-dollar prize and igniting the modern autonomous vehicle industry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In machine learning, what framework models an autonomous agent making sequential decisions by interacting with an environment to maximize cumulative reward?",
+      "options": [
+        "Supervised Learning",
+        "Reinforcement Learning",
+        "Unsupervised Clustering"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reinforcement learning optimizes policy functions through trial and error, balancing exploration of new strategies with exploitation of known rewards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mathematical framework forms the formal foundation for reinforcement learning, defined by states, actions, transition probabilities, and rewards?",
+      "options": [
+        "Bayesian Network",
+        "Hidden Markov Model",
+        "Markov Decision Process"
+      ],
+      "correctIndex": 2,
+      "explanation": "MDPs assume the Markov property, where future states depend solely on the current state and action rather than historical paths.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which model-free reinforcement learning algorithm developed by Chris Watkins in 1989 learns the expected utility of taking a given action in a given state?",
+      "options": [
+        "Q-Learning",
+        "SARSA",
+        "Policy Gradient"
+      ],
+      "correctIndex": 0,
+      "explanation": "Q-learning iteratively updates a table or network of Q-values using the Bellman equation to derive optimal action-selection policies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which DeepMind system published in Nature in 2015 learned to play forty-nine Atari 2600 video games at super-human levels using raw pixels as input?",
+      "options": [
+        "AlphaGo",
+        "Deep Q-Network",
+        "AlphaStar"
+      ],
+      "correctIndex": 1,
+      "explanation": "DQN combined Q-learning with deep convolutional neural networks and experience replay memory buffers to achieve stable training.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which OpenAI system comprising five neural networks defeated world champion esports team OG in the complex video game Dota 2 in 2019?",
+      "options": [
+        "AlphaStar",
+        "OpenAI Gym",
+        "OpenAI Five"
+      ],
+      "correctIndex": 2,
+      "explanation": "OpenAI Five played tens of thousands of years of simulated game experience each day using scaled proximal policy optimization algorithms.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did DeepMind publish its landmark Nature paper Human-level control through deep reinforcement learning demonstrating DQN on Atari?",
+      "target": 2015,
+      "metricUnit": "year",
+      "imperialDisplay": "2015 AD",
+      "explanation": "DeepMind published the historic paper on February 26, 2015, featured on the cover of Nature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What counterintuitive observation in AI states that high-level abstract reasoning is easy for computers, while low-level sensory-motor skills are extremely difficult?",
+      "options": [
+        "Moravec Paradox",
+        "Polanyi Paradox",
+        "Amara Law"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hans Moravec noted that a four-year-old child easily perceives faces and walks across a room, skills that require enormous engineering for robots.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What statistical problem occurs when a machine learning model fits training data too closely, capturing random noise and failing to generalize to new data?",
+      "options": [
+        "Underfitting",
+        "Overfitting",
+        "Data Leakage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Overfitting is mitigated using techniques such as dropout, weight decay L2 regularization, cross-validation, and larger training datasets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What phenomenon describes when a generative large language model produces convincing, authoritative-sounding text that is completely factually false?",
+      "options": [
+        "Catastrophic Forgetting",
+        "Mode Collapse",
+        "Hallucination"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hallucinations occur because probabilistic language models generate statistically likely next tokens without explicit internal ground-truth verification.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What generative model architecture generates high-fidelity images by learning to reverse a gradual process of adding Gaussian noise to training images?",
+      "options": [
+        "Diffusion Model",
+        "Generative Adversarial Network",
+        "Variational Autoencoder"
+      ],
+      "correctIndex": 0,
+      "explanation": "Denoising diffusion probabilistic models underpin modern image generators such as Stable Diffusion, Midjourney, and DALL-E.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What AI safety challenge seeks to ensure that artificial intelligence systems reliably adhere to human intentions, values, and ethical principles?",
+      "options": [
+        "Symbol Grounding Problem",
+        "AI Alignment Problem",
+        "Frame Problem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alignment research uses methods like Reinforcement Learning from Human Feedback to prevent models from exhibiting deceptive or harmful behaviors.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Alan Turing publish Computing Machinery and Intelligence introducing the Imitation Game test in the philosophical journal Mind?",
+      "target": 1950,
+      "metricUnit": "year",
+      "imperialDisplay": "1950 AD",
+      "explanation": "Alan Turing published his seminal paper in October 1950, opening with the famous question: Can machines think?",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

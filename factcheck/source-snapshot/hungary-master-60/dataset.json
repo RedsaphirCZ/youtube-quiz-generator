@@ -1,0 +1,640 @@
+{
+  "id": "hungary-master-60",
+  "theme": "Hungary: History, Geography, Culture & Heritage",
+  "title": "Hungary: History, Geography, Culture & Heritage",
+  "description": "A 60-question grand master assessment on Hungary covering the Arpad dynasty, Ottoman wars, 1956 Revolution, Budapest landmarks, Lake Balaton, Hungarian inventions, and folklore.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-17T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who was the first crowned King of Hungary, crowned around the year 1000 or 1001?",
+      "options": [
+        "Stephen I",
+        "Béla IV",
+        "Matthias Corvinus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saint Stephen I founded the Kingdom of Hungary and introduced Christianity to the realm."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major European river divides the Hungarian capital into Buda and Pest?",
+      "options": [
+        "Rhine",
+        "Danube",
+        "Tisza"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Danube flows through central Budapest, separating hilly Buda from flat Pest."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest freshwater lake in Central Europe, often called the Hungarian Sea?",
+      "options": [
+        "Lake Velence",
+        "Lake Fertő",
+        "Lake Balaton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Balaton covers approximately 592 square kilometers and is a primary resort destination."
+    },
+    {
+      "type": "mcq",
+      "question": "Which spice made from dried and ground chili peppers is the hallmark seasoning of Hungarian cuisine?",
+      "options": [
+        "Paprika",
+        "Saffron",
+        "Caraway"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paprika is essential to traditional dishes like goulash, pörkölt, and paprikás."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the currency of Hungary?",
+      "options": [
+        "Kuna",
+        "Forint",
+        "Złoty"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Hungarian Forint (HUF) is the official currency of Hungary."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Golden Bull (Aranybulla) issued by King Andrew II limiting royal powers?",
+      "target": 1222,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1222 CE",
+      "explanation": "The Golden Bull of 1222 was one of the earliest constitutional documents in Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian architect designed the iconic neo-Gothic Hungarian Parliament Building in Budapest?",
+      "options": [
+        "Miklós Ybl",
+        "Ödön Lechner",
+        "Imre Steindl"
+      ],
+      "correctIndex": 2,
+      "explanation": "Imre Steindl designed the grand Parliament building on the Pest bank of the Danube, completed in 1904."
+    },
+    {
+      "type": "mcq",
+      "question": "In which year did the anti-Soviet Hungarian Revolution and Freedom Fight take place?",
+      "options": [
+        "1956",
+        "1968",
+        "1989"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hungarian Revolution began on October 23, 1956, and was brutally suppressed by Soviet forces in November."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous 15th-century Hungarian monarch was celebrated as \"the Just\" and established the Black Army?",
+      "options": [
+        "Louis the Great",
+        "Matthias Corvinus",
+        "Sigismund of Luxembourg"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Matthias Corvinus made Hungary a center of Renaissance art and humanism."
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic suspension bridge was the first permanent stone bridge to span the Danube connecting Buda and Pest?",
+      "options": [
+        "Liberty Bridge",
+        "Margaret Bridge",
+        "Széchenyi Chain Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Széchenyi Chain Bridge opened in 1849, championed by Count István Széchenyi."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian biochemist isolated Vitamin C and won the 1937 Nobel Prize in Physiology or Medicine?",
+      "options": [
+        "Albert Szent-Györgyi",
+        "János Neumann",
+        "Ede Teller"
+      ],
+      "correctIndex": 0,
+      "explanation": "Albert Szent-Györgyi extracted ascorbic acid (Vitamin C) from paprika in Szeged."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the decisive Battle of Mohács fought against the Ottoman Empire?",
+      "target": 1526,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1526 CE",
+      "explanation": "The Battle of Mohács in 1526 resulted in the defeat of King Louis II and the partition of Hungary."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous fortress city successfully repelled the Ottoman siege of 1552 led by István Dobó?",
+      "options": [
+        "Esztergom",
+        "Eger",
+        "Székesfehérvár"
+      ],
+      "correctIndex": 1,
+      "explanation": "The defenders of Eger Castle, including the brave women of Eger, repelled an overwhelming Ottoman army."
+    },
+    {
+      "type": "mcq",
+      "question": "Which renowned Hungarian inventor created the 3-D combination puzzle cube in 1974?",
+      "options": [
+        "László Bíró",
+        "Dénes Gábor",
+        "Ernő Rubik"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ernő Rubik invented the Rubik's Cube, which became the world's best-selling puzzle toy."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Hungary, located in the Mátra mountain range?",
+      "options": [
+        "Kékes",
+        "Írott-kő",
+        "Nagy-Milic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kékes reaches an elevation of 1,014 meters above sea level."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sweet botrytized dessert wine from northeastern Hungary was famously called the \"Wine of Kings, King of Wines\"?",
+      "options": [
+        "Egri Bikavér",
+        "Tokaji Aszú",
+        "Villányi Franc"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tokaji Aszú is made from noble-rot affected grapes in the historic Tokaj wine region."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian polymath is known as the father of modern game theory and digital computer architecture?",
+      "options": [
+        "Paul Erdős",
+        "Leo Szilard",
+        "John von Neumann"
+      ],
+      "correctIndex": 2,
+      "explanation": "John von Neumann (Neumann János) formulated computer architecture and foundation of game theory."
+    },
+    {
+      "type": "number",
+      "question": "What is the elevation of Mount Kékes, the highest point in Hungary, in meters?",
+      "target": 1014,
+      "metricUnit": "meters",
+      "imperialDisplay": "3327 feet",
+      "explanation": "Mount Kékes stands at exactly 1,014 meters (3,327 ft) in the Mátra range."
+    },
+    {
+      "type": "mcq",
+      "question": "What grand Budapest square features the Millennium Monument commemorating the 1000th anniversary of the Magyar conquest?",
+      "options": [
+        "Heroes' Square",
+        "Vörösmarty Square",
+        "Deák Ferenc Square"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heroes' Square (Hősök tere) features the Seven Chieftains and statues of historic Hungarian rulers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian journalist invented the modern commercial ballpoint pen patented in 1938?",
+      "options": [
+        "Tivadar Puskás",
+        "László Bíró",
+        "Ányos Jedlik"
+      ],
+      "correctIndex": 1,
+      "explanation": "László Bíró invented the ballpoint pen, still called \"biro\" in many countries."
+    },
+    {
+      "type": "mcq",
+      "question": "What medieval treaty signed in 1920 in the Grand Trianon Palace stripped Hungary of over two-thirds of its pre-WWI territory?",
+      "options": [
+        "Treaty of Saint-Germain",
+        "Treaty of Neuilly",
+        "Treaty of Trianon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Treaty of Trianon in 1920 partitioned historic Greater Hungary following the First World War."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian composer wrote the Hungarian Rhapsodies and the Faust Symphony?",
+      "options": [
+        "Franz Liszt",
+        "Béla Bartók",
+        "Zoltán Kodály"
+      ],
+      "correctIndex": 0,
+      "explanation": "Franz Liszt (Liszt Ferenc) was a virtuoso pianist and premier Romantic-era composer."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the distinctive red blend wine from the Eger region literally translating to \"Bull's Blood\"?",
+      "options": [
+        "Kadarka",
+        "Egri Bikavér",
+        "Hárslevelű"
+      ],
+      "correctIndex": 1,
+      "explanation": "Egri Bikavér is Hungary's most celebrated traditional red cuvée wine."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Budapest Millennium Underground (Line M1), the oldest electrified underground railway in continental Europe, opened?",
+      "target": 1896,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1896 CE",
+      "explanation": "The M1 metro line opened in 1896 for the Millennium celebrations of the Hungarian state."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian physician demonstrated in 1847 that handwashing with chlorinated lime drastically reduced puerperal childbed fever?",
+      "options": [
+        "János Balassa",
+        "Frigyes Korányi",
+        "Ignaz Semmelweis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ignaz Semmelweis is celebrated today as the pioneer of antiseptic procedures."
+    },
+    {
+      "type": "mcq",
+      "question": "Which castle in Budapest sits on the southern tip of Castle Hill and served as the historic royal seat?",
+      "options": [
+        "Buda Castle",
+        "Vajdahunyad Castle",
+        "Visegrád Citadel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buda Castle (Budavári Palota) is a UNESCO World Heritage site dominating the Buda skyline."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mythical bird from Hungarian mythology is said to have guided the ancient Magyars to the Carpathian Basin?",
+      "options": [
+        "Griffon",
+        "Turul",
+        "Phoenix"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Turul is a divine falcon-like bird and national symbol in Hungarian myth."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Hungarian prime minister during the 1956 revolution who declared Hungarian neutrality from the Warsaw Pact?",
+      "options": [
+        "Mátyás Rákosi",
+        "János Kádár",
+        "Imre Nagy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Imre Nagy led the revolutionary government and was executed in 1958 following Soviet invasion."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous thermal bath complex in Budapest's City Park is one of the largest medicinal baths in Europe?",
+      "options": [
+        "Széchenyi Thermal Bath",
+        "Gellért Thermal Bath",
+        "Rudas Thermal Bath"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Széchenyi Medicinal Bath features 21 indoor and outdoor thermal pools with neo-Baroque architecture."
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign countries share an international land border with Hungary?",
+      "target": 7,
+      "metricUnit": "countries",
+      "imperialDisplay": "7 bordering nations",
+      "explanation": "Hungary borders Austria, Slovakia, Ukraine, Romania, Serbia, Croatia, and Slovenia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian mathematician was renowned for authoring over 1,500 research papers and establishing the \"Erdős number\"?",
+      "options": [
+        "László Lovász",
+        "Paul Erdős",
+        "Farkas Bolyai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paul Erdős collaborated with hundreds of mathematicians around the globe during his nomadic career."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the traditional Hungarian open-air national park and vast grassland steppe in eastern Hungary called?",
+      "options": [
+        "Taiga",
+        "Alföld Meadow",
+        "Puszta"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Puszta in Hortobágy National Park is a UNESCO World Heritage cultural landscape."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century Hungarian national poet wrote the \"Nemzeti Dal\" (National Song) that sparked the 1848 Hungarian Revolution?",
+      "options": [
+        "Sándor Petőfi",
+        "Mihály Vörösmarty",
+        "János Arany"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sándor Petőfi read his revolutionary poem on the steps of the National Museum on March 15, 1848."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian-American biochemist co-developed modified mRNA technology recognized with the 2023 Nobel Prize in Physiology or Medicine?",
+      "options": [
+        "Judit Polgár",
+        "Katalin Karikó",
+        "Eva Crane"
+      ],
+      "correctIndex": 1,
+      "explanation": "Katalin Karikó received the Nobel Prize with Drew Weissman for groundbreaking mRNA discoveries."
+    },
+    {
+      "type": "mcq",
+      "question": "What Hungarian chess grandmaster is universally considered the greatest female chess player in history, having defeated Garry Kasparov?",
+      "options": [
+        "Zsuzsa Polgár",
+        "Zsófia Polgár",
+        "Judit Polgár"
+      ],
+      "correctIndex": 2,
+      "explanation": "Judit Polgár achieved the Grandmaster title at age 15 and entered the world's top 10 overall chess rating."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Hungarian national football team (\"Mighty Magyars\") famously defeat England 6-3 at Wembley Stadium?",
+      "target": 1953,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1953 CE",
+      "explanation": "The \"Match of the Century\" in 1953 saw Ferenc Puskás and Hungary crush England's home record."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary Hungarian striker served as captain of the 1950s Golden Team and gave his name to the FIFA best goal award?",
+      "options": [
+        "Ferenc Puskás",
+        "Nándor Hidegkuti",
+        "Sándor Kocsis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferenc Puskás scored 84 goals in 85 international matches and later starred for Real Madrid."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic coronation town and seat of the Hungarian Catholic Primate boasts Hungary's largest basilica church?",
+      "options": [
+        "Pécs",
+        "Esztergom",
+        "Győr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Esztergom Basilica sits high above the Danube bend and is the monumental mother church of Hungary."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century Hungarian leader spearheaded economic modernization and built the Danube steam navigation network?",
+      "options": [
+        "Lajos Kossuth",
+        "Ferenc Deák",
+        "István Széchenyi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Count István Széchenyi is honored as \"the Greatest Hungarian\" (a Legnagyobb Magyar)."
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Hungarian chimney cake coated with sugar, walnuts, or cinnamon is baked over charcoal?",
+      "options": [
+        "Kürtőskalács",
+        "Dobos Torte",
+        "Rétes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kürtőskalács originated in Transylvania (Székely Land) and is a beloved festival pastry."
+    },
+    {
+      "type": "mcq",
+      "question": "Which city in southwestern Hungary was named a European Capital of Culture in 2010 and is noted for Early Christian necropolises?",
+      "options": [
+        "Debrecen",
+        "Pécs",
+        "Szeged"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pécs boasts 4th-century Roman tombs, Turkish mosques, and the Zsolnay porcelain quarter."
+    },
+    {
+      "type": "number",
+      "question": "How many administrative counties (megyék) make up the territory of Hungary, excluding Budapest?",
+      "target": 19,
+      "metricUnit": "counties",
+      "imperialDisplay": "19 counties",
+      "explanation": "Hungary is subdivided into 19 counties plus the capital city of Budapest."
+    },
+    {
+      "type": "mcq",
+      "question": "What layered sponge cake with chocolate buttercream topped with caramelized sugar slices was invented by a Budapest confectioner in 1884?",
+      "options": [
+        "Esterházy Torte",
+        "Rigó Jancsi",
+        "Dobos Torte"
+      ],
+      "correctIndex": 2,
+      "explanation": "József Dobos introduced his namesake torte at the 1885 National General Exhibition in Budapest."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian-born physicist conceived the nuclear chain reaction and co-authored the Einstein-Szilard letter to FDR in 1939?",
+      "options": [
+        "Leo Szilard",
+        "Edward Teller",
+        "Eugene Wigner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leo Szilard patented the idea of nuclear chain reaction and helped launch the Manhattan Project."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous fairytale-like panoramic terrace on the Buda side of the Danube was built in neo-Romanesque style between 1895 and 1902?",
+      "options": [
+        "Citadella",
+        "Fisherman's Bastion",
+        "Gellért Hill Cave"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fisherman's Bastion (Halászbástya) features seven towers representing the seven Magyar tribes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which large river is the longest tributary of the Danube and flows right through the Great Hungarian Plain (Alföld)?",
+      "options": [
+        "Drava",
+        "Mura",
+        "Tisza"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Tisza River traverses northeastern and eastern Hungary through Tokaj and Szeged."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian author won the 2002 Nobel Prize in Literature for his Holocaust semi-autobiographical novel \"Fatelessness\"?",
+      "options": [
+        "Imre Kertész",
+        "Péter Nádas",
+        "Sándor Márai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Imre Kertész received the Nobel Prize in Literature in 2002 for writing that upholds fragile human experience against barbarian tyranny."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Austro-Hungarian Compromise (Ausgleich) established creating the Dual Monarchy?",
+      "target": 1867,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1867 CE",
+      "explanation": "The Compromise of 1867 established the Austro-Hungarian Empire with Franz Joseph I as king."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian city in eastern Hungary is famously known as the \"Calvinist Rome\" due to its historic Protestant College?",
+      "options": [
+        "Miskolc",
+        "Debrecen",
+        "Nyíregyháza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Debrecen was the ecclesiastical capital of Hungarian Protestantism and twice national capital."
+    },
+    {
+      "type": "mcq",
+      "question": "What Hungarian invention by Tivadar Puskás in 1876 transformed telecommunications networks worldwide?",
+      "options": [
+        "Vacuum Tube",
+        "Holography",
+        "Telephone Exchange"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tivadar Puskás conceptualized the telephone exchange and the Telefon Hírmondó news service."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian national holiday celebrated on March 15 commemorates the Revolution of 1848?",
+      "options": [
+        "National Day of 1848",
+        "St. Stephen's Day",
+        "Republic Day"
+      ],
+      "correctIndex": 0,
+      "explanation": "March 15 celebrates the 1848 civic revolution and freedom fight led by Lajos Kossuth and Sándor Petőfi."
+    },
+    {
+      "type": "mcq",
+      "question": "Which thermal lake near Lake Balaton is the second largest biological thermal lake in the world?",
+      "options": [
+        "Lake Tisza",
+        "Lake Hévíz",
+        "Lake Vadkert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Hévíz has natural warm mineral waters renewed every few days from underwater thermal springs."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous traditional herbal digestif liqueur produced in Hungary since 1790 comes in a round dark-green bottle?",
+      "options": [
+        "Pálinka",
+        "Vilmos",
+        "Unicum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zwack Unicum is a proprietary digestif formulated with more than 40 medicinal herbs and spices."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Holy Crown of Hungary returned to the Hungarian people from the United States?",
+      "target": 1978,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1978 CE",
+      "explanation": "President Jimmy Carter returned the Holy Crown of Saint Stephen to Budapest on January 6, 1978."
+    },
+    {
+      "type": "mcq",
+      "question": "Which prominent 20th-century Hungarian composer integrated authentic folk song field recordings into modern classical music?",
+      "options": [
+        "Béla Bartók",
+        "Ernő Dohnányi",
+        "Karl Goldmark"
+      ],
+      "correctIndex": 0,
+      "explanation": "Béla Bartók traveled the Carpathian countryside recording authentic peasant music with a phonograph."
+    },
+    {
+      "type": "mcq",
+      "question": "What Hungarian fruit brandy distilled strictly from Hungarian-grown fruits (plums, apricots, pears) is an EU protected spirit?",
+      "options": [
+        "Unicum",
+        "Pálinka",
+        "Törköly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pálinka is Hungary's traditional national distilled fruit brandy protected by geographical origin."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Gothic church in Buda Castle was the site of the coronation of the last two Hungarian kings?",
+      "options": [
+        "St. Stephen's Basilica",
+        "Church of Saint Anne",
+        "Matthias Church"
+      ],
+      "correctIndex": 2,
+      "explanation": "Matthias Church (Mátyás-templom) features iconic Zsolnay ceramic roof tiles and Gothic spires."
+    },
+    {
+      "type": "mcq",
+      "question": "Who served as regent of the Kingdom of Hungary between 1920 and 1944 during the interwar era?",
+      "options": [
+        "Miklós Horthy",
+        "Ferenc Szálasi",
+        "Gyula Gömbös"
+      ],
+      "correctIndex": 0,
+      "explanation": "Admiral Miklós Horthy served as Regent of Hungary throughout the interwar and early WWII period."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian-born British physicist received the 1971 Nobel Prize in Physics for inventing holography?",
+      "options": [
+        "Eugene Wigner",
+        "Dennis Gabor",
+        "George de Hevesy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dennis Gabor (Gábor Dénes) invented holography in 1947, revolutionizing optical recording."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Hungary officially join the European Union alongside nine other accession states?",
+      "target": 2004,
+      "metricUnit": "year CE",
+      "imperialDisplay": "2004 CE",
+      "explanation": "Hungary joined the European Union on May 1, 2004, in the largest single enlargement."
+    }
+  ]
+}

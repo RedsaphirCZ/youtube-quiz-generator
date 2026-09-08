@@ -1,0 +1,641 @@
+{
+  "id": "video-games-gaming-history-60",
+  "theme": "Video Game History: Arcade Pioneers, Consoles & Icons",
+  "title": "Video Game History: Arcade Pioneers, Consoles & Icons",
+  "description": "A 60-question grand master assessment exploring Pong and the arcade dawn, the 1983 crash, NES resurrection, the 16-bit console wars, 3D revolutions on PlayStation and N64, Doom and PC legends, Grand Theft Auto, Game Boy and Pokemon, the PS2 era, indie masterpieces, and modern battle royales.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which pioneering coin-operated arcade table tennis simulation game released by Atari in 1972 helped launch the commercial video game industry?",
+      "options": [
+        "Pong",
+        "Computer Space",
+        "Spacewar!"
+      ],
+      "correctIndex": 0,
+      "explanation": "Created by Allan Alcorn under Atari founder Nolan Bushnell, Pong became a massive commercial sensation in taverns and arcades worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 1978 Taito arcade shoot 'em up game designed by Tomohiro Nishikado caused a temporary shortage of 100-yen coins in Japan?",
+      "options": [
+        "Galaxian",
+        "Space Invaders",
+        "Asteroids"
+      ],
+      "correctIndex": 1,
+      "explanation": "Space Invaders introduced descending alien waves, continuous background heartbeat music, and popularized the high-score concept in arcades."
+    },
+    {
+      "type": "mcq",
+      "question": "Which yellow, pizza-shaped character was created by Toru Iwatani for Namco in 1980, becoming an international pop culture icon?",
+      "options": [
+        "Q*bert",
+        "Dig Dug",
+        "Pac-Man"
+      ],
+      "correctIndex": 2,
+      "explanation": "Iwatani designed Pac-Man to appeal to women and families, navigating mazes while dodging ghosts Blinky, Pinky, Inky, and Clyde."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1979 Atari arcade game by Ed Logg utilized monochrome vector graphics to let players shoot space rocks and flying saucers?",
+      "options": [
+        "Asteroids",
+        "Lunar Lander",
+        "Tempest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asteroids introduced wraparound screen mechanics and became Atari's best-selling arcade cabinet of all time."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1981 Nintendo arcade game designed by Shigeru Miyamoto introduced Jumpman (later Mario) climbing girders to rescue Pauline from an ape?",
+      "options": [
+        "Mario Bros.",
+        "Donkey Kong",
+        "Popeye"
+      ],
+      "correctIndex": 1,
+      "explanation": "Donkey Kong established Nintendo as a major force in the arcade market and invented key conventions of the platforming video game genre."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Atari release the groundbreaking coin-operated arcade game Pong?",
+      "target": 1972,
+      "metricUnit": "CE",
+      "imperialDisplay": "November 1972",
+      "explanation": "Atari released the commercial Pong arcade cabinet on 29 November 1972, installing the first test unit at Andy Capp's Tavern in California."
+    },
+    {
+      "type": "mcq",
+      "question": "What catastrophic event struck the North American video game market in 1983 due to market saturation, low-quality software, and competition from PCs?",
+      "options": [
+        "The Great Console Depletion",
+        "The Silicon Winter",
+        "The Video Game Crash of 1983"
+      ],
+      "correctIndex": 2,
+      "explanation": "Revenues dropped by roughly 97 percent, leading Atari to famously bury millions of unsold cartridges, including E.T., in an Alamogordo, New Mexico landfill."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 8-bit home console released by Nintendo in North America in 1985 single-handedly revived the Western console gaming market?",
+      "options": [
+        "Nintendo Entertainment System NES",
+        "Sega Master System",
+        "Atari 7800"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marketed as the Famicom in Japan, Nintendo disguised the NES as an entertainment system bundled with R.O.B. the robot to overcome retailer skepticism."
+    },
+    {
+      "type": "mcq",
+      "question": "What emblem did Nintendo place on licensed cartridges starting with the NES to assure consumers of software quality and compatibility?",
+      "options": [
+        "Nintendo 100% Certified",
+        "Nintendo Seal of Quality",
+        "Famicom Gold Standard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nintendo strictly limited third-party publishers to five games per year to prevent market flooding and maintain consumer trust."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Shigeru Miyamoto masterpiece bundled with the NES in 1985 established the gold standard for fluid side-scrolling platformer games?",
+      "options": [
+        "The Legend of Zelda",
+        "Metroid",
+        "Super Mario Bros."
+      ],
+      "correctIndex": 2,
+      "explanation": "Super Mario Bros. sold over 40 million copies on the NES, featuring secret warp zones, power-up mushrooms, and Koji Kondo's memorable musical score."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1986 action-adventure game designed by Shigeru Miyamoto introduced gold cartridges, battery-backed save files, and open-ended exploration in Hyrule?",
+      "options": [
+        "The Legend of Zelda",
+        "Dragon Quest",
+        "Final Fantasy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Legend of Zelda let players explore dungeons and overworlds non-linearly, collecting the Triforce to rescue Princess Zelda from Ganon."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the Nintendo Entertainment System (NES) officially released in North America with its New York test launch?",
+      "target": 1985,
+      "metricUnit": "CE",
+      "imperialDisplay": "October 1985",
+      "explanation": "Nintendo launched the NES in the New York City test market on 18 October 1985 before rolling out nationwide across 1986."
+    },
+    {
+      "type": "mcq",
+      "question": "Which blue mascot was created by Sega in 1991 to showcase the Genesis console's processing speed and rival Nintendo's Mario?",
+      "options": [
+        "Alex Kidd",
+        "Sonic the Hedgehog",
+        "Knuckles the Echidna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Programmed by Yuji Naka with character design by Naoto Ohshima, Sonic's supersonic speed became the central weapon in Sega's Genesis does what Nintendon't campaign."
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary visual rendering mode on the Super Nintendo (SNES) allowed background layers to rotate and scale, creating pseudo-3D effects in F-Zero?",
+      "options": [
+        "Super FX",
+        "Vector Matrix",
+        "Mode 7"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mode 7 graphics powered flagship titles like F-Zero, Super Mario Kart, and Pilotwings, giving the 16-bit SNES a unique visual depth advantage."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1991 Capcom fighting game became a worldwide arcade phenomenon, introducing combo mechanics and eight playable World Warriors?",
+      "options": [
+        "Street Fighter II",
+        "Fatal Fury",
+        "The King of Fighters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Street Fighter II revolutionized competitive gaming, spawning local arcade scenes where players queued quarters on cabinets to challenge winners."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1992 Midway fighting game featuring digitized photographic graphics, decapitations, and Fatalities led directly to the creation of the ESRB rating system?",
+      "options": [
+        "Killer Instinct",
+        "Mortal Kombat",
+        "Primal Rage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mortal Kombat's graphic gore provoked 1993 US Congressional hearings on video game violence, prompting the industry to form the Entertainment Software Rating Board."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British developer partnered with Nintendo in 1994 to produce Donkey Kong Country, using groundbreaking pre-rendered 3D silicon graphics on SNES?",
+      "options": [
+        "Argonaut Games",
+        "Psygnosis",
+        "Rare"
+      ],
+      "correctIndex": 2,
+      "explanation": "Donkey Kong Country sold over nine million copies, proving the 16-bit SNES could visually rival early 32-bit CD-ROM consoles."
+    },
+    {
+      "type": "number",
+      "question": "How many playable World Warrior characters were selectable in the original 1991 arcade release of Capcom's Street Fighter II?",
+      "target": 8,
+      "metricUnit": "characters",
+      "imperialDisplay": "8 World Warriors",
+      "explanation": "The original Street Fighter II roster featured eight selectable fighters: Ryu, Ken, Chun-Li, Guile, Blanka, Dhalsim, E. Honda, and Zangief."
+    },
+    {
+      "type": "mcq",
+      "question": "Which company entered the console market in 1994 with the PlayStation after a failed CD-ROM add-on partnership with Nintendo?",
+      "options": [
+        "Sony",
+        "Panasonic",
+        "Philips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spearheaded by engineer Ken Kutaragi, the Sony PlayStation utilized CD-ROM storage and dedicated 3D geometry hardware to dominate the 32-bit era."
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark 1996 Nintendo 64 launch title defined fluid analog 3D camera control, dynamic physics, and triple jumps in full three dimensions?",
+      "options": [
+        "Banjo-Kazooie",
+        "Super Mario 64",
+        "Rayman 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Super Mario 64 set the benchmark for third-person 3D movement and platforming that all subsequent 3D video games adopted."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1998 Nintendo 64 epic introduced Z-targeting lock-on combat and is widely ranked among the highest-rated games in review history on Metacritic?",
+      "options": [
+        "The Legend of Zelda: Majora's Mask",
+        "GoldenEye 007",
+        "The Legend of Zelda: Ocarina of Time"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ocarina of Time solved 3D melee targeting with its Z-targeting mechanic and immersed players in an epic time-traveling adventure across Hyrule."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Square RPG released on three PlayStation CD-ROMs in 1997 popularized Japanese role-playing games globally with Cloud Strife and Sephiroth?",
+      "options": [
+        "Final Fantasy VII",
+        "Chrono Cross",
+        "Xenogears"
+      ],
+      "correctIndex": 0,
+      "explanation": "Final Fantasy VII featured cinematic 3D CGI cutscenes, a sweeping orchestral score by Nobuo Uematsu, and sold over 14 million copies worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1996 survival horror game by Capcom, directed by Shinji Mikami, trapped players in the Spencer Mansion fighting zombies and the T-virus?",
+      "options": [
+        "Silent Hill",
+        "Resident Evil Biohazard",
+        "Alone in the Dark"
+      ],
+      "correctIndex": 1,
+      "explanation": "Resident Evil popularized fixed cinematic camera angles, inventory management, and coined the term survival horror for video games."
+    },
+    {
+      "type": "number",
+      "question": "How many million total units did the original Sony PlayStation console sell worldwide across its lifespan?",
+      "target": 102,
+      "metricUnit": "million units",
+      "imperialDisplay": "approx. 102.4M consoles",
+      "explanation": "The original Sony PlayStation became the first video game console in history to ship more than 100 million units, finishing at 102.49 million."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1993 first-person shooter by id Software (John Carmack and John Romero) revolutionized PC graphics, networked deathmatches, and user modding?",
+      "options": [
+        "Wolfenstein 3D",
+        "Duke Nukem 3D",
+        "Doom"
+      ],
+      "correctIndex": 2,
+      "explanation": "Distributed via shareware, Doom was installed on more office and university PCs in 1993 than Microsoft's Windows operating system."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1998 debut first-person shooter by Valve followed silent physicist Gordon Freeman through the Black Mesa Research Facility without cutscenes?",
+      "options": [
+        "Half-Life",
+        "Deus Ex",
+        "System Shock 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half-Life revolutionized video game storytelling by delivering all narrative events in real-time through the player's direct unbroken first-person perspective."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1998 real-time strategy game by Blizzard Entertainment became a massive national esports phenomenon in South Korea with televised leagues?",
+      "options": [
+        "Warcraft II",
+        "StarCraft",
+        "Command & Conquer"
+      ],
+      "correctIndex": 1,
+      "explanation": "StarCraft's three perfectly balanced asymmetrical factions (Terran, Zerg, and Protoss) set the standard for competitive RTS gaming."
+    },
+    {
+      "type": "mcq",
+      "question": "Which groundbreaking 1996 id Software title was the first FPS to feature fully 3D polygonal models, free mouselook, and TCP/IP Internet multiplayer?",
+      "options": [
+        "Unreal",
+        "Hexen",
+        "Quake"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quake popularized rocket jumping, clan matches, and spawned legendary mods like Team Fortress and the Machinima digital filmmaking movement."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary 1999 tactical team shooter originated as a free community modification (mod) for Valve's Half-Life by Minh Le and Jess Cliffe?",
+      "options": [
+        "Counter-Strike",
+        "Team Fortress Classic",
+        "Day of Defeat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Counter-Strike pit Terrorists against Counter-Terrorists in bomb defusal and hostage rescue, becoming one of the most enduring esports in history."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did id Software release the legendary, industry-defining PC first-person shooter Doom?",
+      "target": 1993,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 1993",
+      "explanation": "Doom was uploaded to an FTP server at the University of Wisconsin-Parkside on 10 December 1993, crashing the university network under download volume."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2001 Rockstar Games blockbuster revolutionized the industry by translating open-world crime gameplay into a fully 3D living Liberty City?",
+      "options": [
+        "Mafia",
+        "Grand Theft Auto III",
+        "Driver"
+      ],
+      "correctIndex": 1,
+      "explanation": "GTA III gave players unprecedented sandbox freedom, radio stations, and mission structures, establishing the template for modern open-world games."
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive 2011 Bethesda action RPG set in the snowy province of Tamriel allowed players to shout Dragon Shouts (Thu'um) as the Dragonborn?",
+      "options": [
+        "The Elder Scrolls IV: Oblivion",
+        "Fallout 3",
+        "The Elder Scrolls V: Skyrim"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skyrim sold over 60 million copies across platforms, becoming an enduring cultural touchstone with its iconic opening: Hey, you. You're finally awake."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish developer created The Witcher 3: Wild Hunt in 2015, based on the dark fantasy novels of Andrzej Sapkowski featuring Geralt of Rivia?",
+      "options": [
+        "CD Projekt Red",
+        "Techland",
+        "People Can Fly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Witcher 3 won hundreds of Game of the Year awards for its morally gray quests, immersive open world, and acclaimed expansions Hearts of Stone and Blood and Wine."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2004 Blizzard subscription MMORPG set in the world of Azeroth became a worldwide cultural phenomenon with over 12 million peak active subscribers?",
+      "options": [
+        "EverQuest",
+        "World of Warcraft",
+        "Guild Wars"
+      ],
+      "correctIndex": 1,
+      "explanation": "World of Warcraft streamlined MMO mechanics, raid dungeons, and Horde vs. Alliance faction warfare, defining online gaming culture for decades."
+    },
+    {
+      "type": "mcq",
+      "question": "Which post-apocalyptic role-playing franchise featuring Vault Boy, Pip-Boys, and atomic 1950s retro-futurism was created by Interplay and expanded by Bethesda?",
+      "options": [
+        "Wasteland",
+        "Metro 2033",
+        "Fallout"
+      ],
+      "correctIndex": 2,
+      "explanation": "War. War never changes is the famous opening catchphrase across the Fallout series, set in devastated irradiated wasteland America."
+    },
+    {
+      "type": "number",
+      "question": "What was the peak worldwide active subscriber count in millions achieved by Blizzard's MMORPG World of Warcraft in 2010?",
+      "target": 12,
+      "metricUnit": "million subscribers",
+      "imperialDisplay": "12 million subscribers",
+      "explanation": "World of Warcraft reached its peak of 12 million active monthly paying subscribers following the release of the Wrath of the Lich King expansion."
+    },
+    {
+      "type": "mcq",
+      "question": "Which veteran Nintendo engineer designed the Game Boy, Game & Watch, and D-pad directional controller before his tragic passing in 1997?",
+      "options": [
+        "Gunpei Yokoi",
+        "Satoru Iwata",
+        "Hiroshi Yamauchi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yokoi's philosophy of Lateral Thinking with Withered Technology used mature, affordable technology (monochrome screen, 4 AA batteries) to build the ultra-durable Game Boy."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian programmer created the legendary falling-block puzzle game Tetris in 1984 while working at the Soviet Academy of Sciences in Moscow?",
+      "options": [
+        "Eugene Nalimov",
+        "Alexey Pajitnov",
+        "Dmitry Pavlovsky"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tetris became a global addiction when bundled with every original Nintendo Game Boy in 1989, selling tens of millions of units worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese game designer inspired by childhood insect collecting created Pokemon (Pocket Monsters) for Game Freak and Nintendo in 1996?",
+      "options": [
+        "Ken Sugimori",
+        "Junichi Masuda",
+        "Satoshi Tajiri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Satoshi Tajiri utilized the Game Boy Link Cable to allow players to trade and battle Pokemon, creating the highest-grossing media franchise in human history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which innovative dual-screen handheld console released by Nintendo in 2004 featured a built-in touchscreen, microphone, and Wi-Fi capability?",
+      "options": [
+        "Nintendo DS",
+        "PlayStation Portable PSP",
+        "Game Boy Advance SP"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Nintendo DS sold over 154 million units worldwide, appealing to broad audiences through titles like Brain Age, Nintendogs, and Mario Kart DS."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the iconic electric mouse Pokemon that serves as the universal mascot of the global Pokemon franchise?",
+      "options": [
+        "Eevee",
+        "Pikachu",
+        "Charmander"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voiced by Ikue Otani, Pikachu (Pokedex #025) became one of the most recognizable cultural symbols in the world alongside Mickey Mouse."
+    },
+    {
+      "type": "number",
+      "question": "How many original Generation 1 Pokemon species were cataloged in the Pokedex of Pokemon Red and Blue?",
+      "target": 151,
+      "metricUnit": "Pokemon species",
+      "imperialDisplay": "151 original Pokemon",
+      "explanation": "The original Kanto Pokedex spanned from Bulbasaur (#001) to Mew (#151), setting off the Gotta Catch 'Em All global phenomenon."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 128-bit home console released by Sony in 2000 is the best-selling video game console of all time, selling over 155 million units?",
+      "options": [
+        "Xbox",
+        "Nintendo GameCube",
+        "PlayStation 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "The PS2's built-in DVD video player, backward compatibility with PS1 games, and massive software library made it a dominant entertainment center."
+    },
+    {
+      "type": "mcq",
+      "question": "Which flagship sci-fi first-person shooter franchise developed by Bungie launched Microsoft's original Xbox console in November 2001?",
+      "options": [
+        "Halo: Combat Evolved",
+        "Gears of War",
+        "Mass Effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Halo introduced Master Chief, the artificial intelligence Cortana, two-weapon limits, regenerating shields, and popularized dual-analog console shooting."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nintendo home console released in 2006 captured the mainstream world with its motion-sensing Wii Remote controller and Wii Sports?",
+      "options": [
+        "Wii U",
+        "Wii",
+        "GameCube"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Wii sold over 101 million consoles, bringing grandparents, children, and non-gamers together to play virtual tennis, bowling, and golf."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2007 post-apocalyptic underwater first-person shooter by Irrational Games challenged players with objectivist philosophy in the submerged city of Rapture?",
+      "options": [
+        "System Shock",
+        "Dead Space",
+        "BioShock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Directed by Ken Levine, BioShock features the Big Daddies, Little Sisters, and the iconic plot twist phrase: Would you kindly?"
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2013 Naughty Dog cinematic survival masterpiece on PlayStation 3 chronicled Joel and Ellie's journey across a fungal zombie wasteland?",
+      "options": [
+        "The Last of Us",
+        "Uncharted 2",
+        "Days Gone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Last of Us received widespread acclaim for profound emotional storytelling, stellar voice acting by Troy Baker and Ashley Johnson, and tense stealth gameplay."
+    },
+    {
+      "type": "number",
+      "question": "How many million units has the Sony PlayStation 2 sold worldwide, holding the record as the best-selling video game console in history?",
+      "target": 155,
+      "metricUnit": "million consoles",
+      "imperialDisplay": "approx. 155M consoles",
+      "explanation": "Sony officially announced that the PlayStation 2 achieved over 155 million lifetime console sales before production ended in 2013."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish programmer known as Notch created the infinite voxel sandbox phenomenon Minecraft, which became the best-selling game of all time?",
+      "options": [
+        "Jens Bergensten",
+        "Markus Persson",
+        "Daniel Kaplan"
+      ],
+      "correctIndex": 1,
+      "explanation": "First released publicly as an alpha in May 2009, Minecraft allows players to mine, craft, build, and survive in infinite procedurally generated block worlds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which solo developer, known as Toby Fox, created the beloved 2015 indie RPG Undertale where players can complete the game without killing any enemies?",
+      "options": [
+        "Jonathan Blow",
+        "Phil Fish",
+        "Toby Fox"
+      ],
+      "correctIndex": 2,
+      "explanation": "Undertale featured witty dialogue, bullet-hell dodging mechanics, a legendary soundtrack, and unforgettable characters Sans and Papyrus."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian two-person studio, Team Cherry, created the critically acclaimed 2017 atmospheric hand-drawn Metroidvania game Hollow Knight?",
+      "options": [
+        "Team Cherry",
+        "Supergiant Games",
+        "Motion Twin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hollow Knight captivated players with fluid nail combat, expansive lore in the ruined insect kingdom of Hallownest, and Christopher Larkin's melancholic score."
+    },
+    {
+      "type": "mcq",
+      "question": "Which solo developer spent over four years creating the charming, multi-million-selling farming simulation RPG Stardew Valley as ConcernedApe?",
+      "options": [
+        "Lucas Pope",
+        "Eric Barone",
+        "Edmund McMillen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eric Barone designed all programming, pixel art, music, and dialogue alone, paying homage to the classic Harvest Moon series."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2008 indie platformer by Jonathan Blow manipulated time rewind mechanics to rescue a princess, heralding the modern indie game movement on Xbox Live Arcade?",
+      "options": [
+        "Limbo",
+        "Super Meat Boy",
+        "Braid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Braid demonstrated that small independent developers could achieve commercial and critical success on digital console storefronts with artistic puzzle design."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million copies has Minecraft sold worldwide across all platforms, making it the best-selling video game in history?",
+      "target": 300,
+      "metricUnit": "million copies",
+      "imperialDisplay": "over 300M copies",
+      "explanation": "Mojang and Microsoft officially confirmed in late 2023 that Minecraft surpassed 300 million copies sold worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Riot Games multiplayer online battle arena (MOBA) is the most watched competitive esport in the world, culminating in the annual World Championship?",
+      "options": [
+        "League of Legends",
+        "Dota 2",
+        "Heroes of the Storm"
+      ],
+      "correctIndex": 0,
+      "explanation": "League of Legends features millions of daily active players and sells out massive Olympic stadiums worldwide for its Worlds finals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 100-player free-to-play battle royale game by Epic Games became a global cultural juggernaut in 2017 with building mechanics and crossover events?",
+      "options": [
+        "PUBG: Battlegrounds",
+        "Fortnite",
+        "Apex Legends"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fortnite hosted virtual live concerts by Travis Scott and Ariana Grande, introducing in-game pop culture crossover skins spanning Marvel, Star Wars, and anime."
+    },
+    {
+      "type": "mcq",
+      "question": "Which annual Valve tournament for Dota 2 has repeatedly awarded the largest single prize pool in esports history, exceeding 40 million dollars in 2021?",
+      "options": [
+        "EVO",
+        "Intel Extreme Masters",
+        "The International"
+      ],
+      "correctIndex": 2,
+      "explanation": "The International crowdfunded its massive prize pool through in-game Battle Pass (Compendium) purchases by the global Dota community."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for the video game subculture of attempting to complete a game as quickly as humanly possible, celebrated at Games Done Quick marathons?",
+      "options": [
+        "Speedrunning",
+        "Score-attacking",
+        "Tool-assisting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speedrunners utilize routing, frame-perfect inputs, sequence breaking, and game physics glitches across categories like Any% and 100%."
+    },
+    {
+      "type": "mcq",
+      "question": "Which hybrid home and portable console released by Nintendo in March 2017 features detachable Joy-Con controllers and dockable TV play?",
+      "options": [
+        "Wii U",
+        "Nintendo Switch",
+        "Nintendo 3DS"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nintendo Switch became Nintendo's best-selling home console, powered by masterpieces like The Legend of Zelda: Breath of the Wild and Mario Kart 8 Deluxe."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum number of players who drop out of the Battle Bus onto the island in a standard Fortnite Battle Royale match?",
+      "target": 100,
+      "metricUnit": "players",
+      "imperialDisplay": "100 players per match",
+      "explanation": "Every standard solo, duo, or squad Fortnite Battle Royale match begins with up to 100 players skydiving onto the island until one survivor remains."
+    }
+  ]
+}

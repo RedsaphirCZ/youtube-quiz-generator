@@ -1,0 +1,640 @@
+{
+  "id": "general-knowledge-60",
+  "theme": "Ultimate General Knowledge & World Trivia",
+  "title": "Ultimate General Knowledge & World Trivia",
+  "description": "Comprehensive 60-question grand master trivia assessment spanning world history, biology, geography, literature, science, space, iconic inventions, and culture.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-26T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the only mammalian species with the ability of true sustained powered flight?",
+      "options": [
+        "Bat",
+        "Sugar glider",
+        "Flying squirrel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bats are the only mammals capable of true, sustained powered flight thanks to their membranous wings supported by elongated digit bones."
+    },
+    {
+      "type": "mcq",
+      "question": "Which organ in the human body consumes approximately 20 percent of total energy expenditure despite accounting for only 2 percent of body weight?",
+      "options": [
+        "Liver",
+        "Brain",
+        "Heart"
+      ],
+      "correctIndex": 1,
+      "explanation": "The human brain consumes roughly one-fifth of the body oxygen and glucose supply to sustain continuous neuronal computation."
+    },
+    {
+      "type": "mcq",
+      "question": "What natural phenomenon produces the vibrant greenish-pink light displays observed in the night skies near the North Pole?",
+      "options": [
+        "Zodiacal Light",
+        "Airglow",
+        "Aurora Borealis"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Aurora Borealis is caused when charged particles from solar wind collide with atmospheric gases such as oxygen and nitrogen."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the hardest naturally occurring mineral on Earth according to the Mohs hardness scale?",
+      "options": [
+        "Diamond",
+        "Corundum",
+        "Topaz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diamond achieves the maximum rating of 10 on the Mohs scale due to its exceptionally strong covalent carbon crystal lattice."
+    },
+    {
+      "type": "mcq",
+      "question": "Which chemical element is the most abundant gas in Earth atmosphere, making up approximately 78 percent of dry air?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Argon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diatomic nitrogen makes up roughly 78 percent of Earth dry atmosphere, while oxygen accounts for roughly 21 percent."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many distinct bones are present in an adult human skeleton?",
+      "target": 206,
+      "metricUnit": "bones",
+      "imperialDisplay": "206 adult bones",
+      "explanation": "Humans are born with around 270 soft bones that fuse together through development to form 206 individual bones in adulthood."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient wonder was a lush tiered garden constructed in Mesopotamia by King Nebuchadnezzar II?",
+      "options": [
+        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
+        "Hanging Gardens of Babylon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Hanging Gardens of Babylon were celebrated for their tiered mountain-like flora and advanced mechanical irrigation along the Euphrates."
+    },
+    {
+      "type": "mcq",
+      "question": "Which stone artifact discovered in Egypt in 1799 provided the key to deciphering ancient Egyptian hieroglyphics?",
+      "options": [
+        "Rosetta Stone",
+        "Palermo Stone",
+        "Code of Hammurabi"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rosetta Stone contained a priestly decree inscribed in three distinct scripts: Greek, Demotic, and Egyptian hieroglyphics."
+    },
+    {
+      "type": "mcq",
+      "question": "What historic trade route network connected Imperial China with the Mediterranean world for centuries?",
+      "options": [
+        "Amber Road",
+        "Silk Road",
+        "Incense Route"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Silk Road fostered centuries of economic, technological, and cultural exchange across the Eurasian landmass."
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic defensive network did Emperor Qin Shi Huang connect and expand across China northern borders?",
+      "options": [
+        "Grand Canal",
+        "Terracotta Palace",
+        "Great Wall of China"
+      ],
+      "correctIndex": 2,
+      "explanation": "Qin Shi Huang unified preexisting territorial ramparts into an expansive barrier to shield China from nomadic incursions."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Roman general famously proclaimed Veni, vidi, vici after his decisive victory at the Battle of Zela?",
+      "options": [
+        "Julius Caesar",
+        "Mark Antony",
+        "Scipio Africanus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Julius Caesar sent this concise message meaning I came, I saw, I conquered to the Roman Senate following his swift military triumph."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Christopher Columbus make landfall in the Caribbean during his initial transatlantic expedition?",
+      "target": 1492,
+      "metricUnit": "CE",
+      "imperialDisplay": "October 1492",
+      "explanation": "Christopher Columbus landed on the island of Guanahani in the Bahamas on October 12, 1492."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in the world, flowing northward across eleven countries into the Mediterranean Sea?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nile River extends approximately 6,650 kilometers from its central African headwaters to the Mediterranean delta."
+    },
+    {
+      "type": "mcq",
+      "question": "Which country possesses the highest number of natural islands of any sovereign nation in the world?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Sweden"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sweden is estimated to contain over 267,500 islands throughout its territorial waters and inland lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest country in South America by both land area and total population?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Colombia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brazil covers roughly 8.5 million square kilometers, encompassing nearly half the geographical extent of South America."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ocean is the smallest and shallowest among Earth five recognized world oceans?",
+      "options": [
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Southern Ocean"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Arctic Ocean spans roughly 14 million square kilometers around the North Pole and is largely covered by sea ice."
+    },
+    {
+      "type": "mcq",
+      "question": "Which capital city sits at the highest elevation of any sovereign national capital in Europe?",
+      "options": [
+        "Bern",
+        "Madrid",
+        "Andorra la Vella"
+      ],
+      "correctIndex": 2,
+      "explanation": "Andorra la Vella is situated in the high Pyrenees mountains at an altitude of approximately 1,023 meters above sea level."
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign countries are currently member states of the European Union?",
+      "target": 27,
+      "metricUnit": "countries",
+      "imperialDisplay": "27 sovereign member states",
+      "explanation": "Following the withdrawal of the United Kingdom in 2020, the European Union comprises 27 member states."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian Renaissance master painted the world-famous Mona Lisa portrait exhibited in the Louvre Museum?",
+      "options": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in Florence in the early 16th century, pioneering revolutionary sfumato shading."
+    },
+    {
+      "type": "mcq",
+      "question": "Who is the celebrated English dramatist and poet who authored Hamlet, Othello, and Romeo and Juliet?",
+      "options": [
+        "Christopher Marlowe",
+        "William Shakespeare",
+        "John Milton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the Bard of Avon, Shakespeare created 39 theatrical plays and 154 sonnets that reshaped world literature."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish surrealist artist painted the iconic melting pocket watches in The Persistence of Memory?",
+      "options": [
+        "Pablo Picasso",
+        "Joan Miro",
+        "Salvador Dali"
+      ],
+      "correctIndex": 2,
+      "explanation": "Salvador Dali completed the surrealist masterpiece featuring soft, melting clocks on the coast of Catalonia in 1931."
+    },
+    {
+      "type": "mcq",
+      "question": "What epic Greek poem attributed to Homer recounts the ten-year journey home of the hero Odysseus?",
+      "options": [
+        "The Odyssey",
+        "The Aeneid",
+        "The Iliad"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Odyssey narrates Odysseus perilous return from the Trojan War to reclaim his throne and family in Ithaca."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German composer completed Symphony No. 9 incorporating the choral setting of Friedrich Schiller Ode to Joy?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Johann Sebastian Bach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beethoven composed his monumental Ninth Symphony in 1824 despite suffering from profound near-total deafness."
+    },
+    {
+      "type": "number",
+      "question": "How many dramatic theatrical plays are attributed to William Shakespeare in the standard literary canon?",
+      "target": 39,
+      "metricUnit": "plays",
+      "imperialDisplay": "39 dramatic works",
+      "explanation": "Modern literary scholarship establishes Shakespeare dramatic canon at 39 extant plays including recognized collaborations."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German craftsman invented the movable-type mechanical printing press in Europe around 1440?",
+      "options": [
+        "Albrecht Durer",
+        "Peter Schoffer",
+        "Johannes Gutenberg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Johannes Gutenberg invention of movable metal type catalyzed the rapid diffusion of books, literacy, and science across Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "Who invented the World Wide Web in 1989 while working as a computer scientist at CERN in Geneva?",
+      "options": [
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Marc Andreessen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir Tim Berners-Lee developed the first web server, browser, and HTML protocol to facilitate global hyperlinked information sharing."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American brothers made the first controlled, powered heavier-than-air human flight at Kitty Hawk in 1903?",
+      "options": [
+        "Montgolfier Brothers",
+        "Wright Brothers",
+        "Dumont Pioneers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Orville and Wilbur Wright achieved the historic 12-second powered flight aboard their Wright Flyer on December 17, 1903."
+    },
+    {
+      "type": "mcq",
+      "question": "What antibiotic substance discovered by Alexander Fleming in 1928 revolutionized global medicine and infectious disease control?",
+      "options": [
+        "Insulin",
+        "Aspirin",
+        "Penicillin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fleming observed that Penicillium notatum mold secreted an active antibacterial compound capable of destroying Staphylococci."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish-born inventor secured the first master patent for the electrical transmission of vocal speech in 1876?",
+      "options": [
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "Elisha Gray"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexander Graham Bell was awarded US Patent 174,465 for the telephone, transmitting intelligible speech across electromagnetic wires."
+    },
+    {
+      "type": "number",
+      "question": "What is the architectural height in meters of the Burj Khalifa skyscraper in Dubai, the tallest building on Earth?",
+      "target": 828,
+      "metricUnit": "meters",
+      "imperialDisplay": "2,717 feet",
+      "explanation": "The Burj Khalifa in Dubai stands at an exact architectural height of 828 meters [2,717 feet] with 163 usable floors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet in our solar system has the shortest orbital year, completing a revolution around the Sun in just 88 Earth days?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the innermost planet, Mercury speeds along its solar orbit at an average velocity of 47 kilometers per second."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of astronomical star is our Sun officially classified as on the Hertzsprung-Russell diagram?",
+      "options": [
+        "Red Giant Star",
+        "Blue Subdwarf Star",
+        "G-type Main-Sequence Star"
+      ],
+      "correctIndex": 2,
+      "explanation": "Our Sun is classified as a G2V main-sequence star, stably fusing hydrogen nuclei into helium in its core."
+    },
+    {
+      "type": "mcq",
+      "question": "Which space telescope launched into low Earth orbit in 1990 provided over three decades of groundbreaking astronomical discoveries?",
+      "options": [
+        "Hubble Space Telescope",
+        "Kepler Space Observatory",
+        "Chandra X-ray Observatory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deployed from Space Shuttle Discovery, Hubble captured iconic views of distant galaxies and helped determine the expansion rate of the universe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which celestial body is the largest moon of Saturn, known for its dense nitrogen-rich atmosphere and liquid methane lakes?",
+      "options": [
+        "Enceladus",
+        "Titan",
+        "Rhea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Titan is larger than the planet Mercury and is the only known moon possessing a thick atmosphere and standing surface hydrocarbon lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first woman to travel into outer space, orbiting the Earth aboard Vostok 6 in June 1963?",
+      "options": [
+        "Sally Ride",
+        "Svetlana Savitskaya",
+        "Valentina Tereshkova"
+      ],
+      "correctIndex": 2,
+      "explanation": "Soviet cosmonaut Valentina Tereshkova completed 48 Earth orbits over nearly three days during her historic 1963 solo flight."
+    },
+    {
+      "type": "number",
+      "question": "How many major planets are officially recognized in our Solar System by the International Astronomical Union?",
+      "target": 8,
+      "metricUnit": "planets",
+      "imperialDisplay": "8 major planets",
+      "explanation": "The eight IAU-recognized planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+    },
+    {
+      "type": "mcq",
+      "question": "Which language is spoken by the greatest number of native first-language speakers worldwide?",
+      "options": [
+        "Mandarin Chinese",
+        "Spanish",
+        "English"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mandarin Chinese is the native mother tongue of over 900 million people, predominantly in China, Taiwan, and Singapore."
+    },
+    {
+      "type": "mcq",
+      "question": "In which country is the historic 15th-century Inca citadel of Machu Picchu located high in the Andes Mountains?",
+      "options": [
+        "Bolivia",
+        "Peru",
+        "Chile"
+      ],
+      "correctIndex": 1,
+      "explanation": "Machu Picchu was built under Inca Emperor Pachacuti around 1450 CE in the Eastern Cordillera of southern Peru."
+    },
+    {
+      "type": "mcq",
+      "question": "What steeped herbal beverage originated in ancient China and became the most widely consumed drink in the world after water?",
+      "options": [
+        "Coffee",
+        "Cocoa",
+        "Tea"
+      ],
+      "correctIndex": 2,
+      "explanation": "Infused from the dried leaves of the Camellia sinensis plant, tea has been prepared and consumed for over four millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic white marble mausoleum in Agra, India was commissioned by Mughal Emperor Shah Jahan for his wife Mumtaz Mahal?",
+      "options": [
+        "Taj Mahal",
+        "Humayun Tomb",
+        "Red Fort"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Taj Mahal is an architectural jewel of Mughal art, constructed on the southern bank of the Yamuna River between 1632 and 1648."
+    },
+    {
+      "type": "mcq",
+      "question": "Which nation gifted the colossal copper statue Liberty Enlightening the World to the United States in 1886?",
+      "options": [
+        "United Kingdom",
+        "France",
+        "Netherlands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Statue of Liberty was sculpted by Frédéric-Auguste Bartholdi with internal framework by Gustave Eiffel as a gift from the people of France."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the foundational Charter of the United Nations signed in San Francisco by fifty founding nations?",
+      "target": 1945,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 1945",
+      "explanation": "The United Nations Charter was signed on June 26, 1945, establishing the international organization after World War II."
+    },
+    {
+      "type": "mcq",
+      "question": "What 1977 epic space opera film written and directed by George Lucas inaugurated a multi-billion dollar cultural franchise?",
+      "options": [
+        "Star Trek",
+        "Blade Runner",
+        "Star Wars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Star Wars: Episode IV A New Hope revolutionized blockbuster filmmaking, practical special effects, and orchestral film scoring."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary British rock band recorded the acclaimed 1969 album Abbey Road featuring the iconic zebra crossing cover photo?",
+      "options": [
+        "The Beatles",
+        "The Rolling Stones",
+        "Pink Floyd"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Beatles recorded Abbey Road at EMI Studios in London, creating legendary songs such as Something and Come Together."
+    },
+    {
+      "type": "mcq",
+      "question": "Which acclaimed American director directed the groundbreaking cinematic classics Jaws, Jurassic Park, and Schindler List?",
+      "options": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Stanley Kubrick"
+      ],
+      "correctIndex": 1,
+      "explanation": "Steven Spielberg is the highest-grossing film director in cinema history, celebrated for defining modern cinematic storytelling."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the premier competitive award presented annually for overall excellence in filmmaking by the Academy Awards?",
+      "options": [
+        "Palme d'Or",
+        "Golden Lion",
+        "Oscar for Best Picture"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Academy Award for Best Picture is regarded as the most prestigious honor conferred in the global film industry."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic outdoor music and art festival was held in August 1969 on a dairy farm in Bethel, New York?",
+      "options": [
+        "Woodstock",
+        "Monterey Pop",
+        "Isle of Wight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Woodstock Music and Art Fair drew over 400,000 attendees, becoming an iconic milestone in the history of popular music."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many minutes of audio playback could a standard 12-inch 33⅓ RPM vinyl Long Play record accommodate per side?",
+      "target": 22,
+      "metricUnit": "minutes per side",
+      "imperialDisplay": "approx 22 minutes",
+      "explanation": "A 12-inch vinyl LP typically holds 22 to 23 minutes of uncompressed audio per side while maintaining dynamic sound fidelity."
+    },
+    {
+      "type": "mcq",
+      "question": "In which European capital city were the first modern Olympic Games inaugurated in the year 1896?",
+      "options": [
+        "Paris",
+        "Athens",
+        "London"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1896 Olympic Games took place at the Panathenaic Stadium in Athens, reviving the ancient Greek athletic tradition."
+    },
+    {
+      "type": "mcq",
+      "question": "Which country national football team has won the men FIFA World Cup the highest number of times, claiming five championship titles?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Brazil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brazil won the FIFA World Cup in 1958, 1962, 1970, 1994, and 2002, standing as the tournament only five-time victor."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary heavyweight boxer famously coined the poetic fight motto Float like a butterfly, sting like a bee?",
+      "options": [
+        "Muhammad Ali",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muhammad Ali was a three-time world heavyweight champion celebrated for his extraordinary boxing ringcraft and humanitarian voice."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Grand Slam tennis championship is contested annually on traditional grass courts in southwest London?",
+      "options": [
+        "US Open",
+        "Wimbledon",
+        "Roland Garros"
+      ],
+      "correctIndex": 1,
+      "explanation": "Founded in 1877 at the All England Club, The Championships, Wimbledon is the oldest and most prestigious tennis tournament in the world."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Jamaican sprint sensation set the unbroken 100-meter world record of 9.58 seconds in Berlin in 2009?",
+      "options": [
+        "Tyson Gay",
+        "Asafa Powell",
+        "Usain Bolt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Usain Bolt is an eight-time Olympic gold medalist who holds the world records in both the 100-meter and 200-meter sprint events."
+    },
+    {
+      "type": "number",
+      "question": "What is the official standardized distance of a full marathon footrace in kilometers rounded to the nearest whole integer?",
+      "target": 42,
+      "metricUnit": "km",
+      "imperialDisplay": "26.2 miles (42.195 km)",
+      "explanation": "The official marathon distance was standardized at 42.195 kilometers [26 miles and 385 yards] at the 1908 London Olympics."
+    },
+    {
+      "type": "mcq",
+      "question": "What abundant metallic element in Earth liquid outer core generates our global magnetic field through convection currents?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Titanium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thermal convection of molten iron and nickel in Earth outer core powers the geodynamo, generating our protective magnetosphere."
+    },
+    {
+      "type": "mcq",
+      "question": "Which tall, conical volcanic mountain type formed from alternating strata of lava and pyroclastic debris produces violent explosive eruptions?",
+      "options": [
+        "Shield Volcano",
+        "Stratovolcano",
+        "Cinder Cone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stratovolcanoes such as Mount Fuji, Mount St. Helens, and Mount Vesuvius feature steep slopes and highly viscous, gas-rich magma."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most abundant chemical element by mass in Earth continental and oceanic crust?",
+      "options": [
+        "Silicon",
+        "Aluminum",
+        "Oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oxygen accounts for roughly 46.6 percent of the mass of Earth crust, predominantly bound within silicate and oxide minerals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep undersea trench in the western Pacific Ocean contains the deepest known point on Earth surface, the Challenger Deep?",
+      "options": [
+        "Mariana Trench",
+        "Puerto Rico Trench",
+        "Java Trench"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mariana Trench descends to nearly 11,000 meters [roughly 36,000 feet] at the Challenger Deep."
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast tropical rainforest basin produces substantial global moisture and shelters approximately 10 percent of all known wildlife species?",
+      "options": [
+        "Congo Rainforest",
+        "Amazon Rainforest",
+        "Daintree Rainforest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spanning nine South American nations across roughly 5.5 million square kilometers, the Amazon is the planet largest tropical rainforest."
+    },
+    {
+      "type": "number",
+      "question": "How many chemical elements are officially confirmed and cataloged on the modern IUPAC Periodic Table of Elements?",
+      "target": 118,
+      "metricUnit": "elements",
+      "imperialDisplay": "118 confirmed elements",
+      "explanation": "The modern Periodic Table includes 118 verified elements, ranging from Hydrogen (atomic number 1) to Oganesson (atomic number 118)."
+    }
+  ]
+}

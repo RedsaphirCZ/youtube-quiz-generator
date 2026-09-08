@@ -1,0 +1,703 @@
+{
+  "id": "world-languages-linguistics-60",
+  "theme": "Languages & Linguistics: Alphabets, Etymology & Scripts",
+  "title": "Languages & Linguistics: Alphabets, Etymology & Scripts",
+  "description": "A 60-question comprehensive linguistic exploration into Proto-Indo-European, ancient cuneiform and hieroglyphs, alphabets and abjads, the evolution of English, Hangul, Hebrew revival, language isolates, phonetics, Esperanto, and world linguistic records.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which reconstructed ancestral language is considered the common forebear of English, Spanish, Hindi, Russian, and Greek?",
+      "options": [
+        "Proto-Indo-European",
+        "Proto-Afroasiatic",
+        "Proto-Uralic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linguists reconstructed Proto-Indo-European through comparative phonological and lexical analysis of cognates across European and Asian tongues.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which branch of the Indo-European family includes Italian, French, Spanish, Portuguese, and Romanian?",
+      "options": [
+        "Germanic languages",
+        "Romance languages",
+        "Slavic languages"
+      ],
+      "correctIndex": 1,
+      "explanation": "Romance languages evolved directly from Vulgar Latin spoken across the territories of the Western Roman Empire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which language family includes Hungarian, Finnish, and Estonian, standing distinctly apart from most neighboring European languages?",
+      "options": [
+        "Altaic family",
+        "Indo-European family",
+        "Uralic family"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Finno-Ugric branch of the Uralic family features extensive agglutinative morphology and vowel harmony rather than grammatical gender.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sound law discovered in 1822 describes the systematic consonant shift separating Germanic languages from other Indo-European tongues?",
+      "options": [
+        "Grimm's Law",
+        "Verner's Law",
+        "Grassmann's Law"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formulated by Jacob Grimm, the law showed how Proto-Indo-European voiceless stops (p, t, k) shifted into Germanic voiceless fricatives (f, th, h).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient classical language of India preserves the oldest liturgical texts of Hinduism and sacred grammar by Panini?",
+      "options": [
+        "Prakrit",
+        "Sanskrit",
+        "Pali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Panini's 4th-century BCE Ashtadhyayi laid down 3,959 algebraic grammatical rules for Sanskrit, hailed as the earliest formal generative grammar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many distinct living languages are actively spoken across the world today according to Ethnologue?",
+      "target": 7168,
+      "metricUnit": "living languages",
+      "imperialDisplay": "approx. 7100+ languages",
+      "explanation": "Linguistic databases such as Ethnologue document approximately 7,168 living spoken and signed languages across the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient writing system developed in southern Mesopotamia around 3400 BCE utilized wedge-shaped styluses on wet clay tablets?",
+      "options": [
+        "Hieratic",
+        "Demotic",
+        "Cuneiform"
+      ],
+      "correctIndex": 2,
+      "explanation": "Invented by the Sumerians to record grain inventories and trade, cuneiform evolved from pictograms into a sophisticated logo-syllabic script.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which trading seafaring civilization of the Levant developed the first widespread phonemic alphabet that gave rise to Greek and Latin scripts?",
+      "options": [
+        "Phoenicians",
+        "Hittites",
+        "Philistines"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 22-consonant Phoenician abjad simplified writing by abandoning hundreds of complex logograms in favor of one sign per consonant sound.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which multilingual granite stele discovered in Egypt in 1799 allowed Jean-Francois Champollion to decipher Egyptian hieroglyphs?",
+      "options": [
+        "Behistun Inscription",
+        "Rosetta Stone",
+        "Palermo Stone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Rosetta Stone contained the same royal decree of Ptolemy V in three scripts: Ancient Greek, Demotic, and Egyptian Hieroglyphs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Minoan and Mycenaean script written on clay tablets was successfully deciphered by English architect Michael Ventris in 1952?",
+      "options": [
+        "Linear A",
+        "Cretan Hieroglyphic",
+        "Linear B"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ventris demonstrated that Linear B recorded an early archaic dialect of Greek, four centuries before Homer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient writing medium made from the pith of a wetland reed plant was heavily used for scribal records throughout ancient Egypt and the Mediterranean?",
+      "options": [
+        "Papyrus",
+        "Parchment",
+        "Vellum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manufactured from the Cyperus papyrus plant along the Nile River, papyrus scrolls were the primary writing surface of classical antiquity.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many consonant letters made up the classical Phoenician abjad alphabet?",
+      "target": 22,
+      "metricUnit": "letters",
+      "imperialDisplay": "22 consonant characters",
+      "explanation": "The Phoenician alphabet consisted of exactly 22 consonant signs, written from right to left without vowel markers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What linguistic term describes a writing system such as Arabic or Hebrew in which only consonants are written while vowels are omitted or indicated with diacritics?",
+      "options": [
+        "Abugida",
+        "Abjad",
+        "Logogram"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abjads require the reader to deduce appropriate vowel sounds based on grammatical knowledge and linguistic context.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What writing system, used for Hindi Devanagari and Thai, features consonant characters with an inherent vowel modified by diacritics?",
+      "options": [
+        "Alphabet",
+        "Syllabary",
+        "Abugida"
+      ],
+      "correctIndex": 2,
+      "explanation": "In an abugida (alphasyllabary), consonants have an default inherent vowel (like 'a') unless altered by a vowel diacritic mark.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which writing system uses individual characters that represent whole words or meaningful morphemes, as in Chinese Hanzi characters?",
+      "options": [
+        "Logographic",
+        "Alphabetic",
+        "Phonetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Logograms convey meaning directly rather than phonemes alone, allowing speakers of mutually unintelligible dialects to read the same text.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which script, derived from the Greek alphabet by disciples of Saints Cyril and Methodius, is used today for Russian, Ukrainian, and Bulgarian?",
+      "options": [
+        "Glagolitic script",
+        "Cyrillic script",
+        "Coptic script"
+      ],
+      "correctIndex": 1,
+      "explanation": "Developed in the First Bulgarian Empire in the 9th century CE, Cyrillic adapted Greek letters to Slavic phonology.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What writing system developed in ancient Greece was written alternating lines left-to-right and right-to-left, named as the ox turns?",
+      "options": [
+        "Hieratic",
+        "Cursive",
+        "Boustrophedon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Boustrophedon mimics the path of an ox plowing a field, reversing text direction on every subsequent line.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many letters are in the modern standard Russian Cyrillic alphabet?",
+      "target": 33,
+      "metricUnit": "letters",
+      "imperialDisplay": "33 Cyrillic letters",
+      "explanation": "The standard modern Russian alphabet comprises exactly 33 letters: 10 vowels, 21 consonants, and 2 signs (hard sign and soft sign).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historical linguistic event between 1400 and 1700 fundamentally transformed the pronunciation of all English long vowels?",
+      "options": [
+        "The Great Vowel Shift",
+        "The Norman Conquest",
+        "The Grimm Shift"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Great Vowel Shift raised and diphthongized Middle English long vowels, explaining why English spelling differs greatly from modern pronunciation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Germanic language dialect spoken by Anglo-Saxons from the 5th century until around 1100 CE is preserved in the epic Beowulf?",
+      "options": [
+        "Middle English",
+        "Old English",
+        "Early Modern English"
+      ],
+      "correctIndex": 1,
+      "explanation": "Old English featured a complex four-case noun system, grammatical genders, and strong verb conjugations closely resembling Old Saxon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark 1066 historical event introduced thousands of Anglo-Norman French vocabulary words into English government, law, and cuisine?",
+      "options": [
+        "The Hundred Years' War",
+        "The Viking Invasion",
+        "The Norman Conquest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Following William the Conqueror's victory at Hastings, French became the language of the English court, creating English's vast dual Germanic-Romance vocabulary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for a word borrowed from another language, such as 'tsunami' from Japanese or 'kindergarten' from German?",
+      "options": [
+        "Loanword",
+        "Calque",
+        "Cognate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loanwords enter languages through trade, conquest, or cultural exchange without translation of their individual morphemes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What linguistic term describes words in different languages that share a common ancestral etymological origin, such as English 'father' and Latin 'pater'?",
+      "options": [
+        "Homophones",
+        "Cognates",
+        "Antonyms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cognates descend from the same parent word in an ancestral proto-language, retaining parallel phonological correspondences.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many letters make up the standard modern basic ISO Latin alphabet used in modern English?",
+      "target": 26,
+      "metricUnit": "letters",
+      "imperialDisplay": "26 standard letters",
+      "explanation": "The standard ISO basic Latin alphabet consists of exactly 26 letters, from A through Z.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Korean monarch commissioned the creation of the scientific, highly phonetic Hangul alphabet in 1443 to increase public literacy?",
+      "options": [
+        "King Taejo",
+        "King Yeongjo",
+        "King Sejong the Great"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Sejong designed Hangul letter shapes to mimic the physical configuration of the mouth, tongue, and throat when pronouncing each sound.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese writing system consists of two phonetic syllabaries alongside adopted Chinese logographic characters (Kanji)?",
+      "options": [
+        "Hiragana and Katakana",
+        "Hangul and Hanja",
+        "Pinyin and Zhuyin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Japanese combines native Hiragana for grammatical particles, Katakana for foreign loanwords, and Kanji for content root words.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many distinct vocal tones are used in standard Mandarin Chinese to distinguish word meanings on a single syllable?",
+      "options": [
+        "Two tones",
+        "Four tones",
+        "Seven tones"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard Mandarin uses four pitched tones (high level, rising, dipping, falling) plus a neutral tone, where 'ma' can mean mother, hemp, horse, or scold.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Romanization system is the official international standard for transcribing Mandarin Chinese into the Latin alphabet?",
+      "options": [
+        "Wade-Giles",
+        "Yale Romanization",
+        "Pinyin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Developed in China in the 1950s by linguist Zhou Youguang, Hanyu Pinyin uses Latin letters with tone accent marks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Southeast Asian language adapted the Latin alphabet with extensive diacritics in the 17th century through Jesuit missionary Alexandre de Rhodes?",
+      "options": [
+        "Vietnamese",
+        "Thai",
+        "Khmer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known as Chu Quoc ngu, the Latin-based script replaced traditional Chinese-derived Chu Nom and became Vietnam's official national writing system.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many original basic alphabetic letters were introduced by King Sejong in the 1446 Hunminjeongeum text that created Hangul?",
+      "target": 28,
+      "metricUnit": "letters",
+      "imperialDisplay": "28 original letters",
+      "explanation": "The original Hangul system consisted of 28 letters (17 consonants and 11 vowels), four of which later became obsolete, leaving 24 in modern use.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Semitic language underwent a historic modern revival from a purely liturgical sacred tongue into a living national vernacular led by Eliezer Ben-Yehuda?",
+      "options": [
+        "Aramaic",
+        "Hebrew",
+        "Amharic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eliezer Ben-Yehuda coined thousands of modern words for items like bicycles and ice cream, making Hebrew the only successful dead language spoken revival in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Semitic languages like Arabic and Hebrew, words are fundamentally formed by slotting vowels into a root system consisting of how many consonants?",
+      "options": [
+        "Two consonants",
+        "Five consonants",
+        "Three consonants"
+      ],
+      "correctIndex": 2,
+      "explanation": "The triconsonantal root system (e.g. k-t-b related to writing in Arabic: kitab = book, kataba = he wrote, maktab = office) forms words through vowel templates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Semitic language served as the primary everyday lingua franca of the Near East during the Persian Empire and was spoken by Jesus of Nazareth?",
+      "options": [
+        "Aramaic",
+        "Akkadian",
+        "Phoenician"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aramaic was widely adopted as the diplomatic and trade language across the Middle East for over a millennium.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which European island nation speaks a national language that is linguistically Semitic (descended from Siculo-Arabic) but written in the Latin alphabet?",
+      "options": [
+        "Cyprus",
+        "Malta",
+        "Crete"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maltese is the only Semitic language that holds official national language status within the European Union and is written exclusively in Latin script.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the official working and national language of Ethiopia, written in the distinctive Ge'ez Fidel abugida script?",
+      "options": [
+        "Oromo",
+        "Tigrinya",
+        "Amharic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amharic is the second most widely spoken Semitic language in the world after Arabic, utilizing the ancient Ge'ez script.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many consonant letters make up the traditional Hebrew alphabet script?",
+      "target": 22,
+      "metricUnit": "letters",
+      "imperialDisplay": "22 Hebrew consonants",
+      "explanation": "The Hebrew alphabet consists of 22 consonant letters, five of which take special final forms (sofit) when written at the end of words.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which language spoken in the Pyrenees region between Spain and France has no proven genealogical relationship to any other known language family?",
+      "options": [
+        "Basque",
+        "Catalan",
+        "Galician"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basque (Euskara) is Western Europe's sole surviving language isolate, predating the arrival of Indo-European languages on the continent.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which indigenous language of northern Japan, spoken by the native people of Hokkaido and Sakhalin, is an endangered language isolate?",
+      "options": [
+        "Ryukyuan",
+        "Ainu",
+        "Nivkh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ainu possesses distinct polysynthetic morphology and rich oral epic storytelling (Yukar) completely unrelated to Japanese.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which extinct ancient language of pre-Roman central Italy was written in an alphabet derived from Greek but remains largely undeciphered in its grammar?",
+      "options": [
+        "Oscan",
+        "Umbrian",
+        "Etruscan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Etruscan was non-Indo-European; though readable phonetically, its vocabulary and grammatical system remain isolated from other known language families.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Amazonian language spoken by an indigenous hunter-gatherer tribe has famously challenged universal grammar with claims of lacking numbers and recursive clauses?",
+      "options": [
+        "Piraha",
+        "Yanomami",
+        "Guarani"
+      ],
+      "correctIndex": 0,
+      "explanation": "Studied extensively by linguist Daniel Everett, Piraha features one of the smallest phoneme inventories and lacks grammatical recursion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What linguistic classification is given to a natural language that has no demonstrable genetic relationship with any other living or dead language?",
+      "options": [
+        "Pidgin",
+        "Language isolate",
+        "Creole"
+      ],
+      "correctIndex": 1,
+      "explanation": "Language isolates represent the lone surviving members of otherwise extinct language families, like Basque, Korean (by some classifications), and Ainu.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many known living related sister languages belong to the same language family as Basque?",
+      "target": 0,
+      "metricUnit": "sister languages",
+      "imperialDisplay": "0 related living languages",
+      "explanation": "Basque is a complete language isolate with zero known surviving relative languages anywhere in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What international standardized alphabetic system was created by linguists in 1888 to accurately represent every sound of human speech?",
+      "options": [
+        "NATO Phonetic Alphabet",
+        "Universal Alphabet",
+        "International Phonetic Alphabet"
+      ],
+      "correctIndex": 2,
+      "explanation": "The International Phonetic Alphabet (IPA) provides a one-to-one symbol correspondence for every distinct phone across all world languages.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which family of southern African languages, including Xhosa and Zulu, is famous for incorporating distinctive non-pulmonic click consonants?",
+      "options": [
+        "Khoisan and Niger-Congo families",
+        "Niger-Congo isolates",
+        "Nilo-Saharan languages"
+      ],
+      "correctIndex": 0,
+      "explanation": "Click sounds are produced by creating suction with the tongue in the oral cavity, representing some of the rarest consonants in human speech.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What morphological language type, exemplified by Turkish, Hungarian, and Swahili, builds complex words by stringing together distinct unvarying affixes?",
+      "options": [
+        "Isolating",
+        "Agglutinative",
+        "Fusional"
+      ],
+      "correctIndex": 1,
+      "explanation": "In agglutinative languages, each morpheme cleanly represents a single grammatical function (e.g. Turkish: ev = house, ev-ler = houses, ev-ler-im = my houses).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for the smallest unit of sound in a language that can distinguish one word from another, such as /p/ and /b/ in 'pat' and 'bat'?",
+      "options": [
+        "Morpheme",
+        "Grapheme",
+        "Phoneme"
+      ],
+      "correctIndex": 2,
+      "explanation": "Changing a single phoneme changes the semantic meaning of a word in minimal pairs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What linguistic phenomenon occurs when a speaker alternates between two or more languages or dialects within a single conversation?",
+      "options": [
+        "Code-switching",
+        "Diglossia",
+        "Pidginization"
+      ],
+      "correctIndex": 0,
+      "explanation": "Code-switching is a natural and sophisticated communicative strategy used by multilingual speakers depending on social context and conversational nuance.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many primary official consonant symbols are defined on the standard chart of the International Phonetic Alphabet (IPA)?",
+      "target": 107,
+      "metricUnit": "symbols",
+      "imperialDisplay": "approx. 107 core symbols",
+      "explanation": "The standard IPA chart defines 107 primary symbols representing consonants and vowels, augmented by various diacritics and suprasegmentals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish ophthalmologist created the international auxiliary language Esperanto in 1887 under the pseudonym Doktoro Esperanto?",
+      "options": [
+        "Volapuk Schleyer",
+        "L.L. Zamenhof",
+        "Alexander Gode"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ludwik Lejzer Zamenhof designed Esperanto with regular grammar and European roots to foster international peace and mutual understanding.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which constructed warrior language with a guttural phonology was created by linguist Marc Okrand for the Star Trek science fiction franchise?",
+      "options": [
+        "Elvish",
+        "Dothraki",
+        "Klingon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Okrand developed Klingon (tlhIngan Hol) with an unusual Object-Verb-Subject (OVS) word order to give it an alien grammatical structure.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Oxford philologist and author constructed the Elvish languages Quenya and Sindarin before writing The Lord of the Rings?",
+      "options": [
+        "J.R.R. Tolkien",
+        "C.S. Lewis",
+        "Philip Pullman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tolkien famously stated that his fantasy stories were written to provide a mythological world for his constructed languages, rather than vice versa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which philosophical minimalist constructed language created by Sonja Lang in 2001 utilizes only around 120 basic root words?",
+      "options": [
+        "Lojban",
+        "Toki Pona",
+        "Ithkuil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toki Pona was designed around Taoist simplicity, expressing complex thoughts through combinations of basic universal concepts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century priest invented Volapuk, one of the earliest constructed international auxiliary languages, before Esperanto surpassed it?",
+      "options": [
+        "Charles K. Bliss",
+        "John Wilkins",
+        "Johann Martin Schleyer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Schleyer claimed God instructed him in a dream to create an international tongue, publishing Volapuk in 1879.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many core root words were in the original vocabulary of the minimalist constructed language Toki Pona?",
+      "target": 120,
+      "metricUnit": "words",
+      "imperialDisplay": "120 original words",
+      "explanation": "Sonja Lang's original Toki Pona specification published in 2001 contained exactly 120 essential root words.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which language has the largest number of native (first-language) speakers in the world, with over 900 million native speakers?",
+      "options": [
+        "Mandarin Chinese",
+        "Spanish",
+        "English"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mandarin Chinese leads all global languages in native primary speakers, predominantly spoken across mainland China, Taiwan, and Singapore.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which South American nation shares the record for having 37 official languages recognized in its national constitution alongside Spanish?",
+      "options": [
+        "Peru",
+        "Bolivia",
+        "Ecuador"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bolivia's 2009 constitution officially recognizes Spanish and 36 indigenous indigenous languages including Quechua, Aymara, and Guarani.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island nation in the southwestern Pacific has the highest linguistic density in the world, with over 800 indigenous languages spoken?",
+      "options": [
+        "Madagascar",
+        "New Zealand",
+        "Papua New Guinea"
+      ],
+      "correctIndex": 2,
+      "explanation": "Papua New Guinea's rugged mountain valleys isolated human communities for millennia, fostering more than 840 distinct languages.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the linguistic term for a simplified contact language developed between two groups without a shared tongue, which later evolves into a native creole?",
+      "options": [
+        "Pidgin",
+        "Patois",
+        "Dialect"
+      ],
+      "correctIndex": 0,
+      "explanation": "When children acquire a pidgin as their primary first language and expand its grammar, it becomes classified as a fully developed creole.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Approximately what percentage of the world's remaining languages are estimated by UNESCO to be endangered of extinction by 2100?",
+      "options": [
+        "Ten percent",
+        "Fifty percent",
+        "Ninety percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linguists estimate that roughly half (50%) of all currently spoken languages may fall silent by the end of the 21st century without active revitalization.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many official national languages are recognized in the constitution of South Africa following the addition of Sign Language in 2023?",
+      "target": 12,
+      "metricUnit": "official languages",
+      "imperialDisplay": "12 recognized languages",
+      "explanation": "South Africa recognizes 12 official languages: Zulu, Xhosa, Afrikaans, English, Sepedi, Setswana, Sesotho, Xitsonga, siSwati, Tshivenda, Ndebele, and SASL.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

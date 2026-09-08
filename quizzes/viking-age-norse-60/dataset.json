@@ -1,0 +1,703 @@
+{
+  "id": "viking-age-norse-60",
+  "theme": "The Viking Age: Raiders, Sagas & Norse Expansion",
+  "title": "The Viking Age: Raiders, Sagas & Norse Expansion",
+  "description": "A 60-question grand assessment on longships, Lindisfarne, Norse mythology, Danelaw, Vinland exploration, and heroic sagas.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which legendary monastery raid in Northumbria in 793 CE is commonly marked as the start of the Viking Age?",
+      "options": [
+        "Lindisfarne",
+        "Iona",
+        "Whitby"
+      ],
+      "correctIndex": 0,
+      "explanation": "The violent attack on the holy island monastery of Lindisfarne in June 793 sent shockwaves through Christian Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the specialized clinker-built warship that enabled Viking navigators to sail shallow rivers and open oceans?",
+      "options": [
+        "Caravel",
+        "Longship",
+        "Galley"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Viking longship featured overlapping planks, a shallow draft, and symmetrical ends that allowed rapid beach landings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Norse explorer who led expeditions to Vinland in North America around 1000 CE?",
+      "options": [
+        "Harald Hardrada",
+        "Ragnar Lothbrok",
+        "Leif Erikson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leif Erikson established a settlement at L'Anse aux Meadows in modern Newfoundland roughly 500 years before Columbus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What alphabetical writing system was carved onto Norse memorial stones and weapons?",
+      "options": [
+        "Runes",
+        "Coptic",
+        "Ogham"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Younger Futhark runic alphabet consisted of 16 characters used during the Viking Age for inscriptions and memorials.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Norse cosmology, what is the name of the great cosmic tree that connects the nine worlds?",
+      "options": [
+        "Valhalla",
+        "Yggdrasil",
+        "Midgard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yggdrasil is the sacred ash tree whose branches extend into the heavens and whose roots anchor the nine Norse realms.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the historic Viking raid on the abbey of Lindisfarne take place?",
+      "target": 793,
+      "metricUnit": "CE",
+      "imperialDisplay": "793 CE",
+      "explanation": "The raid on Lindisfarne in 793 CE is universally accepted as the formal dawn of the Viking Age.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which magnificent hall in Asgard, ruled by Odin, welcomed brave fallen warriors to feast for eternity?",
+      "options": [
+        "Helheim",
+        "Folkvangr",
+        "Valhalla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valhalla welcomed warriors slain in battle (Einherjar), where they feasted on the boar Saehrimnir and prepared for Ragnarok.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fierce Viking warriors entered combat in a trance-like fury, wearing animal skins instead of armor?",
+      "options": [
+        "Berserkers",
+        "Varangians",
+        "Huscarls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berserkers were frenzied Norse champions associated with Odin who fought with ferocious abandon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish king ruled a vast North Sea Empire uniting England, Denmark, and Norway in the 11th century?",
+      "options": [
+        "Eric Bloodaxe",
+        "Cnut the Great",
+        "Svein Forkbeard"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Cnut the Great forged an Anglo-Scandinavian empire from 1016 to 1035, bringing stability and trade to the region.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What archaeological site in Newfoundland proves Norse presence in North America centuries before 1492?",
+      "options": [
+        "Cahokia",
+        "Pueblo Bonito",
+        "L'Anse aux Meadows"
+      ],
+      "correctIndex": 2,
+      "explanation": "Excavated in the 1960s, L'Anse aux Meadows contains eight Norse turf-built structures and an iron smithy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the assembly or parliament called in medieval Scandinavia where free men made laws and resolved disputes?",
+      "options": [
+        "Thing",
+        "Duma",
+        "Witenagemot"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Thing was the local legislative and judicial assembly, with Iceland Althing founded in 930 CE being one of the world oldest.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the Althing, the national parliament of Iceland, founded at Thingvellir?",
+      "target": 930,
+      "metricUnit": "CE",
+      "imperialDisplay": "930 CE",
+      "explanation": "The Icelandic Althing was established in 930 CE and remains one of the oldest surviving parliamentary institutions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which elite imperial bodyguard unit served the Byzantine emperors in Constantinople, composed primarily of Norse warriors?",
+      "options": [
+        "Praetorian Guard",
+        "Varangian Guard",
+        "Janissaries"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Varangian Guard was established under Basil II in 988 CE, celebrated for their two-handed Danish battleaxes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the Norse name for the Atlantic island of Greenland, named by Erik the Red to attract settlers?",
+      "options": [
+        "Thule",
+        "Vinland",
+        "Gronland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Erik the Red coined the appealing name Gronland (Greenland) in 982 CE to persuade fellow Icelanders to colonize the territory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which god wielded the thunder hammer Mjolnir in Norse mythology?",
+      "options": [
+        "Thor",
+        "Loki",
+        "Freyr"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thor, son of Odin and protector of mankind, used the short-handled war hammer Mjolnir to battle giants and control lightning.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major battle in 1066 in northern England saw King Harold Godwinson defeat King Harald Hardrada of Norway?",
+      "options": [
+        "Battle of Hastings",
+        "Battle of Stamford Bridge",
+        "Battle of Edington"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Battle of Stamford Bridge in September 1066 resulted in the death of Harald Hardrada and ended Norwegian invasion hopes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norse term referred to the cataclysmic twilight and destruction of the gods and cosmos?",
+      "options": [
+        "Fimbulwinter",
+        "Valhalla",
+        "Ragnarok"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ragnarok involved cosmic battles, the death of Odin and Thor, and the eventual rebirth of the earth from the sea.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the climactic Battle of Stamford Bridge take place, marking the traditional end of the Viking Age?",
+      "target": 1066,
+      "metricUnit": "CE",
+      "imperialDisplay": "1066 CE",
+      "explanation": "1066 CE saw the Battle of Stamford Bridge, which alongside the Norman Conquest concluded the Scandinavian Viking expansion era.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Norse navigation tool utilized light polarization to locate the sun on cloudy or overcast days?",
+      "options": [
+        "Sunstone",
+        "Astrolabe",
+        "Magnetic Compass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iceland spar crystals, known in sagas as sunstones, polarized diffuse sunlight to determine solar coordinates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Viking leader was granted lands in northern France in 911 CE by King Charles the Simple, founding Normandy?",
+      "options": [
+        "Bjorn Ironside",
+        "Rollo",
+        "Ivar the Boneless"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rollo signed the Treaty of Saint-Clair-sur-Epte, converting to Christianity and becoming the first Duke of Normandy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the historical region of northern and eastern England governed by Scandinavian law called?",
+      "options": [
+        "Mercia",
+        "Wessex",
+        "Danelaw"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Danelaw was established by treaties between King Alfred the Great of Wessex and the Danish warlord Guthrum.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which female Norse deity of love, fertility, and gold rode a chariot pulled by two blue cats?",
+      "options": [
+        "Freyja",
+        "Frigg",
+        "Idunn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Freyja was the foremost Vanir goddess who received half of all fallen warriors at her meadow Folkvangr.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 9th-century Viking ship burial uncovered in Norway is renowned for its elaborate wood carvings?",
+      "options": [
+        "Gokstad ship",
+        "Oseberg ship",
+        "Tune ship"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Oseberg ship, discovered near Tonsberg in 1904, contained the remains of two high-ranking women and rich textiles.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many oars were rowed on the magnificent Oseberg Viking longship?",
+      "target": 30,
+      "metricUnit": "oars",
+      "imperialDisplay": "30 oars (15 pairs)",
+      "explanation": "The Oseberg ship featured 15 oar holes on each side, requiring a rowing crew of 30 oarsmen plus steersman.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Viking king was said to have been killed in a pit of venomous vipers by King Aella of Northumbria?",
+      "options": [
+        "Harald Fairhair",
+        "Gorm the Old",
+        "Ragnar Lothbrok"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ragnar Lothbrok legendary death spurred his sons to launch the Great Heathen Army against the Anglo-Saxon kingdoms in 865 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What precious silver wealth hoard was buried by Vikings in the 10th century and found in Lancashire in 1840?",
+      "options": [
+        "Cuerdale Hoard",
+        "Staffordshire Hoard",
+        "Spillings Hoard"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cuerdale Hoard contained over 8,600 silver items including Islamic dirhams, making it one of Europe largest Viking hoards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What primary trade route connected Scandinavian merchants with the Islamic Abbasid Caliphate via the Volga River?",
+      "options": [
+        "Amber Road",
+        "Volga Trade Route",
+        "Silk Road"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Volga route linked the Baltic Sea to the Caspian Sea and Baghdad, trading furs, amber, and slaves for silver dirhams.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mythological wolf offspring of Loki is destined to swallow Odin whole during Ragnarok?",
+      "options": [
+        "Garmr",
+        "Skoll",
+        "Fenrir"
+      ],
+      "correctIndex": 2,
+      "explanation": "The colossal monstrous wolf Fenrir was bound with the magical silk ribbon Gleipnir until his escape at Ragnarok.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which King of Norway unified the separate petty kingdoms into a single Norwegian realm around 872 CE?",
+      "options": [
+        "Harald Fairhair",
+        "Olaf Tryggvason",
+        "Magnus the Good"
+      ],
+      "correctIndex": 0,
+      "explanation": "Harald Fairhair won the decisive naval Battle of Hafrsfjord around 872 CE, becoming the first recognized King of Norway.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Great Heathen Army land in East Anglia to commence the conquest of England?",
+      "target": 865,
+      "metricUnit": "CE",
+      "imperialDisplay": "865 CE",
+      "explanation": "The Great Heathen Army arrived in 865 CE, systematically invading Northumbria, Mercia, and East Anglia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What type of distinctive Viking sword featured a double-edged pattern-welded blade and an inlaid iron maker mark like Ulfberht?",
+      "options": [
+        "Scimitar",
+        "Carolingian-style sword",
+        "Falchion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ulfberht swords were crafted from crucible crucible steel with high carbon content, providing unmatched flexibility and sharpness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which King of England famously halted the Viking advance and negotiated peace at the Treaty of Wedmore in 878 CE?",
+      "options": [
+        "Athelstan",
+        "Edward the Elder",
+        "Alfred the Great"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alfred the Great of Wessex defended his kingdom, fortified burhs, and encouraged literacy and naval defense against Danish forces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What were the carved runic stones erected in Jelling, Denmark, honoring King Gorm and Harald Bluetooth called?",
+      "options": [
+        "Jelling Stones",
+        "Kirkjubour Stones",
+        "Rok Stones"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Jelling Stones are recognized as Denmark birth certificate, commemorating Harald Christianization of the Danes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What alcoholic beverage brewed from fermented honey and water was central to Norse feasts and hospitality?",
+      "options": [
+        "Ale",
+        "Mead",
+        "Cider"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mead was celebrated in Norse poetry, most famously in the myth of the Mead of Poetry crafted from the blood of Kvasir.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the title of the Norse law-speaker who memorized and recited the entire legal code at the annual Althing?",
+      "options": [
+        "Jarl",
+        "Skald",
+        "Logsogumadr"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Logsogumadr (law-speaker) was elected for a three-year term to recite one-third of the Commonwealth law each summer.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many runic characters made up the standard Scandinavian Younger Futhark alphabet?",
+      "target": 16,
+      "metricUnit": "runes",
+      "imperialDisplay": "16 runes",
+      "explanation": "Unlike the earlier 24-character Elder Futhark, the Viking Age Younger Futhark was streamlined to exactly 16 letters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scandinavian court poet composed complex alliterative verses celebrating royal victories and heritage?",
+      "options": [
+        "Skald",
+        "Bard",
+        "Troubadour"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skalds employed intricate poetic meters like drottkvaett and colorful metaphorical kennings to compose oral histories.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which large Swedish island in the Baltic Sea served as a premier Viking trading nexus with massive silver deposits?",
+      "options": [
+        "Oland",
+        "Gotland",
+        "Aland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gotland has yielded more Viking Age silver coins and hoards than any other geographic area in Scandinavia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What type of timber church with wooden corner posts and dragon head ridges was built across medieval Norway?",
+      "options": [
+        "Basilica",
+        "Rotunda",
+        "Stave church"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stave churches like Urnes and Borgund combined Christian cruciform architecture with traditional Viking woodworking motifs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Norse hero used the sword Gram to slay the dragon Fafnir and claim the cursed golden treasure hoard?",
+      "options": [
+        "Sigurd",
+        "Dietrich",
+        "Beowulf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sigurd (Siegfried) the Volsung slew Fafnir, tasted dragon blood to understand birds, and won the Rhine gold.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What protective textile material was boiled and pressed to make waterproof clothing for Viking sailors on ocean voyages?",
+      "options": [
+        "Silk brocade",
+        "Wool treated with animal lanolin",
+        "Bleached cotton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dense wool saturated with natural sheep lanolin oils provided warmth and water repellency in harsh North Atlantic gales.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Treaty of Saint-Clair-sur-Epte signed, granting Normandy to Rollo?",
+      "target": 911,
+      "metricUnit": "CE",
+      "imperialDisplay": "911 CE",
+      "explanation": "Signed in 911 CE, this treaty created the Duchy of Normandy to serve as a defensive buffer against other Viking raiders.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Norse explorer was the father of Leif Erikson and established the first permanent Norse colonies on Greenland?",
+      "options": [
+        "Ingolfr Arnarson",
+        "Ottar of Halogaland",
+        "Erik the Red"
+      ],
+      "correctIndex": 2,
+      "explanation": "Erik Thorvaldsson (Erik the Red) was exiled from Iceland and founded the Eastern and Western Settlements in Greenland in 985 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Viking trading town in southern Denmark near modern Schleswig controlled trade between the North and Baltic seas?",
+      "options": [
+        "Hedeby",
+        "Birka",
+        "Kaupang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hedeby was protected by the Danevirke earthworks and was the largest Scandinavian urban market in the Viking Age.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the rainbow bridge connecting Midgard (Earth) with Asgard (realm of the gods) guarded by Heimdall?",
+      "options": [
+        "Gjallarbru",
+        "Bifrost",
+        "Valgrind"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bifrost is the shimmering burning rainbow bridge guarded by the watchman god Heimdall with his horn Gjallarhorn.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which King of Norway was canonized as a Christian saint and patron of Norway after dying at the Battle of Stiklestad in 1030?",
+      "options": [
+        "Magnus Barefoot",
+        "Haakon the Good",
+        "Olaf Haraldsson"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Olaf II (Saint Olaf) completed the Christianization of Norway and his shrine at Nidaros Cathedral became a major pilgrimage center.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What round wooden defensive weapon did Viking warriors interlock to create an impenetrable shield wall (skjaldborg)?",
+      "options": [
+        "Round wooden boss shield",
+        "Kite shield",
+        "Scutum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Viking round shields of linden wood were rimmed with leather and fitted with a central iron boss to deflect strikes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did King Olaf Haraldsson die at the Battle of Stiklestad before being canonized as Saint Olaf?",
+      "target": 1030,
+      "metricUnit": "CE",
+      "imperialDisplay": "1030 CE",
+      "explanation": "The Battle of Stiklestad occurred on July 29, 1030 CE, solidifying Christianity as the state religion in Norway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Norse game of strategy, similar to chess, pitted a central king and defenders against a larger attacking force?",
+      "options": [
+        "Senet",
+        "Hnefatafl",
+        "Nine Men Morris"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hnefatafl (King Table) was an asymmetrical board game played widely across Northern Europe throughout the Viking Age.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish island town on Lake Malaren was a pivotal trading hub visited by Saint Ansgar in the 9th century?",
+      "options": [
+        "Sigtuna",
+        "Visby",
+        "Birka"
+      ],
+      "correctIndex": 2,
+      "explanation": "Birka was an international emporium where merchants exchanged furs, amber, glass beads, and Byzantine silks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the compensation money paid by a killer to the family of a victim under Germanic and Norse law to prevent blood feuds?",
+      "options": [
+        "Weregild",
+        "Danegeld",
+        "Tithe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weregild (man-price) established a monetary valuation on individuals according to their social status to settle homicides.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which son of Ragnar Lothbrok acquired a legendary moniker due to a physical affliction or tactical cunning?",
+      "options": [
+        "Halfdan",
+        "Ivar the Boneless",
+        "Sigurd Snake-in-the-Eye"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ivar the Boneless was a primary commander of the Great Heathen Army and conquered York in 866 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Norse term designated the tax or tribute demanded by Viking fleets to spare English towns from destruction?",
+      "options": [
+        "Fyrd",
+        "Scutage",
+        "Danegeld"
+      ],
+      "correctIndex": 2,
+      "explanation": "English kings such as Aethelred the Unready paid hundreds of thousands of pounds of silver in Danegeld to buy off raiding armies.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In approximately what year CE was the settlement of Vinland in North America established by Norse explorers?",
+      "target": 1000,
+      "metricUnit": "CE",
+      "imperialDisplay": "1000 CE",
+      "explanation": "Norse sagas and radiocarbon dating at L'Anse aux Meadows place the Vinland exploration around 1000 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the Norse name for the city of York after it was captured and colonized by Vikings in 866 CE?",
+      "options": [
+        "Jorvik",
+        "Dublin",
+        "Nidaros"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jorvik became a thriving industrial and trading metropolis under Scandinavian rule for nearly a century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norse god sacrificed one of his eyes at the Well of Mimir to gain supreme cosmic wisdom?",
+      "options": [
+        "Tyr",
+        "Odin",
+        "Balder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Odin gave his right eye to drink from the waters of Mimir well and hung for nine days on Yggdrasil to master the runes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What metal was the most coveted medium of exchange in Viking commerce, frequently cut into hack-silver for small payments?",
+      "options": [
+        "Bronze",
+        "Gold",
+        "Silver"
+      ],
+      "correctIndex": 2,
+      "explanation": "Viking economy was based on bullion weight; silver ingots and jewelry were cut into fragments (hack-silver) to match scale balances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norse god of justice sacrificed his right hand to the jaws of the monstrous wolf Fenrir?",
+      "options": [
+        "Tyr",
+        "Heimdall",
+        "Njord"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tyr placed his hand in Fenrir mouth as a pledge of good faith while the other gods bound the wolf with Gleipnir.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest continuously published collection of Old Norse sagas and mythological poems written in 13th-century Iceland?",
+      "options": [
+        "Heimskringla",
+        "Poetic Edda",
+        "Gesta Danorum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Poetic Edda preserved ancient alliterative poems like the Voluspa and Havamal, recording foundational Norse myth.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many metric tons of silver did King Aethelred the Unready pay in total Danegeld during Viking raids on England?",
+      "target": 60,
+      "metricUnit": "metric tons",
+      "imperialDisplay": "60 metric tons of silver",
+      "explanation": "Historical records chronicle over 150,000 pounds (approx. 60-70 metric tons) of silver paid in Danegeld between 991 and 1014 CE.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,641 @@
+{
+  "id": "mongol-empire-genghis-khan-60",
+  "theme": "The Mongol Empire: Genghis Khan & Silk Road Dominion",
+  "title": "The Mongol Empire: Genghis Khan & Silk Road Dominion",
+  "description": "A 60-question grand master assessment exploring Temujin rise, horse archery, the Yam postal system, Pax Mongolica, Kublai Khan, and nomadic steppe culture.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What was the birth name of Genghis Khan before he was proclaimed supreme ruler of the Mongol tribes in 1206?",
+      "options": [
+        "Temujin",
+        "Subutai",
+        "Jochi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temujin unified the rival confederations of the Mongolian steppe and was proclaimed Genghis Khan (Universal Ruler) at a Kurultai in 1206."
+    },
+    {
+      "type": "mcq",
+      "question": "What circular, portable felt-covered tent served as the traditional home of nomadic Mongol pastoralists?",
+      "options": [
+        "Tipi",
+        "Yurt",
+        "Wigwam"
+      ],
+      "correctIndex": 1,
+      "explanation": "The yurt (or ger in Mongolian) is an ingeniously collapsible wooden lattice structure covered in felted wool."
+    },
+    {
+      "type": "mcq",
+      "question": "Which grandson of Genghis Khan founded the Yuan Dynasty of China and established his capital at Dadu (modern Beijing)?",
+      "options": [
+        "Batu Khan",
+        "Hulagu Khan",
+        "Kublai Khan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kublai Khan conquered the Southern Song Dynasty and ruled as Emperor of China from 1271 until his death in 1294."
+    },
+    {
+      "type": "mcq",
+      "question": "What composite weapon gave Mongol mounted archers exceptional range and penetrating power on the battlefield?",
+      "options": [
+        "Mongol composite bow",
+        "Crossbow",
+        "English longbow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crafted from horn, wood, and sinew, the Mongol recurve composite bow could loose arrows accurately from horseback over 300 meters."
+    },
+    {
+      "type": "mcq",
+      "question": "What rapid postal relay and courier system connected the vast expanse of the Mongol Empire across Eurasia?",
+      "options": [
+        "Cursus Publicus",
+        "Yam System",
+        "Pony Express"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Yam (Ortoo) postal network featured relay stations spaced 25 to 30 miles apart with fresh horses, allowing messages to travel 200 miles a day."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was Temujin formally proclaimed Genghis Khan at the grand Kurultai assembly on the Onon River?",
+      "target": 1206,
+      "metricUnit": "CE",
+      "imperialDisplay": "1206 CE",
+      "explanation": "In 1206 CE, the Mongol tribes were unified under Genghis Khan, launching the expansion of the largest contiguous land empire in history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which brilliant Mongol general won over 65 pitched battles across Asia and Europe, commanding armies under Genghis and Ogedei?",
+      "options": [
+        "Jebe",
+        "Chormaqan",
+        "Subutai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subutai the Valiant orchestrated campaigns across thousands of miles from northern China to the gates of Vienna."
+    },
+    {
+      "type": "mcq",
+      "question": "What period of relative peace, security, and flourishing trade along the Silk Road occurred under unified Mongol rule?",
+      "options": [
+        "Pax Mongolica",
+        "Pax Romana",
+        "Pax Sinica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pax Mongolica allowed merchants like Marco Polo to travel safely across Eurasia from Italy to China with imperial passports (paiza)."
+    },
+    {
+      "type": "mcq",
+      "question": "What city served as the administrative capital of the Mongol Empire founded by Genghis Khan in 1220?",
+      "options": [
+        "Samarkand",
+        "Karakorum",
+        "Sarai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karakorum in the Orkhon Valley served as the imperial capital where foreign envoys, artisans, and religious scholars gathered."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mongol khanate ruled over Russia and the Pontic steppe, established by Genghis grandson Batu Khan?",
+      "options": [
+        "Ilkhanate",
+        "Chagatai Khanate",
+        "Golden Horde"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Golden Horde ruled from its capital of Sarai on the Volga River, exercising hegemony over Russian principalities for over two centuries."
+    },
+    {
+      "type": "mcq",
+      "question": "What metal tablet passport or tablet of authority guaranteed safe passage and provisions across the Mongol realm?",
+      "options": [
+        "Paiza",
+        "Bull",
+        "Firman"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gold, silver, or bronze Paiza worn on the belt authorized imperial messengers and ambassadors to requisition horses and food on demand."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Mongol forces under Hulagu Khan capture and sack Baghdad, ending the Abbasid Caliphate?",
+      "target": 1258,
+      "metricUnit": "CE",
+      "imperialDisplay": "1258 CE",
+      "explanation": "The Siege of Baghdad in February 1258 ended the Islamic Golden Age and destroyed the historic Grand Library (House of Wisdom)."
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional fermented mare milk beverage is a staple of Mongolian nomadic culture and hospitality?",
+      "options": [
+        "Kefir",
+        "Airag",
+        "Kombucha"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airag (or koumiss) is made by churning fermented mare milk in a leather bag, producing a mildly alcoholic, tangy drink."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Venetian merchant spent 17 years in China serving in the court of Kublai Khan, documenting his journey in Il Milione?",
+      "options": [
+        "John of Plano Carpini",
+        "William of Rubruck",
+        "Marco Polo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marco Polo arrived at Kublai court in 1275, introducing Europeans to paper money, coal, and the grandeur of Yuan China."
+    },
+    {
+      "type": "mcq",
+      "question": "What natural weather disaster destroyed Kublai Khan invasion fleets attacking Japan in 1274 and 1281, called the divine wind?",
+      "options": [
+        "Kamikaze typhoons",
+        "Tsunamis",
+        "Monsoons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Kamikaze typhoons wrecked the Mongol armadas off Hakata Bay, preserving Japanese independence."
+    },
+    {
+      "type": "mcq",
+      "question": "Which decisive battle in 1260 in Palestine saw the Egyptian Mamluks inflict the first major field defeat on a Mongol army?",
+      "options": [
+        "Battle of Hattin",
+        "Battle of Ain Jalut",
+        "Battle of Yarmouk"
+      ],
+      "correctIndex": 1,
+      "explanation": "At Ain Jalut (Spring of Goliath), Mamluk Sultan Qutuz and General Baibars halted Mongol westward expansion into North Africa."
+    },
+    {
+      "type": "mcq",
+      "question": "What legal code established by Genghis Khan unified customary steppe law, military regulations, and discipline?",
+      "options": [
+        "Corpus Juris",
+        "Institutes",
+        "Yassa"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Yassa regulated hunting, taxation, military conduct, and religious freedom throughout the Mongol dominions."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Battle of Ain Jalut fought, halting Mongol expansion into the Middle East?",
+      "target": 1260,
+      "metricUnit": "CE",
+      "imperialDisplay": "1260 CE",
+      "explanation": "The Battle of Ain Jalut was fought on September 3, 1260, in the Jezreel Valley of Palestine."
+    },
+    {
+      "type": "mcq",
+      "question": "What military tactical formation did the Mongols use to organize their army into decimal units of 10,000 soldiers?",
+      "options": [
+        "Tumen",
+        "Century",
+        "Legion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mongol decimal military structure comprised units of 10 (arban), 100 (jaghun), 1,000 (mingghan), and 10,000 (tumen)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Central Asian conqueror claimed descent from Genghis Khan and built a sprawling empire from his capital in Samarkand around 1400?",
+      "options": [
+        "Babur",
+        "Timur the Lame",
+        "Shah Jahan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Timur (Tamerlane) conquered Persia, defeated the Ottoman Sultan Bayezid I at Ankara, and patronized magnificent Islamic architecture."
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Mongolian national festival features competitions in the three manly sports: wrestling, archery, and horse racing?",
+      "options": [
+        "Tsagaan Sar",
+        "Boun Oum",
+        "Naadam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Naadam takes place annually in midsummer across Mongolia, testing physical endurance, marksmanship, and equestrian skill."
+    },
+    {
+      "type": "mcq",
+      "question": "What sturdy horse breed native to the Mongolian plateau provided the vital mobility for Mongol nomadic conquerors?",
+      "options": [
+        "Mongolian horse",
+        "Arabian horse",
+        "Thoroughbred"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mongolian horses are small, semi-feral, stocky equines capable of foraging under snow and traveling 50 miles a day without grain."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mongol khanate encompassing Persia, Iraq, and Anatolia converted to Islam under Ghazan Khan in 1295?",
+      "options": [
+        "White Horde",
+        "Ilkhanate",
+        "Northern Yuan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ilkhanate was founded by Hulagu Khan and became a major patron of Persian miniature painting, astronomy, and architecture."
+    },
+    {
+      "type": "number",
+      "question": "How many warriors comprised a single tumen, the largest standard military division in the Mongol army?",
+      "target": 10000,
+      "metricUnit": "warriors",
+      "imperialDisplay": "10,000 warriors",
+      "explanation": "A tumen consisted of exactly 10,000 mounted troops subdivided into ten 1,000-man regiments."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous astronomical observatory was built in Maragheh (modern Iran) under the patronage of the Mongol Ilkhan Hulagu?",
+      "options": [
+        "Ulugh Beg Observatory",
+        "Jantar Mantar",
+        "Maragheh Observatory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded by polymath Nasir al-Din al-Tusi in 1259, Maragheh Observatory produced the most accurate planetary tables of the era."
+    },
+    {
+      "type": "mcq",
+      "question": "Which European traveler was sent by Pope Innocent IV in 1245 as an ambassador to the court of Guyuk Khan in Karakorum?",
+      "options": [
+        "John of Plano Carpini",
+        "Ibn Battuta",
+        "Niccolo Polo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plano Carpini delivered papal letters to the Great Khan and wrote the first comprehensive European account of Mongol customs."
+    },
+    {
+      "type": "mcq",
+      "question": "What Chinese innovation was adopted across the Mongol Empire under Kublai Khan as official state currency?",
+      "options": [
+        "Cowrie shells",
+        "Paper fiat currency",
+        "Iron ingots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chao was made from mulberry tree bark and stamped with imperial seals, representing history first nationwide paper money system."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Battle in 1241 in Silesia saw Mongol forces crush a combined European knightly army of Poles, Germans, and Teutonic Knights?",
+      "options": [
+        "Battle of Mohi",
+        "Battle of Grunwald",
+        "Battle of Liegnitz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Battle of Liegnitz (Legnica) demonstrated the tactical superiority of Mongol feigned retreats and coordination against armored chivalry."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the assembly of Mongol princes, nobility, and chieftains called that convened to elect a new Great Khan?",
+      "options": [
+        "Kurultai",
+        "Duma",
+        "Diet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Kurultai was the supreme council that legitimized political authority and planned grand military campaigns."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Mongol forces defeat King Bela IV of Hungary at the Battle of Mohi on the Sajo River?",
+      "target": 1241,
+      "metricUnit": "CE",
+      "imperialDisplay": "1241 CE",
+      "explanation": "The Battle of Mohi occurred on April 11, 1241, decimating the Hungarian royal army and leaving Hungary vulnerable to occupation."
+    },
+    {
+      "type": "mcq",
+      "question": "What psychological battle tactic did Mongol horsemen routinely employ to lure enemy forces into deadly ambushes?",
+      "options": [
+        "Shield wall",
+        "Feigned retreat",
+        "Square formation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mongol riders would pretend to flee in disorder for days until the pursuing enemy formation broke ranks, then turn and encircle them."
+    },
+    {
+      "type": "mcq",
+      "question": "What Russian battle in 1380 saw Grand Prince Dmitry Donskoy of Moscow defeat the Golden Horde under Mamai?",
+      "options": [
+        "Battle of Lake Peipus",
+        "Battle of the Neva",
+        "Battle of Kulikovo"
+      ],
+      "correctIndex": 2,
+      "explanation": "The victory at Kulikovo Field on the Don River marked the beginning of Russian emancipation from the Tatar-Mongol yoke."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous mother of Genghis Khan raised her children in exile on the harsh steppe after her husband was poisoned?",
+      "options": [
+        "Hoelun",
+        "Borte",
+        "Chabi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hoelun taught young Temujin survival skills, diplomacy, and the necessity of tribal unity after the family was abandoned."
+    },
+    {
+      "type": "mcq",
+      "question": "What great desert was crossed by Genghis Khan forces to surprise the Khwarazmian Empire from the rear in 1220?",
+      "options": [
+        "Gobi Desert",
+        "Kyzylkum Desert",
+        "Taklamakan Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Genghis crossed the impassable Kyzylkum Desert to emerge unexpectedly at Bukhara, shocking the defending garrison."
+    },
+    {
+      "type": "mcq",
+      "question": "What silver drinking fountain crafted by a captured French goldsmith Guillaume Boucher stood in the palace of Karakorum?",
+      "options": [
+        "The Bronze Dragon",
+        "The Golden Peacock",
+        "The Silver Tree"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Silver Tree dispensed wine, mare milk, mead, and rice wine from mechanical silver serpent spouts for guests."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Battle of Kulikovo fought between Moscow forces and the Golden Horde?",
+      "target": 1380,
+      "metricUnit": "CE",
+      "imperialDisplay": "1380 CE",
+      "explanation": "The Battle of Kulikovo was fought on September 8, 1380, elevating Moscow as the center of Russian statehood."
+    },
+    {
+      "type": "mcq",
+      "question": "Which second Great Khan succeeded Genghis Khan in 1229 and oversaw the conquest of northern China and eastern Europe?",
+      "options": [
+        "Ogedei Khan",
+        "Guyuk Khan",
+        "Mongke Khan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ogedei Khan established the permanent capital at Karakorum and initiated campaigns into Russia, Poland, and Hungary."
+    },
+    {
+      "type": "mcq",
+      "question": "What weapon did Mongol warriors use to snag and pull enemy riders off their saddles from horseback?",
+      "options": [
+        "Lasso",
+        "Hooked spear",
+        "Halberd"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mongol light cavalry carried hooked lances (urga poles) used to dismount opposing cavalry and entangle infantry."
+    },
+    {
+      "type": "mcq",
+      "question": "What form of throat singing, producing multiple harmonic pitches simultaneously, is an ancient Mongolian musical tradition?",
+      "options": [
+        "Qawwali",
+        "Yodeling",
+        "Khoomei"
+      ],
+      "correctIndex": 2,
+      "explanation": "Khoomei throat singing mimics the sounds of winds, whistling mountains, and streams on the vast Mongolian steppe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Chinese rebellion against Mongol Yuan rule in the 1350s was led by Buddhist sect members wearing red banners?",
+      "options": [
+        "Red Turban Rebellion",
+        "Boxer Rebellion",
+        "Taiping Rebellion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Red Turban Rebellion overthrew the Yuan Dynasty in 1368, leading Zhu Yuanzhang to establish the Ming Dynasty."
+    },
+    {
+      "type": "mcq",
+      "question": "What two-stringed traditional horsehead fiddle is the national instrument of Mongolia?",
+      "options": [
+        "Guzheng",
+        "Morin Khuur",
+        "Erhu"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Morin Khuur features a carved horse head at the scroll and strings made from horse hair, producing rich resonant tones."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Ming Dynasty capture Dadu (Beijing), forcing the Mongol Yuan court to retreat to the northern steppes?",
+      "target": 1368,
+      "metricUnit": "CE",
+      "imperialDisplay": "1368 CE",
+      "explanation": "In 1368 CE, the Yuan Dynasty collapsed in China and transitioned into the Northern Yuan Dynasty in Mongolia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which primary wife of Genghis Khan was his lifelong confidante and mother of his four primary heirs?",
+      "options": [
+        "Ibaqa",
+        "Yesui",
+        "Borte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Borte was Temujin first and most respected empress, whose rescue from Merkit kidnappers was Temujin first major victory."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the blood brotherhood oath called that bound nomadic warriors like Temujin and Jamukha together as brothers?",
+      "options": [
+        "Anda",
+        "Nokhor",
+        "Bagaatur"
+      ],
+      "correctIndex": 0,
+      "explanation": "An Anda relationship was sworn with rituals and gift exchanges, establishing mutual loyalty equal to biological kin."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous mountain range in central Mongolia was the ancestral birthplace and hunting grounds of Genghis Khan?",
+      "options": [
+        "Altai Mountains",
+        "Khentii Mountains",
+        "Tien Shan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Burkhan Khaldun in the Khentii Mountains is the sacred peak where Genghis prayed and is believed to be buried in an unmarked tomb."
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized stirrup innovation allowed Mongol mounted archers to stand upright in the saddle and twist 360 degrees while firing?",
+      "options": [
+        "Rope cinch",
+        "Toe loop",
+        "Iron stirrup with wide tread"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rigid iron stirrups anchored the rider lower body, enabling full torso rotation to loose the famed Parthian shot backward at full gallop."
+    },
+    {
+      "type": "mcq",
+      "question": "What religion was founded by nomadic Mongols prior to widespread conversion to Buddhism and Islam, centering on the eternal sky god Tengri?",
+      "options": [
+        "Tengrism",
+        "Zoroastrianism",
+        "Manichaeism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tengrism venerated the Blue Sky (Munkh Khokh Tengri) and natural spirits (Ejen) through shamans (Boo)."
+    },
+    {
+      "type": "number",
+      "question": "Approximately what percentage of the world land area was controlled by the Mongol Empire at its territorial peak, the largest contiguous empire in history?",
+      "target": 18,
+      "metricUnit": "percent",
+      "imperialDisplay": "18 percent of Earth land",
+      "explanation": "At its peak in the late 13th century, the Mongol Empire spanned over 24 million square kilometers, covering roughly 18% of global land."
+    },
+    {
+      "type": "mcq",
+      "question": "Which fortress of the Assassin order (Nizari Ismailis) in northern Iran was captured and dismantled by Hulagu Khan in 1256?",
+      "options": [
+        "Masada",
+        "Alamut Castle",
+        "Krak des Chevaliers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alamut Castle, nestled atop a high rocky crag in the Alborz Mountains, had resisted conventional sieges for over 150 years."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the title given to the elite household bodyguards and heavy cavalry sworn to protect the Great Khan?",
+      "options": [
+        "Janissaries",
+        "Varangians",
+        "Kheshig"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Kheshig served as the royal day-guard and night-guard, functioning as a nursery for future imperial administrators and generals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which grandson of Genghis Khan ruled the Chagatai Khanate in Central Asia, dominating trade cities along the Transoxiana Silk Road?",
+      "options": [
+        "Chagatai Khan",
+        "Batu",
+        "Hulagu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chagatai Khan maintained traditional nomadic laws while ruling over settled Islamic cities like Bukhara and Samarkand."
+    },
+    {
+      "type": "mcq",
+      "question": "What seasonal movement of pastoral nomads and their livestock between summer mountain pastures and winter valleys is practiced in Mongolia?",
+      "options": [
+        "Sedentism",
+        "Transhumance",
+        "Intensive agriculture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transhumance allowed herders to preserve grassland ecosystems while providing year-round grazing for horses, sheep, goats, camels, and yaks."
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional white felt boot worn with turned-up toes protects vegetation and preserves warm air pockets in Mongolian winters?",
+      "options": [
+        "Valenki",
+        "Moccasin",
+        "Gutal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gutal boots are constructed with upturned toes to prevent kicking up steppe soil and contain insulated felt stockings."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the siege and capture of the Assassin fortress of Alamut by Mongol forces take place?",
+      "target": 1256,
+      "metricUnit": "CE",
+      "imperialDisplay": "1256 CE",
+      "explanation": "Alamut fell to Hulagu siege engines on December 15, 1256, ending the political power of the Order of Assassins."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the traditional Mongolian robe worn by both men and women, fastened on the right shoulder with a silk sash?",
+      "options": [
+        "Deel",
+        "Kimono",
+        "Hanfu"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Deel is a versatile long garment that doubles as a coat, blanket, and riding robe across the severe steppe climate."
+    },
+    {
+      "type": "mcq",
+      "question": "Which great lake in northern Mongolia is known as the Dark Blue Pearl and contains roughly 70 percent of Mongolia fresh water?",
+      "options": [
+        "Lake Baikal",
+        "Lake Khovsgol",
+        "Lake Uvs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Khovsgol is an ancient pristine alpine lake situated near the Siberian border, holding one of the world purest water reserves."
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 40-meter-tall equestrian statue of Genghis Khan made of stainless steel stands at Tsonjin Boldog near Ulaanbaatar?",
+      "options": [
+        "Statue of Unity",
+        "Motherland Monument",
+        "Genghis Khan Equestrian Statue"
+      ],
+      "correctIndex": 2,
+      "explanation": "Erected in 2008 where Genghis allegedly found a golden whip, visitors can walk through the horse neck to view the surrounding steppe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Tibetan Buddhist sect became the dominant spiritual tradition in Mongolia after Altan Khan met the Third Dalai Lama in 1578?",
+      "options": [
+        "Gelug",
+        "Nyingma",
+        "Kagyu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Altan Khan bestowed the title Dalai Lama (Ocean of Wisdom) upon Sonam Gyatso, solidifying the Gelug (Yellow Hat) tradition in Mongolia."
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional dried meat prepared by nomads from salted strips of beef or horse meat preserved protein for winter military campaigns?",
+      "options": [
+        "Pemmican",
+        "Borts",
+        "Biltong"
+      ],
+      "correctIndex": 1,
+      "explanation": "Borts is dried and ground into a compact powder; a few spoonfuls in boiling water created an instant, nourishing stew for traveling warriors."
+    },
+    {
+      "type": "number",
+      "question": "How many meters tall is the monumental stainless-steel Genghis Khan Equestrian Statue at Tsonjin Boldog in Mongolia?",
+      "target": 40,
+      "metricUnit": "meters",
+      "imperialDisplay": "40 meters (131 feet)",
+      "explanation": "The statue stands 40 meters high atop a 10-meter base, making it the largest equestrian statue on Earth."
+    }
+  ]
+}

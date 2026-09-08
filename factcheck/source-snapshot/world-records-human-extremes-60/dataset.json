@@ -1,0 +1,641 @@
+{
+  "id": "world-records-human-extremes-60",
+  "theme": "World Records: Human Limits & Superlative Feats",
+  "title": "World Records: Human Limits & Superlative Feats",
+  "description": "A 60-question grand master assessment exploring Robert Wadlow, supercentenarians, Usain Bolt's top sprinting speed, Hafthor's 501kg deadlift, memory prodigies, 24-minute breath holds, Vesna Vulovic's fall survival, 3.13-second Rubik's cube solves, and cosmonaut space endurance.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who was the tallest verified human in recorded medical history, measured at an astonishing 272 cm (8 ft 11.1 in) before his death in 1940?",
+      "options": [
+        "Robert Wadlow",
+        "John Rogan",
+        "Sultan Kosen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Born in Alton, Illinois, Robert Wadlow's extraordinary height was caused by hypertrophy of his pituitary gland, which produced excessive human growth hormone."
+    },
+    {
+      "type": "mcq",
+      "question": "Who is the shortest verified adult person in medical history, measuring just 54.6 cm (21.5 inches) tall from Nepal?",
+      "options": [
+        "Gul Mohammed",
+        "Chandra Bahadur Dangi",
+        "Junrey Balawing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chandra Bahadur Dangi lived in a remote village in Dang district, Nepal, officially measured by Guinness World Records in 2012."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Turkish farmer holds the Guinness World Record as the tallest living man on Earth, standing at 251 cm (8 ft 2.8 in)?",
+      "options": [
+        "Brahim Takioullah",
+        "Morteza Mehrzad",
+        "Sultan Kosen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sultan Kosen also holds the world record for the largest hands on a living person, measuring 28.5 cm (11.2 inches) from wrist to middle fingertip."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian woman holds the Guinness World Record as the world's shortest living woman, measuring 62.8 cm (24.7 inches)?",
+      "options": [
+        "Jyoti Amge",
+        "Bridgette Jordan",
+        "Madge Bester"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jyoti Amge, who has a form of dwarfism called achondroplasia, is an actress who starred in American Horror Story: Freak Show."
+    },
+    {
+      "type": "mcq",
+      "question": "What endocrine gland located at the base of the human brain regulates growth hormone, whose overactivity causes gigantism and acromegaly?",
+      "options": [
+        "Thyroid gland",
+        "Pituitary gland",
+        "Adrenal gland"
+      ],
+      "correctIndex": 1,
+      "explanation": "The anterior pituitary gland secretes somatotropin (growth hormone); non-cancerous adenoma tumors on the gland can trigger continuous linear bone growth."
+    },
+    {
+      "type": "number",
+      "question": "What was the exact standing height of Robert Wadlow, the tallest person in verified medical history, in centimeters?",
+      "target": 272,
+      "metricUnit": "centimeters",
+      "imperialDisplay": "8 ft 11.1 in",
+      "explanation": "Robert Wadlow was measured at exactly 272.0 centimeters (8 feet 11.1 inches) on 27 June 1940, shortly before his death at age 22."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French supercentenarian holds the undisputed Guinness World Record for the longest verified human lifespan in history, living 122 years and 164 days?",
+      "options": [
+        "Sarah Knauss",
+        "Kane Tanaka",
+        "Jeanne Calment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Born in Arles in 1875, Jeanne Calment met Vincent van Gogh as a teenager, rode a bicycle until age 100, and lived independently until 110."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the oldest verified man in human history, living to 116 years and 54 days in Kyoto Prefecture, Japan?",
+      "options": [
+        "Jiroemon Kimura",
+        "Christian Mortensen",
+        "Emiliano Mercado del Toro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Born in 1897, Jiroemon Kimura attributed his longevity to eating small food portions (hara hachi bun me) and reading newspapers daily."
+    },
+    {
+      "type": "mcq",
+      "question": "What demographic term designates a person who has achieved the verified age of 110 years or older?",
+      "options": [
+        "Centenarian",
+        "Supercentenarian",
+        "Nonagenarian"
+      ],
+      "correctIndex": 1,
+      "explanation": "While approximately one in 1,000 centenarians reaches 110, supercentenarians exhibit extraordinary biological resilience against cardiovascular disease and cancer."
+    },
+    {
+      "type": "mcq",
+      "question": "What demographic term coined by Dan Buettner identifies geographic regions such as Okinawa (Japan) and Sardinia (Italy) with exceptional concentrations of centenarians?",
+      "options": [
+        "Longevity Hotspots",
+        "Golden Havens",
+        "Blue Zones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blue Zones share common lifestyle characteristics: plant-heavy diets, natural daily physical movement, strong community social ties, and purposeful living."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American woman from Pennsylvania was the second oldest verified person in history, living 119 years and 97 days before passing in 1999?",
+      "options": [
+        "Sarah Knauss",
+        "Susannah Mushatt Jones",
+        "Delphia Welford"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sarah Knauss lived through seven American wars, the sinking of the Titanic, and the invention of automobiles, airplanes, and the Internet."
+    },
+    {
+      "type": "number",
+      "question": "How many full completed years did French supercentenarian Jeanne Calment live, setting the all-time verified human lifespan record?",
+      "target": 122,
+      "metricUnit": "years",
+      "imperialDisplay": "122 years 164 days",
+      "explanation": "Jeanne Calment lived 122 completed years and 164 days from 21 February 1875 until her death on 4 August 1997."
+    },
+    {
+      "type": "mcq",
+      "question": "During his world-record 9.58-second 100-meter sprint in Berlin in 2009, what peak top speed in km/h did Jamaican sprinter Usain Bolt achieve?",
+      "options": [
+        "38.50 km/h",
+        "44.72 km/h",
+        "50.10 km/h"
+      ],
+      "correctIndex": 1,
+      "explanation": "Usain Bolt hit his peak instantaneous velocity between the 60m and 80m marks, covering that 20-meter split in a blistering 1.61 seconds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American sprinter set the women's 100-meter world record of 10.49 seconds in Indianapolis in 1988, a mark that has stood for over three decades?",
+      "options": [
+        "Carmelita Jeter",
+        "Elaine Thompson-Herah",
+        "Florence Griffith-Joyner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flo-Jo also set the women's 200-meter world record of 21.34 seconds at the 1988 Seoul Olympics, celebrated for her flamboyant one-legged running suits."
+    },
+    {
+      "type": "mcq",
+      "question": "In October 2019 in Vienna, who became the first human to run a marathon distance in under two hours (1 hour, 59 minutes, 40 seconds) in the INEOS 1:59 Challenge?",
+      "options": [
+        "Eliud Kipchoge",
+        "Kenenisa Bekele",
+        "Kelvin Kiptum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aided by rotating pace car lasers and alternating teams of world-class pacemakers, Kipchoge proved that no human is limited."
+    },
+    {
+      "type": "mcq",
+      "question": "Who holds the Guinness World Record for the fastest typing speed on a Dvorak keyboard, achieving peak speeds of 212 words per minute?",
+      "options": [
+        "Stella Pajunas",
+        "Barbara Blackburn",
+        "Sean Wrona"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blackburn maintained a sustained typing speed of 150 wpm for 50 minutes and clocked peak bursts over 212 wpm in official tests."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the average human visual reaction time to an unexpected visual stimulus under normal laboratory conditions?",
+      "options": [
+        "50 to 80 milliseconds",
+        "500 to 600 milliseconds",
+        "200 to 250 milliseconds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Auditory reaction times are even faster at roughly 140 to 160 milliseconds because sound signals reach the brain stem more directly than visual stimuli."
+    },
+    {
+      "type": "number",
+      "question": "What peak sprinting speed in kilometers per hour (rounded to the nearest whole integer) did Usain Bolt reach during his 100m world record?",
+      "target": 44,
+      "metricUnit": "km/h",
+      "imperialDisplay": "approx. 27.78 mph",
+      "explanation": "Usain Bolt reached an extraordinary peak speed of 44.72 km/h (27.78 mph) between the 60-meter and 80-meter marks in Berlin in 2009."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Icelandic strongman and actor set the world record for the heaviest deadlift in history by lifting 501 kg (1,105 lbs) in May 2020?",
+      "options": [
+        "Hafthor Bjornsson",
+        "Eddie Hall",
+        "Zydrunas Savickas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hafthor The Mountain Bjornsson lifted the 501kg barbell at Thor's Power Gym in Reykjavik under official refereeing."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British strongman became the first human in history to officially deadlift 500 kg (1,102 lbs) at the World Deadlift Championships in 2016?",
+      "options": [
+        "Brian Shaw",
+        "Eddie Hall",
+        "Tom Stoltman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eddie The Beast Hall's superhuman lift pushed blood pressure so high that he briefly lost consciousness immediately after dropping the bar."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century French-Canadian strongman was renowned for incredible feats such as lifting 500 pounds with one finger and resisting two draft horses?",
+      "options": [
+        "Eugen Sandow",
+        "Arthur Saxon",
+        "Louis Cyr"
+      ],
+      "correctIndex": 2,
+      "explanation": "Louis Cyr never suffered defeat in any strength contest and is considered by historians to be the strongest man of the 19th century."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American weightlifting pioneer won Olympic gold in 1956 and was credited with a legendary back lift of 6,270 lbs (2,840 kg) from trestles?",
+      "options": [
+        "Paul Anderson",
+        "Tommy Kono",
+        "Norb Schemansky"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paul Anderson's immense squatting strength helped establish powerlifting as an international competitive sport."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Lithuanian strongman won the World's Strongest Man title four times and the Arnold Strongman Classic a record eight times?",
+      "options": [
+        "Mariusz Pudzianowski",
+        "Zydrunas Savickas",
+        "Magnus Ver Magnusson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Big Z is widely regarded as one of the greatest overhead pressers and static strength athletes in strongman history."
+    },
+    {
+      "type": "number",
+      "question": "What is the official world record weight in kilograms lifted by Hafthor Bjornsson for the heaviest deadlift in history?",
+      "target": 501,
+      "metricUnit": "kilograms",
+      "imperialDisplay": "1105 lbs",
+      "explanation": "Hafthor Bjornsson lifted exactly 501 kilograms (1,104.5 pounds) on 2 May 2020, surpassing Eddie Hall's 500kg record."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese mental memory master recited 100,000 decimal places of the mathematical constant Pi (π) from memory in 16 hours in 2006?",
+      "options": [
+        "Rajveer Meena",
+        "Lu Chao",
+        "Akira Haraguchi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Haraguchi used a custom mnemonic system associating Japanese syllables with numbers, reciting digits continuously with short hourly breaks."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian mental calculation prodigy, known as The Human Computer, multiplied two randomly selected 13-digit numbers in 28 seconds at Imperial College London in 1980?",
+      "options": [
+        "Shakuntala Devi",
+        "Srinivasa Ramanujan",
+        "Priyamvada Natarajan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shakuntala Devi correctly multiplied 7,686,369,774,870 by 2,465,099,745,779 to produce the 26-digit product in under half a minute."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient mnemonic technique, also known as the Method of Loci, involves visualizing items to be remembered in specific architectural rooms?",
+      "options": [
+        "Major System",
+        "Memory Palace technique",
+        "Peg System"
+      ],
+      "correctIndex": 1,
+      "explanation": "Attributed to the ancient Greek poet Simonides of Ceos, memory palaces allow mental athletes to memorize thousands of random digits and cards."
+    },
+    {
+      "type": "mcq",
+      "question": "How many playing cards are in a standard deck that world memory champions can memorize in under 15 seconds?",
+      "options": [
+        "32 cards",
+        "104 cards",
+        "52 cards"
+      ],
+      "correctIndex": 2,
+      "explanation": "Memory champions convert pairs of cards into vivid animated images, placing them in predetermined locations along a mental journey."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German mental calculation champion holds multiple world records for calculating the calendar day of the week for arbitrary historical dates within milliseconds?",
+      "options": [
+        "Dr. Gert Mittring",
+        "Rudiger Gamm",
+        "Arthur Benjamin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mental calendar calculators utilize modular arithmetic algorithms to instantly determine the weekday of any date spanning millions of years."
+    },
+    {
+      "type": "number",
+      "question": "What is the world record time in seconds for memorizing the exact sequence of a shuffled 52-card deck of cards?",
+      "target": 12,
+      "metricUnit": "seconds",
+      "imperialDisplay": "approx. 12.74 seconds",
+      "explanation": "Elite memory grandmasters have achieved official competition records memorizing a complete 52-card deck in under 13 seconds (approx. 12.74s)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Croatian freediver set the Guinness World Record for the longest voluntary breath hold (static apnea) underwater at 24 minutes and 37 seconds in 2021?",
+      "options": [
+        "Aleix Segura",
+        "Budimir Sobat",
+        "Tom Sietas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Budimir Buda Sobat performed pre-oxygenation with pure oxygen for 30 minutes prior to immersion, raising awareness for autism."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch extreme athlete, known as The Iceman, has set dozens of world records for ice endurance and developed a specialized cold-exposure breathing method?",
+      "options": [
+        "Lewis Pugh",
+        "Stig Severinsen",
+        "Wim Hof"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wim Hof demonstrated voluntary control over his autonomic nervous system and immune response during cold exposure trials at Radboud University."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Canadian hero with an amputated right leg ran 5,373 kilometers over 143 days in 1980 in the Marathon of Hope to raise cancer research funds?",
+      "options": [
+        "Terry Fox",
+        "Rick Hansen",
+        "Steve Fonyo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terry Fox ran a full marathon every single day across Canada until cancer spread to his lungs, inspiring annual Terry Fox Runs globally."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American ultramarathoner famously ran 50 official marathons in 50 US states in 50 consecutive days in 2006?",
+      "options": [
+        "Scott Jurek",
+        "Dean Karnazes",
+        "David Goggins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dean Karnazes completed his 50-50-50 challenge by finishing the New York City Marathon on day 50, running a total of 1,310 miles."
+    },
+    {
+      "type": "mcq",
+      "question": "What British endurance swimmer completed long-distance swims in freezing waters across the North Pole and Antarctic without a wetsuit to advocate for ocean protection?",
+      "options": [
+        "Ross Edgley",
+        "Martin Strel",
+        "Lewis Pugh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lewis Pugh was designated the UN Patron of the Oceans, training his body to raise his core temperature through anticipatory thermogenesis."
+    },
+    {
+      "type": "number",
+      "question": "What is the record time in full minutes for the longest voluntary breath hold underwater with oxygen pre-breathing set by Budimir Sobat?",
+      "target": 24,
+      "metricUnit": "minutes",
+      "imperialDisplay": "24 minutes 37 seconds",
+      "explanation": "Budimir Sobat held his breath underwater for 24 minutes and 37 seconds in Sisak, Croatia, on 27 March 2021."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Yugoslav flight attendant miraculously survived the highest fall without a parachute in history after her plane exploded at 10,160 meters in 1972?",
+      "options": [
+        "Vesna Vulovic",
+        "Juliane Koepcke",
+        "Larisa Savitskaya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vesna Vulovic was pinned by a food cart in the tail section of JAT Flight 367, which landed at a glancing angle on a snow-covered pine slope in Czechoslovakia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American computer scientist broke Baumgartner's skydiving altitude record in 2014 by jumping from a helium balloon at 41,419 meters (135,890 feet)?",
+      "options": [
+        "Joe Kittinger",
+        "Alan Eustace",
+        "Larry Walters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eustace was suspended directly from the balloon without a capsule, wearing a custom spacesuit designed by Paragon Space Development Corporation."
+    },
+    {
+      "type": "mcq",
+      "question": "What cave in Abkhazia is recognized as the deepest known natural cave on Earth, explored to a depth of 2,212 meters (7,257 feet)?",
+      "options": [
+        "Krubera Cave",
+        "Mammoth Cave",
+        "Veryovkina Cave"
+      ],
+      "correctIndex": 2,
+      "explanation": "Speleologists take over a week of underground vertical rope ascents and descents to reach the subterranean terminal sump of Veryovkina Cave."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American ocean explorer completed the Five Deeps Expedition in 2019, diving solo to the deepest point of all five oceans in the submersible Limiting Factor?",
+      "options": [
+        "Victor Vescovo",
+        "James Cameron",
+        "Don Walsh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Victor Vescovo reached a record depth of 10,928 meters in the Challenger Deep of the Mariana Trench, discovering new benthic species."
+    },
+    {
+      "type": "mcq",
+      "question": "What Swiss engineer and American naval lieutenant made the first crewed descent to the bottom of the Mariana Trench in the bathyscaphe Trieste in 1960?",
+      "options": [
+        "William Beebe and Otis Barton",
+        "Jacques Piccard and Don Walsh",
+        "Auguste Piccard and Jacques Cousteau"
+      ],
+      "correctIndex": 1,
+      "explanation": "The bathyscaphe Trieste endured 1,000 atmospheres of crushing hydrostatic pressure during its historic dive to 10,911 meters on 23 January 1960."
+    },
+    {
+      "type": "number",
+      "question": "From what altitude in meters did flight attendant Vesna Vulovic fall and survive without a parachute in 1972?",
+      "target": 10160,
+      "metricUnit": "meters",
+      "imperialDisplay": "33330 feet",
+      "explanation": "Vesna Vulovic survived a free fall of 10,160 meters (33,330 feet), holding the Guinness World Record for the highest fall survived without a parachute."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American speedcuber set the official three-by-three Rubik's Cube single solve world record of 3.13 seconds in Long Beach, California in 2023?",
+      "options": [
+        "Yusheng Du",
+        "Feliks Zemdegs",
+        "Max Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Max Park, who is on the autism spectrum, solved the three-by-three cube in 3.13 seconds at the Pride in Long Beach 2023 competition, holding dozens of world records."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian speedcubing legend dominated competitive cubing for a decade, breaking over 120 official world records across various twisty puzzles?",
+      "options": [
+        "Feliks Zemdegs",
+        "Mats Valk",
+        "Tymon Kolasinski"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zemdegs revolutionized lookahead technique and popularized the CFOP (Fridrich) method among millions of aspiring cubers worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the most popular three-by-three Rubik's Cube speedcubing method, consisting of Cross, First Two Layers (F2L), Orientation (OLL), and Permutation (PLL)?",
+      "options": [
+        "Roux Method",
+        "CFOP Method",
+        "ZZ Method"
+      ],
+      "correctIndex": 1,
+      "explanation": "Developed by Jessica Fridrich and other cubers in the 1980s, the CFOP method solves the puzzle in four systematic, highly algorithmic steps."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian architect and professor of architecture invented the world-famous mechanical twisty puzzle the Magic Cube (Rubik's Cube) in 1974?",
+      "options": [
+        "Laszlo Biro",
+        "Janos Neumann",
+        "Erno Rubik"
+      ],
+      "correctIndex": 2,
+      "explanation": "Erno Rubik created the three-by-three cube in Budapest as a 3D geometric teaching model for his students, selling over 500 million units worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "What competitive dexterity sport involves stacking twelve specially designed plastic cups in specific pyramid sequences against a digital timer?",
+      "options": [
+        "Sport Stacking Cup Stacking",
+        "Cup Pong",
+        "Speed Pitching"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sport stacking develops hand-eye coordination, bilateral dexterity, and ambidexterity, with world record cycle times under 5 seconds."
+    },
+    {
+      "type": "number",
+      "question": "What is the single solve world record in seconds for the three-by-three Rubik's Cube achieved by Max Park in 2023 (rounded to the nearest integer)?",
+      "target": 3,
+      "metricUnit": "seconds",
+      "imperialDisplay": "3.13 seconds record",
+      "explanation": "Max Park set the stunning world record of 3.13 seconds on 11 June 2023 in California, executing roughly 10 moves per second."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian cosmonaut holds the all-time record for the longest continuous single spaceflight in human history, spending 437 consecutive days aboard the Mir space station?",
+      "options": [
+        "Sergei Krikalev",
+        "Valeri Polyakov",
+        "Yuri Malenchenko"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polyakov, a physician, orbited Earth 7,075 times between January 1994 and March 1995 to study how the human body endures long-duration microgravity for Mars missions."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American astronaut holds the record for the most cumulative days spent in space by any American or woman, totaling 675 days across multiple missions?",
+      "options": [
+        "Christina Koch",
+        "Sunita Williams",
+        "Peggy Whitson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dr. Peggy Whitson was the first female commander of the International Space Station and performed 10 spacewalks."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1969 Apollo mission achieved the highest speed ever attained by a crewed vehicle, reaching 39,897 km/h (24,791 mph) during re-entry from the Moon?",
+      "options": [
+        "Apollo 10",
+        "Apollo 11",
+        "Apollo 13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crewed by Thomas Stafford, John Young, and Eugene Cernan, Apollo 10 served as the full dress rehearsal for the Apollo 11 lunar landing."
+    },
+    {
+      "type": "mcq",
+      "question": "What NASA robotic space probe launched in 1977 is the farthest human-made object from Earth, traveling in interstellar space over 24 billion kilometers away?",
+      "options": [
+        "Voyager 2",
+        "Voyager 1",
+        "New Horizons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voyager 1 carries the Golden Record containing sounds and images of Earth, continuing to transmit scientific data back to NASA's Deep Space Network."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian cosmonaut holds the world record for the most cumulative time spent in space by any human, surpassing 1,000 total days across five missions in 2024?",
+      "options": [
+        "Gennady Padalka",
+        "Yuri Romanenko",
+        "Oleg Kononenko"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oleg Kononenko reached the unprecedented 1,000-day cumulative space milestone on 4 June 2024 aboard the International Space Station."
+    },
+    {
+      "type": "number",
+      "question": "How many continuous days did Russian cosmonaut Valeri Polyakov spend aboard the Mir space station on his record-setting 1994 to 1995 mission?",
+      "target": 437,
+      "metricUnit": "days",
+      "imperialDisplay": "437 days 18 hours",
+      "explanation": "Valeri Polyakov lived aboard Mir for 437 days, 17 hours, and 58 minutes, the longest continuous spaceflight in human history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary British explorer led the Transglobe Expedition (1979 to 1982), completing the first surface circumnavigation of the world along its polar axis?",
+      "options": [
+        "Sir Ranulph Fiennes",
+        "Sir Peter Blake",
+        "Robert Swan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir Ranulph Fiennes and Charles Burton traveled 52,000 miles across land, sea, and ice, crossing both the South and North Poles."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest commercial bungee jump in the world, allowing thrill-seekers to plunge 233 meters (764 feet) from a tower observation deck?",
+      "options": [
+        "Verzasca Dam",
+        "Macau Tower Bungee Jump",
+        "Bloukrans Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operated by AJ Hackett, the Macau Tower jump uses a specialized deceleration system and guide cables to control the 200 km/h freefall."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the managing director of the Guinness Brewery who conceived the idea for a definitive book of world records to settle pub arguments in 1951?",
+      "options": [
+        "Arthur Guinness",
+        "Norris McWhirter",
+        "Sir Hugh Beaver"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sir Hugh Beaver got into a debate while hunting about the fastest game bird in Europe (the golden plover), leading him to commission the McWhirter twins to compile the book."
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin brothers compiled and edited the original Guinness Book of Records, published in Great Britain in 1955?",
+      "options": [
+        "Norris and Ross McWhirter",
+        "Wilbur and Orville Wright",
+        "Auguste and Louis Lumiere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The McWhirter twins possessed encyclopedic memories, fact-checking records for the popular BBC television show Record Breakers for decades."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the deepest natural trench in the world, plunging to nearly 11,000 meters in the western Pacific Ocean?",
+      "options": [
+        "Puerto Rico Trench",
+        "Mariana Trench",
+        "Java Trench"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Mariana Trench's deepest point, the Challenger Deep, exerts over 1,086 bars of pressure, comparable to having an elephant stand on your thumb."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the first official edition of The Guinness Book of Records published in the United Kingdom?",
+      "target": 1955,
+      "metricUnit": "CE",
+      "imperialDisplay": "August 1955",
+      "explanation": "The first 198-page edition was bound on 27 August 1955, quickly topping British bestseller lists by Christmas."
+    }
+  ]
+}

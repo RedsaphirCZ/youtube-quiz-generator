@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Keep every interactive question on the same stage. Content sizing follows the
+   viewport, while unusually long revealed content scrolls inside instead of
+   changing the page geometry between questions. */
+.quiz-question-card {
+  height: clamp(34rem, 64dvh, 47.5rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.quiz-question-heading {
+  font-size: clamp(1.55rem, min(3vw, 3.6dvh), 2.5rem);
+  line-height: 1.18;
+}
+
+.quiz-option-button {
+  font-size: clamp(1.1rem, min(2.15vw, 2.6dvh), 1.7rem);
+  line-height: 1.22;
+}
+
+.quiz-explanation {
+  font-size: clamp(0.95rem, min(1.5vw, 1.9dvh), 1.2rem);
+}
+
+@media (max-width: 720px) {
+  .quiz-question-card {
+    height: clamp(31rem, 68dvh, 38rem);
+  }
+}

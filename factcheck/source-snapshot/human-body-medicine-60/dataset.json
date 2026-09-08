@@ -1,0 +1,640 @@
+{
+  "id": "human-body-medicine-60",
+  "theme": "Human Body, Anatomy & Medical Science",
+  "title": "Human Body, Anatomy & Medical Science",
+  "description": "A 60-question comprehensive medical assessment exploring human organ systems, neurology, immunology, pharmacology, and landmark clinical breakthroughs.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which chamber of the human heart has the thickest muscular wall to pump oxygenated blood through the aorta to the entire systemic body?",
+      "options": [
+        "Left Ventricle",
+        "Right Atrium",
+        "Right Ventricle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The left ventricle myocardium is roughly three times thicker than the right ventricle because it must generate enough systolic pressure (typically 120 mmHg) to overcome systemic vascular resistance and perfuse all peripheral organs."
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized pacemaker node located in the upper wall of the right atrium initiates the electrical sinus rhythm of the heartbeat?",
+      "options": [
+        "Atrioventricular Node",
+        "Sinoatrial Node",
+        "Bundle of His"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sinoatrial (SA) node consists of specialized cardiac myocytes that spontaneously depolarize at a resting rate of 60 to 100 action potentials per minute, establishing the natural intrinsic pace of the cardiac cycle."
+    },
+    {
+      "type": "mcq",
+      "question": "What microscopic blood vessels with single-endothelial-cell walls are the primary site of oxygen and nutrient exchange with tissues?",
+      "options": [
+        "Arterioles",
+        "Venules",
+        "Capillaries"
+      ],
+      "correctIndex": 2,
+      "explanation": "Capillaries have an internal diameter of only 5 to 10 micrometers (barely allowing red blood cells to pass single-file), maximizing the surface area and diffusion efficiency for gas, glucose, and metabolic waste exchange."
+    },
+    {
+      "type": "mcq",
+      "question": "What iron-rich metalloprotein in erythrocytes binds up to four oxygen molecules for transport throughout the bloodstream?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Ferritin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemoglobin is a tetrameric quaternary protein with four heme groups, each containing a central ferrous iron (Fe2+) ion. It displays cooperative binding, meaning oxygen binding to one heme increases the oxygen affinity of the remaining subunits."
+    },
+    {
+      "type": "mcq",
+      "question": "Which blood type is known as the universal recipient for red blood cell transfusions because its plasma lacks anti-A and anti-B antibodies?",
+      "options": [
+        "O Negative",
+        "AB Positive",
+        "A Positive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Individuals with type AB-positive blood express both A and B carbohydrate antigens on their red blood cells and possess the Rh factor, meaning their immune system will not attack transfused red blood cells from any ABO/Rh donor group."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many liters of blood circulate through the vascular system of an average healthy adult human?",
+      "target": 5,
+      "metricUnit": "liters",
+      "imperialDisplay": "approx 5 liters (1.3 gallons)",
+      "explanation": "An adult human body contains approximately 4.5 to 5.5 liters of blood (roughly 7 to 8 percent of total body weight), which is completely pumped through the cardiovascular circuit once every minute at rest."
+    },
+    {
+      "type": "mcq",
+      "question": "Which largest part of the human brain is divided into two hemispheres and coordinates higher cognitive functions, memory, and voluntary movement?",
+      "options": [
+        "Cerebellum",
+        "Brainstem",
+        "Cerebrum"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cerebrum contains roughly 16 billion cortical neurons and is divided into frontal, parietal, temporal, and occipital lobes. Its folded gyri and sulci increase surface area for sensory perception, language processing, and abstract reasoning."
+    },
+    {
+      "type": "mcq",
+      "question": "Which cauliflower-shaped brain structure located at the base of the skull coordinates fine motor balance, posture, and muscular coordination?",
+      "options": [
+        "Cerebellum",
+        "Thalamus",
+        "Hypothalamus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cerebellum (Latin for little brain) accounts for only 10 percent of total brain volume but contains over 50 percent of all neurons in the entire central nervous system, constantly refining sensory-motor coordination."
+    },
+    {
+      "type": "mcq",
+      "question": "What seahorse-shaped structure in the temporal lobe of the brain is essential for consolidating short-term memory into long-term storage?",
+      "options": [
+        "Amygdala",
+        "Hippocampus",
+        "Basal Ganglia"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hippocampus plays a pivotal role in spatial navigation and episodic memory formation. Damage to this area (as seen in advanced Alzheimer disease) prevents the encoding of new declarative memories."
+    },
+    {
+      "type": "mcq",
+      "question": "What fatty, insulating sheath produced by Schwann cells and oligodendrocytes wraps around neuronal axons to accelerate electrical nerve impulses?",
+      "options": [
+        "Glial Lamina",
+        "Synaptic Cleft",
+        "Myelin Sheath"
+      ],
+      "correctIndex": 2,
+      "explanation": "Myelin allows electrical action potentials to jump rapidly between unmyelinated gaps called Nodes of Ranvier in a process known as saltatory conduction, increasing nerve conduction velocity up to 120 meters per second."
+    },
+    {
+      "type": "mcq",
+      "question": "Which primary inhibitory neurotransmitter in the central nervous system reduces neuronal excitability throughout the brain?",
+      "options": [
+        "GABA",
+        "Glutamate",
+        "Dopamine"
+      ],
+      "correctIndex": 0,
+      "explanation": "GABA (gamma-aminobutyric acid) hyperpolarizes postsynaptic membranes by opening chloride ion channels, dampening overactive neural circuits. Many sedative and anti-anxiety medications function by enhancing GABA receptor activity."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many billion neurons are estimated to make up the human brain?",
+      "target": 86,
+      "metricUnit": "billion neurons",
+      "imperialDisplay": "approx 86 billion neurons",
+      "explanation": "Neuroscientific cell counting methods developed by Suzana Herculano-Houzel established that the average human brain contains roughly 86 billion neurons and an equal number of non-neuronal glial cells."
+    },
+    {
+      "type": "mcq",
+      "question": "What dome-shaped skeletal muscle separating the thoracic and abdominal cavities is the primary muscle of inhalation?",
+      "options": [
+        "Intercostal Muscle",
+        "Diaphragm",
+        "Transversus Abdominis"
+      ],
+      "correctIndex": 1,
+      "explanation": "During contraction, the diaphragm flattens downward, expanding the volume of the pleural cavity. This creates negative intrathoracic pressure, drawing atmospheric air into the lungs."
+    },
+    {
+      "type": "mcq",
+      "question": "What microscopic air sacs in the lungs surrounded by capillary beds are the actual site of pulmonary gas exchange?",
+      "options": [
+        "Bronchioles",
+        "Tracheoles",
+        "Alveoli"
+      ],
+      "correctIndex": 2,
+      "explanation": "The human lungs contain approximately 300 to 500 million alveoli, providing a massive collective surface area of roughly 70 square meters (the size of a tennis court) for rapid passive diffusion of oxygen and carbon dioxide."
+    },
+    {
+      "type": "mcq",
+      "question": "What lipid-protein complex secreted by Type II alveolar cells lowers alveolar surface tension, preventing lung collapse upon exhalation?",
+      "options": [
+        "Surfactant",
+        "Mucin",
+        "Albumin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pulmonary surfactant disrupts the cohesive hydrogen bonds of water molecules coating the alveolar lining. Premature infants born before 34 weeks often lack adequate surfactant, leading to neonatal respiratory distress syndrome."
+    },
+    {
+      "type": "mcq",
+      "question": "What leaf-shaped flap of elastic cartilage at the root of the tongue folds down over the trachea during swallowing to prevent food from entering the airway?",
+      "options": [
+        "Uvula",
+        "Epiglottis",
+        "Thyroid Cartilage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The epiglottis acts as a physiological switch, directing swallowed boluses of food and liquids into the esophagus while sealing the laryngeal opening to protect the vocal cords and bronchial tree from aspiration."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the standard resting breathing rate in breaths per minute for a healthy adult at rest?",
+      "options": [
+        "6 to 8 breaths",
+        "25 to 30 breaths",
+        "12 to 20 breaths"
+      ],
+      "correctIndex": 2,
+      "explanation": "A normal eupneic respiratory rate in adults is 12 to 20 breaths per minute, tightly regulated by central chemoreceptors in the medulla oblongata sensing arterial carbon dioxide (PaCO2) and pH levels."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million microscopic alveoli are contained in the adult human lungs for gas exchange?",
+      "target": 480,
+      "metricUnit": "million alveoli",
+      "imperialDisplay": "approx 300 to 500 million (avg 480)",
+      "explanation": "An average adult human lung pair contains approximately 480 million alveoli (ranging between 300 and 500 million), creating an expansive surface area for blood oxygenation."
+    },
+    {
+      "type": "mcq",
+      "question": "Which white blood cells mature in the thymus gland and play a central role in cell-mediated immune defense?",
+      "options": [
+        "T Lymphocytes",
+        "B Lymphocytes",
+        "Neutrophils"
+      ],
+      "correctIndex": 0,
+      "explanation": "T cells originate in bone marrow stem cells and migrate to the thymus for maturation and negative selection against self-antigens. Helper T cells (CD4+) coordinate the immune response, while Cytotoxic T cells (CD8+) destroy virus-infected and cancerous cells."
+    },
+    {
+      "type": "mcq",
+      "question": "What Y-shaped immunoglobulin proteins produced by plasma B cells specifically bind to foreign antigens to neutralize pathogens?",
+      "options": [
+        "Cytokines",
+        "Antibodies",
+        "Interferons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antibodies (immunoglobulins: IgG, IgM, IgA, IgE, IgD) possess hypervariable Fab regions tailored to recognize specific molecular epitopes on bacteria or viruses, marking them for destruction by phagocytes or the complement cascade."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most abundant type of circulating white blood cell in human blood, acting as the first responders to bacterial infections?",
+      "options": [
+        "Eosinophils",
+        "Basophils",
+        "Neutrophils"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neutrophils constitute 50 to 70 percent of all circulating leukocytes. They rapidly migrate to sites of tissue injury via chemotaxis, engulfing pathogens via phagocytosis and releasing antimicrobial enzymes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which lymphatic organ located in the left upper quadrant of the abdomen filters old red blood cells and stores emergency platelets?",
+      "options": [
+        "Spleen",
+        "Pancreas",
+        "Appendix"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spleen contains red pulp (which filters damaged erythrocytes and recycles iron) and white pulp (which mounts adaptive immune responses against blood-borne encapsulated bacteria like Streptococcus pneumoniae)."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of immunity is acquired when an individual produces their own antibodies in response to a vaccine or natural pathogen exposure?",
+      "options": [
+        "Passive Immunity",
+        "Active Immunity",
+        "Innate Immunity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Active immunity stimulates the development of long-lived memory B and T cells that confer lasting immunological protection for years or decades, unlike passive immunity which only provides temporary transferred antibodies."
+    },
+    {
+      "type": "number",
+      "question": "How many major classes of human immunoglobulins (IgG, IgM, IgA, IgE, IgD) are produced by the adaptive immune system?",
+      "target": 5,
+      "metricUnit": "antibody classes",
+      "imperialDisplay": "5 Immunoglobulin isotypes",
+      "explanation": "Human B cells produce exactly 5 primary immunoglobulin classes (isotypes): IgG (systemic), IgM (initial pentamer), IgA (mucosal), IgE (allergic/parasitic), and IgD (B-cell receptor)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which large internal organ produces bile, detoxifies metabolic chemicals, and stores glucose in the form of glycogen?",
+      "options": [
+        "Stomach",
+        "Gallbladder",
+        "Liver"
+      ],
+      "correctIndex": 2,
+      "explanation": "The liver is the heaviest internal organ (weighing roughly 1.5 kg) and performs over 500 vital metabolic functions, including synthesizing clotting factors, processing lipids, and clearing toxins via cytochrome P450 enzymes."
+    },
+    {
+      "type": "mcq",
+      "question": "In which section of the human gastrointestinal tract does the vast majority of chemical nutrient absorption take place?",
+      "options": [
+        "Small Intestine",
+        "Stomach",
+        "Colon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The small intestine (duodenum, jejunum, and ileum) spans approximately 6 meters in length. Its internal surface is covered in circular folds, villi, and microvilli (the brush border), providing over 30 square meters of absorptive surface area."
+    },
+    {
+      "type": "mcq",
+      "question": "What potent acid with a pH of 1.5 to 2.0 is secreted by parietal cells in the stomach lining to activate pepsin and kill ingested bacteria?",
+      "options": [
+        "Sulfuric Acid",
+        "Hydrochloric Acid",
+        "Acetic Acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrochloric acid (HCl) denatures dietary proteins and converts inactive pepsinogen into active pepsin. The stomach protects itself from self-digestion using a thick, alkaline bicarbonate-rich mucus barrier."
+    },
+    {
+      "type": "mcq",
+      "question": "What dual endocrine and exocrine organ produces digestive enzymes for the duodenum and secretes insulin and glucagon to regulate blood sugar?",
+      "options": [
+        "Thyroid",
+        "Adrenal Gland",
+        "Pancreas"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pancreas secretes pancreatic juice (amylase, lipase, trypsin) via its acinar cells, while the endocrine Islets of Langerhans contain beta cells (which release insulin to lower glucose) and alpha cells (which release glucagon to raise glucose)."
+    },
+    {
+      "type": "mcq",
+      "question": "What muscular wave-like contractions of circular and longitudinal smooth muscle propel food through the esophagus and intestines?",
+      "options": [
+        "Peristalsis",
+        "Segmentation",
+        "Deglutition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peristalsis is coordinated by the enteric nervous system (the myenteric plexus), allowing food and liquids to travel downward through the digestive tract even if an individual is upside down."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how long in meters is the average adult human gastrointestinal tract from mouth to anus?",
+      "target": 9,
+      "metricUnit": "meters",
+      "imperialDisplay": "approx 30 feet (9 meters)",
+      "explanation": "The human alimentary canal measures roughly 9 meters (30 feet) in total length, comprising the esophagus, stomach, small intestine (6 meters), and large intestine (1.5 meters)."
+    },
+    {
+      "type": "mcq",
+      "question": "What fibrous, flexible connective tissue bands connect bones to other bones across synovial joints to provide mechanical stability?",
+      "options": [
+        "Tendons",
+        "Ligaments",
+        "Fascia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ligaments are composed of dense regular collagen fibers that connect bone to bone, preventing excessive or abnormal joint movement (such as the anterior cruciate ligament / ACL in the knee)."
+    },
+    {
+      "type": "mcq",
+      "question": "What dense bands of fibrous connective tissue connect skeletal muscles to bones to transmit contractile mechanical force?",
+      "options": [
+        "Cartilage",
+        "Bursae",
+        "Tendons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tendons (such as the thick Achilles tendon connecting the calf muscles to the calcaneus heel bone) transmit muscular contractile tension to articulate the skeletal framework."
+    },
+    {
+      "type": "mcq",
+      "question": "Which three tiny auditory ossicles in the middle ear (the smallest bones in the human body) transmit sound vibrations to the cochlea?",
+      "options": [
+        "Malleus, Incus, and Stapes",
+        "Vomer, Hyoid, and Ethmoid",
+        "Scaphoid, Lunate, and Triquetrum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known colloquially as the hammer (malleus), anvil (incus), and stirrup (stapes), these three delicate bones mechanically amplify sound wave vibrations from the tympanic membrane to the fluid of the inner ear oval window."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest, most powerful single muscle in the human body by volume and mass, responsible for hip extension and upright posture?",
+      "options": [
+        "Quadriceps Femoris",
+        "Gluteus Maximus",
+        "Latissimus Dorsi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gluteus maximus forms the bulk of the buttocks, allowing humans to stand erect, climb stairs, and run efficiently against gravity."
+    },
+    {
+      "type": "mcq",
+      "question": "What smooth, frictionless connective tissue covers the articulating ends of bones in synovial joints to prevent bone-on-bone friction?",
+      "options": [
+        "Fibrocartilage",
+        "Elastic Cartilage",
+        "Hyaline Articular Cartilage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Articular hyaline cartilage lacks blood vessels and nerves, relying on synovial fluid for nutrient diffusion. Wear and breakdown of this cartilage layer leads to osteoarthritis."
+    },
+    {
+      "type": "number",
+      "question": "How many total bones make up the adult human skeletal framework?",
+      "target": 206,
+      "metricUnit": "bones",
+      "imperialDisplay": "206 articulated bones",
+      "explanation": "Infants are born with roughly 270 bones, which gradually fuse during growth (such as the sacrum, cranium, and pelvis) to form the standard adult count of 206 articulated bones."
+    },
+    {
+      "type": "mcq",
+      "question": "What microscopic structural and functional filtering unit of the kidney removes metabolic wastes from the blood to produce urine?",
+      "options": [
+        "Nephron",
+        "Glomerulus",
+        "Loop of Henle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each human kidney contains roughly 1 million nephrons, consisting of a renal corpuscle (Bowman capsule and glomerulus) and a tubular system that reabsorbs water, electrolytes, and glucose while excreting urea and creatinine."
+    },
+    {
+      "type": "mcq",
+      "question": "What hormone produced by the kidneys in response to tissue hypoxia stimulates the bone marrow to produce more red blood cells?",
+      "options": [
+        "Aldosterone",
+        "Erythropoietin EPO",
+        "Renin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Erythropoietin (EPO) increases red blood cell production, raising the oxygen-carrying capacity of the blood. Synthetic recombinant EPO is used medically for severe anemia and illicitly in endurance sports doping."
+    },
+    {
+      "type": "mcq",
+      "question": "What muscular tubes transport urine from the renal pelvis of each kidney down into the urinary bladder via peristaltic waves?",
+      "options": [
+        "Urethra",
+        "Vas Deferens",
+        "Ureters"
+      ],
+      "correctIndex": 2,
+      "explanation": "The two ureters measure roughly 25 to 30 centimeters in length, using smooth muscle contractions to push urine into the urinary bladder regardless of gravitational posture."
+    },
+    {
+      "type": "mcq",
+      "question": "What peptide hormone secreted by the posterior pituitary gland regulates water balance by causing the kidneys to retain water?",
+      "options": [
+        "Antidiuretic Hormone Vasopressin",
+        "Oxytocin",
+        "Prolactin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antidiuretic hormone (ADH) inserts aquaporin water channels into the kidney collecting ducts, concentrating urine and preventing dehydration. Alcohol inhibits ADH secretion, causing increased urination and dehydration."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the normal physiologic pH range of human arterial blood necessary for cellular survival and enzymatic function?",
+      "options": [
+        "6.80 to 7.00",
+        "7.35 to 7.45",
+        "7.80 to 8.00"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human blood is tightly buffered between pH 7.35 and 7.45 primarily by the carbonic acid-bicarbonate buffer system, with arterial pH below 7.35 defining acidosis and above 7.45 defining alkalosis."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million filtering nephrons are contained in each healthy human kidney?",
+      "target": 1,
+      "metricUnit": "million nephrons",
+      "imperialDisplay": "approx 1 million nephrons per kidney",
+      "explanation": "Each kidney houses approximately 1 million nephrons (totaling roughly 2 million across both kidneys) which filter 180 liters of blood plasma daily."
+    },
+    {
+      "type": "mcq",
+      "question": "Which pea-sized gland situated at the base of the brain in the sella turcica is known as the master endocrine gland?",
+      "options": [
+        "Thyroid Gland",
+        "Pineal Gland",
+        "Pituitary Gland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under the control of the hypothalamus, the pituitary gland (hypophysis) secretes trophic hormones (such as TSH, ACTH, FSH, LH, and Growth Hormone) that regulate the activity of all other peripheral endocrine glands."
+    },
+    {
+      "type": "mcq",
+      "question": "Which butterfly-shaped gland located on the anterior trachea produces thyroxine (T4) and triiodothyronine (T3) to regulate basal metabolism?",
+      "options": [
+        "Thyroid Gland",
+        "Parathyroid Gland",
+        "Thymus Gland"
+      ],
+      "correctIndex": 0,
+      "explanation": "The thyroid gland requires dietary iodine to synthesize thyroid hormones, which control the rate at which cells consume oxygen and convert nutrients into metabolic energy. Iodine deficiency causes thyroid enlargement known as a goiter."
+    },
+    {
+      "type": "mcq",
+      "question": "Which primary hormone secreted by the adrenal medulla prepares the body for fight-or-flight emergencies by increasing heart rate and blood flow?",
+      "options": [
+        "Cortisol",
+        "Epinephrine Adrenaline",
+        "Aldosterone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Epinephrine activates adrenergic receptors, causing immediate tachycardia, bronchial dilation, pupillary dilation, and hepatic glycogenolysis to flood the bloodstream with glucose for rapid muscular action."
+    },
+    {
+      "type": "mcq",
+      "question": "What hormone produced by the pineal gland in the center of the brain regulates circadian sleep-wake cycles in response to darkness?",
+      "options": [
+        "Serotonin",
+        "Dopamine",
+        "Melatonin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Melatonin synthesis is suppressed by ambient blue light striking the retina (relayed via the suprachiasmatic nucleus) and increases during darkness, signaling the brain and body to prepare for restorative sleep."
+    },
+    {
+      "type": "mcq",
+      "question": "What steroid hormone produced by the adrenal cortex is known as the primary human stress hormone, modulating immune response and glucose levels?",
+      "options": [
+        "Cortisol",
+        "Progesterone",
+        "Estrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cortisol promotes gluconeogenesis, elevates arterial blood pressure, and suppresses non-essential immune inflammatory pathways during acute stress. Chronic cortisol elevation can cause immunosuppression and metabolic disorders."
+    },
+    {
+      "type": "number",
+      "question": "What is the standard normal human core body temperature in degrees Celsius under healthy baseline conditions?",
+      "target": 37,
+      "metricUnit": "degrees Celsius",
+      "imperialDisplay": "98.6 degrees Fahrenheit (37.0 C)",
+      "explanation": "Standard human core body temperature averages 37.0 °C (98.6 °F), fluctuating within a normal circadian range between 36.5 °C and 37.5 °C."
+    },
+    {
+      "type": "mcq",
+      "question": "What transparent, light-sensitive sensory membrane lining the posterior eye contains photoreceptor rod and cone cells?",
+      "options": [
+        "Cornea",
+        "Retina",
+        "Choroid"
+      ],
+      "correctIndex": 1,
+      "explanation": "The retina converts optical photons into electrical electrochemical signals via 120 million rod cells (for dim light vision) and 6 million cone cells (for high-acuity color vision in blue, green, and red wavelengths), transmitting impulses along the optic nerve."
+    },
+    {
+      "type": "mcq",
+      "question": "What snail-shell-shaped, fluid-filled spiral structure in the inner ear converts mechanical sound vibrations into nerve impulses?",
+      "options": [
+        "Semicircular Canals",
+        "Tympanic Cavity",
+        "Cochlea"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cochlea contains the Organ of Corti lined with thousands of microscopic sensory hair cells (stereocilia). Frequency-specific fluid pressure waves bend these hair cells, generating action potentials carried by the auditory nerve to the temporal cortex."
+    },
+    {
+      "type": "mcq",
+      "question": "What three fluid-filled ring structures in the inner ear sense rotational head movements to maintain angular equilibrium and balance?",
+      "options": [
+        "Semicircular Canals",
+        "Vestibular Sacs",
+        "Eustachian Tubes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arranged in three orthogonal spatial planes (horizontal, anterior, and posterior), the semicircular canals contain endolymph fluid that moves during angular head turns, deflecting hair cells inside the ampullae to signal head acceleration."
+    },
+    {
+      "type": "mcq",
+      "question": "What are the microscopic taste receptor structures located on the papillae of the tongue that detect sweet, salty, sour, bitter, and umami tastes?",
+      "options": [
+        "Olfactory Bulbs",
+        "Taste Buds",
+        "Meissner Corpuscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humans have roughly 10,000 taste buds, each containing 50 to 100 specialized gustatory epithelial receptor cells that transduce dissolved chemical tastants into neural signals sent to the brainstem."
+    },
+    {
+      "type": "mcq",
+      "question": "Which transparent dome-shaped front surface of the eye provides roughly two-thirds of the eye total optical focusing power?",
+      "options": [
+        "Crystalline Lens",
+        "Iris",
+        "Cornea"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cornea is an avascular transparent tissue that refracts incoming light through the pupil. It receives oxygen directly from atmospheric air and nutrients from the aqueous humor."
+    },
+    {
+      "type": "number",
+      "question": "How many distinct primary taste sensations (sweet, salty, sour, bitter, and umami) are recognized in human gustatory physiology?",
+      "target": 5,
+      "metricUnit": "taste modalities",
+      "imperialDisplay": "Five Basic Tastes (Sweet, Salty, Sour, Bitter, Umami)",
+      "explanation": "Human taste receptor cells detect exactly five recognized basic taste modalities, with umami (savory glutamate taste) formally identified by Japanese chemist Kikunae Ikeda in 1908."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish bacteriologist discovered the antibiotic properties of penicillin in a contaminated Petri dish of mold in September 1928?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Koch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexander Fleming observed that Penicillium notatum mold secreted a substance that lysed surrounding Staphylococcus bacteria colonies. Purified by Howard Florey and Ernst Chain in the 1940s, penicillin saved millions of lives during World War II and transformed modern medicine."
+    },
+    {
+      "type": "mcq",
+      "question": "Who developed the first successful smallpox vaccine in 1796 using material from cowpox sores, establishing immunology?",
+      "options": [
+        "Joseph Lister",
+        "Edward Jenner",
+        "Ignaz Semmelweis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Edward Jenner inoculated young James Phipps with cowpox matter from dairymaid Sarah Nelmes, demonstrating subsequent immunity to lethal smallpox. The word vaccine derives from the Latin vacca (meaning cow)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German physicist discovered X-rays in November 1895 while experimenting with cathode ray tubes, winning the first Nobel Prize in Physics?",
+      "options": [
+        "Max Planck",
+        "Heinrich Hertz",
+        "Wilhelm Rontgen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wilhelm Rontgen discovered invisible electromagnetic radiation that could penetrate black cardboard and project the skeleton of his wife hand onto a fluorescent barium screen. The diagnostic breakthrough earned him the inaugural Nobel Prize in Physics in 1901."
+    },
+    {
+      "type": "mcq",
+      "question": "Who developed the first effective inactivated polio vaccine (IPV) using cultured virus in 1953, famously refusing to patent it for public good?",
+      "options": [
+        "Jonas Salk",
+        "Albert Sabin",
+        "Maurice Hilleman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dr. Jonas Salk vaccine was declared safe and effective in April 1955 following massive nationwide field trials involving 1.8 million schoolchildren (the Polio Pioneers). When asked who owned the patent, Salk replied: Well, the people, I would say. There is no patent. Could you patent the sun?"
+    },
+    {
+      "type": "mcq",
+      "question": "Which British surgeon pioneered antiseptic surgical techniques in the 1860s using carbolic acid (phenol) to sterilize instruments and wound dressings?",
+      "options": [
+        "William Morton",
+        "Joseph Lister",
+        "John Snow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Influenced by Louis Pasteur germ theory of fermentation, Joseph Lister mandated carbolic acid sprays and handwashing in operating theatres, reducing post-operative surgical wound sepsis mortality from 45 percent to under 15 percent."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Scottish bacteriologist Alexander Fleming discover penicillin at St. Mary Hospital in London?",
+      "target": 1928,
+      "metricUnit": "CE",
+      "imperialDisplay": "September 1928",
+      "explanation": "Alexander Fleming discovered penicillin in September 1928, ushering in the modern golden age of antibiotic therapy."
+    }
+  ]
+}

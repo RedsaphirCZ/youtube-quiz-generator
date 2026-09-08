@@ -1,0 +1,703 @@
+{
+  "id": "croatia-geography-heritage-60",
+  "theme": "Croatia: Geography, Plitvice Cascades & The Dalmatian Coast",
+  "title": "Croatia: Geography, Plitvice Cascades & The Dalmatian Coast",
+  "description": "A 60-question grand master assessment exploring Plitvice Lakes (78 m Veliki Slap), Dubrovnik city walls (1,940 m), Diocletian Palace in Split (305 CE), Hvar sunshine (2,700 hrs), Zadar Sea Organ (35 pipes), Pula Arena (1st c.), Sinjska Alka (1715), and Nikola Tesla (1856).",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What world-famous UNESCO World Heritage national park in central Croatia features sixteen terraced turquoise lakes interconnected by ninety cascading waterfalls?",
+      "options": [
+        "Plitvice Lakes",
+        "Krka National Park",
+        "Paklenica National Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plitvice is the oldest and largest national park in Croatia (founded in 1949), famous for wooden boardwalk footpaths hovering directly over crystal-clear waters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural biological and geological process creates the dynamic, growing rock barriers that separate the sixteen cascading lakes of Plitvice?",
+      "options": [
+        "Volcanic basalt lava flows",
+        "Travertine tufa deposition by mosses, algae, and calcium carbonate precipitation",
+        "Glacial moraine bulldozing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endemic bryophyte mosses and micro-organisms encrust with dissolved calcium carbonate, growing living limestone dams at rates of roughly one centimeter per year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the tallest single waterfall in Plitvice Lakes National Park and all of Croatia, plunging seventy-eight meters into the Korana River canyon?",
+      "options": [
+        "Galovački Buk",
+        "Milanovački Slap",
+        "Veliki Slap"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fed by the Plitvica stream cascading over a sheer limestone cliff, Veliki Slap forms the dramatic centerpiece of the Lower Lakes (Donja jezera).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pristine deep-forest predator mammal, strictly protected in the old-growth beech and fir forests of Plitvice (Čorkova Uvala), is the symbol of the national park?",
+      "options": [
+        "Eurasian Brown Bear",
+        "The Golden Jackal",
+        "The Wild Boar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plitvice contains some of the highest densities of wild brown bears, gray wolves, and Eurasian lynx in Southeastern Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and deepest of the sixteen lakes in Plitvice Lakes National Park, covering eighty-one hectares and crossed by silent electric passenger boats?",
+      "options": [
+        "Lake Prošćansko",
+        "Lake Kozjak",
+        "Lake Kaluđerovac"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Kozjak reaches depths of forty-six meters, featuring the small green Stephanie Island named after Crown Princess Stéphanie of Belgium who visited in 1888.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the vertical drop height in meters of Veliki Slap (The Great Waterfall), the highest waterfall in Croatia, located in Plitvice Lakes?",
+      "target": 78,
+      "metricUnit": "meters",
+      "imperialDisplay": "256 feet drop",
+      "explanation": "Veliki Slap plunges a sheer seventy-eight meters down the limestone canyon wall into the Lower Lakes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary UNESCO World Heritage fortified seaport city in southern Dalmatia, known as the Pearl of the Adriatic, was the maritime capital of the historic Republic of Ragusa?",
+      "options": [
+        "Split",
+        "Zadar",
+        "Dubrovnik"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ragusa was a wealthy maritime merchant republic (1358-1808) whose motto was 'Non bene pro toto libertas venditur auro' (Liberty is not well sold for all the gold in the world).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total length in meters of the continuous, remarkably intact medieval stone city walls and bastions that completely encircle the Old Town of Dubrovnik?",
+      "options": [
+        "1,940 Meters",
+        "800 Meters",
+        "3,200 Meters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reaching heights of twenty-five meters with walls up to six meters thick, the perimeter includes the Minčeta Tower, Bokar Fortress, and Revelin Fortress.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous polished limestone pedestrian main street traverses the heart of Dubrovnik Old Town, connecting the Pile Gate to Luža Square?",
+      "options": [
+        "Riva",
+        "The Stradun Placa",
+        "Kalelarga"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paved with gleaming white limestone flags that shine like glass after rain, Stradun features uniform 17th-century Baroque facades built after the 1667 earthquake.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which detached 16th-century fortress on a 37-meter sea cliff outside Dubrovnik western walls, known as Dubrovnik Gibraltar, was featured as the Red Keep in Game of Thrones?",
+      "options": [
+        "Fort Revelin",
+        "Fort St. John",
+        "Fort Lovrijenac St. Lawrence Fortress"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lovrijenac was constructed in just three months in the 11th century to pre-empt a Venetian military occupation, famous for summer performances of Shakespeare Hamlet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 15th-century public fountain inside the Pile Gate of Dubrovnik, designed by Italian architect Onofrio della Cava, supplied mountain spring water via a 12-kilometer aqueduct?",
+      "options": [
+        "Large Onofrio Fountain",
+        "Small Onofrio Fountain",
+        "Orlando Column"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 16-sided polygon stone fountain is decorated with sixteen carved stone mascaron spouts, still providing refreshing drinking water to visitors.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total continuous perimeter length in meters of the historic medieval defensive city walls encircling Old Town Dubrovnik?",
+      "target": 1940,
+      "metricUnit": "meters",
+      "imperialDisplay": "6,365 feet (1.2 miles around)",
+      "explanation": "The stone walls of Dubrovnik measure exactly 1,940 meters in total perimeter length.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 4th-century Roman palace complex on the Dalmatian coast, covering 30,000 square meters, forms the living historic city center of modern-day Split?",
+      "options": [
+        "Palace of Galerius",
+        "Diocletian's Palace",
+        "Villa Romana del Casale"
+      ],
+      "correctIndex": 1,
+      "explanation": "Roman Emperor Diocletian built the fortress-palace between 295 and 305 CE to retire and grow cabbages, today housing three thousand residents inside its ancient walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year CE did Roman Emperor Diocletian officially complete his palace in Split and become the only Roman Emperor to voluntarily abdicate his imperial throne?",
+      "options": [
+        "476 CE",
+        "284 CE",
+        "305 CE"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diocletian abdicated on May 1, 305 CE, living in his seaside Split residence until his death in 311 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What central peristyle colonnaded Roman courtyard in Diocletian Palace, flanked by red granite Egyptian sphinxes from the era of Pharaoh Thutmose III, serves as the city public square?",
+      "options": [
+        "The Peristyle",
+        "The Cardo",
+        "The Decumanus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Emperor appeared to the public at the Prothyron balcony above the Peristyle, today a vibrant open-air venue with acoustic acoustic performances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What octagonal 4th-century imperial mausoleum of Emperor Diocletian was consecrated in the 7th century, making it the oldest Catholic cathedral in the world in its original structure?",
+      "options": [
+        "St. Mark Cathedral",
+        "Cathedral of Saint Domnius",
+        "St. James Cathedral"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paradoxically dedicated to Saint Domnius (a Christian bishop martyred by Diocletian), it features 13th-century carved walnut doors by Andrija Buvina and a 57-meter Romanesque bell tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 8.5-meter bronze statue by sculptor Ivan Meštrović outside the Golden Gate of Split is famous for visitors rubbing its shiny big toe for good luck?",
+      "options": [
+        "King Tomislav",
+        "Marko Marulić",
+        "Gregory of Nin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bishop Gregory of Nin famously advocated in 926 CE for conducting church services in the Old Church Slavonic language and Glagolitic script rather than Latin.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Roman Emperor Diocletian complete his colossal retirement palace in Split, Croatia?",
+      "target": 305,
+      "metricUnit": "CE",
+      "imperialDisplay": "305 AD",
+      "explanation": "Diocletian's Palace was completed around 305 CE when Diocletian abdicated the throne.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous island in central Dalmatia holds the record as the sunniest island in Europe, averaging over 2,700 hours of Mediterranean sunshine annually, renowned for purple lavender fields?",
+      "options": [
+        "Hvar",
+        "Brač",
+        "Korčula"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hvar Town features the oldest municipal public theater in Europe (founded in 1612), the 16th-century Spanish Fortress (Fortica), and a Venetian harbor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous 500-meter white pebble beach on the island of Brač near Bol extends like a narrow tongue into the Adriatic, shifting its tip with changing ocean currents and wind?",
+      "options": [
+        "Stiniva Beach",
+        "Zlatni Rat",
+        "Sakarun Beach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Framed by green pine groves beneath the 778-meter Vidova Gora (the highest peak of the Adriatic islands), Zlatni Rat is a protected geomorphological monument.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which fortified island town in southern Dalmatia, famous for narrow herringbone-pattern stone alleys and Moreška sword dances, is celebrated as the traditional birthplace of explorer Marco Polo?",
+      "options": [
+        "Hvar",
+        "Mljet",
+        "Korčula"
+      ],
+      "correctIndex": 2,
+      "explanation": "Local tradition holds that Marco Polo was born in Korčula in 1254 (then under Venetian rule), captured here by the Genoese in the 1298 Battle of Curzola.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous sea cave on the tiny island of Biševo near Vis is world-renowned for glowing with an ethereal aquamarine-blue light as midday sunlight passes through a submerged underwater arch?",
+      "options": [
+        "The Blue Cave",
+        "The Green Cave",
+        "Odysseus Cave"
+      ],
+      "correctIndex": 0,
+      "explanation": "Discovered to the world by Baron Eugen von Ransonnet in 1884, small rowboats enter through a natural crack to view illuminated underwater white limestone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What lush, green island in southern Dalmatia is a National Park featuring two saltwater glacial lakes (Veliko and Malo Jezero) and a 12th-century Benedictine monastery on Saint Mary Island?",
+      "options": [
+        "Lastovo",
+        "Mljet",
+        "Šolta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Legend associates Mljet with Ogygia, the mythical island where the nymph Calypso held Odysseus captive for seven years in Homer Odyssey.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many hours of sunshine does the Dalmatian island of Hvar receive per year, making it the sunniest island in Europe?",
+      "target": 2700,
+      "metricUnit": "sunshine hours",
+      "imperialDisplay": "2,700+ annual sunshine hours",
+      "explanation": "Hvar averages approximately 2,724 hours of sunshine per year (over 7.5 hours of pure sunshine daily).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ingenious architectural sound art installation on the marble waterfront of Zadar, created by architect Nikola Bašić in 2005, plays hypnotic musical chords powered entirely by ocean waves?",
+      "options": [
+        "Monument to the Sun",
+        "The Wave Pavilion",
+        "The Sea Organ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thirty-five organ pipes embedded in white stone stairs connect to underwater plastic tubes; crashing waves push air through the pipes, creating spontaneous polyphonic music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many tuned musical organ pipes of varying lengths and diameters are installed underneath the marble stairs of the Zadar Sea Organ?",
+      "options": [
+        "35 Organ Pipes",
+        "12 Pipes",
+        "50 Pipes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arranged in seven distinct five-pipe musical chords, the pipes are tuned to two traditional Dalmatian klapa music harmonic scales.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What adjacent solar art monument in Zadar consists of a 22-meter glass circle of three hundred multi-layered solar plates that stores daylight solar energy to produce animated light shows at dusk?",
+      "options": [
+        "The Sea Organ",
+        "Greeting to the Sun Monument to the Sun",
+        "Solar Disc"
+      ],
+      "correctIndex": 1,
+      "explanation": "Symbolizing the planets of the solar system, film director Alfred Hitchcock famously declared in 1964: 'Zadar has the most beautiful sunset in the world.'",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 9th-century circular pre-Romanesque rotunda church in Zadar, built on the pavement of the ancient Roman Forum, is the largest pre-Romanesque building in Croatia?",
+      "options": [
+        "Cathedral of St. Anastasia",
+        "St. Chrysogonus Church",
+        "Church of St. Donatus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standing twenty-seven meters tall, the rotunda was constructed using salvaged Roman marble columns, capitals, and inscribed sacrificial altars.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What clear, bittersweet cherry liqueur, produced in Zadar since 1821 from distilled native sour Marasca cherries, was a favorite drink of European royal courts and Napoleon Bonaparte?",
+      "options": [
+        "Maraschino Maraskino",
+        "Pelinkovac",
+        "Travarica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally distilled by 16th-century Dominican monks, authentic Maraschino is wrapped in hand-woven straw basket casings.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many individual tuned musical organ pipes make up the subterranean acoustic system of the Zadar Sea Organ in Croatia?",
+      "target": 35,
+      "metricUnit": "pipes",
+      "imperialDisplay": "35 tuned organ pipes",
+      "explanation": "The Sea Organ utilizes thirty-five separate organ pipes divided into seven five-pipe chords playing continuous maritime music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What exceptionally preserved 1st-century Roman amphitheater in the coastal city of Pula is the only remaining Roman amphitheater in the world with all four side towers completely intact?",
+      "options": [
+        "Verona Arena",
+        "Pula Arena",
+        "Colosseum of Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed from local white limestone under Emperor Vespasian between 27 BCE and 68 CE, the Arena seated 23,000 gladiatorial spectators, today hosting the Pula Film Festival.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which century CE was the monumental outer stone ring of the Pula Arena completed during the Flavian Dynasty?",
+      "options": [
+        "3rd Century CE",
+        "2nd Century BCE",
+        "1st Century CE"
+      ],
+      "correctIndex": 2,
+      "explanation": "The amphitheater was completed during the 1st century CE under Emperor Titus and Emperor Domitian.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What heart-shaped peninsula in northwestern Croatia, shared with Slovenia and Italy, is internationally celebrated as the Gourmet Capital of Croatia for white truffles, olive oil, and Malvazija wine?",
+      "options": [
+        "Istria",
+        "Pelješac Peninsula",
+        "Konavle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Istria features medieval hilltop stone villages like Motovun and Grožnjan, and dense oak forests along the Mirna River where trained dogs unearth valuable white truffles (Tuber magnatum).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which picturesque fishing port on the west coast of Istria, crowned by the 60-meter bell tower of St. Euphemia church, was an important Venetian trading outpost for five centuries?",
+      "options": [
+        "Poreč",
+        "Rovinj",
+        "Umag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originally an offshore island before its narrow channel was filled in 1763, Rovinj features pastel Venetian-Gothic townhouses and traditional batana wooden fishing boats.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 6th-century UNESCO World Heritage Byzantine basilica complex in Poreč is celebrated worldwide for glittering gold mosaics depicting Christ, the Apostles, and Bishop Euphrasius?",
+      "options": [
+        "St. Euphemia Basilica",
+        "St. Donatus",
+        "Euphrasian Basilica"
+      ],
+      "correctIndex": 2,
+      "explanation": "The basilica is one of the purest surviving masterpieces of early Byzantine art in the Mediterranean, featuring mother-of-pearl, marble inlays, and a 6th-century ciborium altar canopy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In which century CE was the construction of the monumental Roman amphitheater (Pula Arena) completed in Pula, Croatia?",
+      "target": 1,
+      "metricUnit": "century CE",
+      "imperialDisplay": "1st Century AD (Flavian Dynasty)",
+      "explanation": "Pula Arena was constructed during the 1st century CE, standing today as one of the six largest surviving Roman arenas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning national park in central Dalmatia encompasses a 73-kilometer river canyon featuring seven travertine waterfall cascades, including the 400-meter Skradinski Buk?",
+      "options": [
+        "Krka National Park",
+        "Plitvice Lakes",
+        "Paklenica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skradinski Buk features seventeen cascading steps of travertine limestone where the world second oldest alternating-current hydroelectric plant (Jaruga Power Plant) opened in 1895.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque island in the middle of Visovac Lake along the Krka River has hosted a Franciscan monastery and church surrounded by tall cypress trees since 1445?",
+      "options": [
+        "Košljun Island",
+        "Visovac Island",
+        "Gospa od Škrpjela"
+      ],
+      "correctIndex": 1,
+      "explanation": "The monastery library holds rare incunabula, an illustrated 15th-century copy of Aesop Fables, and a sword belonging to legendary hero Vuk Mandušić.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous spotted, medium-sized dog breed with an athletic build and white coat dotted with black or liver spots originated in the historic coastal region of Dalmatia?",
+      "options": [
+        "The Posavac Hound",
+        "The Tornjak",
+        "The Dalmatian"
+      ],
+      "correctIndex": 2,
+      "explanation": "First depicted in 16th-century church paintings in Zaostrog, Dalmatians were historically used as carriage dogs, guard dogs, and maritime companions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO-inscribed traditional Dalmatian multipart a cappella singing tradition features small groups of tenors and basses performing harmonious acoustic love and sea songs?",
+      "options": [
+        "Klapa Singing",
+        "Ojkanje",
+        "Bećarac"
+      ],
+      "correctIndex": 0,
+      "explanation": "Klapa (meaning 'group of friends') singing is celebrated at the annual Festival of Dalmatian Klapas in Omiš, sung without instrumental accompaniment in stone courtyards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional equestrian knight tournament, held annually in the town of Sinj since 1715, sees galloping horsemen attempt to spear a small suspended metal ring (alka) with their lances?",
+      "options": [
+        "Moreška",
+        "The Sinjska Alka",
+        "Kumpanija"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inscribed on the UNESCO Intangible Cultural Heritage list, the tournament commemorates the miraculous 1715 victory of 700 local defenders over 60,000 Ottoman besiegers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Sinjska Alka equestrian knight tournament first established in Sinj to commemorate victory over Ottoman forces?",
+      "target": 1715,
+      "metricUnit": "year",
+      "imperialDisplay": "1715 AD (over 300-year unbroken tradition)",
+      "explanation": "The Sinjska Alka has been held annually in Sinj every August since 1715.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital and largest city of Croatia, situated along the Sava River at the southern slopes of Mount Medvednica?",
+      "options": [
+        "Split",
+        "Rijeka",
+        "Zagreb"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zagreb is divided into the medieval Upper Town (Gornji Grad - Gradec and Kaptol) and the 19th-century Austro-Hungarian Lower Town (Donji Grad).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 13th-century parish church on St. Mark Square in Upper Town Zagreb is celebrated for its colorful glazed roof tiles depicting the historical coats of arms of Croatia, Dalmatia, Slavonia, and Zagreb?",
+      "options": [
+        "St. Mark's Church",
+        "Zagreb Cathedral",
+        "St. Catherine Church"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built in 1880 by Friedrich von Schmidt and Herman Bollé, the vibrant tiled roof sits between the Croatian Parliament (Sabor) and the Prime Minister office (Banski Dvori).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What cannon inside the 13th-century Lotrščak Tower in Zagreb has been fired punctually every single day at exactly 12:00 noon since January 1, 1877, to synchronize church bells?",
+      "options": [
+        "The Ban Jelačić Cannon",
+        "The Grič Cannon",
+        "The Gradec Cannon"
+      ],
+      "correctIndex": 1,
+      "explanation": "The daily noon blast echoes across both the Upper and Lower towns, where tourists gather outside the tower to watch the smoke puff from the fourth-floor window.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 66-meter historic funicular railway in Zagreb, operating since 1890, connects the Lower Town (Ilica street) to the Upper Town in just sixty-four seconds, the shortest public transport funicular in the world?",
+      "options": [
+        "The Budavári Sikló",
+        "The Fløibanen",
+        "The Zagreb Funicular"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known affectionately as the 'Old Lady of Zagreb', the twin blue passenger cars retain their original 19th-century exterior appearance and track gauge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What quirky, internationally acclaimed museum in Upper Town Zagreb displays crowdsourced personal memorabilia, mementos, and heartfelt emotional stories left behind from failed romantic relationships?",
+      "options": [
+        "Museum of Broken Relationships",
+        "Museum of Illusions",
+        "Mimara Museum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded in 2010 by Olinka Vištica and Dražen Grubišić, the museum won the Kenneth Hudson European Museum of the Year Award.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the daily noon firing of the Grič Cannon (Grički top) from the Lotrščak Tower begin in Zagreb, Croatia?",
+      "target": 1877,
+      "metricUnit": "year",
+      "imperialDisplay": "1877 AD",
+      "explanation": "The Grič Cannon was first fired on New Year's Day, January 1, 1877.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What universal formal menswear fashion accessory originated in the 17th century when Croatian mercenary horsemen in French service wore distinctive knotted silk neck scarves (cravates)?",
+      "options": [
+        "The Bow Tie",
+        "The Necktie Cravat La Cravate",
+        "The Ascot"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Louis XIV was so enamored with the stylish Croatian neckerchiefs that he created a royal regiment of Royal-Cravates, making the necktie a global fashion staple.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary electrical engineer, inventor of alternating current (AC) electricity and the induction motor, was born in the village of Smiljan in the Lika region of Croatia in 1856?",
+      "options": [
+        "Slavoljub Penkala",
+        "Faust Vrančić",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tesla birthplace and his father Serbian Orthodox church are preserved at the Nikola Tesla Memorial Centre in Smiljan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 16th-century Renaissance polymath from Šibenik, known as the Croatian Leonardo da Vinci, designed and tested the world first functional parachute (Homo Volans) in 1617?",
+      "options": [
+        "Faust Vrančić",
+        "Ruđer Bošković",
+        "Marin Getaldić"
+      ],
+      "correctIndex": 0,
+      "explanation": "In his landmark 1615 engineering book Machinae Novae, Vrančić illustrated the parachute, suspension bridges, and advanced tide-mills.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Croatian method of slow-cooking lamb, octopus, veal, and potatoes involves baking under a heavy domed bell-shaped iron or clay lid (peka) covered in glowing hot wood embers?",
+      "options": [
+        "Gulaš",
+        "Peka",
+        "Brodet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cooking under the peka seals in natural juices and aromas, creating tender meat and caramelized potatoes infused with rosemary and white wine.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What hard, distinctively salty sheep milk cheese from the arid, windswept island of Pag is aged for months, rubbed in olive oil and ash, and recognized as one of the world finest cheeses?",
+      "options": [
+        "Škripavac",
+        "Turoš",
+        "Paški Sir"
+      ],
+      "correctIndex": 2,
+      "explanation": "Strong Bura winter winds spray seawater across the island, dusting wild sage and thyme grasses with sea salt that imparts a unique herbal flavor to the sheep milk.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the visionary electrical engineer and inventor Nikola Tesla born in the village of Smiljan in Croatia?",
+      "target": 1856,
+      "metricUnit": "year",
+      "imperialDisplay": "1856 AD",
+      "explanation": "Nikola Tesla was born during a midnight lightning storm on July 10, 1856, in Smiljan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total combined coastline length in kilometers of the Republic of Croatia, including its mainland coast (1,777 km) and its 1,244 islands, islets, and reefs (4,058 km)?",
+      "options": [
+        "5,835 Kilometers",
+        "2,500 Kilometers",
+        "8,000 Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Croatia possesses the most indented and island-rich coastline on the Mediterranean Sea after Greece, forming an extraordinary nautical sailing destination.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level administrative counties (Županije), plus the City of Zagreb with dual county status, is the Republic of Croatia politically organized?",
+      "options": [
+        "15 Counties",
+        "20 Counties and the City of Zagreb",
+        "25 Counties"
+      ],
+      "correctIndex": 1,
+      "explanation": "The twenty counties (such as Split-Dalmatia, Dubrovnik-Neretva, Istria, Primorje-Gorski Kotar, and Zadar) are headed by elected county prefects (Župans).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Republic of Croatia, rising 1,831 meters on the Dinara mountain massif along the border with Bosnia and Herzegovina?",
+      "options": [
+        "Sveti Jure",
+        "Vaganski Vrh",
+        "Sinjal Dinara Peak"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Dinaric Alps (Dinarides) give their name to the entire limestone karst mountain chain spanning the Western Balkans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 2.4-kilometer multi-span cable-stayed bridge, opened in July 2022, connects the southern exclave of Dubrovnik directly to the mainland of Croatia, bypassing the border crossing through Bosnia and Herzegovina?",
+      "options": [
+        "The Pelješac Bridge",
+        "Krk Bridge",
+        "Franjo Tuđman Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spanning the Mali Ston Bay to the Pelješac Peninsula, the bridge united Croatian sovereign territory without requiring motorists to cross through the Neum Corridor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic milestone was achieved by the Republic of Croatia on January 1, 2023, fully integrating the nation into the core European economic framework?",
+      "options": [
+        "Joined the European Union",
+        "Simultaneously adopted the Euro currency and joined the borderless Schengen Area",
+        "Adopted the Kuna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Croatia became the 20th member of the Eurozone and 27th member of the border-free Schengen Area on the same day.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total islands, islets, and rocky reefs make up the archipelago along the Adriatic coastline of Croatia?",
+      "target": 1244,
+      "metricUnit": "islands and reefs",
+      "imperialDisplay": "1,244 Adriatic islands (48 permanently inhabited)",
+      "explanation": "Croatia's coastal territory encompasses exactly 1,244 natural islands, islets, and reefs, of which forty-eight are permanently inhabited.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

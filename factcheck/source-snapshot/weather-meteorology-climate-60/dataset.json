@@ -1,0 +1,641 @@
+{
+  "id": "weather-meteorology-climate-60",
+  "theme": "Meteorology: Extreme Weather, Superstorms & Atmospheres",
+  "title": "Meteorology: Extreme Weather, Superstorms & Atmospheres",
+  "description": "A 60-question grand master assessment exploring atmospheric layers, supercell tornadoes, hurricane eyewalls, lightning physics, jet streams, and extreme planetary records.",
+  "category": "Nature, Wildlife & Biology",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What lowest atmospheric layer contains approximately 75 percent of total atmospheric mass and almost all clouds and active weather phenomena?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The troposphere extends from sea level up to roughly 8 km at the poles and 18 km at the equator, heated primarily from Earth surface below."
+    },
+    {
+      "type": "mcq",
+      "question": "What boundary layer marks the sharp thermal inversion ceiling between the turbulent troposphere and the calm, ozone-rich stratosphere?",
+      "options": [
+        "Stratopause",
+        "Tropopause",
+        "Mesopause"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the tropopause, temperature stops dropping with altitude and begins warming, creating a stable ceiling that caps tall thunderstorm updrafts into flat anvil tops."
+    },
+    {
+      "type": "mcq",
+      "question": "What apparent rotational force caused by Earth eastward axial spin deflects moving air masses to the right in the Northern Hemisphere?",
+      "options": [
+        "Centrifugal Force",
+        "Geostrophic Shear",
+        "Coriolis Effect"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Coriolis effect creates counter-clockwise cyclonic wind rotation in the Northern Hemisphere and clockwise rotation in the Southern Hemisphere."
+    },
+    {
+      "type": "mcq",
+      "question": "What classical meteorological instrument invented by Evangelista Torricelli in 1643 measures atmospheric air pressure using a column of mercury?",
+      "options": [
+        "Barometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Torricelli inverted a mercury-filled glass tube in a basin; atmospheric weight balanced the column height, creating the world first vacuum and barometer."
+    },
+    {
+      "type": "mcq",
+      "question": "What international standard meteorological unit of atmospheric pressure is equal to 100 Pascals?",
+      "options": [
+        "Torr",
+        "Hectopascal hPa",
+        "Atmospheric PSI"
+      ],
+      "correctIndex": 1,
+      "explanation": "One hectopascal (hPa) equals exactly one millibar (mbar), serving as the standard scientific unit for surface and upper-air isobar mapping."
+    },
+    {
+      "type": "number",
+      "question": "What is the standard average mean sea-level atmospheric pressure in hectopascals hPa / millibars?",
+      "target": 1013.25,
+      "metricUnit": "hPa",
+      "imperialDisplay": "1,013.25 hPa (29.92 inHg)",
+      "explanation": "Standard international sea-level atmospheric pressure is defined as exactly 1,013.25 hPa (101.325 kPa or 29.92 inches of mercury)."
+    },
+    {
+      "type": "mcq",
+      "question": "What calm, circular low-pressure region with light winds and descending air resides at the exact geometric center of a mature tropical cyclone?",
+      "options": [
+        "Eyewall",
+        "Rainband",
+        "Eye"
+      ],
+      "correctIndex": 2,
+      "explanation": "The hurricane eye is formed by dry air gently subsiding from the upper troposphere, creating a cloud-free circular core typically 30 to 65 km wide."
+    },
+    {
+      "type": "mcq",
+      "question": "What ring of towering cumulonimbus clouds surrounding the hurricane eye contains the most violent winds and heaviest torrential rainfall?",
+      "options": [
+        "Eyewall",
+        "Central Dense Overcast",
+        "Outer Spiral Band"
+      ],
+      "correctIndex": 0,
+      "explanation": "The eyewall exhibits the most intense pressure gradient and updrafts, generating the peak sustained surface winds of the tropical cyclone."
+    },
+    {
+      "type": "mcq",
+      "question": "What meteorological rating scale classifies tropical cyclones into five categories based strictly on sustained 1-minute surface wind speeds?",
+      "options": [
+        "Enhanced Fujita Scale",
+        "Saffir-Simpson Hurricane Wind Scale",
+        "Beaufort Wind Scale"
+      ],
+      "correctIndex": 1,
+      "explanation": "Developed by Herbert Saffir and Robert Simpson in 1971, Category 1 begins at 119 km/h (74 mph) and Category 5 begins at 252 km/h (157 mph)."
+    },
+    {
+      "type": "mcq",
+      "question": "What dangerous coastal hazard occurs when intense hurricane winds and low barometric pressure push a colossal dome of ocean water ashore?",
+      "options": [
+        "Tsunami",
+        "Seiche",
+        "Storm Surge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Storm surge is historically responsible for the majority of hurricane-related fatalities, inundating coastlines under meters of seawater."
+    },
+    {
+      "type": "mcq",
+      "question": "What minimum ocean sea-surface temperature in degrees Celsius is typically required to supply thermal energy to sustain tropical cyclone formation?",
+      "options": [
+        "26.5 degrees Celsius",
+        "20.0 degrees Celsius",
+        "32.0 degrees Celsius"
+      ],
+      "correctIndex": 0,
+      "explanation": "Warm tropical ocean water of at least 26.5 °C (80 °F) down to a depth of 50 meters provides the latent heat of evaporation that powers the storm."
+    },
+    {
+      "type": "number",
+      "question": "What is the lowest sea-level atmospheric barometric pressure in hectopascals hPa ever recorded on Earth, measured inside Super Typhoon Tip in 1979?",
+      "target": 870,
+      "metricUnit": "hPa",
+      "imperialDisplay": "870 hPa (25.69 inHg)",
+      "explanation": "On October 12, 1979 in the western Pacific, reconnaissance aircraft recorded a world-record low barometric pressure of 870 hPa in Typhoon Tip."
+    },
+    {
+      "type": "mcq",
+      "question": "What severe thunderstorm category containing a persistent, deeply rotating updraft called a mesocyclone generates the most destructive tornadoes?",
+      "options": [
+        "Squall Line",
+        "Supercell",
+        "Multicell Cluster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Supercells possess tilted, rotating updrafts driven by vertical wind shear, producing giant hail, damaging straight-line winds, and violent tornadoes."
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive radar reflectivity signature resembling a curved spiral appendage indicates strong mesocyclonic rotation and potential tornado formation?",
+      "options": [
+        "Bow Echo",
+        "Debris Ball",
+        "Hook Echo"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hook echo forms as the storm rear-flank downdraft wraps precipitation around the rotating updraft, creating a classic hook shape on radar."
+    },
+    {
+      "type": "mcq",
+      "question": "What rating scale updated in 2007 rates tornado intensity from EF0 to EF5 based on observed structural damage indicators and estimated wind speeds?",
+      "options": [
+        "Enhanced Fujita Scale",
+        "TORRO Scale",
+        "Saffir-Simpson Scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "The EF Scale uses 28 damage indicators with degrees of damage to calibrate wind estimates, where EF5 represents wind speeds exceeding 322 km/h (200 mph)."
+    },
+    {
+      "type": "mcq",
+      "question": "What geographic region across the central Great Plains of the United States experiences the highest global frequency of violent EF4 and EF5 tornadoes?",
+      "options": [
+        "Great Basin Trough",
+        "Tornado Alley",
+        "Sonoran Corridor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tornado Alley collides warm moist Gulf of Mexico air, dry Mexican plateau air, and cold Canadian air beneath a strong upper-level jet stream."
+    },
+    {
+      "type": "mcq",
+      "question": "What sharp boundary line separating moist maritime tropical air from dry continental desert air frequently triggers Great Plains severe supercells?",
+      "options": [
+        "Warm Front",
+        "Cold Occlusion",
+        "Dryline"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dry air is denser than moist air at the same temperature, forcing moist Gulf air rapidly upward along the advancing dryline to ignite severe storms."
+    },
+    {
+      "type": "number",
+      "question": "What is the highest mobile Doppler radar wind speed in km/h ever recorded near ground level, measured during the 1999 Bridge Creek-Moore tornado?",
+      "target": 486,
+      "metricUnit": "km/h",
+      "imperialDisplay": "302 mph (486 km/h)",
+      "explanation": "The University of Oklahoma mobile Doppler on Wheels recorded peak wind gusts of 486 +/- 32 km/h (302 mph) roughly 32 meters above the ground."
+    },
+    {
+      "type": "mcq",
+      "question": "What zigzagging, faintly luminous channel of ionized air descends in discrete 50-meter jumps from a storm cloud toward the ground before a flash?",
+      "options": [
+        "Stepped Leader",
+        "Return Stroke",
+        "Dart Leader"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stepped leader ionizes a plasma path toward Earth in microsecond pulses, meeting positive upward streamers rising from trees or structures."
+    },
+    {
+      "type": "mcq",
+      "question": "What luminous, high-current electrical surge flows upward from ground to cloud along the ionized channel, producing the blinding lightning flash?",
+      "options": [
+        "Pilot Leader",
+        "Return Stroke",
+        "Corona Streamer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The return stroke carries tens of thousands of amperes of electrical current in microseconds, heating the plasma channel to over 30,000 Kelvin."
+    },
+    {
+      "type": "mcq",
+      "question": "What physical process generates the booming acoustic shockwave of thunder following a lightning discharge?",
+      "options": [
+        "Direct mechanical collision of charged clouds",
+        "Sonic boom generated by falling hailstones",
+        "Instantaneous thermal expansion of superheated air ionizing at 30,000 Kelvin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lightning heats air channels to five times the Sun surface temperature in microseconds; the explosive thermal expansion creates a supersonic shockwave that decays into thunder."
+    },
+    {
+      "type": "mcq",
+      "question": "What rare, mysterious luminous spherical electrical phenomenon floats horizontally near ground level during storms before silently vanishing or popping?",
+      "options": [
+        "Ball Lightning",
+        "St. Elmo Fire",
+        "Corona Discharge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ball lightning appears as glowing spheres 10 to 40 cm wide lasting several seconds, hypothesized to involve vaporized silica nanoparticles or trapped plasma."
+    },
+    {
+      "type": "mcq",
+      "question": "What high-altitude transient luminous events flash reddish light above thunderstorm tops into the mesosphere up to 90 km altitude?",
+      "options": [
+        "Blue Jets",
+        "Red Sprites",
+        "Elves Rings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red sprites are electrical breakdown discharges triggered in the upper atmosphere by powerful positive cloud-to-ground lightning strikes below."
+    },
+    {
+      "type": "number",
+      "question": "To what extreme peak temperature in degrees Celsius does the core plasma channel of a lightning strike heat surrounding air?",
+      "target": 30000,
+      "metricUnit": "celsius",
+      "imperialDisplay": "30,000 °C (53,500 °F)",
+      "explanation": "A lightning channel heats surrounding air to approximately 30,000 °C (53,500 °F), more than five times hotter than the surface of the Sun (5,500 °C)."
+    },
+    {
+      "type": "mcq",
+      "question": "What primary tropical atmospheric circulation cell lifts warm air at the equator and descends dry air around 30 degrees latitude?",
+      "options": [
+        "Ferrel Cell",
+        "Polar Cell",
+        "Hadley Cell"
+      ],
+      "correctIndex": 2,
+      "explanation": "Driven by intense equatorial solar heating, air rises along the ITCZ, flows poleward aloft, and sinks at 30° latitude to create major global desert belts."
+    },
+    {
+      "type": "mcq",
+      "question": "What narrow meandering corridors of high-altitude fast-flowing westerly winds blow near the tropopause between 9 and 14 km altitude?",
+      "options": [
+        "Jet Streams",
+        "Trade Winds",
+        "Easterly Waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Polar and Subtropical Jet Streams are driven by sharp horizontal temperature gradients between warm tropical air and cold polar air masses."
+    },
+    {
+      "type": "mcq",
+      "question": "What equatorial belt of low atmospheric pressure where Northeast and Southeast trade winds converge is historically known by sailors as the Doldrums?",
+      "options": [
+        "Horse Latitudes",
+        "Intertropical Convergence Zone ITCZ",
+        "Subtropical Ridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ITCZ features calm surface winds and intense convective thunderstorms, stranding sailing ships for weeks in maritime history."
+    },
+    {
+      "type": "mcq",
+      "question": "What dry, calm subtropical high-pressure belts located near 30 degrees north and south latitude are historically called the Horse Latitudes?",
+      "options": [
+        "Roaring Forties",
+        "Polar Highs",
+        "Subtropical Ridges"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subtropical ridges feature steady descending air that creates cloudless skies, high evaporation rates, and world deserts like the Sahara and Arabian deserts."
+    },
+    {
+      "type": "mcq",
+      "question": "What warm, dry downslope wind on the eastern leeward slopes of the Rocky Mountains can raise winter air temperatures by 20 °C in a few hours?",
+      "options": [
+        "Chinook Wind",
+        "Sirocco Wind",
+        "Bora Wind"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chinook winds warm adiabatically as they descend the mountain slope at dry adiabatic lapse rates, melting snowpack rapidly (the snow eater)."
+    },
+    {
+      "type": "number",
+      "question": "What is the highest non-tornadic surface wind gust in km/h ever recorded on Earth, measured during Tropical Cyclone Olivia on Barrow Island in 1996?",
+      "target": 408,
+      "metricUnit": "km/h",
+      "imperialDisplay": "253 mph (408 km/h)",
+      "explanation": "On April 10, 1996, an anemometer on Barrow Island, Western Australia recorded a world-record wind gust of 408 km/h (253 mph) during Cyclone Olivia."
+    },
+    {
+      "type": "mcq",
+      "question": "What towering, anvil-topped convective clouds with powerful vertical updrafts produce torrential rain, hail, and severe lightning?",
+      "options": [
+        "Nimbostratus",
+        "Cumulonimbus",
+        "Altocumulus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cumulonimbus clouds can surge over 18 km high into the lower stratosphere, converting latent heat into violent updrafts exceeding 150 km/h."
+    },
+    {
+      "type": "mcq",
+      "question": "What smooth, downward-hanging pouch-like cloud lobes often form on the underside of a cumulonimbus anvil during severe thunderstorms?",
+      "options": [
+        "Lenticular Clouds",
+        "Asperitas Waves",
+        "Mammatus Clouds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mammatus clouds are formed by pockets of cool, moisture-laden air sinking into drier surrounding air beneath the spreading anvil cloud."
+    },
+    {
+      "type": "mcq",
+      "question": "What smooth, disc-shaped stationary clouds form over mountain peaks when moist air flows in standing waves across rugged topography?",
+      "options": [
+        "Lenticular Clouds",
+        "Cirrocumulus",
+        "Stratocumulus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Altocumulus lenticularis form at crests of mountain atmospheric waves, condensing moisture as air ascends and evaporating as air descends."
+    },
+    {
+      "type": "mcq",
+      "question": "What seasonal prevailing wind reversal brings colossal torrential monsoon rains to the Indian subcontinent from the Indian Ocean every summer?",
+      "options": [
+        "Northeast Trade",
+        "Southwest Monsoon",
+        "Siberian Inversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intense solar heating of the Tibetan Plateau creates a deep thermal low that pulls moist oceanic air northward across India from June through September."
+    },
+    {
+      "type": "mcq",
+      "question": "What concentric-layered ice pellets form when thunderstorm updrafts repeatedly cycle freezing water droplets through supercooled cloud zones?",
+      "options": [
+        "Graupel",
+        "Sleet",
+        "Hailstones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hailstones grow in alternating clear and milky ice layers as they collect supercooled liquid water drops in violent storm updrafts."
+    },
+    {
+      "type": "number",
+      "question": "What was the verified weight in kilograms of the heaviest single hailstone ever recorded on Earth, which fell in Gopalganj, Bangladesh in 1986?",
+      "target": 1.02,
+      "metricUnit": "kg",
+      "imperialDisplay": "2.25 lbs (1.02 kg)",
+      "explanation": "On April 14, 1986, a catastrophic hailstorm in the Gopalganj district of Bangladesh produced verified hailstones weighing 1.02 kg (2.25 lbs)."
+    },
+    {
+      "type": "mcq",
+      "question": "What periodic climatic phenomenon involves the abnormal warming of equatorial Pacific sea-surface temperatures, disrupting global rainfall patterns?",
+      "options": [
+        "El Nino Southern Oscillation ENSO",
+        "North Atlantic Oscillation",
+        "Pacific Decadal Oscillation"
+      ],
+      "correctIndex": 0,
+      "explanation": "During El Nino, trade winds weaken, allowing warm western Pacific pool waters to surge eastward toward South America, shifting global jet streams."
+    },
+    {
+      "type": "mcq",
+      "question": "What cool counterpart phase of ENSO is characterized by unusually cold sea-surface temperatures and intensified trade winds in the equatorial Pacific?",
+      "options": [
+        "Indian Ocean Dipole",
+        "La Nina",
+        "Madden-Julian Oscillation"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Nina enhances upwelling of cold nutrient-rich deep water off South America and increases hurricane activity in the Atlantic basin."
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal global ocean conveyor belt driven by temperature and salinity density gradients circulates heat across planet oceans?",
+      "options": [
+        "Ekman Spiral",
+        "Humboldt Upwelling",
+        "Thermohaline Circulation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dense cold saline water sinks in the North Atlantic and Antarctic, driving a worldwide deep-water circulation cycle taking roughly 1,000 years to complete."
+    },
+    {
+      "type": "mcq",
+      "question": "What powerful warm western boundary ocean current transports tropical heat from Florida up the eastern US coast toward Western Europe?",
+      "options": [
+        "Gulf Stream",
+        "Labrador Current",
+        "Canary Current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Gulf Stream flows at roughly 2 meters per second, transporting over 30 million cubic meters of warm water per second to moderate European climates."
+    },
+    {
+      "type": "mcq",
+      "question": "What climate index tracks pressure differences between the Azores High and Icelandic Low, governing winter storm tracks across Europe?",
+      "options": [
+        "Arctic Dipole",
+        "North Atlantic Oscillation NAO",
+        "Southern Annular Mode"
+      ],
+      "correctIndex": 1,
+      "explanation": "A positive NAO phase features strong pressure differences that steer wet, mild winter storms across Northern Europe while drying the Mediterranean."
+    },
+    {
+      "type": "number",
+      "question": "Every how many years on average does an El Nino Southern Oscillation ENSO climate event typically recur in the Pacific?",
+      "target": 4,
+      "metricUnit": "years",
+      "imperialDisplay": "2 to 7 years (average 4 years)",
+      "explanation": "ENSO cycles operate irregularly, typically recurring every 2 to 7 years with an historical average cycle period of approximately 4 years."
+    },
+    {
+      "type": "mcq",
+      "question": "What location in Death Valley, California holds the world record for the highest officially verified natural air temperature at 56.7 degrees Celsius?",
+      "options": [
+        "Badwater Basin",
+        "Stovepipe Wells",
+        "Furnace Creek"
+      ],
+      "correctIndex": 2,
+      "explanation": "On July 10, 1913, the Greenland Ranch weather station at Furnace Creek recorded an ambient air temperature of 56.7 °C (134.0 °F)."
+    },
+    {
+      "type": "mcq",
+      "question": "What Antarctic research station recorded the lowest natural air temperature directly measured on Earth surface at minus 89.2 °C in 1983?",
+      "options": [
+        "Vostok Station",
+        "Amundsen-Scott South Pole",
+        "Concordia Station"
+      ],
+      "correctIndex": 0,
+      "explanation": "Located high on the East Antarctic ice sheet at 3,488 meters altitude, Russian station Vostok recorded -89.2 °C (-128.6 °F) on July 21, 1983."
+    },
+    {
+      "type": "mcq",
+      "question": "What town in Meghalaya, India is recognized as the wettest inhabited place on Earth, averaging over 11,800 millimeters of rainfall annually?",
+      "options": [
+        "Cherrapunji",
+        "Mawsynram",
+        "Tutunendo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mawsynram sits atop the Khasi Hills, where moisture-laden southwest monsoon winds from the Bay of Bengal are forced upward to cause extreme orographic rain."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive wall of wind-blown dust and sand is kicked up by the downdraft outflow boundary of a desert thunderstorm?",
+      "options": [
+        "Simoom",
+        "Sirocco",
+        "Haboob"
+      ],
+      "correctIndex": 2,
+      "explanation": "Haboobs can rise over 1,500 meters high and span 100 kilometers wide, sweeping across the Sahara, Arabian Peninsula, and American Southwest."
+    },
+    {
+      "type": "mcq",
+      "question": "What dense, gravity-driven cold winds rush down off the icy plateaus of Greenland and Antarctica at sustained hurricane speeds?",
+      "options": [
+        "Katabatic Winds",
+        "Anabatic Winds",
+        "Zephyr Winds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radiative cooling over high polar ice sheets creates hyper-dense surface air that cascades down coastal glaciers at speeds exceeding 250 km/h."
+    },
+    {
+      "type": "number",
+      "question": "What is the highest officially verified natural air temperature in degrees Celsius recorded on Earth, measured at Furnace Creek in 1913?",
+      "target": 56.7,
+      "metricUnit": "celsius",
+      "imperialDisplay": "134.0 °F (56.7 °C)",
+      "explanation": "The World Meteorological Organization recognizes 56.7 °C (134.0 °F) measured at Furnace Creek, Death Valley as the highest ambient surface air temperature."
+    },
+    {
+      "type": "mcq",
+      "question": "What expendable instrument package suspended beneath a latex helium balloon transmits vertical temperature, pressure, and humidity profiles from the stratosphere?",
+      "options": [
+        "Dropsonde",
+        "Radiosonde",
+        "Pyranometer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meteorological agencies worldwide launch approximately 1,300 radiosondes twice daily at 00:00 and 12:00 UTC to feed computer forecasting models."
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized radar technology detects both precipitation intensity and the radial velocity of raindrops moving toward or away from the antenna?",
+      "options": [
+        "Lidar Profiler",
+        "Sodar Sounder",
+        "Doppler Weather Radar"
+      ],
+      "correctIndex": 2,
+      "explanation": "By measuring frequency shifts in backscattered microwave pulses, Doppler radar detects tornadic rotation, wind shear, and microbursts."
+    },
+    {
+      "type": "mcq",
+      "question": "What meteorological instrument measures the relative humidity and water vapor moisture content of ambient atmospheric air?",
+      "options": [
+        "Hygrometer",
+        "Anemometer",
+        "Pyranometer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hygrometers utilize capacitance sensors, chilled mirror dew-point systems, or psychrometer dry-and-wet bulb evaporative cooling differential."
+    },
+    {
+      "type": "mcq",
+      "question": "What scientific instrument measures broadband solar irradiance flux per unit area received from the hemispherical sky?",
+      "options": [
+        "Actinometer",
+        "Pyranometer",
+        "Barograph"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pyranometers use thermopile sensors beneath optical glass domes to measure solar radiation in Watts per square meter for meteorology and solar power."
+    },
+    {
+      "type": "mcq",
+      "question": "What mathematical forecasting paradigm discovered by meteorologist Edward Lorenz in 1963 revealed that small atmospheric perturbations produce chaotic divergence?",
+      "options": [
+        "Linear Determinism",
+        "Static Equilibrium",
+        "Chaos Theory and the Butterfly Effect"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lorenz computerized convection equations showed that non-linear sensitivity to initial conditions limits precise deterministic weather prediction to about two weeks."
+    },
+    {
+      "type": "number",
+      "question": "How many kilometers high into the stratosphere does a standard meteorological weather balloon typically ascend before bursting?",
+      "target": 35,
+      "metricUnit": "km",
+      "imperialDisplay": "115,000 feet (35 km)",
+      "explanation": "Latex weather balloons expand as atmospheric pressure drops, reaching altitudes of roughly 30 to 35 kilometers (over 100,000 feet) before popping."
+    },
+    {
+      "type": "mcq",
+      "question": "What atmospheric optical halo phenomenon produces bright, colorful spots of light on either side of the Sun, caused by hexagonal ice crystals in cirrus clouds?",
+      "options": [
+        "Sundogs Parhelia",
+        "Sun Pillars",
+        "Solar Glories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plate-shaped hexagonal ice crystals floating flat in cirrus clouds refract sunlight at a 22-degree angle, creating twin parhelia flanking the sun."
+    },
+    {
+      "type": "mcq",
+      "question": "What complex superior mirage significantly distorts distant horizon objects like islands and ships into towering floating castles and cliffs?",
+      "options": [
+        "Inferior Mirage",
+        "Fata Morgana",
+        "Brocken Spectre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fata Morgana mirages require strong thermal inversions with alternating warm and cold air ducts that act like atmospheric refracting lenses."
+    },
+    {
+      "type": "mcq",
+      "question": "What brief optical phenomenon flashes vibrant emerald light on the upper rim of the setting Sun for one or two seconds right as it dips below a clear horizon?",
+      "options": [
+        "Alpenglow",
+        "Zodiacal Light",
+        "Green Flash"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atmospheric refraction bends blue and green light more than red light; when the red disc sets first and blue light scatters, green light is briefly visible."
+    },
+    {
+      "type": "mcq",
+      "question": "What concentric rainbow-like colored rings centered on an observer shadow cast against mist or cloud are caused by wave diffraction of light?",
+      "options": [
+        "Glory",
+        "Brocken Spectre",
+        "Corona Ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Glories are formed by backward wave diffraction and wave tunneling inside microscopic cloud droplets, frequently seen from airplanes or high mountain ridges."
+    },
+    {
+      "type": "mcq",
+      "question": "What luminous vertical columns of light beam upward from ground lights or setting suns on freezing winter nights, reflected by flat ice crystals?",
+      "options": [
+        "Crepuscular Rays",
+        "Light Pillars",
+        "Antisolar Beams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light pillars occur when hexagonal plate ice crystals drift horizontally near the ground, acting like millions of microscopic mirrors reflecting vertical light."
+    },
+    {
+      "type": "number",
+      "question": "What is the angle in degrees from the antisolar point at which the primary circular atmospheric rainbow arc forms in raindrops?",
+      "target": 42,
+      "metricUnit": "degrees",
+      "imperialDisplay": "42° primary rainbow angle",
+      "explanation": "Internal reflection and two refractions within spherical raindrops concentrate exiting visible light at an angle of approximately 42 degrees from the antisolar point."
+    }
+  ]
+}

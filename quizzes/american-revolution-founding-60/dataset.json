@@ -1,0 +1,703 @@
+{
+  "id": "american-revolution-founding-60",
+  "theme": "The American Revolution: Independence & Founding Era",
+  "title": "The American Revolution: Independence & Founding Era",
+  "description": "A 60-question grand master assessment on the 1776 Declaration of Independence, Continental Army, Boston Tea Party, Yorktown, the Founding Fathers, and the US Constitution.",
+  "category": "Modern History & Landmark Wars",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What British parliamentary act of 1765 levied direct taxes on all colonial paper goods, sparking widespread protests of no taxation without representation?",
+      "options": [
+        "Stamp Act",
+        "Sugar Act",
+        "Townshend Acts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Stamp Act unified colonial opposition across all thirteen colonies, leading to the Stamp Act Congress and eventual repeal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What deadly 1770 confrontation in Boston saw British soldiers fire into an unruly crowd, killing five colonists including Crispus Attucks?",
+      "options": [
+        "Gaspee Affair",
+        "Boston Massacre",
+        "Battle of Bunker Hill"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patriot leader Samuel Adams and engraver Paul Revere publicized the event as a massacre to galvanize anti-British sentiment.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous political protest in December 1773 involved the Sons of Liberty dumping 342 chests of British East India Company tea into Boston Harbor?",
+      "options": [
+        "Suffolk Resolves",
+        "Annapolis Tea Party",
+        "Boston Tea Party"
+      ],
+      "correctIndex": 2,
+      "explanation": "Protesting the Tea Act monopoly, disguised colonists boarded three merchant vessels and destroyed over 92,000 pounds of tea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What punitive legislation did Parliament pass in 1774 in response to the Boston Tea Party, known in Britain as the Coercive Acts?",
+      "options": [
+        "Intolerable Acts",
+        "Declaratory Act",
+        "Quartering Acts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Intolerable Acts closed Boston Port, suspended the Massachusetts colonial charter, and mandated the housing of British troops.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Where did delegates from twelve of the thirteen colonies convene in September 1774 to coordinate collective colonial resistance?",
+      "options": [
+        "New York City",
+        "Philadelphia",
+        "Williamsburg Virginia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meeting at Carpenters Hall in Philadelphia, delegates established the Continental Association boycott of British trade.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many chests of British East India Company tea were destroyed during the Boston Tea Party on December 16, 1773?",
+      "target": 342,
+      "metricUnit": "chests",
+      "imperialDisplay": "342 chests of tea",
+      "explanation": "Colonial protestors destroyed 342 chests containing over 46 tons of imported tea valued at roughly 10,000 British pounds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What military encounters on April 19, 1775, sparked the armed conflict of the American Revolutionary War with the shot heard round the world?",
+      "options": [
+        "Battles of Saratoga",
+        "Battle of White Plains",
+        "Battles of Lexington and Concord"
+      ],
+      "correctIndex": 2,
+      "explanation": "British troops marching to seize militia weapons caches clashed with colonial minutemen on Lexington Green and Concords North Bridge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Boston silversmith made a famous midnight ride on April 18, 1775, to warn Samuel Adams and John Hancock that British regulars were advancing?",
+      "options": [
+        "Paul Revere",
+        "William Dawes",
+        "Samuel Prescott"
+      ],
+      "correctIndex": 0,
+      "explanation": "Revere coordinated two lanterns hung in the Old North Church steeple before riding westward toward Concord.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which June 1775 battle did colonial militia inflict heavy casualties on British forces attacking across Charlestown Peninsula before retreating?",
+      "options": [
+        "Battle of Brooklyn",
+        "Battle of Bunker Hill",
+        "Battle of Harlem Heights"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fought primarily on Breeds Hill, the battle cost the British over 1,000 casualties and proved colonial troops could withstand regular forces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was appointed Commander-in-Chief of the newly created Continental Army by the Second Continental Congress in June 1775?",
+      "options": [
+        "Horatio Gates",
+        "Charles Lee",
+        "George Washington"
+      ],
+      "correctIndex": 2,
+      "explanation": "George Washington took command of colonial forces surrounding Boston, establishing discipline and supply lines without accepting a salary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British-held Lake Champlain fortress was captured in May 1775 in a surprise dawn raid by Ethan Allen and Benedict Arnold?",
+      "options": [
+        "Fort Ticonderoga",
+        "Fort William Henry",
+        "Fort Crown Point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heavy cannons captured at Fort Ticonderoga were later transported by Henry Knox across winter snow to fortify Dorchester Heights.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the approximate riding distance in kilometers traveled by Paul Revere on his midnight ride from Charlestown to Lexington?",
+      "target": 20,
+      "metricUnit": "km",
+      "imperialDisplay": "12.5 miles (20 km)",
+      "explanation": "Paul Revere rode roughly 20 kilometers through Somerville, Medford, and Arlington before reaching Lexington.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What bestselling 47-page pamphlet published in January 1776 by Thomas Paine galvanized popular support for full independence from Britain?",
+      "options": [
+        "The Federalist Papers",
+        "Common Sense",
+        "The American Crisis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Common Sense sold hundreds of thousands of copies, using plain language to denounce hereditary monarchy and champion republican self-rule.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the primary author chosen by the Committee of Five to draft the United States Declaration of Independence?",
+      "options": [
+        "Benjamin Franklin",
+        "John Adams",
+        "Thomas Jefferson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thomas Jefferson penned the draft in Philadelphia, drawing upon Enlightenment philosophy regarding fundamental natural rights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On what exact date did the Second Continental Congress formally adopt the final text of the Declaration of Independence?",
+      "options": [
+        "July 4 1776",
+        "July 2 1776",
+        "August 2 1776"
+      ],
+      "correctIndex": 0,
+      "explanation": "Congress voted for independence on July 2 and officially ratified the wording of the Declaration of Independence on July 4, 1776.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the President of the Continental Congress who famously inscribed the largest and most prominent signature on the Declaration?",
+      "options": [
+        "John Adams",
+        "John Hancock",
+        "Benjamin Harrison"
+      ],
+      "correctIndex": 1,
+      "explanation": "John Hancock signed with bold flourish so King George III could read his name without spectacles, making his name synonymous with a signature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What three unalienable rights are explicitly proclaimed in the preamble of the Declaration of Independence?",
+      "options": [
+        "Liberty, Property, and Justice",
+        "Honor, Equality, and Security",
+        "Life, Liberty, and the pursuit of Happiness"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jefferson adapted John Locke concept of natural rights into life, liberty, and the pursuit of happiness as self-evident truths.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many colonial delegates signed the official parchment copy of the United States Declaration of Independence?",
+      "target": 56,
+      "metricUnit": "signers",
+      "imperialDisplay": "56 signers",
+      "explanation": "Fifty-six delegates representing all thirteen colonies signed the document, pledging their lives, fortunes, and sacred honor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On Christmas night 1776, what icy river did George Washington lead his army across to launch a surprise attack on Trenton?",
+      "options": [
+        "Delaware River",
+        "Hudson River",
+        "Potomac River"
+      ],
+      "correctIndex": 0,
+      "explanation": "Washington transported 2,400 men, artillery, and horses across the ice-choked Delaware River during a blizzard to assault the Hessian garrison.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What German auxiliary mercenaries contracted by King George III were defeated and captured by Washington at the Battle of Trenton?",
+      "options": [
+        "Prussians",
+        "Hessians",
+        "Bavarians"
+      ],
+      "correctIndex": 1,
+      "explanation": "Over 900 Hessian troops stationed in Trenton were caught off guard on the morning of December 26, 1776, revitalizing patriot morale.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Following Trenton, what January 1777 battle saw Washington slip away in the night and outmaneuver British forces under Lord Cornwallis?",
+      "options": [
+        "Battle of Monmouth",
+        "Battle of Brandywine",
+        "Battle of Princeton"
+      ],
+      "correctIndex": 2,
+      "explanation": "At Princeton, Washington rallied retreating militia in person, securing his second vital victory in ten days and retaking New Jersey.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American schoolteacher and spy was captured by the British in New York and executed in 1776, famously declaring he regretted having but one life to lose for his country?",
+      "options": [
+        "Nathan Hale",
+        "Benjamin Tallmadge",
+        "John Champe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nathan Hale was hanged without trial at age twenty-one, honored as America's first executed military intelligence officer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which covert spy ring organized by Major Benjamin Tallmadge provided crucial intelligence from British-occupied New York to General Washington?",
+      "options": [
+        "Mechanics Ring",
+        "Culper Spy Ring",
+        "Sons of Spycraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operating with invisible ink and numerical ciphers, the Culper Ring uncovered British naval plans and Benedict Arnold's treason.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many Hessian soldiers were captured as prisoners of war by Continental forces at the Battle of Trenton?",
+      "target": 900,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "900 Hessian prisoners",
+      "explanation": "Washington captured approximately 900 Hessian soldiers, six brass cannons, and vital supply wagons with minimal American casualties.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Where did George Washington Continental Army endure a harsh winter encampment marked by disease, cold, and starvation during the winter of 1777 and 1778?",
+      "options": [
+        "Morristown New Jersey",
+        "Dorchester Heights",
+        "Valley Forge Pennsylvania"
+      ],
+      "correctIndex": 2,
+      "explanation": "Despite losing over 2,000 men to disease and exposure, the army emerged from Valley Forge transformed into a professional fighting force.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Prussian military officer arrived at Valley Forge to institute standardized bayonet drills, discipline, and the Blue Book manual?",
+      "options": [
+        "Friedrich von Steuben",
+        "Johann de Kalb",
+        "Casimir Pulaski"
+      ],
+      "correctIndex": 0,
+      "explanation": "Von Steuben created a model company of soldiers who trained the rest of the army in European linear tactics and rapid bayonet charges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19-year-old French aristocrat volunteered to fight for the American cause, becoming a trusted general and surrogate son to Washington?",
+      "options": [
+        "Comte de Rochambeau",
+        "Marquis de Lafayette",
+        "Admiral de Grasse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lafayette spent his own fortune to outfit American troops, served bravely at Brandywine, and secured crucial French military support.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish military engineer constructed key river fortifications at West Point and Bemis Heights for the Continental Army?",
+      "options": [
+        "Casimir Pulaski",
+        "Haym Salomon",
+        "Thaddeus Kosciuszko"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kosciuszko's defensive earthworks were instrumental in winning the Battle of Saratoga and securing the Hudson River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish nobleman is celebrated as the Father of American Cavalry after reorganizing the Continental mounted forces before falling at Savannah?",
+      "options": [
+        "Casimir Pulaski",
+        "Thaddeus Kosciuszko",
+        "Wojciech Zaremba"
+      ],
+      "correctIndex": 0,
+      "explanation": "General Pulaski created the Pulaski Cavalry Legion, dying from grape-shot wounds during the 1779 Siege of Savannah.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many continuous months did the Continental Army remain encamped at Valley Forge between December 1777 and June 1778?",
+      "target": 6,
+      "metricUnit": "months",
+      "imperialDisplay": "6 months",
+      "explanation": "The army spent six grueling months from December 19, 1777, to June 19, 1778, drilling and regrouping at Valley Forge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin battles in upstate New York in autumn 1777 ended in the surrender of British General John Burgoyne and served as the turning point of the war?",
+      "options": [
+        "Battles of Trenton and Princeton",
+        "Battles of Saratoga",
+        "Battles of Brandywine and Germantown"
+      ],
+      "correctIndex": 1,
+      "explanation": "Burgoyne surrendered his entire army at Saratoga on October 17, 1777, proving to European powers that the Americans could win.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which senior American diplomat spent years in Paris charming French society and securing the vital 1778 Franco-American Treaty of Alliance?",
+      "options": [
+        "John Adams",
+        "Thomas Jefferson",
+        "Benjamin Franklin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Benjamin Franklin wit, scientific fame, and rustic charm convinced King Louis XVI to provide open financial and naval aid.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American general fought heroically at Saratoga before committing infamous treason in 1780 by plotting to surrender West Point to the British?",
+      "options": [
+        "Benedict Arnold",
+        "Charles Lee",
+        "Horatio Gates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arnold attempted to hand over the West Point fortress to British Major John Andre in exchange for money and a royal commission.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what June 1778 battle in New Jersey did the newly drilled Continental Army fight the British to a tactical draw under blistering summer heat?",
+      "options": [
+        "Battle of Camden",
+        "Battle of Monmouth",
+        "Battle of Guilford Court House"
+      ],
+      "correctIndex": 1,
+      "explanation": "Monmouth proved the effectiveness of Von Steuben's training, featuring the battlefield legend of Molly Pitcher carrying water to artillerymen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which European kingdom joined the war against Britain in 1779 as an ally of France, capturing British outposts in Florida and Mobile?",
+      "options": [
+        "The Netherlands",
+        "Prussia",
+        "Spain"
+      ],
+      "correctIndex": 2,
+      "explanation": "Led by Louisiana Governor Bernardo de Galvez, Spanish forces captured Pensacola and Baton Rouge, opening vital southern supply lines.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many British, German, and Canadian soldiers formally surrendered with General Burgoyne following the Battles of Saratoga in 1777?",
+      "target": 5800,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "5,800 soldiers",
+      "explanation": "Burgoyne surrendered roughly 5,800 troops, 27 pieces of artillery, and massive munitions stores to General Horatio Gates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish-born naval captain, commanding the Bonhomme Richard, famously shouted that he had not yet begun to fight when asked to surrender?",
+      "options": [
+        "John Paul Jones",
+        "John Barry",
+        "Esek Hopkins"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jones fought the heavier British frigate HMS Serapis off Flamborough Head in 1779, capturing her as his own ship sank beneath him.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What maritime commerce raiding ships authorized by Congress with letters of marque captured over 600 British merchant vessels during the war?",
+      "options": [
+        "Galleons",
+        "Privateers",
+        "Ironclads"
+      ],
+      "correctIndex": 1,
+      "explanation": "Privately owned colonial armed ships seized vital British supplies, severely inflating British shipping insurance rates in London.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which frontier militia leader led daring wilderness campaigns in the Illinois Country, capturing Kaskaskia and Vincennes from the British?",
+      "options": [
+        "Daniel Boone",
+        "John Sevier",
+        "George Rogers Clark"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clark's winter march through flooded plains secured the Northwest Territory between the Ohio River and the Great Lakes for the United States.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mohawk military and political leader allied with the British, leading loyalist and Iroquois raids across the New York frontier?",
+      "options": [
+        "Joseph Brant",
+        "Red Jacket",
+        "Cornplanter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Joseph Brant coordinated raids in the Cherry Valley and Mohawk Valley, fiercely resisting American expansion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major expedition did Washington dispatch in 1779 to destroy forty Iroquois villages aligned with the British in western New York?",
+      "options": [
+        "Wayne Campaign",
+        "Sullivan Expedition",
+        "Morgan Raid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Major General John Sullivan's campaign scorched farmland and orchards, breaking the power of the Iroquois Confederacy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many naval guns did John Paul Jones flagship Bonhomme Richard carry during its historic 1779 duel against HMS Serapis?",
+      "target": 42,
+      "metricUnit": "guns",
+      "imperialDisplay": "42 naval guns",
+      "explanation": "Originally an East Indiaman merchant vessel, the converted Bonhomme Richard was armed with 42 cannons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which South Carolina guerrilla commander, known as the Swamp Fox, used hit-and-run tactics against British supply lines in the southern backcountry?",
+      "options": [
+        "Thomas Sumter",
+        "Andrew Pickens",
+        "Francis Marion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Francis Marion operated from hidden swamp sanctuaries, frustrating British commander Banastre Tarleton with swift ambushes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which tactical masterclass in January 1781 saw Brigadier General Daniel Morgan execute a double envelopment to crush Tarleton British Legion in South Carolina?",
+      "options": [
+        "Battle of Cowpens",
+        "Battle of Kings Mountain",
+        "Battle of Camden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Morgan placed militia in the front lines with orders to fire two volleys before falling back, luring British regulars into a devastating trap.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American general, taking command of the Southern Army in 1780, exhausted Cornwallis through strategic retreat and attritional warfare?",
+      "options": [
+        "Horatio Gates",
+        "Nathanael Greene",
+        "Arthur St. Clair"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nathanael Greene famously declared that his army would rise and fight again, driving British forces out of the Carolinas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which crucial naval confrontation in September 1781 saw the French fleet under Admiral de Grasse block British naval reinforcement of Yorktown?",
+      "options": [
+        "Battle of the Saintes",
+        "Battle of Flamborough Head",
+        "Battle of the Chesapeake"
+      ],
+      "correctIndex": 2,
+      "explanation": "The French victory in the Battle of the Capes prevented the British Royal Navy from evacuating or resupplying Cornwallis' besieged garrison.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what Virginia coastal town did Lord Cornwallis surrender over 7,000 British soldiers on October 19, 1781, effectively ending combat operations?",
+      "options": [
+        "Yorktown",
+        "Richmond",
+        "Williamsburg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Besieged by combined Franco-American armies under Washington and Rochambeau, Cornwallis surrendered as his band played The World Turned Upside Down.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did General Lord Cornwallis formally surrender his British army at Yorktown, sealing American victory?",
+      "target": 1781,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1781 CE",
+      "explanation": "On October 19, 1781, the British capitulation at Yorktown destroyed British parliamentary support for continuing the war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What peace treaty signed in September 1783 formally recognized the independence of the United States and set borders at the Mississippi River?",
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of Paris",
+        "Treaty of Ghent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Negotiated by John Adams, Benjamin Franklin, and John Jay, the Treaty of Paris doubled the territorial size of the new nation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the name of the first written constitution of the United States, adopted in 1777 and ratified in 1781, which established a weak central government?",
+      "options": [
+        "Federalist Charter",
+        "Declaration of Rights",
+        "Articles of Confederation"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Articles lacked power to tax, regulate interstate commerce, or enforce national laws, leading to financial instability.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What armed uprising of debt-burdened Massachusetts farmers between 1786 and 1787 highlighted the weakness of the national government under the Articles?",
+      "options": [
+        "Shays Rebellion",
+        "Whiskey Rebellion",
+        "Fries Rebellion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Daniel Shays led veterans shutting down county debt courts, alarming leaders like Washington and Madison and spurring the Constitutional Convention.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1787 legislation established the procedure for admitting new territories into the Union as equal states and banned slavery north of the Ohio River?",
+      "options": [
+        "Land Ordinance of 1785",
+        "Northwest Ordinance",
+        "Homestead Act"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Northwest Ordinance created a blueprint for orderly western expansion, guaranteeing civil liberties and public education.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Where did George Washington resign his military commission in December 1783, establishing civilian supremacy over the armed forces?",
+      "options": [
+        "Philadelphia Pennsylvania",
+        "New York City",
+        "Annapolis Maryland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Washington surrendered his sword to Congress at the Maryland State House, establishing a landmark precedent for republican civilian governance.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many total years were the Articles of Confederation officially in effect as the governing framework of the United States from 1781 to 1789?",
+      "target": 8,
+      "metricUnit": "years",
+      "imperialDisplay": "8 years (1781–1789)",
+      "explanation": "The Articles governed the United States for eight years before being replaced by the United States Constitution in 1789.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who is widely hailed as the Father of the Constitution for authoring the Virginia Plan and keeping detailed notes of the 1787 Constitutional Convention?",
+      "options": [
+        "James Madison",
+        "Alexander Hamilton",
+        "John Marshall"
+      ],
+      "correctIndex": 0,
+      "explanation": "James Madison drafted the Virginia Plan three branches of government and championed the subsequent Bill of Rights amendments.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What compromise reached at the Constitutional Convention created a bicameral legislature with proportional House seats and equal Senate representation?",
+      "options": [
+        "Three-Fifths Compromise",
+        "Great Connecticut Compromise",
+        "Missouri Compromise"
+      ],
+      "correctIndex": 1,
+      "explanation": "Proposed by Roger Sherman, the Great Compromise reconciled the interests of large states and small states.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What collection of 85 essays arguing in favor of ratifying the US Constitution was written by Alexander Hamilton, James Madison, and John Jay?",
+      "options": [
+        "Letters from a Farmer",
+        "Common Sense",
+        "The Federalist Papers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Published under the pseudonym Publius, The Federalist Papers remains the authoritative commentary on the philosophical framework of the Constitution.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What first ten amendments to the United States Constitution were ratified in 1791 to guarantee essential individual liberties and state powers?",
+      "options": [
+        "Bill of Rights",
+        "Articles of Liberty",
+        "Universal Declaration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Drafted by James Madison to satisfy Anti-Federalist concerns, the Bill of Rights protects freedom of speech, religion, assembly, and trial by jury.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was unanimously elected by the Electoral College in 1789 to serve as the first President of the United States?",
+      "options": [
+        "John Adams",
+        "George Washington",
+        "Thomas Jefferson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Washington took the first presidential oath of office at Federal Hall in New York City on April 30, 1789, setting foundational executive precedents.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many delegates signed the finished United States Constitution at Independence Hall on September 17, 1787?",
+      "target": 39,
+      "metricUnit": "delegates",
+      "imperialDisplay": "39 signing delegates",
+      "explanation": "Thirty-nine delegates representing twelve states signed the Constitution, while three present refused to sign without a Bill of Rights.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

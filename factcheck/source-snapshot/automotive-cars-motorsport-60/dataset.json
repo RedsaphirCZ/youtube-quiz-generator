@@ -1,0 +1,641 @@
+{
+  "id": "automotive-cars-motorsport-60",
+  "theme": "Automotive Heritage: Classic Engines, Supercars & F1",
+  "title": "Automotive Heritage: Classic Engines, Supercars & F1",
+  "description": "Comprehensive 60-question automotive odyssey exploring pioneering internal combustion engines, classic supercars, Formula 1 dynasties, and land speed records.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which German engineer built the 1886 Patent-Motorwagen, widely recognized as the world first practical modern automobile powered by an internal combustion engine?",
+      "options": [
+        "Karl Benz",
+        "Gottlieb Daimler",
+        "Wilhelm Maybach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Karl Benz obtained German patent No. 37435 for his three-wheeled motor carriage powered by a horizontal single-cylinder four-stroke engine."
+    },
+    {
+      "type": "mcq",
+      "question": "Who completed the world first long-distance automotive road trip in August 1888, driving 106 kilometers from Mannheim to Pforzheim without her husband knowledge?",
+      "options": [
+        "Louise Sarazin",
+        "Bertha Benz",
+        "Camille du Gast"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bertha Benz proved the practical utility of the Patent-Motorwagen, famously unclogging a fuel pipe with her hatpin and repairing brakes with leather."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American automotive industrialist revolutionized modern mass manufacturing in 1913 by introducing the moving assembly line for the Model T?",
+      "options": [
+        "Walter Chrysler",
+        "Ransom E. Olds",
+        "Henry Ford"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ford Highland Park assembly line cut Model T production time from twelve hours to ninety-three minutes, making cars affordable to the public."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German engineer invented the compression-ignition engine in the 1890s, operating without spark plugs on heavy liquid fuels?",
+      "options": [
+        "Rudolf Diesel",
+        "Nikolaus Otto",
+        "Felix Wankel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rudolf Diesel designed his engine to operate on high thermal efficiency by injecting fuel into air heated purely by high-pressure cylinder compression."
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneer developed the high-speed Grandfather Clock petrol engine in 1885 alongside Wilhelm Maybach, fitting it to the Daimler Reitwagen motorcycle?",
+      "options": [
+        "Karl Benz",
+        "Gottlieb Daimler",
+        "Robert Bosch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daimler and Maybach pioneered compact, lightweight high-RPM engines that could power carriages, boats, and airships."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Karl Benz receive the official patent for his gas-fueled three-wheeled Patent-Motorwagen?",
+      "target": 1886,
+      "metricUnit": "year",
+      "imperialDisplay": "1886 AD",
+      "explanation": "Karl Benz applied for the milestone patent on January 29, 1886, marking the birth of the modern automobile."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 1961 British sports car, designed by aerodynamicist Malcolm Sayer, was famously hailed by Enzo Ferrari as the most beautiful car ever made?",
+      "options": [
+        "Aston Martin DB5",
+        "Austin-Healey 3000",
+        "Jaguar E-Type"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Jaguar E-Type combined monocoque construction, disc brakes, and a 3.8-liter straight-six engine with 240 km/h top speed."
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark 1954 German sports car featured upward-opening gullwing doors and was the first production car with direct mechanical fuel injection?",
+      "options": [
+        "Mercedes-Benz 300 SL",
+        "BMW 507",
+        "Porsche 356 Speedster"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 300 SL Gullwing was derived from the W194 race car, requiring upward-hinged doors due to its deep tubular spaceframe chassis."
+    },
+    {
+      "type": "mcq",
+      "question": "Which classic Ferrari homologation sports car produced from 1962 to 1964, powered by a 3.0-liter Colombo V12, is widely regarded as the most valuable collector car in the world?",
+      "options": [
+        "Ferrari 275 GTB",
+        "Ferrari 250 GTO",
+        "Ferrari 250 Testa Rossa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only thirty-six Ferrari 250 GTOs were ever produced to race in the FIA Group 3 Grand Touring category, commanding tens of millions at auction."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American racing driver and designer shoehorned a high-output Ford V8 engine into a lightweight British AC Ace chassis to create the Cobra in 1962?",
+      "options": [
+        "Dan Gurney",
+        "Phil Hill",
+        "Carroll Shelby"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Shelby Cobra dominated American sports car racing and culminated in the 427 Cobra, reaching zero to sixty in under four seconds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which grand tourer, manufactured by Aston Martin in Newport Pagnell, became an enduring pop-culture icon when driven by James Bond in the 1964 film Goldfinger?",
+      "options": [
+        "Aston Martin DB5",
+        "Aston Martin DB4 GT Zagato",
+        "Aston Martin DBS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DB5 featured revolving license plates, smoke screen dispensers, and a passenger ejector seat, cementing its legend in cinema history."
+    },
+    {
+      "type": "number",
+      "question": "How many total original Ferrari 250 GTO models were manufactured by Ferrari between 1962 and 1964?",
+      "target": 36,
+      "metricUnit": "cars",
+      "imperialDisplay": "36 original units",
+      "explanation": "Ferrari built exactly thirty-six 250 GTOs between 1962 and 1964, making it one of the rarest and most coveted collector automobiles."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1966 Italian sports car, designed by Marcello Gandini with a transverse mid-mounted 4.0-liter V12, coined the modern term supercar?",
+      "options": [
+        "Ferrari 365 GTB/4 Daytona",
+        "Lamborghini Miura",
+        "Maserati Ghibli"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lamborghini Miura P400 was the fastest production car in the world at launch, establishing the mid-engine blueprint for high-performance exotics."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic German sports car, introduced in 1964 as the successor to the 356, has maintained a distinctive rear-mounted flat-six engine layout for sixty years?",
+      "options": [
+        "Porsche 928",
+        "Porsche 944",
+        "Porsche 911"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by Ferdinand Alexander Butzi Porsche, the 911 evolved through generations including the 930 Turbo, 993, and modern 992."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1987 twin-turbocharged V8 supercar, the last car personally approved by Enzo Ferrari, was the first street-legal production car to exceed 200 mph?",
+      "options": [
+        "Ferrari F40",
+        "Porsche 959",
+        "Lamborghini Countach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built for Ferrari 40th anniversary, the F40 featured lightweight Kevlar and carbon fiber bodywork with zero power steering or anti-lock brakes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which three-seater British supercar designed by Gordon Murray in 1992 featured a gold-foil-lined engine bay and a central driving seat?",
+      "options": [
+        "Jaguar XJ220",
+        "McLaren F1",
+        "Bugatti EB110"
+      ],
+      "correctIndex": 1,
+      "explanation": "The McLaren F1 utilized a naturally aspirated 6.1-liter BMW V12, holding the record as the fastest naturally aspirated production car at 386 km/h."
+    },
+    {
+      "type": "mcq",
+      "question": "What quad-turbocharged 16-cylinder hypercar, developed under Volkswagen Group chairman Ferdinand Piëch, shattered production top speed barriers at 407 km/h in 2005?",
+      "options": [
+        "Koenigsegg CC8S",
+        "Pagani Zonda",
+        "Bugatti Veyron"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bugatti Veyron 16.4 generated 1,001 metric horsepower from an 8.0-liter W16 engine cooled by ten distinct heat exchangers."
+    },
+    {
+      "type": "number",
+      "question": "What was the top speed in km/h achieved by the naturally aspirated McLaren F1 during its record speed run at Ehra-Lessien in 1998?",
+      "target": 386,
+      "metricUnit": "km/h",
+      "imperialDisplay": "240.1 mph",
+      "explanation": "Racing driver Andy Wallace drove the XP5 prototype McLaren F1 with rev limiter disabled to an official two-way average of 386.4 km/h."
+    },
+    {
+      "type": "mcq",
+      "question": "Which unusual internal combustion engine design utilizes a triangular rotor spinning inside an epitrochoidal chamber instead of reciprocating pistons?",
+      "options": [
+        "Wankel Rotary Engine",
+        "Opposed-Piston Engine",
+        "Sterling Engine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invented by Felix Wankel, the rotary engine delivers smooth power at high RPMs, famously refined by Mazda in the RX-7 and RX-8 sports cars."
+    },
+    {
+      "type": "mcq",
+      "question": "What engine valvetrain design positions two separate camshafts inside the cylinder head to operate intake and exhaust valves directly?",
+      "options": [
+        "Overhead Valve Pushrod",
+        "Double Overhead Camshaft",
+        "Flathead Side Valve"
+      ],
+      "correctIndex": 1,
+      "explanation": "DOHC configurations allow multi-valve designs (typically four valves per cylinder), improving volumetric efficiency and high-RPM breathing."
+    },
+    {
+      "type": "mcq",
+      "question": "What forced-induction device uses hot exhaust gases to spin a turbine, which in turn drives a compressor to force extra oxygen into cylinders?",
+      "options": [
+        "Supercharger",
+        "Intercooler",
+        "Turbocharger"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turbocharging dramatically increases engine power and thermal efficiency without increasing engine displacement, pioneered in production by the 1962 Oldsmobile Jetfire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which brake technology using calipers to squeeze friction pads against a rotating metal rotor replaced drums in motorsport after Jaguar won Le Mans in 1953?",
+      "options": [
+        "Disc Brakes",
+        "Drum Brakes",
+        "Regenerative Brakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dunlop disc brakes gave the Jaguar C-Type superior fade-resistant braking into corners, rapidly spreading across all production passenger automobiles."
+    },
+    {
+      "type": "mcq",
+      "question": "Which exhaust emissions control device uses precious metals like platinum and rhodium to convert harmful carbon monoxide and hydrocarbons into carbon dioxide and water?",
+      "options": [
+        "Exhaust Gas Recirculation Valve",
+        "Catalytic Converter",
+        "Diesel Particulate Filter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Introduced widely in 1975 to satisfy US Clean Air Act standards, catalytic converters drastically reduced toxic automotive smog."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the catalytic converter become mandatory equipment on new gasoline cars sold in the United States?",
+      "target": 1975,
+      "metricUnit": "year",
+      "imperialDisplay": "1975 AD",
+      "explanation": "The EPA mandated catalytic converters starting with 1975 model year vehicles, which also prompted the phase-out of leaded gasoline."
+    },
+    {
+      "type": "mcq",
+      "question": "On May 13, 1950, which historic British circuit hosted the inaugural World Championship Formula 1 Grand Prix race, won by Giuseppe Farina in an Alfa Romeo?",
+      "options": [
+        "Monza Circuit",
+        "Spa-Francorchamps",
+        "Silverstone Circuit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 1950 British Grand Prix at Silverstone was attended by King George VI and Queen Elizabeth, launching the modern F1 world championship."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Argentine racing driver won five Formula 1 World Drivers Championships in the 1950s with four different constructors?",
+      "options": [
+        "Juan Manuel Fangio",
+        "Alberto Ascari",
+        "Stirling Moss"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Maestro won titles with Alfa Romeo, Maserati, Mercedes-Benz, and Ferrari, maintaining the highest winning percentage in F1 history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which charismatic Brazilian triple world champion was renowned for sublime wet-weather mastery and won the prestigious Monaco Grand Prix a record six times?",
+      "options": [
+        "Nelson Piquet",
+        "Ayrton Senna",
+        "Alain Prost"
+      ],
+      "correctIndex": 1,
+      "explanation": "Senna intense rivalry with Alain Prost at McLaren-Honda produced some of the most dramatic and celebrated duels in motorsport lore."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German driver won seven Formula 1 World Drivers Championships, including five consecutive titles with Scuderia Ferrari from 2000 to 2004?",
+      "options": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Michael Schumacher"
+      ],
+      "correctIndex": 2,
+      "explanation": "Schumacher transformed Scuderia Ferrari alongside Jean Todt and Ross Brawn, setting historic records for race wins, poles, and fastest laps."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British racing driver holds the all-time records for the most Formula 1 pole positions and race wins, sharing seven world titles with Schumacher?",
+      "options": [
+        "Lewis Hamilton",
+        "Nigel Mansell",
+        "Jackie Stewart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hamilton achieved his first world title with McLaren in 2008 before dominating the V6 Turbo-Hybrid era with Mercedes-AMG."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the very first official Formula 1 World Championship Grand Prix race held at Silverstone?",
+      "target": 1950,
+      "metricUnit": "year",
+      "imperialDisplay": "1950 AD",
+      "explanation": "The inaugural Formula 1 World Championship race took place on May 13, 1950, at the converted RAF Silverstone airfield in England."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary French 24-hour endurance sports car race has been held annually near the town of Le Mans on the Circuit de la Sarthe since 1923?",
+      "options": [
+        "24 Hours of Spa",
+        "24 Hours of Le Mans",
+        "24 Hours of Daytona"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Grand Prix d Endurance de 24 Heures tests mechanical reliability, aerodynamics, and driver endurance over eight thousand kilometers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American V8 race car broke Ferrari six-year winning streak at Le Mans in 1966 with a historic one-two-three podium sweep orchestrated by Henry Ford II?",
+      "options": [
+        "Chevrolet Corvette Grand Sport",
+        "Shelby Daytona Coupe",
+        "Ford GT40"
+      ],
+      "correctIndex": 2,
+      "explanation": "The GT40 Mk II developed by Carroll Shelby and Ken Miles won four consecutive Le Mans races from 1966 through 1969."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary flat-12 race car gave Porsche its first overall victory at the 24 Hours of Le Mans in 1970 and starred in Steve McQueen film Le Mans?",
+      "options": [
+        "Porsche 917",
+        "Porsche 956",
+        "Porsche 936"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 917 reached speeds over 380 km/h along the Mulsanne Straight, driven to victory in heavy rain by Hans Herrmann and Richard Attwood."
+    },
+    {
+      "type": "mcq",
+      "question": "Which manufacturer made history at Le Mans in 2006 by scoring the first-ever overall victory for a diesel-powered racing car with the R10 TDI?",
+      "options": [
+        "Peugeot",
+        "Audi",
+        "Toyota"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Audi R10 TDI twin-turbo V12 diesel produced massive low-RPM torque and superior fuel mileage, dominating endurance racing for years."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish racing driver holds the all-time record for the most overall victories at the 24 Hours of Le Mans, earning the nickname Mr. Le Mans?",
+      "options": [
+        "Jacky Ickx",
+        "Derek Bell",
+        "Tom Kristensen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tom Kristensen won Le Mans nine times between 1997 and 2013, including six consecutive victories with Audi and Porsche."
+    },
+    {
+      "type": "number",
+      "question": "How many total 24 Hours of Le Mans overall victories did Danish driver Tom Kristensen achieve throughout his career?",
+      "target": 9,
+      "metricUnit": "victories",
+      "imperialDisplay": "9 overall wins",
+      "explanation": "Tom Kristensen won 9 Le Mans titles, surpassing Jacky Ickx previous record of 6 victories."
+    },
+    {
+      "type": "mcq",
+      "question": "Which car unveiled at the 1964 New York World Fair created the American pony car phenomenon, selling over one million units in eighteen months?",
+      "options": [
+        "Ford Mustang",
+        "Chevrolet Camaro",
+        "Pontiac GTO"
+      ],
+      "correctIndex": 0,
+      "explanation": "Championed by Lee Iacocca, the Mustang combined sporty styling, long-hood short-deck proportions, and affordable customization."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic American two-seater sports car, introduced by Chevrolet in 1953 with a lightweight fiberglass body, is celebrated as America Sports Car?",
+      "options": [
+        "Dodge Viper",
+        "Chevrolet Corvette",
+        "Ford Thunderbird"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engineered under Zora Arkus-Duntov, the Corvette evolved from the straight-six C1 into legendary V8 muscle variants like the 1963 Split-Window Sting Ray."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German car introduced permanent all-wheel drive into the World Rally Championship in 1980, revolutionizing rally racing during the Group B era?",
+      "options": [
+        "Lancia 037",
+        "Peugeot 205 T16",
+        "Audi Quattro"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Audi Quattro turbocharged five-cylinder engine and four-wheel traction rendered traditional rear-wheel-drive rally cars obsolete."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mid-engine Italian rally car, designed by Bertone with a Ferrari Dino V12 engine, won three consecutive World Rally Championships from 1974 to 1976?",
+      "options": [
+        "Lancia Stratos HF",
+        "Lancia Delta Integrale",
+        "Fiat 131 Abarth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Stratos was the first car purposefully built from the ground up for international stage rallying, renowned for extreme agility."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous hemispherical-combustion-chamber V8 engine displacement of 426 cubic inches powered classic 1960s Dodge and Plymouth muscle cars?",
+      "options": [
+        "454 Big Block",
+        "426 Hemi",
+        "427 Cobra Jet"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 426 Hemi Elephant Engine produced an official 425 horsepower, dominating NASCAR oval racing and quarter-mile drag strips."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the original first-generation Ford Mustang introduced to the public at the New York World Fair?",
+      "target": 1964,
+      "metricUnit": "year",
+      "imperialDisplay": "1964 AD",
+      "explanation": "Ford officially debuted the 1964-and-a-half Mustang on April 17, 1964, sparking stampedes at Ford dealerships across America."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British twin-turbofan jet car, driven by RAF pilot Andy Green on October 15, 1997, became the first car to officially break the sound barrier on land?",
+      "options": [
+        "Thrust2",
+        "Bluebird CN7",
+        "ThrustSSC"
+      ],
+      "correctIndex": 2,
+      "explanation": "ThrustSSC was powered by two Rolls-Royce Spey jet engines in the Black Rock Desert of Nevada, achieving Mach 1.016 over a measured mile."
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast, pancake-flat salt flat in northwestern Utah has hosted world land speed trials since the legendary runs of Malcolm Campbell in the 1930s?",
+      "options": [
+        "Bonneville Salt Flats",
+        "Black Rock Desert",
+        "El Mirage Lake"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bonneville Salt Flats provide a rock-hard, perfectly level potassium-salt surface ideal for high-speed wheel-driven and rocket streamliners."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British speed king broke land and water speed records in the same year in 1964 aboard Bluebird CN7 and Bluebird K7?",
+      "options": [
+        "Malcolm Campbell",
+        "Donald Campbell",
+        "John Cobb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Donald Campbell drove the gas-turbine Bluebird CN7 to 648 km/h at Lake Eyre, Australia, before setting the water speed record at Lake Dumbleyung."
+    },
+    {
+      "type": "mcq",
+      "question": "What five-time land speed record holder became the first person to exceed 400, 500, and 600 miles per hour in his turbojet-powered Spirit of America streamliners?",
+      "options": [
+        "Art Arfons",
+        "Gary Gabelich",
+        "Craig Breedlove"
+      ],
+      "correctIndex": 2,
+      "explanation": "Breedlove engaged in a fierce 1960s jet-car duel against Art Arfons Green Monster across the Bonneville Salt Flats."
+    },
+    {
+      "type": "mcq",
+      "question": "What natural aerodynamic phenomenon must land speed record streamliners overcome to prevent the car nose from lifting and flipping at supersonic speeds?",
+      "options": [
+        "Ground Effect Aerodynamic Lift",
+        "Hydroplaning",
+        "Vortex Shedding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineers shape streamliner underbodies with diffuser tunnels and active canards to ensure negative lift or downforce at extreme speeds."
+    },
+    {
+      "type": "number",
+      "question": "What was the official supersonic top speed in km/h achieved by ThrustSSC in the Black Rock Desert in 1997?",
+      "target": 1228,
+      "metricUnit": "km/h",
+      "imperialDisplay": "763 mph (Mach 1.016)",
+      "explanation": "ThrustSSC achieved an officially ratified speed of 1,227.985 km/h (763.035 mph), setting the world supersonic land speed record."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish Volvo engineer invented the modern three-point diagonal lap-and-shoulder seatbelt in 1959, patented with a free open license for all automakers?",
+      "options": [
+        "Béla Barényi",
+        "Nils Bohlin",
+        "Gunnar Engellau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Volvo gave away the patent to competitors in the interest of global public safety, credited with saving over one million lives."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austro-Hungarian engineer at Mercedes-Benz patented the crumple zone in 1951, designing vehicle ends to deform and absorb kinetic crash energy?",
+      "options": [
+        "Ferdinand Porsche",
+        "Nils Bohlin",
+        "Béla Barényi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Barényi introduced the rigid passenger safety cell flanked by deformable front and rear crumple zones on the 1959 Mercedes-Benz W111."
+    },
+    {
+      "type": "mcq",
+      "question": "Which active safety system, introduced commercially by Bosch and Mercedes-Benz on the 1978 S-Class, modulates brake pressure to prevent wheel lockup during hard stops?",
+      "options": [
+        "Anti-lock Braking System",
+        "Electronic Brakeforce Distribution",
+        "Brake Assist"
+      ],
+      "correctIndex": 0,
+      "explanation": "ABS sensors monitor wheel rotation speed, pulsing brake pressure dozens of times per second to allow drivers to steer while braking."
+    },
+    {
+      "type": "mcq",
+      "question": "Which passive restraint safety device rapidly inflates a nylon fabric cushion with harmless nitrogen gas within thirty milliseconds of a crash impact?",
+      "options": [
+        "Seatbelt Pretensioner",
+        "Airbag",
+        "Active Headrest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pioneered by John Hetrick and Allen Breed, electronic pyrotechnic airbag modules became mandatory on all passenger vehicles in the 1990s."
+    },
+    {
+      "type": "mcq",
+      "question": "Which computerized active safety system detects loss of vehicle steering control and applies individual brakes to counteract oversteer and understeer skids?",
+      "options": [
+        "Traction Control System",
+        "Hill Descent Control",
+        "Electronic Stability Control"
+      ],
+      "correctIndex": 2,
+      "explanation": "ESC compares steering wheel angle to vehicle yaw rate, reducing rollover crashes by more than fifty percent worldwide."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Nils Bohlin patent the three-point seatbelt while serving as safety engineer at Volvo?",
+      "target": 1959,
+      "metricUnit": "year",
+      "imperialDisplay": "1959 AD",
+      "explanation": "Nils Bohlin filed the landmark three-point seatbelt patent in 1959, installed as standard equipment on Volvo Amazon and PV544 cars."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Croatian automotive manufacturer created the Nevera, a quad-motor electric hypercar producing 1,914 horsepower and accelerating zero to sixty in 1.74 seconds?",
+      "options": [
+        "Rimac Automobili",
+        "Koenigsegg",
+        "Pagani"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded by Mate Rimac, the firm developed advanced battery packs, torque vectoring software, and now partners with Bugatti."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish hypercar manufacturer developed the Jesko and Freevalve camless pneumatic valve actuator technology, founded by Christian von Koenigsegg?",
+      "options": [
+        "Spyker",
+        "Koenigsegg",
+        "Zenvo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Koenigsegg engineered the Agera RS, Jesko, and Gemera, introducing carbon-fiber wheels and transmission systems without standard flywheels."
+    },
+    {
+      "type": "mcq",
+      "question": "What all-electric single-seater motorsport championship, sanctioned by the FIA, has raced on downtown city street circuits around the world since 2014?",
+      "options": [
+        "Extreme E",
+        "Super Formula",
+        "Formula E"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formula E serves as a testing laboratory for electric battery cooling, regenerative braking software, and power inverter efficiency."
+    },
+    {
+      "type": "mcq",
+      "question": "In 2014, Formula 1 replaced traditional V8 engines with which highly efficient powertrain incorporating kinetic and heat motor generator units?",
+      "options": [
+        "1.6-liter V6 Turbo-Hybrid",
+        "2.4-liter V8 Hybrid",
+        "3.0-liter V10 Turbo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The F1 turbo-hybrid power units achieve over fifty percent thermal efficiency using MGU-K and MGU-H energy recovery systems."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British racing hypercar, designed collaboratively by Red Bull Racing Adrian Newey and Aston Martin, generates over 1,000 kg of aerodynamic ground effect downforce?",
+      "options": [
+        "Mercedes-AMG ONE",
+        "Aston Martin Valkyrie",
+        "Gordon Murray T.50"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Valkyrie utilizes an open-tunnel carbon Venturi underbody and a naturally aspirated 6.5-liter Cosworth V12 revving to 11,100 RPM."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Formula 1 introduce the 1.6-liter turbocharged V6 hybrid power unit regulations, revolutionizing automotive powertrain efficiency?",
+      "target": 2014,
+      "metricUnit": "year",
+      "imperialDisplay": "2014 AD",
+      "explanation": "Formula 1 introduced the 1.6-liter V6 Turbo-Hybrid engine formula at the start of the 2014 season in Melbourne, Australia."
+    }
+  ]
+}

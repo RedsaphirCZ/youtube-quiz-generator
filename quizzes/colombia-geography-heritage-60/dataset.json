@@ -1,0 +1,703 @@
+{
+  "id": "colombia-geography-heritage-60",
+  "theme": "Colombia: Geography, The Andes & The Coffee Cultural Landscape",
+  "title": "Colombia: Geography, The Andes & The Coffee Cultural Landscape",
+  "description": "A 60-question grand master assessment exploring two oceans & triple Andes, Bogotá & El Dorado gold, the Coffee Cultural Landscape & Cocora wax palms (60 m), Cartagena de Indias (1533), Sierra Nevada & Lost City (5,730 m), Medellín, and Caño Cristales.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What distinct geographical feature makes Colombia unique among all sovereign nations in South America?",
+      "options": [
+        "Only nation with coastlines on both the Pacific Ocean and Caribbean Sea",
+        "Only nation with no deserts",
+        "Only nation crossed by four mountain ranges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Colombia possesses 1,760 kilometers of Caribbean coastline and 1,448 kilometers of Pacific coastline, flanking the Isthmus of Panama.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many distinct parallel mountain ranges (Cordillera Occidental, Central, and Oriental) does the Andes split upon entering Colombia from the south?",
+      "options": [
+        "2 Cordilleras",
+        "3 Parallel Cordilleras",
+        "4 Cordilleras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Divided by the deep fertile river valleys of the Magdalena and Cauca rivers, the triple Andean cordillera shapes Colombia diverse regional cultures and climates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the primary commercial and historical river artery of Colombia, flowing 1,528 kilometers northward between the Central and Eastern cordilleras to the Caribbean at Barranquilla?",
+      "options": [
+        "Cauca River",
+        "Atrato River",
+        "Magdalena River"
+      ],
+      "correctIndex": 2,
+      "explanation": "Steamboats navigated the Magdalena for centuries to transport coffee, gold, and passengers from the Andean interior to Caribbean seaports.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which highly active glaciated stratovolcano in the Cordillera Central erupted in November 1985, triggering a catastrophic volcanic mudflow (lahar) that destroyed the town of Armero?",
+      "options": [
+        "Nevado del Ruiz",
+        "Nevado del Huila",
+        "Galeras"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rising 5,321 meters, the eruption melted ten percent of the summit glacier cap, causing the deadliest volcanic disaster in South American history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What striking 330-square-kilometer semi-arid tropical dry forest and badland canyon in Huila Department features sculpted red and grey clay labyrinths (Cuzco and Los Hoyos)?",
+      "options": [
+        "La Guajira Desert",
+        "Tatacoa Desert",
+        "Candelaria Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tatacoa is an internationally certified Starlight astronomical reserve, rich in Miocene fossils of giant ground sloths, turtles, and prehistoric crocodilians.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many distinct parallel mountain ranges (Cordilleras) form the Andean system across Colombia?",
+      "target": 3,
+      "metricUnit": "cordilleras",
+      "imperialDisplay": "3 Andean mountain ranges (Occidental, Central, Oriental)",
+      "explanation": "The Andes mountain chain branches into three separate cordilleras in Colombia: the Western, Central, and Eastern ranges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital of Colombia, situated on a high-altitude Andean savanna plateau at 2,640 meters elevation, the third highest capital city in South America?",
+      "options": [
+        "Medellín",
+        "Cali",
+        "Bogotá"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1538 by Gonzalo Jiménez de Quesada as Santa Fe de Bogotá, the metropolis is home to eight million residents, vibrant ciclovía cycling, and Monserrate mountain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous museum in the historic center of Bogotá houses the largest collection of pre-Hispanic gold artifacts in the world, including the golden Muisca Raft?",
+      "options": [
+        "The Gold Museum Museo del Oro",
+        "National Museum of Colombia",
+        "Botero Museum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Holding over 55,000 gold and alloy (tumbaga) objects, the Muisca Raft depicts the indigenous ceremony that inspired the Spanish legend of El Dorado at Lake Guatavita.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred circular crater lake high in the Andes near Bogotá is the historical origin of the El Dorado legend, where indigenous Muisca zipa rulers coated themselves in gold dust?",
+      "options": [
+        "Lake Tota",
+        "Lake Guatavita Laguna de Guatavita",
+        "Lake Iguaque"
+      ],
+      "correctIndex": 1,
+      "explanation": "During coronation ceremonies, the new Muisca ruler offered gold figurines and emeralds to the water goddess by diving from a ceremonial wooden reed raft.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental Roman Catholic church, carved entirely out of the subterranean halite rock chambers of an active salt mine 200 meters underground, is located near Bogotá?",
+      "options": [
+        "Las Lajas Sanctuary",
+        "Monserrate Sanctuary",
+        "Salt Cathedral of Zipaquirá"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voted the First Wonder of Colombia, the underground cathedral features a 16-meter carved illuminated cross and fourteen subterranean Stations of the Cross chapels.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic Gothic Revival basilica in southern Colombia is built directly on a 50-meter-tall bridge spanning a sheer canyon of the Guáitara River near Ipiales?",
+      "options": [
+        "Las Lajas Sanctuary",
+        "Zipaquirá Cathedral",
+        "Buga Basilica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built between 1916 and 1949, the church encloses a miraculous natural rock cliff image of the Virgin Mary appearing to an indigenous woman in 1754.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the mean elevation in meters above sea level of the Colombian capital city of Bogotá?",
+      "target": 2640,
+      "metricUnit": "meters",
+      "imperialDisplay": "8,660 feet above sea level",
+      "explanation": "Bogotá sits at an official altitude of 2,640 meters on the high Andean plateau (Sabana de Bogotá).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage region in the central Andes (encompassing Caldas, Quindío, and Risaralda) is renowned for cultivating the world highest-quality washed Arabica coffee?",
+      "options": [
+        "The Llanos",
+        "The Coffee Cultural Landscape Eje Cafetero",
+        "The Altiplano Cundiboyacense"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smallholder coffee farmers (cafeteros) cultivate shade-grown Arabica on steep Andean slopes, hand-picking bright red coffee cherries during two annual harvest peaks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What magnificent palm tree species, the official national tree of Colombia, grows up to sixty meters tall in the misty cloud forest pastures of the Cocora Valley?",
+      "options": [
+        "Moriche Palm",
+        "Royal Palm",
+        "Quindío Wax Palm"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Quindío Wax Palm is the tallest monocot and palm tree in the world, living up to 200 years and providing nesting habitat for the endangered Yellow-eared Parrot.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque heritage town in Quindío, famous for colorful wooden balconied houses, craft shops, and trout restaurants, is the primary gateway to the Cocora Valley?",
+      "options": [
+        "Salento",
+        "Filandia",
+        "Pijao"
+      ],
+      "correctIndex": 0,
+      "explanation": "Salento was founded in 1842 along the historic Camino Nacional trail, famous for the Calle Real shopping street and scenic Alto de la Cruz mountain viewpoint.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic rustic, colorful wooden open-air mountain buses, painted in geometric patterns and equipped with heavy-duty ladders on top, are the symbol of rural transport in the coffee region?",
+      "options": [
+        "Colectivos",
+        "Chivas Chiva Buses Escaleras",
+        "Guaguas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chivas transport farmers, milk cans, sacks of coffee, and livestock over steep unpaved Andean dirt roads, complete with lively vallenato and cumbia music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fictional character and brand icon, depicted with his mule Conchita wearing a traditional ruana poncho and sombrero vueltiao, was created in 1959 to represent 100% Colombian Coffee?",
+      "options": [
+        "Don Pedro",
+        "Carlos Vives",
+        "Juan Valdez"
+      ],
+      "correctIndex": 2,
+      "explanation": "Created by the National Federation of Coffee Growers of Colombia (FNC), the Juan Valdez emblem certifies that coffee beans are 100% hand-picked Colombian Arabica.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What maximum height in meters can the towering Quindío Wax Palm (Ceroxylon quindiuense) reach in the Cocora Valley of Colombia?",
+      "target": 60,
+      "metricUnit": "meters",
+      "imperialDisplay": "200 feet tall (world tallest palm)",
+      "explanation": "The Quindío Wax Palm can reach heights of up to sixty meters, making it the tallest recorded palm tree species on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary UNESCO World Heritage walled port city on the Caribbean coast of Colombia was founded in 1533 by Spanish conquistador Pedro de Heredia?",
+      "options": [
+        "Cartagena de Indias",
+        "Santa Marta",
+        "Barranquilla"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cartagena was the primary Spanish Caribbean storehouse for gold and silver plundered across South America before treasure fleets sailed for Spain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 17th-century Spanish stone fortress on San Lázaro hill in Cartagena is the largest and strongest colonial military fortress ever built in the Americas?",
+      "options": [
+        "Castillo de San Fernando",
+        "Castillo San Felipe de Barajas",
+        "Batería de San José"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed with a triangular geometry and an intricate maze of underground acoustic tunnels, it famously withstood a massive British siege by Admiral Edward Vernon in 1741.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vibrant colonial neighborhood in Cartagena, historically inhabited by artisans and free Afro-descendants, is celebrated for street art murals, umbrellas, and nightlife on Plaza Trinidad?",
+      "options": [
+        "San Diego",
+        "Bocagrande",
+        "Getsemaní"
+      ],
+      "correctIndex": 2,
+      "explanation": "Getsemaní was the cradle of Cartagena declaration of absolute independence from the Spanish Empire on November 11, 1811.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What archipelago of twenty-seven coral islands forty-five kilometers off the coast of Cartagena is a protected National Natural Park famous for turquoise waters and mangroves?",
+      "options": [
+        "Rosario Islands",
+        "San Bernardo Islands",
+        "Barú Peninsula"
+      ],
+      "correctIndex": 0,
+      "explanation": "The park protects the most extensive coral reefs on the continental Caribbean coast of Colombia, home to bioluminescent plankton in Laguna Encantada.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nobel Prize-winning Colombian author, who set novels like Love in the Time of Cholera in Cartagena, is the father of literary Magical Realism?",
+      "options": [
+        "Álvaro Mutis",
+        "Gabriel García Márquez Gabo",
+        "Jorge Isaacs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Born in the coastal town of Aracataca (the inspiration for Macondo in One Hundred Years of Solitude), his ashes are entombed at the Cloister of La Merced in Cartagena.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Caribbean colonial fortress city of Cartagena de Indias founded by Pedro de Heredia?",
+      "target": 1533,
+      "metricUnit": "year",
+      "imperialDisplay": "1533 AD",
+      "explanation": "Cartagena de Indias was formally founded on June 1, 1533, quickly becoming the premier treasure port of the Spanish Empire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique isolated coastal mountain range rising directly from the Caribbean Sea to 5,730 meters is the highest coastal mountain range in the world?",
+      "options": [
+        "Serranía del Baudó",
+        "Cordillera Occidental",
+        "Sierra Nevada de Santa Marta"
+      ],
+      "correctIndex": 2,
+      "explanation": "In just forty-two kilometers from sandy Caribbean beaches, the mountains rise to equatorial glaciers, containing all global climatic life zones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What are the twin highest mountain peaks in Colombia, rising 5,730 meters in the glaciated massif of the Sierra Nevada de Santa Marta?",
+      "options": [
+        "Pico Cristóbal Colón and Pico Simón Bolívar",
+        "Nevado del Huila",
+        "Ritacuba Blanco"
+      ],
+      "correctIndex": 0,
+      "explanation": "Named after Christopher Columbus and the Liberator Simón Bolívar, these twin summit peaks are sacred to indigenous elder brothers (the Kogui, Wiwa, Arhuaco, and Kankuamo).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient archaeological stone city in the dense jungle of the Sierra Nevada, built around 800 CE by the Tayrona civilization (650 years before Machu Picchu), is known as Teyuna?",
+      "options": [
+        "San Agustín",
+        "The Lost City Ciudad Perdida",
+        "Tierradentro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rediscovered in 1972 by grave robbers (huaqueros), Ciudad Perdida features 169 carved stone terraces, paved roads, and circular residential plazas reached by 1,200 stone steps.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pristine National Natural Park on the Caribbean coast beneath the Sierra Nevada features golden granite boulder beaches, coconut palm groves, and coral bays?",
+      "options": [
+        "Corales del Rosario",
+        "Utría National Park",
+        "Tayrona National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Famous for scenic coves like Cabo San Juan del Guía, La Piscina, and Arrecifes, visitors hike through lush tropical coastal jungles home to cotton-top tamarin monkeys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest continuously inhabited European-founded city in Colombia and second oldest in South America, founded in 1525 by Rodrigo de Bastidas?",
+      "options": [
+        "Santa Marta",
+        "Cartagena",
+        "Riohacha"
+      ],
+      "correctIndex": 0,
+      "explanation": "Santa Marta is where South American Liberator Simón Bolívar died in December 1830 at the historic sugar plantation estate Quinta de San Pedro Alejandrino.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Pico Cristóbal Colón, the highest mountain peak in Colombia?",
+      "target": 5730,
+      "metricUnit": "meters",
+      "imperialDisplay": "18,799 feet",
+      "explanation": "Pico Cristóbal Colón stands at an official elevation of 5,730 meters above sea level in the Sierra Nevada de Santa Marta.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What second largest city in Colombia, situated in the Aburrá Valley of Antioquia, is world-famous as the City of Eternal Spring for its year-round 22°C temperate climate?",
+      "options": [
+        "Cali",
+        "Medellín",
+        "Bucaramanga"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once plagued by cartel violence in the late 20th century, Medellín underwent an internationally acclaimed transformation through innovative social urbanism and public transit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pioneering urban public transportation system in Medellín, integrated with the metro in 2004, uses aerial cable cars (gondolas) to connect steep mountainside informal settlements to city centers?",
+      "options": [
+        "TransMilenio",
+        "Miocable",
+        "Metrocable"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Metrocable dramatically reduced crime, commute times, and social isolation in hillside comunas, serving as a global benchmark for urban transit integration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountainside neighborhood in Medellín, once one of the most dangerous urban areas in Latin America, was transformed into an open-air art and hip-hop cultural center with giant outdoor electric escalators?",
+      "options": [
+        "Comuna 13 San Javier",
+        "Comuna 1 Popular",
+        "El Poblado"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 384-meter covered outdoor electric escalators (escaleras eléctricas) replaced 350 vertical concrete steps, attracting thousands of daily international street-art tourists.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous annual festival held every August in Medellín features a grand parade where rural flower farmers carry elaborate 100-kilogram floral arrangements (silletas) on their wooden backpack frames?",
+      "options": [
+        "Carnaval de Barranquilla",
+        "Feria de las Flores Flower Festival",
+        "Feria de Cali"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Silleteros parade from the mountain village of Santa Elena honors over a century of traditional flower cultivation across the Paisa region.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous Colombian sculptor and painter from Medellín, celebrated for his signature artistic style of depicting humans and animals in exaggerated volumetric proportions (Boterismo), donated twenty-three giant bronze sculptures to Plaza Botero?",
+      "options": [
+        "Alejandro Obregón",
+        "Enrique Grau",
+        "Fernando Botero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plaza Botero and the Museum of Antioquia house one of the most comprehensive collections of his paintings and sculptures in the world.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the first official Flower Festival (Feria de las Flores) celebrated in the city of Medellín?",
+      "target": 1957,
+      "metricUnit": "year",
+      "imperialDisplay": "1957 AD",
+      "explanation": "The first Feria de las Flores was organized in Medellín on May 1, 1957, lasting five days with an initial parade of forty silleteros.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular crystal-clear river in the Serranía de la Macarena National Park of Meta Department is world-famous as the River of Five Colors and the Liquid Rainbow?",
+      "options": [
+        "Caño Cristales",
+        "Caño Canoas",
+        "Río Güejar"
+      ],
+      "correctIndex": 0,
+      "explanation": "From July to November, the riverbed explodes into brilliant shades of fuchsia red, bright yellow, green, blue, and black across giant natural travertine plunge pools.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique endemic species of freshwater aquatic plant clings to the Precambrian quartzite riverbed of Caño Cristales, turning brilliant magenta-red when exposed to seasonal tropical sunlight?",
+      "options": [
+        "Victoria amazonica",
+        "Macarenia clavigera",
+        "Eichhornia crassipes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plant requires precise water levels and sunlight; during the rainy season the water is too deep, while in dry months the plants dry out.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient isolated mountain plateau system, older than the Andes and dating back 1.2 billion years to the Guiana Shield, is where Caño Cristales and Chiribiquete are located?",
+      "options": [
+        "The Brazilian Shield",
+        "The Patagonia Craton",
+        "The Guiana Shield Serranía de la Macarena"
+      ],
+      "correctIndex": 2,
+      "explanation": "Serranía de la Macarena is a biological convergence point where the ecosystems of the Andes, Amazon rainforest, and Orinoco savannas meet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What gigantic 200-meter-high granite monolith rock near Guatapé in Antioquia features 740 wooden and concrete zigzag stairs built into a natural vertical fissure to reach its 360-degree observation tower?",
+      "options": [
+        "The Rock of Guatapé El Peñol",
+        "Piedra del Marquetalia",
+        "Cerro de Monserrate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Climbers reach the top of the monolith for panoramic views over the scenic emerald artificial reservoir islands of Guatapé.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colonial Andean town in Boyacá features the massive 14,000-square-meter Plaza Mayor, the largest completely cobblestoned town square in South America?",
+      "options": [
+        "Barichara",
+        "Villa de Leyva",
+        "Monguí"
+      ],
+      "correctIndex": 1,
+      "explanation": "Founded in 1572 and declared a National Monument, Villa de Leyva is famous for white-washed adobe mansions and the Kronosaurus 115-million-year-old marine reptile fossil.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many months of the year (July through November) does the aquatic plant Macarenia clavigera bloom in brilliant red colors in Caño Cristales?",
+      "target": 5,
+      "metricUnit": "months",
+      "imperialDisplay": "5 months (July to November)",
+      "explanation": "Caño Cristales displays its vibrant five-color palette for approximately five months annually during the transitional water-level season between July and November.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 43,000-square-kilometer national park in the Colombian Amazon is the largest protected tropical rainforest national park in the world, renowned for sheer tabletop mountains (tepuis)?",
+      "options": [
+        "Amacayacu National Park",
+        "Cahuinarí National Park",
+        "Serranía de Chiribiquete National Natural Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inscribed by UNESCO in 2018 as a mixed natural and cultural heritage site, Chiribiquete is known as the Sistine Chapel of the Amazon for over 75,000 prehistoric rock paintings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Approximately how many thousand years old are the earliest prehistoric ochre rock art paintings discovered on the vertical cliff faces of tepuis in Chiribiquete and La Lindosa?",
+      "options": [
+        "Over 12,000 to 20,000 Years Old",
+        "2,000 Years Old",
+        "5,000 Years Old"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indigenous Ice Age hunter-gatherers painted megafauna like giant ground sloths, mastodons, and horses using red ochre pigment, representing some of the earliest art in the Americas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast 250,000-square-kilometer tropical savanna plain in eastern Colombia and western Venezuela is famous for its rich Llanero cattle-ranching cowboy culture and biodiversity?",
+      "options": [
+        "The Chaco",
+        "Los Llanos The Eastern Plains",
+        "The Pampas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los Llanos undergoes dramatic seasonal cycles of vast wet-season flooding and dry-season savanna droughts, home to joropo music played on harps and maracas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest living rodent species on Earth, weighing up to sixty-five kilograms, which thrives in immense semi-aquatic herds across the flooded grasslands of Los Llanos in Colombia?",
+      "options": [
+        "Nutria",
+        "Paca",
+        "Capybara Chigüiro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Capybaras (known locally as chigüiros) graze on aquatic grasses alongside giant anacondas, spectacled caimans, and jabiru storks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the southernmost city in Colombia, situated on the banks of the Amazon River at the international tri-border with Brazil (Tabatinga) and Peru (Santa Rosa)?",
+      "options": [
+        "Leticia",
+        "Puerto Carreño",
+        "Mitú"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leticia is Colombia gateway to the Amazon Basin, famous for the nightly spectacle of thousands of parakeets roosting in the trees of Santander Park.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total area in thousands of square kilometers of the UNESCO-listed Serranía de Chiribiquete National Park, the largest tropical rainforest park on Earth?",
+      "target": 43,
+      "metricUnit": "thousand square kilometers",
+      "imperialDisplay": "16,600 square miles",
+      "explanation": "Chiribiquete National Natural Park spans approximately 43,000 square kilometers across the departments of Caquetá and Guaviare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the global commercial market for premium gem-quality green emeralds is mined from the hydrothermal sedimentary deposits of Boyacá (Muzo, Chivor, and Coscuez) in Colombia?",
+      "options": [
+        "20 Percent",
+        "Over 60 Percent",
+        "90 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colombian emeralds are prized worldwide for their intense velvety warm-green hue (caused by high chromium and low iron content in sedimentary shale host rock).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What global biodiversity ranking does the Republic of Colombia hold, recognized as the most biodiverse country per square kilometer on Earth and second overall after Brazil?",
+      "options": [
+        "First Most Biodiverse",
+        "Fifth Most Biodiverse",
+        "Second Most Biodiverse Country"
+      ],
+      "correctIndex": 2,
+      "explanation": "Colombia ranks first in the world for bird species (over 1,950 species) and orchid species (over 4,000 species), and second in plants, amphibians, and butterflies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What magnificent purple and yellow cattleya orchid species, named after Colombian botanist José Jerónimo Triana, is the official National Flower of Colombia?",
+      "options": [
+        "Cattleya trianae Flor de Mayo",
+        "Orchis mascula",
+        "Vanda coerulea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chosen in 1936, the flower displays the yellow, blue, and red colors of the Colombian national flag within its ruffled petals and lip.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tiny, bright yellow amphibian endemic to the Pacific rainforests of Chocó, measuring only five centimeters, is recognized as the most poisonous vertebrate animal on Earth?",
+      "options": [
+        "Blue Poison Dart Frog",
+        "Golden Poison Frog",
+        "Strawberry Poison Frog"
+      ],
+      "correctIndex": 1,
+      "explanation": "A single wild golden poison frog carries enough batrachotoxin alkaloid in its skin secretions to kill ten to twenty adult humans, used by indigenous Emberá hunters for blowgun darts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional circular flatbread made from ground maize corn dough, cooked on a griddle and stuffed with melted cheese (Arepa de Queso) or eggs (Arepa de Huevo), is Colombia national culinary staple?",
+      "options": [
+        "Empanada",
+        "Pandebono",
+        "Arepa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eaten for breakfast and dinner across all thirty-two departments, each region has its own variation, from sweet Arepa de Chócolo to the egg-stuffed coastal arepa.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the world highest-quality gem emeralds originates from the historic mining deposits of Colombia?",
+      "target": 60,
+      "metricUnit": "percent",
+      "imperialDisplay": "60%+ of world fine emeralds",
+      "explanation": "Colombia accounts for approximately 60 to 70 percent of the global supply of fine gem-quality emeralds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level administrative departments (Departamentos), plus the Capital District of Bogotá, is the Republic of Colombia politically organized?",
+      "options": [
+        "32 Departments and 1 Capital District",
+        "24 Departments and 2 Districts",
+        "40 Departments and 1 District"
+      ],
+      "correctIndex": 0,
+      "explanation": "The thirty-two departments (such as Antioquia, Valle del Cauca, Cundinamarca, Bolívar, and Santander) are headed by popularly elected departmental governors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Caribbean coral archipelago and department of Colombia, located 775 kilometers northwest of the mainland off the coast of Nicaragua, is famed for the Sea of Seven Colors?",
+      "options": [
+        "Rosario Islands",
+        "San Andrés and Providencia",
+        "San Bernardo Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "San Andrés is home to the Raizal Creole Afro-Caribbean ethnic minority who speak San Andrés-Providencia Creole English alongside Spanish.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pacific coastal bay in Chocó Department is a protected international nursery sanctuary where hundreds of Antarctic humpback whales migrate annually to give birth between July and October?",
+      "options": [
+        "Tumaco Bay",
+        "Buenaventura Bay",
+        "Bahía Solano and Ensenada de Utría"
+      ],
+      "correctIndex": 2,
+      "explanation": "Utría National Natural Park provides warm, sheltered calm waters where mother humpback whales nurse their newborn calves within meters of the rocky shoreline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second largest city in the Caribbean region of Colombia, world-famous for hosting the four-day UNESCO-inscribed Carnival of Barranquilla every February?",
+      "options": [
+        "Barranquilla",
+        "Cartagena",
+        "Santa Marta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Famous as the birthplace of singer Shakira and Nobel literature Gabo, the Carnival slogan proclaims: 'Quien lo vive es quien lo goza' (Those who live it are those who enjoy it).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total geographical land area of the Republic of Colombia in square kilometers, ranking it as the fourth largest country in South America?",
+      "options": [
+        "650,000 Square Kilometers",
+        "1,141,748 Square Kilometers",
+        "2,200,000 Square Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covering 1.14 million square kilometers, Colombia is roughly twice the size of France or Texas, holding a national population exceeding fifty-two million people.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many administrative Departments (Departamentos) comprise the Republic of Colombia?",
+      "target": 32,
+      "metricUnit": "departments",
+      "imperialDisplay": "32 departments",
+      "explanation": "The Republic of Colombia is composed of thirty-two sovereign administrative departments plus the Capital District of Bogotá.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

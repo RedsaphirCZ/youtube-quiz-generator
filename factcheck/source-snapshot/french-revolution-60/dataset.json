@@ -1,0 +1,640 @@
+{
+  "id": "french-revolution-60",
+  "theme": "French Revolution & Age of Enlightenment",
+  "title": "French Revolution & Age of Enlightenment",
+  "description": "Comprehensive 60-question historical journey through 1789, the Bastille, the Reign of Terror, the Directory, and the rise of Napoleon.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-17T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In what month and year was the storming of the Bastille fortress in Paris?",
+      "options": [
+        "July 1789",
+        "August 1792",
+        "June 1791"
+      ],
+      "correctIndex": 0,
+      "explanation": "The storming of the Bastille occurred on 14 July 1789, symbolizing the collapse of absolute royal authority."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French monarch was executed by guillotine at the Place de la Révolution in January 1793?",
+      "options": [
+        "Louis XIV",
+        "Louis XVI",
+        "Charles X"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Louis XVI was convicted of high treason by the National Convention and executed on 21 January 1793."
+    },
+    {
+      "type": "mcq",
+      "question": "What landmark document was adopted by the National Constituent Assembly in August 1789?",
+      "options": [
+        "Magna Carta",
+        "Treaty of Versailles",
+        "Declaration of the Rights of Man and of the Citizen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adopted on 26 August 1789, the Declaration established core human and civil liberties."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the influential Jacobin lawyer who led the Committee of Public Safety during the Reign of Terror?",
+      "options": [
+        "Maximilien Robespierre",
+        "Georges Danton",
+        "Jean-Paul Marat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maximilien Robespierre headed the revolutionary government during the height of the Terror (1793–1794)."
+    },
+    {
+      "type": "mcq",
+      "question": "Who assassinated the radical journalist Jean-Paul Marat in his medicinal bath in July 1793?",
+      "options": [
+        "Madame Roland",
+        "Charlotte Corday",
+        "Olympe de Gouges"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charlotte Corday, a Girondin sympathizer from Normandy, assassinated Marat to curb factional violence."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Estates-General convened at Versailles for the first time since 1614?",
+      "target": 1789,
+      "metricUnit": "CE",
+      "imperialDisplay": "May 1789",
+      "explanation": "Louis XVI summoned the Estates-General in May 1789 to address catastrophic state debts."
+    },
+    {
+      "type": "mcq",
+      "question": "What pledge did deputies of the Third Estate swear in June 1789 after being locked out of their hall?",
+      "options": [
+        "Edict of Nantes",
+        "Pact of Boulogne",
+        "Tennis Court Oath"
+      ],
+      "correctIndex": 2,
+      "explanation": "The deputies gathered on an indoor tennis court (Jeu de Paume) promising not to separate until France had a written constitution."
+    },
+    {
+      "type": "mcq",
+      "question": "Which queen of France, wife of Louis XVI, was executed in October 1793?",
+      "options": [
+        "Marie Antoinette",
+        "Catherine de Medici",
+        "Anne of Austria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Queen Marie Antoinette of Austria was guillotined nine months after her husband."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Parisian women's march in October 1789 forced the royal family to relocate to the Tuileries Palace?",
+      "options": [
+        "Day of the Tiles",
+        "Women's March on Versailles",
+        "Storming of the Tuileries"
+      ],
+      "correctIndex": 1,
+      "explanation": "Working-class Parisian women marched to Versailles demanding bread and escorted the royal family back to Paris."
+    },
+    {
+      "type": "mcq",
+      "question": "Which moderate political faction in the National Convention was purged and eliminated by the Montagnards in 1793?",
+      "options": [
+        "Feuillants",
+        "Bonapartists",
+        "Girondins"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Girondins represented provincial interests and opposed the extreme centralized measures of the Paris Commune."
+    },
+    {
+      "type": "mcq",
+      "question": "What device was adopted by the National Assembly as the official, uniform instrument of capital punishment?",
+      "options": [
+        "Guillotine",
+        "Garrote",
+        "Firing squad"
+      ],
+      "correctIndex": 0,
+      "explanation": "Proposed by Dr. Joseph-Ignace Guillotin, the mechanical blade was intended to deliver rapid and egalitarian executions."
+    },
+    {
+      "type": "number",
+      "question": "In what year was Maximilien Robespierre overthrown and guillotined during the Thermidorian Reaction?",
+      "target": 1794,
+      "metricUnit": "CE",
+      "imperialDisplay": "July 1794",
+      "explanation": "The 9th of Thermidor Year II (27 July 1794) brought down Robespierre and marked the end of the Reign of Terror."
+    },
+    {
+      "type": "mcq",
+      "question": "What radical Enlightenment philosopher authored \"The Social Contract\" in 1762?",
+      "options": [
+        "Voltaire",
+        "Jean-Jacques Rousseau",
+        "Denis Diderot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rousseau argued that sovereignty resides with the people and their general will."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Enlightenment satirist wrote \"Candide\" and campaigned fiercely against religious intolerance?",
+      "options": [
+        "Montesquieu",
+        "Baron d'Holbach",
+        "Voltaire"
+      ],
+      "correctIndex": 2,
+      "explanation": "François-Marie Arouet, known as Voltaire, was a champion of free expression, religious freedom, and civil rights."
+    },
+    {
+      "type": "mcq",
+      "question": "Who served as the chief co-editor of the monumental 28-volume \"Encyclopédie\" published from 1751 to 1772?",
+      "options": [
+        "Denis Diderot",
+        "Jean le Rond d'Alembert",
+        "David Hume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Denis Diderot spearheaded the compilation of the Encyclopédie to diffuse secular, empirical knowledge."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French political philosopher formulated the theory of the separation of powers in \"The Spirit of the Laws\"?",
+      "options": [
+        "Thomas Hobbes",
+        "Baron de Montesquieu",
+        "John Locke"
+      ],
+      "correctIndex": 1,
+      "explanation": "Montesquieu proposed dividing governmental power among executive, legislative, and judicial branches."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the three-word national motto popularized during the French Revolution?",
+      "options": [
+        "Dieu et mon droit",
+        "Ordre et Progrès",
+        "Liberté, Égalité, Fraternité"
+      ],
+      "correctIndex": 2,
+      "explanation": "Liberty, Equality, Fraternity became the enduring rallying cry and official motto of the French Republic."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Napoleon Bonaparte launch the Coup of 18 Brumaire, establishing the French Consulate?",
+      "target": 1799,
+      "metricUnit": "CE",
+      "imperialDisplay": "November 1799",
+      "explanation": "On 9 November 1799 (18 Brumaire Year VIII), General Napoleon Bonaparte toppled the Directory and became First Consul."
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary song composed by Claude Joseph Rouget de Lisle in 1792 became France's national anthem?",
+      "options": [
+        "La Marseillaise",
+        "Le Chant du Départ",
+        "Ça Ira"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally titled \"Chant de guerre pour l'Armée du Rhin\", it became known as La Marseillaise when volunteer troops entered Paris singing it."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the name of the paper currency issued by the revolutionary government backed by confiscated Church property?",
+      "options": [
+        "Franc",
+        "Assignat",
+        "Écu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assignats suffered massive hyperinflation and depreciation throughout the early 1790s."
+    },
+    {
+      "type": "mcq",
+      "question": "Which social group of working-class Parisian radicals was recognized by their long trousers instead of aristocratic breeches?",
+      "options": [
+        "Émigrés",
+        "Jacobins",
+        "Sans-culottes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sans-culottes literally translates to \"without short breeches\", identifying working-class militants."
+    },
+    {
+      "type": "mcq",
+      "question": "What failed royal escape attempt occurred in June 1791 when the royal family fled toward the Austrian border?",
+      "options": [
+        "Flight to Varennes",
+        "Day of Daggers",
+        "Affair of the Diamond Necklace"
+      ],
+      "correctIndex": 0,
+      "explanation": "The royal carriage was intercepted and recognized at the town of Varennes-en-Argonne and escorted back under guard."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French playwright and feminist activist authored the \"Declaration of the Rights of Woman and of the Female Citizen\" in 1791?",
+      "options": [
+        "Madame de Staël",
+        "Olympe de Gouges",
+        "Mary Wollstonecraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Olympe de Gouges challenged male authority and was guillotined during the Terror in November 1793."
+    },
+    {
+      "type": "number",
+      "question": "In what year was Napoleon Bonaparte crowned Emperor of the French at Notre-Dame Cathedral in Paris?",
+      "target": 1804,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 1804",
+      "explanation": "On 2 December 1804, Napoleon took the crown in the presence of Pope Pius VII and crowned himself Emperor."
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary civil religion did Maximilien Robespierre inaugurate with a massive festival in June 1794?",
+      "options": [
+        "Cult of Reason",
+        "Theophilanthropy",
+        "Cult of the Supreme Being"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Cult of the Supreme Being was intended to replace both Catholicism and the atheistic Cult of Reason."
+    },
+    {
+      "type": "mcq",
+      "question": "What body of law promulgated under Napoleon in 1804 unified French jurisprudence and spread across Europe?",
+      "options": [
+        "Napoleonic Code",
+        "Justinian Code",
+        "Edict of Nantes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Code Civil des Français established equality before the law, freedom of religion, and property rights."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major French naval defeat against Britain in October 1805 ended French plans to invade England?",
+      "options": [
+        "Battle of the Nile",
+        "Battle of Trafalgar",
+        "Battle of Copenhagen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Admiral Lord Nelson's Royal Navy defeated the combined French and Spanish fleets off Cape Trafalgar."
+    },
+    {
+      "type": "mcq",
+      "question": "What decisive battle in December 1805 is considered Napoleon's tactical masterpiece, defeating Austrian and Russian armies?",
+      "options": [
+        "Battle of Waterloo",
+        "Battle of Jena",
+        "Battle of Austerlitz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Also known as the Battle of the Three Emperors, Austerlitz destroyed the Third Coalition."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the five-member executive committee that governed France from 1795 to 1799 called?",
+      "options": [
+        "The Directory",
+        "The Consulate",
+        "The National Convention"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Directoire ruled under the Constitution of Year III until overthrown by Napoleon in 1799."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Napoleon invade Russia with the Grande Armée of over 600,000 soldiers?",
+      "target": 1812,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 1812",
+      "explanation": "The disastrous Russian campaign of 1812 decimated Napoleon's forces through scorched-earth tactics and winter."
+    },
+    {
+      "type": "mcq",
+      "question": "Where was Napoleon exiled after his first abdication in April 1814?",
+      "options": [
+        "Saint Helena",
+        "Isle of Elba",
+        "Corsica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Napoleon was granted sovereignty over the Mediterranean island of Elba before escaping back to France in 1815."
+    },
+    {
+      "type": "mcq",
+      "question": "Which final battle in June 1815 ended Napoleon's Hundred Days return to power?",
+      "options": [
+        "Battle of Leipzig",
+        "Battle of Borodino",
+        "Battle of Waterloo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anglo-Allied forces under the Duke of Wellington and Prussian forces under Blücher defeated Napoleon in modern Belgium."
+    },
+    {
+      "type": "mcq",
+      "question": "Where was Napoleon permanently exiled until his death in 1821?",
+      "options": [
+        "Saint Helena",
+        "Martinique",
+        "Guernsey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saint Helena is a remote volcanic island in the South Atlantic Ocean controlled by the British Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "What European diplomatic conference in 1814–1815 redrew the political boundaries of Europe following the Napoleonic Wars?",
+      "options": [
+        "Treaty of Utrecht",
+        "Congress of Vienna",
+        "Peace of Westphalia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chaired by Klemens von Metternich, the Congress restored conservative royal balances of power."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Bourbon king restored to the throne of France after the fall of Napoleon in 1814?",
+      "options": [
+        "Charles X",
+        "Louis-Philippe I",
+        "Louis XVIII"
+      ],
+      "correctIndex": 2,
+      "explanation": "Louis XVIII, the younger brother of executed Louis XVI, ruled France during the Bourbon Restoration."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Napoleon die in exile at Longwood House on Saint Helena?",
+      "target": 1821,
+      "metricUnit": "CE",
+      "imperialDisplay": "May 1821",
+      "explanation": "Napoleon Bonaparte died on 5 May 1821 at the age of 51."
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary calendar replaced the Gregorian calendar from 1793 to 1805?",
+      "options": [
+        "French Republican Calendar",
+        "Julian Calendar",
+        "Positivist Calendar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The calendar featured 12 months named after seasonal characteristics (like Thermidor, Brumaire, and Floreal)."
+    },
+    {
+      "type": "mcq",
+      "question": "What metric measurement system reform was formally adopted in France during the Revolution in 1795?",
+      "options": [
+        "Imperial System",
+        "Metric System based on the metre and kilogram",
+        "CGS System"
+      ],
+      "correctIndex": 1,
+      "explanation": "The French National Convention established the decimal metric system to standardize measurements nationally and internationally."
+    },
+    {
+      "type": "mcq",
+      "question": "Which prominent chemist was executed during the Reign of Terror despite his foundational work in stoichiometry?",
+      "options": [
+        "Joseph Priestley",
+        "Humphry Davy",
+        "Antoine Lavoisier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antoine Lavoisier, known as the father of modern chemistry, was executed due to his past role as a royal tax farmer (Ferme générale)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Caribbean colony launched a successful anti-slavery revolution inspired by French republican ideals in 1791?",
+      "options": [
+        "Haiti",
+        "Jamaica",
+        "Cuba"
+      ],
+      "correctIndex": 0,
+      "explanation": "Led by Toussaint Louverture, the Haitian Revolution resulted in the world's first free Black republic in 1804."
+    },
+    {
+      "type": "mcq",
+      "question": "In what year did the National Convention officially abolish slavery throughout all French colonies for the first time?",
+      "options": [
+        "1802",
+        "1794",
+        "1848"
+      ],
+      "correctIndex": 1,
+      "explanation": "On 4 February 1794 (16 Pluviôse Year II), the Convention emancipated all enslaved peoples across French territories."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the French Revolution officially begin with the convening of the Estates-General and Bastille storming?",
+      "target": 1789,
+      "metricUnit": "CE",
+      "imperialDisplay": "1789 AD",
+      "explanation": "The outbreak of the French Revolution is universally dated to the year 1789."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous neoclassical painter served as the official visual propagandist of the Revolution and painted \"The Death of Marat\"?",
+      "options": [
+        "Eugène Delacroix",
+        "Jean-Auguste-Dominique Ingres",
+        "Jacques-Louis David"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jacques-Louis David painted iconic revolutionary artworks and later became the First Painter to Emperor Napoleon."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the name of the political club where Maximilien Robespierre and Saint-Just met in a former Dominican convent?",
+      "options": [
+        "Jacobin Club",
+        "Cordeliers Club",
+        "Feuillant Club"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Society of the Friends of the Constitution was called the Jacobin Club after the Saint-Jacques Dominican monastery."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the energetic orator and member of the Committee of Public Safety who was guillotined along with his allies in April 1794?",
+      "options": [
+        "Camille Desmoulins",
+        "Georges Danton",
+        "Jean-Marie Roland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Georges Danton advocated for leniency to wind down the Terror, leading Robespierre to send him to the guillotine."
+    },
+    {
+      "type": "mcq",
+      "question": "Which royal fortress and palace in Paris was stormed by armed insurrectionists on 10 August 1792, ending the monarchy?",
+      "options": [
+        "Palais Garnier",
+        "Château de Vincennes",
+        "Tuileries Palace"
+      ],
+      "correctIndex": 2,
+      "explanation": "The insurrection of 10 August 1792 overthrew Louis XVI and led directly to the declaration of the First French Republic."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the conservative reaction following the fall of Robespierre in July 1794 named after the revolutionary month?",
+      "options": [
+        "Thermidorian Reaction",
+        "Brumaire Coup",
+        "Vendémiaire Uprising"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Thermidorian Reaction repealed price controls and dismantled the apparatus of the Terror."
+    },
+    {
+      "type": "number",
+      "question": "How many days were there in each decade (week) of the French Republican Calendar?",
+      "target": 10,
+      "metricUnit": "days",
+      "imperialDisplay": "10-day cycle",
+      "explanation": "The Republican calendar decimalized time: every month had three 10-day weeks called décades."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British political thinker published the conservative critique \"Reflections on the Revolution in France\" in 1790?",
+      "options": [
+        "Thomas Paine",
+        "Edmund Burke",
+        "Adam Smith"
+      ],
+      "correctIndex": 1,
+      "explanation": "Edmund Burke predicted that violent revolutionary rupture would degenerate into tyranny and military dictatorship."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Anglo-American radical responded to Burke by publishing \"Rights of Man\" in 1791 defending the French Revolution?",
+      "options": [
+        "Benjamin Franklin",
+        "William Godwin",
+        "Thomas Paine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thomas Paine defended democratic principles and was later made an honorary French citizen and deputy."
+    },
+    {
+      "type": "mcq",
+      "question": "What military campaign in 1798–1801 led by Napoleon aimed to disrupt British trade routes to India and uncovered the Rosetta Stone?",
+      "options": [
+        "French expedition to Egypt and Syria",
+        "Peninsular War",
+        "Italian Campaign"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon's expedition to Egypt included a corps of 167 scientists and scholars whose discoveries birthed modern Egyptology."
+    },
+    {
+      "type": "mcq",
+      "question": "What economic blockade system instituted by Napoleon in 1806 prohibited trade between continental Europe and Britain?",
+      "options": [
+        "Cordon Sanitaire",
+        "Continental System",
+        "Navigation Act"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Berlin Decree established the Continental Blockade to strangle the British economy through commercial embargo."
+    },
+    {
+      "type": "mcq",
+      "question": "What prolonged and bloody guerrilla conflict in Spain and Portugal severely drained French military resources from 1808 to 1814?",
+      "options": [
+        "War of the Spanish Succession",
+        "Carlist War",
+        "Peninsular War"
+      ],
+      "correctIndex": 2,
+      "explanation": "Napoleon referred to the brutal guerrilla resistance across the Iberian Peninsula as his \"Spanish Ulcer\"."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Battle of Waterloo fought near Brussels, Belgium?",
+      "target": 1815,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 1815",
+      "explanation": "The Battle of Waterloo took place on Sunday, 18 June 1815."
+    },
+    {
+      "type": "mcq",
+      "question": "What mass public trials court operated in Paris to sentence political suspects during the Terror?",
+      "options": [
+        "Revolutionary Tribunal",
+        "Parlement de Paris",
+        "Cour des Comptes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Revolutionary Tribunal tried thousands of political prisoners with minimal rights to legal defense."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French royalist insurrection broke out in western France in 1793 against conscription and anti-clerical laws?",
+      "options": [
+        "Chouannerie",
+        "War in the Vendée",
+        "Fronde"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Vendée uprising resulted in severe civil war and military suppression by republican armies."
+    },
+    {
+      "type": "mcq",
+      "question": "What Enlightenment philosopher published \"The Spirit of the Laws\" in 1748?",
+      "options": [
+        "Voltaire",
+        "Condorcet",
+        "Montesquieu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Montesquieu's work analyzed political structures and advocated check-and-balance systems."
+    },
+    {
+      "type": "mcq",
+      "question": "Which prominent mathematician and philosopher authored the \"Sketch for a Historical Picture of the Progress of the Human Spirit\"?",
+      "options": [
+        "Marquis de Condorcet",
+        "Pierre-Simon Laplace",
+        "Joseph-Louis Lagrange"
+      ],
+      "correctIndex": 0,
+      "explanation": "Condorcet championed egalitarianism, public education, and human progress before dying during the Terror."
+    },
+    {
+      "type": "mcq",
+      "question": "What landmark legal agreement in 1801 restored relations between the French government and the Roman Catholic Church?",
+      "options": [
+        "Treaty of Campo Formio",
+        "Concordat of 1801",
+        "Edict of Fontainebleau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Signed by Napoleon and Pope Pius VII, the Concordat restored public Catholic worship while retaining state supremacy."
+    },
+    {
+      "type": "number",
+      "question": "How many total articles were in the Declaration of the Rights of Man and of the Citizen adopted in 1789?",
+      "target": 17,
+      "metricUnit": "articles",
+      "imperialDisplay": "17 articles",
+      "explanation": "The Declaration of the Rights of Man and of the Citizen contains exactly 17 foundational articles."
+    }
+  ]
+}

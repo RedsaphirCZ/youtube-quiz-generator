@@ -1,0 +1,703 @@
+{
+  "id": "aviation-flight-aircraft-60",
+  "theme": "Aviation History: Legendary Planes, Supersonic Jets & Aces",
+  "title": "Aviation History: Legendary Planes, Supersonic Jets & Aces",
+  "description": "Comprehensive 60-question flight expedition exploring Wright Flyer origins, WWII aerial legends, sound-barrier breakthroughs, jumbo jets, and stealth bombers.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "On December 17, 1903, which brothers achieved the first controlled, sustained, powered heavier-than-air human flight at Kitty Hawk, North Carolina?",
+      "options": [
+        "Orville and Wilbur Wright",
+        "Charles and Frank Duryea",
+        "Auguste and Louis Lumière"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orville piloted the first successful 12-second flight covering 37 meters over the Kill Devil Hills sand dunes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French aviator made the historic first airplane crossing of the English Channel in July 1909 aboard his self-designed Blériot XI monoplane?",
+      "options": [
+        "Alberto Santos-Dumont",
+        "Louis Blériot",
+        "Henri Farman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Louis Blériot flew thirty-seven kilometers from Calais to Dover Castle in thirty-six minutes, winning the Daily Mail prize.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian aviation pioneer conducted the first public unassisted powered airplane flight in Europe aboard the 14-bis in Paris in 1906?",
+      "options": [
+        "Jorge Chávez",
+        "Bartolomeu de Gusmão",
+        "Alberto Santos-Dumont"
+      ],
+      "correctIndex": 2,
+      "explanation": "Santos-Dumont 14-bis took off under its own wheeled power before the French Aero Club, without the catapults used by the Wrights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German glider pioneer known as the Flying Man made over two thousand successful glider flights before dying in an 1896 crash?",
+      "options": [
+        "Otto Lilienthal",
+        "Percy Pilcher",
+        "Octave Chanute"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lilienthal published aerodynamic research on curved airfoils that directly inspired the Wright brothers early glider experiments.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American aviation pioneer invented wing ailerons to replace wing-warping and built the first practical seaplanes and flying boats?",
+      "options": [
+        "Samuel Langley",
+        "Glenn Curtiss",
+        "Charles Manly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glenn Curtiss founded the Curtiss Aeroplane and Motor Company, providing flying boats for naval aviation and early airmail routes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the exact distance in meters covered by Orville Wright during the first successful powered flight on December 17, 1903?",
+      "target": 37,
+      "metricUnit": "meters",
+      "imperialDisplay": "120 feet",
+      "explanation": "Orville Wright maiden flight lasted 12 seconds and covered 36.5 meters (rounded to 37 meters) against a freezing headwind.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In May 1927, who made the historic first solo nonstop transatlantic flight from New York to Paris aboard the monoplane Spirit of St. Louis?",
+      "options": [
+        "Wiley Post",
+        "Howard Hughes",
+        "Charles Lindbergh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lindbergh flew 5,800 kilometers in thirty-three and a half hours, landing triumphantly at Le Bourget Field in Paris to claim the Orteig Prize.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first woman to fly solo nonstop across the Atlantic Ocean, completing the flight in a Lockheed Vega in May 1932?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Amy Johnson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amelia Earhart took off from Newfoundland and landed in a pasture in Northern Ireland exactly five years after Lindbergh flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin-engine American airliner introduced in 1935 transformed commercial aviation by making passenger transport reliably profitable without government subsidies?",
+      "options": [
+        "Boeing 247",
+        "Douglas DC-3",
+        "Lockheed Electra"
+      ],
+      "correctIndex": 1,
+      "explanation": "The DC-3 cruised at 330 km/h with twenty-one passengers, becoming the workhorse of civilian airlines and military transport as the C-47 Skytrain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which one-eyed American aviator made the first solo flight around the world in 1933 and pioneered early pressure suits for high-altitude flight?",
+      "options": [
+        "Roscoe Turner",
+        "Jimmy Doolittle",
+        "Wiley Post"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wiley Post flew the Lockheed Vega Winnie Mae around the globe in seven days and nineteen hours, discovering the high-altitude jet stream.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal luxury flying boat operated by Pan American World Airways inaugurated scheduled transatlantic passenger service in 1939?",
+      "options": [
+        "Boeing 314 Clipper",
+        "Martin M-130",
+        "Sikorsky S-42"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Boeing 314 Clipper featured dining salons, sleeping berths, and dressing rooms for wealthy travelers flying across the Atlantic and Pacific.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total hours did Charles Lindbergh spend flying solo across the Atlantic Ocean from Roosevelt Field to Paris in 1927?",
+      "target": 33,
+      "metricUnit": "hours",
+      "imperialDisplay": "33.5 hours",
+      "explanation": "Lindbergh nonstop solo flight lasted 33 hours and 30 minutes, covering approximately 5,800 kilometers across fog and ice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British fighter aircraft with iconic elliptical wings designed by Reginald Mitchell played a decisive role in the 1940 Battle of Britain?",
+      "options": [
+        "Hawker Hurricane",
+        "Supermarine Spitfire",
+        "Gloster Gladiator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Powered by the Rolls-Royce Merlin engine, the Spitfire matched the German Messerschmitt Bf 109 in climb rate and surpassed it in turning agility.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which fighter aircraft served as the primary backbone of the German Luftwaffe fighter force throughout the entirety of World War II?",
+      "options": [
+        "Focke-Wulf Fw 190",
+        "Heinkel He 112",
+        "Messerschmitt Bf 109"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by Willy Messerschmitt, over 33,000 Bf 109 fighters were produced, claiming more aerial victories than any other aircraft in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American long-range escort fighter, transformed by fitting a British Rolls-Royce Merlin engine, escorted Allied bombers deep into Germany?",
+      "options": [
+        "North American P-51 Mustang",
+        "Republic P-47 Thunderbolt",
+        "Curtiss P-40 Warhawk"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equipped with droppable fuel tanks, the P-51 Mustang could escort B-17 bombers all the way to Berlin and back, breaking the Luftwaffe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which nimble Japanese carrier-borne fighter aircraft dominated the Pacific theater in the early years of World War II with exceptional range?",
+      "options": [
+        "Nakajima Ki-43",
+        "Mitsubishi A6M Zero",
+        "Kawasaki Ki-61"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Zero achieved dogfighting superiority in 1941-1942 due to light weight and maneuverability, though lacking pilot armor and self-sealing fuel tanks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German World War I fighter ace, known as the Red Baron, was credited with eighty official aerial combat victories before being shot down in 1918?",
+      "options": [
+        "Ernst Udet",
+        "Werner Voss",
+        "Manfred von Richthofen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Richthofen led the Flying Circus squadron Jagdgeschwader 1, piloting his iconic scarlet Fokker Dr.I triplane.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many official confirmed aerial victories was Manfred von Richthofen, the Red Baron, credited with during World War I?",
+      "target": 80,
+      "metricUnit": "victories",
+      "imperialDisplay": "80 confirmed victories",
+      "explanation": "Manfred von Richthofen was officially credited with 80 confirmed combat victories, making him the highest-scoring ace of World War I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which heavily armed four-engine American heavy bomber, dubbed the Flying Fortress, flew daylight precision bombing missions over occupied Europe?",
+      "options": [
+        "Boeing B-17 Flying Fortress",
+        "Consolidated B-24 Liberator",
+        "North American B-25 Mitchell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The B-17 carried up to thirteen 0.50-caliber machine guns and could sustain catastrophic battle damage while returning crews safely home.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which four-engine American bomber introduced pressurized crew cabins and remote-controlled gun turrets, dropping the atomic bombs in 1945?",
+      "options": [
+        "Convair B-36 Peacemaker",
+        "Boeing B-29 Superfortress",
+        "Boeing B-50"
+      ],
+      "correctIndex": 1,
+      "explanation": "The B-29 Enola Gay and Bockscar flew the atomic strike missions against Hiroshima and Nagasaki under the command of Colonel Paul Tibbets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the world first operational jet-powered fighter aircraft, introduced into combat by the German Luftwaffe in mid-1944?",
+      "options": [
+        "Gloster Meteor",
+        "Heinkel He 162",
+        "Messerschmitt Me 262"
+      ],
+      "correctIndex": 2,
+      "explanation": "Powered by twin Junkers Jumo 004 axial-flow turbojets, the Me 262 flew over 870 km/h, outrunning all contemporary Allied piston fighters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British four-engine heavy bomber was famous for delivering Barnes Wallis bouncing bombs during the Dam Busters raid in 1943?",
+      "options": [
+        "Avro Lancaster",
+        "Handley Page Halifax",
+        "Short Stirling"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Lancaster carried the heaviest conventional bomb loads of World War II, including the colossal 10,000-kilogram Grand Slam earthquake bomb.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the only operational Allied jet aircraft to see combat during World War II, entering Royal Air Force service in July 1944?",
+      "options": [
+        "de Havilland Vampire",
+        "Gloster Meteor",
+        "Bell P-59 Airacomet"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Gloster Meteor was deployed to intercept German V-1 flying bombs over southern England, using wing-tipping maneuvers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Messerschmitt Me 262 officially enter operational combat service as the world first jet fighter?",
+      "target": 1944,
+      "metricUnit": "year",
+      "imperialDisplay": "1944 AD",
+      "explanation": "The Me 262 entered active Luftwaffe squadron service in April 1944, flying its first combat interception sorties that summer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On October 14, 1947, which American test pilot broke the sound barrier for the first time in level flight aboard the rocket-powered Bell X-1?",
+      "options": [
+        "Scott Crossfield",
+        "Bob Hoover",
+        "Chuck Yeager"
+      ],
+      "correctIndex": 2,
+      "explanation": "Captain Chuck Yeager flew the orange bullet-shaped Bell X-1, nicknamed Glamorous Glennis, to Mach 1.06 over Muroc Dry Lake, California.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rocket-powered experimental aircraft flew to the edge of space at altitudes over 100 kilometers and reached a record speed of Mach 6.7 in 1967?",
+      "options": [
+        "North American X-15",
+        "Bell X-2",
+        "Lockheed X-7"
+      ],
+      "correctIndex": 0,
+      "explanation": "The X-15 piloted by William Pete Knight achieved 7,274 km/h, providing vital aerodynamic and thermal data for the Space Shuttle program.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What aerodynamic term represents the ratio of an aircraft true airspeed to the local speed of sound in the surrounding atmosphere?",
+      "options": [
+        "Knots Indicated",
+        "Mach Number",
+        "Reynolds Number"
+      ],
+      "correctIndex": 1,
+      "explanation": "Named after Austrian physicist Ernst Mach, Mach 1 represents the speed of sound, which is roughly 1,235 km/h at sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fuselage design breakthrough developed by Richard Whitcomb narrows the aircraft waist like a coke bottle to reduce transonic drag?",
+      "options": [
+        "Swept Wing Rule",
+        "Canard Configuration",
+        "Area Rule"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Whitcomb Area Rule ensures smooth cross-sectional area distribution, enabling military jets like the Convair F-102 to achieve supersonic flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which experimental aircraft built by Bell in 1951 was the first airplane capable of altering the sweep angle of its wings while in flight?",
+      "options": [
+        "Bell X-5",
+        "Grumman X-29",
+        "General Dynamics F-111"
+      ],
+      "correctIndex": 0,
+      "explanation": "The X-5 tested variable-sweep wing technology derived from the German Messerschmitt P.1101, paving the way for the F-14 Tomcat and B-1 Lancer.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the maximum top speed in km/h achieved by the rocket-powered North American X-15, setting the world record for a crewed aircraft?",
+      "target": 7274,
+      "metricUnit": "km/h",
+      "imperialDisplay": "4,520 mph (Mach 6.70)",
+      "explanation": "Air Force pilot Pete Knight flew the X-15A-2 to a record speed of 7,274 km/h (Mach 6.70) on October 3, 1967.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What British airliner made history in 1952 as the world first commercial jet airliner, but suffered tragic crashes due to square-window metal fatigue?",
+      "options": [
+        "Vickers Viscount",
+        "de Havilland Comet",
+        "Sud Aviation Caravelle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Comet square passenger windows caused stress concentrations that led to explosive cabin decompression, revolutionizing fuselage fatigue testing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic four-engine jet airliner introduced by Boeing in 1958 ushered in the modern Jet Age of global commercial passenger travel?",
+      "options": [
+        "Douglas DC-8",
+        "Convair 880",
+        "Boeing 707"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Boeing 707 flew with swept wings and podded engines at 960 km/h, slashing transatlantic travel time between New York and London in half.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which tri-jet commercial airliner produced by Boeing became the world best-selling jetliner of its era, optimized for short runways and hot climates?",
+      "options": [
+        "Boeing 727",
+        "Boeing 737",
+        "Douglas DC-9"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 727 featured sophisticated triple-slotted trailing-edge flaps and a rear airstair, operating reliably from small municipal airfields.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What engine innovation, directing clean bypass air around the central combustion core, dramatically reduced jet engine fuel consumption and noise?",
+      "options": [
+        "Ramjet",
+        "High-Bypass Turbofan",
+        "Pulsejet"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-bypass turbofans like the Pratt & Whitney JT9D and General Electric CF6 made massive wide-body airliners commercially viable.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin-engine commercial airliner first flown in 1967 grew to become the most-produced commercial jet aircraft family in history?",
+      "options": [
+        "Airbus A320",
+        "Douglas DC-9",
+        "Boeing 737"
+      ],
+      "correctIndex": 2,
+      "explanation": "With over eleven thousand delivered across four generations, the Boeing 737 has served as the backbone of short-to-medium haul aviation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Boeing 707 make its first scheduled commercial passenger flight across the Atlantic for Pan American World Airways?",
+      "target": 1958,
+      "metricUnit": "year",
+      "imperialDisplay": "1958 AD",
+      "explanation": "Pan Am inaugurated scheduled Boeing 707 jet service from New York Idlewild to Paris Le Bourget on October 26, 1958.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Anglo-French supersonic passenger airliner flew commercial routes at Mach 2 from 1976 until its retirement in 2003?",
+      "options": [
+        "Concorde",
+        "Tupolev Tu-144",
+        "Boeing 2707"
+      ],
+      "correctIndex": 0,
+      "explanation": "Concorde crossed the Atlantic in under three and a half hours, cruising at 18,000 meters altitude with its famous ogival delta wings and droop nose.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Soviet supersonic passenger airliner, nicknamed Concordski, beat Concorde into the air by two months on its maiden flight in December 1968?",
+      "options": [
+        "Ilyushin Il-62",
+        "Tupolev Tu-144",
+        "Myasishchev M-50"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tu-144 was the first commercial airliner to exceed Mach 2, featuring retractable canard surfaces on the forward fuselage for low-speed control.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary titanium strategic reconnaissance aircraft, developed by Kelly Johnson at Lockheed Skunk Works, cruised at over Mach 3.2 above 25,000 meters?",
+      "options": [
+        "Lockheed U-2",
+        "North American XB-70 Valkyrie",
+        "Lockheed SR-71 Blackbird"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SR-71 utilized radar-absorbing black iron ferrite paint and Pratt & Whitney J58 continuous-bleed turbojet engines, never once hit by enemy missiles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-altitude glider-like spy plane built by Lockheed in 1955 was piloted by Francis Gary Powers when shot down over the Soviet Union in 1960?",
+      "options": [
+        "Lockheed U-2 Dragon Lady",
+        "Lockheed SR-71",
+        "Martin RB-57"
+      ],
+      "correctIndex": 0,
+      "explanation": "The U-2 flies at over 21,000 meters with massive high-aspect-ratio wings, remaining in active US military reconnaissance service today.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Why was the airframe of the supersonic SR-71 Blackbird built primarily out of heat-resistant titanium alloy rather than standard aluminum?",
+      "options": [
+        "Titanium provided complete radar invisibility against ground tracking",
+        "Frictional air heating at Mach 3 generated skin temperatures exceeding 300 degrees Celsius",
+        "Titanium allowed the aircraft to flex like a glider at high altitudes"
+      ],
+      "correctIndex": 1,
+      "explanation": "At speeds exceeding Mach 3, atmospheric friction heated the leading edges and canopy to extreme temperatures that would melt aluminum.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the standard cruising speed in km/h of Concorde across the North Atlantic at Mach 2?",
+      "target": 2170,
+      "metricUnit": "km/h",
+      "imperialDisplay": "1,350 mph (Mach 2.04)",
+      "explanation": "Concorde cruised at approximately 2,170 km/h (Mach 2.04) at 60,000 feet, allowing passengers to arrive in New York earlier local time than they departed London.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal wide-body airliner, known as the Queen of the Skies, debuted in 1969 with an iconic upper-deck hump designed by Joe Sutter?",
+      "options": [
+        "McDonnell Douglas DC-10",
+        "Lockheed L-1011 TriStar",
+        "Boeing 747"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Boeing 747 was the first wide-body twin-aisle airliner, democratizing global air travel and hauling cargo across five decades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest passenger airliner ever built, featuring a full-length double deck capable of seating over eight hundred passengers in high density?",
+      "options": [
+        "Airbus A380",
+        "Boeing 777X",
+        "Boeing 747-8"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Airbus A380 has a wingspan of 79.75 meters and a maximum takeoff weight of 575 metric tons, operating primarily between major global megahubs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What six-engine strategic cargo aircraft built in Soviet Ukraine in 1988 was the heaviest and largest wingspan operational aircraft until its destruction in 2022?",
+      "options": [
+        "Antonov An-124 Ruslan",
+        "Antonov An-225 Mriya",
+        "Lockheed C-5 Galaxy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The An-225 Mriya was originally built to transport the Soviet Buran space shuttle orbiter and held 240 world aviation payload records.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest military transport aircraft operated by the United States Air Force, featuring nose and aft cargo doors for drive-through loading?",
+      "options": [
+        "Boeing C-17 Globemaster III",
+        "Lockheed C-130 Hercules",
+        "Lockheed C-5 Galaxy"
+      ],
+      "correctIndex": 2,
+      "explanation": "The C-5 Galaxy can transport combat-ready military units, including two M1 Abrams main battle tanks or six Apache helicopters anywhere on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which long-range twin-engine wide-body airliner introduced in 1995 broke records by flying 21,601 kilometers nonstop from Hong Kong to London eastbound?",
+      "options": [
+        "Boeing 777-200LR",
+        "Airbus A350-900ULR",
+        "Boeing 787-9"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Boeing 777-200LR Worldliner set the world distance record for a commercial airliner in November 2005, flying 22 hours and 42 minutes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum certified passenger seating capacity of the double-decker Airbus A380 in a single-class high-density layout?",
+      "target": 853,
+      "metricUnit": "passengers",
+      "imperialDisplay": "853 passenger limit",
+      "explanation": "The Airbus A380 is certified for a maximum passenger exit limit of 853 passengers, although standard three-class airline configurations seat around 525.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ground-attack aircraft, nicknamed the Nighthawk, was the world first operational military aircraft designed entirely around stealth technology?",
+      "options": [
+        "Northrop B-2 Spirit",
+        "Lockheed F-117 Nighthawk",
+        "Lockheed Martin F-22"
+      ],
+      "correctIndex": 1,
+      "explanation": "The F-117 used flat faceted panels to deflect radar waves away from tracking antennas, operating with devastating precision in the 1991 Gulf War.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which flying-wing stealth heavy bomber operated by the US Air Force was designed with continuous curved surfaces and radar-absorbent materials?",
+      "options": [
+        "Rockwell B-1B Lancer",
+        "Boeing B-52 Stratofortress",
+        "Northrop Grumman B-2 Spirit"
+      ],
+      "correctIndex": 2,
+      "explanation": "The B-2 Spirit flying wing features no vertical tail fins, minimizing its radar cross-section to that of a small bird.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American fifth-generation stealth fighter entered service in 2005, combining extreme stealth, thrust vectoring, and supersonic supercruise?",
+      "options": [
+        "Lockheed Martin F-22 Raptor",
+        "Lockheed Martin F-35 Lightning II",
+        "Boeing F/A-18E Super Hornet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The F-22 Raptor can cruise at Mach 1.8 without using fuel-hungry afterburners, dominating beyond-visual-range aerial combat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which multi-role fifth-generation stealth aircraft family is manufactured in three variants: CTOL for the Air Force, STOVL for the Marines, and CATOBAR for the Navy?",
+      "options": [
+        "Boeing F-15EX",
+        "Lockheed Martin F-35 Lightning II",
+        "Saab JAS 39 Gripen"
+      ],
+      "correctIndex": 1,
+      "explanation": "The F-35 program is the most technologically advanced and expensive military procurement effort in aviation history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What metric is used in stealth aircraft design to quantify how detectable an airplane is to hostile ground-based and airborne radar systems?",
+      "options": [
+        "Aspect Ratio",
+        "Aerodynamic Drag Coefficient",
+        "Radar Cross Section"
+      ],
+      "correctIndex": 2,
+      "explanation": "Radar Cross Section measures the equivalent reflective area of a target, reduced in modern stealth aircraft through shaping and RAM coatings.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the top-secret Lockheed F-117 Nighthawk stealth attack aircraft make its first maiden flight at Groom Lake, Nevada?",
+      "target": 1981,
+      "metricUnit": "year",
+      "imperialDisplay": "1981 AD",
+      "explanation": "The F-117 Nighthawk flew secretly for the first time on June 18, 1981, remaining highly classified until revealed to the public in 1988.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which featherweight composite aircraft, piloted by Dick Rutan and Jeana Yeager in December 1986, made the first nonstop unrefueled flight around the world?",
+      "options": [
+        "Rutan Voyager",
+        "Virgin Atlantic GlobalFlyer",
+        "Solar Impulse 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by Burt Rutan, Voyager carried over three times its empty weight in fuel inside wings and twin booms, flying for nine days.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneering solar-powered aircraft, piloted by Bertrand Piccard and André Borschberg, completed a historic round-the-world flight in 2016?",
+      "options": [
+        "Helios Prototype",
+        "Solar Impulse 2",
+        "Sunseeker Duo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solar Impulse 2 carried over 17,000 solar cells on a 72-meter wingspan, charging lithium batteries to sustain night flight without fuel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which unique military aircraft combines the vertical takeoff and hovering capability of a helicopter with the high-speed cruise of a turboprop airplane?",
+      "options": [
+        "Harrier Jump Jet",
+        "Lockheed Martin F-35B",
+        "Bell Boeing V-22 Osprey"
+      ],
+      "correctIndex": 2,
+      "explanation": "The V-22 Osprey uses tiltrotor technology, rotating its wingtip engine nacelles ninety degrees between vertical lift and horizontal flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In 2005, which American adventurer flew the single-jet Virgin Atlantic GlobalFlyer to complete the first solo nonstop unrefueled airplane flight around the world?",
+      "options": [
+        "Steve Fossett",
+        "Richard Branson",
+        "Felix Baumgartner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steve Fossett completed the 37,000-kilometer circumnavigation in 67 hours, powered by a single Williams FJ44 turbofan engine.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which human-powered aircraft, designed by Paul MacCready and pedaled by Bryan Allen, successfully flew across the English Channel in June 1979?",
+      "options": [
+        "Gossamer Condor",
+        "Gossamer Albatross",
+        "Daedalus 88"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bryan Allen pedaled the carbon-fiber and Mylar craft for nearly three hours across thirty-five kilometers to win the second Kremer Prize.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many continuous days did Dick Rutan and Jeana Yeager spend aloft to complete the world first nonstop unrefueled flight in the Rutan Voyager?",
+      "target": 9,
+      "metricUnit": "days",
+      "imperialDisplay": "9 days (216 hours)",
+      "explanation": "The Rutan Voyager completed its 40,212-kilometer global circumnavigation in 9 days, 3 minutes, and 44 seconds, landing on December 23, 1986.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

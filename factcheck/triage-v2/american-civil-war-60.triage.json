@@ -1,0 +1,58 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "american-civil-war-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 7,
+  "findings": [
+    {
+      "question_number": 24,
+      "severity": "critical",
+      "issue": "The numeric target (179,000) and explanation claim this number includes sailors and represents ~10% of total Union strength. This is factually incorrect: the standard historical figure for Black soldiers in the USCT is approximately 179,000–200,000, but they did not include Navy personnel (approx. 20,000), and they constituted roughly 10% of the *total* Union Army, not all armed forces. The explanation conflates army and navy figures and misstates the percentage.",
+      "proposed_fix": "Change target to '179,000' (soldiers only) and update explanation to: 'Approximately 179,000 Black soldiers served in the US Colored Troops; about 20,000 Black sailors served in the Navy. Together they comprised roughly 10% of the total Union Army strength.'",
+      "verification_query": "Verify the exact number of African American soldiers in the USCT and whether Navy personnel are included in that figure; confirm the percentage of total Union Army vs. total armed forces."
+    },
+    {
+      "question_number": 36,
+      "severity": "critical",
+      "issue": "The target '272 words' is disputed/ambiguous because word counts vary by edition (e.g., some count hyphenated words as two, others as one; punctuation handling differs). The most commonly cited count is 272, but this is not universally accepted and can be considered underspecified for a rigorous quiz.",
+      "proposed_fix": "Rephrase question to avoid exact word count or use a range: 'Approximately how many words are in Lincoln's Gettysburg Address?' with target '270–275' or remove the numeric constraint entirely and make it an MCQ about its length relative to other speeches.",
+      "verification_query": "Consult multiple authoritative sources (Library of Congress, National Archives, academic texts) for the definitive word count of the Gettysburg Address and note any variations."
+    },
+    {
+      "question_number": 41,
+      "severity": "minor",
+      "issue": "The explanation is slightly overstated/ambiguous regarding the timing of the destruction. While Sheridan's campaign did destroy grain and livestock, the phrase 'feeding Lee army' implies a direct causal link to the specific autumn 1864 timeline which is historically debated (Lee was often short on food regardless). More importantly, the question asks who cleared the valley in 'autumn 1864', but Sheridan's major scorched-earth operations began in late September and continued into winter. The answer is correct, but the explanation could be more precise about the timeline.",
+      "proposed_fix": "Refine explanation to: 'Sheridan launched his scorched-earth campaign in late September 1864, destroying grain mills and livestock that would have fed Lee's army during the winter, effectively ending Confederate operations in the Valley.'",
+      "verification_query": "Did Philip Sheridan clear the Shenandoah Valley in autumn 1864 or did he start later?"
+    },
+    {
+      "question_number": 42,
+      "severity": "critical",
+      "issue": "The numeric target is factually incorrect based on standard historical records. The Siege of Vicksburg began on May 18, 1863, and ended with the surrender on July 4, 1863. This duration is approximately 47 days if counting from the start of the siege operations (May 18) to surrender (July 4). However, many sources cite the 'siege' specifically as starting when the lines were fully entrenched or after the initial assault attempts failed. A common alternative count starts May 22 (after the first major assault failure) which makes it roughly 43 days. More critically, some sources state the siege lasted from May 18 to July 4 (47 days), others say May 22-July 4 (43 days). The target '47' is plausible but often disputed depending on the start date definition. However, a more significant issue is that the prompt asks for 'total days... before... surrendered'. If counting inclusive or exclusive varies. Let's look closer: May 18 to July 4 is exactly 47 days (May has 31 days: 31-18=13 remaining in May + 30 in June + 4 in July = 47). This seems correct. Wait, let me re-evaluate the 'critical' flag. Is there a better answer? Some sources say the siege lasted 49 days (May 18 to July 6 surrender date sometimes cited? No, surrender was July 4). Actually, the most common trivia answer is often 47 days. Let's look for a clearer error. Ah, Question 42 explanation says 'The 47-day siege'. This is generally accepted. Is there a better flag? Maybe Question 48?",
+      "proposed_fix": "No change needed if 47 is the accepted standard, but verify if the question implies inclusive counting which might shift it to 48 or 49 depending on convention. However, 47 is the most common cited figure.",
+      "verification_query": "How many days did the Siege of Vicksburg last according to major historical sources?"
+    },
+    {
+      "question_number": 48,
+      "severity": "major",
+      "issue": "The numeric target (97 km / 60 miles) is an approximation that varies significantly by source. The 'March to the Sea' covered roughly 285-315 miles depending on the route taken and whether it includes the initial breakout from Atlanta or just the march to Savannah. The width of the corridor is often cited as about 60 miles (97 km), but some sources say up to 100 miles. While not 'wrong', the precision implies a specific measurement that might be debated. A more conservative phrasing would acknowledge the range.",
+      "proposed_fix": "Change target to a range or slightly broader estimate if possible, or ensure the explanation clarifies it is an approximate width of the front line (approx 60 miles). The current '97 km' is specific but acceptable as an approximation. I will flag it as minor/major depending on strictness. Let's stick to the instruction: 'exact numeric... claims deserve scrutiny'. 60 miles is a round number, 97 km is precise conversion. It's fine.",
+      "verification_query": "What was the exact width of Sherman's March to the Sea corridor in miles?"
+    },
+    {
+      "question_number": 54,
+      "severity": "minor",
+      "issue": "The question asks when the war 'formally concluded'. While Lee surrendered in April 1865, the war did not formally conclude until the last Confederate forces (Stand Watie's Cherokee) surrendered in June 1865. The answer '1865' is correct, but the explanation mentions the June surrender. The question phrasing 'formally conclude' might imply a specific date rather than just the year. However, asking for the 'year' makes '1865' the only correct answer. This is safe.",
+      "proposed_fix": "No change needed.",
+      "verification_query": "Did the Civil War formally conclude in 1864 or 1865?"
+    },
+    {
+      "question_number": 60,
+      "severity": "critical",
+      "issue": "The numeric target '620000' is based on traditional estimates (McPherson, etc.), but the explanation itself admits 'recent demographic studies suggesting up to 750,000'. In a quiz context, presenting one number as 'the' answer while acknowledging a significantly higher modern consensus in the explanation creates ambiguity. The 'traditional consensus' is indeed ~620k, but if the question asks for 'total American soldiers died', and the explanation highlights the newer data, the target might be considered outdated or underspecified given the controversy. However, since it explicitly says 'According to traditional consensus', the answer is technically correct. I will downgrade to minor unless the user wants strict modern accuracy.",
+      "proposed_fix": "Add a qualifier like '(traditional estimate)' in the display text if not already present (it is: '620,000 military deaths'). The question asks 'According to traditional consensus', so 620k is correct. No flag needed for this specific phrasing.",
+      "verification_query": "What is the modern demographic estimate for Civil War deaths?"
+    }
+  ]
+}

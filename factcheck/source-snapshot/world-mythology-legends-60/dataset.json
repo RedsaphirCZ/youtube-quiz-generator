@@ -1,0 +1,641 @@
+{
+  "id": "world-mythology-legends-60",
+  "theme": "World Mythology: Norse, Egyptian, Greek & Celtic Pantheons",
+  "title": "World Mythology: Norse, Egyptian, Greek & Celtic Pantheons",
+  "description": "A 60-question grand master assessment exploring Greek Olympians, Heracles, Norse gods of Asgard, Ragnarok, Egyptian underworld mysteries, Gilgamesh, Celtic lore, Hindu epics, East Asian folklore, and mythical beasts.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who was the king of the Olympian gods, ruler of Mount Olympus, and wielder of the thunderbolt in Greek mythology?",
+      "options": [
+        "Zeus",
+        "Poseidon",
+        "Hades"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zeus overthrew his father Cronus and the Titans, drawing lots with his brothers Poseidon and Hades to rule the sky and heavens."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek goddess of wisdom, warfare, and handicraft was born fully armed from the forehead of Zeus?",
+      "options": [
+        "Artemis",
+        "Athena",
+        "Aphrodite"
+      ],
+      "correctIndex": 1,
+      "explanation": "Athena served as the patron deity of Athens after winning a contest against Poseidon by gifting the city an olive tree."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Olympian god presided over the sea, earthquakes, and horses, carrying a three-pronged trident?",
+      "options": [
+        "Ares",
+        "Hermes",
+        "Poseidon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Poseidon was known to sailors as the Earth-Shaker, capable of stirring devastating sea storms or calming violent waters."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Greek god of music, poetry, prophecy, light, and healing, whose primary oracle resided at Delphi?",
+      "options": [
+        "Apollo",
+        "Dionysus",
+        "Hephaestus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apollo drove his sun chariot across the sky and communicated prophecies through the Pythia priestess at Delphi."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek goddess of love, beauty, and desire was born from the white sea foam near Cyprus?",
+      "options": [
+        "Hera",
+        "Aphrodite",
+        "Demeter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aphrodite was wed to the blacksmith god Hephaestus but maintained a famous romantic liaison with Ares, the god of war."
+    },
+    {
+      "type": "number",
+      "question": "How many major divine beings traditionally made up the Twelve Olympians who resided atop Mount Olympus?",
+      "target": 12,
+      "metricUnit": "deities",
+      "imperialDisplay": "12 major Olympians",
+      "explanation": "The classic Greek pantheon centered on the Dodekatheon: twelve supreme gods presiding atop Mount Olympus."
+    },
+    {
+      "type": "mcq",
+      "question": "Which demigod son of Zeus was condemned to complete Twelve Labors as penance for a fit of madness induced by Hera?",
+      "options": [
+        "Perseus",
+        "Theseus",
+        "Heracles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heracles (Hercules) performed legendary feats including slaying the Nemean Lion, the Lernaean Hydra, and capturing Cerberus."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek hero used a mirrored bronze shield from Athena to safely slay the snake-haired Gorgon Medusa?",
+      "options": [
+        "Perseus",
+        "Bellerophon",
+        "Jason"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perseus avoided Medusa's petrifying gaze by viewing her reflection in his polished shield, later using her head to save Andromeda."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Athenian hero entered the Cretan Labyrinth and defeated the half-man, half-bull Minotaur using Ariadne's thread?",
+      "options": [
+        "Achilles",
+        "Theseus",
+        "Daedalus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theseus navigated King Minos's labyrinth by following a ball of golden thread given to him by the Cretan princess Ariadne."
+    },
+    {
+      "type": "mcq",
+      "question": "Which hero led the Argonauts aboard the ship Argo on a perilous quest to Colchis to retrieve the Golden Fleece?",
+      "options": [
+        "Orpheus",
+        "Castor",
+        "Jason"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jason secured the Golden Fleece with the aid of the sorceress princess Medea, who fell deeply in love with him."
+    },
+    {
+      "type": "mcq",
+      "question": "Which invincible Greek warrior in the Trojan War was invulnerable everywhere except his heel, where his mother held him while dipping him in the River Styx?",
+      "options": [
+        "Achilles",
+        "Ajax",
+        "Patroclus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sea nymph Thetis dipped infant Achilles in the River Styx, leaving his heel unprotected, where he was fatally struck by Paris's arrow."
+    },
+    {
+      "type": "number",
+      "question": "How many impossible heroic labors was the Greek demigod Heracles commanded to complete for King Eurystheus?",
+      "target": 12,
+      "metricUnit": "labors",
+      "imperialDisplay": "The Twelve Labors",
+      "explanation": "Heracles completed exactly 12 heroic labors over a twelve-year period, culminating in dragging the three-headed dog Cerberus from the Underworld."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Allfather of the Norse gods, who sacrificed an eye at Mimir's well to gain supreme cosmic wisdom?",
+      "options": [
+        "Thor",
+        "Odin",
+        "Tyr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Odin ruled Asgard accompanied by his ravens Huginn (Thought) and Muninn (Memory) and his wolves Geri and Freki."
+    },
+    {
+      "type": "mcq",
+      "question": "Which red-bearded Norse god of thunder defended Asgard and Midgard wielding his enchanted war hammer Mjolnir?",
+      "options": [
+        "Loki",
+        "Balder",
+        "Thor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thor rode across the heavens in a chariot pulled by two goats, Tanngrisnir and Tanngnjostr, summoning thunder and lightning."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norse trickster god was the blood-brother of Odin and the father of the monstrous wolf Fenrir and the sea serpent Jormungandr?",
+      "options": [
+        "Loki",
+        "Heimdall",
+        "Bragi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loki possessed shapeshifting powers and orchestrated the death of the beloved god Baldr using a dart of mistletoe."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the colossal ash tree that supports and connects the Nine Realms in Norse cosmology?",
+      "options": [
+        "Gjallarhorn",
+        "Yggdrasil",
+        "Bifrost"
+      ],
+      "correctIndex": 1,
+      "explanation": "The World Tree Yggdrasil has roots extending to Niflheim, Jotunheim, and Asgard, constantly gnawed by the dragon Nidhogg."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the glowing rainbow bridge guarded by the watchman god Heimdall that connects Midgard (Earth) to Asgard (realm of gods)?",
+      "options": [
+        "Valhalla",
+        "Helheim",
+        "Bifrost"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heimdall stood eternal vigil at the base of Bifrost, possessing hearing so acute he could hear grass grow and wool grow on sheep."
+    },
+    {
+      "type": "number",
+      "question": "How many distinct cosmic realms are held together by the branches and roots of the Norse World Tree Yggdrasil?",
+      "target": 9,
+      "metricUnit": "realms",
+      "imperialDisplay": "The Nine Realms",
+      "explanation": "Norse cosmology details exactly Nine Realms, including Asgard, Midgard, Jotunheim, Vanaheim, Alfheim, Svartalfheim, Helheim, Niflheim, and Muspelheim."
+    },
+    {
+      "type": "mcq",
+      "question": "In Norse mythology, what is the prophesied twilight of the gods and apocalyptic battle that results in the destruction and rebirth of the cosmos?",
+      "options": [
+        "Ragnarok",
+        "Fimbulwinter",
+        "Valhalla"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ragnarok involves catastrophic battles between gods and monsters, the burning of the cosmos by Surtr, and subsequent renewal of the world."
+    },
+    {
+      "type": "mcq",
+      "question": "Which gigantic monstrous wolf, offspring of Loki, is destined to break free from his magical fetters and swallow Odin during Ragnarok?",
+      "options": [
+        "Skoll",
+        "Fenrir",
+        "Hati"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gods bound Fenrir using the magical silk ribbon Gleipnir, during which the god Tyr sacrificed his right hand in the wolf's jaws."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the grand hall in Asgard where fallen warriors (Einherjar) feast with Odin until called to battle at Ragnarok?",
+      "options": [
+        "Folkvangr",
+        "Bilskirnir",
+        "Valhalla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valkyries flew across battlefields choosing the bravest fallen slain warriors to bring to Valhalla's 540 doors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which beloved, shining Norse god of light and purity was made invulnerable to all things on Earth except mistletoe?",
+      "options": [
+        "Baldr",
+        "Hodr",
+        "Vidar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Baldr's mother Frigg extracted oaths from every creature and plant not to harm him, but overlooked humble mistletoe."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive midgard serpent encircles the entire world, grasping its own tail until it clashes with Thor at Ragnarok?",
+      "options": [
+        "Nidhogg",
+        "Jormungandr",
+        "Fafnir"
+      ],
+      "correctIndex": 1,
+      "explanation": "In their final battle at Ragnarok, Thor slays Jormungandr but takes only nine steps before collapsing from the serpent's lethal venom."
+    },
+    {
+      "type": "number",
+      "question": "How many legs did Odin's magical gray steed Sleipnir possess, allowing him to gallop across air, land, and sea?",
+      "target": 8,
+      "metricUnit": "legs",
+      "imperialDisplay": "8-legged magical steed",
+      "explanation": "Sleipnir, born of Loki, was the swiftest horse in the Nine Realms, distinguished by his eight sturdy legs and runes carved on his teeth."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the ancient Egyptian sun god who sailed through the sky by day and traversed the perilous underworld by night in a solar bark?",
+      "options": [
+        "Amun",
+        "Ptah",
+        "Ra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ra was revered as the supreme creator and King of the Gods, often merging with Amun as Amun-Ra in the New Kingdom."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Egyptian god of the underworld and resurrection was murdered and dismembered by his jealous brother Set?",
+      "options": [
+        "Osiris",
+        "Horus",
+        "Anubis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osiris was reconstructed by his devoted wife Isis and became the eternal Lord of the Duat and judge of departed souls."
+    },
+    {
+      "type": "mcq",
+      "question": "Which jackal-headed Egyptian deity presided over mummification, embalming, and guiding souls to the Hall of Judgment?",
+      "options": [
+        "Thoth",
+        "Anubis",
+        "Sobek"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anubis supervised the Weighing of the Heart against the Feather of Maat to determine if a deceased soul was worthy of the afterlife."
+    },
+    {
+      "type": "mcq",
+      "question": "Which falcon-headed Egyptian god of kingship and the sky fought Set to avenge his father Osiris, sacrificing his left eye in the battle?",
+      "options": [
+        "Khonsu",
+        "Ra-Horakhty",
+        "Horus"
+      ],
+      "correctIndex": 2,
+      "explanation": "The restored Eye of Horus (Wedjat) became Egypt's most potent protective amulet symbolizing healing, wholeness, and royal power."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ibis-headed Egyptian deity was the god of wisdom, writing, magic, and the moon, who recorded judgment in the underworld?",
+      "options": [
+        "Thoth",
+        "Ptah",
+        "Khepri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thoth was credited with inventing hieroglyphs and served as the celestial scribe and mediator among the gods."
+    },
+    {
+      "type": "number",
+      "question": "In the Egyptian Hall of Two Truths, how many divine Assessors of Maat evaluated the deceased soul's negative confessions?",
+      "target": 42,
+      "metricUnit": "assessors",
+      "imperialDisplay": "42 divine judges",
+      "explanation": "The Book of the Dead specifies exactly 42 divine judges to whom the deceased had to declare innocence of 42 specific sins."
+    },
+    {
+      "type": "mcq",
+      "question": "In the Epic of Gilgamesh, which wild man created from clay by the goddess Aruru became Gilgamesh's beloved companion?",
+      "options": [
+        "Utnapishtim",
+        "Enkidu",
+        "Dumuzi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enkidu lived among wild beasts until civilized by Shamhat; his eventual death prompted Gilgamesh's desperate quest for immortality."
+    },
+    {
+      "type": "mcq",
+      "question": "Which powerful Mesopotamian goddess of love, beauty, fertility, and warfare descended into the Netherworld to confront her sister Ereshkigal?",
+      "options": [
+        "Ninhursag",
+        "Ereshkigal",
+        "Ishtar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as Inanna in Sumerian, Ishtar passed through seven gates of the underworld, relinquishing a garment or jewel at each gate."
+    },
+    {
+      "type": "mcq",
+      "question": "In the Babylonian creation epic Enuma Elish, which patron god of Babylon defeated the primordial chaos dragon Tiamat?",
+      "options": [
+        "Marduk",
+        "Enlil",
+        "Ea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marduk split Tiamat's corpse in half, using one half to form the heavens and the other half to construct the earth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mesopotamian flood hero survived the global deluge by building a massive wooden ark on the advice of the god Ea?",
+      "options": [
+        "Atrahasis",
+        "Utnapishtim",
+        "Ziusudra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Utnapishtim and his wife were granted eternal life by the gods, later meeting Gilgamesh to explain the impossibility of escaping death."
+    },
+    {
+      "type": "mcq",
+      "question": "Which fierce guardian monster of the Cedar Forest was slain by Gilgamesh and Enkidu with the help of the sun god Shamash?",
+      "options": [
+        "Gugalanna",
+        "Anzu",
+        "Humbaba"
+      ],
+      "correctIndex": 2,
+      "explanation": "Humbaba (Huwawa) guarded the sacred pine and cedar forests of the gods until defeated in combat by the two heroes."
+    },
+    {
+      "type": "number",
+      "question": "How many cuneiform clay tablets comprised the standard canonical Babylonian edition of the Epic of Gilgamesh recorded by Sin-leqi-unninni?",
+      "target": 12,
+      "metricUnit": "tablets",
+      "imperialDisplay": "12 cuneiform tablets",
+      "explanation": "The standard Babylonian text of the Epic of Gilgamesh was inscribed across twelve large clay tablets found in Ashurbanipal's library in Nineveh."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary magical sword was presented to King Arthur by the mysterious Lady of the Lake?",
+      "options": [
+        "Excalibur",
+        "Caladbolg",
+        "Clarent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excalibur possessed a scabbard that prevented its bearer from losing blood in battle, symbolizing Arthur's rightful sovereignty."
+    },
+    {
+      "type": "mcq",
+      "question": "Which enigmatic wizard, prophet, and advisor engineered the conception and reign of King Arthur in British mythology?",
+      "options": [
+        "Taliesin",
+        "Merlin",
+        "Morgause"
+      ],
+      "correctIndex": 1,
+      "explanation": "Merlin placed young Arthur under the care of Sir Ector and orchestrated the Sword in the Stone test of kingship."
+    },
+    {
+      "type": "mcq",
+      "question": "In Irish mythology, which demigod warrior of Ulster possessed a terrifying battle-frenzy (warp spasm) and wielded the barbed spear Gae Bulg?",
+      "options": [
+        "Fionn mac Cumhaill",
+        "Oisin",
+        "Cu Chulainn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cu Chulainn single-handedly defended Ulster against the armies of Queen Medb of Connacht in the epic Cattle Raid of Cooley (Tain Bo Cuailnge)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mythological supernatural race of deities ruled ancient Ireland before retreating into fairy mounds (sidhe) upon the arrival of the Milesians?",
+      "options": [
+        "Tuatha De Danann",
+        "Fomorians",
+        "Fir Bolg"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tuatha De Danann (People of the Goddess Danu) possessed magical treasures including the Stone of Destiny and the Cauldron of the Dagda."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Irish leader of the Fianna warrior band gained all the world's wisdom by accidentally tasting the Salmon of Knowledge?",
+      "options": [
+        "Diarmuid Ua Duibhne",
+        "Fionn mac Cumhaill",
+        "Cormac mac Airt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fionn burned his thumb on the cooking salmon and instinctively sucked it, instantly receiving all universal knowledge and foresight."
+    },
+    {
+      "type": "number",
+      "question": "How many legendary major battles against Saxon invaders was King Arthur recorded as winning in Nennius's 9th-century Historia Brittonum?",
+      "target": 12,
+      "metricUnit": "battles",
+      "imperialDisplay": "12 historic battles",
+      "explanation": "Nennius's medieval chronicle attributes exactly twelve victorious battles to Arthur as dux bellorum, culminating in Mount Badon."
+    },
+    {
+      "type": "mcq",
+      "question": "Which three supreme deities comprise the Hindu Trimurti, responsible for the cosmic creation, preservation, and destruction of the universe?",
+      "options": [
+        "Indra, Agni, and Varuna",
+        "Rama, Krishna, and Ganesha",
+        "Brahma, Vishnu, and Shiva"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Trimurti, Brahma functions as the Creator, Vishnu as the Preserver who incarnates to restore Dharma, and Shiva as the Destroyer/Transformer."
+    },
+    {
+      "type": "mcq",
+      "question": "Which elephant-headed Hindu deity is universally revered as the remover of obstacles, patron of arts and sciences, and master of intellect?",
+      "options": [
+        "Ganesha",
+        "Kartikeya",
+        "Hanuman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ganesha, the son of Shiva and Parvati, is invoked at the beginning of all Hindu prayers, journeys, rituals, and new enterprises."
+    },
+    {
+      "type": "mcq",
+      "question": "Which avatar of Vishnu is the hero of the ancient epic Ramayana, who rescues his devoted wife Sita from the demon king Ravana of Lanka?",
+      "options": [
+        "Krishna",
+        "Rama",
+        "Narasimha"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lord Rama exemplifies righteous duty (dharma), assisted in the war against Ravana by the devoted monkey warrior Hanuman and his vanara army."
+    },
+    {
+      "type": "mcq",
+      "question": "Which divine avatar of Vishnu serves as Prince Arjuna's charioteer and spiritual counselor on the battlefield of Kurukshetra in the Bhagavad Gita?",
+      "options": [
+        "Parashurama",
+        "Kalki",
+        "Krishna"
+      ],
+      "correctIndex": 2,
+      "explanation": "Krishna delivers the immortal teachings on duty, yoga, devotion (bhakti), and the eternal nature of the soul to the conflicted Arjuna."
+    },
+    {
+      "type": "mcq",
+      "question": "Which fierce Hindu goddess, associated with time, destruction, and divine power, is depicted with a necklace of skulls and protruding tongue?",
+      "options": [
+        "Kali",
+        "Durga",
+        "Saraswati"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kali represents the ultimate transformative power of time (Kala), vanquishing demonic forces that threaten cosmic balance."
+    },
+    {
+      "type": "number",
+      "question": "How many primary canonical incarnations (Dashavatara) of Lord Vishnu are recognized in mainstream Hindu tradition?",
+      "target": 10,
+      "metricUnit": "avatars",
+      "imperialDisplay": "The Dashavatara",
+      "explanation": "The Dashavatara enumerates ten major avatars of Vishnu descending to earth to restore dharma, concluding with the future avatar Kalki."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mythological trickster hero, born from a stone egg, wields a size-shifting iron staff in the Chinese classic Journey to the West?",
+      "options": [
+        "Nezha",
+        "Sun Wukong",
+        "Erlang Shen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sun Wukong (The Monkey King) acquired 72 earthly transformations, somatic cloud riding, and immortality before escorting monk Tang Sanzang."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese Shinto solar deity emerged from the heavenly rock cave to restore light to the universe after being coaxed out by a mirror?",
+      "options": [
+        "Tsukuyomi",
+        "Susanoo",
+        "Amaterasu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amaterasu-omikami is the supreme sun goddess of the Shinto pantheon, from whom the Japanese imperial family claims divine descent."
+    },
+    {
+      "type": "mcq",
+      "question": "Who is the supreme ruler of heaven and the cosmos in Chinese folk religion and Taoist mythology, presiding over the Heavenly Court?",
+      "options": [
+        "The Jade Emperor",
+        "Pangu",
+        "Fuxi"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Jade Emperor (Yu Huang) governs heaven, earth, and the underworld, administering a vast celestial bureaucracy of deities and immortals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Chinese goddess of the moon flew to the lunar palace after consuming the elixir of immortality granted to her archer husband Hou Yi?",
+      "options": [
+        "Nuwa",
+        "Chang'e",
+        "Xiwangmu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chang'e resides in the Moon Palace accompanied by the Jade Rabbit who pounds herbs for the elixir of life."
+    },
+    {
+      "type": "mcq",
+      "question": "In Japanese Shinto mythology, which divine creator couple stood upon the Floating Bridge of Heaven and stirred the ocean with a jeweled spear to form Japan?",
+      "options": [
+        "Ninigi and Konohana",
+        "Takemikazuchi and Futsunushi",
+        "Izanagi and Izanami"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brine dripping from Izanagi's heavenly spear crystallized to form Onogoro Island, where the divine couple wed and birthed the Japanese archipelago."
+    },
+    {
+      "type": "number",
+      "question": "How many Earthly Transformations (Bian) did Sun Wukong master under Master Subhuti in Journey to the West?",
+      "target": 72,
+      "metricUnit": "transformations",
+      "imperialDisplay": "72 earthly transformations",
+      "explanation": "Sun Wukong mastered the 72 Earthly Transformations (72 Bian), allowing him to transform into any animal, object, or person."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Feathered Serpent deity was worshipped across Mesoamerica by the Aztecs as a god of wind, wisdom, and the morning star?",
+      "options": [
+        "Quetzalcoatl",
+        "Huitzilopochtli",
+        "Tezcatlipoca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quetzalcoatl was revered as a patron of priesthood, learning, and crafts, known as Kukulkan among the Maya of Yucatan."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Aztec solar and war deity required daily nourishment through sacrificial hearts to ensure the sun would rise and defeat the stars?",
+      "options": [
+        "Tlaloc",
+        "Huitzilopochtli",
+        "Mictlantecuhtli"
+      ],
+      "correctIndex": 1,
+      "explanation": "Huitzilopochtli was the patron god of Tenochtitlan who guided the Mexica people to build their empire where an eagle perched on a nopal cactus."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary immortal bird of Greek and Egyptian mythology dies in a burst of flames before resurrecting reborn from its own ashes?",
+      "options": [
+        "Roc",
+        "Simurgh",
+        "Phoenix"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Phoenix symbolizes renewal and immortality, traditionally living for 500 years before building a nest of aromatic spices and igniting."
+    },
+    {
+      "type": "mcq",
+      "question": "Which monstrous Scandinavian sea creature of myth was described as a gigantic tentacled kraken capable of dragging entire ships beneath the waves?",
+      "options": [
+        "Kraken",
+        "Leviathan",
+        "Cetus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Norse folklore depicted the Kraken lurking off the coasts of Norway and Greenland, likely inspired by sightings of giant squid."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient worldwide mythological symbol depicts a serpent or dragon eating its own tail, representing eternity and the cycle of rebirth?",
+      "options": [
+        "Caduceus",
+        "Ouroboros",
+        "Ankh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originating in ancient Egyptian iconography and Greek magical traditions, the Ouroboros embodies the eternal cycle of life, death, and renewal."
+    },
+    {
+      "type": "number",
+      "question": "How many cosmic suns or creation eras make up the complete cyclical history of the universe according to Aztec mythology?",
+      "target": 5,
+      "metricUnit": "suns",
+      "imperialDisplay": "The Five Suns",
+      "explanation": "Aztec cosmology details Five Suns or cosmic ages; humanity currently resides in the fifth sun, Nahui-Ollin (Four Movement), governed by Tonatiuh."
+    }
+  ]
+}

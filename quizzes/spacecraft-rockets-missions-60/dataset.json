@@ -1,0 +1,703 @@
+{
+  "id": "spacecraft-rockets-missions-60",
+  "theme": "Spacecraft & Rocket Engineering: Apollo to Artemis",
+  "title": "Spacecraft & Rocket Engineering: Apollo to Artemis",
+  "description": "Comprehensive 60-question aerospace odyssey exploring the pioneers of rocketry, Apollo lunar landings, deep-space probes, space stations, and the Artemis era.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which Russian schoolteacher and scientist formulated the ideal rocket equation in 1903 and proposed multi-stage liquid-fueled space exploration?",
+      "options": [
+        "Konstantin Tsiolkovsky",
+        "Robert Goddard",
+        "Hermann Oberth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tsiolkovsky famously wrote: Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American physicist launched the world first liquid-fueled rocket from an orchard in Auburn, Massachusetts, on March 16, 1926?",
+      "options": [
+        "Konstantin Tsiolkovsky",
+        "Robert H. Goddard",
+        "Theodore von Kármán"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goddard rocket burned liquid oxygen and gasoline, flying 12.5 meters high over 2.5 seconds, proving liquid propulsion was feasible.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austro-Hungarian born German rocketry pioneer published The Rocket into Planetary Space in 1923 and mentored Wernher von Braun?",
+      "options": [
+        "Eugen Sänger",
+        "Max Valier",
+        "Hermann Oberth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oberth established the mathematical and thermodynamic feasibility of human spaceflight and served as scientific advisor on Fritz Lang film Woman in the Moon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German aerospace engineer directed the development of the V-2 ballistic rocket at Peenemünde and later designed the Saturn V Moon rocket for NASA?",
+      "options": [
+        "Wernher von Braun",
+        "Walter Dornberger",
+        "Hermann Oberth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Von Braun surrendered to American forces in 1945 under Operation Paperclip, becoming the first director of NASA Marshall Space Flight Center.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fundamental aerospace metric measured in seconds represents the thrust produced per unit weight of propellant consumed per second by a rocket engine?",
+      "options": [
+        "Thrust-to-Weight Ratio",
+        "Specific Impulse",
+        "Delta-V"
+      ],
+      "correctIndex": 1,
+      "explanation": "Specific impulse Isp measures engine fuel efficiency; hydrolox engines achieve around 450 seconds compared to 310 seconds for kerolox engines.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Robert H. Goddard launch the world first liquid-fueled rocket in Massachusetts?",
+      "target": 1926,
+      "metricUnit": "year",
+      "imperialDisplay": "1926 AD",
+      "explanation": "Goddard launched the ten-foot liquid oxygen and gasoline rocket on March 16, 1926, establishing the birth of modern liquid rocketry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On October 4, 1957, which polished aluminum sphere launched by the Soviet Union became the first artificial satellite to orbit Earth?",
+      "options": [
+        "Sputnik 2",
+        "Vanguard 1",
+        "Sputnik 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sputnik 1 beeped radio signals on 20 and 40 MHz for twenty-one days, sparking the Cold War Space Race and the creation of NASA.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which first successful American satellite, launched in January 1958 aboard a Juno I rocket, discovered the magnetic radiation belts encircling Earth?",
+      "options": [
+        "Explorer 1",
+        "Vanguard 1",
+        "Score"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed under William Pickering and James Van Allen, Explorer 1 cosmic ray detector identified the Van Allen radiation belts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Soviet cosmonaut made history on April 12, 1961, by becoming the first human in space, completing a single 108-minute orbit aboard Vostok 1?",
+      "options": [
+        "Gherman Titov",
+        "Yuri Gagarin",
+        "Alexei Leonov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gagarin uttered his famous exclamation Poyekhali (Let us go!) as his Vostok rocket lifted off from Baikonur Cosmodrome.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who became the first American in space on May 5, 1961, completing a 15-minute suborbital flight aboard the Mercury capsule Freedom 7?",
+      "options": [
+        "John Glenn",
+        "Gus Grissom",
+        "Alan Shepard"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alan Shepard launched on a Redstone rocket to an altitude of 187 kilometers, later walking on the Moon as commander of Apollo 14 in 1971.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which astronaut became the first American to orbit the Earth, circling the globe three times aboard Friendship 7 on February 20, 1962?",
+      "options": [
+        "John Glenn",
+        "Scott Carpenter",
+        "Wally Schirra"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Glenn flight restored American parity in the Space Race, verified by mathematician Katherine Johnson orbital trajectory calculations.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Soviet Union launch Sputnik 1 into orbit, inaugurating the Space Age?",
+      "target": 1957,
+      "metricUnit": "year",
+      "imperialDisplay": "1957 AD",
+      "explanation": "Sputnik 1 was launched from Site No. 1 at Baikonur Cosmodrome on October 4, 1957.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal three-stage 111-meter rocket developed by NASA generated 7.5 million pounds of liftoff thrust to propel Apollo astronauts to the Moon?",
+      "options": [
+        "Titan IIIC",
+        "Saturn V",
+        "Nova"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Saturn V remains the only rocket to carry humans beyond low Earth orbit, achieving thirteen successful launches with zero flight losses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On July 20, 1969, which two Apollo 11 astronauts landed the Lunar Module Eagle on the Moon at the Sea of Tranquility?",
+      "options": [
+        "Neil Armstrong and Michael Collins",
+        "Buzz Aldrin and Pete Conrad",
+        "Neil Armstrong and Buzz Aldrin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neil Armstrong proclaimed: That is one small step for man, one giant leap for mankind, as he stepped onto the lunar regolith.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Apollo mission in December 1968 was the first crewed spacecraft to leave Earth orbit and orbit the Moon, capturing the famous Earthrise photograph?",
+      "options": [
+        "Apollo 8",
+        "Apollo 7",
+        "Apollo 9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Astronauts Frank Borman, Jim Lovell, and Bill Anders orbited the Moon ten times on Christmas Eve 1968, reading from the Book of Genesis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Apollo spacecraft component, built by Grumman on Long Island, consisted of a descent stage that remained on the lunar surface and an ascent stage to return crew to orbit?",
+      "options": [
+        "Command Module",
+        "Lunar Module",
+        "Service Module"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fragile, un-aerodynamic Lunar Module operated exclusively in the vacuum of space, landing twelve astronauts on the Moon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dramatic 1970 lunar mission suffered an oxygen tank explosion en route to the Moon, returning its crew safely using the Lunar Module as a lifeboat?",
+      "options": [
+        "Apollo 12",
+        "Apollo 14",
+        "Apollo 13"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commander Jim Lovell, Jack Swigert, and Fred Haise survived through brilliant improvisations by NASA Mission Control in Houston.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Neil Armstrong and Buzz Aldrin make history by landing on the surface of the Moon during the Apollo 11 mission?",
+      "target": 1969,
+      "metricUnit": "year",
+      "imperialDisplay": "1969 AD",
+      "explanation": "The Apollo 11 Lunar Module Eagle touched down on the lunar surface on July 20, 1969, at 20:17 UTC.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What battery-powered electric vehicle, built by Boeing and General Motors, was driven across the lunar surface on Apollo 15, 16, and 17?",
+      "options": [
+        "Lunar Roving Vehicle",
+        "Lunar Prospector",
+        "Moon Buggy Mark II"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Lunar Rover allowed astronauts to traverse tens of kilometers across craters and mountain rilles, with woven piano-wire mesh tires.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal rocket engine, five of which powered the Saturn V first stage, produced 1.5 million pounds of thrust each using liquid oxygen and kerosene?",
+      "options": [
+        "Rocketdyne J-2",
+        "Rocketdyne F-1",
+        "Aerojet AJ-10"
+      ],
+      "correctIndex": 1,
+      "explanation": "The F-1 engine remains the most powerful single-combustion-chamber liquid-propellant rocket engine ever flown.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which conical Apollo spacecraft module was the only component equipped with a heat shield and parachutes to return the three astronauts through Earth atmosphere?",
+      "options": [
+        "Service Module",
+        "Lunar Module Ascent Stage",
+        "Command Module"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Command Module entered Earth atmosphere at 40,000 km/h, protected by an ablative AVCOAT heat shield reaching 2,760 degrees Celsius.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the Apollo 17 commander who in December 1972 became the last human being to walk on the surface of the Moon?",
+      "options": [
+        "Eugene Cernan",
+        "Harrison Schmitt",
+        "Alan Bean"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eugene Cernan left his daughter initials in the lunar dust before stepping onto the ladder, concluding the Apollo lunar landings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many total American astronauts have walked on the surface of the Moon across the six successful Apollo lunar landing missions?",
+      "options": [
+        "10",
+        "12",
+        "14"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two astronauts walked on the Moon on each of Apollo 11, 12, 14, 15, 16, and 17, totaling twelve moonwalkers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total human beings have walked on the surface of the Moon in all of human history?",
+      "target": 12,
+      "metricUnit": "astronauts",
+      "imperialDisplay": "12 moonwalkers",
+      "explanation": "Exactly 12 NASA astronauts walked on the Moon between July 1969 and December 1972 during the Apollo program.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which orbiter flew the historic maiden flight of the NASA Space Shuttle program, STS-1, on April 12, 1981, piloted by John Young and Bob Crippen?",
+      "options": [
+        "Space Shuttle Challenger",
+        "Space Shuttle Discovery",
+        "Space Shuttle Columbia"
+      ],
+      "correctIndex": 2,
+      "explanation": "STS-1 was the first time in history that a brand-new crewed spacecraft was launched on its maiden orbital flight without prior uncrewed orbital tests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What reusable solid-propellant rockets flanking the Space Shuttle external tank provided seventy percent of liftoff thrust before parachuting into the ocean?",
+      "options": [
+        "Solid Rocket Boosters",
+        "Liquid Fuel Boosters",
+        "Auxiliary Thrust Pods"
+      ],
+      "correctIndex": 0,
+      "explanation": "The twin SRBs burned ammonium perchlorate composite propellant for two minutes, recovered by retrieval ships for refurbishment and reuse.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What thermal protection system material, composed of over twenty-four thousand silica ceramic tiles, shielded the Space Shuttle from 1,650 degrees reentry heat?",
+      "options": [
+        "Ablative Cork Resin",
+        "Silica Ceramic Tiles",
+        "Titanium Honeycomb"
+      ],
+      "correctIndex": 1,
+      "explanation": "The black High-Temperature Reusable Surface Insulation tiles dissipated orbital kinetic heat so efficiently they could be picked up bare-handed seconds after heating.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 15-meter robotic arm developed by Canada was mounted in the Shuttle payload bay to deploy, repair, and capture satellites and ISS modules?",
+      "options": [
+        "Dextre",
+        "Robonaut",
+        "Canadarm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built by SPAR Aerospace, the Canadarm operated on ninety Space Shuttle missions, famously capturing the Hubble Space Telescope during servicing missions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Space Shuttle orbiter holds the record for the most spaceflights in history, completing thirty-nine successful missions between 1984 and 2011?",
+      "options": [
+        "Space Shuttle Discovery",
+        "Space Shuttle Atlantis",
+        "Space Shuttle Endeavour"
+      ],
+      "correctIndex": 0,
+      "explanation": "Discovery deployed the Hubble Space Telescope, carried John Glenn back to space in 1998, and flew both Return to Flight recovery missions.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Space Shuttle program make its first orbital launch with the STS-1 mission of Columbia?",
+      "target": 1981,
+      "metricUnit": "year",
+      "imperialDisplay": "1981 AD",
+      "explanation": "Space Shuttle Columbia launched on STS-1 on April 12, 1981, exactly twenty years to the day after Yuri Gagarin flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Launched in 1977, which NASA deep-space probe became the farthest human-made object from Earth, entering interstellar space in August 2012?",
+      "options": [
+        "Voyager 2",
+        "Voyager 1",
+        "Pioneer 10"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voyager 1 carries the Golden Record with Earth sounds and images, now cruising over twenty-four billion kilometers from the Sun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sister probe to Voyager 1 is the only spacecraft in history to visit all four outer gas and ice giants: Jupiter, Saturn, Uranus, and Neptune?",
+      "options": [
+        "Pioneer 11",
+        "New Horizons",
+        "Voyager 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voyager 2 took advantage of a rare planetary alignment that occurs only once every 175 years to execute gravity-assist flybys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which joint NASA, ESA, and Italian Space Agency mission orbited Saturn for thirteen years, sending the Huygens probe to land on the moon Titan in 2005?",
+      "options": [
+        "Cassini-Huygens",
+        "Galileo",
+        "Juno"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cassini discovered water vapor geysers erupting from the subsurface ocean of Enceladus and methane rain lakes on Titan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA interplanetary probe flew past the dwarf planet Pluto in July 2015, capturing high-resolution photos of its nitrogen-ice heart Tombaugh Regio?",
+      "options": [
+        "Dawn",
+        "New Horizons",
+        "Deep Impact"
+      ],
+      "correctIndex": 1,
+      "explanation": "Launched in 2006, New Horizons later flew past Kuiper Belt object Arrokoth in 2019 at forty-three astronomical units from the Sun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA probe launched in 1989 was the first spacecraft to enter orbit around Jupiter, studying its atmosphere and volcanic moon Io?",
+      "options": [
+        "Juno",
+        "Pioneer 10",
+        "Galileo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Galileo deployed an atmospheric descent probe into Jupiter clouds and confirmed evidence of a subsurface saltwater ocean beneath Europa icy crust.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year were the twin Voyager 1 and Voyager 2 interstellar space probes launched by NASA?",
+      "target": 1977,
+      "metricUnit": "year",
+      "imperialDisplay": "1977 AD",
+      "explanation": "Voyager 2 was launched on August 20, 1977, and Voyager 1 followed on September 5, 1977, aboard Titan IIIE-Centaur rockets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous space telescope was deployed by Space Shuttle Discovery in 1990 and famously repaired in 1993 to correct spherical mirror aberration?",
+      "options": [
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Spitzer Space Telescope"
+      ],
+      "correctIndex": 0,
+      "explanation": "The installation of COSTAR optics during STS-61 allowed Hubble to capture razor-sharp images, determining the Hubble constant and age of the universe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which infrared space observatory launched on Christmas Day 2021 features a 6.5-meter gold-plated segmented beryllium mirror at the Sun-Earth L2 Lagrange point?",
+      "options": [
+        "Nancy Grace Roman Telescope",
+        "James Webb Space Telescope",
+        "Herschel Space Observatory"
+      ],
+      "correctIndex": 1,
+      "explanation": "JWST observes the earliest galaxies formed after the Big Bang, operating behind a five-layer tennis-court-sized Kapton sunshield.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA Great Observatory launched in 1999 uses grazing-incidence mirrors to observe high-energy X-rays from black holes and supernova remnants?",
+      "options": [
+        "Compton Gamma Ray Observatory",
+        "Spitzer Space Telescope",
+        "Chandra X-ray Observatory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after astrophysicist Subrahmanyan Chandrasekhar, Chandra maps million-degree gas clouds across colliding galaxy clusters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA planet-hunting space telescope launched in 2009 discovered over 2,600 confirmed exoplanets using the transit photometry method?",
+      "options": [
+        "Kepler Space Telescope",
+        "TESS",
+        "CoRoT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kepler monitored 150,000 stars simultaneously for minuscule dips in brightness caused by planets passing across their host stars.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which cryogenic infrared space telescope launched in 2003 observed cold interstellar dust clouds, protoplanetary disks, and brown dwarfs in Earth-trailing orbit?",
+      "options": [
+        "WISE",
+        "Spitzer Space Telescope",
+        "Planck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spitzer cooled its primary detectors with liquid helium to minus 268 degrees Celsius, discovering the colossal Phoebe ring around Saturn.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate distance in millions of kilometers from Earth to the Second Lagrange Point L2 where the James Webb Space Telescope operates?",
+      "target": 1.5,
+      "metricUnit": "million km",
+      "imperialDisplay": "1 million miles",
+      "explanation": "JWST operates in a halo orbit around the Sun-Earth L2 Lagrange point, approximately 1.5 million kilometers directly away from the Sun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which multinational microgravity laboratory, assembled in orbit since 1998, has maintained continuous human presence in space since November 2000?",
+      "options": [
+        "Mir Space Station",
+        "Tiangong Space Station",
+        "International Space Station"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ISS represents collaboration among NASA, Roscosmos, ESA, JAXA, and CSA, orbiting Earth every ninety minutes at 28,000 km/h.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the world first crewed space station, launched into orbit by the Soviet Union on a Proton rocket in April 1971?",
+      "options": [
+        "Salyut 1",
+        "Skylab",
+        "Almaz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Salyut 1 hosted the Soyuz 11 crew for twenty-three days of experiments before the cosmonauts tragically died during reentry depressurization.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which first American space station, built from a modified Saturn V third stage, hosted three astronaut crews in 1973 and 1974?",
+      "options": [
+        "Freedom",
+        "Skylab",
+        "Spacelab"
+      ],
+      "correctIndex": 1,
+      "explanation": "Skylab astronauts repaired a damaged thermal micrometeoroid shield and conducted extensive solar astronomy with the Apollo Telescope Mount.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which modular Soviet and Russian space station operated in low Earth orbit for fifteen years from 1986 until it was deorbited over the South Pacific in 2001?",
+      "options": [
+        "Salyut 7",
+        "Zvezda",
+        "Mir"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mir hosted cosmonaut Valeri Polyakov for a record 437 consecutive days in space and served as the testing ground for Shuttle-Mir joint missions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the modern modular Chinese space station completed in low Earth orbit in 2022, comprising the Tianhe, Wentian, and Mengtian modules?",
+      "options": [
+        "Tiangong",
+        "Shenzhou",
+        "Chang e"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tiangong, meaning Heavenly Palace, operates with a permanent three-person crew conducting microgravity physics, biology, and astronomy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the first foundational module, Zarya, of the International Space Station launched into orbit?",
+      "target": 1998,
+      "metricUnit": "year",
+      "imperialDisplay": "1998 AD",
+      "explanation": "The Russian-built, American-financed Zarya Functional Cargo Block module was launched from Baikonur on November 20, 1998.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two-stage rocket developed by SpaceX became the world first orbital-class rocket capable of vertically landing and reusing its first-stage booster in 2015?",
+      "options": [
+        "Falcon 1",
+        "Falcon 9",
+        "Falcon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Falcon 9 uses grid fins, cold-gas thrusters, and landing legs to touch down on autonomous spaceport drone ships and landing zones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which heavy-lift rocket made its debut in 2018 with two synchronized booster landings at Cape Canaveral and launched Elon Musk Tesla Roadster into solar orbit?",
+      "options": [
+        "Delta IV Heavy",
+        "Vulcan Centaur",
+        "Falcon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Falcon Heavy utilizes three Falcon 9 core stages with twenty-seven Merlin 1D engines producing over five million pounds of thrust.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which commercial spacecraft made history on May 30, 2020, by carrying NASA astronauts Bob Behnken and Doug Hurley to the ISS on the Demo-2 mission?",
+      "options": [
+        "Crew Dragon",
+        "Boeing Starliner",
+        "Dream Chaser"
+      ],
+      "correctIndex": 0,
+      "explanation": "SpaceX Crew Dragon restored American domestic human orbital launch capability for the first time since the Space Shuttle retired in 2011.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 120-meter-tall stainless steel launch system, powered by methane-fueled Raptor engines, is designed to be fully and rapidly reusable?",
+      "options": [
+        "New Glenn",
+        "Starship",
+        "Terran R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Composed of the Super Heavy booster and the Starship upper stage, it is engineered for orbital refilling and missions to the Moon and Mars.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rocket engine cycle used in the SpaceX Raptor engine combusts all propellant in separate pre-burners before entering the main combustion chamber for maximum efficiency?",
+      "options": [
+        "Gas Generator Cycle",
+        "Expander Cycle",
+        "Full-Flow Staged Combustion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Full-flow staged combustion eliminates inter-propellant seals and achieves record-breaking chamber pressures exceeding 350 bar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did SpaceX achieve the historic first successful vertical ground landing of an orbital Falcon 9 first-stage booster at Cape Canaveral?",
+      "target": 2015,
+      "metricUnit": "year",
+      "imperialDisplay": "2015 AD",
+      "explanation": "On December 21, 2015, Falcon 9 flight 20 landed vertically at Landing Zone 1 following an orbital satellite deployment.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive NASA rocket, powered by four RS-25 liquid engines and twin five-segment solid boosters, launched the uncrewed Artemis I lunar mission in 2022?",
+      "options": [
+        "Space Launch System",
+        "Saturn V",
+        "Ares I"
+      ],
+      "correctIndex": 0,
+      "explanation": "The SLS Block 1 produces 8.8 million pounds of peak thrust, making it the most powerful operational rocket ever flown by NASA.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which next-generation deep-space crew exploration capsule, built by Lockheed Martin with a European Service Module, completed the Artemis I lunar flight?",
+      "options": [
+        "Dragon",
+        "Orion",
+        "Starliner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Orion flew 432,000 kilometers beyond Earth, farther than any spacecraft designed for humans has ever traveled.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What planned international crewed space station will orbit the Moon in a Near-Rectilinear Halo Orbit to support lunar surface Artemis landings?",
+      "options": [
+        "Lunar Base Alpha",
+        "Artemis Station",
+        "Lunar Gateway"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gateway will provide docking, power, communications, and scientific airlocks for astronauts transferring between Orion and lunar landers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high-temperature ablative composite material covers the five-meter heat shield of the Orion spacecraft to survive 40,000 km/h lunar reentry?",
+      "options": [
+        "AVCOAT",
+        "PICA-X",
+        "Carbon-Carbon Composite"
+      ],
+      "correctIndex": 0,
+      "explanation": "AVCOAT slowly burns away in a controlled chemical ablation process, insulating the crew cabin against plasma temperatures exceeding 2,800 degrees Celsius.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA program, named after the Greek goddess of the Moon and twin sister of Apollo, aims to land the first woman and first person of color on the Moon?",
+      "options": [
+        "Constellation Program",
+        "Artemis Program",
+        "Mercury Program"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Artemis campaign includes commercial human landing systems, international surface rovers, and permanent scientific lunar infrastructure.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Artemis I mission successfully complete its maiden 25-day uncrewed flight test around the Moon?",
+      "target": 2022,
+      "metricUnit": "year",
+      "imperialDisplay": "2022 AD",
+      "explanation": "Artemis I launched on November 16, 2022, and splashed down successfully in the Pacific Ocean on December 11, 2022.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

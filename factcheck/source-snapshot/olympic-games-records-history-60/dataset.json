@@ -1,0 +1,641 @@
+{
+  "id": "olympic-games-records-history-60",
+  "theme": "The Olympic Games: Ancient Origins to Modern Glory",
+  "title": "The Olympic Games: Ancient Origins to Modern Glory",
+  "description": "A 60-question grand master assessment exploring ancient Olympia, the 1896 revival, track and field legends Jesse Owens and Usain Bolt, swimming phenom Michael Phelps, gymnastics perfect 10s, winter games, marathon triumphs, civil rights protests, and Paris 2024.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In which sacred sanctuary in the western Peloponnese of ancient Greece were the Ancient Olympic Games held in honor of Zeus?",
+      "options": [
+        "Olympia",
+        "Delphi",
+        "Nemea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ancient sanctuary of Olympia hosted the pan-Hellenic games, featuring the monumental Temple of Zeus and Phidias's ivory and gold statue."
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred reward was bestowed upon victorious athletes at the Ancient Olympic Games, crafted from branches of a sacred wild olive tree?",
+      "options": [
+        "Gold medallion",
+        "Kotinos Olive wreath",
+        "Bronze tripod"
+      ],
+      "correctIndex": 1,
+      "explanation": "Victors received a simple wreath of olive leaves (kotinos) cut with a golden sickle from the sacred tree near the Temple of Zeus, earning immense glory."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient brutal Olympic combat sport combined elements of boxing, wrestling, and kicking with virtually no rules except against biting and eye-gouging?",
+      "options": [
+        "Pygmachia",
+        "Pale",
+        "Pankration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pankration (all powers) was one of the most popular and violent events in antiquity, ending only upon submission or knockout."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the traditional Greek sacred truce declared before the Ancient Olympics to guarantee safe passage for athletes and spectators across warring states?",
+      "options": [
+        "Ekecheiria",
+        "Hoplitodromos",
+        "Stadion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Olympic Truce (Ekecheiria) suspended armed conflicts across Greek city-states during the month preceding and following the games."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the original and sole athletic event contested at the earliest recorded Ancient Olympic Games, a straight footrace of about 192 meters?",
+      "options": [
+        "Diaulos",
+        "Stadion footrace",
+        "Dolichos"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Stadion sprint measured the length of the Olympic stadium, won by cook Coroebus of Elis at the inaugural 776 BCE games."
+    },
+    {
+      "type": "number",
+      "question": "In what traditional inaugural year BCE were the first recorded Ancient Olympic Games held in Olympia, Greece?",
+      "target": 776,
+      "metricUnit": "BCE",
+      "imperialDisplay": "776 BCE inaugural games",
+      "explanation": "Classical tradition and Olympic chronologies date the first official recorded Olympic Games back to 776 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French aristocrat and educator is recognized as the Father of the Modern Olympic Games, founding the International Olympic Committee in 1894?",
+      "options": [
+        "Dimitrios Vikelas",
+        "Henri de Baillet-Latour",
+        "Pierre de Coubertin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Baron Pierre de Coubertin campaigned to revive the Olympic Games to promote international goodwill, physical education, and athletic excellence."
+    },
+    {
+      "type": "mcq",
+      "question": "In which historic city were the first modern Olympic Games staged in April 1896 in the reconstructed marble Panathenaic Stadium?",
+      "options": [
+        "Athens",
+        "Paris",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1896 Athens Games featured 241 male athletes representing 14 nations competing across 43 events."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek water carrier became a national hero by winning the first modern Olympic marathon from the plains of Marathon to Athens in 1896?",
+      "options": [
+        "Charilaos Vasilakos",
+        "Spyridon Louis",
+        "Ioannis Mitropoulos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spyridon Louis completed the 40-kilometer distance in 2 hours, 58 minutes, and 50 seconds before an ecstatic crowd of 80,000 spectators."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the traditional Latin motto of the Olympic Games, coined by Dominican priest Henri Didon, meaning Faster, Higher, Stronger?",
+      "options": [
+        "Veni, Vidi, Vici",
+        "In Hoc Signo Vinces",
+        "Citius, Altius, Fortius"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 2021, the International Olympic Committee officially updated the motto to Citius, Altius, Fortius - Communiter (Faster, Higher, Stronger - Together)."
+    },
+    {
+      "type": "mcq",
+      "question": "What do the five interlocking colored rings on the official Olympic flag represent, designed by Pierre de Coubertin in 1913?",
+      "options": [
+        "The five inhabited continents of the world",
+        "The five original ancient sports",
+        "The five founding nations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The blue, yellow, black, green, and red rings on a white background represent Africa, the Americas, Asia, Europe, and Oceania united in sport."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE were the first modern Olympic Games officially inaugurated in Athens, Greece?",
+      "target": 1896,
+      "metricUnit": "CE",
+      "imperialDisplay": "April 1896",
+      "explanation": "King George I of Greece officially opened the first modern Olympic Games on 6 April 1896 at the Panathenaic Stadium."
+    },
+    {
+      "type": "mcq",
+      "question": "Which African American track star shattered Adolf Hitler's Nazi Aryan supremacy propaganda by winning four gold medals at the 1936 Berlin Olympics?",
+      "options": [
+        "Ralph Metcalfe",
+        "Jesse Owens",
+        "Cornelius Johnson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jesse Owens won golds in the 100m, 200m, long jump, and 4x100m relay, receiving standing ovations from the German public."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Jamaican sprinting sensation completed the historic Olympic triple-triple, winning 100m and 200m gold medals across Beijing 2008, London 2012, and Rio 2016?",
+      "options": [
+        "Yohan Blake",
+        "Asafa Powell",
+        "Usain Bolt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Usain Bolt established world records of 9.58 seconds in the 100m and 19.19 seconds in the 200m, becoming the fastest human ever timed."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American track and field legend won nine Olympic gold medals across four games, including four consecutive long jump titles between 1984 and 1996?",
+      "options": [
+        "Carl Lewis",
+        "Al Oerter",
+        "Michael Johnson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carl Lewis matched Jesse Owens's four golds in a single games at Los Angeles 1984 and dominated the long jump pit for over a decade."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American long jumper produced a leap of 8.90 meters at the 1968 Mexico City Olympics, shattering the existing world record by 55 centimeters?",
+      "options": [
+        "Ralph Boston",
+        "Bob Beamon",
+        "Lynn Davies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beamon's legendary jump remained the world record for nearly 23 years and still stands as the longest-standing Olympic track and field record."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American sprinter won both the 200m and 400m Olympic titles at Atlanta 1996 wearing his famous golden running spikes?",
+      "options": [
+        "Maurice Greene",
+        "Jeremy Wariner",
+        "Michael Johnson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Michael Johnson set a blistering world record of 19.32 seconds in the 200 meters, completing an unprecedented 200m-400m Olympic double."
+    },
+    {
+      "type": "number",
+      "question": "What is Usain Bolt's official 100-meter sprinting world record time in seconds, set at the 2009 World Championships?",
+      "target": 9.58,
+      "metricUnit": "seconds",
+      "imperialDisplay": "9.58s world record",
+      "explanation": "Usain Bolt ran the 100 meters in an astonishing 9.58 seconds in Berlin in August 2009, clocking a peak speed of 44.72 km/h."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American swimmer became the most decorated Olympian of all time, amassing an astonishing 28 total Olympic medals, including 23 gold medals?",
+      "options": [
+        "Michael Phelps",
+        "Ryan Lochte",
+        "Caeleb Dressel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Michael Phelps competed across five Olympic Games from 2000 to 2016, breaking individual records that had stood since ancient Rhodes athlete Leonidas."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American swimming icon won seven gold medals and set seven world records in a single Olympic Games at Munich 1972?",
+      "options": [
+        "Matt Biondi",
+        "Mark Spitz",
+        "Don Schollander"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spitz's mustache and seven-gold haul stood as the ultimate single-games Olympic benchmark for 36 years until Michael Phelps won eight in Beijing 2008."
+    },
+    {
+      "type": "mcq",
+      "question": "Which dominant American distance swimmer won nine Olympic gold medals between London 2012 and Paris 2024, dominating the 800m and 1500m freestyle?",
+      "options": [
+        "Jenny Thompson",
+        "Dana Vollmer",
+        "Katie Ledecky"
+      ],
+      "correctIndex": 2,
+      "explanation": "Katie Ledecky became the most decorated American female Olympian in history, remaining undefeated in the Olympic 800m freestyle for four consecutive games."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian swimming prodigy nicknamed The Thorpedo won five Olympic gold medals across Sydney 2000 and Athens 2004?",
+      "options": [
+        "Ian Thorpe",
+        "Grant Hackett",
+        "Michael Klim"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ian Thorpe dominated world middle-distance freestyle in custom full-body black swimming suits before home crowds in Sydney."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French swimming phenom captured four individual gold medals and set four Olympic records at the Paris 2024 Games under coach Bob Bowman?",
+      "options": [
+        "Florent Manaudou",
+        "Leon Marchand",
+        "Alain Bernard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leon Marchand completed an unprecedented double on the same evening, winning both the 200m butterfly and 200m breaststroke golds."
+    },
+    {
+      "type": "number",
+      "question": "How many total career Olympic gold medals did American swimmer Michael Phelps win between 2004 and 2016?",
+      "target": 23,
+      "metricUnit": "gold medals",
+      "imperialDisplay": "23 gold medals",
+      "explanation": "Michael Phelps won 23 gold medals (plus 3 silver and 2 bronze) for a grand total of 28 Olympic medals, the most in history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 14-year-old Romanian gymnast made history at the 1976 Montreal Olympics by scoring the first-ever perfect 10.0 in modern Olympic gymnastics?",
+      "options": [
+        "Nellie Kim",
+        "Olga Korbut",
+        "Nadia Comaneci"
+      ],
+      "correctIndex": 2,
+      "explanation": "The scoreboard could only display three digits and showed 1.00 because manufacturers believed a perfect 10.00 was impossible to attain."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American gymnastics icon, the most decorated gymnast in history, has five eponymous skills named after her in the Code of Points?",
+      "options": [
+        "Simone Biles",
+        "Gabby Douglas",
+        "Aly Raisman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simone Biles has won 11 Olympic medals across Rio 2016, Tokyo 2020, and Paris 2024, executing superhuman tumbling passes and Yurchenko double pikes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Soviet gymnast held the record for the most total Olympic medals by any athlete (18 medals) for 48 years until surpassed by Michael Phelps in 2012?",
+      "options": [
+        "Polina Astakhova",
+        "Larisa Latynina",
+        "Ludmilla Tourischeva"
+      ],
+      "correctIndex": 1,
+      "explanation": "Latynina won nine gold, five silver, and four bronze medals across Melbourne 1956, Rome 1960, and Tokyo 1964."
+    },
+    {
+      "type": "mcq",
+      "question": "Which charismatic Soviet gymnast captivated the world at Munich 1972 with her daring Korbut Flip on the balance beam and uneven bars?",
+      "options": [
+        "Nadia Comaneci",
+        "Elena Mukhina",
+        "Olga Korbut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Olga Korbut's emotional charm and revolutionary aerial acrobatics catalyzed a massive global explosion in women's artistic gymnastics popularity."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese men's gymnast nicknamed King Kohei won back-to-back Olympic all-around gold medals in London 2012 and Rio 2016?",
+      "options": [
+        "Kohei Uchimura",
+        "Sawao Kato",
+        "Kenzo Shirai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kohei Uchimura is widely considered the greatest male gymnast in history, winning six consecutive world all-around titles alongside his Olympic golds."
+    },
+    {
+      "type": "number",
+      "question": "What historic score did Nadia Comaneci achieve on the uneven bars at Montreal 1976, marking the first perfect score in Olympic history?",
+      "target": 10,
+      "metricUnit": "score",
+      "imperialDisplay": "A Perfect 10.0",
+      "explanation": "Nadia Comaneci received the first perfect 10.0 score in Olympic gymnastics history on 18 July 1976, earning seven perfect tens across the games."
+    },
+    {
+      "type": "mcq",
+      "question": "In which French Alpine resort town were the inaugural Winter Olympic Games held in 1924?",
+      "options": [
+        "Grenoble",
+        "Chamonix",
+        "Albertville"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1924 International Winter Sports Week in Chamonix was retroactively designated by the IOC as the first Olympic Winter Games."
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 1980 Lake Placid ice hockey match saw a team of US college players upset the four-time defending champion Soviet national team?",
+      "options": [
+        "The Ice Bowl",
+        "Summit Series",
+        "Miracle on Ice"
+      ],
+      "correctIndex": 2,
+      "explanation": "Coached by Herb Brooks, the underdog United States team defeated the powerhouse Soviet Union 4-3 before capturing the gold medal against Finland."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American speed skater accomplished the unprecedented sweep of winning all five individual speed skating gold medals at Lake Placid 1980?",
+      "options": [
+        "Eric Heiden",
+        "Dan Jansen",
+        "Apolo Ohno"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eric Heiden won golds at 500m, 1000m, 1500m, 5000m, and 10000m, setting world or Olympic records in every single race."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American snowboarder won three Olympic gold medals in halfpipe across Turin 2006, Vancouver 2010, and PyeongChang 2018?",
+      "options": [
+        "Danny Davis",
+        "Shaun White",
+        "Ayumu Hirano"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nicknamed The Flying Tomato for his red hair, Shaun White revolutionized competitive snowboarding with massive aerial amplitude and double McTwists."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian cross-country skier holds the record for the most successful male Winter Olympian with 15 total medals, including 8 golds?",
+      "options": [
+        "Ole Einar Bjorndalen",
+        "Bjorn Daehlie",
+        "Marit Bjorgen and Johannes Klaebo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Biathlete Ole Einar Bjorndalen earned the moniker The King of Biathlon, competing across six Winter Olympics from 1994 to 2014."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE were the first official Winter Olympic Games staged in Chamonix, France?",
+      "target": 1924,
+      "metricUnit": "CE",
+      "imperialDisplay": "January 1924",
+      "explanation": "The inaugural Winter Olympic Games opened on 25 January 1924 in Chamonix at the foot of Mont Blanc."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ethiopian runner made history at the Rome 1960 Olympics by running barefoot across the cobblestone Appian Way to win marathon gold?",
+      "options": [
+        "Abebe Bikila",
+        "Mamo Wolde",
+        "Haile Gebrselassie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abebe Bikila became the first sub-Saharan African to win an Olympic gold medal, successfully defending his marathon title with shoes in Tokyo 1964."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Finnish distance runner, known as the Flying Finn, won nine Olympic gold medals across the 1920s running with a stopwatch in hand?",
+      "options": [
+        "Ville Ritola",
+        "Paavo Nurmi",
+        "Hannes Kolehmainen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paavo Nurmi won five gold medals in a single games at Paris 1924, winning the 1500m and 5000m finals within two hours of each other."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Native American athlete won both the pentathlon and decathlon by staggering margins at the 1912 Stockholm Olympics, hailed by King Gustav V as the greatest athlete?",
+      "options": [
+        "Billy Mills",
+        "Ellery Clark",
+        "Jim Thorpe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thorpe's gold medals were stripped in 1913 over minor semi-pro baseball earnings but were fully restored posthumously by the IOC."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Czech distance runner pulled off the unique triple crown at Helsinki 1952 by winning the 5,000m, 10,000m, and Marathon in a single games?",
+      "options": [
+        "Emil Zatopek",
+        "Ron Clarke",
+        "Alain Mimoun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nicknamed the Czech Locomotive for his strained facial grimaces and relentless pace, Zatopek won the marathon in his first-ever attempt at the distance."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Kenyan distance running legend became the third man to win back-to-back Olympic marathon titles in Rio 2016 and Tokyo 2020?",
+      "options": [
+        "Samuel Wanjiru",
+        "Eliud Kipchoge",
+        "Kipchoge Keino"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eliud Kipchoge dominated global marathon running for over a decade, clocking the first sub-two-hour marathon in a special exhibition in Vienna."
+    },
+    {
+      "type": "number",
+      "question": "What is the exact official distance of a standard modern Olympic marathon in meters?",
+      "target": 42195,
+      "metricUnit": "meters",
+      "imperialDisplay": "26 miles 385 yards",
+      "explanation": "The marathon distance was standardized at exactly 42,195 meters (26.2 miles) at London 1908 so the race could start at Windsor Castle and finish in front of the Royal Box."
+    },
+    {
+      "type": "mcq",
+      "question": "At the 1968 Mexico City Olympics, which two African American sprinters raised black-gloved fists on the medal podium during the US anthem to protest racial injustice?",
+      "options": [
+        "Lee Evans and Larry James",
+        "Bob Beamon and Ralph Boston",
+        "Tommie Smith and John Carlos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gold medalist Tommie Smith and bronze medalist John Carlos were joined by Australian silver medalist Peter Norman who wore an Olympic Project for Human Rights badge."
+    },
+    {
+      "type": "mcq",
+      "question": "At the 1972 Munich Olympics, which Palestinian terrorist group took eleven Israeli athletes and coaches hostage, culminating in their tragic deaths?",
+      "options": [
+        "Black September",
+        "Hamas",
+        "PLO"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Munich massacre led to profound soul-searching and transformed modern security protocols for international sports gatherings."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Olympic Games was boycotted by the United States and 64 other nations in protest of the 1979 Soviet invasion of Afghanistan?",
+      "options": [
+        "1984 Los Angeles Olympics",
+        "1980 Moscow Olympics",
+        "1976 Montreal Olympics"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Soviet Union and Eastern Bloc nations reciprocated four years later by boycotting the 1984 Los Angeles Summer Olympics."
+    },
+    {
+      "type": "mcq",
+      "question": "In 1988 at Seoul, which Canadian sprinter was stripped of his 100m gold medal and world record after testing positive for the banned anabolic steroid stanozolol?",
+      "options": [
+        "Carl Lewis",
+        "Linford Christie",
+        "Ben Johnson"
+      ],
+      "correctIndex": 2,
+      "explanation": "The scandal was termed the dirtiest race in history, propelling the international sports community to establish the World Anti-Doping Agency (WADA)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American heavyweight boxing icon, then known as Cassius Clay, won the light heavyweight Olympic gold medal at Rome 1960?",
+      "options": [
+        "Muhammad Ali",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clay threw his gold medal into the Ohio River after being refused service in a segregated Louisville restaurant, later receiving a replacement medal in 1996."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Tommie Smith and John Carlos stage their iconic silent civil rights protest on the medal podium in Mexico City?",
+      "target": 1968,
+      "metricUnit": "CE",
+      "imperialDisplay": "October 1968",
+      "explanation": "The historic podium protest took place on 16 October 1968 following the men's 200-meter final in Mexico City."
+    },
+    {
+      "type": "mcq",
+      "question": "How is the Olympic Flame traditionally ignited in the ruins of ancient Olympia months before each Olympic Games?",
+      "options": [
+        "By an electric spark ignition",
+        "By parabolic mirror concentrating sun rays",
+        "By a sacred eternal charcoal flame"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Greek actress playing a High Priestess captures the pure rays of the sun using a parabolic concave mirror to ignite the Olympic flame at the Temple of Hera."
+    },
+    {
+      "type": "mcq",
+      "question": "In the Parade of Nations during the Olympic Opening Ceremony, which nation traditionally enters the stadium first as the founder of the ancient games?",
+      "options": [
+        "The Host Nation",
+        "The United States",
+        "Greece"
+      ],
+      "correctIndex": 2,
+      "explanation": "Greece always leads the procession of athletes in honor of the ancient Olympics, while the host country's delegation marches in last."
+    },
+    {
+      "type": "mcq",
+      "question": "Who composed the inspiring Olympic Hymn that has been officially performed at every Olympic Opening Ceremony since 1960?",
+      "options": [
+        "Spyridon Samaras",
+        "Mikis Theodorakis",
+        "John Williams"
+      ],
+      "correctIndex": 0,
+      "explanation": "With Greek lyrics by poet Kostis Palamas, the anthem premiered at the inaugural 1896 Athens Games and was adopted as the official anthem in 1958."
+    },
+    {
+      "type": "mcq",
+      "question": "What ceremonial honor is bestowed upon a chosen athlete, judge, and coach who recite the Olympic Oath on behalf of all competitors during the opening ceremony?",
+      "options": [
+        "Lighting the Cauldron",
+        "Taking the Olympic Oath",
+        "Carrying the Flag"
+      ],
+      "correctIndex": 1,
+      "explanation": "The oath commits participants to respect the rules, reject doping, and compete in the true spirit of sportsmanship and fair play."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic boxing legend, trembling with Parkinson's syndrome, emotionally lit the Olympic Cauldron to open the Atlanta 1996 Olympic Games?",
+      "options": [
+        "Evander Holyfield",
+        "Sugar Ray Leonard",
+        "Muhammad Ali"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muhammad Ali lighting the cauldron remains one of the most emotional and enduring moments in modern television and Olympic history."
+    },
+    {
+      "type": "number",
+      "question": "How many colored interlocking rings are displayed on the official flag of the International Olympic Committee?",
+      "target": 5,
+      "metricUnit": "rings",
+      "imperialDisplay": "The 5 Olympic Rings",
+      "explanation": "The flag features five interlocking rings: blue, yellow, black, green, and red, representing the union of the world's five continents."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish-American pole vaulter broke his own world record for the ninth time by clearing 6.25 meters to capture gold at Paris 2024?",
+      "options": [
+        "Armand Duplantis",
+        "Sam Kendricks",
+        "Renaud Lavillenie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Armand Mondo Duplantis captivated 80,000 spectators at the Stade de France, clearing 6.25m on his final attempt to solidify his status as the greatest pole vaulter."
+    },
+    {
+      "type": "mcq",
+      "question": "Which global capital city joined London as the only city in history to host the Summer Olympic Games three separate times in 1900, 1924, and 2024?",
+      "options": [
+        "Los Angeles",
+        "Paris",
+        "Tokyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paris hosted the 2024 Olympic Games exactly one century after its 1924 games, featuring the first-ever open-air opening ceremony along the River Seine."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pacific island territory of French Polynesia hosted the Olympic surfing competitions during the Paris 2024 Olympic Games?",
+      "options": [
+        "New Caledonia",
+        "Bora Bora",
+        "Tahiti Teahupo'o"
+      ],
+      "correctIndex": 2,
+      "explanation": "Teahupo'o is famous for one of the heaviest, most dangerous barreling reef breaks in the world, located 15,000 kilometers from Paris."
+    },
+    {
+      "type": "mcq",
+      "question": "Which urban dance sport made its official Olympic medal debut at the Paris 2024 Games at the Place de la Concorde?",
+      "options": [
+        "Breaking Breakdancing",
+        "Skateboarding",
+        "Sport Climbing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breaking featured B-Boys and B-Girls battling in one-on-one matches judged on creativity, musicality, technique, and personality."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American basketball player won his fifth consecutive Olympic gold medal at Paris 2024, becoming the most decorated male basketball Olympian?",
+      "options": [
+        "LeBron James",
+        "Kevin Durant",
+        "Stephen Curry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kevin Durant won gold in London 2012, Rio 2016, Tokyo 2020, and Paris 2024, scoring more points than any other player in US Olympic basketball history."
+    },
+    {
+      "type": "number",
+      "question": "What is the pole vault world record clearance height in meters achieved by Armand Duplantis to win gold at the Paris 2024 Olympics?",
+      "target": 6.25,
+      "metricUnit": "meters",
+      "imperialDisplay": "20 ft 6 in",
+      "explanation": "Duplantis cleared 6.25 meters on 5 August 2024 in Paris, breaking the world record for the ninth time in his career."
+    }
+  ]
+}

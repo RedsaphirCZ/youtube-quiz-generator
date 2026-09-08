@@ -1,0 +1,703 @@
+{
+  "id": "classical-music-great-composers-60",
+  "theme": "Classical Music: Mozart, Beethoven & Symphony",
+  "title": "Classical Music: Mozart, Beethoven & Symphony",
+  "description": "A 60-question grand master assessment on the Baroque pioneers, Classical masterworks of Mozart and Beethoven, Romantic symphonies, opera grandeur, Russian titans, and modern orchestral innovations.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which German Baroque master composed the monumental Brandenburg Concertos and The Well-Tempered Clavier?",
+      "options": [
+        "Johann Sebastian Bach",
+        "George Frideric Handel",
+        "Georg Philipp Telemann"
+      ],
+      "correctIndex": 0,
+      "explanation": "J.S. Bach composed the six Brandenburg Concertos in 1721 and served as Thomaskantor in Leipzig for over 27 years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Venetian composer, known as The Red Priest, composed the famous set of four violin concertos titled The Four Seasons?",
+      "options": [
+        "Arcangelo Corelli",
+        "Antonio Vivaldi",
+        "Tomaso Albinoni"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antonio Vivaldi was an ordained Catholic priest with reddish hair who taught and composed at the Ospedale della Pieta orphanage in Venice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "George Frideric Handel composed which world-famous 1741 English-language oratorio featuring the iconic Hallelujah Chorus?",
+      "options": [
+        "Judas Maccabaeus",
+        "Solomon",
+        "Messiah"
+      ],
+      "correctIndex": 2,
+      "explanation": "Handel composed Messiah in just 24 days in 1741, premiering the work in Dublin the following year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English Baroque composer created the opera Dido and Aeneas, featuring the poignant aria Dido's Lament?",
+      "options": [
+        "Henry Purcell",
+        "Thomas Tallis",
+        "William Byrd"
+      ],
+      "correctIndex": 0,
+      "explanation": "Henry Purcell served as organist at Westminster Abbey and became one of England's greatest Baroque composers before dying at age 36.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What keyboard tuning system did J.S. Bach promote through two books of preludes and fugues in all 24 major and minor keys?",
+      "options": [
+        "Mean-tone temperament",
+        "Well-temperament",
+        "Just intonation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Well-Tempered Clavier demonstrated that keyboard instruments could play smoothly in every key without jarring dissonance.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did George Frideric Handel premiere his grand English oratorio Messiah in Dublin?",
+      "target": 1742,
+      "metricUnit": "CE",
+      "imperialDisplay": "April 1742",
+      "explanation": "Handel's Messiah received its historic premiere on 13 April 1742 at the Great Music Hall on Fishamble Street in Dublin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which Austrian city was child prodigy Wolfgang Amadeus Mozart born in January 1756?",
+      "options": [
+        "Vienna",
+        "Innsbruck",
+        "Salzburg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mozart was born in Salzburg to composer Leopold Mozart and showed astonishing virtuosity on keyboard and violin from age four.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mysterious unfinished masterwork was Mozart composing on his deathbed in December 1791, later completed by Franz Xaver Sussmayr?",
+      "options": [
+        "Requiem in D minor",
+        "Great Mass in C minor",
+        "Coronation Mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Count Franz von Walsegg secretly commissioned the Requiem, which Mozart left incomplete at his death at age 35.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mozart German Singspiel opera features the character Papageno the birdcatcher and the virtuoso Queen of the Night aria?",
+      "options": [
+        "The Abduction from the Seraglio",
+        "The Magic Flute",
+        "Cosi fan tutte"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Magic Flute (Die Zauberflote) premiered in Vienna in September 1791, just two months before Mozart's death.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian librettist collaborated with Mozart on three of his greatest operas: The Marriage of Figaro, Don Giovanni, and Cosi fan tutte?",
+      "options": [
+        "Pietro Metastasio",
+        "Arrigo Boito",
+        "Lorenzo Da Ponte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lorenzo Da Ponte wrote the witty, incisive Italian libretti that helped establish Mozart's greatest operatic masterpieces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the official cataloguing prefix used for Mozart's compositions, named after the Austrian botanist and musicologist who indexed them?",
+      "options": [
+        "K",
+        "BWV",
+        "Opus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ludwig von Kochel published the first chronological catalog of Mozart's works in 1862, assigning K numbers to all 626 works.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total documented musical compositions are indexed in the Kochel catalog of Mozart's works?",
+      "target": 626,
+      "metricUnit": "compositions",
+      "imperialDisplay": "K. 1 to K. 626",
+      "explanation": "The Kochel catalog documents exactly 626 distinct compositions created by Mozart across his prolific 35-year life.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Beethoven symphony, originally dedicated to Napoleon Bonaparte, marked the monumental transition from Classical to Romantic music?",
+      "options": [
+        "Symphony No. 5",
+        "Symphony No. 3 Eroica",
+        "Symphony No. 7"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beethoven tore up the title page dedicating Symphony No. 3 to Napoleon upon learning that Bonaparte had crowned himself Emperor of the French.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In the finale of his Ninth Symphony, Beethoven set Friedrich Schiller's poem celebrating universal brotherhood, titled what?",
+      "options": [
+        "Erlkonig",
+        "Song of the Bell",
+        "Ode to Joy"
+      ],
+      "correctIndex": 2,
+      "explanation": "The choral finale of Symphony No. 9 introduced vocal soloists and chorus into a major symphony for the first time in classical music history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tragic physical ailment began afflicting Beethoven in his late twenties, leading to near-total loss by his fifties?",
+      "options": [
+        "Deafness",
+        "Blindness",
+        "Paralysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite severe hearing loss starting around 1798, Beethoven continued composing profound works using internal hearing and bone conduction.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous Beethoven piano sonata in C-sharp minor was given its nocturnal nickname by poet Ludwig Rellstab in 1832?",
+      "options": [
+        "Pathetique Sonata",
+        "Moonlight Sonata",
+        "Appassionata Sonata"
+      ],
+      "correctIndex": 1,
+      "explanation": "Piano Sonata No. 14 was nicknamed Moonlight because Rellstab likened its first movement to moonlight shimmering on Lake Lucerne.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which letter written to his brothers in 1802 did Beethoven express his deep despair over his worsening deafness and his devotion to art?",
+      "options": [
+        "Immortal Beloved Letter",
+        "Vienna Manifesto",
+        "Heiligenstadt Testament"
+      ],
+      "correctIndex": 2,
+      "explanation": "Written in Heiligenstadt near Vienna, the poignant testament revealed Beethoven's resolution to overcome despair through his musical mission.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many numbered, fully completed symphonies did Ludwig van Beethoven compose during his lifetime?",
+      "target": 9,
+      "metricUnit": "symphonies",
+      "imperialDisplay": "Symphonies 1 through 9",
+      "explanation": "Beethoven completed exactly 9 full symphonies between 1799 and 1824, fundamentally transforming the symphonic form.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish-born virtuoso composer was hailed as the Poet of the Piano, creating celebrated nocturnes, mazurkas, and polonaises?",
+      "options": [
+        "Frederic Chopin",
+        "Franz Liszt",
+        "Robert Schumann"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chopin settled in Paris in 1831 and dedicated almost his entire compositional output to the expressive capabilities of the solo piano.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian pianist and composer created the concept of the modern solo piano recital and invented the symphonic poem?",
+      "options": [
+        "Bela Bartok",
+        "Franz Liszt",
+        "Johannes Brahms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liszt was the 19th century's foremost piano superstar, sparking Lisztomania across Europe with his unmatched technical brilliance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German composer was championed as Beethoven's true symphonic heir, composing his famous Lullaby and Academic Festival Overture?",
+      "options": [
+        "Felix Mendelssohn",
+        "Robert Schumann",
+        "Johannes Brahms"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brahms spent over twenty years perfecting his First Symphony, which conductor Hans von Bulow famously hailed as Beethoven's Tenth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which early Romantic composer helped spark a 19th-century J.S. Bach revival by conducting the St. Matthew Passion in Berlin in 1829?",
+      "options": [
+        "Felix Mendelssohn",
+        "Franz Schubert",
+        "Carl Maria von Weber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mendelssohn's historic Berlin performance at age 20 rescued Bach's masterpiece from obscurity and reignited worldwide appreciation for Bach.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian master composed more than 600 Lieder (art songs), including Erlkonig, before dying in Vienna at age 31?",
+      "options": [
+        "Hugo Wolf",
+        "Franz Schubert",
+        "Gustav Mahler"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schubert established the German Lied as a supreme art form and composed masterworks such as the Unfinished Symphony and the Trout Quintet.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many solo piano Nocturnes did Frederic Chopin compose across his career?",
+      "target": 21,
+      "metricUnit": "nocturnes",
+      "imperialDisplay": "21 solo nocturnes",
+      "explanation": "Chopin composed 21 nocturnal piano pieces between 1827 and 1846, establishing them as quintessential Romantic keyboard masterworks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian composer created the iconic ballets Swan Lake, The Sleeping Beauty, and The Nutcracker?",
+      "options": [
+        "Modest Mussorgsky",
+        "Sergei Prokofiev",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tchaikovsky's sweeping melodies and dramatic orchestral flair made him one of the most beloved and performed composers in global music history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian nationalist composer wrote the dazzling orchestral suite Scheherazade based on One Thousand and One Nights?",
+      "options": [
+        "Nikolai Rimsky-Korsakov",
+        "Alexander Borodin",
+        "Cesar Cui"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rimsky-Korsakov was a master of colorful orchestration and a leading member of the Russian group of composers known as The Five.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which towering Russian virtuoso pianist and composer created the beloved Piano Concerto No. 2 in C minor after overcoming severe depression?",
+      "options": [
+        "Alexander Scriabin",
+        "Sergei Rachmaninoff",
+        "Anton Rubinstein"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rachmaninoff dedicated the triumphant concerto to his hypnotherapist Nikolai Dahl, who helped him overcome creative paralysis after his First Symphony flopped.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1913 Igor Stravinsky ballet caused a legendary riot at its Paris premiere due to its raw polyrhythms and avant-garde choreography?",
+      "options": [
+        "The Firebird",
+        "Petrushka",
+        "The Rite of Spring"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Rite of Spring (Le Sacre du printemps) revolutionized 20th-century rhythm and orchestration, shocking the Parisian audience at the Theatre des Champs-Elysees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Russian composer created the orchestral tone poem Night on Bald Mountain and the piano suite Pictures at an Exhibition?",
+      "options": [
+        "Modest Mussorgsky",
+        "Mily Balakirev",
+        "Mikhail Glinka"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mussorgsky drew deep inspiration from Russian folklore and history, also composing the landmark national opera Boris Godunov.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Tchaikovsky's holiday ballet The Nutcracker premiere at the Mariinsky Theatre in Saint Petersburg?",
+      "target": 1892,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 1892",
+      "explanation": "The Nutcracker premiered on 18 December 1892 in Saint Petersburg, paired on a double bill with Tchaikovsky's opera Iolanta.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian opera master composed Nabucco, Rigoletto, Il Trovatore, and La Traviata?",
+      "options": [
+        "Giacomo Puccini",
+        "Giuseppe Verdi",
+        "Gioachino Rossini"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verdi was the dominant figure in Italian 19th-century opera, whose patriotic chorus Va, pensiero from Nabucco became an anthem of Italian unification.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian composer created the emotionally devastating verismo operas La Boheme, Tosca, and Madama Butterfly?",
+      "options": [
+        "Ruggero Leoncavallo",
+        "Pietro Mascagni",
+        "Giacomo Puccini"
+      ],
+      "correctIndex": 2,
+      "explanation": "Puccini's soaring melodies and vivid characterizations established his works as permanent cornerstones of the international operatic repertoire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German composer developed the concept of the Gesamtkunstwerk (total work of art) and wrote the monumental four-opera Ring Cycle?",
+      "options": [
+        "Richard Wagner",
+        "Carl Maria von Weber",
+        "Richard Strauss"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wagner built his own festival opera house in Bayreuth, Germany, specifically designed to stage his epic music dramas with hidden orchestra pit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French composer died in 1875 shortly after the scandalous premiere of his masterpiece Carmen, never seeing its global acclaim?",
+      "options": [
+        "Charles Gounod",
+        "Georges Bizet",
+        "Camille Saint-Saens"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bizet died of a heart attack at age 36, believing Carmen had failed; today it is one of the world's three most frequently performed operas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Rossini opera features the famously rapid patter aria Largo al factotum sung by the charismatic barber Figaro?",
+      "options": [
+        "William Tell",
+        "La Cenerentola",
+        "The Barber of Seville"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gioachino Rossini wrote The Barber of Seville in less than three weeks in 1816, establishing it as the supreme comedic bel canto opera.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total operas comprise Richard Wagner's epic masterwork The Ring of the Nibelung (Der Ring des Nibelungen)?",
+      "target": 4,
+      "metricUnit": "operas",
+      "imperialDisplay": "4 epic music dramas",
+      "explanation": "The Ring Cycle comprises Das Rheingold, Die Walkure, Siegfried, and Gotterdammerung, performing over four consecutive festival evenings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bohemian-Austrian composer and conductor famously stated, The symphony must be like the world. It must embrace everything?",
+      "options": [
+        "Gustav Mahler",
+        "Anton Bruckner",
+        "Richard Strauss"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mahler composed monumental symphonies with massive orchestrations and vocal movements, including the Resurrection Symphony and Symphony of a Thousand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French Impressionist master created the shimmering orchestral prelude Prelude to the Afternoon of a Faun and the piano piece Clair de lune?",
+      "options": [
+        "Maurice Ravel",
+        "Claude Debussy",
+        "Erik Satie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Debussy rejected rigid Germanic forms in favor of subtle tonal colors, whole-tone scales, and evocative atmospheric soundscapes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French master composed the hypnotic, steadily crescendoing orchestral piece Bolero in 1928 for dancer Ida Rubinstein?",
+      "options": [
+        "Gabriel Faure",
+        "Paul Dukas",
+        "Maurice Ravel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bolero repeats a single two-part melody over an unchanging Spanish snare-drum rhythm while gradually adding orchestral layers until a massive climax.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German composer composed the tone poem Also sprach Zarathustra, whose dramatic opening sunrise fanfare became iconic in 2001: A Space Odyssey?",
+      "options": [
+        "Richard Strauss",
+        "Max Reger",
+        "Paul Hindemith"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strauss expanded orchestral virtuosity with landmark tone poems and groundbreaking modern operas including Salome and Elektra.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Finnish national composer wrote the stirring patriotic tone poem Finlandia and the Karelia Suite?",
+      "options": [
+        "Edvard Grieg",
+        "Jean Sibelius",
+        "Carl Nielsen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sibelius's music helped rally Finnish national identity during Russian domination, earning him status as Finland's greatest cultural icon.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Claude Debussy publish his celebrated piano masterwork Suite bergamasque containing Clair de lune?",
+      "target": 1905,
+      "metricUnit": "CE",
+      "imperialDisplay": "circa 1905",
+      "explanation": "Though composed starting in 1890, Debussy revised and officially published the complete Suite bergamasque in 1905.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian master traveled through Eastern European villages recording authentic peasant folk melodies with a phonograph?",
+      "options": [
+        "Zoltan Kodaly",
+        "Gyorgy Ligeti",
+        "Bela Bartok"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bartok combined ethnomusicological field research with cutting-edge 20th-century harmony, composing the landmark Concerto for Orchestra.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Soviet composer wrote his triumphant Fifth Symphony in 1937, subtitled A Soviet artist's response to just criticism, to appease Stalin?",
+      "options": [
+        "Dmitri Shostakovich",
+        "Sergei Prokofiev",
+        "Aram Khachaturian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shostakovich lived under constant threat of Stalinist purges, embedding subtle irony and defiance throughout his 15 symphonies and 15 string quartets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian pioneer developed the twelve-tone technique (dodecaphony) and led the Second Viennese School?",
+      "options": [
+        "Alban Berg",
+        "Arnold Schoenberg",
+        "Anton Webern"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schoenberg dismantled traditional Western tonality, ensuring all 12 chromatic pitches were treated with equal structural importance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American composer created the distinctly American orchestral sound in ballets such as Appalachian Spring, Rodeo, and Billy the Kid?",
+      "options": [
+        "Charles Ives",
+        "Samuel Barber",
+        "Aaron Copland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Copland used open intervals, folk melodies, and pastoral harmonies that came to define the musical landscape of the American West.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American composer bridged classical music and jazz in 1924 with his iconic concert piece Rhapsody in Blue?",
+      "options": [
+        "George Gershwin",
+        "Cole Porter",
+        "Leonard Bernstein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gershwin composed Rhapsody in Blue for Paul Whiteman's jazz band, showcasing virtuosic piano passages and famous clarinet glissando.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did George Gershwin's Rhapsody in Blue receive its historic Aeolian Hall premiere in New York?",
+      "target": 1924,
+      "metricUnit": "CE",
+      "imperialDisplay": "February 1924",
+      "explanation": "Rhapsody in Blue premiered on 12 February 1924 in New York at a concert titled An Experiment in Modern Music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Cremonese violin maker crafted the most prized and acoustically flawless stringed instruments during the golden era between 1644 and 1737?",
+      "options": [
+        "Andrea Amati",
+        "Antonio Stradivari",
+        "Giuseppe Guarneri"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stradivari crafted over 1,100 violins, violas, and cellos, of which around 650 survive today as multi-million dollar masterpieces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What double-reed woodwind instrument plays the tuning concert A (A440) for the entire orchestra to tune to before a concert?",
+      "options": [
+        "Flute",
+        "Clarinet",
+        "Oboe"
+      ],
+      "correctIndex": 2,
+      "explanation": "The oboe's bright, penetrating harmonic overtone structure makes it easily audible across all instrument sections for tuning.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian musical term indicates a very loud, powerful dynamic marking in orchestral scores?",
+      "options": [
+        "Fortissimo",
+        "Pianissimo",
+        "Mezzo forte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fortissimo (ff) instructs musicians to perform very loudly, contrasted with pianissimo (pp) for very soft playing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest-pitched member of the orchestral brass family, typically playing the lead melodic lines?",
+      "options": [
+        "French Horn",
+        "Trumpet",
+        "Trombone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The trumpet possesses the highest register among brass instruments and provides brilliant carrying power in orchestral climaxes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which charismatic American conductor and composer hosted the Young People's Concerts on CBS and composed West Side Story?",
+      "options": [
+        "Arthur Fiedler",
+        "Seiji Ozawa",
+        "Leonard Bernstein"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bernstein served as music director of the New York Philharmonic and educated millions of television viewers about symphonic music.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many musicians perform together in a standard, fully staffed modern symphony orchestra?",
+      "target": 100,
+      "metricUnit": "musicians",
+      "imperialDisplay": "90 to 105 players",
+      "explanation": "A modern major symphony orchestra typically consists of 90 to 105 professional musicians spanning strings, woodwinds, brass, and percussion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which opening four-note rhythmic motif (short-short-short-long) was famously described as Fate knocking at the door?",
+      "options": [
+        "Beethoven's Symphony No. 5",
+        "Brahms's Symphony No. 1",
+        "Tchaikovsky's Symphony No. 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beethoven's Fifth Symphony opens with the iconic four-note motif that anchors the entire dramatic development across all four movements.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1937 dramatic cantata by German composer Carl Orff opens and closes with the powerful chorus O Fortuna?",
+      "options": [
+        "Catulli Carmina",
+        "Carmina Burana",
+        "Trionfo di Afrodite"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carmina Burana set 24 medieval poems found in a Bavarian monastery, celebrating the wheel of fortune and earthly pleasures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English composer created the Enigma Variations in 1899, featuring the emotionally profound and beloved variation titled Nimrod?",
+      "options": [
+        "Ralph Vaughan Williams",
+        "Gustav Holst",
+        "Edward Elgar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sir Edward Elgar dedicated the variations to my friends pictured within, depicting his wife and close acquaintances in distinct musical portraits.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English composer created the epic seven-movement orchestral suite The Planets between 1914 and 1917?",
+      "options": [
+        "Gustav Holst",
+        "Benjamin Britten",
+        "William Walton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Holst's suite depicts the astrological characters of seven planets in the solar system, opening with Mars, the Bringer of War.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Baroque form features a short recurring bass line and chord progression over which continuous melodic variations are built?",
+      "options": [
+        "Fugue",
+        "Passacaglia",
+        "Sonata-allegro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Passacaglias and chaconnes were popular Baroque variation forms, epitomized by J.S. Bach's monumental Passacaglia and Fugue in C minor.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many days did George Frideric Handel take to compose the complete musical score of Messiah in 1741?",
+      "target": 24,
+      "metricUnit": "days",
+      "imperialDisplay": "24 intensive days",
+      "explanation": "Handel accomplished the monumental compositional feat of writing Messiah's 260-page score in just 24 days between August and September 1741.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,703 @@
+{
+  "id": "czech-republic-geography-heritage-60",
+  "theme": "Czech Republic: Geography, Gothic Spires & Bohemian Wonders",
+  "title": "Czech Republic: Geography, Gothic Spires & Bohemian Wonders",
+  "description": "A 60-question grand master assessment exploring Prague & Charles Bridge (1357), the Astronomical Clock (1410), Český Krumlov (1707 bears), Kutná Hora bone church (40k skeletons), Pravčická brána (26 m), Karlovy Vary (72°C), Pilsner beer (1842), and Mount Sněžka (1,603 m).",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What capital city of the Czech Republic, situated along the Vltava River, is internationally celebrated as the City of a Hundred Spires and the Golden City?",
+      "options": [
+        "Prague",
+        "Brno",
+        "Ostrava"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spared major destruction during WWII, Prague historic center is a UNESCO World Heritage masterwork of Romanesque, Gothic, Renaissance, and Baroque architecture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 14th-century Gothic stone arch bridge spanning the Vltava in Prague is decorated with thirty baroque statues of saints?",
+      "options": [
+        "Mánes Bridge",
+        "Charles Bridge",
+        "Čech Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Commissioned by Holy Roman Emperor Charles IV in 1357, legend holds that medieval masons mixed raw egg yolks into the mortar to strengthen the stone piers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 9th-century hilltop fortification complex in Prague is recognized by Guinness as the largest ancient castle complex in the world, covering nearly seventy thousand square meters?",
+      "options": [
+        "Karlštejn Castle",
+        "Křivoklát Castle",
+        "Prague Castle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prague Castle encompasses the Gothic St. Vitus Cathedral, the Old Royal Palace, St. George Basilica, and the tiny colorful cottages of Golden Lane.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental Gothic cathedral inside Prague Castle, founded in 1344 by Charles IV and completed in 1929, houses the Czech Crown Jewels and St. Wenceslas Chapel?",
+      "options": [
+        "St. Vitus Cathedral",
+        "Church of Our Lady before Týn",
+        "St. Nicholas Church"
+      ],
+      "correctIndex": 0,
+      "explanation": "St. Vitus features stained-glass windows designed by Art Nouveau master Alphonse Mucha and the silver tomb of Saint John of Nepomuk.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque narrow cobblestone lane inside Prague Castle is named after 16th-century goldsmiths and legendary royal alchemists searching for the Philosopher Stone?",
+      "options": [
+        "Nerudova Street",
+        "Golden Lane",
+        "Celetná Street"
+      ],
+      "correctIndex": 1,
+      "explanation": "House No. 22 along the colorful lane was rented by author Franz Kafka in 1916 to write short stories in quiet contemplation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Holy Roman Emperor Charles IV officially lay the foundation stone for the construction of the Charles Bridge in Prague?",
+      "target": 1357,
+      "metricUnit": "year",
+      "imperialDisplay": "1357 AD",
+      "explanation": "According to astrological calculations, Emperor Charles IV laid the cornerstone on July 9, 1357, at 5:31 AM (a palindrome sequence: 1357-9-7-5:31).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous medieval astronomical clock mounted on the Old Town City Hall in Prague, installed in 1410, is the oldest astronomical clock still operating in the world?",
+      "options": [
+        "Olomouc Astronomical Clock",
+        "Strasbourg Clock",
+        "Prague Astronomical Clock"
+      ],
+      "correctIndex": 2,
+      "explanation": "The clock displays Babylonian time, Old Czech time, solar time, astronomical positions of the Sun and Moon, and the current zodiac constellation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mechanical spectacle occurs at the top of every hour as crowds gather below the Prague Astronomical Clock?",
+      "options": [
+        "The Walk of the Apostles animated statues appear in upper windows while a skeleton strikes the hour chime",
+        "A firework shoots from the spire",
+        "A brass carillon plays the national anthem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mechanical figures of the Twelve Apostles rotate through the upper windows while Death (represented as a skeleton holding an hourglass) nods and rings his bell.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Gothic twin-towered church, with 80-meter pointed spires nicknamed Adam and Eve, dominates the skyline of Prague Old Town Square?",
+      "options": [
+        "St. Nicholas Church",
+        "Church of Our Lady before Týn",
+        "Bethlehem Chapel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Týn Church contains the marble tomb of Danish Renaissance astronomer Tycho Brahe, who served as imperial court astronomer to Emperor Rudolf II in Prague.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prominent bronze monument in the center of Prague Old Town Square commemorates the 15th-century religious reformer who was burned at the stake for heresy in 1415?",
+      "options": [
+        "King Charles IV Statue",
+        "Saint Wenceslas Statue",
+        "Jan Hus Monument"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jan Hus preached in the Czech language at the nearby Bethlehem Chapel, sparking the Hussite Wars and early Protestant reform movements.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "According to dark Prague folklore, what did the city council do to master clockmaker Hanuš to prevent him from ever building a more magnificent astronomical clock for another city?",
+      "options": [
+        "They blinded him with hot iron rods",
+        "They banished him to Bohemia",
+        "They threw him from the tower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Legend holds that in revenge, the dying Hanuš placed his hand into the clock gears, disabling the complex mechanism for over a century.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the core mechanical movement of the Prague Astronomical Clock (Orloj) first installed by clockmaker Mikuláš of Kadaň?",
+      "target": 1410,
+      "metricUnit": "year",
+      "imperialDisplay": "1410 AD",
+      "explanation": "The Prague Orloj was installed on the Old Town Hall tower in October 1410.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fairy-tale UNESCO World Heritage medieval town in South Bohemia is nestled inside a tight horseshoe meander of the Vltava River, overlooked by a massive pastel castle?",
+      "options": [
+        "Telč",
+        "Český Krumlov",
+        "Třeboň"
+      ],
+      "correctIndex": 1,
+      "explanation": "Preserved in its 16th-century Renaissance layout under the Rožmberk (Rosenberg) noble family, it is the second most visited tourist destination in the Czech Republic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique theatrical treasure inside Český Krumlov Castle is one of only two preserved 18th-century Baroque theatres in the world with original wooden stage machinery, scenery flats, and costumes intact?",
+      "options": [
+        "The Estates Theatre",
+        "The National Theatre",
+        "The Baroque Castle Theatre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Completed in 1766, hand-operated winches and ropes shift perspective stage flats in seconds, creating wind, thunder, and wave illusion effects.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What animal species has been kept in the castle moat (Medvědí příkop) of Český Krumlov Castle continuously since 1707, honoring the noble Orsini family heraldry?",
+      "options": [
+        "Brown Bears",
+        "Gray Wolves",
+        "Wild Boars"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rosenberg family traced their ancestry to the noble Italian Orsini family (derived from orso meaning bear), continuing the centuries-old moat bear tradition.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What romantic 19th-century white neo-Gothic castle in South Bohemia, modeled after Windsor Castle in England, features 140 opulent rooms and eleven towers?",
+      "options": [
+        "Konopiště Castle",
+        "Hluboká Castle",
+        "Bouzov Castle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rebuilt by Prince Jan Adolf II of Schwarzenberg and his wife Eleonore, Hluboká features intricately carved wooden ceilings, tapestries, and crystal chandeliers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scenic South Bohemian town is celebrated as the Carp Capital of the Czech Republic, famous for its 500-year-old network of artificial fish ponds and traditional Christmas carp harvesting?",
+      "options": [
+        "Jindřichův Hradec",
+        "Písek",
+        "Třeboň"
+      ],
+      "correctIndex": 2,
+      "explanation": "Engineered in the 16th century by master water builder Jakub Krčín, the Rožmberk Pond covers 489 hectares, producing golden carp served at traditional Czech Christmas Eve dinner.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the tradition of keeping live brown bears in the castle moat of Český Krumlov Castle officially begin?",
+      "target": 1707,
+      "metricUnit": "year",
+      "imperialDisplay": "1707 AD (over 300 years of tradition)",
+      "explanation": "Official castle records confirm brown bears have been maintained in the Český Krumlov castle moat since the year 1707.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic town in Central Bohemia boomed in the 13th century due to immense silver ore deposits, rivaling Prague in wealth and prestige?",
+      "options": [
+        "Kutná Hora",
+        "Příbram",
+        "Jáchymov"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kutná Hora produced one-third of all European silver in the 14th century, home to the Royal Mint at the Italian Court (Vlašský dvůr) which struck Prague Groschen coins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous small Roman Catholic chapel under the All Saints Cemetery Church in Sedlec near Kutná Hora is decorated with the artistic arrangement of 40,000 human skeletons?",
+      "options": [
+        "Capuchin Crypt",
+        "Sedlec Ossuary",
+        "Mělník Ossuary"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1870, woodcarver František Rint was hired by the Schwarzenberg family to organize the bones, creating a giant bone chandelier and the Schwarzenberg coat of arms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What centerpiece decorative element inside the Sedlec Ossuary is made from every single bone found in the human body, hanging from the ceiling vault?",
+      "options": [
+        "The Bone Altar",
+        "The Bone Monstrance",
+        "The Great Bone Chandelier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The massive chandelier incorporates human skulls, leg bones, ribs, and pelvises, crowned by seven candle arms representing eternal light.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What magnificent five-naved Late Gothic cathedral in Kutná Hora, dedicated to the patron saint of miners, features dramatic tent-like triple-curved rood roofs?",
+      "options": [
+        "St. Barbara's Church",
+        "St. Vitus Cathedral",
+        "Cathedral of the Assumption"
+      ],
+      "correctIndex": 0,
+      "explanation": "Commissioned by wealthy silver miners in 1388 to demonstrate their independence from Prague, it features medieval frescoes depicting minting and coin-hammering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous silver coin minted in the Bohemian mining town of Jáchymov (Joachimsthal) in the 16th century gave its name to the international currency word 'Dollar'?",
+      "options": [
+        "Prague Groschen",
+        "Joachimsthaler",
+        "Ducat"
+      ],
+      "correctIndex": 1,
+      "explanation": "The high silver purity of the Joachimsthaler made it a universal trade currency across Europe, linguistically evolving into daalder, daler, and the US dollar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousands of human skeletons were utilized to create the macabre decorative bone art inside the Sedlec Ossuary in Kutná Hora?",
+      "target": 40,
+      "metricUnit": "thousand skeletons",
+      "imperialDisplay": "40,000 to 70,000 human skeletons",
+      "explanation": "The bones of an estimated 40,000 to 70,000 individuals, victims of the 1318 Black Death and 15th-century Hussite Wars, were organized into artistic bone structures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the very first protected nature reserve established in the Czech Republic in 1955, world-famous for picturesque sandstone rock cities (Skalní města) and castles?",
+      "options": [
+        "Bohemian Switzerland",
+        "Šumava National Park",
+        "Bohemian Paradise"
+      ],
+      "correctIndex": 2,
+      "explanation": "A UNESCO Global Geopark, Bohemian Paradise features towering weathered sandstone pillars, narrow pine-scented rock gorges, and Hrubá Skála Castle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous rock city in Bohemian Paradise features hundreds of dramatic sandstone pinnacles, narrow crevices, and scenic lookouts overlooking green pine valleys?",
+      "options": [
+        "Prachov Rocks",
+        "Adršpach-Teplice Rocks",
+        "Tiské Stěny"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formed over sixty million years ago by the erosion of Cretaceous sea sand deposits, the rocks feature narrow one-person passages like the Emperor Passage (Císařská chodba).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental natural sandstone rock bridge in Bohemian Switzerland National Park is the largest natural sandstone rock arch on the European continent?",
+      "options": [
+        "Adršpach Gate",
+        "Pravčická brána",
+        "Bastei Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spanning twenty-six meters across and rising sixteen meters high, the arch was visited by fairy-tale writer Hans Christian Andersen and featured in The Chronicles of Narnia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic ruined 14th-century Gothic castle in Bohemian Paradise perches atop two distinct volcanic basalt plug towers named Baba (Old Woman) and Panna (Maiden)?",
+      "options": [
+        "Kost Castle",
+        "Valdštejn Castle",
+        "Trosky Castle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The twin volcanic towers provide a dramatic landmark visible across the entire Bohemian Paradise region, with the lower tower Baba and taller tower Panna.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 14th-century Gothic fortress built by Emperor Charles IV on a limestone cliff above the Berounka River was designed to safely house the imperial crown jewels and holy relics?",
+      "options": [
+        "Karlštejn Castle",
+        "Křivoklát Castle",
+        "Pernštejn Castle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Karlštejn features the Chapel of the Holy Cross, where 129 gilded panel paintings by Master Theodoric line walls encrusted with semi-precious Bohemian jasper and amethyst.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total clear span length in meters of the Pravčická brána sandstone rock arch in Bohemian Switzerland, the largest in Europe?",
+      "target": 26,
+      "metricUnit": "meters",
+      "imperialDisplay": "87 feet arch span",
+      "explanation": "Pravčická brána spans 26.5 meters at its base and rises sixteen meters high above the forest floor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous spa town in western Bohemia, founded in 1370 by Emperor Charles IV, features thirteen major thermal mineral hot springs, elegant colonnades, and the Grandhotel Pupp?",
+      "options": [
+        "Mariánské Lázně",
+        "Karlovy Vary",
+        "Františkovy Lázně"
+      ],
+      "correctIndex": 1,
+      "explanation": "Part of the UNESCO Great Spa Towns of Europe, historical spa guests included Peter the Great, Goethe, Chopin, and Beethoven, who drank spring water from traditional porcelain spa cups.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the temperature in degrees Celsius of the famous Vřídlo mineral hot spring geyser in Karlovy Vary, shooting water up to twelve meters into the air?",
+      "options": [
+        "45 Degrees Celsius",
+        "95 Degrees Celsius",
+        "72 Degrees Celsius"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vřídlo discharges 2,000 liters of mineral-rich 72°C water every minute, used for thermal drinking cures, bathing, and petrifying souvenir paper rosebuds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous traditional bitter herbal liqueur, crafted in Karlovy Vary since 1807 from a secret recipe of twenty herbs and spices, is nicknamed the 13th Spring of Carlsbad?",
+      "options": [
+        "Becherovka",
+        "Fernet Stock",
+        "Slivovice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Created by pharmacist Josef Vitus Becher as a stomach remedy, Becherovka is aged in oak casks, popularly mixed with tonic water to make the 'Beton' cocktail.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-renowned luxury lead-free crystal glass manufacturer, founded in Karlovy Vary in 1857 by Ludwig Moser, is known as the Glass of Kings for supplying royal courts?",
+      "options": [
+        "Preciosa",
+        "Moser Glass",
+        "Bohemia Crystal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moser crystal is famous for flawless optical clarity, vibrant gemstone colors, and intricate intaglio engraving, supplied to the British Royal Court, Vatican, and Persian Shahs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which elegant spa town in western Bohemia features the 119-meter cast-iron Neo-Baroque Colonnade and the famous Singing Fountain playing classical music every odd hour?",
+      "options": [
+        "Františkovy Lázně",
+        "Jáchymov",
+        "Mariánské Lázně Marienbad"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mariánské Lázně was frequented by King Edward VII of Britain and Mark Twain, renowned for cold mineral acidulous springs (Cross Spring and Rudolph Spring).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the natural spring temperature in degrees Celsius of the famous Vřídlo thermal geyser in Karlovy Vary, Czech Republic?",
+      "target": 72,
+      "metricUnit": "degrees Celsius",
+      "imperialDisplay": "162°F hot mineral water",
+      "explanation": "The Vřídlo geyser in Karlovy Vary discharges natural thermal mineral water at a temperature of exactly 72°C.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ranking does the Czech Republic consistently hold globally for the highest annual per capita consumption of beer in the world (roughly 140 to 180 liters per person)?",
+      "options": [
+        "First in the world",
+        "Second in the world",
+        "Fifth in the world"
+      ],
+      "correctIndex": 0,
+      "explanation": "Czechs have led global per capita beer consumption for over thirty consecutive years, driven by deep cultural brewing heritage and affordable world-class lagers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which western Bohemian city on October 5, 1842, did Bavarian brewmaster Josef Groll brew the world very first golden bottom-fermented clear blond lager beer (Pilsner Urquell)?",
+      "options": [
+        "České Budějovice",
+        "Plzeň Pilsen",
+        "Prague"
+      ],
+      "correctIndex": 1,
+      "explanation": "By combining soft local water, pale Bohemian malt, and noble Saaz hops, Groll created the Pilsner style that today accounts for over seventy percent of all beer brewed on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic hop-growing town in northwestern Bohemia, surrounded by fertile red clay fields, produces the world-renowned noble Saaz hops (Žatecký poloraný červeňák)?",
+      "options": [
+        "Louny",
+        "Rakovník",
+        "Žatec Saaz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inscribed on the UNESCO World Heritage list in 2023, Žatec aroma hops give Czech pilsners their signature delicate spicy herbal bitterness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous historic brewery in České Budějovice (Budweis), founded in 1895, has been locked in century-long international trademark disputes with American brewer Anheuser-Busch?",
+      "options": [
+        "Budweiser Budvar",
+        "Staropramen",
+        "Radegast"
+      ],
+      "correctIndex": 0,
+      "explanation": "State-owned Budweiser Budvar is brewed exclusively from whole-cone Saaz hops, Moravian malt, and artesian well water, aged in cellars for ninety days.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic pub in Prague, operating continuously since 1499, is the oldest microbrewery in the city, famous for dark 13-degree Flek lager and traditional accordion songs?",
+      "options": [
+        "U Zlatého Tygra",
+        "U Fleků",
+        "Lokál Dlouhá"
+      ],
+      "correctIndex": 1,
+      "explanation": "U Fleků features eight historic drinking halls and an open-air beer garden, where waiters circulate continuously carrying trays of fresh dark beer.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the world first golden Pilsner lager (Pilsner Urquell) brewed by Josef Groll in the city of Plzeň, Bohemia?",
+      "target": 1842,
+      "metricUnit": "year",
+      "imperialDisplay": "1842 AD",
+      "explanation": "Pilsner Urquell was first brewed on October 5, 1842, revolutionizing global beer brewing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 283-square-kilometer UNESCO World Heritage landscape in South Moravia, created by the Princes of Liechtenstein, is the largest artificial landscape in Europe?",
+      "options": [
+        "Podyjí National Park",
+        "White Carpathians",
+        "Lednice-Valtice Cultural Landscape"
+      ],
+      "correctIndex": 2,
+      "explanation": "Connecting the Neo-Gothic Lednice Chateau to the Baroque Valtice Palace, the parkland features tree-lined avenues, romantic ruins, and a 60-meter Moorish Minaret.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second largest city in the Czech Republic, the historical capital of Moravia, home to the Gothic Cathedral of St. Peter and Paul and Špilberk Castle?",
+      "options": [
+        "Brno",
+        "Ostrava",
+        "Olomouc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brno was the home of Gregor Mendel, who discovered the laws of genetic inheritance in the garden of the Augustinian Abbey in the 1860s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What masterpiece of modern Functionalist architecture in Brno, designed by German-American architect Ludwig Mies van der Rohe in 1930, features a transparent glass wall and onyx partition?",
+      "options": [
+        "Villa Müller",
+        "Villa Tugendhat",
+        "Villa Stiassni"
+      ],
+      "correctIndex": 1,
+      "explanation": "A UNESCO World Heritage icon, Villa Tugendhat pioneered open-plan spatial design and steel-frame domestic construction, where the 1992 division of Czechoslovakia was negotiated.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive limestone gorge in the Moravian Karst plunges to a depth of 138.5 meters, where visitors ride electric boats along the subterranean Punkva River?",
+      "options": [
+        "Hranice Abyss",
+        "Sloup-Šošůvka Caves",
+        "Macocha Abyss"
+      ],
+      "correctIndex": 2,
+      "explanation": "Macocha (Step-Mother Abyss) was formed by the collapse of a colossal subterranean cave roof, connecting to the Punkva Cave chambers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What flooded limestone cave in the Olomouc Region is the deepest verified flooded underwater freshwater cave system in the world, explored past 450 meters depth by robotic ROVs?",
+      "options": [
+        "Hranice Abyss",
+        "Macocha Abyss",
+        "Zbrašov Aragonite Caves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Explored by Polish cave diver Krzysztof Starnawski and underwater ROVs, seismic evidence suggests the warm mineral-corroded fissure may extend over one kilometer deep.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the vertical depth in meters of the Macocha Abyss sinkhole gorge in the Moravian Karst of the Czech Republic?",
+      "target": 138,
+      "metricUnit": "meters deep",
+      "imperialDisplay": "454 feet deep",
+      "explanation": "The Macocha Abyss measures 138.5 meters (rounded to 138 m) from its upper rim down to the lake surface at its base.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German-language modernist author, born in Prague in 1883, created surrealist psychological masterworks including The Metamorphosis and The Trial?",
+      "options": [
+        "Milan Kundera",
+        "Franz Kafka",
+        "Bohumil Hrabal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kafka spent his entire life in Prague, describing the city as 'this little mother has claws; she won't let go', honored by the Franz Kafka Museum and David Černý rotating metal head statue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which 1920 Czech science-fiction theatre play, written by Karel Čapek, was the word 'Robot' (derived from the Slavic word robota, meaning forced labor) coined and introduced to the world?",
+      "options": [
+        "The Absolute at Large",
+        "War with the Newts",
+        "R.U.R."
+      ],
+      "correctIndex": 2,
+      "explanation": "Karel Čapek credited his brother, the painter Josef Čapek, with inventing the word 'robot' to describe artificial organic factory workers who eventually revolt against humanity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous Czech Art Nouveau decorative painter and graphic artist created iconic theatrical posters for French actress Sarah Bernhardt and the monumental twenty-canvas Slav Epic?",
+      "options": [
+        "Alphonse Mucha",
+        "František Kupka",
+        "Josef Mánes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mucha devoted eighteen years to painting The Slav Epic (Slovanská epopej), depicting the mythology and historical triumphs of the Slavic peoples.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary 19th-century Czech Romantic classical composer composed the world-famous Symphony No. 9 'From the New World' and the Slavonic Dances?",
+      "options": [
+        "Bedřich Smetana",
+        "Antonín Dvořák",
+        "Leoš Janáček"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dvořák composed the New World Symphony in 1893 while directing the National Conservatory of Music in New York, incorporating African American spirituals and Native American rhythms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Czech performance folk art, inscribed on the UNESCO Intangible Cultural Heritage list in 2016, uses hand-carved wooden string puppets to enact folk tales and satirical plays?",
+      "options": [
+        "Shadow Theatre",
+        "Pantomime",
+        "Puppetry and Marionette Theater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Originating in the 18th century with traveling puppeteers who preserved the banned Czech language, iconic characters include Spejbl and Hurvínek.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Czech playwright Karel Čapek publish the landmark play R.U.R., giving the global English language the word 'robot'?",
+      "target": 1920,
+      "metricUnit": "year",
+      "imperialDisplay": "1920 AD",
+      "explanation": "Karel Čapek published his play R.U.R. in 1920, premiering on stage in Hradec Králové in January 1921.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Czech Republic, rising 1,603 meters in the Krkonoše (Giant Mountains) along the international border with Poland?",
+      "options": [
+        "Mount Sněžka",
+        "Praděd",
+        "Lysá hora"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sněžka is crowned by a 19th-century chapel of St. Lawrence, a modern futuristic Polish meteorological observatory, and a cable car from Pec pod Sněžkou.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dark-red, pyrope semi-precious gemstone mined in the Bohemian Central Uplands since the 16th century is world-famous for its blood-red brilliance and resistance to heat?",
+      "options": [
+        "Moldavite",
+        "Bohemian Garnet",
+        "Bohemian Topaz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bohemian garnets are set into gold and silver antique jewelry, protected under authentic certified geographical indications.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rare, translucent green bottle-glass tektite gemstone found exclusively in southern Bohemia was formed fifteen million years ago by a meteorite impact in southern Germany?",
+      "options": [
+        "Bohemian Garnet",
+        "Desert Glass",
+        "Moldavite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after the Vltava (Moldau) River where it was first discovered, Moldavite features sculpted aerodynamic pitted surfaces caused by molten meteoric glass cooling in flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative regions (Kraje), plus the Capital City of Prague, is the Czech Republic politically organized?",
+      "options": [
+        "14 Regions",
+        "10 Regions",
+        "16 Regions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fourteen regions (such as Central Bohemia, South Moravia, Plzeň, Karlovy Vary, and Moravian-Silesian) each feature an elected regional assembly and governor (Hejtman).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What non-violent peaceful revolution in November and December 1989 led by playwright Václav Havel and the Civic Forum brought an end to 41 years of one-party communist rule in Czechoslovakia?",
+      "options": [
+        "The Prague Spring",
+        "The Velvet Revolution",
+        "The Singing Revolution"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sparked by student demonstrations on Národní třída, millions jangled keys in Wenceslas Square, leading Václav Havel to be elected President in December 1989.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Sněžka, the highest mountain peak in the Czech Republic?",
+      "target": 1603,
+      "metricUnit": "meters",
+      "imperialDisplay": "5,259 feet",
+      "explanation": "Mount Sněžka reaches an official surveyed elevation of 1,603 meters above sea level on the Czech-Polish border.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

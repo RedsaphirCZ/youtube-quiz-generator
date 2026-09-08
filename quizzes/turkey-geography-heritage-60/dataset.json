@@ -1,0 +1,703 @@
+{
+  "id": "turkey-geography-heritage-60",
+  "theme": "Turkey: Geography, The Bosphorus & Ancient Anatolia",
+  "title": "Turkey: Geography, The Bosphorus & Ancient Anatolia",
+  "description": "A 60-question grand master assessment exploring the Bosphorus & Hagia Sophia, Cappadocia fairy chimneys, Pamukkale & Ephesus, Mount Ararat (5,137 m), the Lycian Way, Sumela Monastery, Göbekli Tepe (9500 BCE), Ankara, and the Dardanelles.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What strategic 31-kilometer strait bisects the city of Istanbul, forming the continental boundary separating Europe from Asia?",
+      "options": [
+        "The Bosphorus Strait",
+        "The Dardanelles Strait",
+        "The Strait of Kerch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bosphorus connects the Black Sea to the Sea of Marmara, making Istanbul the only major metropolis in the world situated on two continents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental 6th-century Byzantine cathedral in Istanbul, built by Emperor Justinian I, was the largest cathedral on Earth for nearly a thousand years?",
+      "options": [
+        "Blue Mosque",
+        "Hagia Sophia Ayasofya",
+        "Süleymaniye Mosque"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consecrated in 537 CE, Hagia Sophia features a massive 31-meter dome resting on pendentive arches, later converted to an Ottoman imperial mosque.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 17th-century imperial mosque in Istanbul, officially the Sultan Ahmed Mosque, is nicknamed after the 20,000 hand-painted blue İznik ceramic tiles lining its interior?",
+      "options": [
+        "Süleymaniye Mosque",
+        "Fatih Mosque",
+        "The Blue Mosque"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commissioned by Sultan Ahmed I and built by architect Sedefkâr Mehmed Ağa, it is renowned for its six soaring minarets and cascading domes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient scythe-shaped drowned river estuary off the Bosphorus divides the historic European peninsula of Istanbul from modern Galata?",
+      "options": [
+        "The Golden Horn Haliç",
+        "Bosphorus Cove",
+        "Marmara Inlet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Golden Horn served as the historic primary naval harbor of Byzantine Constantinople, historically defended by a giant iron harbor chain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive covered market in Istanbul, founded in 1461 under Sultan Mehmed the Conqueror, is one of the oldest and largest covered bazaars on Earth with over 4,000 shops?",
+      "options": [
+        "The Spice Bazaar",
+        "The Grand Bazaar Kapalıçarşı",
+        "Arasta Bazaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Grand Bazaar covers sixty-one covered streets across 30,700 square meters, welcoming hundreds of thousands of daily visitors.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the monumental Byzantine cathedral of Hagia Sophia officially consecrated in Constantinople?",
+      "target": 537,
+      "metricUnit": "CE",
+      "imperialDisplay": "537 AD",
+      "explanation": "Emperor Justinian I dedicated Hagia Sophia on December 27, 537 CE, famously exclaiming 'Solomon, I have surpassed thee!'",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What surreal historical region in Central Anatolia is famous for bizarre volcanic tuff rock spires known as Fairy Chimneys (Peri Bacaları)?",
+      "options": [
+        "Pamukkale",
+        "Phrygia",
+        "Cappadocia Kapadokya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eruptions from ancient Mount Erciyes and Mount Hasan deposited soft volcanic ash (tuff) that eroded over millions of years into conical rock towers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient multi-level subterranean city in Cappadocia was carved eight levels deep into volcanic rock, capable of sheltering 20,000 people and livestock from invading armies?",
+      "options": [
+        "Derinkuyu Underground City",
+        "Kaymakli Underground City",
+        "Özkonak Underground City"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derinkuyu reaches a depth of eighty-five meters, complete with ventilation shafts, freshwater wells, chapels, stables, and massive rolling stone security doors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage valley in Cappadocia preserves dozens of rock-hewn Byzantine churches decorated with vivid 10th-century Christian frescoes?",
+      "options": [
+        "Ihlara Valley",
+        "Göreme Open-Air Museum",
+        "Zelve Valley"
+      ],
+      "correctIndex": 1,
+      "explanation": "Göreme features rock-cut monasteries like the Dark Church (Karanlık Kilise) and Apple Church (Elmalı Kilise), carved by early Christian monastic communities.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What popular early-morning adventure activity in Cappadocia sees hundreds of colorful balloons drift over love valleys and fairy chimneys at sunrise?",
+      "options": [
+        "Paragliding",
+        "Hang Gliding",
+        "Hot Air Ballooning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calm morning winds and dramatic topography make Cappadocia the hot air ballooning capital of the world, flying over 500,000 passengers annually.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 14-kilometer canyon in Cappadocia features a rushing river flanked by steep hundred-meter cliffs containing over one hundred rock-cut churches?",
+      "options": [
+        "Ihlara Valley",
+        "Rose Valley",
+        "Pigeon Valley"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carved by the Melendiz River between Mount Hasan and Mount Melendiz, the Ihlara Valley provided secluded refuge for early Christian monks and hermits.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum depth in meters reached by the ancient subterranean Derinkuyu Underground City in Cappadocia?",
+      "target": 85,
+      "metricUnit": "meters deep",
+      "imperialDisplay": "279 feet deep (equivalent to an 8-story underground building)",
+      "explanation": "Derinkuyu descends approximately eighty-five meters beneath the surface across eight excavated subterranean levels.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural wonder in southwestern Turkey, meaning 'Cotton Castle' in Turkish, features dazzling white terraced basins formed by mineral-rich thermal waters?",
+      "options": [
+        "Hierapolis",
+        "Pamukkale",
+        "Karahayıt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Geothermal springs saturated with calcium carbonate cascade down a 200-meter cliff, depositing pure white travertine limestone terraces over millennia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greco-Roman spa city founded by the kings of Pergamon sits directly atop the white travertine terraces of Pamukkale?",
+      "options": [
+        "Aphrodisias",
+        "Laodicea",
+        "Hierapolis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hierapolis features ancient thermal baths, an exceptionally preserved Roman theatre, a massive necropolis, and Cleopatra Antique Pool where tourists swim over submerged Roman marble columns.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Ionian city in western Turkey near Selçuk is home to the majestic two-story Library of Celsus and the Great Theatre where Saint Paul preached?",
+      "options": [
+        "Ephesus Efes",
+        "Miletus",
+        "Pergamon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ephesus was the second largest city in the Roman Empire after Rome, featuring marble-paved Curetes Street, public latrines, and the House of the Virgin Mary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal temple in Ephesus was four times larger than the Parthenon and stood as one of the Seven Wonders of the Ancient World?",
+      "options": [
+        "Temple of Apollo at Didyma",
+        "Temple of Artemis",
+        "Temple of Hadrian"
+      ],
+      "correctIndex": 1,
+      "explanation": "Supported by 127 marble columns standing eighteen meters high, the temple was rebuilt three times before being burned down by Herostratus in 356 BCE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO-inscribed ancient Carian city in southwestern Turkey was dedicated to the goddess of love, renowned for its supreme marble sculpting school and 30,000-seat stadium?",
+      "options": [
+        "Sagalassos",
+        "Halicarnassus",
+        "Aphrodisias"
+      ],
+      "correctIndex": 2,
+      "explanation": "Located near rich white and gray marble quarries on Mount Baba Dağ, Aphrodisias features the monumental Sebasteion imperial cult temple and an intact Roman stadium.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many monumental marble columns supported the ancient Temple of Artemis in Ephesus, one of the Seven Wonders of the Ancient World?",
+      "target": 127,
+      "metricUnit": "columns",
+      "imperialDisplay": "127 marble columns",
+      "explanation": "Ancient accounts confirm the Temple of Artemis was supported by 127 ionic marble columns, each standing eighteen meters tall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Turkey, a massive dormant snow-capped volcano rising 5,137 meters in the Armenian Highlands, biblical landing site of Noah Ark?",
+      "options": [
+        "Mount Ararat Ağrı Dağı",
+        "Mount Süphan",
+        "Mount Erciyes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Ararat is a compound stratovolcano comprising Greater Ararat (5,137 m) and Little Ararat (3,896 m), towering over the borders of Turkey, Armenia, and Iran.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest lake in Turkey, a massive 3,755-square-kilometer endorheic soda lake located at an elevation of 1,640 meters in Eastern Anatolia?",
+      "options": [
+        "Lake Tuz",
+        "Lake Van Van Gölü",
+        "Lake Beyşehir"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Van is highly alkaline (saline and rich in sodium carbonate), where only one fish species, the endemic Pearl Mullet (İnci Kefali), can survive.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island in Lake Van is home to the 10th-century Armenian Holy Cross Cathedral, celebrated for elaborate external stone relief carvings of biblical stories?",
+      "options": [
+        "Kuş Island",
+        "Çarpanak Island",
+        "Akdamar Island Aghtamar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built by King Gagik I of the Artsruni Dynasty between 915 and 921 CE, the cathedral features stone carvings of Jonah and the Whale and David and Goliath.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ruined medieval Armenian capital near Kars on the Turkish-Armenian border is called the City of 1,001 Churches for its preserved stone architectural ruins?",
+      "options": [
+        "Ani",
+        "Kars Citadel",
+        "Doğubayazıt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Located on a triangular promontory above the Akhurian River gorge, UNESCO-listed Ani was a flourishing Silk Road metropolis of over 100,000 people in the 11th century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spectacular 18th-century cliffside palace complex in Doğubayazıt near Mount Ararat blends Ottoman, Persian, and Armenian architectural styles?",
+      "options": [
+        "Topkapı Palace",
+        "Ishak Pasha Palace İshak Paşa Sarayı",
+        "Dolmabahçe Palace"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built over ninety-nine years on a Silk Road pass, the palace was legendary for having one of the earliest central heating and sewer systems in the region.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Ararat (Ağrı Dağı), the highest mountain in Turkey?",
+      "target": 5137,
+      "metricUnit": "meters",
+      "imperialDisplay": "16,854 feet",
+      "explanation": "Mount Ararat in eastern Turkey stands at an official elevation of 5,137 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 540-kilometer scenic waymarked long-distance hiking trail follows the coastal cliffs of ancient Lycia between Fethiye and Antalya?",
+      "options": [
+        "The Carian Trail",
+        "The Saint Paul Trail",
+        "The Lycian Way Likya Yolu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pioneered in 1999 by British-Turkish trekker Kate Clow, the Lycian Way passes ancient ruins, secluded turquoise coves, and the eternal flames of the Chimaera.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sheltered turquoise beach and lagoon near Fethiye is famous as a world capital for tandem paragliding flights launching from the 1,969-meter summit of Mount Babadağ?",
+      "options": [
+        "Ölüdeniz Blue Lagoon",
+        "Kaputaş Beach",
+        "İztuzu Beach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ölüdeniz (meaning 'Dead Sea' for its calm waters) is protected as a national nature reserve, where paragliders soar over the white sand spit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 18-kilometer white sand beach near Kalkan is one of the longest continuous sandy beaches in the Mediterranean and the birthplace of Saint Nicholas (Santa Claus)?",
+      "options": [
+        "Cleopatra Beach",
+        "Patara Beach",
+        "Lara Beach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patara was the maritime capital of the ancient Lycian League, home to the world oldest intact parliament building (Bouleuterion) and Loggerhead sea turtle nesting dunes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic 4th-century BCE Lycian monumental rock-cut temple tombs are carved high into the vertical limestone river cliffs overlooking the town of Dalyan?",
+      "options": [
+        "Myra Tombs",
+        "Tlos Tombs",
+        "Rock Tombs of Kaunos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carved into the cliff face with Hellenistic temple facades, Lycians believed winged mythological creatures transported the souls of the dead to the afterlife.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sunken ancient Lycian city on the island of Kekova can be seen through crystal-clear turquoise waters following an earthquake in the 2nd century CE?",
+      "options": [
+        "Sunken City of Simena Kekova",
+        "Phaselis",
+        "Arycanda"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protected from swimming to preserve the archaeological ruins, boaters and kayakers can observe submerged stone stairs, amphorae, and foundations underwater.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total distance in kilometers of the historic Lycian Way coastal trekking trail in southwestern Turkey?",
+      "target": 540,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "335 miles",
+      "explanation": "The Lycian Way footpath covers roughly 540 kilometers from Fethiye to Geyikbayırı near Antalya.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 4th-century Greek Orthodox monastery in Trabzon perches precariously on a sheer 300-meter cliff above the Altındere Valley in the Pontic Mountains?",
+      "options": [
+        "Vazelon Monastery",
+        "Sumela Monastery Panagia Soumela",
+        "Kuştul Monastery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sumela was founded by monks Barnabas and Sophronios, famous for its Rock Church decorated with vibrant Byzantine frescoes depicting the Dormition of the Virgin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which province on the eastern Black Sea coast of Turkey produces nearly all of the country tea, making Turkey the world highest per-capita consumer of tea (çay)?",
+      "options": [
+        "Trabzon",
+        "Artvin",
+        "Rize"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turkish tea cultivation was pioneered in Rize in the 1930s under agriculturalist Zihni Derin, where steep misty hillsides are terraced with Camellia sinensis bushes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high mountain range parallel to the Black Sea coast of northern Turkey features Mount Kaçkar (3,937 m) and lush alpine pastures (yaylas)?",
+      "options": [
+        "Pontic Mountains Kaçkar Mountains",
+        "Taurus Mountains",
+        "Zagros Mountains"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Kaçkar Mountains feature glaciated alpine lakes, rhododendron forests, and traditional wooden chalets where locals celebrate summer highland festivals (yaylas).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which serene mountain lake surrounded by dense evergreen pine forests and mist-covered peaks is a major ecotourism icon in Trabzon Province?",
+      "options": [
+        "Lake Abant",
+        "Uzungöl Long Lake",
+        "Lake Borçka Karagöl"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uzungöl was formed when a landslide dammed the Haldizen river stream in the Pontic Alps, crowned by a picturesque white minaret mosque at its shore.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal region in Turkey has a humid subtropical oceanic climate characterized by high year-round precipitation and dense temperate rainforests?",
+      "options": [
+        "Aegean Region",
+        "Mediterranean Region",
+        "Black Sea Region Karadeniz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karadeniz receives up to 2,500 mm of annual rainfall, producing ninety percent of Turkey hazelnuts and sustaining lush mountain vegetation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate elevation in meters above sea level of the historic Sumela Monastery clinging to the cliff in Trabzon?",
+      "target": 1200,
+      "metricUnit": "meters",
+      "imperialDisplay": "3,937 feet above sea level",
+      "explanation": "Sumela Monastery sits at approximately 1,200 meters above sea level on the steep cliff face of the Zigana Mountain range.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage archaeological site near Şanlıurfa contains monumental T-shaped carved limestone pillars dating back to 9500 BCE, recognized as the world oldest known temple complex?",
+      "options": [
+        "Göbekli Tepe",
+        "Karahan Tepe",
+        "Çatalhöyük"
+      ],
+      "correctIndex": 0,
+      "explanation": "Predating Stonehenge by 6,000 years, Göbekli Tepe was built by hunter-gatherers and features intricate bas-relief animal carvings of lions, bulls, foxes, and vultures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 2,134-meter mountain in Adıyaman Province features a colossal 1st-century BCE royal tomb sanctuary surrounded by eight-meter-tall stone statues of Greek and Persian gods?",
+      "options": [
+        "Mount Hasan",
+        "Mount Nemrut",
+        "Mount Cudi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built by King Antiochus I of Commagene, the summit tumulus is flanked by terrace statues of Zeus, Apollo, Heracles, and Antiochus whose giant stone heads sit on the ground.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two historic rivers, the lifeblood of ancient Mesopotamia, originate in the high mountains of Eastern and Southeastern Turkey before flowing into Iraq and Syria?",
+      "options": [
+        "Jordan and Litani",
+        "Nile and Atbara",
+        "Tigris and Euphrates"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Euphrates (Fırat) and Tigris (Dicle) are harnessed in Turkey by the massive Southeastern Anatolia Project (GAP), including the colossal Atatürk Dam.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Neolithic settlement in Konya Province, inhabited between 7100 and 5700 BCE, is famous for dense mudbrick houses entered exclusively through roof ladders?",
+      "options": [
+        "Çatalhöyük",
+        "Hacılar",
+        "Aşıklı Höyük"
+      ],
+      "correctIndex": 0,
+      "explanation": "Çatalhöyük is one of the world earliest proto-cities, renowned for plaster wall murals, bull skull shrines (bucrania), and clay figurines of the Seated Mother Goddess.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic city in southeastern Turkey overlooking the Mesopotamian plains is world-renowned for terraced golden limestone houses, Syriac Orthodox monasteries, and madrasas?",
+      "options": [
+        "Diyarbakır",
+        "Mardin",
+        "Gaziantep"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mardin is a cultural mosaic of Turkish, Kurdish, Arab, and Assyrian heritage, home to the 5th-century Deyrulzafaran (Saffron) Monastery.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many years BCE was the world oldest megalithic temple sanctuary, Göbekli Tepe, constructed in southeastern Turkey?",
+      "target": 9500,
+      "metricUnit": "BCE",
+      "imperialDisplay": "9500 BC (over 11,500 years ago)",
+      "explanation": "Archaeological excavations led by Klaus Schmidt confirm Göbekli Tepe was constructed around 9500 BCE during the Pre-Pottery Neolithic A period.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which planned city in Central Anatolia became the national capital of the modern Republic of Turkey in 1923, replacing Istanbul?",
+      "options": [
+        "İzmir",
+        "Bursa",
+        "Ankara"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chosen by Mustafa Kemal Atatürk for its secure central location, Ankara grew from an ancient citadel town (Ancyra) into a metropolis of six million residents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental neoclassical and Seljuk-inspired complex in Ankara is the mausoleum of Mustafa Kemal Atatürk, founder and first President of Turkey?",
+      "options": [
+        "Anıtkabir",
+        "Çankaya Mansion",
+        "Kocatepe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Completed in 1953, Anıtkabir features the 262-meter Road of Lions, ceremonial courtyards, and a 42-ton marble sarcophagus honoring Atatürk.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient city in Çorum Province was the capital of the Bronze Age Hittite Empire, famous for the monumental Lion Gate and the cuneiform Treaty of Kadesh?",
+      "options": [
+        "Kanesh",
+        "Hattusa Hattusha",
+        "Gordion"
+      ],
+      "correctIndex": 1,
+      "explanation": "UNESCO-inscribed Hattusa was enclosed by six kilometers of massive stone fortifications, home to the Yazılıkaya open-air rock sanctuary of sixty Hittite deities.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 1,665-square-kilometer endorheic lake in Central Anatolia is the second largest lake in Turkey, drying in summer into a brilliant pink-and-white salt crust?",
+      "options": [
+        "Lake Beyşehir",
+        "Lake Eğirdir",
+        "Lake Tuz Tuz Gölü"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Tuz supplies sixty percent of Turkey industrial salt, hosting large breeding colonies of greater flamingos that feed on pink algae in the hypersaline brine.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic city in Central Anatolia was the capital of the Seljuk Sultanate of Rum and the resting place of 13th-century Sufi mystic poet Jalal al-Din Rumi (Mevlana)?",
+      "options": [
+        "Konya",
+        "Kayseri",
+        "Sivas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Konya is the spiritual home of the Mevlevi Order and the UNESCO-inscribed Whirling Dervishes (Sema ceremony), who spin into transcendent spiritual ecstasy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the city of Ankara officially declared the capital of the newly established Republic of Turkey?",
+      "target": 1923,
+      "metricUnit": "year",
+      "imperialDisplay": "1923 AD",
+      "explanation": "The Grand National Assembly officially proclaimed Ankara as the capital of Turkey on October 13, 1923, preceding the formal declaration of the Republic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world total commercial hazelnut supply is produced along the steep, rainy Black Sea coastal slopes of Turkey (around Giresun and Ordu)?",
+      "options": [
+        "45 Percent",
+        "70 Percent",
+        "90 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turkey is the undisputed global leader in hazelnut farming, supplying confectioneries worldwide including Nutella and Ferrero Rocher.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which southeastern Turkish city is recognized as the culinary capital of Turkish pistachio cultivation (Antep fıstığı) and masterwork 40-layer butter baklava?",
+      "options": [
+        "Adana",
+        "Urfa",
+        "Gaziantep Antep"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designated a UNESCO Creative City of Gastronomy, Gaziantep uses thin hand-rolled phyllo dough, emerald green pistachios, and hot sugar syrup to craft legendary baklava.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Turkish starch-and-sugar confection, known locally as Lokum, is flavored with rosewater, mastic, bergamot, or pistachios and dusted with powdered sugar?",
+      "options": [
+        "Turkish Delight Lokum",
+        "Halva",
+        "Künefe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Created in Istanbul in the late 18th century by confectioner Hacı Bekir, Turkish Delight became a favorite sweet of Ottoman sultans and European travelers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Aegean province in western Turkey is the world largest producer and exporter of sweet sun-dried Smyrna figs (Sarılop variety)?",
+      "options": [
+        "Muğla",
+        "Aydın",
+        "Manisa"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fertile Büyük Menderes River valley in Aydın provides optimal Mediterranean sunshine and breezes to dry thin-skinned honeyed figs naturally on orchards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rich, layered sweet dessert made of spun shredded kadayıf pastry soaked in sweet syrup and filled with melted stretchy unsalted cheese is a specialty of Hatay?",
+      "options": [
+        "Baklava",
+        "Revani",
+        "Künefe Knafeh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Baked in shallow copper plates over charcoal embers and topped with crushed pistachios, Antakya Künefe holds European Union Protected Geographical Indication (PGI) status.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the world entire commercial hazelnut production is grown along the Black Sea coast of Turkey?",
+      "target": 70,
+      "metricUnit": "percent",
+      "imperialDisplay": "70% of global hazelnuts",
+      "explanation": "Turkey produces approximately 70 percent of the world's commercial hazelnuts, harvesting over 600,000 metric tons annually.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 4.6-kilometer suspension bridge across the Dardanelles Strait opened in 2022, holding the world record for the longest central suspension bridge span at 2,023 meters?",
+      "options": [
+        "1915 Çanakkale Bridge",
+        "Akashi Kaikyo Bridge",
+        "Bosphorus Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The span length of 2,023 meters commemorates the centenary of the founding of the Turkish Republic in 1923, linking European Thrace with Asian Anatolia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative provinces (İller) is the Republic of Turkey divided?",
+      "options": [
+        "67 Provinces",
+        "81 Provinces",
+        "90 Provinces"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turkey consists of eighty-one provinces grouped into seven traditional geographical regions: Marmara, Aegean, Mediterranean, Central Anatolia, Black Sea, East, and Southeast.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign nations share a direct terrestrial land border with Turkey (Greece, Bulgaria, Georgia, Armenia, Azerbaijan, Iran, Iraq, Syria)?",
+      "options": [
+        "6 Countries",
+        "10 Countries",
+        "8 Countries"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turkey land borders stretch 2,648 kilometers across three regions: Southeast Europe, the South Caucasus, and the Middle East.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of Turkey total geographical landmass is situated in Asia (Anatolia/Asia Minor), with the remaining three percent in Europe (East Thrace)?",
+      "options": [
+        "97 Percent in Asia",
+        "80 Percent in Asia",
+        "50 Percent in Asia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anatolia forms ninety-seven percent of Turkey (755,688 sq km), while East Thrace in southeastern Europe covers 23,764 square kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 61-kilometer narrow natural waterway connects the Aegean Sea to the Sea of Marmara, site of the historic World War I 1915 Gallipoli Campaign?",
+      "options": [
+        "The Bosphorus",
+        "The Dardanelles Strait Çanakkale Boğazı",
+        "The Corinth Strait"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the Hellespont in classical antiquity where Leander swam to Hero, the Dardanelles was contested during the epic 1915 naval and land battles of Gallipoli.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the central main suspension span in meters of the 1915 Çanakkale Bridge, the longest suspension bridge span in the world?",
+      "target": 2023,
+      "metricUnit": "meters",
+      "imperialDisplay": "6,637 feet central span",
+      "explanation": "The 1915 Çanakkale Bridge features a world-record central span of exactly 2,023 meters, surpassing Japan's Akashi Kaikyo Bridge.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

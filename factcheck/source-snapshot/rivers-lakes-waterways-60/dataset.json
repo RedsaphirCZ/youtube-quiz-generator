@@ -1,0 +1,641 @@
+{
+  "id": "rivers-lakes-waterways-60",
+  "theme": "Great Rivers, Majestic Waterfalls & Inland Seas",
+  "title": "Great Rivers, Majestic Waterfalls & Inland Seas",
+  "description": "Comprehensive 60-question aquatic odyssey exploring world river basins, inland seas, legendary waterfalls, deep lakes, and vital maritime canals.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which South American river system discharges more water than the next seven largest rivers combined, accounting for twenty percent of global river flow?",
+      "options": [
+        "Amazon River",
+        "Paraná River",
+        "Orinoco River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Amazon River discharges approximately 209,000 cubic meters of freshwater per second into the Atlantic Ocean."
+    },
+    {
+      "type": "mcq",
+      "question": "What historic African river flows north through eleven countries before emptying into the Mediterranean Sea through an expansive delta?",
+      "options": [
+        "Niger River",
+        "Nile River",
+        "Congo River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nile River is traditionally recognized as the longest river in the world, formed by the confluence of the White Nile and the Blue Nile."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river located entirely within a single country, flowing over 6,300 kilometers through China?",
+      "options": [
+        "Yellow River",
+        "Pearl River",
+        "Yangtze River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yangtze River originates on the Tibetan Plateau and flows eastward into the East China Sea at Shanghai."
+    },
+    {
+      "type": "mcq",
+      "question": "Which North American river system combines to form the fourth-longest river system on Earth, emptying into the Gulf of Mexico?",
+      "options": [
+        "Mississippi-Missouri River System",
+        "Mackenzie River System",
+        "Saint Lawrence River System"
+      ],
+      "correctIndex": 0,
+      "explanation": "The combined Mississippi-Missouri system spans over 6,275 kilometers and drains all or parts of thirty-two US states."
+    },
+    {
+      "type": "mcq",
+      "question": "Which African river is the deepest recorded river on Earth, reaching measured depths exceeding 220 meters?",
+      "options": [
+        "Zambezi River",
+        "Congo River",
+        "Limpopo River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Congo River is also the world second-largest river by discharge volume and the only major river to cross the Equator twice."
+    },
+    {
+      "type": "number",
+      "question": "What is the generally accepted mainstream length in kilometers of the Amazon River?",
+      "target": 6400,
+      "metricUnit": "km",
+      "imperialDisplay": "3,977 miles",
+      "explanation": "Standard geographic consensus measures the Amazon River at approximately 6,400 kilometers from its Peruvian Andean headwaters to the Atlantic."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major European river originates in the Black Forest of Germany and flows through or borders ten sovereign nations on its way to the Black Sea?",
+      "options": [
+        "Rhine River",
+        "Elbe River",
+        "Danube River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Danube touches Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, and Ukraine."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river on the European continent, flowing entirely within Russia for over 3,530 kilometers into the Caspian Sea?",
+      "options": [
+        "Volga River",
+        "Don River",
+        "Dnieper River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Volga River basin contains eleven of the twenty largest cities in Russia, including Moscow through connecting canals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which vital European commercial artery flows from the Swiss Alps through Germany and the Netherlands before emptying into the North Sea at Rotterdam?",
+      "options": [
+        "Meuse River",
+        "Rhine River",
+        "Oder River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Rhine River has served as one of the most heavily navigated inland trade corridors in world history since Roman antiquity."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Southeast Asian river originates on the Tibetan Plateau and flows through six countries before forming a massive delta in southern Vietnam?",
+      "options": [
+        "Irrawaddy River",
+        "Chao Phraya River",
+        "Mekong River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Mekong River traverses China, Myanmar, Laos, Thailand, Cambodia, and Vietnam, supporting vital fisheries and rice agriculture."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Chinese river is known as the Cradle of Chinese Civilization despite its historic nickname Mother River of Sorrows due to devastating floods?",
+      "options": [
+        "Yellow River",
+        "Huai River",
+        "Hai River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Yellow River carries enormous loads of yellow-brown loess sediment from the Loess Plateau, raising its riverbed above surrounding plains."
+    },
+    {
+      "type": "number",
+      "question": "Through how many sovereign nations does the Danube River pass or form international borders, setting a world record for any river?",
+      "target": 10,
+      "metricUnit": "countries",
+      "imperialDisplay": "10 sovereign nations",
+      "explanation": "The Danube passes through or borders 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova, and Ukraine."
+    },
+    {
+      "type": "mcq",
+      "question": "Which waterfall in Venezuela is the highest uninterrupted waterfall on Earth, plunging from the Auyán-tepui tabletop mountain?",
+      "options": [
+        "Tugela Falls",
+        "Angel Falls",
+        "Kaieteur Falls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angel Falls drops 979 meters total with an uninterrupted plunge of 807 meters within Canaima National Park."
+    },
+    {
+      "type": "mcq",
+      "question": "What magnificent waterfall on the Zambezi River between Zambia and Zimbabwe is known locally as Mosi-oa-Tunya or The Smoke That Thunders?",
+      "options": [
+        "Livingstone Falls",
+        "Epupa Falls",
+        "Victoria Falls"
+      ],
+      "correctIndex": 2,
+      "explanation": "Victoria Falls forms the largest sheet of falling water on Earth based on its combined width of 1,708 meters and height of 108 meters."
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal waterfall system comprising 275 individual drops spans the border between Argentina and Brazil in a subtropical rainforest?",
+      "options": [
+        "Iguazu Falls",
+        "Sete Quedas",
+        "Paulo Afonso Falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iguazu Falls features the dramatic Devil Throat chasm, where nearly half the river flow plunges into a roaring horseshoe canyon."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous North American waterfall consists of three separate cataracts named Horseshoe Falls, American Falls, and Bridal Veil Falls?",
+      "options": [
+        "Yosemite Falls",
+        "Niagara Falls",
+        "Shoshone Falls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Niagara Falls sits on the Niagara River connecting Lake Erie to Lake Ontario, renowned for massive hydroelectric power generation."
+    },
+    {
+      "type": "mcq",
+      "question": "What waterfall in Guyana is recognized as the world largest single-drop waterfall by volume of water falling over a sheer precipice?",
+      "options": [
+        "Gocta Falls",
+        "Yumbilla Falls",
+        "Kaieteur Falls"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kaieteur Falls plunges 226 meters from a sandstone plateau into the Potaro River gorge in the Amazonian rainforest."
+    },
+    {
+      "type": "number",
+      "question": "What is the total height in meters of Angel Falls in Venezuela from the top of Auyán-tepui to the river base?",
+      "target": 979,
+      "metricUnit": "meters",
+      "imperialDisplay": "3,212 feet",
+      "explanation": "Angel Falls stands 979 meters high, with an unbroken single free-fall plunge of 807 meters."
+    },
+    {
+      "type": "mcq",
+      "question": "What body of water is the largest enclosed inland body of water on Earth by surface area, bounded by five coastal nations?",
+      "options": [
+        "Caspian Sea",
+        "Black Sea",
+        "Aral Sea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Caspian Sea covers roughly 371,000 square kilometers and has salinity about one-third that of typical ocean seawater."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient rift lake in Russian Siberia is both the deepest lake in the world and the largest freshwater lake by water volume?",
+      "options": [
+        "Lake Superior",
+        "Lake Baikal",
+        "Lake Tanganyika"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Baikal plunges to 1,642 meters depth and holds approximately twenty percent of Earth unfrozen surface fresh water."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest freshwater lake in the world by surface area, situated along the border between the United States and Canada?",
+      "options": [
+        "Lake Victoria",
+        "Lake Huron",
+        "Lake Superior"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Superior covers 82,100 square kilometers and holds more water than all the other North American Great Lakes combined."
+    },
+    {
+      "type": "mcq",
+      "question": "What East African rift lake is the longest freshwater lake in the world, stretching over 670 kilometers between four countries?",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Victoria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Tanganyika is the second-deepest and second-largest by volume freshwater lake on Earth, plunging to 1,470 meters."
+    },
+    {
+      "type": "mcq",
+      "question": "What hypersaline terminal lake situated between Jordan and Israel marks the lowest elevation on the surface of dry land on Earth?",
+      "options": [
+        "Lake Assal",
+        "Dead Sea",
+        "Salton Sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The surface and shores of the Dead Sea lie more than 430 meters below sea level, with salinity reaching roughly thirty-four percent."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded depth in meters of Lake Baikal in Siberia, making it the deepest lake on Earth?",
+      "target": 1642,
+      "metricUnit": "meters",
+      "imperialDisplay": "5,387 feet",
+      "explanation": "Lake Baikal reaches a maximum surveyed depth of 1,642 meters in its central basin, fed by more than 330 inflowing rivers."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest tropical lake in the world and the chief reservoir source of the White Nile, shared by Uganda, Kenya, and Tanzania?",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Chad",
+        "Lake Victoria"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Victoria, also known as Nalubaale, covers roughly 59,940 square kilometers as the second-largest freshwater lake by surface area."
+    },
+    {
+      "type": "mcq",
+      "question": "Which East African Great Lake is celebrated by evolutionary biologists for hosting over a thousand unique endemic species of cichlid fish?",
+      "options": [
+        "Lake Malawi",
+        "Lake Albert",
+        "Lake Kivu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Malawi, also known as Lake Nyasa, contains more distinct species of fish than any other freshwater lake on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive lake in the Peruvian and Bolivian Andes is recognized as the highest commercially navigable body of water in the world?",
+      "options": [
+        "Lake Poopó",
+        "Lake Titicaca",
+        "Lake Junín"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Titicaca sits at 3,812 meters elevation in the Altiplano, revered in Inca mythology as the birthplace of the Sun."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous caldera lake in Oregon occupies a collapsed volcanic crater formed by the catastrophic eruption of Mount Mazama?",
+      "options": [
+        "Lake Tahoe",
+        "Mono Lake",
+        "Crater Lake"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crater Lake is the deepest lake in the United States at 594 meters, world-famous for its intense deep-blue water clarity."
+    },
+    {
+      "type": "mcq",
+      "question": "Which shallow, alkaline lake in northern Kenya is the world largest permanent desert lake and largest alkaline lake?",
+      "options": [
+        "Lake Turkana",
+        "Lake Naivasha",
+        "Lake Natron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Turkana is known as the Jade Sea due to vibrant algae blooms, situated in the arid northern sector of the East African Rift."
+    },
+    {
+      "type": "number",
+      "question": "What is the surface elevation in meters above sea level of Lake Titicaca in the high Andes?",
+      "target": 3812,
+      "metricUnit": "meters",
+      "imperialDisplay": "12,507 feet",
+      "explanation": "Lake Titicaca sits at 3,812 meters altitude, supporting indigenous Uros communities living on floating artificial reed islands."
+    },
+    {
+      "type": "mcq",
+      "question": "Which artificial sea-level waterway was constructed by Ferdinand de Lesseps and opened in 1869 to connect the Mediterranean to the Red Sea?",
+      "options": [
+        "Panama Canal",
+        "Suez Canal",
+        "Kiel Canal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Suez Canal spans 193 kilometers through Egypt, eliminating the perilous maritime voyage around the Cape of Good Hope."
+    },
+    {
+      "type": "mcq",
+      "question": "Which engineering marvel utilizes a series of massive double-lock chambers and the artificial Gatun Lake to connect the Atlantic and Pacific Oceans?",
+      "options": [
+        "Nicaragua Canal",
+        "Corinth Canal",
+        "Panama Canal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Opened in 1914 across the Isthmus of Panama, the canal cut ocean transit distances between the US East and West coasts by over 13,000 kilometers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which waterway through the German state of Schleswig-Holstein is the busiest artificial marine canal in the world, linking the North and Baltic Seas?",
+      "options": [
+        "Kiel Canal",
+        "Mittelland Canal",
+        "Rhine-Main-Danube Canal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Kiel Canal opened in 1895, saving commercial vessels hundreds of nautical miles around the stormy Jutland Peninsula."
+    },
+    {
+      "type": "mcq",
+      "question": "Which narrow, sheer rock-walled canal cut across an isthmus in Greece in 1893 to connect the Gulf of Corinth with the Saronic Gulf?",
+      "options": [
+        "Rhodes Canal",
+        "Corinth Canal",
+        "Bosphorus Passage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Corinth Canal cuts through rock at sea level over six kilometers, with vertical canyon walls rising sixty-three meters high."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest artificial canal and oldest operating waterway in the world, beginning in Beijing and stretching 1,776 kilometers to Hangzhou?",
+      "options": [
+        "Erie Canal",
+        "Lingqu Canal",
+        "Grand Canal of China"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Grand Canal linked the Yellow and Yangtze river basins, constructed in major sections beginning under the Sui Dynasty in the sixth century."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Suez Canal officially open for international maritime navigation in Egypt?",
+      "target": 1869,
+      "metricUnit": "year",
+      "imperialDisplay": "1869 AD",
+      "explanation": "The Suez Canal was officially inaugurated on November 17, 1869, revolutionizing global maritime trade between Europe and Asia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal Siberian river is the largest river flowing into the Arctic Ocean, rising in Mongolia and flowing north through Lake Baikal?",
+      "options": [
+        "Yenisey River",
+        "Ob River",
+        "Lena River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Yenisey River system discharges over 19,800 cubic meters per second into the Kara Sea of the Arctic Ocean."
+    },
+    {
+      "type": "mcq",
+      "question": "Which eastern Siberian river is famous for its dramatic towering limestone rock pillars rising 300 meters along its riverbanks?",
+      "options": [
+        "Kolyma River",
+        "Lena River",
+        "Amur River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lena River flows 4,472 kilometers from the Baikal Mountains into the Laptev Sea, forming a massive Arctic delta."
+    },
+    {
+      "type": "mcq",
+      "question": "What major Russian river combines with the Irtysh River to form one of the longest river systems in Asia, emptying into the world longest estuary?",
+      "options": [
+        "Pechora River",
+        "Angara River",
+        "Ob River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gulf of Ob in the Kara Sea extends roughly 800 kilometers in length as the longest river estuary on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river system in Canada, originating in the Canadian Rockies and flowing north into the Beaufort Sea?",
+      "options": [
+        "Mackenzie River",
+        "Yukon River",
+        "Fraser River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mackenzie River spans 4,241 kilometers from the head of the Finlay River, draining an area larger than Western Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic river flowing through Canada Yukon Territory and Alaska was the epicenter of the famous Klondike Gold Rush in the late 1890s?",
+      "options": [
+        "Kuskokwim River",
+        "Yukon River",
+        "Copper River"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tens of thousands of prospectors traveled down the Yukon River after crossing the Chilkoot Pass to reach Dawson City."
+    },
+    {
+      "type": "number",
+      "question": "What is the total navigable length in kilometers of the Panama Canal between the Atlantic and Pacific Oceans?",
+      "target": 82,
+      "metricUnit": "km",
+      "imperialDisplay": "51 miles",
+      "explanation": "The Panama Canal stretches roughly 82 kilometers from the deep-water Atlantic channel in Limon Bay to the Pacific entrance in Panama Bay."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred river originates from the Gangotri Glacier in the Himalayas and is worshipped by Hindus as the goddess Ganga?",
+      "options": [
+        "Yamuna River",
+        "Narmada River",
+        "Ganges River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ganges flows 2,525 kilometers across northern India and Bangladesh, forming the vast Sundarbans delta before entering the Bay of Bengal."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major river flowing through Tibet, India, and Pakistan gave its historic name to the country of India and the Indian Subcontinent?",
+      "options": [
+        "Indus River",
+        "Jhelum River",
+        "Chenab River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Indus River valley hosted the Bronze Age Indus Valley Civilization, one of humanity earliest urban riverine societies."
+    },
+    {
+      "type": "mcq",
+      "question": "Which two historic rivers define the fertile river valley of Mesopotamia, flowing parallel through modern Iraq to the Persian Gulf?",
+      "options": [
+        "Nile and Jordan",
+        "Tigris and Euphrates",
+        "Orontes and Litani"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tigris and Euphrates rivers supported Sumer, Akkad, Babylon, and Assyria, uniting to form the Shatt al-Arab waterway."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive river flows across the Tibetan Plateau as the Yarlung Tsangpo, carving the world deepest canyon before entering India?",
+      "options": [
+        "Salween River",
+        "Irrawaddy River",
+        "Brahmaputra River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yarlung Tsangpo Grand Canyon plunges over 5,300 meters from mountain peaks to riverbed, deeper than the Grand Canyon in Arizona."
+    },
+    {
+      "type": "mcq",
+      "question": "Which biblical river rises on Mount Hermon and flows south through the Sea of Galilee before terminating in the Dead Sea?",
+      "options": [
+        "Jordan River",
+        "Yarmouk River",
+        "Zarqa River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Jordan River lies within the Jordan Rift Valley and is celebrated in Abrahamic religions as the site of Jesus baptism."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Panama Canal officially opened to commercial maritime traffic?",
+      "target": 1914,
+      "metricUnit": "year",
+      "imperialDisplay": "1914 AD",
+      "explanation": "The cargo ship SS Ancon made the first official transit through the newly completed Panama Canal on August 15, 1914."
+    },
+    {
+      "type": "mcq",
+      "question": "Which once-massive inland sea between Kazakhstan and Uzbekistan dramatically desiccated due to Soviet river diversion projects?",
+      "options": [
+        "Lake Balkhash",
+        "Aral Sea",
+        "Caspian Sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The diversion of the Amu Darya and Syr Darya rivers for cotton irrigation reduced the Aral Sea to ten percent of its original volume."
+    },
+    {
+      "type": "mcq",
+      "question": "In which Southeast Asian country does the Tonle Sap River reverse its flow direction seasonally during the summer monsoon?",
+      "options": [
+        "Thailand",
+        "Vietnam",
+        "Cambodia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heavy Mekong floodwaters push water upstream into Tonle Sap Lake, expanding the lake surface area by more than five times."
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous endorheic wetland in Botswana is formed where a major river empties onto Kalahari Desert sands without reaching any ocean?",
+      "options": [
+        "Okavango Delta",
+        "Makgadikgadi Salt Pans",
+        "Etosha Pan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Okavango Delta receives seasonal floods from the Angolan highlands, creating a lush wildlife oasis in the desert."
+    },
+    {
+      "type": "mcq",
+      "question": "What tidal river phenomenon produces a towering standing wave that surges upstream against the current in estuaries like the Amazon and Qiantang?",
+      "options": [
+        "Storm Surge",
+        "Tidal Bore",
+        "Rip Current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Amazon Pororoca and Qiantang River tidal bore create thunderous waves several meters high that travel tens of kilometers inland."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Venezuelan coastal inlet is recognized as the lightning capital of the world due to the continuous Catatumbo lightning storms over its waters?",
+      "options": [
+        "Gulf of Paria",
+        "Lake Valencia",
+        "Lake Maracaibo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Maracaibo receives up to 260 thunderstorm days per year where warm Caribbean breezes collide with cold Andean mountain drafts."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total surface area in thousands of square kilometers of the Caspian Sea?",
+      "target": 371,
+      "metricUnit": "thousand sq km",
+      "imperialDisplay": "143,200 sq miles",
+      "explanation": "The Caspian Sea spans roughly 371,000 square kilometers, larger than Germany or Japan."
+    },
+    {
+      "type": "mcq",
+      "question": "What funnel-shaped estuary formed by the confluence of the Uruguay and Paraná rivers is the widest river estuary on Earth?",
+      "options": [
+        "Río de la Plata",
+        "Amazon Estuary",
+        "Saint Lawrence Estuary"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Río de la Plata widens to approximately 220 kilometers at its mouth between Buenos Aires, Argentina, and Punta del Este, Uruguay."
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep-water marine navigation channel and lock system connects the Great Lakes of North America directly to the Atlantic Ocean?",
+      "options": [
+        "Erie Seaway",
+        "Saint Lawrence Seaway",
+        "Welland Seaway"
+      ],
+      "correctIndex": 1,
+      "explanation": "Completed in 1959, the Saint Lawrence Seaway allows ocean-going freighters to travel over 3,700 kilometers inland to Duluth, Minnesota."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Canadian bay between New Brunswick and Nova Scotia records the highest tidal range on Earth, with tides exceeding sixteen meters?",
+      "options": [
+        "Hudson Bay",
+        "James Bay",
+        "Bay of Fundy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Due to natural tidal resonance, the Bay of Fundy moves over 160 billion tons of seawater in and out twice daily."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest river delta in the world, formed by the convergence of the Ganges, Brahmaputra, and Meghna rivers?",
+      "options": [
+        "Ganges-Brahmaputra Delta",
+        "Mekong Delta",
+        "Mississippi Delta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Also known as the Bengal Delta, it spans over 105,000 square kilometers across Bangladesh and the Indian state of West Bengal."
+    },
+    {
+      "type": "mcq",
+      "question": "Which river in the American Southwest carved the colossal Grand Canyon over millions of years of tectonic uplift and water erosion?",
+      "options": [
+        "Rio Grande",
+        "Colorado River",
+        "Green River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Colorado River carved the 446-kilometer-long Grand Canyon into the high Colorado Plateau, exposing two billion years of geological strata."
+    },
+    {
+      "type": "number",
+      "question": "What is the total width in meters of Victoria Falls along the border between Zambia and Zimbabwe?",
+      "target": 1708,
+      "metricUnit": "meters",
+      "imperialDisplay": "5,604 feet",
+      "explanation": "Victoria Falls spans 1,708 meters wide across the Zambezi River basalt gorge, creating the largest continuous sheet of falling water."
+    }
+  ]
+}

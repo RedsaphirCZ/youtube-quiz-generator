@@ -1,0 +1,470 @@
+[
+  {
+    "pack_id": "african-geography-safari-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\african-geography-safari-60\\dataset.json",
+    "sha256": "bd5b0738f47c1b44ced70eb2d32db63202c11c17f5dfc3d6e85a2c2fd6453e3a",
+    "last_write_utc": "2026-08-27T05:15:05.0995867Z"
+  },
+  {
+    "pack_id": "age-of-discovery-explorers-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\age-of-discovery-explorers-60\\dataset.json",
+    "sha256": "142ab8a38d77d6d02173ef44b66fb1ccbca2f2d64afdf7372118216b0ca05be3",
+    "last_write_utc": "2026-08-27T05:16:26.1539018Z"
+  },
+  {
+    "pack_id": "american-civil-war-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\american-civil-war-60\\dataset.json",
+    "sha256": "100880956707ba8147b8fbe278f761ab476bd44a96cde192e3e69ed9ea0b88eb",
+    "last_write_utc": "2026-08-27T05:16:26.1503261Z"
+  },
+  {
+    "pack_id": "american-revolution-founding-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\american-revolution-founding-60\\dataset.json",
+    "sha256": "5fea2d6481e05d471b6d6d59b469415fd4a745b48b40e988692eb5fd68ac35a7",
+    "last_write_utc": "2026-08-27T05:16:26.1493219Z"
+  },
+  {
+    "pack_id": "ancient-americas-maya-inca-aztec-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ancient-americas-maya-inca-aztec-60\\dataset.json",
+    "sha256": "a0a3582806109ce0d98c715fcaee2406f0c5eeb72a3d32a3e5e9cc32ea070e62",
+    "last_write_utc": "2026-08-27T05:16:26.1483210Z"
+  },
+  {
+    "pack_id": "ancient-egypt-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ancient-egypt-60\\dataset.json",
+    "sha256": "8a054283ae715a19fb42afc0621b4c6386c28e6d4f322ac45f37476bb02f7eda",
+    "last_write_utc": "2026-08-26T22:40:38.9089866Z"
+  },
+  {
+    "pack_id": "ancient-greece-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ancient-greece-60\\dataset.json",
+    "sha256": "186d3ffd99817ead0fe0c802eb31cd5fc061f0f96575cb957ab510759e22449a",
+    "last_write_utc": "2026-08-26T22:40:38.9064670Z"
+  },
+  {
+    "pack_id": "ancient-china-dynasties-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ancient-china-dynasties-60\\dataset.json",
+    "sha256": "5f67588bcf13471399853e99ff2a9f059b43b7663cf9006fe31a924a9871d989",
+    "last_write_utc": "2026-08-27T05:16:26.1463219Z"
+  },
+  {
+    "pack_id": "animal-kingdom-super-predators-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\animal-kingdom-super-predators-60\\dataset.json",
+    "sha256": "e38c6dfcff689a134cb213c5bd6cf8ce2058050caf12e9ba9657467279853296",
+    "last_write_utc": "2026-08-27T05:12:18.2881100Z"
+  },
+  {
+    "pack_id": "architecture-wonders-styles-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\architecture-wonders-styles-60\\dataset.json",
+    "sha256": "567d5bb1cf4fbe1281ec064426fe4748cb6aae116191782bbc4ad9ee5a475c82",
+    "last_write_utc": "2026-08-27T05:13:45.5128863Z"
+  },
+  {
+    "pack_id": "asian-geography-landmarks-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\asian-geography-landmarks-60\\dataset.json",
+    "sha256": "1d0029f9268543feaf41f62d98aca53c19fd7249373a89bb799ca096c329e7ab",
+    "last_write_utc": "2026-08-27T05:15:05.0985383Z"
+  },
+  {
+    "pack_id": "automotive-cars-motorsport-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\automotive-cars-motorsport-60\\dataset.json",
+    "sha256": "d5e5e1d531fb0f70e6b5e09a77b2f2acff9df1576e4cbf2cb3199ad0a9ed70c4",
+    "last_write_utc": "2026-08-27T05:17:07.3895036Z"
+  },
+  {
+    "pack_id": "aviation-flight-aircraft-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\aviation-flight-aircraft-60\\dataset.json",
+    "sha256": "68193fb337d0c978d400d55e06490a8e3617a0bfe45a720aac245c3926a906ea",
+    "last_write_utc": "2026-08-27T05:17:07.3884230Z"
+  },
+  {
+    "pack_id": "birds-avian-world-flight-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\birds-avian-world-flight-60\\dataset.json",
+    "sha256": "f21eed1228e95d5ae475a647c1c36eb8e6f48482eede346b6fa711eca5f17d48",
+    "last_write_utc": "2026-08-27T05:12:18.2909855Z"
+  },
+  {
+    "pack_id": "byzantine-empire-constantinople-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\byzantine-empire-constantinople-60\\dataset.json",
+    "sha256": "08292790adc0971a175b029d23281170f51d1a6bb1960579a628d82fd2696ee4",
+    "last_write_utc": "2026-08-27T05:08:46.5411580Z"
+  },
+  {
+    "pack_id": "cinema-film-history-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\cinema-film-history-60\\dataset.json",
+    "sha256": "fc69a1ef2edc43c9c6984ff57b8fec4086dfe9c4100aefa646e28df921b25aca",
+    "last_write_utc": "2026-08-26T22:40:38.9269213Z"
+  },
+  {
+    "pack_id": "classical-music-great-composers-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\classical-music-great-composers-60\\dataset.json",
+    "sha256": "73e3ecbb0eed2f2e1903aead225c011b5b853e62366a94ba6ce1bc2c627e09c3",
+    "last_write_utc": "2026-08-27T05:12:29.1934517Z"
+  },
+  {
+    "pack_id": "cold-war-space-race-espionage-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\cold-war-space-race-espionage-60\\dataset.json",
+    "sha256": "488cf89810534069579e3badb11d0cf62dcae4b39a13ddf06cfd9ffc71d43452",
+    "last_write_utc": "2026-08-27T05:16:26.1528898Z"
+  },
+  {
+    "pack_id": "computer-science-history-code-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\computer-science-history-code-60\\dataset.json",
+    "sha256": "4576105586ef673aab8f932eaae7fca72c86a23776d22016e335a294f0194393",
+    "last_write_utc": "2026-08-27T05:17:07.3833689Z"
+  },
+  {
+    "pack_id": "culinary-arts-world-cuisines-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\culinary-arts-world-cuisines-60\\dataset.json",
+    "sha256": "70e42af613ac47a693c0924c1ca6f3837797965ac5b249e3b3a4ac352bd7049c",
+    "last_write_utc": "2026-08-27T05:13:45.5188622Z"
+  },
+  {
+    "pack_id": "deep-space-black-holes-cosmology-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\deep-space-black-holes-cosmology-60\\dataset.json",
+    "sha256": "f6761ecfa1165a2a35ccf130e9cc1ef877f5aa7a4113f459273eb46305aec142",
+    "last_write_utc": "2026-08-27T05:16:57.1488262Z"
+  },
+  {
+    "pack_id": "deserts-arid-lands-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\deserts-arid-lands-60\\dataset.json",
+    "sha256": "72a68ec4874977a7b05c7106e16171d0ba5188578bafcde989cbf91577336578",
+    "last_write_utc": "2026-08-27T05:13:36.1222175Z"
+  },
+  {
+    "pack_id": "dinosaurs-prehistoric-life-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\dinosaurs-prehistoric-life-60\\dataset.json",
+    "sha256": "eb18b1d32d1fb4facef09c64afc07c1a1883b2f56bf3db937ef1267f4243cac2",
+    "last_write_utc": "2026-08-27T05:15:25.3197137Z"
+  },
+  {
+    "pack_id": "european-geography-heritage-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\european-geography-heritage-60\\dataset.json",
+    "sha256": "fc4bae6f3358291a0acdebdfecbaaf49ca3158860533ef43f5d868237697b517",
+    "last_write_utc": "2026-08-27T05:15:05.0974995Z"
+  },
+  {
+    "pack_id": "extreme-sports-adventures-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\extreme-sports-adventures-60\\dataset.json",
+    "sha256": "601aa5e900c1516da2afce9d5cec68f3ace6eb12d7ac7ce03fcb9b3a3d056180",
+    "last_write_utc": "2026-08-27T05:17:55.3983646Z"
+  },
+  {
+    "pack_id": "feudal-japan-samurai-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\feudal-japan-samurai-60\\dataset.json",
+    "sha256": "eaec676eb1c5159c2d33e4fa24c917d7f58815c4cde51ba89fae2f41dab35668",
+    "last_write_utc": "2026-08-27T05:16:26.1473212Z"
+  },
+  {
+    "pack_id": "french-revolution-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\french-revolution-60\\dataset.json",
+    "sha256": "67684b4bdca19ce0050e5523d95c430371a09c22cbcb8b57e36f78f1608defe5",
+    "last_write_utc": "2026-08-26T22:40:38.9363890Z"
+  },
+  {
+    "pack_id": "general-knowledge-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-60\\dataset.json",
+    "sha256": "1f9d5bda621db31aad3fc509c11daf53e04db0ef687c01f49d68b548943f3e75",
+    "last_write_utc": "2026-08-26T22:40:38.8817811Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol2-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol2-60\\dataset.json",
+    "sha256": "4632eb4cd7ab317a1cf84ddbb5a3f0ce244bca7c5cd4957e9cab0328f3196421",
+    "last_write_utc": "2026-08-26T22:40:38.8859131Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol3-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol3-60\\dataset.json",
+    "sha256": "e6e86b9edcb44da9522eb9435b53bc863aae874c8f4887f785bb36b80d2cff3e",
+    "last_write_utc": "2026-08-26T22:40:38.8895678Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol4-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol4-60\\dataset.json",
+    "sha256": "fdfacd3b2260a7759b54238d2eb4968150c817f24d9b194059666afbdc0876e4",
+    "last_write_utc": "2026-08-26T22:40:38.8921756Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol5-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol5-60\\dataset.json",
+    "sha256": "dc04609af530dd966ac953465e8073438e9ac16a80584056ec12b4a718e5ec41",
+    "last_write_utc": "2026-08-26T22:40:38.8952441Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol6-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol6-60\\dataset.json",
+    "sha256": "b4f803af69927fe0b8379cada18121e52218e79c74f468ec7292e1684b4540c8",
+    "last_write_utc": "2026-08-26T22:40:38.8980420Z"
+  },
+  {
+    "pack_id": "general-knowledge-vol7-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\general-knowledge-vol7-60\\dataset.json",
+    "sha256": "ec6aa24a54a6b73a2b1c81915aedd122187ea0c95940d5b0c010873ad825ce38",
+    "last_write_utc": "2026-08-26T22:40:38.9006641Z"
+  },
+  {
+    "pack_id": "genetics-dna-evolution-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\genetics-dna-evolution-60\\dataset.json",
+    "sha256": "45ffa3fa0d683b4edaaa161a848b05777724b8d1a820c105caac7c23d6b0743f",
+    "last_write_utc": "2026-08-27T05:13:46.0048737Z"
+  },
+  {
+    "pack_id": "geology-volcanoes-earthquakes-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\geology-volcanoes-earthquakes-60\\dataset.json",
+    "sha256": "3aa475e4e3bd6d7f705e2b375dbaa936e49fb3a675f0eb6a995a8417929cdf78",
+    "last_write_utc": "2026-08-27T05:18:25.7575044Z"
+  },
+  {
+    "pack_id": "human-body-medicine-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\human-body-medicine-60\\dataset.json",
+    "sha256": "24f3b52e41c895cf27e7dc88ee5db41bf54ed7240533fc910e8a4412e4226870",
+    "last_write_utc": "2026-08-26T22:40:38.9184213Z"
+  },
+  {
+    "pack_id": "hungary-master-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\hungary-master-60\\dataset.json",
+    "sha256": "d793d505aaed336e24f6e94d4a8bacde5cda12825e8b6cc97bba7fec938bbe15",
+    "last_write_utc": "2026-08-26T22:40:38.9387622Z"
+  },
+  {
+    "pack_id": "chess-grandmasters-strategy-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\chess-grandmasters-strategy-60\\dataset.json",
+    "sha256": "23db3c9ff72b77141fc3e593a1c8787951f3376697c8ff5e754859b1f4a9fbdf",
+    "last_write_utc": "2026-08-27T05:17:55.3960594Z"
+  },
+  {
+    "pack_id": "industrial-revolution-steam-steel-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\industrial-revolution-steam-steel-60\\dataset.json",
+    "sha256": "d017027cc7ab9dbcc11249f06bbcc2e94efd1637c553b86d3b175a3a78d3047a",
+    "last_write_utc": "2026-08-27T05:16:26.1549003Z"
+  },
+  {
+    "pack_id": "insects-arachnids-micro-monsters-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\insects-arachnids-micro-monsters-60\\dataset.json",
+    "sha256": "36e18667a1842ec519c224f049cfb5d5171fed67e78df9f4392a3b37b9785b50",
+    "last_write_utc": "2026-08-27T05:13:45.9993380Z"
+  },
+  {
+    "pack_id": "islands-archipelagos-atolls-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\islands-archipelagos-atolls-60\\dataset.json",
+    "sha256": "78a35689abca458d56bf17843529b5b24170ca1549416e55b3975e06a464b31a",
+    "last_write_utc": "2026-08-27T05:15:05.0920424Z"
+  },
+  {
+    "pack_id": "mammals-world-wildlife-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\mammals-world-wildlife-60\\dataset.json",
+    "sha256": "b82d1c8d241e95060d01cd2d3794c676b09c77dca2859e805144e8a08c692493",
+    "last_write_utc": "2026-08-27T05:15:25.3157160Z"
+  },
+  {
+    "pack_id": "medieval-europe-knights-castles-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\medieval-europe-knights-castles-60\\dataset.json",
+    "sha256": "a68fab59fddbe4939234de7a69eaa66370313e56c91205062fc862500ad46ea1",
+    "last_write_utc": "2026-08-27T05:16:26.1483210Z"
+  },
+  {
+    "pack_id": "megastructures-modern-engineering-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\megastructures-modern-engineering-60\\dataset.json",
+    "sha256": "a06a926ddd01d1f18a973031d021ac4eb0f1c70e3cea3991f59ea16fb6731eeb",
+    "last_write_utc": "2026-08-27T05:17:07.3889550Z"
+  },
+  {
+    "pack_id": "mesopotamia-cradle-civilization-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\mesopotamia-cradle-civilization-60\\dataset.json",
+    "sha256": "427996207ad3a9563a3776aaef4ea4ca3a05e5399a0371f64062cbd5a4a2e615",
+    "last_write_utc": "2026-08-27T05:08:46.4924616Z"
+  },
+  {
+    "pack_id": "mongol-empire-genghis-khan-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\mongol-empire-genghis-khan-60\\dataset.json",
+    "sha256": "313cf78d2f46a861822d59c523f1972f681f89d863711a44d034de91ed057133",
+    "last_write_utc": "2026-08-27T05:08:46.5857115Z"
+  },
+  {
+    "pack_id": "mountains-peaks-alpinism-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\mountains-peaks-alpinism-60\\dataset.json",
+    "sha256": "1c5c629a8e745746125029935533398923b60271175b3b9b0eb202cb50788799",
+    "last_write_utc": "2026-08-27T05:13:36.1206233Z"
+  },
+  {
+    "pack_id": "napoleonic-wars-empire-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\napoleonic-wars-empire-60\\dataset.json",
+    "sha256": "df84a1fd046d6b35cfa41385a7064a0c5b0ca68f9990e98b82c3fad58b59e6be",
+    "last_write_utc": "2026-08-27T05:16:26.1558991Z"
+  },
+  {
+    "pack_id": "ocean-deep-sea-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ocean-deep-sea-60\\dataset.json",
+    "sha256": "81bb411dc50ee4ec9e94378638b55e7aba00e2a4524c7a5da6bc7cbbab175ff0",
+    "last_write_utc": "2026-08-26T22:40:38.9213352Z"
+  },
+  {
+    "pack_id": "olympic-games-records-history-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\olympic-games-records-history-60\\dataset.json",
+    "sha256": "d9fbebdda46bffa361f9c7045e67895ff014481465201c2f5b88e559d9d9a658",
+    "last_write_utc": "2026-08-27T05:15:40.8217921Z"
+  },
+  {
+    "pack_id": "ottoman-empire-sultans-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\ottoman-empire-sultans-60\\dataset.json",
+    "sha256": "5c5901fe029020a361b73c9f2412d030947e26a9a5638e1593f8a15b76d3c2b5",
+    "last_write_utc": "2026-08-27T05:08:46.5460426Z"
+  },
+  {
+    "pack_id": "periodic-table-chemistry-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\periodic-table-chemistry-60\\dataset.json",
+    "sha256": "d2f6272aa73eba2a22dc124908f82a56ac244d0c538b33c12569494bcc283fba",
+    "last_write_utc": "2026-08-27T05:18:25.7614906Z"
+  },
+  {
+    "pack_id": "philosophy-great-thinkers-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\philosophy-great-thinkers-60\\dataset.json",
+    "sha256": "8f2b113077d555b447c3a274d63d2f05e6782cc619c295f4a070328cceebeb25",
+    "last_write_utc": "2026-08-27T05:13:45.5168671Z"
+  },
+  {
+    "pack_id": "plant-kingdom-botany-trees-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\plant-kingdom-botany-trees-60\\dataset.json",
+    "sha256": "781123bacdb4119e5f294d4e8d33631042a86061dcde5ca8cb7d4059e232e26b",
+    "last_write_utc": "2026-08-27T05:13:46.0043402Z"
+  },
+  {
+    "pack_id": "quantum-physics-particle-world-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\quantum-physics-particle-world-60\\dataset.json",
+    "sha256": "c040e2c8976f83381012974d7392b2e4bc944a651b92c5c708e7d66f6da68e37",
+    "last_write_utc": "2026-08-27T05:16:57.1498696Z"
+  },
+  {
+    "pack_id": "rainforests-biodiversity-jungles-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\rainforests-biodiversity-jungles-60\\dataset.json",
+    "sha256": "43251927f6d19302208206472419e5df6fe8c8747b6613698bd9cf0346e8b93f",
+    "last_write_utc": "2026-08-27T05:12:18.2915113Z"
+  },
+  {
+    "pack_id": "renaissance-art-history-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\renaissance-art-history-60\\dataset.json",
+    "sha256": "44dd3042e60691e618bcfa624ec26036bed07834bda4edbebaa6a7093341a526",
+    "last_write_utc": "2026-08-26T22:40:38.9247651Z"
+  },
+  {
+    "pack_id": "renewable-energy-future-power-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\renewable-energy-future-power-60\\dataset.json",
+    "sha256": "c9502545688759deda9143038a386a93207c563d56fc0b43f6a0d59e029e776f",
+    "last_write_utc": "2026-08-27T05:18:25.7625522Z"
+  },
+  {
+    "pack_id": "rivers-lakes-waterways-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\rivers-lakes-waterways-60\\dataset.json",
+    "sha256": "53a489a54c3e1aea58ef33e393017a304d7fc48c1d89e6e8f426bc251a60a64b",
+    "last_write_utc": "2026-08-27T05:13:36.1211523Z"
+  },
+  {
+    "pack_id": "rock-music-pop-legends-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\rock-music-pop-legends-60\\dataset.json",
+    "sha256": "f6ec2eb9582f11da520e95288e68dc688f5caf7ee5835efb86b3be333af77921",
+    "last_write_utc": "2026-08-27T05:12:29.1970194Z"
+  },
+  {
+    "pack_id": "roman-empire-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\roman-empire-60\\dataset.json",
+    "sha256": "8839b9a19a30d2ea0d4ac012ac66bd1f462132571dd2f3efed7fcc0a89fe3400",
+    "last_write_utc": "2026-08-26T22:40:38.9036639Z"
+  },
+  {
+    "pack_id": "solar-system-planets-moons-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\solar-system-planets-moons-60\\dataset.json",
+    "sha256": "c25c7a777577de9975016dd3387a2b81b97472a58086e36d6667e19147657e8b",
+    "last_write_utc": "2026-08-27T05:16:57.1457662Z"
+  },
+  {
+    "pack_id": "space-astronomy-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\space-astronomy-60\\dataset.json",
+    "sha256": "38cd163d358af2711176fc5a468c22c10199be74472cb62a708c08b06e9dcc1d",
+    "last_write_utc": "2026-08-26T22:40:38.9322618Z"
+  },
+  {
+    "pack_id": "theater-opera-performing-arts-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\theater-opera-performing-arts-60\\dataset.json",
+    "sha256": "602baef6ae47ee8fcab881b84900c6bbd17e8b23cf361f14ae006d390c448a1d",
+    "last_write_utc": "2026-08-27T05:15:40.8164051Z"
+  },
+  {
+    "pack_id": "video-games-gaming-history-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\video-games-gaming-history-60\\dataset.json",
+    "sha256": "75d8e6c0a0c877be1cf1de34678f5b0c32e621cd247158a74d2b8b969de5f80b",
+    "last_write_utc": "2026-08-27T05:17:55.3988685Z"
+  },
+  {
+    "pack_id": "viking-age-norse-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\viking-age-norse-60\\dataset.json",
+    "sha256": "9210e4daa8c054b95cfadb27deb1d20e277e002bfbd36e2a5e4b5b621c82fb59",
+    "last_write_utc": "2026-08-27T05:08:46.4972835Z"
+  },
+  {
+    "pack_id": "weather-meteorology-climate-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\weather-meteorology-climate-60\\dataset.json",
+    "sha256": "0f75b9fa5da95859d35b48598883f42e73b8cf1770721c83eda15f46ec08b67a",
+    "last_write_utc": "2026-08-27T05:15:25.3208020Z"
+  },
+  {
+    "pack_id": "world-capitals-megacities-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-capitals-megacities-60\\dataset.json",
+    "sha256": "3c6fbffabe7a49c568ee908a4be6b9612c48fe0dc8ef74250792d1bc56962572",
+    "last_write_utc": "2026-08-27T05:13:36.1162406Z"
+  },
+  {
+    "pack_id": "world-football-soccer-legends-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-football-soccer-legends-60\\dataset.json",
+    "sha256": "683e09ddc28b4692596cd0662333d8d91b4a59a144a0c4628abab1cca7b841af",
+    "last_write_utc": "2026-08-27T05:15:40.8217921Z"
+  },
+  {
+    "pack_id": "world-geography-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-geography-60\\dataset.json",
+    "sha256": "7795f63ef3564e993721f9b136f06d693335c2f8df0950d78f28058b5a66c460",
+    "last_write_utc": "2026-08-26T22:40:38.9304554Z"
+  },
+  {
+    "pack_id": "world-languages-linguistics-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-languages-linguistics-60\\dataset.json",
+    "sha256": "6e89696731be05093c6a6f537f59498657f46ed7ec79d8ffd2cd2e625be2f3a6",
+    "last_write_utc": "2026-08-27T05:13:45.5163300Z"
+  },
+  {
+    "pack_id": "world-literature-masterpieces-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-literature-masterpieces-60\\dataset.json",
+    "sha256": "dc4a8a860be100b8ef0723d062913dcb7d990e002ee028549f00ec4a63fea5b3",
+    "last_write_utc": "2026-08-27T05:12:29.1975547Z"
+  },
+  {
+    "pack_id": "world-mythology-legends-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-mythology-legends-60\\dataset.json",
+    "sha256": "7c252eb45a463d7a713762c09020d9d6421888748f73c34c9ac017c2a7ce1036",
+    "last_write_utc": "2026-08-27T05:12:29.1982216Z"
+  },
+  {
+    "pack_id": "world-records-human-extremes-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-records-human-extremes-60\\dataset.json",
+    "sha256": "e5fc96373a372dea578fea975a98217b045f02f098d63c95ee17f70d140e5888",
+    "last_write_utc": "2026-08-27T05:17:55.3993949Z"
+  },
+  {
+    "pack_id": "world-religions-sacred-traditions-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-religions-sacred-traditions-60\\dataset.json",
+    "sha256": "cf1fb9a7957fa562f3f193b91b86d8bc56e5996cd4a807f63470d4bd70420796",
+    "last_write_utc": "2026-08-27T05:15:40.8211361Z"
+  },
+  {
+    "pack_id": "world-war-1-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-war-1-60\\dataset.json",
+    "sha256": "8835f61ef2d00ac2d15dd94db7d065f6a4ba038b065dce18527fc823572f5736",
+    "last_write_utc": "2026-08-26T22:40:38.9160313Z"
+  },
+  {
+    "pack_id": "world-war-2-60",
+    "source_path": "C:\\Users\\1reds\\Documents\\antigravity\\Quiz for Youtube Generator\\quizzes\\world-war-2-60\\dataset.json",
+    "sha256": "75bdb131d08c8366e2b0a0c2a6bf688e261d79f1aa6601c290ff7bc87399042c",
+    "last_write_utc": "2026-08-26T22:40:38.9126720Z"
+  }
+]

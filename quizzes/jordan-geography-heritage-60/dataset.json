@@ -1,0 +1,703 @@
+{
+  "id": "jordan-geography-heritage-60",
+  "theme": "Jordan: Geography, Petra & The Dead Sea Rift",
+  "title": "Jordan: Geography, Petra & The Dead Sea Rift",
+  "description": "A 60-question grand master assessment exploring Petra & The Treasury (40 m), the Dead Sea lowest land point (-430 m), Wadi Rum & Burdah Rock Bridge (35 m), Amman Citadel & Roman Theater (6,000 seats), Jerash (129 CE), Mount Nebo (2M tile map), Kerak (1142), and Mansaf.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What ancient UNESCO World Heritage city in southern Jordan, hand-carved directly into rose-red sandstone canyon cliffs, was the capital of the Nabataean Kingdom?",
+      "options": [
+        "Petra",
+        "Jerash",
+        "Palmyra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voted one of the New 7 Wonders of the World, Petra controlled ancient frankincense, myrrh, and silk trade routes between Arabia, Egypt, and the Mediterranean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 40-meter-high Hellenistic rock-cut tomb facade in Petra appears dramatically at the end of the narrow Siq gorge?",
+      "options": [
+        "The Monastery",
+        "The Treasury",
+        "The Urn Tomb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built in the 1st century CE as a mausoleum for Nabataean King Aretas IV, Bedouin legend claimed an Egyptian pharaoh hid gold inside the top stone urn.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What narrow, dramatic 1.2-kilometer sandstone canyon chasm, flanked by sheer cliffs rising eighty meters high, serves as the main ceremonial entrance into Petra?",
+      "options": [
+        "Wadi Mujib",
+        "Wadi Rum",
+        "The Siq"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Nabataeans channeled drinking water along the Siq using terracotta water pipes and carved drainage channels cut into the canyon walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal rock-carved monument in Petra, reached by climbing eight hundred stone steps up a mountain canyon, is even larger than the Treasury at forty-eight meters wide?",
+      "options": [
+        "The Monastery",
+        "The Palace Tomb",
+        "The Corinthian Tomb"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ad Deir was repurposed as a Christian chapel during the Byzantine era, featuring crosses carved into its interior rear chamber walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sophisticated ancient engineering technology allowed the Nabataeans to sustain a thriving city of 30,000 residents in the hyper-arid desert of Petra?",
+      "options": [
+        "Deep mechanical artesian boreholes",
+        "Water harvesting with subterranean cisterns, dams, and terracotta aqueducts",
+        "Solar desalinization plants"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nabataean engineers captured seasonal flash floods in waterproof subterranean cisterns, ensuring year-round water security in the desert.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the architectural height in meters of the magnificent rock-carved Treasury (Al-Khazneh) facade in Petra?",
+      "target": 40,
+      "metricUnit": "meters",
+      "imperialDisplay": "131 feet high",
+      "explanation": "The Treasury facade measures forty meters high and twenty-five meters wide, sculpted from a single solid sandstone cliff.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What terminal hypersaline lake in the Jordan Rift Valley on the border of Jordan and the West Bank is the lowest exposed land elevation on planet Earth?",
+      "options": [
+        "Lake Assal",
+        "Sea of Galilee",
+        "The Dead Sea"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sitting at 430 meters below mean sea level, the Dead Sea shoreline is the lowest point on the terrestrial surface of the Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the salinity percentage of the Dead Sea, making it roughly ten times saltier than normal ocean water and allowing swimmers to float effortlessly?",
+      "options": [
+        "34 Percent Salinity",
+        "12 Percent",
+        "20 Percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "High concentrations of dissolved magnesium, sodium, potassium, and calcium salts create extreme water density (1.24 kg/L) preventing humans from sinking.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural therapeutic cosmetic resource found along the shores of the Dead Sea is rich in twenty-six minerals prized worldwide for skin health and arthritis treatment?",
+      "options": [
+        "Sulfur Clay",
+        "Dead Sea Black Mineral Mud",
+        "Alum Silt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visitors coat their bodies in mineral-rich black alluvial mud before floating in the buoyant saline waters, a natural spa frequented since Queen Cleopatra.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular sandstone river gorge in Jordan, nicknamed the Grand Canyon of Jordan, features an aquatic river trek entering the Dead Sea from 400 meters below sea level?",
+      "options": [
+        "Wadi Zarqa",
+        "Wadi Dana",
+        "Wadi Mujib"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Mujib Biosphere Reserve is the lowest nature reserve in the world, where hikers wade and swim through slot canyons past waterfalls to reach the Dead Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous natural pillar of crystallised rock salt overlooking the Dead Sea is associated in biblical tradition with the wife of Lot who looked back at Sodom?",
+      "options": [
+        "Lot's Wife Pillar",
+        "Moses Pillar",
+        "Jethro Rock"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the Book of Genesis, Lot wife was turned into a pillar of salt for looking back at the destruction of Sodom and Gomorrah.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many meters below mean sea level is the natural shoreline of the Dead Sea in Jordan, the lowest dry land on Earth?",
+      "target": 430,
+      "metricUnit": "meters below sea level",
+      "imperialDisplay": "1,410 feet below sea level",
+      "explanation": "The water surface of the Dead Sea sits at approximately 430 meters below sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast 720-square-kilometer UNESCO World Heritage desert wilderness in southern Jordan features dramatic red sandstone mountains and granite canyons, known as the Valley of the Moon?",
+      "options": [
+        "Wadi Dana",
+        "Wadi Rum",
+        "Wadi Araba"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wadi Rum was the desert operational base for British officer T.E. Lawrence and Prince Faisal during the Arab Revolt of 1917 to 1918.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 1962 Academy Award-winning historical epic film directed by David Lean was filmed on location across the red dunes of Wadi Rum?",
+      "options": [
+        "Dune",
+        "The Martian",
+        "Lawrence of Arabia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Starring Peter O'Toole as T.E. Lawrence, Wadi Rum also served as the surface of the Red Planet in The Martian (2015) and Arrakis in Dune (2021).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular natural rock arch in Wadi Rum spans thirty-five meters across a granite mountain cliff at a height of 300 meters above the desert floor?",
+      "options": [
+        "Burdah Rock Bridge",
+        "Umm Fruth Rock Bridge",
+        "Little Rock Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Burdah Rock Bridge is one of the highest natural stone arches in the world, reached via a steep scrambling route guided by local Bedouin mountaineers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What semi-nomadic indigenous desert dwellers have inhabited the canyons of Wadi Rum for generations, famous for hospitality, camel treks, and desert camps?",
+      "options": [
+        "The Tuareg",
+        "The Zalabieh Bedouin",
+        "The Berbers"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bedouin share traditional sweet sage tea brewed over acacia wood embers, and slow-cook lamb feasts (Zarb) underground in desert sand ovens.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Jordan, rising 1,854 meters in the southern desert near the border with Saudi Arabia?",
+      "options": [
+        "Jabal Ram",
+        "Jabal Harun",
+        "Jabal Umm ad Dami"
+      ],
+      "correctIndex": 2,
+      "explanation": "Climbers to the summit of Umm ad Dami can see across the desert to the Red Sea at Aqaba and the mountains of Saudi Arabia.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the span length in meters of the iconic Burdah Rock Bridge natural arch perched high in the mountains of Wadi Rum?",
+      "target": 35,
+      "metricUnit": "meters",
+      "imperialDisplay": "115 feet arch span",
+      "explanation": "The Burdah Rock Bridge spans approximately thirty-five meters across a deep mountain crevasse in Wadi Rum.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital and largest city of Jordan, built across nineteen hills (originally seven hills) and known in antiquity as Philadelphia?",
+      "options": [
+        "Amman",
+        "Zarqa",
+        "Irbid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amman is one of the oldest continuously inhabited cities on Earth, dating back to the Neolithic settlement of 'Ain Ghazal (7250 BCE).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic archaeological hill in central Amman (Jabal al-Qal'a) preserves the Roman Temple of Hercules, a Byzantine basilica, and the 8th-century Umayyad Palace?",
+      "options": [
+        "Mount Nebo",
+        "The Amman Citadel",
+        "Jabal Luweibdeh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excavations at the Temple of Hercules revealed colossal carved marble fingers from a thirty-foot-tall lost statue of Hercules.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 2nd-century Roman Theater in downtown Amman, cut directly into the northern slope of a hill, seated six thousand spectators?",
+      "options": [
+        "The Odeon",
+        "The Nymphaeum",
+        "The Roman Theatre of Amman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built during the reign of Emperor Antoninus Pius around 160 CE, the theater possesses acoustic design allowing a whisper on stage to be heard in the top tier.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vibrant cultural street in the historic Jabal Amman district is famous for art galleries, heritage cafes, rooftop lounges, and the Souk Jara Friday flea market?",
+      "options": [
+        "Rainbow Street",
+        "Al-Rainbow",
+        "King Faisal Street"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rainbow Street preserves 1920s limestone villas, including the home of British diplomat Glubb Pasha and modern Jordanian culinary spots.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 7250 BCE Neolithic archaeological site in Amman uncovered the 'Ain Ghazal Statues, the oldest large-scale human statues ever discovered in world history?",
+      "options": [
+        "Beidha",
+        "'Ain Ghazal",
+        "Basta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Made from lime plaster modeled over reed bundles with bitumen-inlaid eyes, the fifteen statues date back nearly ten thousand years.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the spectator seating capacity of the ancient 2nd-century Roman Theatre in downtown Amman, Jordan?",
+      "target": 6000,
+      "metricUnit": "spectators",
+      "imperialDisplay": "6,000 spectators",
+      "explanation": "The Roman Theatre in Amman seated six thousand citizens across three horizontal tiers (cavea).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greco-Roman city in northern Jordan, known as the Pompeii of the Middle East, is recognized as the best-preserved provincial Roman city on Earth?",
+      "options": [
+        "Gadara Umm Qais",
+        "Pella",
+        "Jerash"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buried for centuries beneath desert sand dunes, Jerash features paved colonnaded streets, hilltop temples, two theaters, and monumental public fountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique 90-meter-wide oval public plaza in Jerash is encircled by fifty-six elegant Ionic limestone columns, connecting the Cardo to the Temple of Zeus?",
+      "options": [
+        "The Oval Forum",
+        "The Decumanus",
+        "The Agora"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Oval Forum is an asymmetrical limestone plaza paved with concentric flagstones, designed to join two conflicting town street axes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 800-meter paved colonnaded main avenue in Jerash still retains its original Roman stone pavement, underground drainage manholes, and chariot wheel ruts?",
+      "options": [
+        "The Via Recta",
+        "The Cardo Maximus",
+        "The Decumanus Maximus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lined with hundreds of Corinthian columns, the Cardo connected the North Gate to the Oval Forum, passing the ornate 2nd-century Nymphaeum public fountain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental triple-arched stone gateway in southern Jerash was constructed in 129 CE to commemorate the imperial visit of Roman Emperor Hadrian?",
+      "options": [
+        "The South Gate",
+        "The North Gate",
+        "Arch of Hadrian"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standing eleven meters tall, the triumphal arch was originally planned as the new southern entrance gate for an intended expansion of the city.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Greco-Roman Decapolis city in northwestern Jordan overlooking the Sea of Galilee and the Golan Heights was ancient Gadara, where Jesus performed the Miracle of the Swine?",
+      "options": [
+        "Umm Qais",
+        "Pella",
+        "Abila"
+      ],
+      "correctIndex": 0,
+      "explanation": "Umm Qais features a black basalt Roman theater, a colonnaded street, and a terrace with panoramic views across Jordan, Israel, and Syria.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the monumental Arch of Hadrian constructed in Jerash to celebrate the visit of Emperor Hadrian?",
+      "target": 129,
+      "metricUnit": "CE",
+      "imperialDisplay": "129 AD",
+      "explanation": "Hadrian's Arch in Jerash was built during Emperor Hadrian's winter visit to Gerasa in 129 to 130 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 710-meter holy mountain ridge overlooking the Jordan Valley and Dead Sea is revered as the place where the Prophet Moses viewed the Promised Land and died?",
+      "options": [
+        "Mount Hor",
+        "Mount Nebo",
+        "Mount Hermon"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to the Book of Deuteronomy, Moses climbed Mount Nebo from the plains of Moab, commemorated today by the Franciscan Moses Memorial Church.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 6th-century Byzantine mosaic floor inside Saint George Church in Madaba is the oldest surviving cartographic map of the Holy Land and Jerusalem?",
+      "options": [
+        "The Nebo Map",
+        "The Umm ar-Rasas Mosaic",
+        "The Madaba Mosaic Map"
+      ],
+      "correctIndex": 2,
+      "explanation": "Created around 560 CE using over two million colored stone cubes (tesserae), the map accurately depicts fifty-four biblical sites across the Middle East.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage archaeological site on the east bank of the Jordan River is venerated as the authentic location of the Baptism of Jesus by John the Baptist?",
+      "options": [
+        "Bethany Beyond the Jordan",
+        "Qasr al-Yahud",
+        "En Gedi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excavations revealed 1st-century Roman baptismal pools, a cruciform baptistery, and hermit caves visited by early Christian pilgrims along the Jordan River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic hilltop palace fortress in Jordan overlooking the Dead Sea was the stronghold of King Herod Antipas where John the Baptist was imprisoned and beheaded?",
+      "options": [
+        "Kerak",
+        "Machaerus",
+        "Masada"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to historian Flavius Josephus, Salome performed her fateful dance at Machaerus, leading Herod to execute John the Baptist.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage archaeological site near Madaba contains sixteen Byzantine and Umayyad churches with the largest preserved mosaic floor in Jordan (Church of St. Stephen)?",
+      "options": [
+        "Rabba",
+        "Dhiban",
+        "Umm ar-Rasas"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 8th-century mosaic floor depicts illustrations of twenty-four major cities in Jordan, Palestine, and Egypt, along with a 15-meter square stylized stylite monastic tower.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many millions of colored stone cubes (tesserae) were used to create the 6th-century Madaba Mosaic Map in Jordan?",
+      "target": 2,
+      "metricUnit": "million stone cubes",
+      "imperialDisplay": "2+ million mosaic tesserae",
+      "explanation": "The original Madaba Mosaic Map measured 21 by 7 meters, composed of more than two million individual cut stone tesserae.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 8th-century early Islamic desert hunting lodge in eastern Jordan, built under Umayyad Caliph Walid II, is a UNESCO World Heritage site famous for figurative wall frescoes and a celestial zodiac dome?",
+      "options": [
+        "Qasr Amra",
+        "Qasr al-Kharana",
+        "Qasr al-Azraq"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bathhouse frescoes depict hunting scenes, musicians, dancing women, and the Six Kings of the World, representing rare surviving early Islamic secular figurative art.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 12th-century Crusader castle perched on a 900-meter limestone ridge in southern Jordan was the stronghold of the notorious Crusader lord Raynald of Châtillon?",
+      "options": [
+        "Shobak Castle",
+        "Kerak Castle",
+        "Ajloun Castle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kerak withstood two sieges by Saladin (Salah ad-Din) before falling in 1188, featuring dark vaulted subterranean stables, barrack halls, and torture chambers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which fortress in the desert oasis of Azraq, constructed from dark black basalt stone blocks, served as the winter headquarters for T.E. Lawrence in 1917 during the Arab Revolt?",
+      "options": [
+        "Qasr Hallabat",
+        "Qasr Mushatta",
+        "Qasr al-Azraq"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lawrence occupied the room directly above the southern entrance gate, which features massive one-ton single-slab stone doors that pivot smoothly on basalt hinges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 12th-century Muslim fortress in northern Jordan, built by Saladin nephew Izz al-Din Usama on Mount Auf, guarded trade routes and iron mines against Crusader incursions?",
+      "options": [
+        "Ajloun Castle",
+        "Kerak Castle",
+        "Shobak Castle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ajloun commanded sweeping views over the Jordan Valley, utilizing a network of homing pigeons and optical smoke beacons to transmit messages to Damascus in eight hours.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic Crusader castle in southern Jordan, originally named Mons Realis (Royal Mountain) by King Baldwin I of Jerusalem in 1115, perches on a conical mountain?",
+      "options": [
+        "Kerak Castle",
+        "Shobak Castle",
+        "Aqaba Fort"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shobak features a secret 375-step subterranean escape staircase cut deep into the limestone bedrock leading to an underground water well.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Crusader knight Payen le Bouteiller begin construction of the massive fortress of Kerak Castle in Jordan?",
+      "target": 1142,
+      "metricUnit": "year",
+      "imperialDisplay": "1142 AD",
+      "explanation": "Construction of Kerak Castle commenced in 1142, becoming the center of the Crusader Lordship of Oultrejordain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the only coastal seaport city in the Hashemite Kingdom of Jordan, located at the northern tip of the Gulf of Aqaba on the Red Sea?",
+      "options": [
+        "Dhahab",
+        "Eilat",
+        "Aqaba"
+      ],
+      "correctIndex": 2,
+      "explanation": "Captured by Lawrence of Arabia and Arab forces in a daring 1917 surprise desert assault from behind, Aqaba is a duty-free special economic zone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many kilometers of total marine coastline does Jordan possess along the Gulf of Aqaba, making it Jordan only access to open ocean trade?",
+      "options": [
+        "26 Kilometers",
+        "15 Kilometers",
+        "50 Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1965, King Hussein signed a historic land swap treaty with Saudi Arabia, trading 6,000 square kilometers of inland desert for twelve kilometers of extra coastline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Lebanese freighter shipwreck was scuttled in 1985 in the Aqaba Marine Park by order of King Abdullah II (then Prince) to create a thriving artificial coral reef for scuba divers?",
+      "options": [
+        "The Thistlegorm",
+        "The Cedar Pride",
+        "The Zenobia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lying on its port side across two coral reefs at depths from twelve to thirty meters, the 74-meter ship is encrusted with soft corals and inhabited by sea turtles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique underwater military museum was created in Aqaba in 2019, featuring nineteen sunken combat vehicles including tanks, troop carriers, and a combat attack helicopter?",
+      "options": [
+        "Red Sea Submarine Park",
+        "Neptune Memorial Reef",
+        "Aqaba Underwater Military Museum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Placed in tactical battle formation along the seabed, the vehicles allow divers and glass-bottom boats to observe corals colonizing decommissioned military hardware.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Why are the coral reefs in the Gulf of Aqaba scientifically celebrated worldwide by marine biologists as a Thermal Refuge for coral survival?",
+      "options": [
+        "Corals in the northern Red Sea possess genetic thermal resistance to high water temperatures and ocean warming",
+        "Cold freshwater rivers cool the bay",
+        "Artificial shading domes cover the reef"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having evolved through warm post-glacial bottlenecks, Gulf of Aqaba corals can tolerate sea temperatures up to 5°C above current summer maximums without bleaching.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the national maritime coastline of Jordan on the Gulf of Aqaba?",
+      "target": 26,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "16 miles of coastline",
+      "explanation": "Jordan has exactly twenty-six kilometers of coastline along the Red Sea, connecting the nation to global maritime shipping.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the official national dish of Jordan, consisting of tender lamb cooked in a rich fermented dried goat yogurt broth (Jameed), served over turmeric rice and shrak flatbread topped with toasted pine nuts and almonds?",
+      "options": [
+        "Maqluba",
+        "Mansaf",
+        "Musakhan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inscribed on the UNESCO Intangible Cultural Heritage list in 2022, Mansaf is served on a large communal platter (sidr) and traditionally eaten with the right hand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What hard, stone-like sun-dried fermented goat milk yogurt balls from the southern desert of Jordan are rehydrated to create the savory broth for authentic Mansaf?",
+      "options": [
+        "Labneh",
+        "Kashk",
+        "Jameed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bedouin women in Karak churn ewe and goat milk in goatskin bags (shikwah), boiling the buttermilk and shaping salted balls dried in the hot desert sun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many small cups of cardamom-infused black Arabic coffee (Qahwa Sadah) are traditionally served to a guest in Bedouin hospitality before the guest shakes the cup to indicate they are satisfied?",
+      "options": [
+        "3 Cups Guest, Sword, and Mood",
+        "1 Cup",
+        "5 Cups"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first cup (Finjan al-Dayf) honors the guest, the second (Finjan al-Sayf) signifies courage and friendship, and the third (Finjan al-Kayf) is for relaxation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What popular Middle Eastern upside-down layered dish of fried cauliflower, eggplant, potatoes, and spiced chicken or lamb cooked under seasoned rice is flipped dramatically onto a serving tray?",
+      "options": [
+        "Mansaf",
+        "Maqluba Maqloubeh",
+        "Sayadieh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meaning 'Upside Down' in Arabic, the pot is turned over onto a large platter to reveal a cake-like tower of caramelized vegetables and meat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous warm Levant dessert, perfected at Habibah Sweets in downtown Amman, features stretchy melted white Nabulsi cheese topped with crispy shredded kataifi pastry and orange blossom syrup?",
+      "options": [
+        "Baklava",
+        "Basbousa",
+        "Knafeh Kanafeh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lines stretch down the alleyways of downtown Amman nightly as customers enjoy steaming hot plates of Knafeh sprinkled with crushed green pistachios.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many ceremonial cups of cardamom coffee are traditionally offered to an honored guest in Bedouin hospitality customs in Jordan?",
+      "target": 3,
+      "metricUnit": "cups",
+      "imperialDisplay": "3 cups of Bedouin coffee",
+      "explanation": "Bedouin custom prescribes serving up to three cups of coffee: the cup of the guest, the cup of the sword, and the cup of pleasure.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level administrative governorates (Muhafazat) is the Hashemite Kingdom of Jordan politically organized?",
+      "options": [
+        "12 Governorates",
+        "8 Governorates",
+        "16 Governorates"
+      ],
+      "correctIndex": 0,
+      "explanation": "The twelve governorates are grouped into three geographical regions: Northern (e.g. Irbid, Jerash, Ajloun), Central (Amman, Zarqa, Balqa, Madaba), and Southern (Karak, Tafilah, Ma'an, Aqaba).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest governorate in Jordan by geographical land area, covering over thirty-six percent of the national territory in the southern desert?",
+      "options": [
+        "Amman Governorate",
+        "Ma'an Governorate",
+        "Mafraq Governorate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ma'an covers 32,832 square kilometers, home to Petra, Wadi Rum, and the Desert Highway connecting Amman to the port of Aqaba.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient 5,000-year-old trade highway winds through the central highlands of Jordan, connecting Amman to Petra and Aqaba past biblical towns and Crusader castles?",
+      "options": [
+        "The Desert Highway",
+        "The Silk Road",
+        "The King's Highway"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mentioned in the Book of Numbers, the King's Highway was traveled by Moses, the Nabataeans, Roman legions (Via Nova Traiana), and Muslim pilgrims on the Hajj to Mecca.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What royal dynasty has ruled the Hashemite Kingdom of Jordan since its founding in 1921 under King Abdullah I, tracing its direct ancestral lineage to the Prophet Muhammad?",
+      "options": [
+        "The Hashemite Dynasty",
+        "The Umayyad Dynasty",
+        "The Abbasid Dynasty"
+      ],
+      "correctIndex": 0,
+      "explanation": "King Abdullah II is the 41st-generation direct descendant of the Prophet Muhammad through his daughter Fatimah and grandson Hasan ibn Ali.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 650-kilometer long-distance hiking trail, inaugurated in 2015, crosses the entire length of Jordan from Um Qais in the green north to Aqaba on the Red Sea?",
+      "options": [
+        "The Abraham Path",
+        "The Jordan Trail",
+        "The Trans-Jordan Route"
+      ],
+      "correctIndex": 1,
+      "explanation": "Named by National Geographic as one of the world best long-distance hikes, the 40-day trail crosses seventy-five villages, rolling olive groves, Petra, and desert canyons.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many administrative Governorates (Muhafazat) comprise the territorial structure of the Hashemite Kingdom of Jordan?",
+      "target": 12,
+      "metricUnit": "governorates",
+      "imperialDisplay": "12 governorates",
+      "explanation": "Jordan is divided into twelve administrative governorates, each led by a governor appointed by the King.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

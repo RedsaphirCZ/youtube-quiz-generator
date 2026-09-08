@@ -1,0 +1,641 @@
+{
+  "id": "extreme-sports-adventures-60",
+  "theme": "Extreme Sports: Polar Expeditions & Mountain Endurance",
+  "title": "Extreme Sports: Polar Expeditions & Mountain Endurance",
+  "description": "A 60-question grand master assessment exploring Everest summits, the heroic race to the South Pole, Arctic pack ice, Nazare monster waves, Alex Honnold's free soloing, Red Bull Stratos, desert ultramarathons, freediving abyss limits, and solo global yachting.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which duo became the first confirmed mountaineers to reach the summit of Mount Everest on 29 May 1953 via the South Col route?",
+      "options": [
+        "Sir Edmund Hillary and Tenzing Norgay",
+        "George Mallory and Andrew Irvine",
+        "Reinhold Messner and Peter Habeler"
+      ],
+      "correctIndex": 0,
+      "explanation": "New Zealander Edmund Hillary and Sherpa mountaineer Tenzing Norgay reached the 8,848-meter summit as part of the ninth British Everest expedition."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Italian mountaineer became the first person to climb all 14 eight-thousander peaks and completed the first solo ascent of Everest without oxygen in 1980?",
+      "options": [
+        "Walter Bonatti",
+        "Reinhold Messner",
+        "Jerzy Kukuczka"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reinhold Messner proved human physiology could survive in the Death Zone without bottled oxygen, redefining high-altitude alpine mountaineering."
+    },
+    {
+      "type": "mcq",
+      "question": "What physiological altitude zone above 8,000 meters contains insufficient atmospheric oxygen pressure to sustain human life for extended periods?",
+      "options": [
+        "The Troposphere Zone",
+        "The Sub-Zero Zone",
+        "The Death Zone"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Death Zone, human cells consume oxygen faster than the body can replenish it, causing rapid deterioration, altitude sickness, and cerebral edema."
+    },
+    {
+      "type": "mcq",
+      "question": "Which notoriously lethal Pakistani mountain, the second highest on Earth at 8,611 meters, is nicknamed The Savage Mountain?",
+      "options": [
+        "K2",
+        "Nanga Parbat",
+        "Kangchenjunga"
+      ],
+      "correctIndex": 0,
+      "explanation": "K2 in the Karakoram range is famous for extreme technical climbing, unpredictable avalanches, and severe weather, with a historically high fatality rate."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nepali mountaineer shattered world records in 2019 by summiting all 14 eight-thousanders in just 6 months and 6 days in Project Possible?",
+      "options": [
+        "Kami Rita Sherpa",
+        "Nimsdai Purja",
+        "Apa Sherpa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nirmal Nims Purja smashed the previous record of 7 years and 11 months, documented in the film 14 Peaks: Nothing Is Impossible."
+    },
+    {
+      "type": "number",
+      "question": "What is the officially recognized height of Mount Everest above sea level in meters?",
+      "target": 8848,
+      "metricUnit": "meters",
+      "imperialDisplay": "29029 feet",
+      "explanation": "Mount Everest's official summit elevation is officially established at 8,848.86 meters (29,031.7 feet) by Nepal and China."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian explorer led the first expedition to successfully reach the Geographic South Pole on 14 December 1911?",
+      "options": [
+        "Robert Falcon Scott",
+        "Fridtjof Nansen",
+        "Roald Amundsen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amundsen utilized Greenland sled dogs, lightweight skis, and Inuit survival techniques to reach the pole 34 days ahead of the British team."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British naval officer led the tragic 1910 to 1913 Terra Nova Expedition, reaching the South Pole in January 1912 only to find Amundsen's tent?",
+      "options": [
+        "Captain Robert Falcon Scott",
+        "Sir Ernest Shackleton",
+        "Frank Wild"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scott and his four companions perished from starvation, frostbite, and blizzard conditions on their return journey across the Ross Ice Shelf."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Anglo-Irish explorer famously led the Imperial Trans-Antarctic Expedition aboard Endurance, miraculously saving his entire 28-man crew after the ship was crushed in pack ice?",
+      "options": [
+        "Douglas Mawson",
+        "Sir Ernest Shackleton",
+        "Apsley Cherry-Garrard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shackleton navigated an open 22-foot lifeboat 800 miles across the treacherous Southern Ocean to South Georgia Island to orchestrate the rescue."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the permanent United States scientific research station located at the southernmost point on Earth since 1956?",
+      "options": [
+        "McMurdo Station",
+        "Vostok Station",
+        "Amundsen-Scott South Pole Station"
+      ],
+      "correctIndex": 2,
+      "explanation": "The station honors the two pioneering explorers who first conquered the South Pole in 1911 and 1912."
+    },
+    {
+      "type": "mcq",
+      "question": "What fierce, hurricane-force gravity-driven winds sweep down off the high Antarctic ice plateau toward the coast?",
+      "options": [
+        "Katabatic winds",
+        "Chinook winds",
+        "Mistral winds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Katabatic winds in Antarctica can exceed speeds of 300 km/h, creating zero-visibility blinding ground blizzards."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Roald Amundsen and his Norwegian team plant their national flag at the Geographic South Pole?",
+      "target": 1911,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 1911",
+      "explanation": "Amundsen reached the Geographic South Pole on 14 December 1911, establishing camp Polheim at the bottom of the world."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian explorer intentionally froze his specially designed wooden ship Fram into the Arctic pack ice in 1893 to drift across the North Pole?",
+      "options": [
+        "Roald Amundsen",
+        "Fridtjof Nansen",
+        "Otto Sverdrup"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nansen's round-hulled Fram was engineered to be lifted upward by squeezing ice pressure rather than being crushed, proving Arctic transpolar drift."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American explorer and his African American associate Matthew Henson claimed to have reached the Geographic North Pole on 6 April 1909?",
+      "options": [
+        "Frederick Cook",
+        "Richard Byrd",
+        "Robert Peary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Matthew Henson served as primary navigator, dog driver, and translator, being the first member of the expedition to physically touch the pole."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian engineer piloted the semi-rigid airship Norge with Roald Amundsen in 1926 to make the first undisputed flight over the North Pole?",
+      "options": [
+        "Umberto Nobile",
+        "Lincoln Ellsworth",
+        "Alberto Santos-Dumont"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Norge flew from Spitsbergen, Norway across the North Pole to Teller, Alaska, verified as the first indisputable sighting of the North Pole."
+    },
+    {
+      "type": "mcq",
+      "question": "Unlike the continent of Antarctica, what forms the physical surface of the Geographic North Pole?",
+      "options": [
+        "A solid continental landmass",
+        "Shifting sea ice pack over a deep ocean",
+        "A dormant volcanic crater"
+      ],
+      "correctIndex": 1,
+      "explanation": "The North Pole sits in the middle of the Arctic Ocean beneath shifting sea ice that is several meters thick over water 4,000 meters deep."
+    },
+    {
+      "type": "mcq",
+      "question": "What optical Arctic phenomenon creates dangerous flat light conditions where cloud cover and snow-covered ground blend into a disorienting, shadowless horizon?",
+      "options": [
+        "Mirage",
+        "Sun dog",
+        "Whiteout"
+      ],
+      "correctIndex": 2,
+      "explanation": "A whiteout destroys depth perception and spatial orientation, making navigation impossible without compasses or GPS."
+    },
+    {
+      "type": "number",
+      "question": "What is the exact geographical latitude of the North Pole in degrees North?",
+      "target": 90,
+      "metricUnit": "degrees North",
+      "imperialDisplay": "90° North",
+      "explanation": "The Geographic North Pole is defined as the northernmost point on the Earth's axis of rotation at exactly 90 degrees North latitude."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Portuguese fishing town is world-renowned for generating the largest surfable waves on Earth at Praia do Norte due to a deep underwater canyon?",
+      "options": [
+        "Nazare",
+        "Peniche",
+        "Ericeira"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 5,000-meter-deep Nazare Canyon funnels and amplifies Atlantic storm swells into massive monster waves reaching over 25 meters in height."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian big-wave surfer rode an 80-foot (24.4-meter) monster wave at Nazare in 2017 to set the Guinness World Record for biggest wave surfed?",
+      "options": [
+        "Lucas Chianca",
+        "Rodrigo Koxa",
+        "Gabriel Medina"
+      ],
+      "correctIndex": 1,
+      "explanation": "Koxa was towed into the colossal wave by jet ski on 8 November 2017, winning the World Surf League Quiksilver XXL Biggest Wave Award."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary American waterman put Nazare on the global map in 2011 by surfing a pioneering 78-foot wave with local rescue teams?",
+      "options": [
+        "Laird Hamilton",
+        "Kelly Slater",
+        "Garrett McNamara"
+      ],
+      "correctIndex": 2,
+      "explanation": "McNamara pioneered safety protocols, inflatable vests, and jet-ski tow-in systems that revolutionized modern big-wave surfing."
+    },
+    {
+      "type": "mcq",
+      "question": "Which fearsome big-wave reef break located on the north shore of Maui, Hawaii, is known by surfers as Jaws?",
+      "options": [
+        "Peahi",
+        "Waimea Bay",
+        "Banzai Pipeline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peahi (Jaws) features ferocious, deep-water Pacific waves traveling at 50 km/h with thick, crushing lip barrels."
+    },
+    {
+      "type": "mcq",
+      "question": "What northern California big-wave surfing spot near Half Moon Bay produces heavy, freezing cold waves over dangerous rock reefs?",
+      "options": [
+        "Steamer Lane",
+        "Mavericks",
+        "Rincon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mavericks draws elite big-wave surfers to cold, shark-inhabited waters where wave faces regularly exceed 15 to 18 meters."
+    },
+    {
+      "type": "number",
+      "question": "What is the height in meters of Rodrigo Koxa's official world record biggest wave ever surfed at Nazare?",
+      "target": 24,
+      "metricUnit": "meters",
+      "imperialDisplay": "80 feet (24.38m)",
+      "explanation": "Rodrigo Koxa's world-record wave on 8 November 2017 was officially verified at 24.38 meters (80.0 feet)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American rock climber made history on 3 June 2017 by completing the first-ever free solo climb of El Capitan in Yosemite without ropes?",
+      "options": [
+        "Tommy Caldwell",
+        "Dean Potter",
+        "Alex Honnold"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alex Honnold scaled the 900-meter Freerider route on El Capitan in 3 hours and 56 minutes, documented in the Oscar-winning film Free Solo."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the monumental 900-meter vertical granite monolith rising above Yosemite Valley that is the mecca of world big-wall rock climbing?",
+      "options": [
+        "El Capitan",
+        "Half Dome",
+        "Cathedral Rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Capitan presents sheer granite faces with legendary routes such as The Nose, Salathe Wall, and the Dawn Wall."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American climbing duo completed the world-first free climb of the notoriously smooth, nearly featureless Dawn Wall on El Capitan in 2015?",
+      "options": [
+        "Alex Honnold and Cedar Wright",
+        "Tommy Caldwell and Kevin Jorgeson",
+        "Chris Sharma and Adam Ondra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Caldwell and Jorgeson spent 19 consecutive days living on portaledges suspended high on the wall to complete the 32-pitch 5.14d route."
+    },
+    {
+      "type": "mcq",
+      "question": "Which trailblazing American female climber made history in 1993 by becoming the first person (male or female) to free climb The Nose on El Capitan?",
+      "options": [
+        "Steph Davis",
+        "Ashima Shiraishi",
+        "Lynn Hill"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lynn Hill famously proclaimed It goes, boys! after freeing the notoriously difficult Great Roof and Changing Corners pitches."
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized climbing grading system used in North America rates technical rock climbing difficulty starting from class 5.0 up to 5.15d?",
+      "options": [
+        "Yosemite Decimal System YDS",
+        "Fontainebleau Scale",
+        "French Numerical Scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Created in the 1950s at Tahquitz Rock, the system rates 5th-class climbing where ropes and belays are essential for safety."
+    },
+    {
+      "type": "number",
+      "question": "How many minutes did Alex Honnold take to complete his historic free solo climb of El Capitan's Freerider route in 2017?",
+      "target": 236,
+      "metricUnit": "minutes",
+      "imperialDisplay": "3 hours 56 minutes",
+      "explanation": "Honnold completed the 3,000-foot vertical granite ascent in exactly 3 hours and 56 minutes (236 minutes) on 3 June 2017."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian daredevil made history on 14 October 2012 by jumping from a helium balloon in the stratosphere at 39 kilometers in the Red Bull Stratos mission?",
+      "options": [
+        "Alan Eustace",
+        "Felix Baumgartner",
+        "Joe Kittinger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Baumgartner accelerated to Mach 1.25 (1,357.6 km/h) in freefall, becoming the first human to break the speed of sound without a vehicle."
+    },
+    {
+      "type": "mcq",
+      "question": "What does the acronym BASE stand for in the extreme parachute jumping sport of BASE jumping?",
+      "options": [
+        "Bridge, Altitude, Sky, Elevation",
+        "Bungee, Air, Speed, Extreme",
+        "Building, Antenna, Span, Earth"
+      ],
+      "correctIndex": 2,
+      "explanation": "BASE jumpers leap from fixed land-based objects across the four categories, deploying parachutes at low altitudes."
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized aerodynamic jumpsuit with fabric between the legs and under the arms allows jumpers to glide horizontally through the air like birds?",
+      "options": [
+        "Wingsuit",
+        "G-suit",
+        "Speedsuit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wingsuits convert vertical falling speed into forward glide with glide ratios up to 3:1, enabling high-speed proximity flights alongside mountain cliffs."
+    },
+    {
+      "type": "mcq",
+      "question": "Which US Air Force officer held the highest parachute jump record from 31,300 meters for 52 years after Project Excelsior in 1960?",
+      "options": [
+        "Chuck Yeager",
+        "Joseph Kittinger",
+        "John Glenn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colonel Joe Kittinger served as Baumgartner's capsule communicator and mentor during the 2012 Red Bull Stratos mission."
+    },
+    {
+      "type": "mcq",
+      "question": "What constant maximum speed does a freely falling human body in belly-to-earth orientation achieve when air resistance equals gravitational pull?",
+      "options": [
+        "Escape velocity",
+        "Orbital velocity",
+        "Terminal velocity"
+      ],
+      "correctIndex": 2,
+      "explanation": "For a human belly-to-earth skydiver in standard lower atmosphere, terminal velocity is approximately 190 to 200 km/h (120 mph)."
+    },
+    {
+      "type": "number",
+      "question": "From what altitude in kilometers did Felix Baumgartner jump during his 2012 Red Bull Stratos mission?",
+      "target": 39,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "128100 feet (39km)",
+      "explanation": "Baumgartner stepped out of his capsule at an altitude of 38,969.4 meters (approximately 39 kilometers or 24.2 miles) above New Mexico."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary 250-kilometer, six-day footrace across the Sahara Desert requires competitors to carry all food and gear on their backs?",
+      "options": [
+        "Marathon des Sables",
+        "Badwater 135",
+        "Leadville 100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Runners in the Marathon des Sables endure 50 degrees Celsius heat, blinding sandstorms, and towering sand dunes in southern Morocco."
+    },
+    {
+      "type": "mcq",
+      "question": "Which grueling 135-mile ultramarathon starts at Badwater Basin in Death Valley (86m below sea level) and finishes at Whitney Portal in searing summer heat?",
+      "options": [
+        "Western States 100",
+        "Badwater 135",
+        "Hardrock 100"
+      ],
+      "correctIndex": 1,
+      "explanation": "Badwater runners face pavement temperatures that can melt running shoes, completing the 217-kilometer course in furnace-like July temperatures."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mysterious, notoriously brutal 100-mile ultramarathon created by Lazarus Lake in Tennessee has seen only around 20 finishers since 1986?",
+      "options": [
+        "Spartathlon",
+        "Tor des Geants",
+        "The Barkley Marathons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inspired by James Earl Ray's prison escape, the race requires runners to find hidden paperback books in briar-choked woods within a 60-hour cutoff."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic 246-kilometer continuous ultramarathon in Greece traces the legendary courier messenger Pheidippides from Athens to Sparta?",
+      "options": [
+        "Spartathlon",
+        "Olympus Marathon",
+        "Crete Ultra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Established in 1983 based on Herodotus's account of the Persian Wars, runners must touch the statue of King Leonidas in Sparta within 36 hours."
+    },
+    {
+      "type": "mcq",
+      "question": "What 170-kilometer mountain ultramarathon circumnavigates the Mont Blanc massif through France, Italy, and Switzerland with 10,000m of elevation gain?",
+      "options": [
+        "Western States 100",
+        "Ultra-Trail du Mont-Blanc UTMB",
+        "Grand Raid Reunion"
+      ],
+      "correctIndex": 1,
+      "explanation": "The UTMB in Chamonix is the most competitive trail running race in the world, taking runners through high alpine passes day and night."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many total individual runners have managed to officially finish the brutal Barkley Marathons since its creation in 1986?",
+      "target": 20,
+      "metricUnit": "finishers",
+      "imperialDisplay": "approx. 20 finishers",
+      "explanation": "Only 20 distinct individuals have successfully finished all five 20-mile loops of the Barkley Marathons within the strict 60-hour time limit."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian freediving legend nicknamed The Deepest Man on Earth set the No-Limits freedive world record at 214 meters on a single breath?",
+      "options": [
+        "William Trubridge",
+        "Umberto Pelizzari",
+        "Herbert Nitsch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Herbert Nitsch has held 33 world records across all eight freediving disciplines, surviving a 253-meter experimental dive in Greece."
+    },
+    {
+      "type": "mcq",
+      "question": "Which New Zealand freediver broke world records by diving unassisted (without fins) to a depth of 102 meters at Dean's Blue Hole in the Bahamas?",
+      "options": [
+        "William Trubridge",
+        "Alexey Molchanov",
+        "Guillaume Nery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trubridge specialized in Constant Weight No Fins (CNF), using only a modified breaststroke to descend and ascend into the abyss."
+    },
+    {
+      "type": "mcq",
+      "question": "What physiological reflex in humans triggers bradycardia (slowing heart rate) and peripheral vasoconstriction when the face is submerged in water?",
+      "options": [
+        "Barotrauma reflex",
+        "Mammalian dive reflex",
+        "Valsalva reflex"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mammalian dive reflex conserves core oxygen and redirects blood flow to the brain and heart during deep breath-hold diving."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1988 Luc Besson cult film dramatized the fierce freediving rivalry between Jacques Mayol and Enzo Maiorca?",
+      "options": [
+        "Sanctum",
+        "The Abyss",
+        "The Big Blue Le Grand Bleu"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Big Blue popularized the beauty and danger of freediving to millions of viewers worldwide with a mesmerizing score by Eric Serra."
+    },
+    {
+      "type": "mcq",
+      "question": "What deep underwater sinkhole in Long Island, Bahamas, plunging to 202 meters, hosts the prestigious Vertical Blue freediving championship?",
+      "options": [
+        "Dean's Blue Hole",
+        "Great Blue Hole of Belize",
+        "Dragon Hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dean's Blue Hole provides calm, current-free waters directly accessible from the beach, making it the premier freediving stadium."
+    },
+    {
+      "type": "number",
+      "question": "What is Herbert Nitsch's official AIDA world record deepest No-Limits freediving depth in meters?",
+      "target": 214,
+      "metricUnit": "meters",
+      "imperialDisplay": "702 feet",
+      "explanation": "Herbert Nitsch achieved his official AIDA No-Limits world record depth of 214 meters (702 feet) on 14 June 2007 in Spetses, Greece."
+    },
+    {
+      "type": "mcq",
+      "question": "What prestigious non-stop, solo, unassisted yacht race around the world without assistance starts and finishes in Les Sables-d'Olonne, France?",
+      "options": [
+        "The Ocean Race",
+        "Vendee Globe",
+        "Route du Rhum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as The Everest of the Seas, competitors sail IMOCA 60 foiling monohulls around the Cape of Good Hope, Cape Leeuwin, and Cape Horn."
+    },
+    {
+      "type": "mcq",
+      "question": "Which English sailor became the first person to complete a single-handed non-stop circumnavigation of the globe in the 1968 to 1969 Golden Globe Race?",
+      "options": [
+        "Bernard Moitessier",
+        "Sir Francis Chichester",
+        "Sir Robin Knox-Johnston"
+      ],
+      "correctIndex": 2,
+      "explanation": "Knox-Johnston sailed his 32-foot wooden ketch Suhaili for 312 days, being the only one of nine starters to successfully finish the race."
+    },
+    {
+      "type": "mcq",
+      "question": "What treacherous southern headland of the Tierra del Fuego archipelago is notorious for huge waves, strong currents, and iceberg hazards?",
+      "options": [
+        "Cape Horn",
+        "Cape of Good Hope",
+        "Cape Leeuwin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rounding Cape Horn marks the boundary between the Pacific and Atlantic Oceans, revered by sailors as the ultimate maritime challenge."
+    },
+    {
+      "type": "mcq",
+      "question": "What oceanic location in the South Pacific is the most remote point on Earth, furthest from any landmass, used as a spacecraft cemetery?",
+      "options": [
+        "Bikini Atoll",
+        "Point Nemo",
+        "Easter Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Point Nemo is 2,688 kilometers from the nearest land; the closest humans are often astronauts aboard the International Space Station passing overhead."
+    },
+    {
+      "type": "mcq",
+      "question": "What strong westerly winds blowing between latitudes 40 and 50 degrees South in the Southern Ocean power round-the-world sailing races?",
+      "options": [
+        "The Trade Winds",
+        "The Doldrums",
+        "The Roaring Forties"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lack of landmasses in the Southern Hemisphere allows storms to build uninterrupted, driving giant waves and high-speed sailing."
+    },
+    {
+      "type": "number",
+      "question": "What is the record in days set by French sailor Armel Le Cleac'h to complete the non-stop solo Vendee Globe circumnavigation?",
+      "target": 74,
+      "metricUnit": "days",
+      "imperialDisplay": "74 days 3 hours",
+      "explanation": "Armel Le Cleac'h won the 2016-2017 Vendee Globe in a record time of 74 days, 3 hours, and 35 minutes aboard Banque Populaire VIII."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian explorer completed the first solo, unassisted, and unsupported crossing of the Antarctic continent in 1996 to 1997?",
+      "options": [
+        "Borge Ousland",
+        "Erling Kagge",
+        "Mike Horn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ousland hauled a 180kg sledge 2,845 kilometers in 64 days using skis and a traction kite, enduring temperatures below minus 50 Celsius."
+    },
+    {
+      "type": "mcq",
+      "question": "At which Russian Antarctic research station was the lowest officially verified natural temperature on the surface of Earth recorded at minus 89.2 degrees Celsius?",
+      "options": [
+        "Amundsen-Scott Station",
+        "Vostok Station",
+        "Concordia Station"
+      ],
+      "correctIndex": 1,
+      "explanation": "Located near the Southern Pole of Cold on the Antarctic ice sheet at 3,488m elevation, Vostok recorded minus 89.2C on 21 July 1983."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak on the continent of Antarctica, rising to 4,892 meters in the Sentinel Range?",
+      "options": [
+        "Mount Erebus",
+        "Mount Tyree",
+        "Mount Vinson"
+      ],
+      "correctIndex": 2,
+      "explanation": "First climbed by an American Alpine Club expedition in 1966, Mount Vinson is one of the prized Seven Summits of mountaineering."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British explorer and adventurer was the first to visit both the North and South Poles by surface transport in the Transglobe Expedition?",
+      "options": [
+        "Sir Ranulph Fiennes",
+        "Sir Vivian Fuchs",
+        "Bear Grylls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guinness World Records described Ranulph Fiennes as The World's Greatest Living Explorer for his polar and desert expeditions."
+    },
+    {
+      "type": "mcq",
+      "question": "What active volcano in Antarctica is famous for hosting a persistent boiling phonolitic lava lake in its summit crater?",
+      "options": [
+        "Mount Terror",
+        "Mount Erebus",
+        "Mount Sidley"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered in 1841 by Sir James Clark Ross, Mount Erebus is the southernmost active volcano on Earth."
+    },
+    {
+      "type": "number",
+      "question": "What is the lowest naturally recorded surface temperature on Earth in degrees Celsius, measured at Vostok Station in 1983?",
+      "target": -89,
+      "metricUnit": "degrees Celsius",
+      "imperialDisplay": "-89.2 °C (-128.6 °F)",
+      "explanation": "The thermometer at Vostok Station dropped to minus 89.2 degrees Celsius (minus 128.6 °F) on 21 July 1983, the coldest natural temperature ever measured on Earth."
+    }
+  ]
+}

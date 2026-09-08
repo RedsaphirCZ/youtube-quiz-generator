@@ -1,0 +1,703 @@
+{
+  "id": "european-geography-heritage-60",
+  "theme": "European Geography, Borders, Flags & Landscapes",
+  "title": "European Geography, Borders, Flags & Landscapes",
+  "description": "Comprehensive 60-question exploration of European peninsulas, mountain ranges, enclave borders, iconic flags, and heritage landmarks.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which southwestern European peninsula is occupied primarily by Spain and Portugal, separated from France by the Pyrenees?",
+      "options": [
+        "Iberian Peninsula",
+        "Balkan Peninsula",
+        "Apennine Peninsula"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Iberian Peninsula encompasses approximately 582,000 square kilometers, bounded by the Atlantic Ocean and the Mediterranean Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which northern European peninsula is shared between Norway and Sweden, bordered by the Arctic Ocean, Baltic Sea, and North Sea?",
+      "options": [
+        "Jutland Peninsula",
+        "Scandinavian Peninsula",
+        "Kola Peninsula"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Scandinavian Peninsula is the largest peninsula in Europe by area, traversed by the ancient Scandinavian Mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which peninsula in southeastern Europe is bounded by the Adriatic, Ionian, Aegean, and Black Seas?",
+      "options": [
+        "Peloponnese",
+        "Crimean Peninsula",
+        "Balkan Peninsula"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Balkans encompass Greece, Albania, Bulgaria, Romania, and the republics of former Yugoslavia, rich in ethnic and linguistic diversity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What boot-shaped peninsula extends south into the central Mediterranean Sea, forming the core landmass of Italy?",
+      "options": [
+        "Apennine Peninsula",
+        "Iberian Peninsula",
+        "Jutland Peninsula"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Apennine Peninsula is dominated by the Apennine mountain spine and bordered by the Adriatic, Tyrrhenian, and Ionian seas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which peninsula comprises the mainland continental territory of Denmark and the northernmost German state of Schleswig-Holstein?",
+      "options": [
+        "Fennoscandian Peninsula",
+        "Jutland Peninsula",
+        "Brittany Peninsula"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jutland separates the North Sea from the Kattegat and Baltic Sea, characterized by flat agricultural plains and sand dunes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign nations are situated entirely or partially on the Iberian Peninsula in southwestern Europe?",
+      "target": 3,
+      "metricUnit": "countries",
+      "imperialDisplay": "3 sovereign nations",
+      "explanation": "The Iberian Peninsula hosts 3 sovereign states: Spain, Portugal, and Andorra, alongside the British Overseas Territory of Gibraltar.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountainous microstate located entirely inside central Italy claims to be the oldest surviving sovereign republic in the world?",
+      "options": [
+        "Vatican City",
+        "Monaco",
+        "San Marino"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tradition holds that San Marino was founded in 301 CE by Saint Marinus as a refuge on Mount Titano.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sovereign city-state is the smallest recognized independent state in the world by both area and population?",
+      "options": [
+        "Vatican City",
+        "Monaco",
+        "Liechtenstein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vatican City covers roughly 49 hectares entirely within Rome, ruled by the Bishop of Rome as the sovereign pontiff.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which town on the Belgian-Dutch border is famous for one of the most complex border enclave networks in the world?",
+      "options": [
+        "Busingen",
+        "Baarle-Nassau and Baarle-Hertog",
+        "Campione d Italia"
+      ],
+      "correctIndex": 1,
+      "explanation": "The border weaves through cafes, houses, and sidewalks, consisting of twenty-two Belgian exclaves inside the Netherlands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian municipal exclave is completely surrounded by the Swiss canton of Ticino along Lake Lugano?",
+      "options": [
+        "Livigno",
+        "Busingen am Hochrhein",
+        "Campione d Italia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Campione d Italia is an Italian territory separated from mainland Italy by Swiss mountains and water, famous for its casino.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sovereign principality is located high in the eastern Pyrenees between France and Spain, co-ruled by two co-princes?",
+      "options": [
+        "Andorra",
+        "Monaco",
+        "Liechtenstein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andorra is unique for its diarchy, with the Bishop of Urgell and the President of France serving jointly as ceremonial heads of state.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total area of Vatican City in hectares, making it the smallest independent sovereign state on Earth?",
+      "target": 49,
+      "metricUnit": "hectares",
+      "imperialDisplay": "121 acres (0.19 sq miles)",
+      "explanation": "Vatican City spans approximately 49 hectares enclosed by defensive Renaissance and medieval stone walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain range forms a formidable natural barrier along the border between France and Spain from the Atlantic to the Mediterranean?",
+      "options": [
+        "Alps",
+        "Pyrenees",
+        "Carpathians"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pyrenees stretch 430 kilometers, with Pico de Aneto rising as the highest summit at 3,404 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major mountain arc curves through Central and Eastern Europe across Slovakia, Poland, Ukraine, and Romania?",
+      "options": [
+        "Dinaric Alps",
+        "Balkan Mountains",
+        "Carpathian Mountains"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Carpathians form a 1,500-kilometer arc home to Europe largest virgin forests and brown bear populations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain range forms the central geological backbone of the Italian peninsula, running roughly 1,200 kilometers north to south?",
+      "options": [
+        "Apennine Mountains",
+        "Dolomites",
+        "Maritime Alps"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Apennines culminate at Corno Grande in the Gran Sasso massif at 2,912 meters elevation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rugged limestone mountain range stretches along the eastern coast of the Adriatic Sea across Slovenia, Croatia, Bosnia, and Montenegro?",
+      "options": [
+        "Pindus Mountains",
+        "Dinaric Alps",
+        "Rhodope Mountains"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dinaric Alps are world-renowned for extensive karst topography, dramatic limestone canyons, and deep cave systems.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain range separates the Iberian central meseta from the southern Mediterranean coast of Andalusia, hosting Mulhacén peak?",
+      "options": [
+        "Cantabrian Mountains",
+        "Sierra Morena",
+        "Sierra Nevada"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Spanish Sierra Nevada contains Mulhacén at 3,478 meters, the highest point in continental mainland Spain.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters of Pico de Aneto, the highest mountain peak in the Pyrenees?",
+      "target": 3404,
+      "metricUnit": "meters",
+      "imperialDisplay": "11,168 feet",
+      "explanation": "Pico de Aneto in the Spanish province of Huesca stands at 3,404 meters, featuring the largest glacier in the Pyrenees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major European river originates in the Swiss Alps, forms part of the Franco-German border, and empties into the North Sea at Rotterdam?",
+      "options": [
+        "Rhine River",
+        "Elbe River",
+        "Meuse River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rhine flows 1,230 kilometers through industrial hearts including the Ruhr Valley, functioning as Europe busiest river route.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic French river flows 777 kilometers through the heart of Paris before emptying into the English Channel at Le Havre?",
+      "options": [
+        "Loire River",
+        "Seine River",
+        "Rhône River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Seine passes beneath thirty-seven bridges in Paris, including the historic Pont Neuf and Pont Alexandre III.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river located entirely within the Iberian Peninsula, flowing west through Spain and Portugal into the Atlantic at Lisbon?",
+      "options": [
+        "Douro River",
+        "Ebro River",
+        "Tagus River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Tagus or Tejo stretches 1,007 kilometers, supplying vital hydroelectric power and irrigating agricultural plains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major river rises in the Giant Mountains of Czechia and flows northwest through Dresden and Hamburg into the North Sea?",
+      "options": [
+        "Elbe River",
+        "Oder River",
+        "Vistula River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Elbe was historically significant during the Cold War as a key demarcation section between East and West Germany.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in Poland, flowing 1,047 kilometers through Krakow and Warsaw before emptying into the Baltic Sea?",
+      "options": [
+        "Oder River",
+        "Vistula River",
+        "Warta River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Vistula drains over half the territory of Poland and has served as the historic cultural lifeline of the Polish nation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Rhine River from its Swiss Alpine source to the North Sea?",
+      "target": 1230,
+      "metricUnit": "km",
+      "imperialDisplay": "764 miles",
+      "explanation": "The Rhine River measures approximately 1,230 kilometers, flowing through Switzerland, Liechtenstein, Austria, Germany, France, and the Netherlands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep, narrow coastal inlet carved by glacial erosion is world-famous in western Norway, including Geirangerfjord and Nærøyfjord?",
+      "options": [
+        "Ria",
+        "Loch",
+        "Fjord"
+      ],
+      "correctIndex": 2,
+      "explanation": "Norwegian fjords are steep-sided U-shaped valleys flooded by the sea, formed by glacier carving during Pleistocene Ice Ages.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What semi-enclosed brackish sea in Northern Europe is bordered by Scandinavia, Finland, the Baltic States, Poland, and Germany?",
+      "options": [
+        "Baltic Sea",
+        "North Sea",
+        "Norwegian Sea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Baltic Sea has very low salinity due to limited exchange with the North Sea and abundant freshwater river inflow.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest lake located entirely within the European continent, situated in northwestern Russia near Saint Petersburg?",
+      "options": [
+        "Lake Onega",
+        "Lake Ladoga",
+        "Lake Vänern"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Ladoga spans over 17,700 square kilometers, draining into the Gulf of Finland via the Neva River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scandinavian nation is widely celebrated as the Land of a Thousand Lakes, actually containing over 180,000 recorded lakes?",
+      "options": [
+        "Sweden",
+        "Norway",
+        "Finland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Glacial scouring left Finland covered in dense interconnected lake networks, including Lake Saimaa, home to the rare ringed seal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What crescent-shaped Alpine lake is shared between Switzerland and France, bordered by Geneva, Lausanne, and Montreux?",
+      "options": [
+        "Lake Geneva",
+        "Lake Constance",
+        "Lake Lucerne"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Geneva, or Lac Léman, is one of the largest lakes in Western Europe, fed and drained by the Rhône River.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many recorded lakes with an area greater than 500 square meters are found in Finland?",
+      "target": 188000,
+      "metricUnit": "lakes",
+      "imperialDisplay": "188,000 lakes",
+      "explanation": "Official geographic surveys identify approximately 187,888 distinct lakes in Finland, earning its famous national epithet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which narrow strait separates the southern tip of the Iberian Peninsula from Morocco, connecting the Atlantic Ocean to the Mediterranean Sea?",
+      "options": [
+        "Strait of Messina",
+        "Strait of Gibraltar",
+        "Strait of Bonifacio"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Strait of Gibraltar narrows to just fourteen kilometers between Point Marroquí in Spain and Point Cires in Morocco.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which body of water separates southern England from northern France, connected to the North Sea by the Strait of Dover?",
+      "options": [
+        "Irish Sea",
+        "Celtic Sea",
+        "English Channel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as La Manche in French, the English Channel is one of the busiest maritime shipping corridors on the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which narrow strait in Turkey connects the Black Sea to the Sea of Marmara, dividing the European and Asian halves of Istanbul?",
+      "options": [
+        "Bosporus Strait",
+        "Dardanelles Strait",
+        "Kerch Strait"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bosporus is a vital strategic chokepoint governed by the 1936 Montreux Convention, spanned by three massive suspension bridges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sound separates the Danish island of Zealand from the Swedish province of Scania, bridged by the iconic Øresund Bridge?",
+      "options": [
+        "Great Belt",
+        "Øresund",
+        "Little Belt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Øresund Bridge opened in 2000 as a combined road and rail link creating the unified metropolitan Øresund Region.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which strait connects the Aegean Sea to the Sea of Marmara, historically known as the Hellespont in classical antiquity?",
+      "options": [
+        "Bosporus",
+        "Corinth Strait",
+        "Dardanelles Strait"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Dardanelles was the site of the ancient Persian pontoon crossings of Xerxes and the WWI Gallipoli Campaign.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the minimum width in kilometers of the Strait of Gibraltar at its narrowest point between Europe and Africa?",
+      "target": 14,
+      "metricUnit": "km",
+      "imperialDisplay": "8.9 miles",
+      "explanation": "At its narrowest point between Spain and Morocco, the Strait of Gibraltar measures approximately 14.3 kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nordic national flag, known as the Dannebrog, holds the Guinness World Record as the oldest continuously used national flag?",
+      "options": [
+        "Flag of Denmark",
+        "Flag of Sweden",
+        "Flag of Norway"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to legend, the red flag with a white Scandinavian cross fell from the heavens during the Battle of Lyndanisse in 1219.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two European sovereign nations feature an unusual square-proportioned national flag rather than a rectangular one?",
+      "options": [
+        "Monaco and San Marino",
+        "Switzerland and Vatican City",
+        "Liechtenstein and Andorra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Switzerland white cross on red and Vatican City yellow-and-white papal standard are the only two square sovereign flags in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "The Union Jack of the United Kingdom combines the heraldic crosses of which three patron saints?",
+      "options": [
+        "Saint George, Saint David, and Saint Patrick",
+        "Saint Andrew, Saint David, and Saint George",
+        "Saint George, Saint Andrew, and Saint Patrick"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flag merges the red cross of England, the white saltire of Scotland, and the red saltire of Ireland.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive geometric design is shared across the national flags of Denmark, Sweden, Norway, Finland, and Iceland?",
+      "options": [
+        "Nordic Cross",
+        "Bicolor Triband",
+        "Diagonal Saltire"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Nordic Cross pattern represents Christianity, with the vertical cross bar shifted toward the hoist side of the flag.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sovereign principality added a golden princely coronet to its blue and red flag in 1937 after discovering its flag was identical to Haiti?",
+      "options": [
+        "Monaco",
+        "Liechtenstein",
+        "Luxembourg"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the 1936 Berlin Summer Olympics, Liechtenstein realized its flag was identical to Haiti, prompting the addition of the crown in 1937.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Danish flag Dannebrog traditionally originate at the Battle of Lyndanisse in modern Estonia?",
+      "target": 1219,
+      "metricUnit": "year",
+      "imperialDisplay": "1219 AD",
+      "explanation": "The historic Battle of Lyndanisse took place on June 15, 1219, establishing the Dannebrog as the world oldest national flag.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast primeval forest along the border of Poland and Belarus is the last remaining old-growth lowland forest in Europe, home to European bison?",
+      "options": [
+        "Bohemian Forest",
+        "Black Forest",
+        "Białowieża Forest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Białowieża Forest is a UNESCO World Heritage site harboring the largest wild population of the European bison or wisent.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast, flat grassland biome in eastern Hungary along the Tisza River is famed for traditional csikós horsemen and grey cattle?",
+      "options": [
+        "Puszta",
+        "Steppe of Dobruja",
+        "Valdai Plains"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hungarian Puszta within Hortobágy National Park preserves centuries of pastoral traditions and iconic draw wells.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign countries share an international land border with Germany, tying with Russia for the highest number in Europe?",
+      "options": [
+        "7",
+        "9",
+        "11"
+      ],
+      "correctIndex": 1,
+      "explanation": "Germany borders Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic plateau region in western Romania is encircled on three sides by the curved ridges of the Carpathian Mountains?",
+      "options": [
+        "Wallachia",
+        "Moldavia",
+        "Transylvania"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transylvania is a high plateau region dotted with medieval Saxon fortified churches and the famous Bran Castle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which diamond-shaped basin in Central Europe is surrounded on all sides by mountain ranges including the Krkonoše and Šumava?",
+      "options": [
+        "Bohemian Basin",
+        "Pannonian Basin",
+        "Po Valley"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bohemian Basin contains Prague and is drained northward by the Vltava and Labe rivers through the Elbe Sandstone Mountains.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign nations share a direct land border with the Federal Republic of Germany?",
+      "target": 9,
+      "metricUnit": "countries",
+      "imperialDisplay": "9 bordering nations",
+      "explanation": "Germany shares land borders with 9 neighboring countries across Western and Central Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dramatic coastal stretch along the Gulf of Salerno in southern Italy is renowned for pastel cliffside villages such as Positano?",
+      "options": [
+        "Cinque Terre",
+        "Amalfi Coast",
+        "Costa Smeralda"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Costiera Amalfitana is a UNESCO World Heritage cultural landscape of sheer cliffs, lemon terraces, and medieval sea villas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mediterranean coastal region in southeastern France encompasses glamourous destinations including Nice, Cannes, Saint-Tropez, and Monaco?",
+      "options": [
+        "Costa Brava",
+        "Costa del Sol",
+        "French Riviera"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Côte d Azur enjoys a mild Mediterranean microclimate sheltered by the Maritime Alps, popular since Victorian times.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rugged island archipelago in the central Aegean Sea is world-famous for whitewashed cube houses and blue church domes on Santorini?",
+      "options": [
+        "Cyclades",
+        "Dodecanese",
+        "Ionian Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cyclades form a circle of islands around the sacred ancient sanctuary island of Delos in Greek mythology.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish archipelago in the western Mediterranean comprises Mallorca, Menorca, Ibiza, and Formentera?",
+      "options": [
+        "Canary Islands",
+        "Balearic Islands",
+        "Columbretes Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Balearic Islands are an autonomous community of Spain, celebrated for turquoise coves, Serra de Tramuntana mountains, and salt pans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which indented Adriatic coastal region in Croatia features hundreds of karst islands, walled cities like Dubrovnik, and Diocletian Palace in Split?",
+      "options": [
+        "Istrian Peninsula",
+        "Kvarner Gulf",
+        "Dalmatian Coast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dalmatia boasts a sunken coastline where parallel mountain ridges formed over a thousand elongated Adriatic islands.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many inhabited islands are part of the sovereign Hellenic Republic of Greece?",
+      "target": 227,
+      "metricUnit": "inhabited islands",
+      "imperialDisplay": "227 inhabited islands",
+      "explanation": "While Greece contains several thousand islands and islets, approximately 227 support permanent year-round human populations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What windswept granite cape in Portugal marks the westernmost point of the continental mainland of Europe?",
+      "options": [
+        "Cabo da Roca",
+        "Cape Saint Vincent",
+        "Cape Finisterre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portuguese poet Luís de Camões famously described Cabo da Roca as where the land ends and the sea begins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous coastal cliff promontory on Magerøya island in northern Norway is celebrated as the northernmost point of Europe accessible by car?",
+      "options": [
+        "Kinnarodden",
+        "North Cape",
+        "Lindesnes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The North Cape or Nordkapp features a 307-meter cliff overlooking the Arctic Barents Sea under the Midnight Sun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal active stratovolcano on the eastern coast of Sicily is the tallest active volcano in Europe outside the Caucasus?",
+      "options": [
+        "Mount Vesuvius",
+        "Stromboli",
+        "Mount Etna"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Etna stands over 3,350 meters high with near-constant summit eruptions, generating fertile volcanic soil for vineyards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What shallow freshwater lake in western Hungary is the largest lake in Central Europe, known as the Hungarian Sea?",
+      "options": [
+        "Lake Balaton",
+        "Lake Neusiedl",
+        "Lake Constance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Balaton covers roughly 592 square kilometers with an average depth of only three meters, famed for summer resorts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Russian exclave on the Baltic Sea between Poland and Lithuania is home to the Baltic Fleet headquarters and the amber coast?",
+      "options": [
+        "Karelia",
+        "Kaliningrad Oblast",
+        "Pskov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Formerly the historic Prussian city of Königsberg, Kaliningrad became Soviet territory following the Potsdam Conference in 1945.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate summit elevation in meters of Mount Etna in Sicily, Europe most active volcano?",
+      "target": 3357,
+      "metricUnit": "meters",
+      "imperialDisplay": "11,014 feet",
+      "explanation": "Mount Etna summit height changes with ongoing eruptions and crater collapses, measured at approximately 3,357 meters in recent surveys.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

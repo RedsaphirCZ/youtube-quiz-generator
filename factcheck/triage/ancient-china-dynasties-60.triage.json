@@ -1,0 +1,37 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "ancient-china-dynasties-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 4,
+  "findings": [
+    {
+      "question_number": 38,
+      "severity": "critical",
+      "issue": "Missing Question Text",
+      "proposed_fix": "The entry for question number 38 is missing the actual question text. Based on the answer 'Yongle Emperor' and the explanation about transferring the capital to Beijing and sponsoring Zheng He's voyages, the question should be: 'Which Ming Dynasty emperor transferred the imperial capital from Nanjing to Beijing in 1421 and sponsored Admiral Zheng He's seven maritime expeditions?'",
+      "verification_query": "Please verify if the question text for item 38 was accidentally omitted during data entry."
+    },
+    {
+      "question_number": 42,
+      "severity": "minor",
+      "issue": "Inconsistent Number Formatting",
+      "proposed_fix": "The 'Target' field uses '8707 rooms' while the 'display' field uses '8,707 structural rooms'. For consistency in a dataset, consider standardizing the number format (e.g., always using commas for thousands) or ensuring the target matches the display exactly if no unit conversion is needed.",
+      "verification_query": "Check other number-based questions to ensure consistent formatting between 'Target' and 'display' fields."
+    },
+    {
+      "question_number": 48,
+      "severity": "minor",
+      "issue": "Redundant Information in Display Field",
+      "proposed_fix": "The 'display' field contains '13,171 miles (21,196 km)'. Since the target is already in kilometers, the mile conversion might be unnecessary unless specifically requested for an international audience. Consider removing the mile conversion to keep the dataset concise.",
+      "verification_query": "Review all number questions to determine if unit conversions in the 'display' field are necessary or if they should be removed for consistency."
+    },
+    {
+      "question_number": 60,
+      "severity": "minor",
+      "issue": "Redundant Information in Display Field",
+      "proposed_fix": "Similar to question 48, the 'display' field includes '(1661–1722)' which repeats information found in the explanation. While helpful for context, it may be redundant if the goal is a clean dataset.",
+      "verification_query": "Evaluate whether date ranges in the 'display' field of number questions add value or create redundancy."
+    }
+  ]
+}

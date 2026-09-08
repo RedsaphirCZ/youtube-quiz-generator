@@ -1,0 +1,703 @@
+{
+  "id": "malaysia-geography-heritage-60",
+  "theme": "Malaysia: Geography, The Petronas Towers & Ancient Rainforests",
+  "title": "Malaysia: Geography, The Petronas Towers & Ancient Rainforests",
+  "description": "A 60-question grand master assessment exploring Kuala Lumpur & Petronas Towers (452 m), Batu Caves (272 steps), Mount Kinabalu (4,095 m), Taman Negara 130-million-year rainforest (530 m walkway), George Town & Melaka (1511), Sepilok orangutans (1964), Langkawi, and Nasi Lemak.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What capital city of Malaysia, whose name translates from Malay as 'Muddy Confluence', originated in 1857 as a tin-mining settlement at the meeting of the Klang and Gombak rivers?",
+      "options": [
+        "Kuala Lumpur",
+        "George Town",
+        "Johor Bahru"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kuala Lumpur grew from a swampy tin outpost into a global metropolis, centered around Merdeka Square where Malaysian independence was declared in 1957.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 451.9-meter 88-story twin skyscrapers in Kuala Lumpur, designed by Argentine-American architect César Pelli, were the tallest buildings in the world from 1998 to 2004?",
+      "options": [
+        "Menara Kuala Lumpur",
+        "Petronas Twin Towers",
+        "The Exchange 106"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspired by traditional Islamic geometric eight-pointed star patterns (Rub el Hizb), the towers remain the tallest twin buildings on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What double-decker connecting skybridge links the Petronas Twin Towers at the 41st and 42nd floors, suspended 170 meters above the ground?",
+      "options": [
+        "The Horizon Walkway",
+        "The Crescent Bridge",
+        "The Skybridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 58-meter skybridge is not rigidly attached to either tower; instead, it is designed to slide in and out of the towers to accommodate wind sway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 678.9-meter megatall skyscraper in Kuala Lumpur, completed in 2023, is officially the second tallest building in the world after Dubai Burj Khalifa?",
+      "options": [
+        "Merdeka 118",
+        "Petronas Towers",
+        "Four Seasons Place KL"
+      ],
+      "correctIndex": 0,
+      "explanation": "The silhouette of Merdeka 118 was inspired by the iconic raised-arm posture of Prime Minister Tunku Abdul Rahman shouting 'Merdeka!' (Independence) in 1957.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 19th-century landmark in Kuala Lumpur, facing Merdeka Square, features distinctive copper domes and a 41-meter clock tower in the Indo-Saracenic Mughal architectural style?",
+      "options": [
+        "Kuala Lumpur Railway Station",
+        "Sultan Abdul Samad Building",
+        "National Mosque"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by British architect A.C. Norman in 1897 to house the British colonial administration, it now houses the Ministry of Communications and Digital.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the architectural structural height in meters of the world-famous Petronas Twin Towers in Kuala Lumpur?",
+      "target": 452,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,483 feet tall (88 stories)",
+      "explanation": "The Petronas Twin Towers stand at an official architectural height of 451.9 meters (rounded to 452 m).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 400-million-year-old limestone hill complex in Gombak, Selangor, north of Kuala Lumpur, is one of the most famous Hindu religious shrines outside India?",
+      "options": [
+        "Gua Tempurung",
+        "Gua Charas",
+        "Batu Caves"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dedicated to the Hindu deity Lord Murugan, Batu Caves features massive cavern chambers, stalactites, and sacred troops of long-tailed macaque monkeys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 42.7-meter (140-foot) gold-painted statue, the tallest statue of a Hindu deity in Malaysia, guards the base of the entrance stairway at Batu Caves?",
+      "options": [
+        "Statue of Lord Murugan",
+        "Statue of Lord Shiva",
+        "Statue of Lord Ganesha"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructed in 2006 using 350 tons of steel and 300 liters of gold paint imported from Thailand, it is the third tallest statue of Lord Murugan in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many steep, colorful concrete stairs painted in vibrant rainbow colors must pilgrims and visitors climb to reach the entrance of the main Cathedral Cave at Batu Caves?",
+      "options": [
+        "108 Stairs",
+        "272 Stairs",
+        "365 Stairs"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 2018, the 272 steps were painted in vibrant rainbow gradients, creating an international photographic sensation leading up to the limestone cavern.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular annual Tamil Hindu festival celebrated at Batu Caves in January or February attracts over one million devotees carrying heavy physical burden offerings (Kavadi)?",
+      "options": [
+        "Deepavali",
+        "Pongal",
+        "Thaipusam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Devotees carry ornate wooden canopies decorated with peacock feathers or pierce their cheeks and torsos with metal skewers (vel) in acts of penance and thanksgiving.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ecological cave system below the main temple at Batu Caves protects the critically endangered, prehistoric Trapdoor Spider (Liphistius batuensis)?",
+      "options": [
+        "The Dark Cave",
+        "Cathedral Cave",
+        "Ramayana Cave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Dark Cave is a protected biological conservation area featuring two kilometers of undisturbed passages supporting rare cave bats, snails, and blind cave crickets.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many steep painted stairs must visitors climb to reach the upper Cathedral Cave at Batu Caves in Malaysia?",
+      "target": 272,
+      "metricUnit": "stairs",
+      "imperialDisplay": "272 rainbow steps",
+      "explanation": "Batu Caves features exactly 272 stairs climbing up the sheer face of the limestone karst cliff.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Malaysia and the island of Borneo, rising 4,095 meters in Sabah as a UNESCO World Heritage site?",
+      "options": [
+        "Mount Trusmadi",
+        "Mount Kinabalu",
+        "Mount Murud"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kinabalu is a young granite pluton dome rising above the Crocker Range, revered in local Kadazan-Dusun indigenous culture as the sacred resting place of departed spirits (Aki Nabalu).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest point of Mount Kinabalu, named after the British colonial administrator and naturalist who made the first recorded ascent in 1851?",
+      "options": [
+        "St. John Peak",
+        "South Peak",
+        "Low Peak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sir Hugh Low made the first recorded partial ascent in March 1851, with the summit peak standing at 4,095.2 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What giant carnivorous pitcher plant species, endemic exclusively to the slopes of Mount Kinabalu, produces pitchers holding up to 3.5 liters of liquid capable of trapping small vertebrates?",
+      "options": [
+        "Nepenthes rajah",
+        "Nepenthes lowii",
+        "Nepenthes villosa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nepenthes rajah has evolved a mutualistic relationship with mountain tree shrews and summit rats, which defecate into the pitcher bowl while feeding on nectar on the lid.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What extreme mountaineering route on Mount Kinabalu, beginning at 3,200 meters, is certified by Guinness as the Highest Via Ferrata (Iron Path) in the world?",
+      "options": [
+        "Low Gully Via Ferrata",
+        "Mountain Torq Via Ferrata",
+        "Kinabalu Traverse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Climbers traverse sheer granite cliff walls secured to steel cables, rungs, and suspension rope bridges with panoramic views above the clouds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique geological feature forms the dramatic jagged silhouettes atop the granite summit plateau of Mount Kinabalu, including Donkey Ears Peak and South Peak?",
+      "options": [
+        "Active volcanic calderas",
+        "Meteorite impact craters",
+        "Glacial freeze-thaw erosion of granodiorite rock during the last Ice Age"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ice sheets covered the summit plateau 10,000 years ago, scouring smooth granite slabs and carving sharp spires that rise starkly above surrounding tropical rainforests.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official surveyed summit elevation in meters above sea level of Mount Kinabalu in Sabah, Malaysia?",
+      "target": 4095,
+      "metricUnit": "meters",
+      "imperialDisplay": "13,435 feet",
+      "explanation": "Mount Kinabalu reaches an official elevation of 4,095.2 meters above sea level in Kinabalu National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 4,343-square-kilometer national park in Peninsular Malaysia encompasses one of the oldest deciduous rainforests on Earth, dating back over 130 million years?",
+      "options": [
+        "Taman Negara National Park",
+        "Endau-Rompin National Park",
+        "Royal Belum State Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "Older than the Amazon or Congo rainforests, Taman Negara (meaning 'National Park' in Malay) evolved undisturbed by Ice Age glaciations, home to immense biological richness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 530-meter suspended aerial walkway in Taman Negara, suspended forty meters above the jungle floor between giant tualang trees, is one of the longest canopy walkways in the world?",
+      "options": [
+        "Tree Top Walk",
+        "Taman Negara Canopy Walkway",
+        "Sedim River Canopy Walk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rope and wooden plank walkway allows visitors to observe arboreal bird species, flying squirrels, and orchids flourishing in the high forest canopy layer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered, nocturnal odd-toed ungulate species native to the rainforests of Taman Negara features distinctive black-and-white color-blocked camouflage patterning?",
+      "options": [
+        "Sumatran Rhinoceros",
+        "Asian Elephant",
+        "Malayan Tapir"
+      ],
+      "correctIndex": 2,
+      "explanation": "The largest of the four tapir species on Earth, the Malayan tapir has a flexible proboscis snout used to strip leaves, twigs, and fruits from low forest shrubs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What indigenous hunter-gatherer group (Orang Asli) inhabiting the deep interior jungles of Taman Negara is renowned for hunting small game using long bamboo blowpipes with poison darts?",
+      "options": [
+        "The Batek People",
+        "The Semai",
+        "The Jakun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Batek blowpipes (sumpit) fire darts coated with natural sap extracted from the toxic Ipoh tree (Antiaris toxicaria), paralyzing monkeys and birds in high tree canopies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the tallest tropical tree species in the world, growing up to eighty-eight meters high in the rainforests of Malaysia, providing nesting sites for wild giant Asian honeybees?",
+      "options": [
+        "Meranti Tree",
+        "Tualang Tree",
+        "Chengal Tree"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tualang trees possess smooth slippery white bark that prevents sun bears from climbing, where wild honey collectors scale ropes at night to harvest wild honey combs.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in meters of the suspended canopy walkway in Taman Negara National Park, Malaysia?",
+      "target": 530,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,740 feet long (40 meters high)",
+      "explanation": "The Taman Negara canopy walkway stretches for 530 meters across nine interconnected suspension spans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two historic port cities along the Strait of Malacca were jointly inscribed on the UNESCO World Heritage list in 2008 as living testaments to 500 years of multicultural maritime trading?",
+      "options": [
+        "Kuala Lumpur and Ipoh",
+        "Kuching and Kota Kinabalu",
+        "George Town Penang and Melaka"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both cities preserve distinctive shophouse architecture reflecting Portuguese, Dutch, British, Chinese, Malay, and Indian mercantile convergence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique cultural community in Melaka and Penang, also known as Peranakan, arose from the intermarriage of early 15th-century Chinese merchants with local Malay women?",
+      "options": [
+        "Baba-Nyonya",
+        "Chitty",
+        "Kristang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Baba-Nyonya culture is celebrated for Nyonya cuisine (blending Chinese ingredients with Malay spices and coconut milk), ornate beadwork shoes, and vibrant kebaya dresses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what historic year did Portuguese naval forces under Afonso de Albuquerque capture the wealthy Sultanate of Melaka, establishing the first European colonial fortress in Southeast Asia?",
+      "options": [
+        "1492",
+        "1511",
+        "1588"
+      ],
+      "correctIndex": 1,
+      "explanation": "The conquest gave Portugal strategic control over the vital spice trade chokepoint between India and the Spice Islands, commemorated by the ruined stone gate of A Famosa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous historic blue-walled mansion in George Town, Penang, built with thirty-eight rooms and seven courtyards according to strict Feng Shui principles, belonged to a 19th-century Chinese tycoon?",
+      "options": [
+        "Pinang Peranakan Mansion",
+        "Khoo Kongsi",
+        "Cheong Fatt Tze Mansion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Winner of the UNESCO Most Excellent Project Award, the mansion features Scottish cast-iron balustrades, English Art Nouveau stained glass, and indigo-limewash walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What terracotta-red 18th-century Dutch colonial square in Melaka, featuring the Stadthuys (oldest Dutch building in the East) and Christ Church, reflects over a century of Dutch rule?",
+      "options": [
+        "Dutch Square",
+        "St. Paul Hill",
+        "Jonker Square"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built by the Dutch East India Company (VOC) using red bricks shipped directly from Zeeland, the square features the Queen Victoria Diamond Jubilee Fountain.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Portuguese naval commander Afonso de Albuquerque conquer the Sultanate of Melaka, launching European colonial presence in Malaysia?",
+      "target": 1511,
+      "metricUnit": "year",
+      "imperialDisplay": "1511 AD",
+      "explanation": "Portuguese forces captured Melaka in August 1511, building the fortress of A Famosa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous wildlife sanctuary in Sabah, founded in 1964, was the first official center in the world dedicated to rescuing and rehabilitating orphaned Bornean orangutans?",
+      "options": [
+        "Semenggoh Wildlife Centre",
+        "Sepilok Orangutan Rehabilitation Centre",
+        "Matang Wildlife Centre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covering 43 square kilometers of Kabili-Sepilok Forest Reserve, visitors observe rescued orangutans (Pongo pygmaeus) learning survival skills at outdoor feeding platforms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive underground cave chamber in Gunung Mulu National Park in Sarawak is the largest enclosed subterranean cavern room on Earth by surface area?",
+      "options": [
+        "Deer Cave",
+        "Clearwater Cave",
+        "Sarawak Chamber"
+      ],
+      "correctIndex": 2,
+      "explanation": "Measuring 600 meters long, 415 meters wide, and 80 meters high, the Sarawak Chamber could comfortably accommodate forty Boeing 747 aircraft inside its single open space.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal cave in Gunung Mulu National Park features the world largest natural cave entrance passage, where three million wrinkle-lipped bats emerge in swirling ribbons every evening?",
+      "options": [
+        "Deer Cave",
+        "Lang Cave",
+        "Wind Cave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The colossal entrance measures 146 meters wide and 122 meters high, featuring a natural silhouette rock formation in the entrance resembling Abraham Lincoln profile.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major 560-kilometer river in eastern Sabah is famous for incredible biodiversity, where boat safaris spot wild pygmy elephants, proboscis monkeys, and saltwater crocodiles?",
+      "options": [
+        "Rajang River",
+        "Kinabatangan River",
+        "Baram River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lower Kinabatangan Wildlife Sanctuary is one of only two places on Earth where ten distinct primate species live in the same forest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What miniature, round-eared elephant subspecies, standing only two to 2.5 meters tall with oversized ears and long tails, is native exclusively to the island of Borneo?",
+      "options": [
+        "Sumatran Elephant",
+        "Indian Elephant",
+        "Borneo Pygmy Elephant"
+      ],
+      "correctIndex": 2,
+      "explanation": "With fewer than 1,500 individuals remaining in the wild, genetic evidence shows they diverged from Asian mainland elephants roughly 300,000 years ago.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Sepilok Orangutan Rehabilitation Centre officially established in Sabah, Malaysian Borneo?",
+      "target": 1964,
+      "metricUnit": "year",
+      "imperialDisplay": "1964 AD",
+      "explanation": "Sepilok was founded in 1964 by the Sabah Wildlife Department to care for displaced infant orangutans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tropical archipelago of ninety-nine islands in the Andaman Sea off the northwest coast of Peninsular Malaysia was declared Southeast Asia very first UNESCO Global Geopark in 2007?",
+      "options": [
+        "Langkawi Archipelago",
+        "Perhentian Islands",
+        "Redang Island"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known as the Jewel of Kedah, Langkawi is famous for ancient Cambrian sandstone rock formations, mangrove boat safaris in Kilim Geoforest Park, and duty-free status.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular 125-meter curved pedestrian cable-stayed bridge in Langkawi hangs from a single 82-meter inclined pylon 660 meters above sea level over Mount Mat Cincang?",
+      "options": [
+        "Penang Bridge",
+        "Langkawi Sky Bridge",
+        "Jambatan Sultan Abdul Halim"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accessible via the Langkawi Cable Car (SkyCab), the curved bridge features glass-bottom viewing panels offering views across the Andaman Sea to southern Thailand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What small oceanic island in eastern Sabah, rising 600 meters from a deep seabed off Semporna, is internationally acclaimed by scuba divers for massive schools of barracuda and sea turtles?",
+      "options": [
+        "Mabul Island",
+        "Kapalai Island",
+        "Sipadan Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed by living corals growing over an extinct volcanic cone, ocean legend Jacques Cousteau described Sipadan as an 'untouched piece of art'.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous pair of coral-fringed islands off the northeastern coast of Terengganu (Pulau Perhentian Besar and Kecil) are famous for transparent waters, snorkeling with reef sharks, and backpacker beaches?",
+      "options": [
+        "The Perhentian Islands",
+        "Tioman Island",
+        "Tenggol Island"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meaning 'Stopping Point' in Malay (from their historic role as trading waypoints between Malaya and Bangkok), the islands are protected marine conservation parks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 13.5-kilometer road bridge opened in 1985, connecting the island of Penang across the South Channel to Seberang Perai on the mainland?",
+      "options": [
+        "Sultan Abdul Halim Muadzam Shah Bridge",
+        "First Penang Bridge",
+        "Johor-Singapore Causeway"
+      ],
+      "correctIndex": 1,
+      "explanation": "When opened, it was the third longest bridge in the world, supplemented in 2014 by the 24-kilometer Second Penang Bridge, the longest bridge in Southeast Asia.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total curved length in meters of the famous Langkawi Sky Bridge suspended above Mount Mat Cincang in Malaysia?",
+      "target": 125,
+      "metricUnit": "meters",
+      "imperialDisplay": "410 feet curved span",
+      "explanation": "The Langkawi Sky Bridge measures exactly 125 meters in curved walking length, suspended 660 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the undisputed national dish of Malaysia, consisting of fragrant rice cooked in coconut milk and pandan leaves, served with spicy chili sambal, crispy anchovies (ikan bilis), toasted peanuts, cucumber, and hard-boiled egg?",
+      "options": [
+        "Nasi Goreng",
+        "Nasi Kerabu",
+        "Nasi Lemak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Traditionally wrapped in a triangular banana-leaf parcel (bungkus), Nasi Lemak is eaten for breakfast, lunch, and dinner at street food stalls and luxury restaurants alike.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which premium, world-renowned cultivar of durian, originating in Raub, Pahang, is famous for bright golden-yellow buttery flesh, rich bittersweet flavor, and small flat seeds?",
+      "options": [
+        "Musang King Mao Shan Wang D197",
+        "Black Thorn",
+        "D24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Musang King (King of the Civet Cat) commands premium prices across Asia, celebrated as the Gold Standard of tropical durian fruits.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Malaysian street food flatbread, influenced by Indian immigrants and expertly flipped and spun in the air by Mamak stall cooks until paper-thin and crispy, is served with dhal and curry?",
+      "options": [
+        "Murtabak",
+        "Roti Canai",
+        "Naan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voted repeatedly among the world best street foods by global food guides, Roti Canai is kneaded with clarified butter (ghee) and cooked on a flat griddle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous spicy, sour fish-based noodle soup from Penang features thick rice noodles in a rich mackerel broth flavored with tamarind (asam), lemongrass, galangal, mint, and torch ginger flower?",
+      "options": [
+        "Curry Laksa",
+        "Sarawak Laksa",
+        "Penang Assam Laksa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Assam Laksa was ranked by CNN Travel as one of the ten most delicious foods in the world, topped with sweet dark shrimp paste (hae ko).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What popular Malaysian shaved ice dessert is topped with sweet red beans, green pandan rice flour jelly noodles (cendol), sweet corn, grass jelly, evaporated milk, and rich palm sugar syrup (Gula Melaka)?",
+      "options": [
+        "Ais Kacang ABC Air Batu Campur",
+        "Cendol",
+        "Bubur Cha Cha"
+      ],
+      "correctIndex": 0,
+      "explanation": "A colorful mountain of shaved ice, ABC is the quintessential refreshing street food dessert to beat the tropical Malaysian heat.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many core traditional side accompaniments (sambal, ikan bilis anchovies, peanuts, cucumber slices) accompany the coconut rice in classic Malaysian Nasi Lemak?",
+      "target": 4,
+      "metricUnit": "core accompaniments",
+      "imperialDisplay": "4 traditional side elements",
+      "explanation": "Authentic Malaysian Nasi Lemak is traditionally served with four essential side components: spicy sambal, fried anchovies with peanuts, fresh cucumber, and egg.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scenic highland hill station in Pahang, situated at 1,500 meters elevation in the Titiwangsa Mountains, is famous for emerald tea plantations, strawberry farms, and cool 18°C temperatures?",
+      "options": [
+        "Genting Highlands",
+        "Cameron Highlands",
+        "Fraser Hill"
+      ],
+      "correctIndex": 1,
+      "explanation": "Named after British surveyor William Cameron who mapped the plateau in 1885, it served as a cool highland health retreat for British colonial administrators.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What largest black tea producer in Malaysia, founded in the Cameron Highlands in 1929 by British businessman J.A. Russell, operates the scenic Sungei Palas Tea Garden?",
+      "options": [
+        "Bharat Tea Cameronian",
+        "Sabah Tea",
+        "BOH Tea Best of Highlands"
+      ],
+      "correctIndex": 2,
+      "explanation": "BOH produces millions of cups of tea daily from 8,000 acres of terraced mountain tea bushes, home to an iconic cantilevered glass viewing cafe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient high-altitude cloud forest on Mount Brinchang in the Cameron Highlands is covered in thick green moss, hanging lichens, pitcher plants, and wild mountain orchids?",
+      "options": [
+        "The Mossy Forest",
+        "Taman Negara",
+        "Kabili Forest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Low-hanging clouds and perpetual mist wrap the stunted trees in thick blankets of spongy moss, often compared to the fantasy setting of Lord of the Rings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American businessman and former OSS officer, credited with reviving the Thai silk industry, mysteriously vanished without a trace while walking in the Cameron Highlands in March 1967?",
+      "options": [
+        "Howard Hughes",
+        "Jim Thompson",
+        "Michael Rockefeller"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thompson went for an afternoon walk from the Moonlight Bungalow and was never seen again, sparking one of the most famous unsolved mysteries in Southeast Asian history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vibrant entertainment resort city atop Mount Ulu Kali at 1,800 meters elevation in the Titiwangsa Mountains features Malaysia only legal land-based casino and indoor theme parks?",
+      "options": [
+        "Bukit Tinggi",
+        "Fraser Hill",
+        "Genting Highlands"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1965 by entrepreneur Lim Goh Tong, visitors ascend to the summit resorts via the 3.4-kilometer Awana SkyWay gondola cable car.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did British entrepreneur J.A. Russell establish the historic BOH Tea Plantation in the Cameron Highlands of Malaysia?",
+      "target": 1929,
+      "metricUnit": "year",
+      "imperialDisplay": "1929 AD",
+      "explanation": "BOH Plantations was founded in 1929, pioneering commercial highland tea cultivation in Malaya.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many sovereign federated states (plus three Federal Territories of Kuala Lumpur, Putrajaya, and Labuan) is the Federation of Malaysia politically structured?",
+      "options": [
+        "13 States and 3 Federal Territories",
+        "10 States and 2 Territories",
+        "15 States and 1 Territory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eleven states are located in Peninsular Malaysia (e.g. Selangor, Perak, Penang, Johor, Pahang) and two states (Sabah and Sarawak) on the island of Borneo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest state in Malaysia by geographical land area, covering over 124,000 square kilometers on the northwestern coast of Borneo?",
+      "options": [
+        "Sabah",
+        "Sarawak",
+        "Pahang"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sarawak is roughly the size of Peninsular Malaysia, featuring the 563-kilometer Rajang River, vast peat swamp forests, and indigenous Dayak longhouses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique constitutional monarchical system exists in Malaysia, where the Head of State (Yang di-Pertuan Agong / King) is elected for a 5-year term from among the hereditary royal rulers?",
+      "options": [
+        "Direct Public Presidential Election",
+        "Hereditary Primogeniture Succession",
+        "Elective Rotational Monarchy among the 9 Malay Royal Sultans"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Conference of Rulers elects the King every five years from the hereditary royal rulers of the nine Malay states (Johor, Kedah, Kelantan, Negeri Sembilan, Pahang, Perak, Perlis, Selangor, Terengganu).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What planned smart city and federal administrative centre, established in 1995 twenty-five kilometers south of Kuala Lumpur, houses the official residence and offices of the Prime Minister (Perdana Putra)?",
+      "options": [
+        "Putrajaya",
+        "Cyberjaya",
+        "Iskandar Puteri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Named after Malaysia first Prime Minister Tunku Abdul Rahman Putra, Putrajaya features the pink granite dome of the Putra Mosque and the Putrajaya Lake.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total geographical land area of Malaysia in square kilometers, separated by the South China Sea into two distinct geographical landmasses?",
+      "options": [
+        "180,000 Square Kilometers",
+        "330,803 Square Kilometers",
+        "500,000 Square Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Malaysia spans 330,803 square kilometers, home to over thirty-four million people united under the national motto 'Bersekutu Bertambah Mutu' (Unity is Strength).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign administrative States comprise the Federation of Malaysia?",
+      "target": 13,
+      "metricUnit": "states",
+      "imperialDisplay": "13 states",
+      "explanation": "The Federation of Malaysia consists of thirteen member states alongside the three Federal Territories.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

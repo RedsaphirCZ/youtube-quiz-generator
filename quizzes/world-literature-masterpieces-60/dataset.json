@@ -1,0 +1,703 @@
+{
+  "id": "world-literature-masterpieces-60",
+  "theme": "World Literature: Epic Novels, Playwrights & Masterpieces",
+  "title": "World Literature: Epic Novels, Playwrights & Masterpieces",
+  "description": "A 60-question grand master assessment on ancient epics, Dante, Shakespearean tragedy, 19th-century European giants, gothic masterworks, modernism, American classics, magic realism, and Nobel laureates.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What ancient Mesopotamian epic poem carved on clay cuneiform tablets is widely regarded as human history's earliest surviving literary masterpiece?",
+      "options": [
+        "The Epic of Gilgamesh",
+        "Enuma Elish",
+        "The Descent of Inanna"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Epic of Gilgamesh recounts the king of Uruk's quest for immortality and his friendship with the wild man Enkidu.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greek blind bard is credited with composing the monumental epic poems the Iliad and the Odyssey?",
+      "options": [
+        "Hesiod",
+        "Homer",
+        "Pindar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Homer's dactylic hexameter epics chronicled the Trojan War and Odysseus's perilous ten-year journey home to Ithaca.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Latin poet wrote the epic Aeneid to celebrate the mythical origins of Rome through the Trojan hero Aeneas?",
+      "options": [
+        "Ovid",
+        "Horace",
+        "Virgil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commissioned during the reign of Augustus, Virgil's Aeneid bridged the Homeric legend of Troy with the founding of the Roman destiny.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal Sanskrit epic, containing over 100,000 verses, includes the philosophical spiritual dialogue known as the Bhagavad Gita?",
+      "options": [
+        "Mahabharata",
+        "Ramayana",
+        "Upanishads"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mahabharata, traditionally attributed to the sage Vyasa, is one of the longest epic poems ever composed in world literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Homer's Odyssey, what was the name of Odysseus's faithful wife who wove and unwove a burial shroud to stall prospective suitors?",
+      "options": [
+        "Circe",
+        "Penelope",
+        "Calypso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Penelope waited twenty years for Odysseus to return to Ithaca, demonstrating unmatched fidelity and cunning intelligence.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many traditional scrolls or books comprise Homer's epic poem the Iliad in classical Alexandrian editions?",
+      "target": 24,
+      "metricUnit": "books",
+      "imperialDisplay": "24 epic books",
+      "explanation": "Scholars at the Library of Alexandria divided both the Iliad and the Odyssey into exactly 24 books, corresponding to the 24 letters of the Greek alphabet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Florentine poet journeyed through Inferno, Purgatorio, and Paradiso guided by Virgil and Beatrice in The Divine Comedy?",
+      "options": [
+        "Giovanni Boccaccio",
+        "Petrarch",
+        "Dante Alighieri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dante composed The Divine Comedy in Italian vernacular using the intricate terza rima rhyme scheme between 1308 and 1320.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 14th-century English author wrote The Canterbury Tales, chronicling pilgrims traveling to the shrine of Thomas Becket?",
+      "options": [
+        "Geoffrey Chaucer",
+        "William Langland",
+        "John Gower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Geoffrey Chaucer is known as the Father of English Literature for writing in Middle English rather than courtly French or Latin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish masterwork by Miguel de Cervantes depicts an idealistic nobleman tilting at windmills accompanied by his squire Sancho Panza?",
+      "options": [
+        "La Galatea",
+        "Don Quixote",
+        "Novelas ejemplares"
+      ],
+      "correctIndex": 1,
+      "explanation": "Published in two parts in 1605 and 1615, Don Quixote is widely recognized as the foundational text of the modern Western novel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian collection of 100 novellas by Giovanni Boccaccio depicts ten young people sheltering from the Black Death in Florence?",
+      "options": [
+        "The Heptameron",
+        "Il Filostrato",
+        "The Decameron"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Decameron provided a vivid portrait of 14th-century life and profoundly influenced later storytellers including Chaucer and Shakespeare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 17th-century English poet wrote the epic blank-verse poem Paradise Lost to justify the ways of God to men?",
+      "options": [
+        "John Milton",
+        "John Donne",
+        "Andrew Marvell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Milton dictated Paradise Lost while completely blind, portraying Lucifer's rebellion and the fall of Adam and Eve.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total cantos make up Dante Alighieri's complete Divine Comedy across Inferno, Purgatorio, and Paradiso?",
+      "target": 100,
+      "metricUnit": "cantos",
+      "imperialDisplay": "1 introductory + 99 cantos",
+      "explanation": "The Divine Comedy comprises 1 introductory canto plus 33 cantos each in Inferno, Purgatorio, and Paradiso, totaling exactly 100 cantos.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which Shakespearean tragedy does the Prince of Denmark deliver the immortal soliloquy beginning To be, or not to be?",
+      "options": [
+        "Macbeth",
+        "Hamlet",
+        "King Lear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hamlet is Shakespeare's longest play, exploring themes of revenge, existential doubt, madness, and political corruption in Elsinore.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish tragedy by Shakespeare is traditionally referred to by superstitious actors as The Scottish Play inside theaters?",
+      "options": [
+        "Othello",
+        "Julius Caesar",
+        "Macbeth"
+      ],
+      "correctIndex": 2,
+      "explanation": "The dark tragedy recounts the rise and bloody downfall of Lord Macbeth after hearing prophecies from three witches.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Elizabethan playhouse on the south bank of the River Thames in London staged many of Shakespeare's greatest masterpieces?",
+      "options": [
+        "The Globe Theatre",
+        "The Rose Theatre",
+        "The Swan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built in 1599 by Shakespeare's playing company, the Lord Chamberlain's Men, the Globe burned down in 1613 and was reconstructed in 1997.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Shakespeare's Romeo and Juliet, what are the names of the two feuding noble households in Verona?",
+      "options": [
+        "Yorks and Lancasters",
+        "Capulets and Montagues",
+        "Medicis and Pazzis"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tragic romance explores star-crossed lovers from the rival Montague and Capulet dynasties.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Shakespearean tragedy depicts an aging British king who divides his realm among his three daughters based on flattery?",
+      "options": [
+        "Cymbeline",
+        "The Winter's Tale",
+        "King Lear"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Lear is betrayed by his flattering elder daughters Goneril and Regan while banishing his genuinely devoted daughter Cordelia.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sonnets did William Shakespeare publish in his famous 1609 collection printed by Thomas Thorpe?",
+      "target": 154,
+      "metricUnit": "sonnets",
+      "imperialDisplay": "154 numbered sonnets",
+      "explanation": "Shakespeare's 1609 quarto contained exactly 154 sonnets exploring themes of love, time, beauty, the Fair Youth, and the Dark Lady.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French literary master wrote the epic social novel Les Miserables and the gothic romance The Hunchback of Notre-Dame?",
+      "options": [
+        "Victor Hugo",
+        "Honore de Balzac",
+        "Emile Zola"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hugo was a towering intellectual whose Les Miserables exposed poverty and injustice in 19th-century France through the redemption of Jean Valjean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian titan penned the monumental historical epic War and Peace and the tragic romance Anna Karenina?",
+      "options": [
+        "Ivan Turgenev",
+        "Leo Tolstoy",
+        "Nikolai Gogol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Count Leo Tolstoy depicted the 1812 Napoleonic invasion of Russia across sweeping aristocratic panoramas and philosophical essays.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian psychological novelist wrote Crime and Punishment, exploring the moral torment of student Rodion Raskolnikov?",
+      "options": [
+        "Anton Chekhov",
+        "Mikhail Lermontov",
+        "Fyodor Dostoevsky"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dostoevsky examined guilt, redemption, and nihilism after Raskolnikov murders a greedy pawnbroker in Saint Petersburg.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Victorian novelist created enduring characters including Ebenezer Scrooge, Oliver Twist, Pip, and David Copperfield?",
+      "options": [
+        "Charles Dickens",
+        "William Makepeace Thackeray",
+        "Anthony Trollope"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dickens utilized serial publication to expose the cruel social realities of Victorian industrial London while entertaining millions of readers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French realism pioneer wrote Madame Bovary in 1856, leading to a sensational obscenity trial before its widespread acclaim?",
+      "options": [
+        "Guy de Maupassant",
+        "Gustave Flaubert",
+        "Stendhal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flaubert spent years obsessively seeking le mot juste (the exact right word) to depict Emma Bovary's tragic romantic disillusionment.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Leo Tolstoy complete and publish the final serialized volume of War and Peace?",
+      "target": 1869,
+      "metricUnit": "CE",
+      "imperialDisplay": "1869 publication",
+      "explanation": "War and Peace was published in its complete book form in 1869 after appearing in serial form in The Russian Messenger starting in 1865.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19-year-old English author created the science fiction and gothic masterpiece Frankenstein during the rainy summer of 1816?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Bronte",
+        "Mary Shelley"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mary Shelley conceived Frankenstein (The Modern Prometheus) during a ghost-story writing contest at Lake Geneva with Lord Byron and Percy Bysshe Shelley.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Irish author published the epistolary gothic vampire novel Dracula in 1897, introducing Count Dracula and Professor Van Helsing?",
+      "options": [
+        "Bram Stoker",
+        "Sheridan Le Fanu",
+        "Oscar Wilde"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stoker drew upon folklore and historical accounts of Vlad the Impaler to create the archetypal vampire of modern literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American master of gothic horror and detective fiction penned The Raven, The Tell-Tale Heart, and The Fall of the House of Usher?",
+      "options": [
+        "Nathaniel Hawthorne",
+        "Edgar Allan Poe",
+        "Washington Irving"
+      ],
+      "correctIndex": 1,
+      "explanation": "Poe is recognized as the architect of the modern short story and the inventor of the detective fiction genre with The Murders in the Rue Morgue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English author, writing under the male pen name Currer Bell, published the landmark Victorian romance Jane Eyre in 1847?",
+      "options": [
+        "Emily Bronte",
+        "Anne Bronte",
+        "Charlotte Bronte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jane Eyre challenged Victorian conventions through its fierce, independent heroine and her stormy relationship with Mr. Rochester.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German polymath and literary giant wrote the two-part poetic drama Faust, depicting a scholar who trades his soul to Mephistopheles?",
+      "options": [
+        "Johann Wolfgang von Goethe",
+        "Friedrich Schiller",
+        "Heinrich Heine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Goethe worked on Faust across six decades, creating the supreme masterpiece of German literature and Romantic philosophy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was Mary Shelley's landmark novel Frankenstein; or, The Modern Prometheus first published anonymously in London?",
+      "target": 1818,
+      "metricUnit": "CE",
+      "imperialDisplay": "January 1818",
+      "explanation": "Frankenstein was first published anonymously on 1 January 1818 in a small print run of 500 copies by Lackington, Hughes, Harding, Mavor & Jones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Irish author published the monumental modernist novel Ulysses in 1922, following Leopold Bloom across Dublin on 16 June 1904?",
+      "options": [
+        "Samuel Beckett",
+        "James Joyce",
+        "W.B. Yeats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ulysses revolutionized stream-of-consciousness narrative technique, with 16 June now celebrated worldwide as Bloomsday.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French author wrote the monumental seven-volume modernist novel In Search of Lost Time, sparked by the taste of a madeleine dipped in tea?",
+      "options": [
+        "Andre Gide",
+        "Paul Valery",
+        "Marcel Proust"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proust's In Search of Lost Time (A la recherche du temps perdu) spans over 4,200 pages exploring memory, time, art, and Parisian aristocracy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Franz Kafka's 1915 novella The Metamorphosis, what does traveling salesman Gregor Samsa awaken to find himself transformed into?",
+      "options": [
+        "A monstrous insect",
+        "A rabid wolf",
+        "A stone statue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kafka's surreal allegory opens: As Gregor Samsa awoke one morning from uneasy dreams, he found himself transformed in his bed into a monstrous insect.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English modernist pioneer wrote Mrs Dalloway and To the Lighthouse, pioneering feminist literary criticism in A Room of One's Own?",
+      "options": [
+        "E.M. Forster",
+        "Virginia Woolf",
+        "Katherine Mansfield"
+      ],
+      "correctIndex": 1,
+      "explanation": "Virginia Woolf was a central figure of the Bloomsbury Group who pioneered innovative interior monologues and temporal structures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American-born British poet published the landmark 1922 modernist poem The Waste Land, opening with April is the cruellest month?",
+      "options": [
+        "Ezra Pound",
+        "W.H. Auden",
+        "T.S. Eliot"
+      ],
+      "correctIndex": 2,
+      "explanation": "T.S. Eliot captured post-World War I spiritual disillusionment through fragmented polyglot allusions, earning the 1948 Nobel Prize in Literature.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many distinct volumes make up Marcel Proust's masterwork In Search of Lost Time?",
+      "target": 7,
+      "metricUnit": "volumes",
+      "imperialDisplay": "7 monumental volumes",
+      "explanation": "Proust's masterpiece consists of 7 volumes published between 1913 and 1927, certified as one of the longest novels in world history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American author captured the Jazz Age and the tragic illusion of the American Dream in his 1925 novel The Great Gatsby?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Dos Passos"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Great Gatsby portrays the mysterious millionaire Jay Gatsby and his obsessive pursuit of Daisy Buchanan across Long Island Sound.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nobel Prize-winning American author developed the iceberg theory of writing in works like The Old Man and the Sea and The Sun Also Rises?",
+      "options": [
+        "William Faulkner",
+        "Ernest Hemingway",
+        "John Steinbeck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemingway's concise, understated prose stripped away extraneous adjectives, profoundly influencing 20th-century English writing style.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mississippi author created the fictional Yoknapatawpha County for Southern Gothic masterpieces like The Sound and the Fury and As I Lay Dying?",
+      "options": [
+        "Flannery O'Connor",
+        "Tennessee Williams",
+        "William Faulkner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Faulkner won the 1949 Nobel Prize in Literature for his intricate stream-of-consciousness explorations of Southern history and family decay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1851 Herman Melville epic novel follows Captain Ahab's monomaniacal quest for revenge against a giant white sperm whale?",
+      "options": [
+        "Moby-Dick",
+        "Billy Budd",
+        "Typee"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opening with the famous line Call me Ishmael, Moby-Dick combines whaling documentary, Shakespearean tragedy, and metaphysical symbolism.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which John Steinbeck masterpiece chronicled the harrowing Dust Bowl migration of the Joad family from Oklahoma to California during the Great Depression?",
+      "options": [
+        "East of Eden",
+        "The Grapes of Wrath",
+        "Of Mice and Men"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Grapes of Wrath won the Pulitzer Prize in 1940 and galvanized national attention toward the plight of migrant farm workers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was F. Scott Fitzgerald's celebrated novel The Great Gatsby published by Charles Scribner's Sons?",
+      "target": 1925,
+      "metricUnit": "CE",
+      "imperialDisplay": "April 1925",
+      "explanation": "The Great Gatsby was published on 10 April 1925, initially meeting modest commercial sales before achieving status as a great American classic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Colombian Nobel laureate pioneered magic realism in his epic saga of the Buendia family in the mythical town of Macondo, One Hundred Years of Solitude?",
+      "options": [
+        "Mario Vargas Llosa",
+        "Carlos Fuentes",
+        "Gabriel Garcia Marquez"
+      ],
+      "correctIndex": 2,
+      "explanation": "Garcia Marquez's 1967 masterpiece One Hundred Years of Solitude became a cornerstone of the Latin American literary boom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which blind Argentine master wrote labyrinthine, metaphysical short stories collected in Ficciones and The Aleph?",
+      "options": [
+        "Jorge Luis Borges",
+        "Julio Cortazar",
+        "Adolfo Bioy Casares"
+      ],
+      "correctIndex": 0,
+      "explanation": "Borges explored philosophical paradoxes, infinity, libraries, and mirrors, exerting vast influence on postmodern literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nigerian author wrote the landmark 1958 post-colonial African novel Things Fall Apart, portraying Okonkwo in an Igbo village?",
+      "options": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ben Okri"
+      ],
+      "correctIndex": 1,
+      "explanation": "Things Fall Apart countered colonial stereotypes and became the most widely read book in modern African literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese author blended surrealism and contemporary alienation in novels such as Norwegian Wood, Kafka on the Shore, and 1Q84?",
+      "options": [
+        "Yukio Mishima",
+        "Kenzaburo Oe",
+        "Haruki Murakami"
+      ],
+      "correctIndex": 2,
+      "explanation": "Murakami's evocative prose frequently incorporates jazz music, cats, parallel realities, and melancholic protagonists.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Egyptian author became the first Arabic-language writer to win the Nobel Prize in Literature in 1988, famous for The Cairo Trilogy?",
+      "options": [
+        "Naguib Mahfouz",
+        "Taha Hussein",
+        "Tawfiq al-Hakim"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mahfouz chronicled the social, political, and religious shifts of Egyptian life across generations in historic Cairo neighborhoods.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Gabriel Garcia Marquez publish his landmark novel One Hundred Years of Solitude in Buenos Aires?",
+      "target": 1967,
+      "metricUnit": "CE",
+      "imperialDisplay": "May 1967",
+      "explanation": "Cien anos de soledad was published in May 1967 by Editorial Sudamericana, selling out its initial print run of 8,000 copies in days.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English author wrote the chilling dystopian warning 1984, introducing Big Brother, Thoughtcrime, and Newspeak?",
+      "options": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Arthur Koestler"
+      ],
+      "correctIndex": 1,
+      "explanation": "George Orwell (Eric Arthur Blair) also wrote the political allegorical novella Animal Farm criticizing totalitarianism.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1932 dystopian novel by Aldous Huxley depicted a technologically engineered society conditioned by Soma and the World State?",
+      "options": [
+        "Island",
+        "We",
+        "Brave New World"
+      ],
+      "correctIndex": 2,
+      "explanation": "Huxley warned of a totalitarian state that controlled populations through engineered pleasure, mass consumerism, and biological caste systems.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ray Bradbury sci-fi classic depicts a future society where books are outlawed and firemen burn any that are found?",
+      "options": [
+        "Fahrenheit 451",
+        "The Martian Chronicles",
+        "Something Wicked This Way Comes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahrenheit 451 follows Guy Montag, a book-burning fireman who rebels after discovering the transformative power of literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Canadian author wrote the 1985 dystopian novel The Handmaid's Tale, set in the totalitarian theocracy of the Republic of Gilead?",
+      "options": [
+        "Alice Munro",
+        "Margaret Atwood",
+        "Carol Shields"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atwood's speculative novel explores state subjugation of women's bodies, identity, and civil liberties in a fundamentalist regime.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which visionary sci-fi author wrote Do Androids Dream of Electric Sheep?, which inspired Ridley Scott's film Blade Runner?",
+      "options": [
+        "Isaac Asimov",
+        "Arthur C. Clarke",
+        "Philip K. Dick"
+      ],
+      "correctIndex": 2,
+      "explanation": "Philip K. Dick's stories questioned the nature of reality, artificial intelligence, and human empathy in cyberpunk futures.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "At what temperature in degrees Fahrenheit does book paper auto-ignite according to the title of Ray Bradbury's classic novel?",
+      "target": 451,
+      "metricUnit": "degrees Fahrenheit",
+      "imperialDisplay": "451 °F",
+      "explanation": "Bradbury chose the title Fahrenheit 451 based on the physical temperature at which standard book paper ignites and burns.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French-Algerian existentialist author wrote The Stranger and The Myth of Sisyphus, winning the Nobel Prize in Literature in 1957?",
+      "options": [
+        "Albert Camus",
+        "Jean-Paul Sartre",
+        "Andre Malraux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Camus developed the philosophy of the Absurd, illustrating human determination to find meaning in a silent universe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American author won the 1993 Nobel Prize in Literature for masterworks exploring African American history, including Beloved and Song of Solomon?",
+      "options": [
+        "Alice Walker",
+        "Toni Morrison",
+        "Maya Angelou"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toni Morrison became the first Black woman of any nationality to win the Nobel Prize in Literature for her visionary language and historical depth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Irish playwright wrote the absurdist landmark Waiting for Godot, in which Vladimir and Estragon wait endlessly for an arrival?",
+      "options": [
+        "George Bernard Shaw",
+        "Sean O'Casey",
+        "Samuel Beckett"
+      ],
+      "correctIndex": 2,
+      "explanation": "Beckett won the 1969 Nobel Prize in Literature for minimalist dramatic works that stripped away theatrical excess to expose human vulnerability.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian polymath and poet wrote Gitanjali, becoming the first non-European to win the Nobel Prize in Literature in 1913?",
+      "options": [
+        "Rabindranath Tagore",
+        "R.K. Narayan",
+        "Sri Aurobindo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tagore reshaped Bengali literature and music, composing the national anthems of both India and Bangladesh.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese author was awarded the Nobel Prize in Literature in 1968 for poetic masterworks including Snow Country and Thousand Cranes?",
+      "options": [
+        "Kenzaburo Oe",
+        "Yasunari Kawabata",
+        "Natsume Soseki"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kawabata was praised by the Nobel Committee for his narrative mastery, which with great sensibility expresses the essence of the Japanese mind.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "At what young age in years did Rudyard Kipling win the Nobel Prize in Literature in 1907, remaining the youngest literature laureate in history?",
+      "target": 41,
+      "metricUnit": "years old",
+      "imperialDisplay": "41 years of age",
+      "explanation": "Rudyard Kipling was awarded the Nobel Prize in Literature at age 41 in 1907, a record for youth that remains unbroken over a century later.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

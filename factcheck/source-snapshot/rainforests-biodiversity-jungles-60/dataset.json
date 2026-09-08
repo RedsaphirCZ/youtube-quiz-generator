@@ -1,0 +1,641 @@
+{
+  "id": "rainforests-biodiversity-jungles-60",
+  "theme": "Tropical Rainforests: Amazon, Biodiversity & Canopy Life",
+  "title": "Tropical Rainforests: Amazon, Biodiversity & Canopy Life",
+  "description": "A 60-question grand master assessment exploring rainforest canopy layers, Amazon hydrology, unique arboreal fauna, soil ecology, and climate regulation.",
+  "category": "Nature, Wildlife & Biology",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What highest vertical layer of the tropical rainforest consists of giant trees poking far above the general forest canopy ceiling?",
+      "options": [
+        "Emergent Layer",
+        "Canopy Layer",
+        "Understory Layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Emergent trees like the kapok and Brazil nut rise up to 60 to 70 meters tall, enduring intense direct solar radiation and strong tropical winds."
+    },
+    {
+      "type": "mcq",
+      "question": "What continuous leafy ceiling of the rainforest houses approximately 70 to 90 percent of all rainforest organisms?",
+      "options": [
+        "Understory",
+        "Canopy",
+        "Shrub layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The canopy forms a 10-meter thick leafy roof between 30 and 45 meters above ground, acting as the primary solar energy harvesting factory of the jungle."
+    },
+    {
+      "type": "mcq",
+      "question": "What dark, humid layer of the rainforest receives only 2 to 15 percent of total sunlight, home to broad-leaved shrubs and jaguars?",
+      "options": [
+        "Emergent layer",
+        "Sub-canopy crown",
+        "Understory"
+      ],
+      "correctIndex": 2,
+      "explanation": "The understory is a sheltered microclimate characterized by high humidity, still air, and large broad leaves adapted to capture dim, filtered sunflecks."
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of total sunlight reaching the rainforest canopy actually penetrates down to the forest floor?",
+      "options": [
+        "2 percent",
+        "25 percent",
+        "50 percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Less than 2 percent of incident solar radiation reaches the dark rainforest floor, severely limiting herb layer growth except where treefall gaps occur."
+    },
+    {
+      "type": "mcq",
+      "question": "What wide, flaring wooden trunk buttresses provide structural support to giant rainforest trees growing in shallow tropical soils?",
+      "options": [
+        "Pneumatophores",
+        "Buttress Roots",
+        "Taproots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buttress roots extend outwards several meters from tree trunks to prevent tall trees from toppling in nutrient-poor topsoil without deep taproots."
+    },
+    {
+      "type": "number",
+      "question": "What percentage of global terrestrial plant and animal species are estimated to live within tropical rainforests despite covering only 6% of Earth land area?",
+      "target": 50,
+      "metricUnit": "percent",
+      "imperialDisplay": "50% of terrestrial biodiversity",
+      "explanation": "Tropical rainforests harbor over 50 percent of the world plant and animal species, making them the most biologically diverse terrestrial biomes on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What river is the largest in the world by water discharge volume, draining the vastest tropical rainforest basin on Earth?",
+      "options": [
+        "Congo River",
+        "Mekong River",
+        "Amazon River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Amazon accounts for roughly 20 percent of total global river discharge into world oceans, flowing across South America from the Andes to the Atlantic."
+    },
+    {
+      "type": "mcq",
+      "question": "What pink-colored freshwater cetacean navigates the flooded forests of the Amazon and Orinoco rivers using acoustic echolocation?",
+      "options": [
+        "Amazon River Dolphin Boto",
+        "Tucuxi",
+        "Irrawaddy Dolphin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inia geoffrensis possesses unfused cervical vertebrae allowing 90-degree neck flexibility to maneuver through submerged tree trunks and branches."
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal Amazonian freshwater fish can breathe atmospheric air using a modified vascular swim bladder and exceed 3 meters in length?",
+      "options": [
+        "Payara",
+        "Arapaima Pirarucu",
+        "Giant Wolf Fish"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arapaima gigas must surface every 5 to 15 minutes to gulp atmospheric air, allowing it to thrive in oxygen-depleted oxbow lakes and swamps."
+    },
+    {
+      "type": "mcq",
+      "question": "What giant water lily native to the Amazon basin features buoyant circular pads up to 3 meters in diameter that can support over 30 kg?",
+      "options": [
+        "Nymphaea lotus",
+        "Nelumbo nucifera",
+        "Victoria amazonica"
+      ],
+      "correctIndex": 2,
+      "explanation": "Victoria amazonica leaves feature upturned rims and sharp defensive spines underneath with air-filled structural support ribs for maximum buoyancy."
+    },
+    {
+      "type": "mcq",
+      "question": "What term describes the seasonally flooded freshwater swamp forests of the Amazon basin that submerge under meters of river water annually?",
+      "options": [
+        "Varzea",
+        "Terra Firme",
+        "Pantanal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Varzea forests are inundated by sediment-rich white-water rivers during flood stage, providing seasonal feeding grounds for fruit-eating fish."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousand cubic meters of freshwater per second does the Amazon River discharge into the Atlantic Ocean?",
+      "target": 209,
+      "metricUnit": "thousand m3/s",
+      "imperialDisplay": "209,000 m3/s (7.4M cu ft/s)",
+      "explanation": "The Amazon discharges an average of 209,000 cubic meters of freshwater every second, more than the next seven largest rivers combined."
+    },
+    {
+      "type": "mcq",
+      "question": "What slow-moving arboreal mammal spends nearly its entire life suspended upside down in the rainforest canopy, growing green algae in its grooved fur?",
+      "options": [
+        "Silky Anteater",
+        "Three-Toed Sloth",
+        "Tamandua"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bradypus sloths possess specialized Trichophilus green algae in specialized hair grooves that provide camouflage and supplementary nutrients."
+    },
+    {
+      "type": "mcq",
+      "question": "What Amazonian primate produces deep roaring vocalizations that can carry over 5 kilometers through dense jungle canopy?",
+      "options": [
+        "Spider Monkey",
+        "Capuchin Monkey",
+        "Howler Monkey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alouatta monkeys possess an enlarged, hollow hyoid bone that acts as a resonating chamber to amplify vocal territorial warnings."
+    },
+    {
+      "type": "mcq",
+      "question": "What arboreal mammal of the raccoon family has a fully prehensile tail and feeds primarily on fruit and flower nectar in Neotropical canopies?",
+      "options": [
+        "Kinkajou",
+        "South American Coati",
+        "Olinguito"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potos flavus uses its 13-cm extrudable tongue to sip nectar and extract fruit pulp, acting as an important nocturnal seed disperser and pollinator."
+    },
+    {
+      "type": "mcq",
+      "question": "What agile New World primate swings rapidly through the upper canopy using long limbs and a prehensile tail acting as a fifth hand?",
+      "options": [
+        "Saki Monkey",
+        "Spider Monkey",
+        "Common Marmoset"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ateles species have reduced or absent thumbs to create hook-like hands optimal for rapid brachiation through high canopy branches."
+    },
+    {
+      "type": "mcq",
+      "question": "What South American primate is the only truly nocturnal monkey genus in the entire world, possessing large light-gathering eyes?",
+      "options": [
+        "Titi Monkey",
+        "Squirrel Monkey",
+        "Night Monkey Owl Monkey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aotus monkeys forage at night to avoid diurnal raptors and resource competition, utilizing monochromat vision adapted to moonlit canopy foraging."
+    },
+    {
+      "type": "number",
+      "question": "How many hours per day does a wild Three-Toed Sloth typically sleep in the canopy according to modern tracking studies?",
+      "target": 10,
+      "metricUnit": "hours",
+      "imperialDisplay": "9.6 to 10 hours per day",
+      "explanation": "While captive sloths sleep up to 16 hours, EEG tracking of wild three-toed sloths revealed they sleep only about 9.6 to 10 hours per day."
+    },
+    {
+      "type": "mcq",
+      "question": "What brightly colored amphibian family secretes lethal batrachotoxin alkaloids through skin glands, used by indigenous groups on blowgun darts?",
+      "options": [
+        "Poison Dart Frog",
+        "Red-eyed Tree Frog",
+        "Glass Frog"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dendrobatidae accumulate toxic alkaloids from consuming formicine ants, mites, and millipedes in the rainforest leaf litter."
+    },
+    {
+      "type": "mcq",
+      "question": "What translucent Neotropical frog features transparent ventral skin that makes its beating heart, liver, and digestive tract plainly visible?",
+      "options": [
+        "Poison Dart Frog",
+        "Glass Frog",
+        "Cane Toad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Centrolenidae frogs use abdominal transparency for edge-diffusion camouflage, disrupting their silhouette against green translucent leaves."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest venomous pit viper in the Western Hemisphere, reaching lengths up to 3.6 meters in primary rainforest leaf litter?",
+      "options": [
+        "Fer-de-lance",
+        "Eyelash Viper",
+        "South American Bushmaster"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lachesis muta is an elusive egg-laying viper that delivers large yields of hemotoxic and proteolytic venom during ambush strikes."
+    },
+    {
+      "type": "mcq",
+      "question": "What arboreal pit viper features bristling spine-like scales above its eyes and displays vibrant yellow, green, and red color morphs?",
+      "options": [
+        "Eyelash Palm Pit Viper",
+        "Emerald Tree Boa",
+        "Green Vine Snake"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bothriechis schlegelii uses prehensile tail grips and keeled superciliary scales to blend into mossy branches and bromeliads while waiting for hummingbirds."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive non-venomous constrictor snake native to South American river basins is recognized as the heaviest snake species on Earth?",
+      "options": [
+        "Reticulated Python",
+        "Green Anaconda",
+        "Burmese Python"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eunectes murinus can weigh over 200 kg with a girth exceeding 30 cm, hunting tapirs, deer, and caimans from aquatic ambush positions."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum verified weight in kilograms recorded for an exceptional female Green Anaconda Eunectes murinus?",
+      "target": 250,
+      "metricUnit": "kg",
+      "imperialDisplay": "550 lbs (250 kg)",
+      "explanation": "While average large females weigh 100 to 150 kg, record wild green anacondas have been documented reaching masses between 200 and 250 kilograms."
+    },
+    {
+      "type": "mcq",
+      "question": "What botanical term describes non-parasitic plants that grow harmlessly upon the branches of larger trees to access canopy sunlight?",
+      "options": [
+        "Hemiparasites",
+        "Saprophytes",
+        "Epiphytes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epiphytes such as orchids, bromeliads, and ferns derive moisture and nutrients from air, rainfall, and organic debris rather than the host tree."
+    },
+    {
+      "type": "mcq",
+      "question": "What plant family forms overlapping leaf rosettes that hold water to create miniature arboreal aquatic ponds supporting frogs and insects?",
+      "options": [
+        "Bromeliaceae",
+        "Orchidaceae",
+        "Araceae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tank bromeliads catch rainwater and detritus in central leaf cups, forming phytotelm micro-ecosystems inhabited by crab larvae, frogs, and damselflies."
+    },
+    {
+      "type": "mcq",
+      "question": "What rainforest fig species begins life as an epiphyte in the high canopy before sending down roots that encase and kill the host tree?",
+      "options": [
+        "Banyan Tree",
+        "Strangler Fig",
+        "Rubber Fig"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ficus species germinate in branch forks, dropping aerial roots to the soil that thicken into a lattice around the host tree, outcompeting it for light."
+    },
+    {
+      "type": "mcq",
+      "question": "What giant emergent tree native to the Amazon produces hard wooden capsules containing dozens of edible triangular nuts?",
+      "options": [
+        "Mahogany Tree",
+        "Kapok Tree",
+        "Brazil Nut Tree"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bertholletia excelsa relies exclusively on large euglossine orchid bees for pollination and agoutis to gnaw open its rock-hard seed pods."
+    },
+    {
+      "type": "mcq",
+      "question": "What botanical term describes the thick, woody climbing vines that drape across canopy branches to physically link rainforest trees together?",
+      "options": [
+        "Lianas",
+        "Bryophytes",
+        "Pteridophytes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lianas represent up to 25 percent of woody plant diversity in tropical forests, using host trees as structural ladders to reach canopy light."
+    },
+    {
+      "type": "number",
+      "question": "Up to how many liters of rainwater can a large tank bromeliad hold inside its central leaf urn in the rainforest canopy?",
+      "target": 45,
+      "metricUnit": "liters",
+      "imperialDisplay": "45 liters (approx 12 gallons)",
+      "explanation": "Giant tank bromeliads such as Glomeropitcairnia can hold up to 45 liters (12 gallons) of water, creating significant arboreal freshwater reservoirs."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second-largest continuous tropical rainforest block on Earth, spanning six Central African countries?",
+      "options": [
+        "Sundaland Rainforest",
+        "Congo Basin",
+        "Guinean Forest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covering roughly 2 million square kilometers, the Congo Basin tropical forest acts as Africa largest carbon sink and regulates continental weather patterns."
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered great ape subspecies inhabiting the Virunga volcanic slopes is the largest living primate on Earth?",
+      "options": [
+        "Western Lowland Gorilla",
+        "Eastern Chimpanzee",
+        "Mountain Gorilla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gorilla beringei beringei features long, dense black fur adapted to cold high-altitude cloud forests, living in family groups led by a silverback."
+    },
+    {
+      "type": "mcq",
+      "question": "What elusive rainforest ungulate with striped zebra-like hindquarters is the only living relative of the giraffe, native to the Ituri Forest?",
+      "options": [
+        "Okapi",
+        "Bongo",
+        "Water Chevrotain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Okapia johnstoni possesses a 45-cm prehensile blue tongue to strip leaves, remaining undiscovered by Western science until 1901."
+    },
+    {
+      "type": "mcq",
+      "question": "What peaceful great ape species native exclusively to the southern bank of the Congo River uses sociosexual behaviors to diffuse social tensions?",
+      "options": [
+        "Chimpanzee",
+        "Bonobo",
+        "Gorilla"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pan paniscus lives in female-dominated egalitarian societies where peaceful sexual interactions maintain social cohesion and eliminate deadly inter-group warfare."
+    },
+    {
+      "type": "mcq",
+      "question": "What shy forest antelope of the Congo basin has a rich chestnut coat with white vertical stripes and long spiraled lyre-shaped horns?",
+      "options": [
+        "Bushbuck",
+        "Sitatunga",
+        "Bongo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tragelaphus eurycerus tilts its horns back against its spine when fleeing through dense bamboo thickets to avoid getting entangled."
+    },
+    {
+      "type": "number",
+      "question": "How many million hectares does the intact primary tropical rainforest of the Congo Basin cover across Central Africa?",
+      "target": 180,
+      "metricUnit": "million hectares",
+      "imperialDisplay": "180 million hectares (445M acres)",
+      "explanation": "The Congo Basin contains approximately 180 to 200 million hectares of dense tropical forest, making it the world second largest green lung."
+    },
+    {
+      "type": "mcq",
+      "question": "What arboreal great ape, whose name means person of the forest in Malay, is native exclusively to the rainforests of Borneo and Sumatra?",
+      "options": [
+        "Orangutan",
+        "Siamang",
+        "Lar Gibbon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pongo pygmaeus and Pongo abelii spend over 90 percent of their lives in the canopy, building complex sleeping nests from branches every evening."
+    },
+    {
+      "type": "mcq",
+      "question": "What parasitic plant native to Southeast Asian jungles produces the largest individual flower on Earth, emitting a stench of rotting flesh?",
+      "options": [
+        "Titan Arum",
+        "Rafflesia arnoldii",
+        "Hydnora africana"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rafflesia has no roots, stems, or leaves, growing entirely inside Tetrastigma vines until its five-lobed reddish flower blooms up to one meter wide."
+    },
+    {
+      "type": "mcq",
+      "question": "What endemic primate of Borneo is famous for the extraordinarily large, bulbous pendulous nose developed by dominant adult males?",
+      "options": [
+        "Silvered Leaf Monkey",
+        "Maroon Langur",
+        "Proboscis Monkey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nasalis larvatus lives in coastal mangrove and riverine forests, using its large fleshy nose as an acoustic resonator to amplify mating calls."
+    },
+    {
+      "type": "mcq",
+      "question": "What family of canopy birds in Southeast Asian and African rainforests features large hollow casques atop their curved bills?",
+      "options": [
+        "Hornbills",
+        "Toucans",
+        "Aracaris"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bucerotidae females seal themselves inside tree hollows with mud during nesting, relying on males to pass fruit and lizards through a narrow slit."
+    },
+    {
+      "type": "mcq",
+      "question": "What tiny nocturnal primate of Southeast Asian islands can rotate its head 180 degrees in either direction and has eyes larger than its brain?",
+      "options": [
+        "Slow Loris",
+        "Tarsier",
+        "Pygmy Bushbaby"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carlito syrichta cannot rotate its massive immobile eyes inside their sockets, compensating with specialized neck vertebrae to scan for insect prey."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum flower diameter in centimeters of the giant parasitic blossom Rafflesia arnoldii?",
+      "target": 100,
+      "metricUnit": "cm",
+      "imperialDisplay": "39.4 inches (100 cm)",
+      "explanation": "Rafflesia arnoldii produces the world largest solitary flower, measuring up to 100 centimeters (1 meter) in diameter and weighing over 10 kg."
+    },
+    {
+      "type": "mcq",
+      "question": "Why are most tropical rainforest soils naturally nutrient-poor, acidic oxisols despite supporting lush, dense plant growth?",
+      "options": [
+        "Permafrost prevents mineral weathering",
+        "Absence of soil microorganisms",
+        "Heavy torrential rainfall rapidly leaches minerals while warm temperatures drive rapid recycling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rainforest nutrients are held directly in living biomass rather than soil; torrential rains leach soluble ions while fungi instantly reabsorb decomposing matter."
+    },
+    {
+      "type": "mcq",
+      "question": "What beneficial fungal networks associate symbiotically with rainforest tree roots to scavenge scarce phosphorus and nitrogen?",
+      "options": [
+        "Mycorrhizae",
+        "Rhizobia",
+        "Lichens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mycorrhizal fungi extend the root surface area by hundreds of times, trading mined soil minerals for photosynthetic carbohydrates from the tree."
+    },
+    {
+      "type": "mcq",
+      "question": "What prolific social insects process vast amounts of fallen wood and leaf litter on the rainforest floor, serving as primary decomposers?",
+      "options": [
+        "Dung beetles",
+        "Termites",
+        "Centipedes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Termites harbor symbiotic gut protozoa and bacteria that break down stubborn cellulose and lignin, recycling locked carbon back into soil nutrients."
+    },
+    {
+      "type": "mcq",
+      "question": "What dark, fertile anthropogenic soil found throughout the Amazon basin was created by ancient pre-Columbian societies using biochar?",
+      "options": [
+        "Laterite",
+        "Podzol",
+        "Terra Preta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Terra Preta de Indio contains high concentrations of charcoal, bone fragments, and compost that retain nutrients and soil moisture for centuries."
+    },
+    {
+      "type": "mcq",
+      "question": "What agricultural ants cut living leaves into fragments to cultivate subterranean fungal gardens as their sole dietary food source?",
+      "options": [
+        "Leafcutter Ants",
+        "Army Ants",
+        "Weaver Ants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atta and Acromyrmex ants harvest tons of vegetation to feed Leucocoprinus fungus, which produces specialized nutrient-rich food structures called gongylidia."
+    },
+    {
+      "type": "number",
+      "question": "How many million ants can live in a single mature underground nest colony of Atta leafcutter ants?",
+      "target": 8,
+      "metricUnit": "million ants",
+      "imperialDisplay": "8 million ants",
+      "explanation": "A mature Atta cephalotes leafcutter ant colony can house up to 8 million individual workers excavated across hundreds of underground chambers."
+    },
+    {
+      "type": "mcq",
+      "question": "What mantis family includes species that display flattened, vein-like bodies that perfectly mimic dried dead leaves on forest floors?",
+      "options": [
+        "Flower Mantises",
+        "Dead-Leaf Mantises",
+        "Shield Mantises"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deroplatys mantises feature crinkled, leaf-like thoracic expansions and dull brown coloration with simulated mold spots to evade predators."
+    },
+    {
+      "type": "mcq",
+      "question": "What Neotropical butterfly flashes dazzling metallic blue light on its dorsal wings, while keeping dull brown cryptic eyespots underneath?",
+      "options": [
+        "Heliconius",
+        "Postman Butterfly",
+        "Blue Morpho"
+      ],
+      "correctIndex": 2,
+      "explanation": "Morpho peleides creates dazzling blue flashes in flight to confuse predators, vanishing instantly against tree trunks when snapping its wings closed."
+    },
+    {
+      "type": "mcq",
+      "question": "What Central American rainforest butterfly features completely transparent wings lacking colored scales, rendering it nearly invisible in flight?",
+      "options": [
+        "Glasswing Butterfly",
+        "Clearwing Hawkmoth",
+        "Owl Butterfly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Greta oto has wing membranes with nanopillar structures that eliminate optical reflection, allowing light to pass straight through without glare."
+    },
+    {
+      "type": "mcq",
+      "question": "What nocturnal gecko found in Madagascar rainforests has fringed dermal flaps that flatten completely against tree bark to eliminate cast shadows?",
+      "options": [
+        "Panther Chameleon",
+        "Mossy Leaf-tailed Gecko",
+        "Day Gecko"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uroplatus sikorae possesses moss-like skin coloration and lateral dermal flaps that disrupt its body outline against lichen-covered trunks."
+    },
+    {
+      "type": "mcq",
+      "question": "What Amazonian hawkmoth caterpillar can inflate its anterior body segments to mimic the head and staring eyes of a venomous pit viper?",
+      "options": [
+        "Swallowtail Caterpillar",
+        "Monarch Caterpillar",
+        "Hemeroplanes triptolemus Caterpillar"
+      ],
+      "correctIndex": 2,
+      "explanation": "When threatened, this caterpillar expands its thorax into a triangular snake-like head and strikes defensively toward approaching birds."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded wingspan in centimeters of the giant Neotropical White Witch Moth Thysania agrippina?",
+      "target": 30,
+      "metricUnit": "cm",
+      "imperialDisplay": "11.8 inches (30 cm)",
+      "explanation": "The White Witch Moth Thysania agrippina of Central and South American rainforests has the largest wingspan of any insect, measuring up to 30 cm (12 in)."
+    },
+    {
+      "type": "mcq",
+      "question": "The Amazon rainforest generates much of its own regional rainfall through what biological process of water vapor release from tree leaves?",
+      "options": [
+        "Evapotranspiration",
+        "Sublimation",
+        "Guttation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single large rainforest tree can pump hundreds of liters of water daily into the atmosphere, creating clouds that re-precipitate over the basin multiple times."
+    },
+    {
+      "type": "mcq",
+      "question": "What meteorological term describes the colossal atmospheric corridors of water vapor pumped by the Amazon across South America?",
+      "options": [
+        "Hadley Jet",
+        "Flying Rivers",
+        "Equatorial Trough"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flying rivers carry an estimated 20 billion metric tons of moisture daily, supplying critical rainfall to agriculture in southern Brazil, Paraguay, and Argentina."
+    },
+    {
+      "type": "mcq",
+      "question": "What primary agricultural commodity has historically been the leading driver of large-scale tropical rainforest loss in Southeast Asia?",
+      "options": [
+        "Soybean monoculture",
+        "Coffee cultivation",
+        "Oil Palm Plantations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Expansion of oil palm plantations in Malaysia and Indonesia has replaced vast tracts of peat swamp and lowland dipterocarp rainforest."
+    },
+    {
+      "type": "mcq",
+      "question": "What antimalarial compound was originally extracted from the bark of the Cinchona tree native to the Andean mountain rainforests?",
+      "options": [
+        "Quinine",
+        "Curare",
+        "Digitalis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quinine was isolated in 1820 from Cinchona bark, serving as the world first widely effective pharmaceutical treatment for malaria."
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of modern prescription pharmaceutical compounds are derived from bioactive molecules originally discovered in tropical rainforest plants?",
+      "options": [
+        "75 percent",
+        "25 percent",
+        "5 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Over a quarter of all modern medicines originate from rainforest flora, even though less than one percent of rainforest plant species have been biochemically tested."
+    },
+    {
+      "type": "number",
+      "question": "What percentage of modern pharmaceutical drugs are derived from bioactive compounds originally discovered in tropical rainforest flora?",
+      "target": 25,
+      "metricUnit": "percent",
+      "imperialDisplay": "25% of modern prescription drugs",
+      "explanation": "Approximately 25 percent of all modern Western pharmaceutical medicines originate from compounds discovered in tropical rainforest ecosystems."
+    }
+  ]
+}

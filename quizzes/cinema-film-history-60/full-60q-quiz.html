@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema History, Iconic Directors &amp; Movie Classics — Interactive Quiz</title>
+  <style>
+    :root {
+      --bg-parchment: #f5f2eb;
+      --card-surface: #ffffff;
+      --accent-red: #8b1e1e;
+      --accent-red-hover: #731818;
+      --accent-gold: #c59b27;
+      --accent-gold-light: #fef8e7;
+      --correct-green: #2e7d32;
+      --correct-green-bg: #e8f5e9;
+      --incorrect-red: #c62828;
+      --incorrect-red-bg: #ffebee;
+      --numeric-blue: #185a9d;
+      --numeric-blue-bg: #eef6fc;
+      --text-main: #2b2520;
+      --text-muted: #6b635b;
+      --border-subtle: #e0d8cb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    body {
+      background-color: var(--bg-parchment);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 1.4;
+      padding: 8px 12px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8px;
+      min-height: 0;
+    }
+
+    /* Header Banner */
+    header {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-red);
+      border-radius: 12px;
+      padding: 10px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-title-group h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--accent-red);
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+
+    .theme-badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--accent-gold-light);
+      border: 1px solid var(--accent-gold);
+      color: #7c5c0a;
+      font-size: 0.78rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    /* Status Bar */
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-subtle);
+      align-items: center;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .stat-value {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .btn-reset {
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-reset:hover {
+      background: #eee8dc;
+      color: var(--accent-red);
+      border-color: var(--accent-red);
+    }
+
+    /* Progress Bar */
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: #e6dfd1;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-red));
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Middle Section Wrapper */
+    .middle-section {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-y: auto;
+      padding-right: 2px;
+    }
+
+    /* Main Question Card */
+    .question-card {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 16px 20px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .question-badge {
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .badge-mcq {
+      background: var(--accent-gold-light);
+      color: #8c6a0c;
+      border: 1px solid rgba(197, 155, 39, 0.5);
+    }
+
+    .badge-number {
+      background: var(--numeric-blue-bg);
+      color: var(--numeric-blue);
+      border: 1px solid rgba(24, 90, 157, 0.4);
+    }
+
+    .card-counter {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .question-text {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    /* MCQ Option List */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      text-align: left;
+      background: #faf8f4;
+      border: 2.5px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 12px 18px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      gap: 14px;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      background: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .option-marker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #e8decb;
+      color: var(--text-main);
+      font-size: 1.05rem;
+      font-weight: 900;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .option-btn.selected-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+    }
+    .option-btn.selected-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn.selected-incorrect {
+      border-color: var(--incorrect-red);
+      background-color: var(--incorrect-red-bg);
+      color: #b71c1c;
+    }
+    .option-btn.selected-incorrect .option-marker {
+      background-color: var(--incorrect-red);
+      color: #fff;
+    }
+
+    .option-btn.reveal-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+      border-style: dashed;
+    }
+    .option-btn.reveal-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn:disabled {
+      cursor: default;
+    }
+
+    /* Number Guess Input View */
+    .number-input-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 8px;
+      background: #fff;
+      padding: 4px 12px;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .input-wrapper:focus-within {
+      border-color: var(--numeric-blue);
+      box-shadow: 0 0 0 3px rgba(24, 90, 157, 0.15);
+    }
+
+    .num-input {
+      border: none;
+      outline: none;
+      font-size: 1.15rem;
+      font-weight: 600;
+      width: 100%;
+      color: var(--text-main);
+      padding: 8px 4px;
+    }
+
+    .unit-label {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding-left: 8px;
+    }
+
+    .btn-check {
+      background: var(--numeric-blue);
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-check:hover:not(:disabled) {
+      background: #124479;
+    }
+
+    .btn-check:disabled {
+      opacity: 0.6;
+      cursor: default;
+    }
+
+    /* Numeric Comparison Metrics */
+    .metrics-box {
+      margin-top: 20px;
+      background: var(--numeric-blue-bg);
+      border: 1px solid rgba(24, 90, 157, 0.25);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+    }
+
+    .metric-card {
+      background: #fff;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid rgba(24, 90, 157, 0.15);
+    }
+
+    .metric-title {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .metric-data {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--numeric-blue);
+    }
+
+    .metric-direction-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .dir-exact { background: var(--correct-green-bg); color: var(--correct-green); }
+    .dir-high { background: #fff3e0; color: #e65100; }
+    .dir-low { background: #e1f5fe; color: #0277bd; }
+
+    /* Explanation Box */
+    .explanation-box {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-radius: 8px;
+      background: #faf8f5;
+      border-left: 4px solid var(--accent-gold);
+      font-size: 0.95rem;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    .explanation-box strong {
+      color: var(--accent-red);
+    }
+
+    /* Navigation Controls */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .nav-btn {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      color: var(--accent-red);
+      background: #faf7f0;
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .nav-btn-primary {
+      background: var(--accent-red);
+      color: #fff;
+      border-color: var(--accent-red);
+    }
+
+    .nav-btn-primary:hover:not(:disabled) {
+      background: var(--accent-red-hover);
+      color: #fff;
+    }
+
+    /* Jump Grid */
+    .jump-section {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 8px 12px;
+    }
+
+    .jump-header {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 800;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .jump-legend {
+      display: flex;
+      gap: 8px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 2px;
+    }
+
+    .jump-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+      gap: 4px;
+    }
+
+    .jump-btn {
+      width: 100%;
+      height: 24px;
+      border-radius: 5px;
+      font-size: 0.76rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border-subtle);
+      background: #fbf9f4;
+      color: var(--text-muted);
+      transition: all 0.15s;
+    }
+
+    .jump-btn:hover {
+      border-color: var(--accent-gold);
+      transform: scale(1.05);
+    }
+
+    .jump-btn.state-current {
+      outline: 2.5px solid var(--accent-red);
+      outline-offset: 1px;
+      font-weight: 800;
+    }
+
+    .jump-btn.state-correct {
+      background: var(--correct-green);
+      color: #ffffff;
+      border-color: var(--correct-green);
+    }
+
+    .jump-btn.state-incorrect {
+      background: var(--incorrect-red);
+      color: #ffffff;
+      border-color: var(--incorrect-red);
+    }
+
+    .jump-btn.state-number-checked {
+      background: var(--numeric-blue);
+      color: #ffffff;
+      border-color: var(--numeric-blue);
+    }
+
+    /* Summary Screen */
+    .summary-card {
+      display: none;
+      background: var(--card-surface);
+      border: 1px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-gold);
+      border-radius: 12px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .summary-title {
+      font-size: 1.8rem;
+      color: var(--accent-red);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .summary-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 24px;
+    }
+
+    .summary-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      max-width: 600px;
+      margin: 0 auto 32px auto;
+    }
+
+    .summary-stat-box {
+      background: #faf8f4;
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .summary-stat-val {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .summary-stat-lbl {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .btn-restart {
+      background: var(--accent-red);
+      color: #fff;
+      border: none;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .btn-restart:hover {
+      background: var(--accent-red-hover);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-top">
+        <div class="header-title-group">
+          <h1>Cinema History, Iconic Directors &amp; Movie Classics</h1>
+        </div>
+        <span class="theme-badge">60 Questions</span>
+      </div>
+
+      <div class="status-bar">
+        <div class="stat-item">
+          <span class="stat-label">Question</span>
+          <span class="stat-value" id="disp-curr-q">1 / 60</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">MCQ Score</span>
+          <span class="stat-value" id="disp-mcq-score">0 / 0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Completed</span>
+          <span class="stat-value" id="disp-completed">0 / 60</span>
+        </div>
+        <button class="btn-reset" id="btn-reset-quiz">Reset Quiz</button>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-bar"></div>
+      </div>
+    </header>
+
+    <!-- Middle Section: Only this area adjusts while header and navigator stay locked -->
+    <div class="middle-section">
+      <!-- Interactive Question Card -->
+      <main class="question-card" id="main-question-card">
+        <div class="card-meta">
+          <span class="question-badge badge-mcq" id="card-badge">Multiple Choice</span>
+          <span class="card-counter" id="card-counter">Question 1 of 60</span>
+        </div>
+
+        <h2 class="question-text" id="card-question-text">Loading question...</h2>
+
+        <!-- MCQ View -->
+        <div class="options-grid" id="mcq-options-container">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Number View -->
+        <div class="number-input-form" id="number-input-container" style="display: none;">
+          <div class="input-row">
+            <div class="input-wrapper">
+              <input type="number" id="num-guess-input" class="num-input" placeholder="Enter estimated number" step="any" />
+              <span class="unit-label" id="unit-label"></span>
+            </div>
+            <button class="btn-check" id="btn-check-number">Check Estimate</button>
+          </div>
+
+          <div class="metrics-box" id="num-metrics-box" style="display: none;">
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-title">Target Value</div>
+                <div class="metric-data" id="m-target">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Your Guess</div>
+                <div class="metric-data" id="m-guess">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Off By</div>
+                <div class="metric-data" id="m-diff">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Closer Span</div>
+                <div class="metric-data" id="m-span">-</div>
+              </div>
+            </div>
+            <div>
+              <span class="metric-direction-badge" id="m-dir-badge">Direction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explanation -->
+        <div class="explanation-box" id="explanation-box" style="display: none;">
+          <strong>Fact & Context:</strong> <span id="explanation-text"></span>
+        </div>
+
+        <!-- Navigation Controls inside Card -->
+        <div class="nav-bar" id="nav-controls" style="margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border-subtle);">
+          <button class="nav-btn" id="btn-prev">Previous</button>
+          <button class="nav-btn nav-btn-primary" id="btn-next">Next</button>
+        </div>
+      </main>
+
+      <!-- Summary Screen -->
+      <section class="summary-card" id="summary-card" style="display: none;">
+        <h2 class="summary-title">Quiz Completed!</h2>
+        <p class="summary-subtitle">Cinema History, Iconic Directors &amp; Movie Classics Knowledge Assessment</p>
+
+        <div class="summary-metrics-grid">
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-score">0 / 0</div>
+            <div class="summary-stat-lbl">MCQ Score</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-accuracy">0%</div>
+            <div class="summary-stat-lbl">Accuracy</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-completed">0 / 60</div>
+            <div class="summary-stat-lbl">Questions Checked</div>
+          </div>
+        </div>
+
+        <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+      </section>
+    </div>
+
+    <!-- 1-60 Jump Grid (Locked at bottom) -->
+    <section class="jump-section">
+      <div class="jump-header">
+        <span>Question Quick Jump (1–60)</span>
+        <div class="jump-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:#2e7d32"></div> Correct</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#c62828"></div> Incorrect</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#185a9d"></div> Estimate</div>
+        </div>
+      </div>
+      <div class="jump-grid" id="jump-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Summary Screen -->
+    <section class="summary-card" id="summary-card">
+      <h2 class="summary-title">Quiz Completed!</h2>
+      <p class="summary-subtitle">Cinema History, Iconic Directors &amp; Movie Classics Knowledge Assessment</p>
+
+      <div class="summary-metrics-grid">
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-score">0 / 0</div>
+          <div class="summary-stat-lbl">MCQ Score</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-accuracy">0%</div>
+          <div class="summary-stat-lbl">Accuracy</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-completed">0 / 60</div>
+          <div class="summary-stat-lbl">Questions Checked</div>
+        </div>
+      </div>
+
+      <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+    </section>
+  </div>
+
+  <script>
+    const questions = [
+  {
+    "type": "mcq",
+    "question": "Which French brothers held the world first commercial projected motion picture screening in Paris on 28 December 1895?",
+    "options": [
+      "Auguste and Louis Lumiere",
+      "Max and Emil Skladanowsky",
+      "Georges and Charles Melies"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Lumiere brothers patented the Cinematographe (a combined camera, printer, and projector), screening short films including Workers Leaving the Lumiere Factory and The Arrival of a Train at La Ciotat to paying audiences at the Grand Cafe in Paris."
+  },
+  {
+    "type": "mcq",
+    "question": "Which French magician and visionary filmmaker directed the 1902 groundbreaking science fiction fantasy A Trip to the Moon (Le Voyage dans la Lune)?",
+    "options": [
+      "Alice Guy-Blache",
+      "Georges Melies",
+      "Ferdinand Zecca"
+    ],
+    "correctIndex": 1,
+    "explanation": "Georges Melies pioneered special effects, stop-trick substitutions, multiple exposures, and painted backdrops, creating the famous image of a cannon shell capsule landing in the right eye of the Man in the Moon."
+  },
+  {
+    "type": "mcq",
+    "question": "Which English comic actor and filmmaker created the iconic, beloved cinematic character of The Tramp (The Little Tramp)?",
+    "options": [
+      "Buster Keaton",
+      "Harold Lloyd",
+      "Charlie Chaplin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Charlie Chaplin debuted The Tramp in 1914, complete with bowler hat, baggy trousers, cane, and toothbrush mustache. He directed and starred in silent cinematic masterpieces including The Kid, The Gold Rush, City Lights, and Modern Times."
+  },
+  {
+    "type": "mcq",
+    "question": "Which German director created the monumental 1927 silent dystopian expressionist sci-fi epic Metropolis?",
+    "options": [
+      "Fritz Lang",
+      "F. W. Murnau",
+      "Robert Wiene"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fritz Lang Metropolis depicted a starkly divided futuristic megacity of wealthy elite industrialists and subterranean labor classes, introducing the iconic Maschinenmensch robot (Maria) that profoundly influenced modern cyberpunk sci-fi."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1922 silent German expressionist horror masterpiece directed by F. W. Murnau was an unauthorized adaptation of Bram Stoker Dracula?",
+    "options": [
+      "The Cabinet of Dr. Caligari",
+      "Nosferatu",
+      "The Golem"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nosferatu starred Max Schreck as the grotesque Count Orlok with clawed fingers and rat-like fangs. Stoker heirs sued for copyright infringement and courts ordered all copies destroyed, but surviving prints preserved it as a vampire classic."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did the Lumiere brothers hold their historic first commercial public film screening at the Grand Cafe in Paris?",
+    "target": 1895,
+    "metricUnit": "CE",
+    "imperialDisplay": "December 1895",
+    "explanation": "The birth of public commercial cinema occurred on 28 December 1895 in Paris."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1927 musical film starring Al Jolson is historically celebrated as the first feature-length motion picture with synchronized recorded singing and dialogue?",
+    "options": [
+      "Singin in the Rain",
+      "The Broadway Melody",
+      "The Jazz Singer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Produced by Warner Bros. using the Vitaphone sound-on-disc system, The Jazz Singer included the famous ad-libbed spoken line: Wait a minute, wait a minute, you aint heard nothin yet! Its immense box-office success triggered Hollywood rapid transition to talkies."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1939 Technicolor musical fantasy masterpiece directed by Victor Fleming transported Judy Garland from Kansas to the Land of Oz?",
+    "options": [
+      "The Wizard of Oz",
+      "Gone with the Wind",
+      "The Red Shoes"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Wizard of Oz famously transitioned from sepia-toned Kansas to three-strip vibrant Technicolor when Dorothy opened the farmhouse door into Munchkinland, winning Academy Awards for Best Original Score and Best Original Song (Over the Rainbow)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1939 sweeping American Civil War romantic drama produced by David O. Selznick won eight competitive Oscars and remains the highest-grossing film in history adjusted for inflation?",
+    "options": [
+      "Casablanca",
+      "Gone with the Wind",
+      "Stagecoach"
+    ],
+    "correctIndex": 1,
+    "explanation": "Starring Vivien Leigh as Scarlett O'Hara and Clark Gable as Rhett Butler, Gone with the Wind generated unprecedented global ticket sales and saw Hattie McDaniel become the first African American to win an Academy Award."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1942 wartime romantic drama set in unoccupied Vichy-controlled Morocco starred Humphrey Bogart and Ingrid Bergman?",
+    "options": [
+      "The Maltese Falcon",
+      "Notorious",
+      "Casablanca"
+    ],
+    "correctIndex": 2,
+    "explanation": "Directed by Michael Curtiz, Casablanca features iconic cinematic dialogue including: Here looking at you, kid and Louis, I think this is the beginning of a beautiful friendship. It won Academy Awards for Best Picture, Director, and Adapted Screenplay."
+  },
+  {
+    "type": "mcq",
+    "question": "Which English-born filmmaker was universally crowned the Master of Suspense, directing classics like Psycho, Rear Window, and Vertigo?",
+    "options": [
+      "Alfred Hitchcock",
+      "David Lean",
+      "Billy Wilder"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alfred Hitchcock pioneered psychological cinematic techniques including the dolly zoom (Vertigo effect), subjective camera POV, and the narrative device known as the MacGuffin. His 1960 shower scene in Psycho redefined modern horror editing."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did The Jazz Singer premiere, revolutionizing cinema with synchronized soundtrack dialogue?",
+    "target": 1927,
+    "metricUnit": "CE",
+    "imperialDisplay": "October 1927",
+    "explanation": "The Jazz Singer premiered in New York on 6 October 1927, marking the beginning of the end for the silent film era."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1941 directorial debut by 25-year-old Orson Welles is frequently ranked by critics as the greatest motion picture ever made?",
+    "options": [
+      "The Magnificent Ambersons",
+      "Citizen Kane",
+      "Touch of Evil"
+    ],
+    "correctIndex": 1,
+    "explanation": "Citizen Kane revolutionized cinematography with Gregg Toland deep-focus photography, non-linear flashback storytelling, low-angle ceiling shots, and complex sound design, examining the life and hubris of newspaper magnate Charles Foster Kane."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the dying word spoken by Charles Foster Kane at the opening of Citizen Kane, sparking the reporter investigation into its meaning?",
+    "options": [
+      "Xanadu",
+      "Inquirer",
+      "Rosebud"
+    ],
+    "correctIndex": 2,
+    "explanation": "The mystery of Rosebud drives the investigative narrative of the film, revealed in the final scene to be the trade name of the childhood wooden sled Kane was playing with when taken from his parents."
+  },
+  {
+    "type": "mcq",
+    "question": "Which real-life American newspaper publisher and media tycoon was the character of Charles Foster Kane primarily based upon?",
+    "options": [
+      "William Randolph Hearst",
+      "Joseph Pulitzer",
+      "Lord Northcliffe"
+    ],
+    "correctIndex": 0,
+    "explanation": "William Randolph Hearst was so enraged by the film thinly veiled portrayal of his life and his mistress Marion Davies that he banned all mentions of Citizen Kane in his newspapers and attempted to buy and destroy the master negative."
+  },
+  {
+    "type": "mcq",
+    "question": "What innovative visual camera technique used throughout Citizen Kane keeps both foreground and distant background objects in sharp focus simultaneously?",
+    "options": [
+      "Shallow Depth of Field",
+      "Deep Focus Cinematography",
+      "Rack Focus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cinematographer Gregg Toland utilized wide-angle lenses, small aperture stops (f/8 to f/16), and powerful arc lights to maintain razor-sharp focus across entire sets, allowing complex multi-layered dramatic staging without cutaway editing."
+  },
+  {
+    "type": "mcq",
+    "question": "Which famous 1938 radio drama broadcast by Orson Welles Mercury Theatre on the Air caused nationwide panic when listeners believed Martians were invading Earth?",
+    "options": [
+      "The Time Machine",
+      "The Invisible Man",
+      "The War of the Worlds"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adapted from H. G. Wells novel as simulated live news bulletins, the broadcast demonstrated Welles genius for dramatic audio illusion and catapulted him to Hollywood stardom with complete creative control at RKO Radio Pictures."
+  },
+  {
+    "type": "number",
+    "question": "How old was Orson Welles when he co-wrote, directed, produced, and starred in his masterwork Citizen Kane in 1941?",
+    "target": 25,
+    "metricUnit": "years old",
+    "imperialDisplay": "25 years of age",
+    "explanation": "Orson Welles was just 25 years old when making Citizen Kane, negotiating an unprecedented contract that granted him final cut privilege."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1948 Italian Neorealist masterpiece directed by Vittorio De Sica follows an impoverished father searching Rome for his stolen work bicycle?",
+    "options": [
+      "Bicycle Thieves Ladri di biciclette",
+      "Rome Open City",
+      "Umberto D."
+    ],
+    "correctIndex": 0,
+    "explanation": "Shot entirely on location in post-war Rome using non-professional actors, Bicycle Thieves won an Academy Honorary Award and became the quintessential standard of Neorealist humanism and social critique."
+  },
+  {
+    "type": "mcq",
+    "question": "Which French New Wave director made his revolutionary feature debut with The 400 Blows (Les Quatre Cents Coups) in 1959?",
+    "options": [
+      "Jean-Luc Godard",
+      "Francois Truffaut",
+      "Eric Rohmer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Francois Truffaut semi-autobiographical film about rebellious youth Antoine Doinel ended with an iconic freeze-frame on the seashore, winning Best Director at the Cannes Film Festival and launching the French New Wave (Nouvelle Vague)."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1960 Jean-Luc Godard French New Wave classic starring Jean-Paul Belmondo broke cinematic rules with rapid jump-cut editing and handheld camerawork?",
+    "options": [
+      "Contempt",
+      "Band of Outsiders",
+      "Breathless A bout de souffle"
+    ],
+    "correctIndex": 2,
+    "explanation": "Godard shot Breathless without formal permits on Paris streets using a wheelchair for tracking shots, intentionally cutting out middle portions of takes (jump cuts) to create a frantic modern tempo."
+  },
+  {
+    "type": "mcq",
+    "question": "Which legendary Italian director made visual, autobiographical dreamlike masterworks including Otto e Mezzo and La Dolce Vita?",
+    "options": [
+      "Federico Fellini",
+      "Michelangelo Antonioni",
+      "Luchino Visconti"
+    ],
+    "correctIndex": 0,
+    "explanation": "Federico Fellini blended circus theatricality, surreal memory, and baroque imagery, winning four Academy Awards for Best Foreign Language Film. His 1960 film La Dolce Vita coined the term paparazzi."
+  },
+  {
+    "type": "mcq",
+    "question": "Which influential French film criticism magazine founded by Andre Bazin in 1951 gave birth to the Auteur Theory of directing?",
+    "options": [
+      "Positif",
+      "Cahiers du Cinema",
+      "Sight and Sound"
+    ],
+    "correctIndex": 1,
+    "explanation": "Writers for Cahiers du Cinema (including Truffaut, Godard, Chabrol, and Rohmer) argued that great directors are the true authors (auteurs) whose personal artistic vision transcends commercial studio constraints."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did Vittorio De Sica landmark Italian Neorealist film Bicycle Thieves premiere?",
+    "target": 1948,
+    "metricUnit": "CE",
+    "imperialDisplay": "1948",
+    "explanation": "Bicycle Thieves was released in 1948, winning international acclaim and influencing generations of independent filmmakers."
+  },
+  {
+    "type": "mcq",
+    "question": "Which legendary Japanese filmmaker directed Seven Samurai, Rashomon, and Ran, profoundly influencing Hollywood Westerns and Star Wars?",
+    "options": [
+      "Yasujiro Ozu",
+      "Kenji Mizoguchi",
+      "Akira Kurosawa"
+    ],
+    "correctIndex": 2,
+    "explanation": "Akira Kurosawa dynamic multi-camera setups, axial cuts, and wipe transitions inspired classics like The Magnificent Seven (from Seven Samurai), A Fistful of Dollars (from Yojimbo), and Star Wars (from The Hidden Fortress)."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1950 Akira Kurosawa psychological crime drama introduced the narrative technique of portraying the same event through conflicting subjective viewpoints?",
+    "options": [
+      "Rashomon",
+      "Ikiru",
+      "Throne of Blood"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rashomon won the Golden Lion at the Venice Film Festival, introducing Japanese cinema to the West. In psychology and legal theory, the Rashomon effect denotes the phenomenon of subjective human interpretation of the same objective event."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Japanese master director was famous for his tatami shot (placing the camera at eye-level of someone seated on a traditional straw floor mat)?",
+    "options": [
+      "Masaki Kobayashi",
+      "Yasujiro Ozu",
+      "Nagisa Oshima"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yasujiro Ozu (Tokyo Story, Late Spring) explored the gentle decay of traditional family relationships in post-war Japan with stationary 50mm lenses, static compositions, and direct-to-camera character glances."
+  },
+  {
+    "type": "mcq",
+    "question": "Which co-founder of Studio Ghibli directed animated masterpieces including Spirited Away, Princess Mononoke, and My Neighbor Totoro?",
+    "options": [
+      "Isao Takahata",
+      "Satoshi Kon",
+      "Hayao Miyazaki"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hayao Miyazaki hand-drawn aesthetic, ecological themes, and flying motifs earned global adoration. In 2003, Spirited Away became the first hand-drawn and non-English animated film to win the Academy Award for Best Animated Feature."
+  },
+  {
+    "type": "mcq",
+    "question": "What towering prehistoric kaiju monster first appeared in Ishiro Honda 1954 Japanese film as an allegory for nuclear devastation?",
+    "options": [
+      "Godzilla Gojira",
+      "Mothra",
+      "Gamera"
+    ],
+    "correctIndex": 0,
+    "explanation": "Created following the real-world Lucky Dragon No. 5 radioactive fallout incident, Godzilla used suitmation (actor Haruo Nakajima wearing a 200-pound rubber suit) and miniature sets to create the longest-running continuous film franchise in history."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did Akira Kurosawa Seven Samurai premiere in Japan, defining the modern team assembly action movie genre?",
+    "target": 1954,
+    "metricUnit": "CE",
+    "imperialDisplay": "April 1954",
+    "explanation": "Seven Samurai was released in April 1954, running over three and a half hours."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1972 cinematic masterpiece directed by Francis Ford Coppola tells the epic generational saga of the Corleone Italian-American crime family?",
+    "options": [
+      "Goodfellas",
+      "The Godfather",
+      "Once Upon a Time in America"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adapted from Mario Puzo novel and starring Marlon Brando and Al Pacino, The Godfather won three Oscars and revitalized Hollywood. Gordon Willis low-key chiaroscuro lighting earned him the title the Prince of Darkness."
+  },
+  {
+    "type": "mcq",
+    "question": "Which director launched the modern summer blockbuster phenomenon with his 1975 suspense thriller Jaws?",
+    "options": [
+      "George Lucas",
+      "Brian De Palma",
+      "Steven Spielberg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Steven Spielberg Jaws used John Williams iconic two-note leitmotif (E and F) to build terrifying dread while the mechanical shark (Bruce) was malfunctioning. It became the first film to surpass 100 million dollars at the North American box office."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1976 psychological drama directed by Martin Scorsese starred Robert De Niro as alienated New York cab driver Travis Bickle?",
+    "options": [
+      "Taxi Driver",
+      "Raging Bull",
+      "Mean Streets"
+    ],
+    "correctIndex": 0,
+    "explanation": "Written by Paul Schrader and scored by Bernard Herrmann, Taxi Driver won the Palme d'Or at Cannes. De Niro improvised his famous mirror soliloquy: You talkin to me? You talkin to me?"
+  },
+  {
+    "type": "mcq",
+    "question": "What 1977 epic space opera written and directed by George Lucas revolutionized visual special effects through Industrial Light & Magic (ILM)?",
+    "options": [
+      "Close Encounters of the Third Kind",
+      "Star Wars A New Hope",
+      "Alien"
+    ],
+    "correctIndex": 1,
+    "explanation": "George Lucas synthesized Joseph Campbell Hero Journey, mythological archetypes, John Williams orchestral scores, and motion-control Dykstraflex cameras to launch a multi-billion-dollar global cultural franchise."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1979 Ridley Scott sci-fi horror film introduced Sigourney Weaver as Ellen Ripley fighting a biomechanical Xenomorph designed by H. R. Giger?",
+    "options": [
+      "The Thing",
+      "Blade Runner",
+      "Alien"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alien tagline In space no one can hear you scream captured its claustrophobic suspense aboard the commercial towing starship Nostromo, establishing Ellen Ripley as a groundbreaking female action protagonist."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did Steven Spielberg Jaws hit theaters, creating the original concept of the summer blockbuster?",
+    "target": 1975,
+    "metricUnit": "CE",
+    "imperialDisplay": "June 1975",
+    "explanation": "Jaws was released on 20 June 1975 across more than 400 screens simultaneously with heavy television advertising, creating the modern blockbuster distribution model."
+  },
+  {
+    "type": "mcq",
+    "question": "Which visionary 1968 sci-fi masterpiece directed by Stanley Kubrick used front-projection and slit-scan photography to explore human evolution and artificial intelligence (HAL 9000)?",
+    "options": [
+      "2001: A Space Odyssey",
+      "Solaris",
+      "Planet of the Apes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Co-written with Arthur C. Clarke, 2001: A Space Odyssey features the famous match cut from a prehistoric bone weapon to an orbital nuclear satellite, setting the gold standard for realistic space physics in cinema."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1982 Ridley Scott neo-noir sci-fi classic based on Philip K. Dick novel starred Harrison Ford hunting bioengineered replicants in a rainy dystopian Los Angeles?",
+    "options": [
+      "Total Recall",
+      "Blade Runner",
+      "The Terminator"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blade Runner featured atmospheric visual design by Syd Mead and Vangelis electronic synthesizer score, culminating in Rutger Hauer improvised Tears in Rain monologue atop the Bradbury Building."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1993 Steven Spielberg dinosaur thriller became the highest-grossing film of all time by combining Stan Winston animatronics with groundbreaking ILM CGI dinosaurs?",
+    "options": [
+      "The Lost World",
+      "Godzilla",
+      "Jurassic Park"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jurassic Park demonstrated photorealistic computer-generated living creatures for the first time in feature film history, persuading George Lucas and Peter Jackson that digital visual effects technology was finally mature."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 1999 Wachowski sisters cyber-action film popularized the bullet-time 360-degree camera technique and green-tinted digital reality aesthetic?",
+    "options": [
+      "The Matrix",
+      "Dark City",
+      "Strange Days"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Matrix used an array of 120 still cameras firing in microsecond succession around Keanu Reeves doing wire-fu stunts choreographed by Yuen Woo-ping, winning four Technical Academy Awards."
+  },
+  {
+    "type": "mcq",
+    "question": "Which director helm of The Lord of the Rings trilogy (2001–2003) swept 17 Academy Awards, with The Return of the King winning all 11 categories it was nominated for?",
+    "options": [
+      "Sam Raimi",
+      "Peter Jackson",
+      "Guillermo del Toro"
+    ],
+    "correctIndex": 1,
+    "explanation": "Filmed simultaneously over 438 days in New Zealand, Peter Jackson adaptation set the standard for high fantasy world-building, utilizing Weta Digital MASSIVE software for digital armies and Andy Serkis motion-capture performance as Gollum."
+  },
+  {
+    "type": "number",
+    "question": "How many Academy Awards did The Lord of the Rings: The Return of the King win at the 76th Oscars in 2004, tying the all-time record?",
+    "target": 11,
+    "metricUnit": "Oscars",
+    "imperialDisplay": "11 Academy Awards (clean sweep)",
+    "explanation": "The Return of the King won all 11 Oscars it was nominated for in 2004, tying Ben-Hur (1959) and Titanic (1997) for the most Academy Awards won by a single film."
+  },
+  {
+    "type": "mcq",
+    "question": "Which three motion pictures share the all-time record for winning the most Academy Awards (11 Oscars each)?",
+    "options": [
+      "Gone with the Wind, Titanic, and Avatar",
+      "West Side Story, Schindler List, and Gladiator",
+      "Ben-Hur, Titanic, and The Return of the King"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ben-Hur (1959) first set the record with 11 wins out of 12 nominations, Titanic (1997) matched it with 11 wins out of 14 nominations, and The Return of the King (2003) achieved a perfect 11 wins out of 11 nominations."
+  },
+  {
+    "type": "mcq",
+    "question": "Who holds the all-time individual record for the most Academy Awards won by a single person in history (22 competitive Oscars)?",
+    "options": [
+      "Walt Disney",
+      "John Williams",
+      "Katharine Hepburn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Walt Disney won 22 competitive Academy Awards and 4 Honorary Oscars from a record 59 nominations between 1932 and 1969, winning four Oscars in a single evening at the 1954 ceremony."
+  },
+  {
+    "type": "mcq",
+    "question": "Which actress holds the all-time record for winning the most Academy Awards for Best Actress in a Leading Role (4 Oscars)?",
+    "options": [
+      "Meryl Streep",
+      "Katharine Hepburn",
+      "Ingrid Bergman"
+    ],
+    "correctIndex": 1,
+    "explanation": "Katharine Hepburn won four Best Actress Oscars across a 48-year span for Morning Glory (1933), Guess Who Coming to Dinner (1967), The Lion in Winter (1968), and On Golden Pond (1981), famously never attending the ceremonies to accept them."
+  },
+  {
+    "type": "mcq",
+    "question": "In what year was the first Academy Awards banquet ceremony held at the Hollywood Roosevelt Hotel in Los Angeles?",
+    "options": [
+      "1925",
+      "1935",
+      "1929"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hosted by Douglas Fairbanks before an audience of 270 guests on 16 May 1929, the first Academy Awards took 15 minutes to distribute 12 statuettes honoring films released in 1927–1928, with Wings winning Outstanding Picture."
+  },
+  {
+    "type": "mcq",
+    "question": "What 2019 South Korean dark comedy thriller directed by Bong Joon-ho made history as the first non-English language film to win the Academy Award for Best Picture?",
+    "options": [
+      "Parasite Gisaengchung",
+      "Roma",
+      "Crouching Tiger Hidden Dragon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parasite won four major Oscars in 2020: Best Picture, Best Director, Best Original Screenplay, and Best International Feature Film. Bong Joon-ho famously noted: Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE were the first Academy Awards (Oscars) held at the Hollywood Roosevelt Hotel?",
+    "target": 1929,
+    "metricUnit": "CE",
+    "imperialDisplay": "May 1929",
+    "explanation": "The inaugural Academy Awards ceremony took place on 16 May 1929."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Swedish auteur directed stark existential and religious classics including The Seventh Seal (playing chess with Death) and Wild Strawberries?",
+    "options": [
+      "Lars von Trier",
+      "Ingmar Bergman",
+      "Carl Theodor Dreyer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ingmar Bergman explored faith, mortality, and silence of God in monochrome masterpieces shot with cinematographer Sven Nykvist, creating the iconic image of the medieval knight Antonius Block playing chess with Death on a rocky Baltic beach."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1995 computer-animated film produced by Pixar and directed by John Lasseter was the world first fully computer-generated feature film?",
+    "options": [
+      "A Bug Life",
+      "Monsters Inc.",
+      "Toy Story"
+    ],
+    "correctIndex": 2,
+    "explanation": "Toy Story (starring Tom Hanks as Woody and Tim Allen as Buzz Lightyear) used Pixar RenderMan software on a rendering farm of 117 computers, proving that computer animation could deliver emotional, character-driven cinematic storytelling."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Spanish director is celebrated for vibrant melodrama, colorful aesthetics, and strong female protagonists in films like All About My Mother and Volver?",
+    "options": [
+      "Pedro Almodovar",
+      "Luis Bunuel",
+      "Alejandro Amenabar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pedro Almodovar emerged from the Madrid cultural movement (La Movida Madrilena), winning two Academy Awards for his emotionally complex explorations of family, gender, and desire."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Mexican director won back-to-back Best Director Oscars for Birdman (2014) and The Revenant (2015)?",
+    "options": [
+      "Guillermo del Toro",
+      "Alejandro Gonzalez Inarritu",
+      "Alfonso Cuaron"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alejandro G. Inarritu orchestrated Birdman to appear as one continuous unbroken shot, and filmed The Revenant in freezing Canadian and Patagonian wilderness using only natural lighting."
+  },
+  {
+    "type": "mcq",
+    "question": "What stop-motion animation studio in Bristol, England created the beloved claymation duo Wallace and Gromit and Chicken Run?",
+    "options": [
+      "Laika Studios",
+      "Studio Canal",
+      "Aardman Animations"
+    ],
+    "correctIndex": 2,
+    "explanation": "Founded by Peter Lord and David Sproxton and led by director Nick Park, Aardman sculpts Plasticine clay figures frame-by-frame (24 movements per second) to create award-winning physical comedy and charm."
+  },
+  {
+    "type": "number",
+    "question": "In what year CE did Pixar release Toy Story, the world first feature-length computer-animated film?",
+    "target": 1995,
+    "metricUnit": "CE",
+    "imperialDisplay": "November 1995",
+    "explanation": "Toy Story was released on 22 November 1995, opening a new era in cinematic animation."
+  },
+  {
+    "type": "mcq",
+    "question": "Which legendary American composer has scored Star Wars, Jaws, E.T., Indiana Jones, Jurassic Park, and Harry Potter, earning 54 Oscar nominations?",
+    "options": [
+      "John Williams",
+      "Ennio Morricone",
+      "Hans Zimmer"
+    ],
+    "correctIndex": 0,
+    "explanation": "John Williams revitalized large orchestral symphonic film scores in the 1970s using Wagnerian leitmotifs, standing as the most Oscar-nominated living person and second most nominated individual in history after Walt Disney."
+  },
+  {
+    "type": "mcq",
+    "question": "Which Italian maestro composed the iconic whistle, electric guitar, and choral score for The Good, the Bad and the Ugly and over 400 film scores?",
+    "options": [
+      "Nino Rota",
+      "Ennio Morricone",
+      "Giorgio Moroder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ennio Morricone collaborated with director Sergio Leone on Spaghetti Westerns, using coyote howls, gunshots, and whip-cracks to redefine cinematic acoustic realism before winning an Oscar for Quentin Tarantino The Hateful Eight."
+  },
+  {
+    "type": "mcq",
+    "question": "What German film composer is renowned for pioneering hybrid electronic-orchestral scores for Gladiator, Inception, The Dark Knight, and Interstellar?",
+    "options": [
+      "Howard Shore",
+      "Max Richter",
+      "Hans Zimmer"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hans Zimmer popularized brass-heavy ostinatos, ticking clock motifs, and deep synthesizer bass drops (the Inception BRAAM sound) through his Santa Monica production studio Remote Control Productions."
+  },
+  {
+    "type": "mcq",
+    "question": "What standard film projection frame rate of 24 frames per second (fps) was established during the transition to sound in the late 1920s?",
+    "options": [
+      "24 frames per second",
+      "16 frames per second",
+      "30 frames per second"
+    ],
+    "correctIndex": 0,
+    "explanation": "Twenty-four frames per second became the universal international cinema standard because it provided the minimum frame rate necessary for optical sound tracks to reproduce intelligible human speech without excessive film stock consumption."
+  },
+  {
+    "type": "mcq",
+    "question": "What 1982 electronic synthesizer score composed by Greek musician Vangelis won the Academy Award for Best Original Score for a British historical running drama?",
+    "options": [
+      "Blade Runner",
+      "Chariots of Fire",
+      "Midnight Express"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vangelis modern synthesizer title track for Chariots of Fire topped the US Billboard Hot 100 and became an immortal global anthem for athletic slow-motion triumph."
+  },
+  {
+    "type": "number",
+    "question": "What is the standard universal frame rate in frames per second (fps) for cinematic motion picture film?",
+    "target": 24,
+    "metricUnit": "fps",
+    "imperialDisplay": "24 frames per second",
+    "explanation": "Since the 1920s, the standard motion picture camera and projector frame rate has been 24 frames per second."
+  }
+];
+    const totalCount = questions.length;
+    let currentIndex = 0;
+    const userAnswers = {};
+
+    // DOM Elements
+    const dispCurrQ = document.getElementById('disp-curr-q');
+    const dispScore = document.getElementById('disp-mcq-score');
+    const dispCompleted = document.getElementById('disp-completed');
+    const progressBar = document.getElementById('progress-bar');
+    const jumpGrid = document.getElementById('jump-grid');
+    const cardBadge = document.getElementById('card-badge');
+    const cardCounter = document.getElementById('card-counter');
+    const cardQuestionText = document.getElementById('card-question-text');
+    const mcqContainer = document.getElementById('mcq-options-container');
+    const numContainer = document.getElementById('number-input-container');
+    const numInput = document.getElementById('num-guess-input');
+    const unitLabel = document.getElementById('unit-label');
+    const btnCheckNum = document.getElementById('btn-check-number');
+    const numMetricsBox = document.getElementById('num-metrics-box');
+    const mTarget = document.getElementById('m-target');
+    const mGuess = document.getElementById('m-guess');
+    const mDiff = document.getElementById('m-diff');
+    const mSpan = document.getElementById('m-span');
+    const mDirBadge = document.getElementById('m-dir-badge');
+    const explanationBox = document.getElementById('explanation-box');
+    const explanationText = document.getElementById('explanation-text');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const mainQuestionCard = document.getElementById('main-question-card');
+    const summaryCard = document.getElementById('summary-card');
+    const navControls = document.getElementById('nav-controls');
+    const btnReset = document.getElementById('btn-reset-quiz');
+    const btnRestart = document.getElementById('btn-restart-quiz');
+
+    function init() {
+      createJumpGrid();
+      renderQuestion(0);
+      updateStatusBar();
+      setupEventListeners();
+    }
+
+    function createJumpGrid() {
+      jumpGrid.innerHTML = '';
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'jump-btn';
+        btn.textContent = (i + 1);
+        btn.id = 'jump-btn-' + i;
+        btn.addEventListener('click', () => {
+          showQuestionView();
+          renderQuestion(i);
+        });
+        jumpGrid.appendChild(btn);
+      }
+    }
+
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = questions[index];
+      const ans = userAnswers[index];
+
+      // Update counters
+      dispCurrQ.textContent = (index + 1) + ' / ' + totalCount;
+      cardCounter.textContent = 'Question ' + (index + 1) + ' of ' + totalCount;
+      cardQuestionText.textContent = q.question;
+
+      // Update Nav Buttons
+      btnPrev.disabled = index === 0;
+      if (index === totalCount - 1) {
+        btnNext.textContent = 'Finish & Summary';
+      } else {
+        btnNext.textContent = 'Next';
+      }
+
+      // Reset dynamic containers
+      explanationBox.style.display = 'none';
+      explanationText.textContent = '';
+
+      if (q.type === 'mcq') {
+        cardBadge.className = 'question-badge badge-mcq';
+        cardBadge.textContent = 'Multiple Choice';
+        mcqContainer.style.display = 'flex';
+        numContainer.style.display = 'none';
+        renderMCQOptions(q, ans);
+      } else {
+        cardBadge.className = 'question-badge badge-number';
+        cardBadge.textContent = 'Guess the Number';
+        mcqContainer.style.display = 'none';
+        numContainer.style.display = 'flex';
+        renderNumberQuestion(q, ans);
+      }
+
+      updateJumpGridStyles();
+      updateStatusBar();
+    }
+
+    function renderMCQOptions(q, ans) {
+      mcqContainer.innerHTML = '';
+      const letters = ['A', 'B', 'C'];
+
+      q.options.forEach((optText, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.id = 'opt-btn-' + optIdx;
+
+        const marker = document.createElement('span');
+        marker.className = 'option-marker';
+        marker.textContent = letters[optIdx];
+
+        const textSpan = document.createElement('span');
+        textSpan.textContent = optText;
+
+        btn.appendChild(marker);
+        btn.appendChild(textSpan);
+
+        if (ans !== undefined) {
+          btn.disabled = true;
+          if (optIdx === q.correctIndex) {
+            btn.classList.add('selected-correct');
+          } else if (optIdx === ans.selectedOption) {
+            btn.classList.add('selected-incorrect');
+          }
+        } else {
+          btn.addEventListener('click', () => handleMCQAnswer(optIdx));
+        }
+
+        mcqContainer.appendChild(btn);
+      });
+
+      if (ans !== undefined) {
+        showExplanation(q.explanation);
+      }
+    }
+
+    function handleMCQAnswer(selectedIdx) {
+      const q = questions[currentIndex];
+      const isCorrect = selectedIdx === q.correctIndex;
+      userAnswers[currentIndex] = {
+        selectedOption: selectedIdx,
+        isCorrect: isCorrect,
+        isChecked: true
+      };
+
+      renderMCQOptions(q, userAnswers[currentIndex]);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function renderNumberQuestion(q, ans) {
+      unitLabel.textContent = q.metricUnit || '';
+      numInput.value = '';
+      numMetricsBox.style.display = 'none';
+
+      if (ans !== undefined) {
+        numInput.value = ans.guess;
+        numInput.disabled = true;
+        btnCheckNum.disabled = true;
+        displayNumberMetrics(q, ans.guess);
+        showExplanation(q.explanation);
+      } else {
+        numInput.disabled = false;
+        btnCheckNum.disabled = false;
+      }
+    }
+
+    function handleNumberCheck() {
+      const val = parseFloat(numInput.value);
+      if (isNaN(val)) return;
+
+      const q = questions[currentIndex];
+      userAnswers[currentIndex] = {
+        guess: val,
+        isChecked: true
+      };
+
+      numInput.disabled = true;
+      btnCheckNum.disabled = true;
+      displayNumberMetrics(q, val);
+      showExplanation(q.explanation);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function displayNumberMetrics(q, guess) {
+      const target = q.target;
+      const diff = Math.abs(guess - target);
+      const spanLow = target - diff;
+      const spanHigh = target + diff;
+      const unit = q.metricUnit ? ' ' + q.metricUnit : '';
+      const imp = q.imperialDisplay ? ' [' + q.imperialDisplay + ']' : '';
+
+      mTarget.textContent = target + unit + imp;
+      mGuess.textContent = guess + unit;
+      mDiff.textContent = diff.toLocaleString() + unit;
+      mSpan.textContent = '[' + spanLow.toLocaleString() + ' to ' + spanHigh.toLocaleString() + ']';
+
+      mDirBadge.className = 'metric-direction-badge';
+      if (guess === target) {
+        mDirBadge.classList.add('dir-exact');
+        mDirBadge.textContent = 'Exact Match!';
+      } else if (guess > target) {
+        mDirBadge.classList.add('dir-high');
+        mDirBadge.textContent = 'Higher than target';
+      } else {
+        mDirBadge.classList.add('dir-low');
+        mDirBadge.textContent = 'Lower than target';
+      }
+
+      numMetricsBox.style.display = 'flex';
+    }
+
+    function showExplanation(text) {
+      if (!text) return;
+      explanationText.textContent = text;
+      explanationBox.style.display = 'block';
+    }
+
+    function updateStatusBar() {
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      dispScore.textContent = mcqCorrect + ' / ' + mcqAnswered;
+      dispCompleted.textContent = completedCount + ' / ' + totalCount;
+      const pct = (completedCount / totalCount) * 100;
+      progressBar.style.width = pct + '%';
+    }
+
+    function updateJumpGridStyles() {
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.getElementById('jump-btn-' + i);
+        if (!btn) continue;
+
+        btn.className = 'jump-btn';
+        if (i === currentIndex) {
+          btn.classList.add('state-current');
+        }
+
+        const ans = userAnswers[i];
+        if (ans && ans.isChecked) {
+          if (questions[i].type === 'mcq') {
+            if (ans.isCorrect) {
+              btn.classList.add('state-correct');
+            } else {
+              btn.classList.add('state-incorrect');
+            }
+          } else {
+            btn.classList.add('state-number-checked');
+          }
+        }
+      }
+    }
+
+    function showSummary() {
+      mainQuestionCard.style.display = 'none';
+      navControls.style.display = 'none';
+      summaryCard.style.display = 'block';
+
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      document.getElementById('sum-score').textContent = mcqCorrect + ' / ' + mcqAnswered;
+      const acc = mcqAnswered > 0 ? Math.round((mcqCorrect / mcqAnswered) * 100) : 0;
+      document.getElementById('sum-accuracy').textContent = acc + '%';
+      document.getElementById('sum-completed').textContent = completedCount + ' / ' + totalCount;
+    }
+
+    function showQuestionView() {
+      mainQuestionCard.style.display = 'block';
+      navControls.style.display = 'flex';
+      summaryCard.style.display = 'none';
+    }
+
+    function setupEventListeners() {
+      btnPrev.addEventListener('click', () => {
+        if (currentIndex > 0) renderQuestion(currentIndex - 1);
+      });
+
+      btnNext.addEventListener('click', () => {
+        if (currentIndex === totalCount - 1) {
+          showSummary();
+        } else {
+          renderQuestion(currentIndex + 1);
+        }
+      });
+
+      btnCheckNum.addEventListener('click', handleNumberCheck);
+      numInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') handleNumberCheck();
+      });
+
+      btnReset.addEventListener('click', () => {
+        if (confirm('Are you sure you want to reset all answers and return to Question 1?')) {
+          for (let k in userAnswers) delete userAnswers[k];
+          showQuestionView();
+          renderQuestion(0);
+        }
+      });
+
+      btnRestart.addEventListener('click', () => {
+        for (let k in userAnswers) delete userAnswers[k];
+        showQuestionView();
+        renderQuestion(0);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

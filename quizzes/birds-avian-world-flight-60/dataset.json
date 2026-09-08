@@ -1,0 +1,703 @@
+{
+  "id": "birds-avian-world-flight-60",
+  "theme": "The Avian World: Birds of Prey, Migration & Songbirds",
+  "title": "The Avian World: Birds of Prey, Migration & Songbirds",
+  "description": "A 60-question grand master assessment on bird flight aerodynamics, raptors, global migrations, birdsong syrinx mechanics, and living dinosaur evolution.",
+  "category": "Nature, Wildlife & Biology",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What fused collarbone in birds acts like an elastic spring during wingbeats to absorb and release aerodynamic shock?",
+      "options": [
+        "Furcula",
+        "Coracoid",
+        "Scapula"
+      ],
+      "correctIndex": 0,
+      "explanation": "The furcula or wishbone is formed by the fusion of the two clavicles, flexing and rebounding during each wing stroke to aid respiration and wing recovery.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prominent keel-like ridge on the avian sternum provides the anchor surface for powerful flight muscles?",
+      "options": [
+        "Synsacrum",
+        "Carina Keel",
+        "Pygostyle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The carina is an extension of the sternum that anchors the pectoralis major and supracoracoideus muscles which power downstrokes and upstrokes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What internal respiratory structures allow birds to maintain unidirectional airflow through their lungs for continuous oxygen uptake?",
+      "options": [
+        "Alveolar sacs",
+        "Spiracles",
+        "Air Sacs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Birds possess a system of non-vascular air sacs that pump air through rigid parabronchial lungs continuously during both inhalation and exhalation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What internal structural adaptation makes bird skeletal bones exceptionally strong yet lightweight for flight?",
+      "options": [
+        "Pneumatization with internal strut trabeculae",
+        "Solid marrow mineral density",
+        "Cartilaginous shaft fusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pneumatic bones contain hollow air spaces reinforced by crisscrossing internal struts called trabeculae, maximizing strength while minimizing flight mass.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What flight muscle elevates the wing between power strokes by pulling a tendon through the triosseal canal like a rope and pulley?",
+      "options": [
+        "Pectoralis major",
+        "Supracoracoideus",
+        "Latissimus dorsi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Located deep below the pectoralis major on the sternum, the supracoracoideus pulls its tendon upward through the shoulder joint to lift the wing.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many distinct air sacs typically make up the unidirectional respiratory system in most flying birds?",
+      "target": 9,
+      "metricUnit": "air sacs",
+      "imperialDisplay": "9 air sacs (4 paired, 1 single)",
+      "explanation": "Most flying birds have nine air sacs: one interclavicular, two cervical, two anterior thoracic, two posterior thoracic, and two abdominal air sacs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What circular feather structure on barn owls funnels faint high-frequency rustling sounds into asymmetrical ear openings?",
+      "options": [
+        "Cere ring",
+        "Nictitating membrane",
+        "Facial Disc"
+      ],
+      "correctIndex": 2,
+      "explanation": "The heart-shaped facial disc acts like a satellite dish, focusing sounds so precisely that barn owls can strike rodents in pitch blackness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What North American sea eagle is recognized by its pure white head plumage and massive yellow hooked bill?",
+      "options": [
+        "Bald Eagle",
+        "Golden Eagle",
+        "Steller Sea Eagle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Haliaeetus leucocephalus feeds primarily on fish, snatching prey from water surfaces with sharp talons covered in rough spicules.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized raptor feeds almost exclusively on live fish, possessing reversible outer toes and barbed foot pads?",
+      "options": [
+        "Red-tailed Hawk",
+        "Osprey",
+        "Cooper Hawk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pandion haliaetus can plunge feet-first beneath water surfaces, rotating its outer toe backward to grip slippery fish securely with two toes forward and two back.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tall, long-legged African bird of prey hunts snakes across open savannahs by delivering lethal stomping kicks?",
+      "options": [
+        "Martial Eagle",
+        "Bateleur",
+        "Secretarybird"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sagittarius serpentarius strikes venomous snakes with kick forces up to five times its own body weight delivered in just 15 milliseconds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal vulture species is the largest flying bird in South America, soaring over high Andean cliffs with a 3.3-meter wingspan?",
+      "options": [
+        "Andean Condor",
+        "King Vulture",
+        "Black Vulture"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vultur gryphus uses thermal updrafts to soar for hours without flapping, weighing up to 15 kg and living over 70 years.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded wingspan in meters of the Andean Condor Vultur gryphus?",
+      "target": 3.3,
+      "metricUnit": "meters",
+      "imperialDisplay": "10.8 feet (3.3 m)",
+      "explanation": "The Andean Condor has one of the largest wingspans of any flying land bird, reliably measured up to 3.3 meters (10 feet 10 inches).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which bird completes the longest annual migration on Earth, traveling between the Arctic and Antarctic and back each year?",
+      "options": [
+        "Sooty Shearwater",
+        "Arctic Tern",
+        "Red Knot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sterna paradisaea travels over 70,000 to 90,000 kilometers annually, experiencing two summers a year and more daylight than any other creature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which shorebird holds the world record for the longest non-stop migratory flight, flying over 11,000 km across the Pacific Ocean without feeding?",
+      "options": [
+        "Whimbrel",
+        "Dunlin",
+        "Bar-tailed Godwit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Limosa lapponica flies non-stop from Alaska to New Zealand over 11 days, consuming half its body weight in stored fat to fuel continuous wing flapping.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What biological sensory mechanism allows migratory birds to detect Earth magnetic field lines using cryptochrome proteins in their eyes?",
+      "options": [
+        "Magnetoreception",
+        "Thermoreception",
+        "Electroreception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Light-sensitive cryptochrome 4 proteins in avian retinas undergo quantum spin reactions that allow birds to perceive magnetic field inclination visually.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tiny hummingbird species undertakes an 800-kilometer non-stop flight directly across the Gulf of Mexico during autumn migration?",
+      "options": [
+        "Anna Hummingbird",
+        "Ruby-throated Hummingbird",
+        "Calliope Hummingbird"
+      ],
+      "correctIndex": 1,
+      "explanation": "Archilochus colubris doubles its body mass by feeding on nectar and insects before undertaking a 20-hour non-stop flight over open water.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high-flying goose species regularly migrates directly over the high peaks of the Himalayas at altitudes exceeding 7,000 meters?",
+      "options": [
+        "Snow Goose",
+        "Greylag Goose",
+        "Bar-headed Goose"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anser indicus possesses hemoglobin with exceptionally high oxygen affinity and hyper-vascularized flight muscles allowing extreme high-altitude flapping.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousand kilometers does an Arctic Tern fly during its complete annual pole-to-pole round trip?",
+      "target": 70,
+      "metricUnit": "thousand km",
+      "imperialDisplay": "43,500 miles (70,000 km)",
+      "explanation": "Geolocator tracking studies show Arctic terns average roughly 70,000 to 90,000 km per year along meandering zig-zag oceanic flight routes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and heaviest living bird species on Earth, capable of sprinting at speeds over 70 km/h?",
+      "options": [
+        "Common Ostrich",
+        "Southern Cassowary",
+        "Emu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Struthio camelus stands up to 2.8 meters tall and weighs up to 150 kg, possessing powerful two-toed legs adapted for endurance running.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rainforest ratite of New Guinea carries a dagger-like inner claw up to 12 cm long used for defensive kicks?",
+      "options": [
+        "Emu",
+        "Southern Cassowary",
+        "Kiwi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Casuarius casuarius has a keratinous helmet casque on its head and can jump 1.5 meters into the air to strike with lethal inner toe claws.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Antarctic penguin species incubates a single egg through dark sub-zero polar winter blizzards on its feet beneath a warm brood pouch?",
+      "options": [
+        "King Penguin",
+        "Adelie Penguin",
+        "Emperor Penguin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aptenodytes forsteri males fast for over 100 days while huddling in giant collective colonies to survive temperatures plunging below -40 degrees Celsius.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What nocturnal flightless bird native to New Zealand has nostrils positioned uniquely at the very tip of its long bill to sniff for earthworms?",
+      "options": [
+        "Kiwi",
+        "Kakapo",
+        "Takahe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apteryx species have highly developed olfactory bulbs and whiskers, laying eggs that account for up to 20 percent of the female total body weight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered nocturnal flightless parrot of New Zealand is the heaviest parrot species in the world?",
+      "options": [
+        "Kea",
+        "Kakapo",
+        "Kaka"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strigops habroptilus is a solitary herbivorous parrot that uses a lek breeding system where males emit booming calls from excavated earth bowls.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum sprinting speed in km/h of a Common Ostrich Struthio camelus across open terrain?",
+      "target": 70,
+      "metricUnit": "km/h",
+      "imperialDisplay": "43.5 mph (70 km/h)",
+      "explanation": "Ostriches can sprint at burst speeds of 70 km/h (43.5 mph) and sustain cruising speeds of 50 km/h for several kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized vocal organ located at the bifurcation of a bird trachea allows songbirds to produce two independent harmonic tones simultaneously?",
+      "options": [
+        "Larynx",
+        "Pharynx",
+        "Syrinx"
+      ],
+      "correctIndex": 2,
+      "explanation": "The syrinx contains dual tympaniform membranes controlled by delicate muscle pairs, enabling intricate two-voice vocal mastery in oscine songbirds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Australian songbird is famous for its astonishingly accurate mimicry of chainsaws, camera shutters, and dozens of other bird songs?",
+      "options": [
+        "Superb Lyrebird",
+        "Australian Magpie",
+        "Satin Bowerbird"
+      ],
+      "correctIndex": 0,
+      "explanation": "Menura novaehollandiae possesses one of the most acoustically versatile syrinxes in the animal kingdom, used during elaborate courtship displays on dirt mounds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What European songbird is renowned for its rich, melodic nocturnal singing performed by unpaired males on spring nights?",
+      "options": [
+        "European Robin",
+        "Common Nightingale",
+        "Song Thrush"
+      ],
+      "correctIndex": 1,
+      "explanation": "Luscinia megarhynchos produces over 200 distinct song types with extraordinary acoustic range, singing throughout the night to attract migrating females.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What avian order represents more than half of all living bird species, characterized by feet adapted with three forward toes and one backward toe for perching?",
+      "options": [
+        "Anseriformes",
+        "Columbiformes",
+        "Passeriformes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Passerines or perching birds encompass over 6,500 species, including finches, warblers, crows, sparrows, and starlings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What small parrot species holds the Guinness World Record for the largest documented vocabulary of any individual animal, knowing over 1,700 words?",
+      "options": [
+        "Budgerigar",
+        "African Grey Parrot",
+        "Cockatiel"
+      ],
+      "correctIndex": 0,
+      "explanation": "A pet budgerigar named Puck was documented with a vocabulary of 1,728 words, demonstrating exceptional mimicry and cognitive articulation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many living bird species belong to the order Passeriformes perching songbirds?",
+      "target": 6500,
+      "metricUnit": "species",
+      "imperialDisplay": "6,500 species",
+      "explanation": "With over 6,500 documented species, Passeriformes is by far the largest and most diverse biological order of birds, representing roughly 60% of all avian life.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pelagic seabird possesses the largest wingspan of any living bird, allowing dynamic soaring across southern oceans without flapping for hours?",
+      "options": [
+        "Royal Albatross",
+        "Wandering Albatross",
+        "Southern Giant Petrel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diomedea exulans has a wingspan reaching up to 3.7 meters and uses dynamic soaring through wind velocity gradients above ocean wave crests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tropical oceanic bird can remain airborne continuously for months by soaring on thermals and taking micro-sleep naps while flying?",
+      "options": [
+        "Red-billed Tropicbird",
+        "Masked Booby",
+        "Great Frigatebird"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fregata minor lacks waterproof plumage and cannot land on water, relying on dynamic soaring and mid-air naps lasting seconds at high altitudes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large seabird plunge-dives vertically into ocean waters from heights of 30 meters at speeds up to 100 km/h to catch schooling fish?",
+      "options": [
+        "Northern Gannet",
+        "Atlantic Puffin",
+        "Blue-footed Booby"
+      ],
+      "correctIndex": 0,
+      "explanation": "Morus bassanus features air sacs beneath facial skin that cushion impact, along with binocular vision and nostrils located inside the mouth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tube-nosed seabird defends its nesting burrow by regurgitating a foul-smelling, sticky orange stomach oil at intruders?",
+      "options": [
+        "Manx Shearwater",
+        "Northern Fulmar",
+        "Leach Storm Petrel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fulmarus glacialis uses nutrient-rich proventricular stomach oil as an energy store for long foraging flights and as a defensive spray that matts predator feathers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What seabird of the North Atlantic develops a brightly colored, laterally flattened bill plate during the summer breeding season?",
+      "options": [
+        "Razorbill",
+        "Black Guillemot",
+        "Atlantic Puffin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fratercula arctica can carry dozens of small sand eels crosswise in its bill at one time thanks to specialized backward-facing spines on its tongue and palate.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum verified wingspan in meters of the Wandering Albatross Diomedea exulans?",
+      "target": 3.7,
+      "metricUnit": "meters",
+      "imperialDisplay": "12.1 feet (3.7 m)",
+      "explanation": "The largest verified Wandering Albatross specimen had a wingspan of 3.7 meters (12 feet 2 inches), the longest wingspan of any living bird.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What crow species native to the South Pacific crafts stepped leaf tools and hooked twigs to extract wood-boring beetle grubs?",
+      "options": [
+        "New Caledonian Crow",
+        "Carrion Crow",
+        "American Crow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corvus moneduloides demonstrates sophisticated meta-tool use, cultural transmission of tool design, and an understanding of displacement physics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What alpine parrot native to New Zealand is known for solving multi-step mechanical puzzles and dismantling rubber car gaskets?",
+      "options": [
+        "Kaka",
+        "Kea",
+        "Kakapo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nestor notabilis is a highly inquisitive alpine omnivore with problem-solving intelligence comparable to higher primates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous African Grey parrot demonstrated advanced conceptual understanding of shapes, colors, counts, and zero in Harvard laboratory research?",
+      "options": [
+        "Einstein",
+        "Griffin",
+        "Alex"
+      ],
+      "correctIndex": 2,
+      "explanation": "Studied for 30 years by Dr. Irene Pepperberg, Alex proved that parrots possess cognitive abilities including categorization, quantification, and syntax.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain corvid can cache up to 33,000 conifer seeds across hundreds of square kilometers and accurately relocate them months later?",
+      "options": [
+        "Clark Nutcracker",
+        "Pinyon Jay",
+        "Eurasian Jay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nucifraga columbiana possesses an enlarged hippocampus providing extraordinary spatial memory crucial for finding hidden seed stores beneath deep winter snow.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What corvid bird is the first non-mammalian animal scientifically demonstrated to pass the mirror self-recognition mark test?",
+      "options": [
+        "Common Raven",
+        "Eurasian Magpie",
+        "Western Scrub-Jay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pica pica attempted to scratch colored stickers placed on its neck only when viewing its reflection in a mirror, proving self-awareness.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Up to how many thousand seeds can a single Clark Nutcracker store and remember across a single autumn season?",
+      "target": 33,
+      "metricUnit": "thousand seeds",
+      "imperialDisplay": "33,000 seeds",
+      "explanation": "A single Clark nutcracker caches between 22,000 and 33,000 seeds across thousands of separate hiding spots each autumn with over 90% retrieval accuracy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What optical phenomenon produces the metallic glittering colors on hummingbird gorgets and peacock train covert feathers?",
+      "options": [
+        "Bioluminescence",
+        "Pigmentary phosphorescence",
+        "Structural Iridescence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Microscopic guanine crystals and keratin melanin layers in feather barbules cause optical thin-film wave interference that shifts color with viewing angle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What male bird in eastern Australia constructs an elaborate avenue of sticks decorated with blue plastic, glass, and flowers to court females?",
+      "options": [
+        "Satin Bowerbird",
+        "Regent Bowerbird",
+        "Spotted Bowerbird"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ptilonorhynchus violaceus paints bower walls with chewed charcoal saliva and meticulously arranges blue ornaments matching its eye color.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dietary pigment molecules absorbed from algae and brine shrimp give flamingos their vibrant pink and crimson plumage?",
+      "options": [
+        "Melanins",
+        "Carotenoids",
+        "Porphyrins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liver enzymes break down beta-carotene and astaxanthin from food into canthaxanthin pigments that deposit directly into growing feather follicles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What endemic bird family of New Guinea features males that transform their plumage into jet-black geometric capes during courtship displays?",
+      "options": [
+        "Honeyeaters",
+        "Fairywrens",
+        "Birds of Paradise"
+      ],
+      "correctIndex": 2,
+      "explanation": "Male Vogelkop Superb Birds-of-Paradise have super-black feathers that absorb 99.95% of light, creating an intense contrast with glowing turquoise breast shields.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized oil gland near the base of a bird tail secretes waxes and antimicrobials applied to plumage during preening?",
+      "options": [
+        "Uropygial Gland",
+        "Preen bulb",
+        "Gland of Harder"
+      ],
+      "correctIndex": 0,
+      "explanation": "The uropygial or preen gland produces an oily emulsion containing aliphatic wax esters that maintain feather flexibility, waterproofing, and bacterial defense.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum wingbeat rate in flaps per second recorded in hummingbirds during hovering flight?",
+      "target": 80,
+      "metricUnit": "flaps/sec",
+      "imperialDisplay": "80 wingbeats/second",
+      "explanation": "Smaller hummingbird species, such as the Bee Hummingbird and Ruby-throated Hummingbird, flap their wings 50 to 80 times per second during hovering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous archipelago bird radiation helped Charles Darwin develop the theory of natural selection through variations in beak geometry?",
+      "options": [
+        "Galapagos Mockingbirds",
+        "Darwin Finches",
+        "Lava Gulls"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 18 species of Galapagos finches evolved distinct beak morphologies from a common ancestor to exploit seeds, insects, cactus nectar, and blood.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tropical bird possesses a massive, lightweight bill composed of keratin and sponge-like bony trabeculae used for heat dissipation?",
+      "options": [
+        "Resplendent Quetzal",
+        "Keel-billed Toucan",
+        "Toco Toucan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ramphastos toco uses its enormous bill as a thermal radiator, expanding blood vessels in the bill to shed up to 60% of excess body heat into the air.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tall African wetland bird features a massive, shoe-shaped bill with a razor-sharp nail tip capable of decapitating lungfish?",
+      "options": [
+        "Shoebill Stork",
+        "Marabou Stork",
+        "Saddle-billed Stork"
+      ],
+      "correctIndex": 0,
+      "explanation": "Balaeniceps rex stands motionless for hours in papyrus swamps before collapsing forward in a violent strike to catch armored bichirs and catfish.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What aquatic songbird walks along rocky mountain riverbeds completely submerged underwater to forage for insect larvae?",
+      "options": [
+        "Torrent Duck",
+        "White-throated Dipper",
+        "Water Pipit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cinclus cinclus uses heavy solid bones, dense downy plumage, and wing angling to fly underwater against fierce rushing river currents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized finch features crossed bill tips that allow it to pry open tightly sealed conifer cone scales to extract seeds?",
+      "options": [
+        "Hawfinch",
+        "Pine Grosbeak",
+        "Red Crossbill"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loxia curvirostra uses lateral jaw motion to wedge its crossed upper and lower mandibles into cone scales, popping them open with its tongue.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the record length in centimeters of the massive bill of the Australian Pelican Pelecanus conspicillatus?",
+      "target": 50,
+      "metricUnit": "cm",
+      "imperialDisplay": "19.7 inches (50 cm)",
+      "explanation": "The Australian Pelican holds the record for the longest bill of any living bird, with large males developing bills up to 47 to 50 centimeters in length.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Late Jurassic fossil discovered in Solnhofen limestone provided the first evidence of transitional traits between dinosaurs and birds?",
+      "options": [
+        "Archaeopteryx",
+        "Confuciusornis",
+        "Hesperornis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archaeopteryx lithographica exhibited reptilian teeth, clawed wing fingers, and a long bony tail alongside modern asymmetrical flight feathers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What taxonomic clade of bipedal carnivorous theropod dinosaurs directly includes all modern birds as living surviving members?",
+      "options": [
+        "Sauropoda",
+        "Avialae",
+        "Ornithischia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cladistically, modern birds are living avian dinosaurs within the theropod clade, having survived the Cretaceous-Paleogene extinction 66 million years ago.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What gigantic flightless ratite of New Zealand standing over 3.6 meters tall was hunted to extinction around 1445 CE by early Maori settlers?",
+      "options": [
+        "Elephant Bird",
+        "Gastornis",
+        "Moa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dinornis robustus was the tallest bird that ever lived, completely lacking any vestigial wing bones and browsing on forest sub-canopy vegetation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What flightless pigeon relative endemic to Mauritius vanished in the late 17th century following human settlement and invasive animals?",
+      "options": [
+        "Dodo",
+        "Rodrigues Solitaire",
+        "Great Auk"
+      ],
+      "correctIndex": 0,
+      "explanation": "Raphus cucullatus evolved on an isolated island without mammalian predators, leaving it flightless and vulnerable to hunting and nest predation by pigs and rats.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive extinct raptor of New Zealand was the top apex predator of giant moas before its extinction around 1400 CE?",
+      "options": [
+        "Teratorn",
+        "Haast Eagle",
+        "Titanohierax"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hieraaetus moorei weighed up to 15 kg with talons equal to tiger claws, diving at 80 km/h to crush the pelvis or neck of giant moa prey.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the estimated weight in kilograms of the colossal extinct Madagascar Elephant Bird Aepyornis maximus?",
+      "target": 730,
+      "metricUnit": "kg",
+      "imperialDisplay": "1,600 lbs (730 kg)",
+      "explanation": "Vorombe titan and Aepyornis maximus of Madagascar reached masses between 650 and 730 kilograms, making them the heaviest birds known to science.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

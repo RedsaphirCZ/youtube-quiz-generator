@@ -1,0 +1,703 @@
+{
+  "id": "china-geography-heritage-60",
+  "theme": "China: Geography, Sacred Mountains & Megacities",
+  "title": "China: Geography, Sacred Mountains & Megacities",
+  "description": "A 60-question grand master assessment exploring the Tibetan Plateau & Everest, the Yangtze & Three Gorges, the Yellow River, the Great Wall (21,196 km), Guilin & Zhangjiajie, megacities, the Taklamakan Desert, sacred mountains, and giant pandas.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What massive, high-altitude plateau in southwestern China covering 2.5 million square kilometers is called the Roof of the World and the Third Pole?",
+      "options": [
+        "Qinghai-Tibet Plateau",
+        "Yunnan-Guizhou Plateau",
+        "Loess Plateau"
+      ],
+      "correctIndex": 0,
+      "explanation": "With an average elevation exceeding 4,500 meters, the Tibetan Plateau is the world highest and largest plateau, containing the largest concentration of ice outside the polar caps.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the world, rising 8,848.86 meters on the international border between China (Tibet) and Nepal?",
+      "options": [
+        "K2",
+        "Mount Everest Mount Qomolangma",
+        "Lhotse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known in Tibetan as Qomolangma (Holy Mother), the summit represents the highest elevation on Earth, formed by the ongoing collision of the Indian and Eurasian plates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national nature reserve on the Tibetan Plateau protects the headwaters of Asia three greatest rivers: the Yangtze, Yellow, and Lancang (Mekong)?",
+      "options": [
+        "Hoh Xil Reserve",
+        "Qomolangma Reserve",
+        "Sanjiangyuan Three Rivers Source"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sanjiangyuan is China largest national park, providing crucial freshwater for nearly one billion people downstream and protecting the endangered Tibetan antelope (chiru).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the deepest and longest terrestrial canyon on Earth, carved by the Yarlung Tsangpo River as it cuts around Mount Namcha Barwa in Tibet?",
+      "options": [
+        "Yarlung Tsangpo Grand Canyon",
+        "Tiger Leaping Gorge",
+        "Three Gorges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reaching a maximum depth of 6,009 meters and stretching 504 kilometers, the Yarlung Tsangpo Grand Canyon is more than three times deeper than the US Grand Canyon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 13-story fortress-palace in Lhasa served as the winter residence of the Dalai Lamas from 1649 to 1959, perched atop Red Hill at 3,700 meters?",
+      "options": [
+        "Jokhang Temple",
+        "Potala Palace",
+        "Norbulingka"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed by the 5th Dalai Lama, the Potala Palace contains over 1,000 rooms and the gold-encrusted stupa tombs of eight past Dalai Lamas.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official joint surveyed summit elevation in meters above sea level of Mount Everest (Mount Qomolangma)?",
+      "target": 8849,
+      "metricUnit": "meters",
+      "imperialDisplay": "29,031.7 feet",
+      "explanation": "In December 2020, Chinese and Nepalese surveying authorities jointly announced the official elevation of Mount Everest as 8,848.86 meters (rounded to 8,849 m).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in Asia and third longest on Earth, flowing 6,300 kilometers from the glaciers of Tibet into the East China Sea at Shanghai?",
+      "options": [
+        "Yellow River",
+        "Pearl River",
+        "Yangtze River Chang Jiang"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yangtze (Long River) drains one-fifth of China land area, generating roughly forty percent of the country total Gross Domestic Product.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the world largest hydroelectric power station by installed electrical capacity (22,500 megawatts), built across the Yangtze in Hubei Province?",
+      "options": [
+        "Three Gorges Dam",
+        "Baihetan Dam",
+        "Xiluodu Dam"
+      ],
+      "correctIndex": 0,
+      "explanation": "The concrete gravity dam spans 2.3 kilometers across the river, creating a 660-kilometer reservoir that raised river navigation to Chongqing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What three famous scenic river gorges on the upper Yangtze stretch for 120 miles between Chongqing and Yichang?",
+      "options": [
+        "Tiger, Dragon and Phoenix Gorges",
+        "Qutang, Wu and Xiling Gorges",
+        "Guan, Ba and Emei Gorges"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Three Gorges are flanked by sheer thousand-meter limestone cliffs, celebrated in Chinese classical poetry and ink-wash landscape paintings for dynasties.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fertile, mineral-rich lowland basin in southwestern China surrounded by high mountains is nicknamed the Red Basin or Land of Abundance?",
+      "options": [
+        "Tarim Basin",
+        "Junggar Basin",
+        "Sichuan Basin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sichuan Basin is home to over one hundred million people, watered by the ancient 3rd-century BCE Dujiangyan irrigation system near Chengdu.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the busiest container seaport in the world, located at the mouth of the Yangtze River on Hangzhou Bay in eastern China?",
+      "options": [
+        "Port of Shanghai",
+        "Port of Ningbo-Zhoushan",
+        "Port of Shenzhen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shanghai Yangshan Deep-Water Port is connected to the mainland by the 32.5-kilometer Donghai Bridge, handling over forty-seven million shipping containers annually.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Yangtze River (Chang Jiang), the longest river in Asia?",
+      "target": 6300,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "3,915 miles",
+      "explanation": "The Yangtze River stretches for approximately 6,300 kilometers from the Tanggula Mountains in Qinghai to the East China Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 5,464-kilometer river is revered as the Cradle of Chinese Civilization, named for the heavy load of yellow silt it carries across northern China?",
+      "options": [
+        "Huai River",
+        "Yellow River Huang He",
+        "Hai River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Yellow River carries over 1.6 billion tons of silt annually from the Loess Plateau, giving the Yellow Sea its distinctive muddy golden coloration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 640,000-square-kilometer plateau in northern China is covered by deep windblown deposits of fine, highly fertile yellow dust (loess)?",
+      "options": [
+        "Inner Mongolian Plateau",
+        "Ordos Plateau",
+        "Loess Plateau Huangtu Gaoyuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Loess Plateau was the heartland of early Chinese agriculture, where millions of people traditionally lived in cave dwellings carved into cliffs (yaodong).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest waterfall on the Yellow River, where the river narrows dramatically into a 20-meter canyon of golden, boiling yellow rapids?",
+      "options": [
+        "Hukou Waterfall",
+        "Huangguoshu Waterfall",
+        "Detian Waterfall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hukou (Teapot Spout) Waterfall changes in height and character with seasonal river flows, famous for yellow mists depicted on the Chinese 50-yuan currency note.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient imperial capital of Shaanxi was the starting point of the Silk Road and site of the 8,000-statue Terracotta Army of Emperor Qin Shi Huang?",
+      "options": [
+        "Luoyang",
+        "Xi'an",
+        "Kaifeng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Xi'an was the capital for thirteen dynasties over a millennium, protected by the world most complete surviving ancient city wall spanning fourteen kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive northern U-shaped bend of the Yellow River loops through Inner Mongolia, enclosing the Ordos desert plateau?",
+      "options": [
+        "Hexi Corridor",
+        "Gansu Loop",
+        "Ordos Loop Great Bend"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ordos Loop was a strategic frontier boundary between Chinese agrarian civilization and nomadic steppe confederations like the Xiongnu and Mongols.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Yellow River (Huang He), the second longest river in China?",
+      "target": 5464,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "3,395 miles",
+      "explanation": "The Yellow River flows for 5,464 kilometers from the Bayan Har Mountains in Qinghai to the Bohai Sea in Shandong.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "According to official comprehensive archaeological surveys by China State Administration of Cultural Heritage, what is the total length of all Great Wall sections built across dynasties?",
+      "options": [
+        "21,196 Kilometers",
+        "6,700 Kilometers",
+        "12,500 Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "This survey encompasses walls, trenches, watchtowers, and natural defensive barriers constructed by the Qin, Han, Tang, and Ming dynasties across fifteen provinces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic, well-preserved section of the Ming Dynasty Great Wall seventy kilometers northwest of Beijing was the first section opened to tourists in 1957?",
+      "options": [
+        "Mutianyu",
+        "Badaling",
+        "Simatai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Badaling features massive stone watchtowers and crenellated battlements guarding the strategic Juyongguan Pass into the Beijing plain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fortress at the western terminus of the Ming Dynasty Great Wall in Gansu is known as the First and Greatest Pass Under Heaven?",
+      "options": [
+        "Shanhaiguan Pass",
+        "Yumenguan Pass",
+        "Jiayuguan Pass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built in 1372 along the Hexi Corridor, Jiayuguan guarded the narrow desert passage between the snow-capped Qilian Mountains and the Black Mountain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fortress at the eastern coastal terminus of the Ming Great Wall in Hebei is where the wall meets the Bohai Sea at Old Dragon Head (Laolongtou)?",
+      "options": [
+        "Shanhaiguan Pass",
+        "Jiayuguan Pass",
+        "Gubeikou"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1644, Ming general Wu Sangui opened the gates of Shanhaiguan to the invading Manchu army, leading directly to the establishment of the Qing Dynasty in Beijing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage complex of 492 rock-cut cave temples near Dunhuang on the ancient Silk Road preserves a millennium of Buddhist murals and manuscripts?",
+      "options": [
+        "Longmen Grottoes",
+        "Mogao Caves",
+        "Yungang Grottoes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered in 1900 by Daoist priest Wang Yuanlu, Cave 17 (the Library Cave) contained over 50,000 ancient manuscripts, textiles, and the 868 CE Diamond Sutra.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total official surveyed length in thousands of kilometers of all Great Wall structures built throughout Chinese history?",
+      "target": 21,
+      "metricUnit": "thousand kilometers",
+      "imperialDisplay": "13,171 miles",
+      "explanation": "Official surveys confirm the total combined length of all historical wall sections is 21,196 kilometers (rounded to 21k km).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous picturesque river in Guangxi winds eighty-three kilometers past towering cone karst limestone peaks between Guilin and Yangshuo?",
+      "options": [
+        "Yulong River",
+        "Wujiang River",
+        "Li River Li Jiang"
+      ],
+      "correctIndex": 2,
+      "explanation": "The reflection of the karst peaks in the crystal waters of the Li River is depicted on the reverse side of the Chinese 20-yuan banknote.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national forest park in Hunan Province features over 3,000 quartz-sandstone pillars that served as the visual prototype for the floating Hallelujah Mountains in Avatar?",
+      "options": [
+        "Zhangjiajie National Forest Park",
+        "Wuyi Mountains",
+        "Sanqingshan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Located in the Wulingyuan Scenic Area, the Southern Sky Column was officially renamed Avatar Hallelujah Mountain following the blockbuster film release.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the tallest outdoor glass sightseeing elevator in the world, built into the cliff face of a 326-meter sandstone precipice in Zhangjiajie?",
+      "options": [
+        "Skyview Elevator",
+        "Bailong Elevator Hundred Dragons Elevator",
+        "Hunan Cliff Lift"
+      ],
+      "correctIndex": 1,
+      "explanation": "The glass double-decker elevator ascends the vertical sandstone cliff in just sixty-six seconds, carrying up to fifty passengers per cabin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular geological stone forest in Yunnan Province covers 400 square kilometers of towering eroded limestone pillars resembling a petrified forest?",
+      "options": [
+        "Danxia Landforms",
+        "Xingyi Karst Forest",
+        "Shilin Stone Forest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed 270 million years ago from ancient seabed dissolution, Shilin is celebrated in the traditional Ashima folklore of the indigenous Yi (Sani) people.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest waterfall in China and East Asia, plunging seventy-eight meters across a limestone cliff on the Baishui River in Guizhou?",
+      "options": [
+        "Huangguoshu Waterfall",
+        "Detian Waterfall",
+        "Hukou Waterfall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Behind the rushing torrent of Huangguoshu lies the 134-meter Shuiliandong (Water Curtain Cave), allowing visitors to walk directly behind the roaring cataract.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total height in meters of the Bailong outdoor glass cliff elevator in Zhangjiajie National Forest Park?",
+      "target": 326,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,070 feet tall",
+      "explanation": "The Bailong Elevator holds the Guinness World Record for the tallest outdoor glass elevator on Earth at 326 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the national capital of the People Republic of China, centered on Tiananmen Square and the 9,999-room Forbidden City imperial palace?",
+      "options": [
+        "Shanghai",
+        "Beijing",
+        "Nanjing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beijing was the capital of the Ming and Qing dynasties and modern China, home to the Summer Palace, Temple of Heaven, and 2008/2022 Olympic venues.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ultramodern financial and commercial skyscraper district in Shanghai sits directly across the Huangpu River from the historic colonial Bund?",
+      "options": [
+        "Puxi",
+        "Xintiandi",
+        "Lujiazui Pudong"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lujiazui features iconic megatall architecture including the 632-meter Shanghai Tower (second tallest building on Earth), the Oriental Pearl Tower, and Jin Mao Tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive urban megalopolis in Guangdong Province encompassing Shenzhen, Guangzhou, Hong Kong, and Macau is the world largest continuous urban agglomeration?",
+      "options": [
+        "Guangdong-Hong Kong-Macao Greater Bay Area",
+        "Yangtze River Delta",
+        "Jing-Jin-Ji Megalopolis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Home to over eighty-six million people, the Greater Bay Area generates a regional GDP exceeding 1.9 trillion dollars, leading global high-tech and hardware manufacturing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which directly administered municipality in southwest China on the upper Yangtze is the largest municipal city in the world by administrative area and population?",
+      "options": [
+        "Chengdu",
+        "Chongqing",
+        "Wuhan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spanning 82,400 square kilometers (roughly the size of Austria) with thirty-two million residents, mountainous Chongqing is famous for spicy Sichuan hot pot.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 55-kilometer bridge-tunnel sea crossing opened in 2018 is the longest open-sea fixed link in the world, connecting Hong Kong, Zhuhai, and Macau across the Pearl River estuary?",
+      "options": [
+        "Hangzhou Bay Bridge",
+        "Jiaozhou Bay Bridge",
+        "Hong Kong-Zhuhai-Macao Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The crossing includes three cable-stayed bridges, an undersea tunnel, and four artificial islands designed to withstand magnitude 8.0 earthquakes and super typhoons.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Hong Kong-Zhuhai-Macao sea-bridge and tunnel crossing across the Pearl River estuary?",
+      "target": 55,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "34 miles",
+      "explanation": "The Hong Kong-Zhuhai-Macao Bridge spans 55 kilometers, making it the longest sea-crossing bridge-tunnel system in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What immense 337,000-square-kilometer shifting sand desert in Xinjiang is nicknamed the Sea of Death or Place of No Return?",
+      "options": [
+        "Taklamakan Desert",
+        "Gobi Desert",
+        "Badain Jaran Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surrounded by the Tian Shan, Pamir, and Kunlun mountains, the Taklamakan is traversed by the modern Tarim Desert Highway built on top of shifting barchan dunes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the lowest natural point on land in China, an endorheic salt lake in Xinjiang that sits 154 meters below sea level?",
+      "options": [
+        "Qaidam Basin",
+        "Ayding Lake Turpan Depression",
+        "Lop Nur"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Turpan Depression is one of the hottest and driest places on Earth, famous for the Flaming Mountains and subterranean Karez water channel systems.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Silk Road oasis city in western Xinjiang near the Pamir Mountains is celebrated for its historic mudbrick Old City and bustling Sunday Livestock Market?",
+      "options": [
+        "Hotan",
+        "Turpan",
+        "Kashgar Kashi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kashgar was the central junction where northern and southern branches of the Silk Road converged before caravans crossed high passes into Persia and India.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What desert in Inner Mongolia contains the tallest stationary sand dunes on Earth, rising up to 500 meters high alongside over one hundred mysterious spring-fed lakes?",
+      "options": [
+        "Badain Jaran Desert",
+        "Tengger Desert",
+        "Kumtag Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bilutu Peak in the Badain Jaran Desert rises 460 meters above its base (1,611 m elevation), often called the Mount Everest of Sand Dunes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dried-up nuclear test site basin and salt lake in southeastern Xinjiang was the former location of the mysterious wandering Lake Lop Nur and ancient Loulan Kingdom?",
+      "options": [
+        "Ebinur Lake",
+        "Lop Nur",
+        "Ulungur Lake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lop Nur is famous for its Ear of the Earth satellite appearance and the discovery of the remarkably preserved 3,800-year-old Caucasian Loulan Beauty mummy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many meters below mean sea level is Ayding Lake in the Turpan Depression, the lowest point in China?",
+      "target": 154,
+      "metricUnit": "meters below sea level",
+      "imperialDisplay": "505 feet below sea level",
+      "explanation": "Ayding Lake sits at 154 meters below sea level, the fourth lowest exposed dry land point on Earth after the Dead Sea, Lake Assal, and Sea of Galilee.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred peak in Shandong Province is revered as the Eastern Peak and foremost of the Five Great Mountains of China (Wuyue), climbed by seventy-two Chinese emperors?",
+      "options": [
+        "Mount Hua Huashan",
+        "Mount Heng",
+        "Mount Tai Taishan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Tai has 6,660 stone steps ascending to the Jade Emperor Peak, where imperial sovereigns performed the sacred Feng and Shan sacrifice rituals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sheer granite mountain in Shaanxi Province, known as the Western Peak, is famous for having one of the world most thrilling cliffside plank walks?",
+      "options": [
+        "Mount Hua Huashan",
+        "Mount Song",
+        "Mount Tai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Hua features five distinct peaks shaped like a five-petaled lotus flower, famous for Taoist monasteries and vertical chain-assisted rock stairways.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage mountain range in Anhui Province is celebrated for granite peaks, twisted Huangshan pine trees, hot springs, and a perpetual Sea of Clouds?",
+      "options": [
+        "Mount Lu Lushan",
+        "Huangshan Yellow Mountain",
+        "Mount Sanqingshan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Huangshan has inspired classic Chinese landscape painting (shan shui) for over a thousand years, featuring peaks like the Lotus Peak and Bright Summit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred Buddhist mountain in Sichuan Province is home to the 71-meter Leshan Giant Buddha carved directly out of a sandstone river cliff in the 8th century?",
+      "options": [
+        "Mount Wutai",
+        "Mount Jiuhua",
+        "Mount Emei"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Emei is the sacred seat of Bodhisattva Samantabhadra, while the nearby Leshan Buddha is the largest pre-modern carved stone Buddha in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain in Henan Province is home to the legendary Shaolin Monastery, the historical cradle of Chinese Chan (Zen) Buddhism and Shaolin Kung Fu?",
+      "options": [
+        "Mount Song",
+        "Mount Tai",
+        "Mount Wudang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded in 495 CE, the Shaolin Temple on Mount Song features the Pagoda Forest, a cemetery containing over 240 ancient stone brick stupas of Buddhist masters.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sacred Taoist mountains comprise the historic Five Great Mountains of China (Wuyue: Tai, Hua, Heng-Hunan, Heng-Shanxi, Song)?",
+      "target": 5,
+      "metricUnit": "sacred mountains",
+      "imperialDisplay": "5 Great Mountains (Wuyue)",
+      "explanation": "The Five Great Mountains of China correspond to the cardinal directions and center of traditional Chinese cosmology.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which global conservation icon and endemic Chinese mammal species inhabits the high-altitude misty bamboo forests of Sichuan, Shaanxi, and Gansu?",
+      "options": [
+        "Red Panda",
+        "Giant Panda",
+        "Sun Bear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giant pandas feed almost exclusively on bamboo, eating up to thirty-eight kilograms daily, protected in China Giant Panda National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world remaining wild giant pandas live within the protected mountain bamboo reserves of Sichuan Province?",
+      "options": [
+        "50 Percent",
+        "95 Percent",
+        "75 Percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over 1,400 wild giant pandas (roughly three-quarters of the total wild population of 1,860) live in the Minshan and Qionglai mountain ranges of Sichuan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which endangered primate species with striking golden-orange fur and blue-tinted faces lives in troops in the snowy temperate forests of the Qinling Mountains?",
+      "options": [
+        "Golden Snub-Nosed Monkey",
+        "Tibetan Macaque",
+        "White-Headed Langur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rhinopithecus roxellana survives harsh sub-zero winter temperatures by huddling together in large social family groups high in the forest canopy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What elusive big cat species, known as the Ghost of the Mountains, has sixty percent of its global wild population residing across the Tibetan Plateau in China?",
+      "options": [
+        "Clouded Leopard",
+        "Snow Leopard",
+        "Amur Leopard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sanjiangyuan and Qomolangma national parks contain vast rocky alpine habitats where snow leopards hunt blue sheep (bharal) and ibex.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered, near-extinct crocodilian species native to the lower Yangtze River basin is one of only two alligator species on Earth?",
+      "options": [
+        "Saltwater Crocodile",
+        "Gharial",
+        "Chinese Alligator"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Chinese alligator (mud dragon) grows up to two meters long, spending winter in underground burrows, heavily protected by breeding centers in Anhui.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the world wild giant panda population inhabits the mountain forests of Sichuan Province in China?",
+      "target": 75,
+      "metricUnit": "percent",
+      "imperialDisplay": "75% of wild giant pandas",
+      "explanation": "Approximately 75 percent of all wild giant pandas live across the protected bamboo reserves of Sichuan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Tying with the Russian Federation for the world record, how many sovereign countries share a direct terrestrial land border with the People Republic of China?",
+      "options": [
+        "14 Countries",
+        "10 Countries",
+        "18 Countries"
+      ],
+      "correctIndex": 0,
+      "explanation": "China borders North Korea, Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, and Vietnam.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest provincial-level administrative division in China by geographical land area, covering over 1.66 million square kilometers in the northwest?",
+      "options": [
+        "Tibet Autonomous Region",
+        "Xinjiang Uygur Autonomous Region",
+        "Inner Mongolia Autonomous Region"
+      ],
+      "correctIndex": 1,
+      "explanation": "Xinjiang accounts for one-sixth of China entire territory (larger than France, Germany, Spain, and the UK combined), bordering eight foreign nations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most populous province in China, home to over 126 million residents and the manufacturing hub of the Pearl River Delta?",
+      "options": [
+        "Shandong",
+        "Henan",
+        "Guangdong"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guangdong has been China economic powerhouse since the 1980s opening of Special Economic Zones like Shenzhen, generating over thirteen percent of China GDP.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many official direct-administered municipalities (equivalent to provinces) exist in China: Beijing, Shanghai, Tianjin, and Chongqing?",
+      "options": [
+        "4 Municipalities",
+        "2 Municipalities",
+        "6 Municipalities"
+      ],
+      "correctIndex": 0,
+      "explanation": "These four megacities report directly to the central government in Beijing, holding provincial-level administrative status.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total geographical area of China in square kilometers, ranking it as the third or fourth largest country in the world?",
+      "options": [
+        "7.5 Million Square Kilometers",
+        "9.6 Million Square Kilometers",
+        "12.0 Million Square Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "China encompasses approximately 9.6 million square kilometers, spanning five geographical time zones (though unified under single Beijing Time UTC+8).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign foreign nations share a terrestrial land border with the People Republic of China, tying the world record?",
+      "target": 14,
+      "metricUnit": "neighboring countries",
+      "imperialDisplay": "14 bordering countries",
+      "explanation": "China shares land borders with fourteen sovereign nations, spanning over 22,000 kilometers of land frontier.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

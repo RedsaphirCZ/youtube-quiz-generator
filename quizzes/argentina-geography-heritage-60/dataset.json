@@ -1,0 +1,703 @@
+{
+  "id": "argentina-geography-heritage-60",
+  "theme": "Argentina: Geography, The Andes & Patagonian Glaciers",
+  "title": "Argentina: Geography, The Andes & Patagonian Glaciers",
+  "description": "A 60-question grand master assessment exploring Mount Aconcagua, Buenos Aires & the River Plate, the Pampas & gaucho heritage, Iguazu Falls (275 cataracts), Ushuaia & Tierra del Fuego, Quebrada de Humahuaca, giant dinosaurs, and Patagonia.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in both the Western and Southern Hemispheres, rising 6,961 meters in the Argentine Andes of Mendoza?",
+      "options": [
+        "Mount Aconcagua",
+        "Mount Ojos del Salado",
+        "Mount Mercedario"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aconcagua is the highest mountain outside Asia and the second most topographically prominent peak on Earth after Mount Everest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic, jagged granite spire in Los Glaciares National Park on the border of Argentina and Chile is known in Tehuelche as Chaltén (Smoking Mountain)?",
+      "options": [
+        "Cerro Torre",
+        "Mount Fitz Roy",
+        "Mount Tronador"
+      ],
+      "correctIndex": 1,
+      "explanation": "First ascended in 1952 by French climbers Lionel Terray and Guido Magnone, Fitz Roy inspired the silhouette logo of the Patagonia clothing brand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Argentine wine-growing province at the foot of the Andes produces seventy percent of the country wine, famous for high-altitude Malbec?",
+      "options": [
+        "San Juan",
+        "La Rioja",
+        "Mendoza"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mendoza uses an ancient canal irrigation network originally engineered by the indigenous Huarpe people, fed by melting Andean snowpack.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive advancing glacier in southern Patagonia is world-famous for its dramatic 60-meter ice cliff ruptures into Lake Argentino?",
+      "options": [
+        "Perito Moreno Glacier",
+        "Upsala Glacier",
+        "Viedma Glacier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike most glaciers retreating due to global climate change, Perito Moreno remains in dynamic equilibrium, forming ice dams that periodically burst.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain resort city on the shores of glacial Lake Nahuel Huapi in Río Negro is known as the Switzerland of South America for its alpine architecture and artisanal chocolate?",
+      "options": [
+        "San Martín de los Andes",
+        "San Carlos de Bariloche",
+        "El Bolsón"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bariloche is the gateway to Nahuel Huapi National Park (Argentina oldest, created in 1934) and premier South American ski resort Cerro Catedral.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official summit elevation in meters above sea level of Mount Aconcagua, the highest point in the Americas?",
+      "target": 6961,
+      "metricUnit": "meters",
+      "imperialDisplay": "22,838 feet",
+      "explanation": "Mount Aconcagua in Mendoza Province stands at an official elevation of 6,961 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the widest river estuary in the world, measuring up to 220 kilometers across where it empties into the Atlantic Ocean between Argentina and Uruguay?",
+      "options": [
+        "Amazon Estuary",
+        "Paraná Estuary",
+        "Río de la Plata"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed by the confluence of the Paraná and Uruguay rivers, the muddy gold Río de la Plata is the maritime gateway to Buenos Aires and Montevideo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the national capital and largest metropolitan city of Argentina, famously dubbed the Paris of South America for its Belle Époque architecture?",
+      "options": [
+        "Buenos Aires",
+        "Córdoba",
+        "Rosario"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buenos Aires is an autonomous federal district containing forty-eight distinct barrios, including historic San Telmo, vibrant Palermo, and Puerto Madero.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic baby-pink executive mansion and presidential office building in Buenos Aires overlooks the historic Plaza de Mayo?",
+      "options": [
+        "Palacio Barolo",
+        "Casa Rosada Pink House",
+        "Cabildo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Legend holds the pink color originated from 19th-century whitewash mixed with oxblood, from whose balconies Eva Perón and Juan Perón addressed crowds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colorful portside neighborhood of Buenos Aires, founded by Italian immigrants from Genoa, is famous for zinc-walled conventillos and street tango on Caminito?",
+      "options": [
+        "San Telmo",
+        "Recoleta",
+        "La Boca"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Boca is home to the world-renowned Boca Juniors football club and their iconic stadium, La Bombonera (The Chocolate Box).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What aristocratic cemetery in Buenos Aires is world-renowned for ornate Art Nouveau and neo-Classical marble mausoleums, containing the tomb of Eva Perón?",
+      "options": [
+        "La Recoleta Cemetery",
+        "Chacarita Cemetery",
+        "Flores Cemetery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Declared a National Historic Monument, Recoleta holds Argentine presidents, Nobel laureates, and military heroes across sixty-four thousand square meters.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum outer width in kilometers of the Río de la Plata estuary at its mouth on the Atlantic Ocean?",
+      "target": 220,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "137 miles wide",
+      "explanation": "The Río de la Plata expands to a maximum width of approximately 220 kilometers between Punta del Este in Uruguay and Cabo San Antonio in Argentina.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast, fertile temperate grassland plain covering 750,000 square kilometers forms the agricultural and cattle-ranching heartland of Argentina?",
+      "options": [
+        "The Gran Chaco",
+        "The Pampas Las Pampas",
+        "Patagonia"
+      ],
+      "correctIndex": 1,
+      "explanation": "With nutrient-rich black prairie soils (mollisols), the Pampas produce immense annual yields of soybeans, wheat, corn, and world-renowned Argentine beef.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic nomadic horseman and folk hero of the Argentine Pampas is celebrated as a cultural symbol of rugged individualism and freedom?",
+      "options": [
+        "The Vaquero",
+        "The Huaso",
+        "The Gaucho"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gauchos are celebrated in José Hernández epic 1872 poem Martín Fierro, famous for skills with leather boleadoras, facón knives, and bombachas trousers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional South American caffeine-rich herbal infusion made from the leaves of Ilex paraguariensis is drunk through a silver straw (bombilla) from a dried gourd?",
+      "options": [
+        "Yerba Mate",
+        "Guaraná",
+        "Horchata"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mate is the national beverage and cultural ritual of Argentina, shared ceremonially in social circles where a designated cebador prepares and passes the gourd.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Argentine communal culinary barbecue feast involves slow-roasting beef ribs, chorizo, and morcilla over glowing charcoal or wood embers?",
+      "options": [
+        "Churrasco",
+        "Asado",
+        "Parrillada"
+      ],
+      "correctIndex": 1,
+      "explanation": "The asador (barbecue master) cooks cuts like tira de asado, vacío, and bife de chorizo over iron grills, traditionally served with herbaceous chimichurri sauce.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What extensive semi-arid alluvial lowland forest in northern Argentina, shared with Paraguay and Bolivia, is South America second largest forest biome after the Amazon?",
+      "options": [
+        "The Pantanal",
+        "The Cerrado",
+        "The Gran Chaco"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gran Chaco is dominated by dense hardwood quebracho trees (ax-breakers), providing high-tannin timber and habitat for giant anteaters and armadillos.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total surface area in thousands of square kilometers of the Argentine Pampas grassland plain?",
+      "target": 750,
+      "metricUnit": "thousand square kilometers",
+      "imperialDisplay": "290,000 square miles",
+      "explanation": "The Argentine Pampas cover approximately 750,000 square kilometers, spanning Buenos Aires, La Pampa, Santa Fe, Entre Ríos, and Córdoba provinces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal semi-circular waterfall system on the border of Argentina and Brazil features 275 individual cataracts spanning 2.7 kilometers?",
+      "options": [
+        "Iguazu Falls",
+        "Angel Falls",
+        "Victoria Falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surrounded by lush subtropical Atlantic Rainforest, Iguazu Falls drops up to eighty-two meters, carrying more water volume during flood than Niagara.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and most spectacular 82-meter U-shaped chasm at Iguazu Falls, carrying roughly half of the entire river flow into a roaring mist basin?",
+      "options": [
+        "San Martín Cataract",
+        "Devil's Throat",
+        "Bossetti Fall"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 1.1-kilometer walkway across the Iguazu River leads directly to the observation platform on the brink of the Garganta del Diablo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What red-soil northeastern province of Argentina borders Brazil and Paraguay, named after the 17th-century autonomous Jesuit missionary settlements?",
+      "options": [
+        "Corrientes",
+        "Formosa",
+        "Misiones Province"
+      ],
+      "correctIndex": 2,
+      "explanation": "Misiones contains the UNESCO-listed ruins of San Ignacio Miní, built in 1632 to protect indigenous Guaraní converts from Brazilian slave raiders (bandeirantes).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive bird species, famous for nest-building inside waterfall rock crevices behind the thundering water curtains of Iguazu, is the park emblem?",
+      "options": [
+        "Great Dusky Swift",
+        "Toco Toucan",
+        "Harpy Eagle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flocks of thousands of Great Dusky Swifts (Cypseloides senex) dive directly through the rushing water curtain to roost safely on the wet vertical basalt cliffs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast 12,000-square-kilometer subtropical freshwater wetland marsh in Corrientes Province is the second largest wetland on Earth after the Pantanal?",
+      "options": [
+        "Bañado la Estrella",
+        "Iberá Wetlands",
+        "Jaaukanigás"
+      ],
+      "correctIndex": 1,
+      "explanation": "Esteros del Iberá contains floating vegetation islands (embalsados), harboring marsh deer, capybaras, yacare caimans, and reintroduced giant otters and jaguars.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many distinct individual waterfall cataracts make up the Iguazu Falls system across the Argentine and Brazilian border?",
+      "target": 275,
+      "metricUnit": "cataracts",
+      "imperialDisplay": "275 separate waterfalls",
+      "explanation": "Iguazu Falls consists of approximately 275 individual cataracts along a 2.7-kilometer crescent brink, with roughly 80% located on the Argentine side.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What windswept city in Tierra del Fuego on the shore of the Beagle Channel is internationally recognized as the Southernmost City in the World (El Fin del Mundo)?",
+      "options": [
+        "Punta Arenas",
+        "Río Gallegos",
+        "Ushuaia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ushuaia is the primary global maritime departure port for expedition cruises to Antarctica, framed by the Martial Glacier and Mount Olivia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 570-kilometer natural navigable sea passage discovered in 1520 cuts between mainland South America and the Tierra del Fuego archipelago?",
+      "options": [
+        "Strait of Magellan",
+        "Drake Passage",
+        "Beagle Channel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portuguese explorer Ferdinand Magellan navigated the stormy passage during the first global circumnavigation, naming the Pacific Ocean for its calm waters upon exit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage archaeological cave site in Santa Cruz preserves thousands of stenciled human handprints painted by indigenous hunter-gatherers 9,000 years ago?",
+      "options": [
+        "Los Toldos",
+        "Cueva de las Manos",
+        "Piedra Museo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Located in the Pinturas River canyon, hunter-gatherers used bone blowout pipes with mineral pigments to create layered stencils of hands, guanacos, and hunting scenes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What protected peninsula in Chubut is world-renowned for coastal nursery breeding grounds of Southern Right Whales and beach-hunting orcas?",
+      "options": [
+        "Punta Tombo",
+        "Cabo Dos Bahías",
+        "Valdés Peninsula"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valdés Peninsula features unique predatory behavior where transient killer whales intentionally beach themselves on pebbled shallows to capture sea lion pups.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest national highway in Argentina, spanning 5,194 kilometers parallel to the Andes mountains from La Quiaca on the Bolivian border to Cabo Vírgenes?",
+      "options": [
+        "National Route 40 Ruta 40",
+        "National Route 3",
+        "National Route 7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ruta 40 crosses eleven provinces, twenty national parks, twenty-seven high mountain passes, and eighteen major rivers, reaching 5,000 meters at Abra del Acay.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what historic year did Portuguese navigator Ferdinand Magellan discover and navigate the Strait of Magellan across southern South America?",
+      "target": 1520,
+      "metricUnit": "year",
+      "imperialDisplay": "1520 AD",
+      "explanation": "Magellan entered the Atlantic mouth of the strait on October 21, 1520, exiting into the Pacific Ocean on November 28, 1520.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage 155-kilometer mountain canyon in Jujuy Province follows the Rio Grande, celebrated for indigenous Quechua culture and colorful mineral strata?",
+      "options": [
+        "Quebrada de las Conchas",
+        "Quebrada de Humahuaca",
+        "Quebrada de las Flechas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humahuaca has served as a major Andean trade corridor for 10,000 years, connecting the high altiplano with the fertile valleys of northwest Argentina.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which picturesque mountain village in the Quebrada de Humahuaca is famed for the Hill of Seven Colors (Cerro de los Siete Colores), displaying vivid geological bands?",
+      "options": [
+        "Tilcara",
+        "Humahuaca",
+        "Purmamarca"
+      ],
+      "correctIndex": 2,
+      "explanation": "The seven distinct color bands were formed over 600 million years by sea, lake, and river sedimentations containing copper, manganese, iron, and clay oxides.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 212-square-kilometer white salt flat sitting at 3,450 meters elevation in Jujuy and Salta is one of the largest salt deserts in Argentina?",
+      "options": [
+        "Salinas Grandes",
+        "Salar de Arizaro",
+        "Salar de Pocitos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Local salt miners dig turquoise rectangular extraction pools where pure mineral sodium chloride crusts are cut into blocks and artisanal salt handicrafts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous tourist heritage railway in Salta climbs into the Andes, crossing the dramatic 63-meter-high curved steel La Polvorilla Viaduct at 4,220 meters altitude?",
+      "options": [
+        "Old Patagonian Express",
+        "Tren a las Nubes Train to the Clouds",
+        "Tren del Fin del Mundo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engineered by American civil engineer Richard Maury without cogwheels or racks, the railway uses zigzags and loops to climb into the high Puna plateau.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-altitude wine valley in Salta, located at 1,700 to 3,000 meters elevation around Cafayate, is famous for crisp, floral Torrontés white wine?",
+      "options": [
+        "Uco Valley",
+        "Pedernal Valley",
+        "Calchaquí Valleys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Extreme diurnal temperature swings and intense ultraviolet sunlight create thick grape skins, producing highly aromatic and fruity Torrontés Riojano wines.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the altitude in meters above sea level of the La Polvorilla steel railway viaduct on the Tren a las Nubes in Salta?",
+      "target": 4220,
+      "metricUnit": "meters",
+      "imperialDisplay": "13,845 feet altitude",
+      "explanation": "La Polvorilla viaduct sits at 4,220 meters above sea level, one of the highest railway crossings in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal titanosaurian sauropod dinosaur discovered in Neuquén Province in 1987 is estimated at 35 to 40 meters in length and over seventy tons in weight?",
+      "options": [
+        "Argentinosaurus huinculensis",
+        "Patagotitan mayorum",
+        "Giganotosaurus"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single fossilized vertebra of Argentinosaurus measures over 1.5 meters tall, representing one of the largest land animals ever to walk on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 37-meter titanosaur dinosaur skeleton discovered in Chubut in 2014 was described as the most complete giant sauropod ever unearthed?",
+      "options": [
+        "Dreadnoughtus",
+        "Patagotitan mayorum",
+        "Saltasaurus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered by a farmhand in the Patagonian desert, Patagotitan cast is now displayed at the American Museum of Natural History and MEF in Trelew.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which giant carnivorous theropod dinosaur discovered in the Candeleros Formation of Patagonia was even larger than Tyrannosaurus rex, measuring thirteen meters long?",
+      "options": [
+        "Carnotaurus",
+        "Mapusaurus",
+        "Giganotosaurus carolinii"
+      ],
+      "correctIndex": 2,
+      "explanation": "Giganotosaurus possessed an eight-ton body, a 1.6-meter skull with serrated dagger teeth, and hunted giant titanosaurs in the Cretaceous floodplains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage desert park in San Juan Province, nicknamed the Valley of the Moon (Valle de la Luna), preserves a complete record of the Triassic Period?",
+      "options": [
+        "Ischigualasto Provincial Park",
+        "Talampaya National Park",
+        "Sierra de las Quijadas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ischigualasto contains the world earliest known dinosaur fossils (Herrerasaurus and Eoraptor, 230 Ma) alongside bizarre eroded rock formations like The Submarine.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous horned predatory theropod dinosaur discovered in Chubut possessed prominent bull-like horns above its eyes and extremely reduced vestigial forelimbs?",
+      "options": [
+        "Abelisaurus",
+        "Carnotaurus sastrei",
+        "Megaraptor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Meaning 'meat-eating bull', Carnotaurus is known from a single remarkably complete skeleton that preserved extensive fossilized skin impressions showing pebbled scales.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the estimated maximum total body length in meters of the colossal Argentine sauropod dinosaur Argentinosaurus?",
+      "target": 35,
+      "metricUnit": "meters",
+      "imperialDisplay": "115 feet long",
+      "explanation": "Paleontological reconstructions estimate Argentinosaurus measured approximately 35 to 40 meters from head to tail.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest national park in Argentina, established in 1934 surrounding a 530-square-kilometer glacial lake in northern Patagonia?",
+      "options": [
+        "Los Glaciares National Park",
+        "Lanín National Park",
+        "Nahuel Huapi National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Originally founded on land donated in 1903 by explorer Francisco Pascasio Moreno (Perito Moreno), the park preserves temperate Valdivian rainforests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic conical snow-capped volcano on the border of Neuquén Province and Chile rises 3,776 meters in Lanín National Park, sacred to the Mapuche people?",
+      "options": [
+        "Lanín Volcano",
+        "Mount Tronador",
+        "Domuyo Volcano"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lanín is an extinct or dormant stratovolcano surrounded by forests of prehistoric Monkey Puzzle trees (Araucaria araucana).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest lake in Argentina, covering 1,466 square kilometers in Santa Cruz Province, fed by the meltwater of Los Glaciares National Park?",
+      "options": [
+        "Lake Viedma",
+        "Lake Argentino",
+        "Lake Buenos Aires"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Argentino has an average depth of 150 meters and reaches a maximum depth of 500 meters, famous for floating turquoise icebergs calved from Perito Moreno.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique, slow-growing conifer tree with reddish-orange bark, native to the temperate rainforests of Arrayanes National Park near Villa La Angostura, forms pure forest stands?",
+      "options": [
+        "Alerce Fitzroya",
+        "Coihue",
+        "Arrayán Luma apiculata"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bosque de Arrayanes on the Quetrihué Peninsula is one of the few pure arrayán forests on Earth, with 300-year-old trees displaying distinctive cinnamon-colored trunks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive glacial lake shared between Santa Cruz in Argentina and Aysén in Chile is the second largest lake in South America after Lake Titicaca?",
+      "options": [
+        "Lake Buenos Aires",
+        "Lake San Martín",
+        "Lake Fagnano"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering 1,850 square kilometers, the lake drains into the Pacific Ocean via the Baker River and is famous for the sculpted Marble Caves (Capillas de Mármol).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Nahuel Huapi National Park officially created as Argentina first national park?",
+      "target": 1934,
+      "metricUnit": "year",
+      "imperialDisplay": "1934 AD",
+      "explanation": "Nahuel Huapi was formally established under National Law 12,103 on October 9, 1934, pioneering South American national park conservation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal nature reserve in Chubut Province hosts the largest continental nesting colony of Magellanic penguins on Earth, exceeding 500,000 birds?",
+      "options": [
+        "Cabo Dos Bahías",
+        "Punta Tombo",
+        "Monte León"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magellanic penguins arrive each September to mate and lay eggs in sandy burrows, protected along a three-kilometer coastal gravel spit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major coastal resort city on the Atlantic coast of Buenos Aires Province is Argentina premier summer beach vacation destination?",
+      "options": [
+        "Pinamar",
+        "Villa Gesell",
+        "Mar del Plata"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as La Ciudad Feliz (The Happy City), Mar del Plata is famous for its massive Central Casino, iconic sea lion bronze statues, and seafood port.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive cold marine ocean current flows northward along the Argentine continental shelf, bringing nutrient-rich Antarctic waters that feed vast squid and hake fisheries?",
+      "options": [
+        "Malvinas Current",
+        "Brazil Current",
+        "Humboldt Current"
+      ],
+      "correctIndex": 0,
+      "explanation": "The convergence of the cold Malvinas Current and the warm Brazil Current creates one of the most productive marine biodiversity mixing zones on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What semi-aquatic rodent species, the largest living rodent on Earth, weighing up to sixty-five kilograms, lives in family groups across Argentine riverbanks?",
+      "options": [
+        "Nutria Coypu",
+        "Capybara Carpincho",
+        "Mara Patagonian Hare"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capybaras (Hydrochoerus hydrochaeris) are widespread in the Esteros del Iberá, feeding on aquatic plants and swimming with webbed feet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which unique, long-legged rodent species endemic to the arid open brushlands of Patagonia resembles a small deer or hare, monogamous for life?",
+      "options": [
+        "Chinchilla",
+        "Vizcacha",
+        "Patagonian Mara"
+      ],
+      "correctIndex": 2,
+      "explanation": "Patagonian maras live in communal underground dens (warrens) where several pairs nurse their young together, capable of running up to 45 km/h.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate population in thousands of Magellanic penguins that congregate to nest annually at Punta Tombo in Chubut?",
+      "target": 500,
+      "metricUnit": "thousand penguins",
+      "imperialDisplay": "500,000 Magellanic penguins",
+      "explanation": "Punta Tombo hosts over 500,000 nesting Magellanic penguins (Spheniscus magellanicus) during the peak breeding season between September and April.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level federal provinces (plus the Autonomous City of Buenos Aires) is the Argentine Republic administratively divided?",
+      "options": [
+        "23 Provinces and 1 Autonomous City",
+        "20 Provinces and 1 Federal District",
+        "25 Provinces and 2 Autonomous Cities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Argentina is a federal republic comprising twenty-three provinces (from Jujuy in the north to Tierra del Fuego in the south) and the capital city CABA.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ranking does the Argentine Republic hold among the largest sovereign countries in the world by geographical land area (2.78 million sq km)?",
+      "options": [
+        "Fifth Largest Country",
+        "Eighth Largest Country",
+        "Twelfth Largest Country"
+      ],
+      "correctIndex": 1,
+      "explanation": "Argentina is the second largest country in South America (after Brazil) and the eighth largest in the world, spanning thirty-three degrees of latitude.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the lowest natural point on land in both South America and the entire Western and Southern Hemispheres, a salt endorheic depression sitting 105 meters below sea level?",
+      "options": [
+        "Valdés Salt Pan",
+        "Salina Grande de Hidalgo",
+        "Laguna del Carbón"
+      ],
+      "correctIndex": 2,
+      "explanation": "Located in the Gran Bajo de San Julián in Santa Cruz Province, Laguna del Carbón is the seventh lowest point on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest province in Argentina by geographical land area and population, home to nearly forty percent of the country total population?",
+      "options": [
+        "Buenos Aires Province",
+        "Córdoba Province",
+        "Santa Fe Province"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buenos Aires Province covers 307,571 square kilometers (excluding the autonomous federal capital city), with its provincial capital at La Plata.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast southern region of Argentina and Chile, south of the Colorado River, derives its name from Ferdinand Magellan describing indigenous Tehuelche giants (Patagones)?",
+      "options": [
+        "The Pampas",
+        "Patagonia",
+        "Cuyo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magellan encountered tall Tehuelche hunters wearing guanaco-fur moccasins, naming them Patagones (big feet), which gave the legendary southern territory its name.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many meters below mean sea level is Laguna del Carbón in Santa Cruz, the lowest point in South America and the Western Hemisphere?",
+      "target": 105,
+      "metricUnit": "meters below sea level",
+      "imperialDisplay": "344 feet below sea level",
+      "explanation": "Laguna del Carbón in the San Julián Great Depression of Santa Cruz Province sits at exactly 105 meters below sea level.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

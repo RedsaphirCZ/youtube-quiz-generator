@@ -1,0 +1,641 @@
+{
+  "id": "byzantine-empire-constantinople-60",
+  "theme": "The Byzantine Empire: Constantinople & Eastern Rome",
+  "title": "The Byzantine Empire: Constantinople & Eastern Rome",
+  "description": "A 60-question grand master assessment on Hagia Sophia, Greek Fire, Justinian Code, Empress Theodora, Theodosian Walls, and 1453.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which Roman emperor founded Constantinople in 330 CE as the new capital of the Roman Empire?",
+      "options": [
+        "Constantine the Great",
+        "Justinian I",
+        "Diocletian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constantine established Nova Roma on the site of ancient Byzantium, soon renamed Constantinople in his honor."
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental cathedral with a colossal dome was built in Constantinople under Emperor Justinian I in 537 CE?",
+      "options": [
+        "St. Mark Basilica",
+        "Hagia Sophia",
+        "Pantheon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hagia Sophia (Holy Wisdom) was designed by architects Isidore of Miletus and Anthemius of Tralles and remained the world largest cathedral for nearly a millennium."
+    },
+    {
+      "type": "mcq",
+      "question": "What deadly incendiary naval weapon, able to burn on water, defended Constantinople from maritime sieges?",
+      "options": [
+        "Gunpowder",
+        "Pitch oil",
+        "Greek Fire"
+      ],
+      "correctIndex": 2,
+      "explanation": "Greek Fire was a secret petroleum-based incendiary formula pressurized through siphons that ignited spontaneously on seawater."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine legal masterpiece codified centuries of Roman civil jurisprudence between 529 and 534 CE?",
+      "options": [
+        "Corpus Juris Civilis",
+        "Code of Hammurabi",
+        "Twelve Tables"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Corpus Juris Civilis, compiled under Justinian direction by jurist Tribonian, formed the basis of modern European civil law."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the influential Byzantine empress and wife of Justinian I who famously halted the Nika Riots?",
+      "options": [
+        "Empress Irene",
+        "Empress Theodora",
+        "Empress Zoe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theodora famously declared that the imperial purple makes a fine burial shroud, convincing Justinian to stand firm during the 532 CE revolt."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the grand cathedral of Hagia Sophia officially inaugurated in Constantinople?",
+      "target": 537,
+      "metricUnit": "CE",
+      "imperialDisplay": "537 CE",
+      "explanation": "Hagia Sophia was consecrated on December 27, 537 CE after just under six years of intensive construction."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive triple-layered defensive walls protected Constantinople from landward assaults for over a millennium?",
+      "options": [
+        "Aurelian Walls",
+        "Servian Walls",
+        "Theodosian Walls"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Theodosian Walls, built under Emperor Theodosius II in the 5th century, resisted numerous sieges by Avars, Persians, and Arabs."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine emperor earned the moniker Bulgar Slayer after his victorious Balkan military campaigns in 1014 CE?",
+      "options": [
+        "Basil II",
+        "Heraclius",
+        "Leo III"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basil II reigned during the Byzantine golden age, expanding the empire from southern Italy to the Caucasus and defeating the Bulgarian kingdom."
+    },
+    {
+      "type": "mcq",
+      "question": "What tragic historic event in 1204 CE saw Western crusaders divert from the Holy Land to sack Constantinople?",
+      "options": [
+        "First Crusade",
+        "Fourth Crusade",
+        "Seventh Crusade"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Fourth Crusade assaulted Christian Constantinople in 1204, establishing the short-lived Latin Empire and fracturing Byzantine power."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the primary language of administration, literature, and culture in the Byzantine Empire from the 7th century onward?",
+      "options": [
+        "Latin",
+        "Aramaic",
+        "Greek"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under Emperor Heraclius in the 620s CE, medieval Greek replaced Latin as the official imperial language."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic golden coin served as the reliable international currency of the Mediterranean world for centuries?",
+      "options": [
+        "Solidus",
+        "Denarius",
+        "Ducat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gold Solidus (or Nomisma) maintained strict purity for over 700 years, nicknamed the dollar of the Middle Ages."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Ottoman forces under Sultan Mehmed II conquer Constantinople, ending the Byzantine Empire?",
+      "target": 1453,
+      "metricUnit": "CE",
+      "imperialDisplay": "1453 CE",
+      "explanation": "Constantinople fell on May 29, 1453, marking the conclusion of over 1,100 years of the Eastern Roman Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "What chariot racing stadium and civic hub in Constantinople could hold over 60,000 cheering spectators?",
+      "options": [
+        "Circus Maximus",
+        "Hippodrome of Constantinople",
+        "Colosseum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Hippodrome was the social center of Constantinople where rival political factions known as the Blues and Greens competed."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine emperor recovered the True Cross from the Sassanid Persian Empire in 628 CE after a grueling war?",
+      "options": [
+        "Justinian II",
+        "Alexios I Komnenos",
+        "Heraclius"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heraclius executed daring deep offensive campaigns into Persia, reclaiming Jerusalem and holy relics."
+    },
+    {
+      "type": "mcq",
+      "question": "What theological dispute over religious imagery divided the Byzantine Empire and church throughout the 8th and 9th centuries?",
+      "options": [
+        "Iconoclasm",
+        "Arianism",
+        "Nestorianism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iconoclasm involved state-sponsored destruction of religious icons and paintings initiated by Emperor Leo III in 726 CE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine princess wrote the Alexiad, a detailed 15-volume historical account of her father reign and the First Crusade?",
+      "options": [
+        "Eudokia",
+        "Anna Komnene",
+        "Kassiani"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anna Komnene is widely celebrated as one of the very first female historians of the Western and medieval world."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous subterranean water reservoir supported by 336 marble columns was built beneath Constantinople under Justinian?",
+      "options": [
+        "Cistern of Theodosius",
+        "Aqueduct of Valens",
+        "Basilica Cistern"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Basilica Cistern (Yerebatan Sarayi) could store over 80,000 cubic meters of fresh water delivered via aqueducts."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many marble columns support the vaulted ceiling of the Basilica Cistern in Constantinople?",
+      "target": 336,
+      "metricUnit": "columns",
+      "imperialDisplay": "336 columns",
+      "explanation": "The Basilica Cistern features 336 carved marble columns arranged in 12 rows of 28 columns each."
+    },
+    {
+      "type": "mcq",
+      "question": "Which brilliant Byzantine general reconquered North Africa from the Vandals and Italy from the Ostrogoths for Justinian?",
+      "options": [
+        "Belisarius",
+        "Narses",
+        "Aetius"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flavius Belisarius was one of history greatest tactical generals, executing campaigns with minimal troop losses."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive chain was drawn across the water to protect Constantinople harbor from enemy fleets during sieges?",
+      "options": [
+        "Bosphorus Chain",
+        "Golden Horn Boom Chain",
+        "Dardanelles Barrier"
+      ],
+      "correctIndex": 1,
+      "explanation": "A heavy iron chain supported by wooden floats was stretched across the Golden Horn from Constantinople to Galata."
+    },
+    {
+      "type": "mcq",
+      "question": "What formal religious schism in 1054 CE permanently split the Christian Church into Roman Catholic and Eastern Orthodox branches?",
+      "options": [
+        "Council of Nicaea",
+        "Diet of Worms",
+        "The Great East-West Schism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mutual excommunications between Cardinal Humbert and Patriarch Michael Keroularios in 1054 finalized the Great Schism."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ruling dynasty founded by Michael VIII Palaiologos ruled Byzantium from 1261 until its final fall in 1453?",
+      "options": [
+        "Palaiologos Dynasty",
+        "Macedonian Dynasty",
+        "Komnenos Dynasty"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Palaiologan Dynasty was the longest-ruling and final imperial dynasty of the Byzantine Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "What Byzantine silk industry secret was smuggled from China by Christian monks during Justinian reign?",
+      "options": [
+        "Mulberry seeds",
+        "Live silkworms in bamboo rods",
+        "Silk weaving looms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smuggled silkworm eggs hidden in hollow walking canes established a lucrative Byzantine imperial monopoly on silk production."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Great Schism formally separate Eastern Orthodox Christianity from the Roman Catholic Church?",
+      "target": 1054,
+      "metricUnit": "CE",
+      "imperialDisplay": "1054 CE",
+      "explanation": "The Great East-West Schism occurred in July 1054 CE at Hagia Sophia in Constantinople."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous purple stone quarried in Egypt was reserved exclusively for imperial Byzantine births and tombs?",
+      "options": [
+        "Lapis lazuli",
+        "Obsidian",
+        "Porphyry"
+      ],
+      "correctIndex": 2,
+      "explanation": "Children born to reigning emperors in the purple porphyry-lined chamber were called Porphyrogennetos (Born in the Purple)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine emperor appealed to Pope Urban II in 1095 for Western military assistance against Seljuk Turks, sparking the First Crusade?",
+      "options": [
+        "Alexios I Komnenos",
+        "Manuel I Komnenos",
+        "John II Komnenos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Emperor Alexios I Komnenos sent envoys to the Council of Piacenza, leading to the mobilization of the First Crusade."
+    },
+    {
+      "type": "mcq",
+      "question": "What administrative and military system divided the Byzantine Empire into regional military districts commanded by generals?",
+      "options": [
+        "Feudal Manor System",
+        "Theme System",
+        "Satrap System"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Theme system granted hereditary plots of farmland to citizen-soldiers in exchange for regional military defense."
+    },
+    {
+      "type": "mcq",
+      "question": "Which last reigning Byzantine emperor died heroically in battle during the final Ottoman assault on the walls of Constantinople?",
+      "options": [
+        "John VIII Palaiologos",
+        "Manuel II Palaiologos",
+        "Constantine XI Palaiologos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Constantine XI tore off his imperial insignia and led a final charge into the breaches near the Gate of Saint Romanus."
+    },
+    {
+      "type": "mcq",
+      "question": "What natural body of water separates the European side of Constantinople from the Asian coastline of Anatolia?",
+      "options": [
+        "Bosphorus Strait",
+        "Gulf of Corinth",
+        "Sea of Crete"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bosphorus Strait connects the Black Sea to the Sea of Marmara, providing Constantinople with unmatched maritime control."
+    },
+    {
+      "type": "number",
+      "question": "How many total days did the historic final Ottoman siege of Constantinople last in the spring of 1453?",
+      "target": 53,
+      "metricUnit": "days",
+      "imperialDisplay": "53 days",
+      "explanation": "The Ottoman siege began on April 6, 1453, and concluded with the breach of the city on May 29, lasting 53 days."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine missionary brothers invented the Glagolitic script and translated scripture for Slavic peoples in the 9th century?",
+      "options": [
+        "Peter and Paul",
+        "Cyril and Methodius",
+        "Cosmas and Damian"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saints Cyril and Methodius created the writing system that evolved into the modern Cyrillic alphabet used across Eastern Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "What grand palace complex served as the primary residence of Byzantine emperors from Constantine until the 11th century?",
+      "options": [
+        "Topkapi Palace",
+        "Palace of Blachernae",
+        "Great Palace of Constantinople"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Palace of Constantinople was a sprawling complex of reception halls, gardens, and churches adjacent to the Hippodrome."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous artistic medium featuring colored glass and gold leaf tesserae adorned Byzantine church walls and apses?",
+      "options": [
+        "Glass mosaics",
+        "Oil on canvas",
+        "Fresco"
+      ],
+      "correctIndex": 0,
+      "explanation": "Byzantine masters angled glittering gold glass tesserae to capture flickering candlelight, creating breathtaking divine atmospheres."
+    },
+    {
+      "type": "mcq",
+      "question": "Which medieval Italian maritime republic dominated Byzantine commercial trade concessions after receiving the Golden Bull in 1082?",
+      "options": [
+        "Republic of Genoa",
+        "Republic of Venice",
+        "Republic of Pisa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venetian merchants gained duty-free trading rights across Byzantine ports in exchange for naval defense against Norman invaders."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient city fortified on the Peloponnese peninsula served as the final cultural capital of the Byzantine Despotate of the Morea?",
+      "options": [
+        "Corinth",
+        "Sparta",
+        "Mistras"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mistras was a vibrant center of late Byzantine art and Neo-Platonic philosophy under scholars like Gemistos Plethon."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Fourth Crusade violently conquer and plunder the city of Constantinople?",
+      "target": 1204,
+      "metricUnit": "CE",
+      "imperialDisplay": "1204 CE",
+      "explanation": "Crusaders breached Constantinople seaward walls on April 12, 1204, carrying off irreplaceable classical and Christian relics."
+    },
+    {
+      "type": "mcq",
+      "question": "What defensive military horn trumpet signal was used by Byzantine infantry to coordinate disciplined phalanx maneuvers?",
+      "options": [
+        "Salpinx",
+        "Cornu",
+        "Bukkehorn"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Strategikon of Maurice detailed Byzantine tactical doctrines, battlefield signals, and combined-arms military manuals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine emperor composed the De Administrando Imperio, a confidential geopolitical manual for his son?",
+      "options": [
+        "Leo VI the Wise",
+        "Constantine VII Porphyrogenitus",
+        "Romanos I Lekapenos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constantine VII compiled state secrets and diplomatic strategies for dealing with Pechenegs, Magyars, Rus, and Arabs."
+    },
+    {
+      "type": "mcq",
+      "question": "What great military manual written around 600 CE is attributed to Emperor Maurice, outlining cavalry tactics and siege defense?",
+      "options": [
+        "De Re Militari",
+        "Taktika",
+        "Strategikon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Strategikon is one of the earliest military treatises to describe stirrup-equipped cavalry and defensive combined arms."
+    },
+    {
+      "type": "mcq",
+      "question": "What catastrophic civic riot in 532 CE burned half of Constantinople and nearly toppled Justinian throne?",
+      "options": [
+        "Nika Riots",
+        "The Decian Uprising",
+        "The Zelot Revolt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Nika Riots erupted over tax grievances and faction rivalry at the Hippodrome, resulting in an estimated 30,000 casualties."
+    },
+    {
+      "type": "mcq",
+      "question": "What precious ancient bronze horses originally atop the Hippodrome were looted during the Fourth Crusade and placed on St. Mark in Venice?",
+      "options": [
+        "Trojan Steeds",
+        "Horses of San Marco",
+        "Quadriga of Apollo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The four gilded bronze horses of the Quadriga were installed on the facade of Saint Mark Basilica in Venice in 1254."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many casualties resulted when General Belisarius suppressed the Nika Riots in the Hippodrome in 532 CE?",
+      "target": 30000,
+      "metricUnit": "people",
+      "imperialDisplay": "30,000 casualties",
+      "explanation": "Imperial troops trapped the rioters inside the Hippodrome, killing roughly 30,000 participants and securing Justinian rule."
+    },
+    {
+      "type": "mcq",
+      "question": "Which fortified monastic republic on a Greek mountain peninsula has preserved Byzantine monastic culture continuously since the 10th century?",
+      "options": [
+        "Meteora",
+        "Mount Sinai",
+        "Mount Athos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Athos (the Holy Mountain) contains 20 sovereign Eastern Orthodox monasteries preserving thousands of Byzantine manuscripts."
+    },
+    {
+      "type": "mcq",
+      "question": "What title was given to the co-emperor or crown heir apparent in the Byzantine imperial court hierarchy?",
+      "options": [
+        "Caesar",
+        "Despot",
+        "Sebastokrator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally meaning supreme ruler in Rome, Caesar became a high court title below Augustus and Basileus."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 9th-century Patriarch of Constantinople is remembered for sending missions to Christianize the Slavic nations and disputing papal primacy?",
+      "options": [
+        "John Chrysostom",
+        "Photios I the Great",
+        "Ignatios"
+      ],
+      "correctIndex": 1,
+      "explanation": "Photios I was one of the most learned scholars of antiquity, author of the Bibliotheca (Myriobiblon) reviewing hundreds of classical texts."
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary Christian relic was preserved in the Palace of Blachernae, believed to protect Constantinople from naval attacks?",
+      "options": [
+        "Veil of Veronica",
+        "Spear of Destiny",
+        "Holy Mantle of the Virgin Mary"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Virgin Maphorion (Holy Robe) was paraded along the sea walls during sieges, credited with stirring divine storms against invaders."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive cannon cast by Hungarian engineer Urban was used by the Ottomans to bombard Constantinople walls in 1453?",
+      "options": [
+        "Basilic Great Bombard",
+        "Tsar Cannon",
+        "Mons Meg"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Basilic was a super-sized bronze bombard over 8 meters long, capable of firing 600-kilogram stone cannonballs."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Constantine the Great formally dedicate Constantinople as the new Roman capital?",
+      "target": 330,
+      "metricUnit": "CE",
+      "imperialDisplay": "330 CE",
+      "explanation": "Nova Roma (Constantinople) was consecrated on May 11, 330 CE after six years of reconstruction on ancient Byzantium."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Byzantine empress was the first woman in European history to rule as sole monarch in her own right, styling herself Basileus?",
+      "options": [
+        "Empress Zoe",
+        "Empress Irene of Athens",
+        "Empress Theodora II"
+      ],
+      "correctIndex": 1,
+      "explanation": "Irene of Athens ruled from 797 to 802 CE as sole emperor, calling the Second Council of Nicaea to restore religious icons."
+    },
+    {
+      "type": "mcq",
+      "question": "What great library encyclopedia compiled in Constantinople in the 10th century preserved over 30,000 entries on ancient history and literature?",
+      "options": [
+        "De Ceremoniis",
+        "Etymologicum Magnum",
+        "The Suda"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Suda is a massive 10th-century Byzantine encyclopedia preserving thousands of quotes from lost classical Greek authors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Venetian Doge led the diversion and assault of the Fourth Crusade against Constantinople despite being elderly and blind?",
+      "options": [
+        "Enrico Dandolo",
+        "Pietro Gradenigo",
+        "Francesco Foscari"
+      ],
+      "correctIndex": 0,
+      "explanation": "Doge Enrico Dandolo orchestrated the Venetian fleet operations and was buried inside Hagia Sophia after his death in 1205."
+    },
+    {
+      "type": "mcq",
+      "question": "What Byzantine architectural technique used triangular curved masonry segments to set a circular dome over a square base room?",
+      "options": [
+        "Flying buttress",
+        "Pendentives",
+        "Corbel arch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pendentives allowed Byzantine architects to float enormous spherical domes atop four massive supporting arches."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the Greek title for emperor that became the standard formal designation for Byzantine sovereigns starting in 629 CE?",
+      "options": [
+        "Imperator",
+        "Autokrator",
+        "Basileus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Emperor Heraclius adopted the ancient Greek royal title Basileus to reflect the Hellenic cultural identity of the empire."
+    },
+    {
+      "type": "number",
+      "question": "How many total centuries did the Eastern Roman (Byzantine) Empire endure from 330 CE to 1453 CE?",
+      "target": 11,
+      "metricUnit": "centuries",
+      "imperialDisplay": "11 centuries (1,123 years)",
+      "explanation": "From Constantine foundation in 330 to Ottoman conquest in 1453, Byzantium survived for over 11 centuries."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian city contains the world finest collection of surviving 6th-century Byzantine imperial mosaics at the Basilica of San Vitale?",
+      "options": [
+        "Ravenna",
+        "Venice",
+        "Florence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ravenna served as the capital of the Byzantine Exarchate of Italy, featuring mosaic portraits of Justinian and Theodora."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain citadel in the Peloponnese saw the coronation of Constantine XI Palaiologos in 1449?",
+      "options": [
+        "Monemvasia",
+        "Mistras",
+        "Nafplio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constantine XI was crowned at the Cathedral of Saint Demetrios in Mistras before traveling to Constantinople."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Greek architectural work inspired Byzantine domed cross-in-square (cruciform) church architecture?",
+      "options": [
+        "Erechtheion",
+        "Parthenon",
+        "Church of the Holy Apostles"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cross-in-square layout of the Holy Apostles in Constantinople became the prototype for Orthodox churches worldwide."
+    },
+    {
+      "type": "mcq",
+      "question": "Which devastating pandemic struck the Byzantine Empire in 541 CE, killing an estimated 25 to 50 million people across the Mediterranean?",
+      "options": [
+        "Plague of Justinian",
+        "Antonine Plague",
+        "Black Death"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Plague of Justinian (caused by Yersinia pestis) devastated agriculture, military recruitment, and tax revenue."
+    },
+    {
+      "type": "mcq",
+      "question": "What precious natural purple dye extracted from sea snails was used exclusively for Byzantine imperial garments?",
+      "options": [
+        "Indigo",
+        "Tyrian purple",
+        "Cochineal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extracted from the murex sea snail along the Phoenician coast, Tyrian purple was worth its weight in solid gold."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the devastating Plague of Justinian first break out in the Byzantine port of Pelusium and Constantinople?",
+      "target": 541,
+      "metricUnit": "CE",
+      "imperialDisplay": "541 CE",
+      "explanation": "The pandemic broke out in 541 CE, recurring in waves across Europe and the Near East for nearly two centuries."
+    }
+  ]
+}

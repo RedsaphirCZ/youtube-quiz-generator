@@ -1,0 +1,641 @@
+{
+  "id": "philosophy-great-thinkers-60",
+  "theme": "Philosophy: Socratic Dialogue to Modern Existentialism",
+  "title": "Philosophy: Socratic Dialogue to Modern Existentialism",
+  "description": "A 60-question grand master assessment exploring Pre-Socratic metaphysics, Socrates, Plato's Republic, Aristotle, Stoicism, Eastern philosophy, medieval scholasticism, Descartes, Kant, Nietzsche, and 20th-century existentialism.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which ancient thinker from Miletus is traditionally hailed as the first Western philosopher, proposing that water is the fundamental origin of all things?",
+      "options": [
+        "Thales",
+        "Anaximander",
+        "Anaximenes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thales of Miletus broke away from mythological explanations of the cosmos, initiating rational natural philosophy around 600 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek philosopher famously asserted that reality is in perpetual flux and fire, stating that one cannot step into the same river twice?",
+      "options": [
+        "Parmenides",
+        "Heraclitus",
+        "Empedocles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heraclitus of Ephesus taught that universal logos governs the perpetual unity and conflict of opposing cosmic forces."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Eleatic philosopher argued the radical opposite of Heraclitus, maintaining that change and motion are illusions and that Being is one and unchangeable?",
+      "options": [
+        "Zeno of Elea",
+        "Xenophanes",
+        "Parmenides"
+      ],
+      "correctIndex": 2,
+      "explanation": "Parmenides established rationalist ontology in his poem On Nature, declaring that what is cannot come from what is not."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greek philosopher and mathematician founded a mystical brotherhood in Croton that believed numbers constituted the true essence of reality?",
+      "options": [
+        "Pythagoras",
+        "Archimedes",
+        "Euclid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pythagoreans discovered the mathematical ratios behind musical harmony and formulated early theories of the transmigration of souls."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek thinker developed atomism, proposing that the entire universe consists solely of indivisible particles (atoms) moving through empty void?",
+      "options": [
+        "Leucippus",
+        "Democritus",
+        "Epicurus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Democritus was known as The Laughing Philosopher and provided a purely materialistic foundation for physics without divine intervention."
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE was the landmark philosopher Socrates condemned to death by drinking hemlock in democratic Athens?",
+      "target": 399,
+      "metricUnit": "BCE",
+      "imperialDisplay": "399 BCE trial",
+      "explanation": "Socrates was tried, convicted of impiety and corrupting the youth, and executed in Athens in 399 BCE at age 70."
+    },
+    {
+      "type": "mcq",
+      "question": "What method of cooperative argumentative dialogue did Socrates use to draw out underlying assumptions through relentless questioning?",
+      "options": [
+        "Dialectical materialism",
+        "Scholastic disputation",
+        "Socratic method"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Socratic method (elenchus) exposes contradictions in a student's definitions, leading them to acknowledge their own ignorance."
+    },
+    {
+      "type": "mcq",
+      "question": "In Plato's Republic, which famous philosophical allegory illustrates human liberation from the illusions of sensory perception to the light of truth?",
+      "options": [
+        "Allegory of the Cave",
+        "Ring of Gyges",
+        "Myth of Er"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plato describes prisoners chained in a dark cave seeing only projected shadows on a wall, mistaking them for true reality."
+    },
+    {
+      "type": "mcq",
+      "question": "What metaphysical theory developed by Plato asserts that the physical world is merely a flawed shadow of non-physical, perfect, eternal Forms or Ideas?",
+      "options": [
+        "Nominalism",
+        "Theory of Forms",
+        "Atomism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plato's Theory of Forms (Eidos) posits that abstract concepts like Justice, Beauty, and the Good exist in a higher realm of objective reality."
+    },
+    {
+      "type": "mcq",
+      "question": "Which student of Plato tutored Alexander the Great and founded the Lyceum, writing foundational treatises on logic, ethics, biology, and politics?",
+      "options": [
+        "Theophrastus",
+        "Speusippus",
+        "Aristotle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aristotle developed syllogistic logic and empirical observation, shaping Western scientific thought for nearly two millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "In the Nicomachean Ethics, what central concept did Aristotle identify as the ultimate goal of human existence, translated as human flourishing or happiness?",
+      "options": [
+        "Eudaimonia",
+        "Ataraxia",
+        "Apatheia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aristotle argued that eudaimonia is achieved by cultivating moral and intellectual virtues according to the Golden Mean between extremes."
+    },
+    {
+      "type": "number",
+      "question": "How many distinct books comprise Marcus Aurelius's classic Stoic journal Meditations?",
+      "target": 12,
+      "metricUnit": "books",
+      "imperialDisplay": "12 personal books",
+      "explanation": "Marcus Aurelius wrote his 12 books of Meditations in Greek as private personal reflections on duty and resilience while campaigning on the Danube."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hellenistic philosophical school founded by Zeno of Citium taught that virtue is the only good and that emotions should be governed by reason?",
+      "options": [
+        "Epicureanism",
+        "Stoicism",
+        "Cynicism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stoicism was practiced by Greek and Roman thinkers including Seneca, Epictetus, and Emperor Marcus Aurelius to maintain inner tranquility."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek philosopher taught in his Athens garden that the highest good is ataraxia (tranquility) and freedom from fear, through modest pleasures and friendship?",
+      "options": [
+        "Metrodorus",
+        "Lucretius",
+        "Epicurus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epicurus argued that death is nothing to us and that natural, simple desires eliminate physical pain and mental anxiety."
+    },
+    {
+      "type": "mcq",
+      "question": "Which notorious Cynic philosopher lived in a ceramic storage jar in the Athens marketplace, carrying a lamp in daylight looking for an honest man?",
+      "options": [
+        "Diogenes of Sinope",
+        "Antisthenes",
+        "Crates of Thebes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diogenes rejected social conventions, luxury, and hypocrisy, famously telling Alexander the Great to stand out of his sunlight."
+    },
+    {
+      "type": "mcq",
+      "question": "Which freed Greek slave became a major Stoic philosopher in Rome, whose teachings on self-mastery were recorded by Arrian in the Discourses and Enchiridion?",
+      "options": [
+        "Seneca",
+        "Epictetus",
+        "Musonius Rufus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Epictetus taught that freedom comes from distinguishing what is within our control (our thoughts and actions) from what is not."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Greek philosophical school founded by Pyrrho of Elis advocated epoché (suspension of judgment) to achieve mental peace?",
+      "options": [
+        "Hedonism",
+        "Neoplatonism",
+        "Pyrrhonism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skeptics held that because sensory perceptions and dogmatic claims are uncertain, withholding belief frees the mind from turmoil."
+    },
+    {
+      "type": "number",
+      "question": "How many steps make up the Noble Eightfold Path in Buddhist philosophy to end suffering and achieve liberation?",
+      "target": 8,
+      "metricUnit": "steps",
+      "imperialDisplay": "The Eightfold Path",
+      "explanation": "The Buddha's Noble Eightfold Path consists of Right View, Resolve, Speech, Action, Livelihood, Effort, Mindfulness, and Concentration."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Chinese sage emphasized social harmony, filial piety (xiao), and benevolence (ren) in teachings compiled in the Analects?",
+      "options": [
+        "Confucius",
+        "Mencius",
+        "Xunzi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Confucius (Kong Fuzi) shaped Chinese moral education, governance, and family ethics for more than two millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Chinese philosopher is revered as the author of the Dao De Jing and the founder of philosophical Daoism?",
+      "options": [
+        "Zhuangzi",
+        "Laozi",
+        "Han Feizi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Laozi taught the principle of Wu Wei (effortless action) and living in spontaneous harmony with the natural flow of the Dao."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Daoist philosopher wrote the famous philosophical parable questioning whether he was a man dreaming he was a butterfly, or a butterfly dreaming he was a man?",
+      "options": [
+        "Liezi",
+        "Huainanzi",
+        "Zhuangzi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zhuangzi used wit, allegories, and paradoxes to challenge human epistemological certainty and rigid distinctions."
+    },
+    {
+      "type": "mcq",
+      "question": "What Chinese philosophical concept describes the harmonious balance of complementary, interconnected cosmic forces in nature?",
+      "options": [
+        "Yin and Yang",
+        "Wu Wei",
+        "Li and Qi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yin represents the dark, receptive, and passive principle, while Yang represents the bright, active, and creative principle."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Indian prince attained supreme enlightenment under the Bodhi Tree and formulated the Four Noble Truths concerning the nature of suffering?",
+      "options": [
+        "Mahavira",
+        "Siddhartha Gautama",
+        "Adi Shankara"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Buddha taught that suffering (dukkha) arises from attachment (tanha) and can be extinguished through the Middle Way."
+    },
+    {
+      "type": "number",
+      "question": "How many logical arguments (The Five Ways or Quinque Viae) did Thomas Aquinas formulate for the existence of God in his Summa Theologiae?",
+      "target": 5,
+      "metricUnit": "arguments",
+      "imperialDisplay": "The Five Ways",
+      "explanation": "Aquinas formulated Five Ways: arguments from motion, efficient cause, contingency, degree of perfection, and teleological design."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 13th-century Dominican friar synthesized Christian theology with Aristotelian philosophy in his monumental Summa Theologiae?",
+      "options": [
+        "Duns Scotus",
+        "William of Ockham",
+        "Thomas Aquinas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Declared the Doctor Angelicus, Saint Thomas Aquinas harmonized faith and reason, establishing the foundation of Thomist philosophy."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Persian polymath of the Islamic Golden Age wrote The Book of Healing and proposed the famous Floating Man thought experiment on human self-awareness?",
+      "options": [
+        "Avicenna",
+        "Al-Farabi",
+        "Al-Kindi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avicenna (Ibn Sina) argued that a human suspended in empty space with no sensory input would still possess direct conscious awareness of their own existence."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Andalusian philosopher from Cordoba, known in the West as The Commentator, wrote master commentaries on Aristotle and defended philosophy in The Incoherence of the Incoherence?",
+      "options": [
+        "Ibn Tufayl",
+        "Averroes",
+        "Ibn Arabi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Averroes (Ibn Rushd) exerted profound influence on Christian Scholasticism and European Renaissance humanism."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 14th-century English Franciscan friar formulated the methodological principle that entities should not be multiplied beyond necessity?",
+      "options": [
+        "Roger Bacon",
+        "John Buridan",
+        "William of Ockham"
+      ],
+      "correctIndex": 2,
+      "explanation": "Occam's Razor states that when presented with competing hypotheses, the simplest explanation requiring the fewest assumptions should be preferred."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Jewish philosopher from Cordoba authored The Guide for the Perplexed in Judeo-Arabic to reconcile the Torah with Aristotelian philosophy?",
+      "options": [
+        "Moses Maimonides",
+        "Yehuda Halevi",
+        "Baruch Spinoza"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maimonides was a royal physician in Cairo whose philosophical and legal works remain central to Jewish rabbinic thought."
+    },
+    {
+      "type": "number",
+      "question": "How many individual Meditations comprise Rene Descartes's 1641 foundational philosophical treatise Meditations on First Philosophy?",
+      "target": 6,
+      "metricUnit": "meditations",
+      "imperialDisplay": "6 formal meditations",
+      "explanation": "Descartes divided his classic work into six meditations, systematically doubting all sensory beliefs before proving his own existence and God."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French philosopher founded modern Western philosophy with his method of radical doubt, formulating the famous maxim Cogito, ergo sum (I think, therefore I am)?",
+      "options": [
+        "Blaise Pascal",
+        "Rene Descartes",
+        "Nicolas Malebranche"
+      ],
+      "correctIndex": 1,
+      "explanation": "Descartes used foundational doubt to find an indubitable truth: the very act of doubting proves the existence of a thinking mind."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 17th-century Jewish-Dutch philosopher developed a revolutionary pantheistic metaphysics in his Ethics, declaring that God and Nature are one and the same substance?",
+      "options": [
+        "Gottfried Wilhelm Leibniz",
+        "Thomas Hobbes",
+        "Baruch Spinoza"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spinoza was excommunicated from the Amsterdam Jewish community for his radical identification of Deus sive Natura (God or Nature)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which English philosopher argued in An Essay Concerning Human Understanding that the human mind begins at birth as a blank slate (tabula rasa)?",
+      "options": [
+        "John Locke",
+        "George Berkeley",
+        "David Hume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Locke established British empiricism, asserting that all knowledge, concepts, and ideas originate entirely from sensory experience and reflection."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish Enlightenment philosopher challenged rationalism by highlighting the Problem of Induction and arguing that reason is the slave of the passions?",
+      "options": [
+        "Adam Smith",
+        "David Hume",
+        "Thomas Reid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hume showed that we cannot logically prove the sun will rise tomorrow based purely on past observation without assuming the uniformity of nature."
+    },
+    {
+      "type": "mcq",
+      "question": "Which English political theorist wrote Leviathan in 1651, describing the natural state of humanity without government as solitary, poor, nasty, brutish, and short?",
+      "options": [
+        "Jean-Jacques Rousseau",
+        "John Stuart Mill",
+        "Thomas Hobbes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hobbes argued that individuals enter into a social contract, surrendering absolute liberty to an absolute sovereign in exchange for security and order."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Immanuel Kant publish his landmark masterwork Critique of Pure Reason in Riga?",
+      "target": 1781,
+      "metricUnit": "CE",
+      "imperialDisplay": "1781 first edition",
+      "explanation": "Kant published the first edition (A edition) of Kritik der reinen Vernunft in 1781, revolutionizing epistemology and metaphysics."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German philosopher synthesized rationalism and empiricism through transcendental idealism, formulating the Categorical Imperative in moral philosophy?",
+      "options": [
+        "Immanuel Kant",
+        "G.W.F. Hegel",
+        "Johann Gottlieb Fichte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kant argued that we perceive phenomena structured by innate mental categories of space and time, but cannot know the ding an sich (thing-in-itself)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Genevan philosopher declared in The Social Contract that Man is born free, and everywhere he is in chains?",
+      "options": [
+        "Voltaire",
+        "Jean-Jacques Rousseau",
+        "Denis Diderot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rousseau advocated for popular sovereignty and governance guided by the General Will, deeply influencing the French Revolution."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German idealist philosopher developed the dialectical method of history progressing through thesis, antithesis, and synthesis toward absolute spirit?",
+      "options": [
+        "Friedrich Schelling",
+        "Arthur Schopenhauer",
+        "Georg Wilhelm Friedrich Hegel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hegel's Phenomenology of Spirit viewed human history as the dialectical self-realization of Reason and freedom over successive eras."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French Enlightenment satirist wrote the novella Candide to mock Leibniz's optimistic doctrine that this is the best of all possible worlds?",
+      "options": [
+        "Voltaire",
+        "Montesquieu",
+        "Marquis de Condorcet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltaire exposed the absurdities of blind optimism in the face of human cruelty and natural disasters, concluding that we must cultivate our garden."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for Kant's supreme moral principle, which commands that you act only according to maxims you could will to become a universal law?",
+      "options": [
+        "Utilitarian calculus",
+        "Categorical Imperative",
+        "Golden Mean"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kant's deontological ethics holds that moral duties are unconditional and that human beings must always be treated as ends in themselves, never merely as means."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Karl Marx and Friedrich Engels publish The Communist Manifesto in London?",
+      "target": 1848,
+      "metricUnit": "CE",
+      "imperialDisplay": "February 1848",
+      "explanation": "The Communist Manifesto was published in German on 21 February 1848, coinciding with the outbreak of the revolutions of 1848 across Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British philosopher formulated classical Utilitarianism, asserting that the right action produces the greatest happiness for the greatest number?",
+      "options": [
+        "John Stuart Mill",
+        "Henry Sidgwick",
+        "Jeremy Bentham"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bentham proposed the felicific calculus to quantitatively measure pleasure and pain, advocating legal and penal reform in Victorian Britain."
+    },
+    {
+      "type": "mcq",
+      "question": "Which English philosopher refined utilitarianism in On Liberty and Utilitarianism, distinguishing between higher intellectual and lower bodily pleasures?",
+      "options": [
+        "John Stuart Mill",
+        "Herbert Spencer",
+        "Bertrand Russell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mill formulated the famous Harm Principle: the only purpose for which power can be rightfully exercised over any individual against his will is to prevent harm to others."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German philosopher and economist co-authored Das Kapital, arguing that all human history is the history of class struggles driven by material conditions?",
+      "options": [
+        "Friedrich Engels",
+        "Karl Marx",
+        "Max Weber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marx developed historical materialism, predicting that internal contradictions in capitalism would lead to proletarian revolution and a classless society."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German pessimist philosopher wrote The World as Will and Representation, influenced by the Upanishads to view human life as endless striving and suffering?",
+      "options": [
+        "Eduard von Hartmann",
+        "Ludwig Feuerbach",
+        "Arthur Schopenhauer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Schopenhauer argued that the blind, insatiable Will to Live drives all reality, with aesthetic contemplation of art and asceticism offering rare escape."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish philosopher is recognized as the Father of Christian Existentialism, writing Fear and Trembling under pseudonyms about the leap of faith?",
+      "options": [
+        "Soren Kierkegaard",
+        "Henrik Ibsen",
+        "Hans Christian Andersen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kierkegaard examined human anxiety (angst) and the subjective choice of the individual standing before God without rational guarantees."
+    },
+    {
+      "type": "number",
+      "question": "How many parts make up Friedrich Nietzsche's philosophical work Thus Spoke Zarathustra (Also sprach Zarathustra)?",
+      "target": 4,
+      "metricUnit": "parts",
+      "imperialDisplay": "4 narrative parts",
+      "explanation": "Nietzsche wrote Thus Spoke Zarathustra in four distinct parts between 1883 and 1885, using biblical poetic style to proclaim the Ubermensch."
+    },
+    {
+      "type": "mcq",
+      "question": "Which provocative German philosopher proclaimed the Death of God in The Gay Science and advocated the creation of new values through the Ubermensch (Overman)?",
+      "options": [
+        "Max Stirner",
+        "Friedrich Nietzsche",
+        "Martin Heidegger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nietzsche warned that the decline of Christian metaphysical belief would lead to nihilism, requiring humanity to forge life-affirming values."
+    },
+    {
+      "type": "mcq",
+      "question": "What philosophical concept did Nietzsche propose as a supreme psychological test of life affirmation, asking if you would willingly live your identical life over and over for eternity?",
+      "options": [
+        "Amor Fati",
+        "Will to Power",
+        "Eternal Recurrence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nietzsche considered Eternal Recurrence the heaviest burden, requiring unconditional love of one's fate (Amor Fati) to embrace joyfully."
+    },
+    {
+      "type": "mcq",
+      "question": "In On the Genealogy of Morals, what two moral systems did Nietzsche contrast, critiquing Christian morality as a slave revolt against noble values?",
+      "options": [
+        "Master morality and Slave morality",
+        "Deontology and Consequentialism",
+        "Stoicism and Epicureanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nietzsche argued that slave morality inverted ancient noble values (strength, excellence) into virtues of meekness, pity, and ressentiment."
+    },
+    {
+      "type": "mcq",
+      "question": "What psychological drive did Nietzsche identify in Beyond Good and Evil as the fundamental driving engine of all human ambition and natural striving?",
+      "options": [
+        "Will to Pleasure",
+        "Will to Power",
+        "Will to Meaning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nietzsche viewed the Will to Power (Der Wille zur Macht) not merely as political dominance, but as the impulse to overcome oneself and create greatness."
+    },
+    {
+      "type": "mcq",
+      "question": "In which Swiss mountain village in the Upper Engadin valley did Nietzsche spend his most productive summers conceiving Zarathustra near Lake Silvaplana?",
+      "options": [
+        "Zermatt",
+        "Davos",
+        "Sils Maria"
+      ],
+      "correctIndex": 2,
+      "explanation": "A pyramid-shaped boulder by Lake Silvaplana inspired Nietzsche's sudden revelation of the Eternal Recurrence in August 1881."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Albert Camus publish his classic existential philosophical essay The Myth of Sisyphus in Paris?",
+      "target": 1942,
+      "metricUnit": "CE",
+      "imperialDisplay": "1942 publication",
+      "explanation": "Camus published Le Mythe de Sisyphe in 1942 during the Nazi occupation of France, opening with the question of suicide and the Absurd."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French existentialist philosopher declared in Being and Nothingness that existence precedes essence and that humanity is condemned to be free?",
+      "options": [
+        "Jean-Paul Sartre",
+        "Maurice Merleau-Ponty",
+        "Gabriel Marcel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sartre argued that humans possess no predetermined nature or divine blueprint; we define our essence entirely through our conscious choices."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French philosopher and feminist pioneer wrote The Second Sex in 1949, famously stating, One is not born, but rather becomes, a woman?",
+      "options": [
+        "Helene Cixous",
+        "Simone de Beauvoir",
+        "Luce Irigaray"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beauvoir established foundational feminist existentialism, analyzing how patriarchal culture constructs womanhood as the inferior Other."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian-British philosopher published the Tractatus Logico-Philosophicus in 1921, concluding: Whereof one cannot speak, thereof one must be silent?",
+      "options": [
+        "Karl Popper",
+        "Rudolf Carnap",
+        "Ludwig Wittgenstein"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wittgenstein investigated the logical limits of language and meaning, later transforming philosophy with his concept of language games in Philosophical Investigations."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British philosopher and logician co-wrote Principia Mathematica with Alfred North Whitehead and won the 1950 Nobel Prize in Literature?",
+      "options": [
+        "Bertrand Russell",
+        "G.E. Moore",
+        "A.J. Ayer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Russell was a leader of the analytic revolution, known for Russell's Paradox in set theory and passionate public pacifism."
+    },
+    {
+      "type": "mcq",
+      "question": "In The Myth of Sisyphus, how did Albert Camus conclude his reflection on the absurd hero condemned to roll a boulder up a mountain for eternity?",
+      "options": [
+        "Sisyphus must abandon the rock",
+        "One must imagine Sisyphus happy",
+        "Sisyphus is defeated by the gods"
+      ],
+      "correctIndex": 1,
+      "explanation": "Camus argued that Sisyphus triumphs over his pointless fate through conscious defiance, finding meaning and joy in the struggle itself."
+    },
+    {
+      "type": "number",
+      "question": "How many numbered propositions form the core logical skeleton of Ludwig Wittgenstein's 1921 masterwork Tractatus Logico-Philosophicus?",
+      "target": 7,
+      "metricUnit": "propositions",
+      "imperialDisplay": "7 major propositions",
+      "explanation": "The Tractatus is organized around exactly seven central numbered propositions, detailing the logical relationship between language and reality."
+    }
+  ]
+}

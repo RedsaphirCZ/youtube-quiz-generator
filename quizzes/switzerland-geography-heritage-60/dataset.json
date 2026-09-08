@@ -1,0 +1,703 @@
+{
+  "id": "switzerland-geography-heritage-60",
+  "theme": "Switzerland: Geography, Alpine Peaks & Precision Engineering",
+  "title": "Switzerland: Geography, Alpine Peaks & Precision Engineering",
+  "description": "A 60-question grand master assessment exploring the Matterhorn & Jungfraujoch, Lake Geneva & Jet d Eau, Gotthard Base Tunnel (57 km), Bern capital, 26 cantons, Jura watchmaking, Swiss cheese & chocolate, headwaters of Europe, and 1815 neutrality.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What iconic 4,478-meter pyramid-shaped mountain peak on the Swiss-Italian border near Zermatt is the universal symbol of the Swiss Alps?",
+      "options": [
+        "The Matterhorn Mount Cervin",
+        "Monte Rosa",
+        "The Eiger"
+      ],
+      "correctIndex": 0,
+      "explanation": "First summited by Edward Whymper in July 1865, the Matterhorn four distinct triangular faces face the cardinal directions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Switzerland, rising 4,634 meters in the Pennine Alps on the border with Italy?",
+      "options": [
+        "Dom",
+        "Dufourspitze Monte Rosa",
+        "Matterhorn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Named in honor of Swiss military general and cartographer Guillaume-Henri Dufour, the peak is crowned by the Monte Rosa glacier massif.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which notorious 1,800-meter vertical limestone and ice mountain wall in the Bernese Alps is nicknamed the Murder Wall (Mordwand)?",
+      "options": [
+        "Jungfrau Wall",
+        "Mönch Face",
+        "Eiger North Face Eiger Nordwand"
+      ],
+      "correctIndex": 2,
+      "explanation": "First successfully climbed in 1938 by Heinrich Harrer, Anderl Heckmair, Fritz Kasparek, and Ludwig Vörg, the Eiger North Face is an extreme mountaineering challenge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high-altitude railway station in the Bernese Alps at 3,454 meters is marketed as the Top of Europe, the highest railway station on the continent?",
+      "options": [
+        "Jungfraujoch",
+        "Gornergrat",
+        "Klein Matterhorn"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Jungfrau Railway travels through an eight-kilometer tunnel bored through the Eiger and Mönch mountains, arriving at the Sphinx Observatory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and longest glacier in the European Alps, stretching twenty-three kilometers through the Valais region?",
+      "options": [
+        "Gorner Glacier",
+        "Great Aletsch Glacier Grosser Aletschgletscher",
+        "Rhône Glacier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The UNESCO-listed Aletsch Glacier contains twenty-seven billion tons of ice, covering eighty-six square kilometers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of the Matterhorn in the Swiss Alps?",
+      "target": 4478,
+      "metricUnit": "meters",
+      "imperialDisplay": "14,692 feet",
+      "explanation": "The Matterhorn reaches an official elevation of 4,478 meters above sea level overlooking Zermatt.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest crescent-shaped alpine lake in Central Europe by volume, shared between Switzerland and France?",
+      "options": [
+        "Lake Zurich",
+        "Lake Lucerne",
+        "Lake Geneva Lac Léman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering 580 square kilometers, Lac Léman is fed and drained by the Rhône River, home to the cities of Geneva, Lausanne, and Montreux.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 140-meter-high water fountain monument shoots 500 liters of water per second into the air on the Geneva harbor waterfront?",
+      "options": [
+        "Jet d Eau",
+        "Fontaine de la Gare",
+        "Grand Cascade"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally installed in 1886 as a safety relief valve for a hydraulic power network, the Jet d'Eau became the official symbol of Geneva in 1891.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic covered wooden footbridge in Lucerne, built in 1333, is the oldest surviving wooden truss bridge in Europe?",
+      "options": [
+        "Spreuer Bridge",
+        "Chapel Bridge Kapellbrücke",
+        "Rathaus Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kapellbrücke spans the Reuss River obliquely, decorated with triangular 17th-century paintings depicting Swiss history and guarded by the octagonal Water Tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest lake located entirely within the territorial boundaries of Switzerland?",
+      "options": [
+        "Lake Lucerne",
+        "Lake Zurich",
+        "Lake Neuchâtel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Neuchâtel covers 218 square kilometers in the French-speaking Romandy region at the foot of the Jura Mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian-speaking Swiss canton in the south is famed for palm-fringed sub-Mediterranean glacial lakes, including Lake Lugano and Lake Maggiore?",
+      "options": [
+        "Ticino Tessin",
+        "Valais",
+        "Grisons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ticino enjoys more sunshine than the rest of Switzerland, home to Bellinzona three medieval UNESCO-listed castles and the lakeside town of Ascona.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total height in meters reached by the water plume of the iconic Jet d'Eau in Geneva?",
+      "target": 140,
+      "metricUnit": "meters",
+      "imperialDisplay": "460 feet high",
+      "explanation": "The Jet d'Eau propels water 140 meters into the air at a velocity of 200 kilometers per hour using two 500-kilowatt pumps.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 57.1-kilometer railway tunnel beneath the Swiss Alps, opened in June 2016, is the longest and deepest traffic tunnel in the world?",
+      "options": [
+        "Seikan Tunnel",
+        "Gotthard Base Tunnel",
+        "Channel Tunnel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drilled under 2,300 meters of solid Alpine rock, the Gotthard Base Tunnel allows high-speed passenger and freight trains to cross the Alps at flat grade.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous red luxury panoramic tourist train crosses 291 bridges and ninety-one tunnels between Zermatt and Saint Moritz in eight hours?",
+      "options": [
+        "The Bernina Express",
+        "The GoldenPass Line",
+        "The Glacier Express"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dubbed the Slowest Express Train in the World, the Glacier Express crosses the 2,033-meter Oberalp Pass and the dramatic Landwasser Viaduct.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 65-meter-high curved limestone railway viaduct on the Albula Railway line plunges trains directly into a mountain tunnel cliff face?",
+      "options": [
+        "Landwasser Viaduct",
+        "Wiesen Viaduct",
+        "Solr Viaduct"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built between 1901 and 1903 without scaffolding by the Rhaetian Railway, the Landwasser Viaduct is a UNESCO World Heritage engineering masterwork.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What innovative high-altitude hydroelectric dam at the head of the Dixence River in Valais is the tallest concrete gravity dam in the world at 285 meters?",
+      "options": [
+        "Mauvoisin Dam",
+        "Grande Dixence Dam",
+        "Verzasca Dam"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Grande Dixence dam collects meltwater from thirty-five Valaisian glaciers, weighing fifteen million tons (heavier than the Great Pyramid of Giza).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 220-meter arch dam in Ticino was famously featured in the opening bungee jump stunt of the 1995 James Bond film GoldenEye?",
+      "options": [
+        "Grande Dixence",
+        "Emosson Dam",
+        "Verzasca Dam Contra Dam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stuntman Wayne Michaels set a world record for the highest commercial bungee jump from a structure, leaping 220 meters into the narrow Verzasca gorge.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Gotthard Base Tunnel, the longest railway tunnel on Earth?",
+      "target": 57,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "35.5 miles",
+      "explanation": "The Gotthard Base Tunnel measures exactly 57.09 kilometers (rounded to 57 km) between Erstfeld and Bodio.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic UNESCO-listed medieval city along the Aare River serves as the de facto federal capital (Federal City / Bundesstadt) of Switzerland?",
+      "options": [
+        "Bern",
+        "Zurich",
+        "Geneva"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded in 1191 by Duke Berthold V of Zähringen, Bern is celebrated for its six kilometers of covered sandstone shopping arcades (Lauben) and the Zytglogge clock tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest city in Switzerland by population and its premier global banking and financial center, located on the Limmat River?",
+      "options": [
+        "Basel",
+        "Zurich Zürich",
+        "Geneva"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zurich is home to the prestigious ETH Zurich university (where Albert Einstein studied), Bahnhofstrasse luxury avenue, and Fraumünster Chagall stained glass.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which international diplomatic hub at the western tip of Lake Geneva hosts the European headquarters of the United Nations and the International Committee of the Red Cross?",
+      "options": [
+        "Lausanne",
+        "Basel",
+        "Geneva Genève"
+      ],
+      "correctIndex": 2,
+      "explanation": "Geneva was the theological cradle of John Calvin Protestant Reformation, known as the Peace Capital for hosting over thirty-five international organizations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which cultural city on the Rhine River where the borders of Switzerland, France, and Germany meet is the center of the Swiss chemical and pharmaceutical industry?",
+      "options": [
+        "Basel Bâle",
+        "St. Gallen",
+        "Winterthur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basel features forty museums, the historic red sandstone Basel Minster, and hosts the premier international contemporary art fair, Art Basel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which hillside city on the northern shore of Lake Geneva is known as the Olympic Capital, serving as the headquarters of the International Olympic Committee (IOC) since 1915?",
+      "options": [
+        "Montreux",
+        "Lausanne",
+        "Vevey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lausanne is home to the Olympic Museum, the Court of Arbitration for Sport (CAS), and the gothic Lausanne Cathedral overlooking terraced Lavaux vineyards.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the International Olympic Committee (IOC) officially establish its global headquarters in Lausanne, Switzerland?",
+      "target": 1915,
+      "metricUnit": "year",
+      "imperialDisplay": "1915 AD",
+      "explanation": "Baron Pierre de Coubertin relocated the IOC headquarters to neutral Switzerland in April 1915 during World War I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many sovereign federative cantons and half-cantons is the Swiss Confederation politically divided?",
+      "options": [
+        "20 Cantons",
+        "30 Cantons",
+        "26 Cantons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under the Swiss Federal Constitution, all twenty-six cantons exercise equal sovereignty, from tiny Appenzell Innerrhoden to massive Grisons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest canton in Switzerland by geographical land area, covering over 7,100 square kilometers of high alpine valleys in the east?",
+      "options": [
+        "Grisons Graubünden",
+        "Bern",
+        "Valais"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grisons is the only trilingual canton in Switzerland (German, Romansh, Italian), home to Saint Moritz, Davos, and the Swiss National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional open-air public assembly of direct democracy, where citizens vote on laws by raising their hands, is still practiced annually in Appenzell Innerrhoden and Glarus?",
+      "options": [
+        "Ständerat",
+        "Landsgemeinde",
+        "Gemeindeversammlung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originating in the 13th century, the Landsgemeinde represents one of the oldest surviving forms of direct citizen democracy in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain meadow above Lake Lucerne is revered as the historic birthplace of the Swiss Confederation, where three cantons swore the Federal Charter in August 1291?",
+      "options": [
+        "Altdorf",
+        "Morgarten",
+        "Rütli Meadow Rütliwiese"
+      ],
+      "correctIndex": 2,
+      "explanation": "Representatives from Uri, Schwyz, and Unterwalden swore the Rütli Oath (Rütlischwur) to defend their mutual independence against the Habsburg dynasty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many official national languages are recognized by the Swiss Federal Constitution (German, French, Italian, and Romansh)?",
+      "options": [
+        "4 Official Languages",
+        "3 Official Languages",
+        "2 Official Languages"
+      ],
+      "correctIndex": 0,
+      "explanation": "German is spoken by roughly sixty-two percent of citizens, French by twenty-three percent, Italian by eight percent, and Romansh by less than one percent.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign cantons comprise the Swiss Confederation?",
+      "target": 26,
+      "metricUnit": "cantons",
+      "imperialDisplay": "26 Cantons",
+      "explanation": "Switzerland is a federal republic consisting of twenty-six cantons (twenty full cantons and six half-cantons).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What limestone mountain range along the northwestern Swiss-French border gives its name to the Jurassic geological period and the Swiss luxury horology valley?",
+      "options": [
+        "The Vosges",
+        "The Jura Mountains",
+        "The Alps"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Jura mountain valleys (Watch Valley) became the world epicenter of high-precision mechanical watchmaking in the 18th and 19th centuries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-altitude watchmaking valley in the canton of Vaud is home to prestigious haute horlogerie manufactures like Audemars Piguet, Jaeger-LeCoultre, and Blancpain?",
+      "options": [
+        "Val-de-Travers",
+        "Val de Ruz",
+        "Vallée de Joux"
+      ],
+      "correctIndex": 2,
+      "explanation": "During long, freezing alpine winters when farming was impossible, mountain farmers developed intricate micro-mechanical escapements and tourbillons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin watchmaking towns in Neuchâtel were planned specifically around natural light for watchmakers workshops, designated a UNESCO World Heritage site?",
+      "options": [
+        "La Chaux-de-Fonds and Le Locle",
+        "Biel and Solothurn",
+        "Saint-Imier and Porrentruy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Birthplace of modernist architect Le Corbusier and luxury watch brands like Breitling and Tissot, the towns feature wide grid streets designed for watch craft efficiency.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous multi-tool red pocket knife, manufactured since 1891 by Victorinox in Ibach, is officially issued to the Swiss Armed Forces?",
+      "options": [
+        "Opinel",
+        "Swiss Army Knife Schweizer Offiziersmesser",
+        "Leatherman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emblazoned with the white Swiss cross on a red shield, the knife features stainless steel blades, screwdrivers, can openers, and corkscrews.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which particle physics laboratory near Geneva operates the 27-kilometer underground ring of the Large Hadron Collider (LHC), discovering the Higgs Boson in 2012?",
+      "options": [
+        "ITER",
+        "ESA",
+        "CERN European Organization for Nuclear Research"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1954 across the Swiss-French border, CERN was also the birthplace of the World Wide Web, invented by British scientist Tim Berners-Lee in 1989.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did British scientist Tim Berners-Lee invent the World Wide Web while working at CERN in Geneva, Switzerland?",
+      "target": 1989,
+      "metricUnit": "year",
+      "imperialDisplay": "1989 AD",
+      "explanation": "Tim Berners-Lee submitted his landmark proposal 'Information Management: A Proposal' at CERN in March 1989.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which hard yellow Swiss raw cow milk cheese, originating in the canton of Fribourg, is famous for its smooth melting qualities in traditional Swiss fondue?",
+      "options": [
+        "Gruyère Le Gruyère AOP",
+        "Emmental",
+        "Appenzeller"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crafted in copper vats since 1115 CE around the medieval town of Gruyères, authentic Gruyère has a complex nutty, earthy flavor without holes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic Swiss raw cow milk cheese from the Emme river valley in the canton of Bern is famous worldwide for its characteristic large fermentation eyes (holes)?",
+      "options": [
+        "Tête de Moine",
+        "Emmentaler AOP",
+        "Sbrinz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Propionic acid bacteria (Propionibacterium freudenreichii) consume lactic acid and release carbon dioxide bubbles trapped inside the cheese wheel during ripening.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swiss cylindrical raw-milk cheese, invented by monks in the Jura 800 years ago, is traditionally pared into delicate floral rosettes using a rotating Girolle scraper blade?",
+      "options": [
+        "Vacherin Mont d Or",
+        "Raclette du Valais",
+        "Tête de Moine Monk Head"
+      ],
+      "correctIndex": 2,
+      "explanation": "Scraping aerates the cheese surface, releasing volatile flavor compounds of alpine pastures harvested around Bellelay Abbey.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which Swiss city in 1875 did chocolatier Daniel Peter, working with baby-food chemist Henri Nestlé, invent the world first solid Milk Chocolate?",
+      "options": [
+        "Vevey",
+        "Zurich",
+        "Bern"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peter combined condensed milk powder with cocoa mass to overcome excess water content, transforming the global confectionery industry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous triangular chocolate bar with honey and almond nougat, created by Theodor Tobler in Bern in 1908, was inspired by the shape of the Matterhorn?",
+      "options": [
+        "Lindt Excellence",
+        "Toblerone",
+        "Cailler"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Toblerone logo famously contains a hidden silhouette of a bear, the heraldic animal and symbol of the city of Bern.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Swiss confectioner Daniel Peter successfully invent solid milk chocolate in Vevey, Switzerland?",
+      "target": 1875,
+      "metricUnit": "year",
+      "imperialDisplay": "1875 AD",
+      "explanation": "Daniel Peter perfected the recipe for solid milk chocolate in 1875 after eight years of experimentation using condensed milk.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which lake in the Gotthard Massif at 2,345 meters elevation is revered as the official geographical source of the Rhine River?",
+      "options": [
+        "Lake Constance",
+        "Lake Sils",
+        "Lake Toma Lai da Tuma"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Rein da Tuma flows into the Vorderrhein before traveling 1,233 kilometers through six nations to the North Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "From which melting alpine glacier in the eastern Valais does the Rhône River originate before flowing through Lake Geneva and southern France into the Mediterranean Sea?",
+      "options": [
+        "Rhône Glacier Rhonegletscher",
+        "Aletsch Glacier",
+        "Tiefen Glacier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The glacier features an ice grotto carved fresh each summer, covered in protective white fleece thermal blankets to slow summer ice melt.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which mountain pass in the Gotthard Massif can a raindrop drain into four different seas (North Sea, Mediterranean, Adriatic, and Black Sea)?",
+      "options": [
+        "Simplon Pass",
+        "Gotthard Massif Water Castle of Europe",
+        "Great Saint Bernard Pass"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Gotthard Massif contains the headwaters of the Rhine, Rhône, Reuss, and Ticino (Po basin) rivers, making Switzerland the Water Tower of Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular 150-meter-wide waterfall on the High Rhine near Schaffhausen is the most powerful waterfall in mainland Europe?",
+      "options": [
+        "Staubbach Falls",
+        "Giessbach Falls",
+        "Rhine Falls Rheinfall"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed 15,000 years ago during the last Ice Age, the Rhine Falls drop twenty-three meters over limestone bedrock, discharging up to 600,000 liters per second.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What deep glacial valley in the Bernese Oberland, featuring seventy-two waterfalls plunging from sheer limestone cliffs, inspired J.R.R. Tolkien valley of Rivendell?",
+      "options": [
+        "Lauterbrunnen Valley",
+        "Grindelwald Valley",
+        "Kandersteg Valley"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lauterbrunnen features the 297-meter Staubbach Falls (visited by Goethe) and the subterranean Trümmelbach Falls draining ten glacier gorges.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many vertical waterfall cascades plunge into the famous glacial canyon of the Lauterbrunnen Valley in the Bernese Oberland?",
+      "target": 72,
+      "metricUnit": "waterfalls",
+      "imperialDisplay": "72 waterfalls",
+      "explanation": "Lauterbrunnen Valley is known as the Valley of 72 Waterfalls, plunging over vertical limestone cliffs up to 300 meters high.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 800-hectare UNESCO World Heritage terraced wine region stretches for thirty kilometers along the northern shores of Lake Geneva between Lausanne and Montreux?",
+      "options": [
+        "Valais Terraces",
+        "Lavaux Vineyard Terraces",
+        "Bündner Herrschaft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed by 11th-century Benedictine and Cistercian monks, Lavaux stone terraces benefit from 'three suns': direct sunlight, lake reflection, and stone wall stored heat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which white grape variety, known in Switzerland as Fendant in Valais, is the signature grape of the Lavaux terraces and Lake Geneva wine culture?",
+      "options": [
+        "Petite Arvine",
+        "Müller-Thurgau",
+        "Chasselas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chasselas produces delicate, dry, mineral-forward white wines that pair exceptionally well with Swiss fondue and Lake Geneva perch fillets (filets de perche).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What romantic 12th-century oval stone castle on a small rocky island in Lake Geneva was immortalized in Lord Byron 1816 poem The Prisoner of Chillon?",
+      "options": [
+        "Château de Chillon",
+        "Château de Grandson",
+        "Château de Gruyères"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chillon was the fortified toll residence of the Counts of Savoy, commanding the strategic trade road between the Alps and Lake Geneva.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high mountain pass between Martigny in Switzerland and Aosta in Italy is famous for the medieval hospice founded in 1049 and Saint Bernard rescue dogs?",
+      "options": [
+        "Simplon Pass",
+        "Great Saint Bernard Pass",
+        "San Bernardino Pass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Augustinian monks bred the large Saint Bernard dogs to locate lost travelers buried in winter avalanches across the 2,469-meter pass.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the only official National Park in Switzerland, founded in the Engadine valley of Grisons in 1914 as a strict untouched nature reserve?",
+      "options": [
+        "Biosfera Val Müstair",
+        "Parc Ela",
+        "Swiss National Park Parc Naziunal Svizzer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering 170 square kilometers of pristine alpine wilderness, visitors must stay on marked paths to allow ibex, chamois, golden eagles, and bearded vultures to thrive undisturbed.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Swiss National Park established in the Engadine, the oldest national park in the Alps and Central Europe?",
+      "target": 1914,
+      "metricUnit": "year",
+      "imperialDisplay": "1914 AD",
+      "explanation": "The Swiss National Park was officially founded on Swiss National Day, August 1, 1914.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year was Switzerland permanent armed neutrality officially recognized by European great powers at the historic Congress of Vienna?",
+      "options": [
+        "1815",
+        "1648",
+        "1919"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1815 Treaty of Paris established Switzerland sovereign neutrality, allowing the country to avoid foreign wars and military alliances for over two centuries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What humanitarian international organization, symbolized by the inverse colors of the Swiss flag, was founded in Geneva in 1863 by Swiss businessman Henry Dunant?",
+      "options": [
+        "Amnesty International",
+        "International Committee of the Red Cross ICRC",
+        "Doctors Without Borders"
+      ],
+      "correctIndex": 1,
+      "explanation": "Witnessing the horrors of the 1859 Battle of Solferino, Dunant created the Red Cross, winning the very first Nobel Peace Prize in 1901.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total land area of Switzerland in square kilometers, making it roughly the size of the Netherlands or US state of Maryland?",
+      "options": [
+        "25,000 Square Kilometers",
+        "65,000 Square Kilometers",
+        "41,285 Square Kilometers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Despite its compact size, seventy percent of Switzerland territory is covered by mountains (the Alps and the Jura).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign nations share a direct terrestrial land border with Switzerland (Germany, France, Italy, Austria, and Liechtenstein)?",
+      "options": [
+        "5 Countries",
+        "4 Countries",
+        "6 Countries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Switzerland land borders stretch 1,852 kilometers through the heart of Western Europe, completely surrounded by European Union member states.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 2.1-meter-high open-air sculpture carved directly into a sandstone cliff in Lucerne commemorates the Swiss Guards massacred during the French Revolution in 1792?",
+      "options": [
+        "William Tell Monument",
+        "Lion Monument Löwendenkmal",
+        "Helvetia Statue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by Danish sculptor Bertel Thorvaldsen, Mark Twain described the dying lion as the most mournful and that piece of stone in the world.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Swiss armed neutrality formally ratified in international law at the Congress of Vienna?",
+      "target": 1815,
+      "metricUnit": "year",
+      "imperialDisplay": "1815 AD",
+      "explanation": "On November 20, 1815, the Treaty of Paris formally recognized the permanent neutrality of Switzerland within the international system.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

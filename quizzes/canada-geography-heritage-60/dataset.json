@@ -1,0 +1,703 @@
+{
+  "id": "canada-geography-heritage-60",
+  "theme": "Canada: Geography, Wilderness & Great Lakes",
+  "title": "Canada: Geography, Wilderness & Great Lakes",
+  "description": "A 60-question grand master assessment exploring the Canadian Shield, Banff & the Rockies, the Great Lakes & Niagara, Nunavut & Arctic islands, Bay of Fundy tides, Prairies, major cities, Arctic wildlife, and Mount Logan.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What massive geological foundation of ancient Precambrian igneous and metamorphic rock covers nearly half of Canada total land area?",
+      "options": [
+        "The Canadian Shield Laurentian Plateau",
+        "The Interior Plains",
+        "The Appalachian Highlands"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Canadian Shield encircles Hudson Bay across eight million square kilometers, scraped bare by Pleistocene ice sheets to leave thin soils, rocky outcrops, and millions of lakes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast subarctic coniferous forest biome covers over five million square kilometers across the Canadian Shield from the Yukon to Newfoundland?",
+      "options": [
+        "Temperate Deciduous Forest",
+        "Boreal Forest Taiga",
+        "Tundra"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Canadian boreal forest contains twenty-five percent of the world remaining intact forest, dominated by black spruce, jack pine, tamarack, and trembling aspen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city in northern Ontario located inside a 1.85-billion-year-old meteor impact basin is one of the world leading nickel and copper mining centers?",
+      "options": [
+        "Timmins",
+        "Thunder Bay",
+        "Sudbury"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sudbury Basin impact melted deep mantle crust, concentrating immense deposits of nickel, copper, platinum, and palladium mined for over a century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world natural freshwater lakes are estimated to be located within the borders of Canada?",
+      "options": [
+        "Over 60 Percent",
+        "30 Percent",
+        "45 Percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Canada has more lake area than any other country on Earth, with over two million freshwater lakes covering nine percent of the national surface area.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast inland subarctic sea in northern Manitoba and Ontario is the second largest bay on Earth after the Bay of Bengal?",
+      "options": [
+        "Baffin Bay",
+        "Hudson Bay",
+        "James Bay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hudson Bay covers 1.23 million square kilometers with an extensive drainage basin that encompasses over one-third of Canada entire land area.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of Canada total national land area is covered by the Canadian Shield geological formation?",
+      "target": 48,
+      "metricUnit": "percent",
+      "imperialDisplay": "48% of Canada land area",
+      "explanation": "The Canadian Shield covers approximately 48 percent of Canada land surface, spanning eight provinces and territories.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest national park in Canada, established in 1885 in the Rocky Mountains around natural sulfur hot springs in Alberta?",
+      "options": [
+        "Jasper National Park",
+        "Yoho National Park",
+        "Banff National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Banff was created following the discovery of Cave and Basin hot springs during construction of the Canadian Pacific Railway, famous for Lake Louise.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What gives glacial alpine lakes like Lake Louise and Moraine Lake in Banff National Park their vivid turquoise-blue coloration?",
+      "options": [
+        "Glacial Rock Flour Silt",
+        "High Dissolved Copper Compounds",
+        "Microscopic Blue-Green Algae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Glaciers grind bedrock into fine rock flour that remains suspended in lake water, scattering light in the blue and green spectrum.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Canadian Rocky Mountains, rising 3,954 meters on the Continental Divide in British Columbia?",
+      "options": [
+        "Mount Columbia",
+        "Mount Robson",
+        "Mount Assiniboine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Robson towers over the Yellowhead Pass with its sheer Emperor Face, a formidable objective for high-altitude mountaineers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 325-square-kilometer icefield in the Canadian Rockies feeds glaciers that drain into three different oceans (Arctic, Atlantic, Pacific)?",
+      "options": [
+        "Peyto Glacier",
+        "Wapta Icefield",
+        "Columbia Icefield"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Columbia Icefield spans the Continental Divide between Banff and Jasper, easily visited via all-terrain Ice Explorer buses on the Athabasca Glacier.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pyramid-shaped peak on the Alberta-British Columbia border is known as the Matterhorn of the Rockies for its striking glacial horn geometry?",
+      "options": [
+        "Mount Assiniboine",
+        "Mount Edith Cavell",
+        "Mount Temple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Assiniboine rises 3,618 meters, carved into a sheer pyramidal peak by four distinct cirque glaciers eroding opposing mountain faces.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Banff National Park officially established as Canada first national park?",
+      "target": 1885,
+      "metricUnit": "year",
+      "imperialDisplay": "1885 AD",
+      "explanation": "Banff was established on November 25, 1885, under the Rocky Mountains Park Act, making it the third national park created in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest freshwater lake in the world by surface area, shared by the province of Ontario and the United States?",
+      "options": [
+        "Lake Huron",
+        "Lake Superior",
+        "Lake Michigan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Superior covers 82,100 square kilometers, holding enough water to submerge all of North and South America under thirty centimeters of water.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep waterway system opened in 1959, allowing ocean-going container and grain ships to travel 3,700 kilometers into the heart of North America?",
+      "options": [
+        "Erie Canal",
+        "Trent-Severn Waterway",
+        "St. Lawrence Seaway"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Seaway utilizes fifteen lock chambers along the St. Lawrence River and Welland Canal to lift ships 183 meters above sea level to Lake Superior.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the largest of the three waterfalls comprising Niagara Falls, carrying roughly ninety percent of the total river volume over the Canadian brink?",
+      "options": [
+        "Horseshoe Falls Canadian Falls",
+        "American Falls",
+        "Bridal Veil Falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horseshoe Falls drops fifty-seven meters along a 790-meter curving crest line, generating massive hydroelectric power and mist rainbows.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world entire liquid surface freshwater is contained in the Laurentian Great Lakes of North America?",
+      "options": [
+        "10 Percent",
+        "21 Percent",
+        "35 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The five Great Lakes (Superior, Huron, Michigan, Erie, Ontario) contain over 22,000 cubic kilometers of fresh water, roughly one-fifth of global surface freshwater.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque archipelago of 1,864 islands straddles the Canada-US border in the St. Lawrence River near Kingston, Ontario?",
+      "options": [
+        "Gulf Islands",
+        "Magdalen Islands",
+        "Thousand Islands"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Thousand Islands region features historic granite islands, ornate Gilded Age castles like Boldt Castle, and gave its name to Thousand Island salad dressing.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the world total liquid surface freshwater is held within the Laurentian Great Lakes system?",
+      "target": 21,
+      "metricUnit": "percent",
+      "imperialDisplay": "21% of world surface freshwater",
+      "explanation": "The Great Lakes hold approximately 21 percent of the world's non-frozen surface freshwater supply.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast northern territory was officially created on April 1, 1999, separating from the Northwest Territories as a self-governed homeland for the Inuit?",
+      "options": [
+        "Nunavut",
+        "Yukon",
+        "Northwest Territories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nunavut covers over two million square kilometers (one-fifth of Canada total area), with its territorial capital located in Iqaluit on Baffin Island.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest island in Canada and the fifth largest island in the world, located in the territory of Nunavut?",
+      "options": [
+        "Victoria Island",
+        "Baffin Island",
+        "Ellesmere Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Baffin Island spans 507,451 square kilometers, famous for Auyuittuq National Park, Mount Thor vertical cliff, and traditional Inuit printmaking in Kinngait.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which subarctic port town on the western shore of Hudson Bay in Manitoba is internationally renowned as the Polar Bear Capital of the World?",
+      "options": [
+        "Rankin Inlet",
+        "Moosonee",
+        "Churchill"
+      ],
+      "correctIndex": 2,
+      "explanation": "In autumn, hundreds of polar bears congregate around Churchill waiting for Hudson Bay to freeze so they can hunt ringed seals on winter pack ice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain in Auyuittuq National Park on Baffin Island features the greatest pure vertical cliff drop on Earth, plunging 1,250 meters at an average 105-degree angle?",
+      "options": [
+        "Mount Thor",
+        "Mount Asgard",
+        "Mount Logan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Thor is a sheer granite cliff face carved by glacial erosion, drawing elite extreme big-wall rock climbers from around the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the northernmost permanently inhabited human settlement on Earth, located at 82.5 degrees North latitude on Ellesmere Island in Nunavut?",
+      "options": [
+        "Grise Fiord",
+        "Alert",
+        "Resolute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alert hosts a Canadian Armed Forces signals intelligence station and Global Atmosphere Watch weather observatory, just 817 kilometers from the North Pole.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the territory of Nunavut officially established following the historic Nunavut Land Claims Agreement?",
+      "target": 1999,
+      "metricUnit": "year",
+      "imperialDisplay": "1999 AD",
+      "explanation": "Nunavut was officially inaugurated as Canada third territory on April 1, 1999, with celebrations held in the new capital Iqaluit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which funnel-shaped body of water between Nova Scotia and New Brunswick experiences the highest tidal range on Earth, rising up to sixteen meters twice daily?",
+      "options": [
+        "Gulf of St. Lawrence",
+        "Northumberland Strait",
+        "Bay of Fundy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Due to a unique tidal resonance matching the natural sloshing frequency of the bay, 160 billion tons of seawater rush in and out during every tidal cycle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous flowerpot rock stacks in New Brunswick are sculpted by the powerful tides of the Bay of Fundy, allowing visitors to walk on the ocean floor at low tide?",
+      "options": [
+        "Hopewell Rocks",
+        "Percé Rock",
+        "Three Sisters Rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tidal erosion hollows out the base of conglomerate sandstone cliffs, creating standalone rock pillars topped by green spruce trees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the smallest province in Canada by both land area and population, famous for red sandstone cliffs and Lucy Maud Montgomery novel Anne of Green Gables?",
+      "options": [
+        "Nova Scotia",
+        "Prince Edward Island",
+        "New Brunswick"
+      ],
+      "correctIndex": 1,
+      "explanation": "PEI was the birthplace of Canadian Confederation at the 1864 Charlottetown Conference, connected to the mainland by the 12.9-kilometer Confederation Bridge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 298-kilometer scenic coastal highway loops around the northern tip of Cape Breton Island in Nova Scotia, overlooking the Gulf of St. Lawrence?",
+      "options": [
+        "Viking Trail",
+        "Trans-Taiga Road",
+        "Cabot Trail"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Cabot Trail traverses Cape Breton Highlands National Park, famous for dramatic ocean lookouts, Celtic fiddle music, and Acadian French culture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rich submerged underwater plateau off the coast of Newfoundland was historically one of the world most productive Atlantic cod fishing grounds?",
+      "options": [
+        "Grand Banks of Newfoundland",
+        "Georges Bank",
+        "Flemish Cap"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mixing of the cold Labrador Current and the warm Gulf Stream creates dense fog and nutrient-rich upwelling that sustained European cod fleets for centuries.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What maximum tidal range in meters can be recorded in the upper basins of the Bay of Fundy during spring tides?",
+      "target": 16,
+      "metricUnit": "meters",
+      "imperialDisplay": "53 feet (equivalent to a 5-story building)",
+      "explanation": "During extreme spring tides at Burntcoat Head in Minas Basin, the Bay of Fundy tidal range reaches sixteen meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which three Canadian provinces (Alberta, Saskatchewan, and Manitoba) comprise the vast agricultural grain-growing heartland known as the Canadian Prairies?",
+      "options": [
+        "Maritime Provinces",
+        "Prairie Provinces",
+        "Territorial Provinces"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Prairies are characterized by flat to undulating sedimentary plains, fertile chernozemic black soils, and continental climates ideal for wheat and canola.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which badlands town in the Red Deer River valley of Alberta is world-famous as the Dinosaur Capital of Canada and home of the Royal Tyrrell Museum?",
+      "options": [
+        "Brooks",
+        "Medicine Hat",
+        "Drumheller"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dinosaur Provincial Park nearby has yielded hundreds of intact dinosaur skeletons, including Albertosaurus, Centrosaurus, and Corythosaurus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive freshwater lake in central Manitoba is the tenth largest freshwater lake in the world by surface area, covering 24,500 square kilometers?",
+      "options": [
+        "Lake Winnipeg",
+        "Lake Manitoba",
+        "Lake Athabasca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Winnipeg is a remnant of glacial Lake Agassiz, draining a vast watershed from the Rockies to Ontario before emptying via the Nelson River into Hudson Bay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city is the capital and largest metropolitan city of Manitoba, located at the historic confluence of the Red and Assiniboine rivers?",
+      "options": [
+        "Regina",
+        "Winnipeg",
+        "Saskatoon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Winnipeg is home to the Canadian Museum for Human Rights, historic Exchange District architecture, and the Red River Floodway diversion canal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast deposits of heavy crude bitumen in northeastern Alberta around Fort McMurray represent one of the world largest proven petroleum reserves?",
+      "options": [
+        "Bakken Formation",
+        "Peace River Deposits",
+        "Athabasca Oil Sands"
+      ],
+      "correctIndex": 2,
+      "explanation": "The oil sands contain an estimated 165 billion barrels of recoverable bitumen, extracted using surface open-pit mining and steam-assisted gravity drainage (SAGD).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate surface area in thousands of square kilometers of Lake Winnipeg in Manitoba?",
+      "target": 25,
+      "metricUnit": "thousand square kilometers",
+      "imperialDisplay": "9,460 square miles",
+      "explanation": "Lake Winnipeg covers approximately 24,514 square kilometers (rounded to 25k sq km), making it the largest lake in southern Canada.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the national capital of Canada, chosen by Queen Victoria in 1857 on the border of Ontario and Quebec along the Ottawa River?",
+      "options": [
+        "Ottawa",
+        "Montreal",
+        "Toronto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ottawa features the Parliament Buildings on Parliament Hill and the historic 202-kilometer Rideau Canal, which transforms into the world largest ice skating rink in winter.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest city in Canada by population, located on the northwestern shore of Lake Ontario, dominated by the 553-meter CN Tower?",
+      "options": [
+        "Montreal",
+        "Toronto",
+        "Calgary"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toronto is the financial capital of Canada and one of the most multicultural cities on Earth, with more than half of its residents born outside of Canada.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island city in Quebec along the St. Lawrence River is the second most populous primarily French-speaking city in the developed world after Paris?",
+      "options": [
+        "Quebec City",
+        "Gatineau",
+        "Montreal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after Mount Royal at its center, Montreal is famous for Old Montreal cobblestone squares, the Notre-Dame Basilica, and vibrant culinary arts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic provincial capital is the only remaining fortified walled city in North America north of Mexico, founded by Samuel de Champlain in 1608?",
+      "options": [
+        "Quebec City",
+        "Halifax",
+        "St. John"
+      ],
+      "correctIndex": 0,
+      "explanation": "The UNESCO World Heritage Historic District of Old Quebec is crowned by the iconic castle-like Château Frontenac hotel overlooking the St. Lawrence River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Pacific coastal city in British Columbia is Canada busiest seaport and gateway to Asia, framed by the North Shore Mountains?",
+      "options": [
+        "Victoria",
+        "Vancouver",
+        "Kelowna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vancouver is consistently ranked among the world most livable cities, renowned for Stanley Park, Granville Island, and mild coastal rainforest climates.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total architectural height in meters of the CN Tower in downtown Toronto?",
+      "target": 553,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,815 feet",
+      "explanation": "Completed in 1976, the CN Tower stood as the world tallest freestanding structure for over thirty-one years at 553.3 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What apex marine mammal of the Arctic, known scientifically as Ursus maritimus, depends on winter sea ice platforms to hunt ringed and bearded seals?",
+      "options": [
+        "Grizzly Bear",
+        "Kermode Spirit Bear",
+        "Polar Bear"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roughly two-thirds of the world estimated 26,000 wild polar bears live across the Canadian Arctic archipelago and Hudson Bay coastline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Arctic whale species is nicknamed the Unicorn of the Sea due to the long, spiral ivory tusk that erupts from the upper left jaw of males?",
+      "options": [
+        "Narwhal Monodon monoceros",
+        "Beluga Whale",
+        "Bowhead Whale"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sensory tusk can grow up to three meters long, containing millions of nerve endings used to detect ocean salinity, temperature, and pressure.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which stocky, shaggy-coated Arctic ungulate has survived since the Pleistocene Ice Age, protected by an underwool coat called qiviut?",
+      "options": [
+        "Caribou",
+        "Muskox Ovibos moschatus",
+        "Bison"
+      ],
+      "correctIndex": 1,
+      "explanation": "Qiviut is eight times warmer than sheep wool by weight, allowing muskoxen to withstand howling minus-fifty-degree blizzards on the Arctic tundra.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rare white-furred black bear subspecies, considered sacred in First Nations oral traditions, inhabits the Great Bear Rainforest of British Columbia?",
+      "options": [
+        "Albino Black Bear",
+        "Polar-Grizzly Hybrid",
+        "Kermode Spirit Bear"
+      ],
+      "correctIndex": 2,
+      "explanation": "The white coat is caused by a recessive genetic mutation (mcr1 gene), providing camouflage when fishing for migrating Pacific salmon in sparkling river rapids.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What migratory deer species (reindeer) undertakes epic seasonal migrations of over one thousand kilometers across the tundra of northern Canada and Alaska?",
+      "options": [
+        "Barren-Ground Caribou",
+        "Moose",
+        "Elk Wapiti"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Porcupine and Qamanirjuaq caribou herds provide vital subsistence food, clothing, and cultural heritage to northern Dene and Inuit communities.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What maximum length in meters can the straight helical tusk of an adult male Narwhal reach?",
+      "target": 3,
+      "metricUnit": "meters",
+      "imperialDisplay": "9.8 feet long",
+      "explanation": "Male narwhal tusks are modified canine teeth that can grow up to three meters in length and weigh up to ten kilograms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which country in the world possesses the longest total coastline of any nation, measuring 243,042 kilometers across three oceans?",
+      "options": [
+        "Norway",
+        "Canada",
+        "Indonesia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Canada coastline borders the Pacific, Arctic, and Atlantic Oceans, with over 52,000 islands contributing to its immense perimeter.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Canada, rising 5,959 meters in the Saint Elias Mountains of Kluane National Park in the Yukon?",
+      "options": [
+        "Mount Saint Elias",
+        "Mount Lucania",
+        "Mount Logan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Logan has the largest base circumference of any non-volcanic mountain on Earth, supporting massive alpine glaciers and sub-zero summit temperatures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large Pacific island in southwestern British Columbia is home to the provincial capital Victoria and the rugged West Coast Trail?",
+      "options": [
+        "Vancouver Island",
+        "Haida Gwaii",
+        "Salt Spring Island"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vancouver Island spans 31,285 square kilometers, containing ancient temperate rainforests with giant Douglas firs and western red cedars in Cathedral Grove.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which remote archipelago off the northern coast of British Columbia is the ancestral homeland of the Haida Nation, famous for ancient cedar totem poles?",
+      "options": [
+        "Discovery Islands",
+        "Haida Gwaii Queen Charlotte Islands",
+        "Gulf Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "SGang Gwaay (Anthony Island) is a UNESCO World Heritage site featuring surviving 19th-century carved cedar mortuary poles and longhouses.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What protected coastal marine navigation route weaves through island channels between Washington State, British Columbia, and Alaska?",
+      "options": [
+        "The Northwest Passage",
+        "The Strait of Georgia",
+        "The Inside Passage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Inside Passage provides sheltered, calm waters for ferries, freighters, and cruise ships passing fjords and glacier-carved channels.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Logan, the highest mountain peak in Canada?",
+      "target": 5959,
+      "metricUnit": "meters",
+      "imperialDisplay": "19,551 feet",
+      "explanation": "Mount Logan in Kluane National Park, Yukon, stands at an official elevation of 5,959 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many total provinces and territories is the nation of Canada divided?",
+      "options": [
+        "10 Provinces and 3 Territories",
+        "12 Provinces and 2 Territories",
+        "9 Provinces and 4 Territories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Canada consists of ten provinces exercising constitutional authority and three northern territories (Yukon, NWT, Nunavut) delegated powers by the federal parliament.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total length of the Canada-United States border, making it the longest undefended international land border in the world?",
+      "options": [
+        "6,500 Kilometers",
+        "8,891 Kilometers",
+        "11,200 Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "The border encompasses 6,416 kilometers along the southern border (much along the 49th parallel) and 2,475 kilometers bordering Alaska.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest national highway in the world, spanning 7,821 kilometers across all ten Canadian provinces from Victoria to St. John?",
+      "options": [
+        "Yellowhead Highway",
+        "Alaska Highway",
+        "Trans-Canada Highway"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inaugurated in 1962, the Trans-Canada Highway (Highway 1) connects Pacific and Atlantic ferry terminals, marked by white-on-green maple leaf shields.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ranking does Canada hold among the largest countries in the world by total geographical area (encompassing land and freshwater)?",
+      "options": [
+        "Second Largest Country",
+        "Largest Country",
+        "Third Largest Country"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering 9.98 million square kilometers, Canada is second in total area only to the Russian Federation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Across how many standard time zones does the country of Canada span from Newfoundland in the east to the Yukon in the west?",
+      "options": [
+        "4 Time Zones",
+        "6 Time Zones",
+        "8 Time Zones"
+      ],
+      "correctIndex": 1,
+      "explanation": "Canada spans Pacific, Mountain, Central, Eastern, Atlantic, and the unique Newfoundland Time Zone (which is thirty minutes ahead of Atlantic Time).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Canada-United States international border?",
+      "target": 8891,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "5,525 miles",
+      "explanation": "The international boundary between Canada and the United States stretches for 8,891 kilometers (5,525 miles).",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

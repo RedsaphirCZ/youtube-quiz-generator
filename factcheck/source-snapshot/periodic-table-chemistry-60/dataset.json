@@ -1,0 +1,641 @@
+{
+  "id": "periodic-table-chemistry-60",
+  "theme": "The Periodic Table, Elements & Chemical Reactions",
+  "title": "The Periodic Table, Elements & Chemical Reactions",
+  "description": "A 60-question grand master assessment exploring Mendeleev periodic law, alkali and transition metals, carbon allotropes, bonding, acid-base dynamics, and superheavy elements.",
+  "category": "Astronomy, Physics & Chemistry",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What Russian chemist formulated the first Periodic Law in 1869, arranging elements by atomic mass and leaving gaps to predict undiscovered elements?",
+      "options": [
+        "Dmitri Mendeleev",
+        "Julius Lothar Meyer",
+        "Antoine Lavoisier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mendeleev accurately predicted the existence and physical properties of undiscovered elements including gallium (eka-aluminum) and germanium (eka-silicon)."
+    },
+    {
+      "type": "mcq",
+      "question": "What British physicist demonstrated in 1913 using X-ray emission spectroscopy that the periodic table is fundamentally ordered by atomic number nuclear charge?",
+      "options": [
+        "Ernest Rutherford",
+        "Henry Moseley",
+        "J.J. Thomson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moseley Law showed that X-ray frequency is proportional to atomic number $Z$, correctly ordering elements like tellurium and iodine regardless of atomic mass."
+    },
+    {
+      "type": "mcq",
+      "question": "What term designates the horizontal rows in the modern periodic table, corresponding directly to the principal quantum electron shell number?",
+      "options": [
+        "Groups",
+        "Blocks",
+        "Periods"
+      ],
+      "correctIndex": 2,
+      "explanation": "There are currently seven periods in the periodic table, ranging from period 1 (holding only H and He) to period 7 (ending at element 118, Oganesson)."
+    },
+    {
+      "type": "mcq",
+      "question": "What term designates the 18 vertical columns in the periodic table, grouping elements with identical numbers of valence electrons?",
+      "options": [
+        "Groups",
+        "Periods",
+        "Series"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elements in the same IUPAC group (e.g. Group 1 alkali metals, Group 17 halogens) share similar valence shell configurations and chemical reactivity."
+    },
+    {
+      "type": "mcq",
+      "question": "What periodic trend describes the minimum energy required to remove the most loosely held valence electron from an isolated gaseous atom?",
+      "options": [
+        "Electron Affinity",
+        "First Ionization Energy",
+        "Electronegativity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ionization energy increases across a period from left to right due to increasing effective nuclear charge and decreases down a group due to electron shielding."
+    },
+    {
+      "type": "number",
+      "question": "How many officially verified and IUPAC-recognized chemical elements make up the modern complete Periodic Table from Hydrogen to Oganesson?",
+      "target": 118,
+      "metricUnit": "elements",
+      "imperialDisplay": "118 chemical elements",
+      "explanation": "The modern periodic table contains exactly 118 confirmed elements, completed across all seven periods with the formal naming of elements 113, 115, 117, and 118 in 2016."
+    },
+    {
+      "type": "mcq",
+      "question": "What Group 1 alkali metal is the least dense solid metal element at standard conditions, floating easily on water and mineral oil?",
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Lithium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lithium has a density of only 0.534 g/cm3, roughly half the density of water, possessing the highest electrochemical reduction potential."
+    },
+    {
+      "type": "mcq",
+      "question": "Why must pure elemental alkali metals like sodium, potassium, and cesium be stored submerged in dry mineral oil or sealed in inert argon glass ampoules?",
+      "options": [
+        "They react violently and exothermically with atmospheric moisture and oxygen",
+        "They sublimate directly into toxic vapors",
+        "They are unstable radioactive isotopes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alkali metals have a single $s^1$ valence electron that is readily lost, reacting exothermically with water to produce caustic metal hydroxides and flammable hydrogen gas."
+    },
+    {
+      "type": "mcq",
+      "question": "What intense characteristic flame test emission color is produced when sodium metal or its salts are vaporized in a Bunsen burner flame?",
+      "options": [
+        "Crimson Red",
+        "Brilliant Yellow-Orange",
+        "Lilac Violet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermally excited valence electrons in sodium relax from the 3p to 3s orbital, emitting iconic yellow doublet spectral lines at 589.0 and 589.6 nanometers."
+    },
+    {
+      "type": "mcq",
+      "question": "What Group 2 alkaline earth metal with atomic number 12 burns with a blinding, brilliant white light used in maritime flares and pyrotechnics?",
+      "options": [
+        "Calcium",
+        "Barium",
+        "Magnesium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnesium reacts vigorously with oxygen at high temperatures to form magnesium oxide ($MgO$), emitting intense ultraviolet and visible white light."
+    },
+    {
+      "type": "mcq",
+      "question": "What alkali metal in period 6 has a low melting point of just 28.5 °C, melting in human hand temperature and reacting explosively with cold water?",
+      "options": [
+        "Cesium",
+        "Rubidium",
+        "Francium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cesium has a large atomic radius and weak metallic bonding, making it extremely soft with a melting point of 28.5 °C and the highest chemical reactivity of stable metals."
+    },
+    {
+      "type": "number",
+      "question": "What is the atomic number of Hydrogen, the lightest element and most abundant atomic substance in the universe?",
+      "target": 1,
+      "metricUnit": "atomic number",
+      "imperialDisplay": "Atomic number 1",
+      "explanation": "Hydrogen has atomic number 1, consisting of a single proton and single electron (in protium), making up over 73 percent of the baryonic mass of the universe."
+    },
+    {
+      "type": "mcq",
+      "question": "What transition metal element with atomic number 26 is the most abundant element by mass in planet Earth as a whole, concentrated heavily in the core?",
+      "options": [
+        "Nickel",
+        "Iron",
+        "Titanium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iron constitutes approximately 32.1% of Earth total mass (mostly in the core) and forms the backbone of global steel infrastructure."
+    },
+    {
+      "type": "mcq",
+      "question": "What transition metal element possesses the highest electrical and thermal conductivity of any metal at standard room temperature?",
+      "options": [
+        "Copper",
+        "Gold",
+        "Silver"
+      ],
+      "correctIndex": 2,
+      "explanation": "Silver has an electrical conductivity of $6.30 \\times 10^7$ S/m, slightly outperforming copper, though copper is more widely used due to lower cost."
+    },
+    {
+      "type": "mcq",
+      "question": "What transition metal element has the highest melting point of any pure metal in the Periodic Table at an extraordinary 3,422 degrees Celsius?",
+      "options": [
+        "Tungsten",
+        "Osmium",
+        "Platinum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tungsten (Wolfram, W) has half-filled $5d$ and $6s$ valence electron states that create exceptionally strong covalent-like metallic bonds in its crystal lattice."
+    },
+    {
+      "type": "mcq",
+      "question": "What dense transition metal is the only pure metallic element that exists in a liquid state at standard room temperature and pressure?",
+      "options": [
+        "Gallium",
+        "Mercury",
+        "Bromine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Relativistic contraction of the 6s electron shell in mercury atoms stabilizes the closed-shell configuration, weakening metallic bonding so it melts at -38.8 °C."
+    },
+    {
+      "type": "mcq",
+      "question": "What precious transition metal element with atomic number 79 is the most malleable and ductile metal known, able to be beaten into sheets 400 times thinner than hair?",
+      "options": [
+        "Platinum",
+        "Palladium",
+        "Gold"
+      ],
+      "correctIndex": 2,
+      "explanation": "A single gram of pure gold can be hammered into a one-square-meter sheet of translucent gold leaf or drawn into a wire over two kilometers long."
+    },
+    {
+      "type": "number",
+      "question": "What is the melting point in degrees Celsius of the refractory transition metal Tungsten W, the highest melting point of any metal?",
+      "target": 3422,
+      "metricUnit": "celsius",
+      "imperialDisplay": "3,422 °C (6,192 °F)",
+      "explanation": "Tungsten possesses the highest melting point of all pure metals at 3,422 °C (3,695 Kelvin), widely used in incandescent filaments, rocket nozzles, and welding electrodes."
+    },
+    {
+      "type": "mcq",
+      "question": "What Group 17 halogen gas is the most chemically reactive and electronegative element in the entire Periodic Table?",
+      "options": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fluorine has a Pauling electronegativity of 3.98, reacting aggressively with virtually all other elements (including water, glass, and noble gases like xenon)."
+    },
+    {
+      "type": "mcq",
+      "question": "What dense, fuming reddish-brown halogen is the only non-metallic element that exists as a liquid at standard room temperature?",
+      "options": [
+        "Iodine",
+        "Bromine",
+        "Chlorine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bromine (Br2) boils at 58.8 °C and freezes at -7.2 °C, giving off pungent, corrosive reddish vapors that attack mucous membranes."
+    },
+    {
+      "type": "mcq",
+      "question": "What Group 18 noble gas was first discovered by astronomers in the solar spectrum during an 1868 eclipse before being found on Earth?",
+      "options": [
+        "Neon",
+        "Argon",
+        "Helium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pierre Janssen and Norman Lockyer identified a yellow spectral line (D3) in solar prominences, naming the element Helium after the Greek sun god Helios."
+    },
+    {
+      "type": "mcq",
+      "question": "What foundational chemical rule states that main-group atoms tend to gain, lose, or share electrons to attain a stable valence configuration of eight electrons?",
+      "options": [
+        "The Octet Rule",
+        "Hund Rule",
+        "Aufbau Principle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formulated by Gilbert Lewis, the octet rule reflects the thermodynamic stability of completely filled $s^2 p^6$ valence electron configurations like noble gases."
+    },
+    {
+      "type": "mcq",
+      "question": "What radioactive, dense noble gas element accumulates in building basements from the natural decay chain of uranium in granite rocks and soils?",
+      "options": [
+        "Xenon",
+        "Radon",
+        "Krypton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radon-222 is an alpha-emitting radioactive gas with a 3.8-day half-life, representing the second leading cause of lung cancer after tobacco smoking."
+    },
+    {
+      "type": "number",
+      "question": "What is the highest Pauling scale electronegativity value in chemistry, held by the element Fluorine?",
+      "target": 3.98,
+      "metricUnit": "Pauling value",
+      "imperialDisplay": "3.98 on Pauling scale",
+      "explanation": "Fluorine has the highest electronegativity of any element at 3.98 on the Pauling scale, defining the upper benchmark of atomic electron attraction."
+    },
+    {
+      "type": "mcq",
+      "question": "What unique chemical capability of carbon allows it to form strong, stable covalent bonds with other carbon atoms to build infinite chains and rings?",
+      "options": [
+        "Chelation",
+        "Allotropy",
+        "Catenation"
+      ],
+      "correctIndex": 2,
+      "explanation": "High carbon-carbon bond enthalpy (347 kJ/mol) combined with tetravalence allows carbon to build the millions of complex molecules that form organic life."
+    },
+    {
+      "type": "mcq",
+      "question": "What carbon allotrope consists of a single atom-thick two-dimensional sheet of sp2 carbon atoms in a hexagonal honeycomb lattice, stronger than steel?",
+      "options": [
+        "Graphene",
+        "Diamond",
+        "Lonsdaleite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolated in 2004 by Andre Geim and Konstantin Novoselov (2010 Nobel Prize), graphene has extraordinary electrical mobility and 200-times steel tensile strength."
+    },
+    {
+      "type": "mcq",
+      "question": "What spherical carbon cage molecule composed of 60 carbon atoms in truncated icosahedron rings resembles a geometric soccer ball?",
+      "options": [
+        "Carbon Nanotube",
+        "Buckminsterfullerene C60",
+        "Amorphous Carbon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered by Kroto, Curl, and Smalley in 1985 (1996 Nobel Prize), fullerenes opened the field of carbon nanotechnology and supramolecular chemistry."
+    },
+    {
+      "type": "mcq",
+      "question": "What soft, grey-black carbon allotrope consists of stacked graphene layers held together by weak van der Waals forces, making it an excellent dry lubricant?",
+      "options": [
+        "Diamond",
+        "Graphene Oxide",
+        "Graphite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Delocalized pi electrons in graphite sheets allow it to conduct electricity, while easy sliding between adjacent layers makes it soft enough for pencil leads."
+    },
+    {
+      "type": "mcq",
+      "question": "What major branch of chemistry is dedicated exclusively to the study of carbon-containing compounds, structures, and reaction mechanisms?",
+      "options": [
+        "Organic Chemistry",
+        "Inorganic Chemistry",
+        "Physical Chemistry"
+      ],
+      "correctIndex": 0,
+      "explanation": "Organic chemistry investigates the synthesis, stereochemistry, and reactivity of hydrocarbons and their functional group derivatives in biology and materials."
+    },
+    {
+      "type": "number",
+      "question": "How many valence electrons does a neutral ground-state Carbon atom possess in its outer shell, enabling tetravalent bonding?",
+      "target": 4,
+      "metricUnit": "valence electrons",
+      "imperialDisplay": "4 valence electrons (2s2 2p2)",
+      "explanation": "Carbon (atomic number 6) has an electron configuration of $1s^2 2s^2 2p^2$, providing exactly four valence electrons that form $sp^3, sp^2$, or $sp$ hybrid orbitals."
+    },
+    {
+      "type": "mcq",
+      "question": "What series of 15 f-block metallic elements spanning atomic numbers 57 to 71 is critical for neodymium super-magnets, lasers, and smartphones?",
+      "options": [
+        "Actinides",
+        "Lanthanides Rare Earth Elements",
+        "Alkali Metals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lanthanides fill the 4f electron subshell, exhibiting the Lanthanide Contraction which causes atomic radii to decrease smoothly across the row."
+    },
+    {
+      "type": "mcq",
+      "question": "What naturally occurring radioactive actinide isotope is the primary fissile fuel enriched for commercial nuclear power reactors?",
+      "options": [
+        "Uranium-238",
+        "Thorium-232",
+        "Uranium-235"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uranium-235 undergoes induced nuclear fission when struck by a thermal neutron, releasing 200 MeV of energy and 2 to 3 prompt neutrons per fission."
+    },
+    {
+      "type": "mcq",
+      "question": "What synthetic radioactive actinide element named after the Americas was created in 1944 and is utilized in household ionization smoke detectors?",
+      "options": [
+        "Americium",
+        "Curium",
+        "Californium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Americium-241 emits alpha particles that ionize air molecules inside a chamber; smoke particles interrupt the electric current, triggering the alarm."
+    },
+    {
+      "type": "mcq",
+      "question": "What physical parameter defines the exact time required for one-half of the radioactive nuclei in an unstable radioisotope sample to decay?",
+      "options": [
+        "Decay Constant",
+        "Half-Life",
+        "Mean Lifetime"
+      ],
+      "correctIndex": 1,
+      "explanation": "Described by exponential decay law $N(t) = N_0 (1/2)^{t/t_{1/2}}$, half-lives range from fractions of a microsecond to billions of years (e.g., U-238: 4.5 billion years)."
+    },
+    {
+      "type": "mcq",
+      "question": "Who is the only scientist in history to receive Nobel Prizes in two different scientific fields, Physics (1903) and Chemistry (1911), for discovering radium and polonium?",
+      "options": [
+        "Pierre Curie",
+        "Ernest Rutherford",
+        "Marie Curie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marie Sklodowska Curie coined the term radioactivity, developed mobile X-ray units during WWI, and isolated pure radium metal."
+    },
+    {
+      "type": "number",
+      "question": "What is the atomic number of Uranium, the heaviest naturally occurring primordial chemical element on the Periodic Table?",
+      "target": 92,
+      "metricUnit": "atomic number",
+      "imperialDisplay": "Atomic number 92",
+      "explanation": "Uranium has atomic number 92; all elements with higher atomic numbers ($Z \\ge 93$) are synthetic transuranic elements created in nuclear reactors or accelerators."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of chemical bond forms from the electrostatic attraction between oppositely charged cations and anions after electron transfer?",
+      "options": [
+        "Ionic Bond",
+        "Covalent Bond",
+        "Metallic Bond"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ionic bonds typically form between elements with large electronegativity differences ($Delta EN > 2.0$), such as sodium and chlorine in table salt crystals."
+    },
+    {
+      "type": "mcq",
+      "question": "What chemical bond is formed when two non-metal atoms share pairs of valence electrons to achieve stable noble-gas electron configurations?",
+      "options": [
+        "Ionic Bond",
+        "Covalent Bond",
+        "Hydrogen Bond"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covalent bonds involve overlapping atomic orbitals, forming sigma and pi bonding molecular orbitals that hold molecules together."
+    },
+    {
+      "type": "mcq",
+      "question": "What chemical model predicts three-dimensional molecular geometries by minimizing electrostatic repulsion between bonding and lone electron pairs?",
+      "options": [
+        "Molecular Orbital Theory",
+        "Crystal Field Theory",
+        "VSEPR Theory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valence Shell Electron Pair Repulsion VSEPR predicts linear, trigonal planar, tetrahedral, trigonal bipyramidal, and octahedral molecular shapes."
+    },
+    {
+      "type": "mcq",
+      "question": "What strong dipole-dipole intermolecular attraction occurs when hydrogen is covalently bonded to highly electronegative nitrogen, oxygen, or fluorine?",
+      "options": [
+        "Hydrogen Bonding",
+        "London Dispersion Force",
+        "Dipole-Induced Dipole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hydrogen bonding gives liquid water its unusually high boiling point, surface tension, and expanded density structure when freezing into ice."
+    },
+    {
+      "type": "mcq",
+      "question": "What bond angle in degrees characterizes the perfect tetrahedral molecular geometry of a methane molecule (CH4)?",
+      "options": [
+        "120.0 degrees",
+        "109.5 degrees",
+        "90.0 degrees"
+      ],
+      "correctIndex": 1,
+      "explanation": "Four equivalent $sp^3$ hybrid orbital bonding pairs orient to maximize spatial separation in 3D, creating the classic 109.5-degree tetrahedral angle."
+    },
+    {
+      "type": "number",
+      "question": "What is the measured bond angle in degrees between the two hydrogen-oxygen bonds in a bent liquid water molecule H2O?",
+      "target": 104.5,
+      "metricUnit": "degrees",
+      "imperialDisplay": "104.5° bond angle",
+      "explanation": "The two non-bonding lone pairs of electrons on the oxygen atom exert greater electrostatic repulsion than bonding pairs, compressing the tetrahedral angle from 109.5° down to 104.5°."
+    },
+    {
+      "type": "mcq",
+      "question": "According to the Bronsted-Lowry acid-base theory, how is an acid fundamentally defined in chemical reactions?",
+      "options": [
+        "An electron pair donor",
+        "A hydroxide OH- generator only",
+        "A chemical species that donates a proton H+"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Bronsted-Lowry model, an acid is a proton donor and a base is a proton acceptor, forming conjugate acid-base pairs."
+    },
+    {
+      "type": "mcq",
+      "question": "What logarithmic scale devised by Soren Sorensen in 1909 measures the hydrogen ion concentration ($-\\log_{10}[H^+]$) of an aqueous solution?",
+      "options": [
+        "pH Scale",
+        "pOH Scale",
+        "Arrhenius Scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the pH scale is logarithmic, each unit change represents a 10-fold change in acidity (e.g. pH 3 is ten times more acidic than pH 4)."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the exact pH value of pure neutral water at standard room temperature of 25 degrees Celsius?",
+      "options": [
+        "0.0",
+        "7.0",
+        "14.0"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 25 °C, the autoionization constant of water $K_w = 1.0 \\times 10^{-14}$, making $[H^+] = [OH^-] = 1.0 \\times 10^{-7}$ M, which yields pH 7.0."
+    },
+    {
+      "type": "mcq",
+      "question": "What solution containing a weak acid and its conjugate base resists changes in pH when small amounts of strong acid or base are added?",
+      "options": [
+        "Saturated Solution",
+        "Supercritical Fluid",
+        "Buffer Solution"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buffers like the carbonic acid-bicarbonate system in human blood ($H_2CO_3 / HCO_3^-$) maintain blood pH tightly between 7.35 and 7.45."
+    },
+    {
+      "type": "mcq",
+      "question": "What quantitative analytical laboratory method determines the unknown concentration of an acid by neutralizing it with a standardized base solution?",
+      "options": [
+        "Titration",
+        "Chromatography",
+        "Fractional Distillation"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a titration, a buret delivers titrant into an analyte solution until a chemical indicator or pH meter detects the stoichiometric equivalence point."
+    },
+    {
+      "type": "number",
+      "question": "What is the pH value of pure neutral distilled water at standard room temperature 25 °C?",
+      "target": 7,
+      "metricUnit": "pH",
+      "imperialDisplay": "pH 7.0 neutral",
+      "explanation": "At standard room temperature (25 °C), pure water has equal concentrations of $H^+$ and $OH^-$ ions ($10^{-7}$ M), yielding a neutral pH of exactly 7.0."
+    },
+    {
+      "type": "mcq",
+      "question": "What minimum energy barrier must colliding reactant molecules overcome in order to break bonds and reach the transition state in a reaction?",
+      "options": [
+        "Enthalpy of Reaction",
+        "Activation Energy",
+        "Gibbs Free Energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to the Arrhenius equation $k = A e^{-E_a/RT}$, reaction rates increase exponentially with temperature as more molecules surpass activation energy."
+    },
+    {
+      "type": "mcq",
+      "question": "What substance speeds up the rate of a chemical reaction by providing an alternative reaction pathway with lower activation energy without being consumed?",
+      "options": [
+        "Inhibitor",
+        "Reagent",
+        "Catalyst"
+      ],
+      "correctIndex": 2,
+      "explanation": "Catalysts increase both forward and reverse reaction rates equally without altering the chemical equilibrium position or Gibbs free energy."
+    },
+    {
+      "type": "mcq",
+      "question": "What thermodynamic state function measures the degree of molecular disorder, randomness, or dispersal of energy microstates in a system?",
+      "options": [
+        "Entropy S",
+        "Enthalpy H",
+        "Internal Energy U"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Second Law of Thermodynamics states that the total entropy of an isolated system always increases over time ($Delta S_{univ} > 0$ for spontaneous processes)."
+    },
+    {
+      "type": "mcq",
+      "question": "What chemical principle states that when a dynamic equilibrium is subjected to a change in concentration, temperature, or pressure, the system shifts to counteract it?",
+      "options": [
+        "Hess Law",
+        "Le Chatelier Principle",
+        "Raoult Law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered by Henri Le Chatelier in 1884, this principle allows chemical engineers to maximize ammonia yields in the Haber-Bosch process."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of chemical reaction releases thermal heat energy to the surroundings, exhibiting a negative enthalpy change ($Delta H < 0$)?",
+      "options": [
+        "Endothermic Reaction",
+        "Adiabatic Reaction",
+        "Exothermic Reaction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Exothermic reactions, like hydrocarbon combustion and acid-base neutralizations, release energy because product bonds are stronger than reactant bonds."
+    },
+    {
+      "type": "number",
+      "question": "What is the power of 10 exponent value n in Avogadro number 6.022 x 10^n particles per mole?",
+      "target": 23,
+      "metricUnit": "power of 10",
+      "imperialDisplay": "6.022 x 10^23 particles/mol",
+      "explanation": "Avogadro constant $N_A = 6.02214076 \\times 10^{23} \\text{ mol}^{-1}$ defines the exact number of constituent particles (atoms, molecules) in one mole of substance."
+    },
+    {
+      "type": "mcq",
+      "question": "What superheavy synthetic noble gas element with atomic number 118 completes the seventh period of the Periodic Table, named after physicist Yuri Oganessian?",
+      "options": [
+        "Oganesson Og",
+        "Tennessine Ts",
+        "Livermorium Lv"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oganesson was synthesized at the Flerov Laboratory in Dubna, Russia by bombarding Californium-249 targets with accelerated Calcium-48 ions."
+    },
+    {
+      "type": "mcq",
+      "question": "What theoretical region of the nuclear chart predicts that certain superheavy nuclei with magic numbers of protons and neutrons may exhibit longer half-lives?",
+      "options": [
+        "Valley of Stability",
+        "Island of Stability",
+        "Neutron Drip Edge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glenn Seaborg predicted that closed nuclear shells around $Z=114-126$ and $N=184$ would dramatically slow alpha decay, potentially yielding longer-lived superheavy atoms."
+    },
+    {
+      "type": "mcq",
+      "question": "What superheavy halogen element with atomic number 117 was synthesized jointly by Russian and American scientists, named after the US state of Tennessee?",
+      "options": [
+        "Californium",
+        "Moscovium",
+        "Tennessine Ts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tennessine was officially named in 2016 in recognition of the contributions of Oak Ridge National Laboratory, Vanderbilt University, and UT Knoxville."
+    },
+    {
+      "type": "mcq",
+      "question": "What heavy ion particle projectile ($Z=20, A=48$) with neutron-rich magic structure is widely used in cyclotrons to synthesize superheavy elements?",
+      "options": [
+        "Calcium-48",
+        "Iron-56",
+        "Carbon-12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calcium-48 is a doubly-magic isotope (20 protons, 28 neutrons) that provides extra nuclear stability during fusion collisions with actinide targets."
+    },
+    {
+      "type": "mcq",
+      "question": "What superheavy element with atomic number 115 was officially named after the Moscow Oblast region where the Joint Institute for Nuclear Research is located?",
+      "options": [
+        "Flerovium Fl",
+        "Moscovium Mc",
+        "Dubnium Db"
+      ],
+      "correctIndex": 1,
+      "explanation": "Element 115 was officially named Moscovium by IUPAC in 2016 to honor the ancient Russian region hosting the Dubna synthesis experiments."
+    },
+    {
+      "type": "number",
+      "question": "What is the highest atomic number element currently synthesized, verified, and officially named on the modern Periodic Table Oganesson?",
+      "target": 118,
+      "metricUnit": "atomic number",
+      "imperialDisplay": "Element 118 (Oganesson)",
+      "explanation": "Oganesson ($Z=118$) occupies the final position in Period 7 and Group 18, representing the highest atomic number element verified to date."
+    }
+  ]
+}

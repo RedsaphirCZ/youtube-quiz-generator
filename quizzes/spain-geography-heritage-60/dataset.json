@@ -1,0 +1,703 @@
+{
+  "id": "spain-geography-heritage-60",
+  "theme": "Spain: Geography, Moorish Castles & Mediterranean Coast",
+  "title": "Spain: Geography, Moorish Castles & Mediterranean Coast",
+  "description": "A 60-question grand master assessment exploring the Meseta Central & Mulhacén, Gaudí & Catalonia, the Alhambra & Andalusia, Mount Teide & Canary Islands, Balearic Islands, Green Spain, Roman Segovia, and 17 Autonomous Communities.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What vast, high-altitude interior plateau covering over 200,000 square kilometers forms the geographical heart of the Iberian Peninsula in Spain?",
+      "options": [
+        "The Meseta Central",
+        "The Ebro Basin",
+        "The Baetic Depression"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Meseta Central averages roughly 650 to 700 meters elevation, divided by the Sistema Central mountains into Old Castile and New Castile.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city is the national capital of Spain, holding the distinction of being the second highest national capital in Europe at 667 meters elevation?",
+      "options": [
+        "Toledo",
+        "Madrid",
+        "Valladolid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Located in the geographic center of the Iberian Peninsula along the Manzanares River, Madrid became the permanent imperial capital under King Philip II in 1561.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river flowing entirely or partially across the Iberian Peninsula, stretching 1,007 kilometers from Spain to Lisbon in Portugal?",
+      "options": [
+        "Ebro River",
+        "Guadiana River",
+        "Tagus River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Tagus originates in the Montes Universales in Aragon and flows westward through Aranjuez, Toledo, and Talavera de la Reina before entering the Atlantic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak on the mainland of Spain and the Iberian Peninsula, rising 3,479 meters in the Sierra Nevada of Andalusia?",
+      "options": [
+        "Mulhacén",
+        "Pico Veleta",
+        "Aneto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mulhacén is named after Abu l-Hasan Ali (Muley Hacén), the penultimate Muslim King of Granada, who was reputedly buried on its summit in 1485.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain range forms the 430-kilometer natural physical border between northern Spain and France, stretching from the Bay of Biscay to the Mediterranean?",
+      "options": [
+        "Cantabrian Mountains",
+        "The Pyrenees Pirineos",
+        "Iberian System"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Spanish Pyrenees feature Ordesa y Monte Perdido National Park, with limestone canyons and the highest Pyrenean peak, Pico Aneto (3,404 m).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mulhacén, the highest peak on the Spanish mainland?",
+      "target": 3479,
+      "metricUnit": "meters",
+      "imperialDisplay": "11,414 feet",
+      "explanation": "Mulhacén in the Sierra Nevada mountain range of Granada stands at 3,479 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic modernist basilica in Barcelona, designed by architect Antoni Gaudí, has been under construction since 1882 and features eighteen planned towers?",
+      "options": [
+        "Barcelona Cathedral",
+        "Santa Maria del Mar",
+        "Basílica de la Sagrada Família"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gaudí combined Gothic and Art Nouveau organic forms, dedicating forty-three years to the basilica until his death in 1926.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous multi-peaked serrated mountain range northwest of Barcelona is home to the ancient Benedictine Santa Maria de Montserrat Abbey?",
+      "options": [
+        "Montserrat",
+        "Montseny",
+        "Tibidabo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Montserrat (meaning 'serrated mountain') is a dramatic conglomerate rock formation that houses the Virgin of Montserrat (La Moreneta) black Madonna.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rugged, picturesque coastline in northeastern Catalonia stretches from Blanes to the French border, famous for pine-fringed rocky coves?",
+      "options": [
+        "Costa Dorada",
+        "Costa Brava",
+        "Costa del Sol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Costa Brava (Wild Coast) inspired Surrealist painter Salvador Dalí, whose home and museum are located in Cadaqués and Figueres.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river located entirely within the territory of Spain, flowing 910 kilometers from Cantabria to its Mediterranean delta in Catalonia?",
+      "options": [
+        "Duero River",
+        "Guadalquivir River",
+        "Ebro River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ebro Delta is one of the largest wetland regions in the western Mediterranean, producing immense rice harvests and supporting flamingos.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-altitude Pyrenean valley in northwestern Catalonia is the only Spanish territory located on the northern Atlantic drainage slope of the Pyrenees?",
+      "options": [
+        "Val d Aran",
+        "Cerdanya",
+        "Ripollès"
+      ],
+      "correctIndex": 0,
+      "explanation": "Val d'Aran retains its own co-official Romance language (Aranese, a dialect of Gascon Occitan) and premier ski resort Baqueira-Beret.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did construction on Antoni Gaudí masterwork, the Sagrada Família in Barcelona, officially begin?",
+      "target": 1882,
+      "metricUnit": "year",
+      "imperialDisplay": "1882 AD",
+      "explanation": "Construction of the Sagrada Família began under architect Francisco de Paula del Villar on March 19, 1882, before Gaudí took over in 1883.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which magnificent Moorish palace-citadel complex in Granada, constructed under the Nasrid Dynasty, was the last Islamic royal stronghold in Spain?",
+      "options": [
+        "The Alcázar of Seville",
+        "The Alhambra",
+        "Medina Azahara"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Alhambra features the Court of the Lions, exquisite stucco arabesques, and the Generalife summer palace gardens with tiered fountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental 8th-century Islamic hypostyle mosque in Andalusia, famed for 856 jasper and marble pillars with two-tiered red-and-white arches, had a Christian cathedral built in its center?",
+      "options": [
+        "Alhambra Mosque",
+        "Koutoubia",
+        "Mezquita-Cathedral of Córdoba"
+      ],
+      "correctIndex": 2,
+      "explanation": "Expanded under the Umayyad Caliphs of Córdoba, it was one of the largest mosques in the medieval Islamic world before being consecrated as a cathedral in 1236.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the only major navigable commercial river in Spain, flowing through Córdoba and Seville to empty into the Gulf of Cádiz at Sanlúcar de Barrameda?",
+      "options": [
+        "Guadalquivir River",
+        "Guadiana River",
+        "Genil River"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originating from Arabic Wadi al-Kabir (Great River), the Guadalquivir was the departure port for Ferdinand Magellan and Spanish treasure galleons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Andalusian province is the olive oil capital of the world, containing over sixty million olive trees producing more olive oil than all of Italy combined?",
+      "options": [
+        "Seville",
+        "Jaén",
+        "Málaga"
+      ],
+      "correctIndex": 1,
+      "explanation": "The vast rolling Sea of Olives (Mar de Olivos) in Jaén produces high-polyphenol Picual extra virgin olive oil across picturesque limestone hills.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous, dramatic gorge in the Andalusian mountain town of Ronda is spanned by the 18th-century 98-meter-high Puente Nuevo stone bridge?",
+      "options": [
+        "Garganta del Chorro",
+        "Despeñaperros Gorge",
+        "El Tajo Gorge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carved by the Guadalevín River, the 120-meter canyon divides the historic Moorish old town of Ronda from its 18th-century bullfighting quarter.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what historic year did Catholic Monarchs Ferdinand and Isabella complete the Reconquista by accepting the surrender of Granada?",
+      "target": 1492,
+      "metricUnit": "year",
+      "imperialDisplay": "1492 AD",
+      "explanation": "On January 2, 1492, Sultan Muhammad XII (Boabdil) surrendered the keys of the Alhambra and Granada, ending nearly eight centuries of Al-Andalus rule.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in all of Spain and highest point in the Atlantic Ocean, an active stratovolcano rising 3,715 meters on Tenerife?",
+      "options": [
+        "Mount Teide Pico del Teide",
+        "Roque de los Muchachos",
+        "Pico de las Nieves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Measured from its base on the Atlantic ocean floor, Teide is the third tallest volcanic structure in the world after Mauna Kea and Mauna Loa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcanic island in the Canary archipelago is world-famous for the fiery volcanic landscapes and geothermal restaurant barbecues of Timanfaya National Park?",
+      "options": [
+        "Fuerteventura",
+        "Lanzarote",
+        "El Hierro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eruptions between 1730 and 1736 covered one-fourth of Lanzarote in basaltic lava and lapilli, where local farmers dig stone semicircles (zocos) to grow vines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On which steep, mountainous Canary Island is the unique whistled language Silbo Gomero used by locals to communicate across deep volcanic ravines?",
+      "options": [
+        "La Palma",
+        "Tenerife",
+        "La Gomera"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Gomera contains Garajonay National Park, preserving an ancient Tertiary relic cloud forest of laurel trees (Laurisilva) fed by Atlantic mist.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island in the Canary Islands archipelago hosts the Roque de los Muchachos Observatory, one of the world premier astronomical telescope sites?",
+      "options": [
+        "La Palma",
+        "Gran Canaria",
+        "El Hierro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perched at 2,396 meters above the inversion cloud layer, La Palma hosts the Gran Telescopio Canarias, one of the world largest optical reflecting telescopes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What cold ocean current flows southward past the Canary Islands and the northwest coast of Africa, moderating temperatures into year-round spring?",
+      "options": [
+        "Gulf Stream",
+        "Canary Current",
+        "Benguela Current"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Canary Current brings cool North Atlantic water that suppresses tropical storms and keeps coastal temperatures comfortably between 18°C and 25°C.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Teide on Tenerife, the highest point in all Spanish territory?",
+      "target": 3715,
+      "metricUnit": "meters",
+      "imperialDisplay": "12,188 feet",
+      "explanation": "Mount Teide on Tenerife in the Canary Islands stands at exactly 3,715 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest of the Balearic Islands in the western Mediterranean, famous for the rugged Serra de Tramuntana limestone mountain range?",
+      "options": [
+        "Menorca",
+        "Ibiza",
+        "Mallorca Majorca"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mallorca capital Palma is crowned by the Gothic Cathedral of Santa Maria (La Seu) overlooking the bay, while the Serra de Tramuntana is a UNESCO cultural landscape.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Balearic island is a designated UNESCO Biosphere Reserve, renowned for pristine turquoise coves, stone talaiot towers, and horse riding trails?",
+      "options": [
+        "Menorca Minorca",
+        "Ibiza",
+        "Formentera"
+      ],
+      "correctIndex": 0,
+      "explanation": "Menorca Camí de Cavalls is an ancient 185-kilometer coastal bridle path encircling the island past megalithic prehistoric T-shaped stone taulas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Balearic island is world-renowned for electronic dance music nightlife, whitewashed architecture, and the fortified Renaissance citadel Dalt Vila?",
+      "options": [
+        "Formentera",
+        "Ibiza Eivissa",
+        "Cabrera"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ibiza UNESCO listing honors both its biodiversity of oceanic Posidonia seagrass meadows and the ancient Phoenician archaeological settlement of Sa Caleta.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What coastal freshwater lagoon and national park south of Valencia is the historical cradle and agricultural origin of authentic Spanish Paella?",
+      "options": [
+        "Mar Menor",
+        "Delta del Ebro",
+        "Albufera de Valencia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Traditional Paella Valenciana originated among rural rice farmers around Lake Albufera, cooked over orange-wood fires with bomba rice, rabbit, chicken, and green beans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest saltwater lagoon in Europe, separated from the Mediterranean Sea by a 22-kilometer sand spit called La Manga in Murcia?",
+      "options": [
+        "Mar Menor",
+        "Albufera",
+        "Laguna de Gallocanta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mar Menor covers 170 square kilometers, known for warm shallow waters, high mineral salinity, and therapeutic mud baths at San Pedro del Pinatar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many main inhabited islands comprise the Balearic Islands archipelago (Mallorca, Menorca, Ibiza, and Formentera)?",
+      "target": 4,
+      "metricUnit": "islands",
+      "imperialDisplay": "4 main islands",
+      "explanation": "The Balearic Islands archipelago consists of four principal inhabited islands: Mallorca, Menorca, Ibiza, and Formentera, plus smaller uninhabited islets like Cabrera.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which capital city of Galicia in northwestern Spain is the historic terminus of the Camino de Santiago pilgrimage route at its monumental Romanesque cathedral?",
+      "options": [
+        "A Coruña",
+        "Santiago de Compostela",
+        "Vigo"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to tradition, the cathedral houses the relics of Saint James the Apostle, drawing hundreds of thousands of backpackers and pilgrims annually.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic limestone mountain range in Asturias, Cantabria, and León features towering peaks like Naranjo de Bulnes and the sacred Sanctuary of Covadonga?",
+      "options": [
+        "Cantabrian Mountains",
+        "Sierra de Gredos",
+        "Picos de Europa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Created in 1918 as the National Park of the Mountain of Covadonga, it was the first national park created in Spain, famous for traditional blue Cabrales cheese.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which titanium-clad contemporary art museum designed by Frank Gehry opened in 1997 on the Nervión River in Bilbao, revitalizing the Basque industrial city?",
+      "options": [
+        "Guggenheim Museum Bilbao",
+        "Reina Sofía Museum",
+        "Prado Museum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phenomenal economic and architectural transformation of Bilbao through cultural infrastructure became known globally as the Bilbao Effect.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal Basque resort city on the Bay of Biscay is celebrated for its crescent-shaped La Concha beach and having the highest concentration of Michelin stars in Europe?",
+      "options": [
+        "Bilbao",
+        "San Sebastián Donostia",
+        "Vitoria-Gasteiz"
+      ],
+      "correctIndex": 1,
+      "explanation": "San Sebastián is the culinary capital of Spain, legendary for its pintxos bar culture, International Film Festival, and Mount Urgull fortress.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Roman lighthouse in A Coruña, Galicia, built in the 1st century CE, is the oldest functioning Roman lighthouse in the world?",
+      "options": [
+        "Pharos of Brigantium",
+        "Finisterre Light",
+        "Tower of Hercules Torre de Hércules"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rising fifty-five meters above the rocky Atlantic coast, the UNESCO World Heritage lighthouse has guided mariners for nearly two thousand years.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the landmark Frank Gehry-designed Guggenheim Museum Bilbao officially open in Spain?",
+      "target": 1997,
+      "metricUnit": "year",
+      "imperialDisplay": "1997 AD",
+      "explanation": "The Guggenheim Museum Bilbao was inaugurated on October 18, 1997, by King Juan Carlos I of Spain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage medieval city in Castile and León is completely encircled by 2.5 kilometers of intact 11th-century granite walls with eighty-eight towers?",
+      "options": [
+        "Ávila",
+        "Segovia",
+        "Salamanca"
+      ],
+      "correctIndex": 0,
+      "explanation": "The medieval walls of Ávila are among the most complete city fortifications in Europe, famous as the birthplace of Christian mystic Saint Teresa of Ávila.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental ancient Roman granite aqueduct in central Spain was constructed around 100 CE without a single drop of mortar, spanning 800 meters across the city?",
+      "options": [
+        "Les Ferreres Aqueduct",
+        "Aqueduct of Segovia",
+        "Almuñécar Aqueduct"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Aqueduct of Segovia consists of 167 double-tiered arches built from 20,400 dry-stacked Guadarrama granite blocks, carrying water from the Fuenfría spring.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic city on a rocky gorge above the Tagus River was the capital of Visigothic Spain, renowned as the City of Three Cultures (Christian, Muslim, Jewish)?",
+      "options": [
+        "Valladolid",
+        "Burgos",
+        "Toledo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Toledo was famed for its medieval Translation School and damascene steel sword manufacturing, home to Greek-Spanish painter El Greco.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which group of twelve 16th-century whitewashed windmills atop the Cerro Calderico ridge in La Mancha is famously associated with Don Quixote tilting at giants?",
+      "options": [
+        "Windmills of Consuegra",
+        "Windmills of Mota del Cuervo",
+        "Windmills of Valdepeñas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Named after characters in Cervantes novel (like Sancho and Rucio), the windmills ground wheat into flour across the arid plains of Castile-La Mancha.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which fairy-tale medieval castle-palace in Segovia, shaped like the bow of a ship on a rocky crag, was a major inspiration for Walt Disney Cinderella Castle?",
+      "options": [
+        "Castillo de Coca",
+        "Alcázar of Segovia",
+        "Castillo de Belmonte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originally built as a Roman and Moorish fortress, the Alcázar was expanded by the Trastámara dynasty, where Isabella I was proclaimed Queen of Castile in 1474.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total stone arches comprise the double-tiered Roman Aqueduct of Segovia in central Spain?",
+      "target": 167,
+      "metricUnit": "arches",
+      "imperialDisplay": "167 granite arches",
+      "explanation": "The Roman Aqueduct of Segovia features exactly 167 interlocking granite arches rising up to 28.5 meters above the Plaza del Azoguejo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which prestigious wine region in northern Spain along the Ebro River is world-renowned for oak-aged red wines made primarily from the Tempranillo grape?",
+      "options": [
+        "Ribera del Duero",
+        "Priorat",
+        "La Rioja"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Rioja was the first Spanish wine region to receive the premier Denominación de Origen Calificada (DOCa) status, classified as Crianza, Reserva, and Gran Reserva.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous fortified white wine, aged through a dynamic fractional blending solera system, is produced exclusively in the Sherry Triangle around Jerez de la Frontera in Andalusia?",
+      "options": [
+        "Sherry Jerez Xérès",
+        "Cava",
+        "Rueda"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sherry is made from Palomino, Pedro Ximénez, or Moscatel grapes grown in chalky white albariza soil, producing dry Finos under a biological yeast veil (flor).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-renowned Spanish dry-cured ham is produced from free-range black Iberian pigs that forage on sweet acorns (bellotas) in oak dehesa forests?",
+      "options": [
+        "Jamón Serrano",
+        "Jamón Ibérico de Bellota",
+        "Cecina de León"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cured for up to four years in mountain cellars in Jabugo and Guijuelo, the acorn diet enriches the meat with oleic acid, giving it a melt-in-the-mouth texture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world total commercial olive oil production is supplied by the groves and mills of Spain, making it the undisputed global leader?",
+      "options": [
+        "25 Percent",
+        "65 Percent",
+        "45 Percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spain produces approximately 1.3 to 1.8 million metric tons of olive oil annually, accounting for roughly forty-five percent of global olive oil output.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-value culinary spice, hand-harvested from the purple stigmas of Crocus sativus flowers, is grown across the arid plateaus of Castile-La Mancha?",
+      "options": [
+        "Saffron Azafrán",
+        "Paprika Pimentón",
+        "Turmeric"
+      ],
+      "correctIndex": 0,
+      "explanation": "It requires over 150,000 hand-picked purple crocus flowers to produce one single kilogram of La Mancha saffron, the signature golden flavoring in authentic paella.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the world total olive oil supply is produced annually by olive orchards in Spain?",
+      "target": 45,
+      "metricUnit": "percent",
+      "imperialDisplay": "45% of global olive oil",
+      "explanation": "Spain supplies roughly 45 percent of all the olive oil on Earth, centered primarily in the southern autonomous community of Andalusia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What strategic maritime strait, measuring just fourteen kilometers wide at its narrowest point, separates Spain and Europe from Morocco and the African continent?",
+      "options": [
+        "Strait of Messina",
+        "Strait of Gibraltar",
+        "Strait of Bonifacio"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Strait of Gibraltar connects the Atlantic Ocean to the Mediterranean Sea, historically known to ancient Greeks as the Pillars of Hercules.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two autonomous Spanish cities are located as fortified enclaves directly on the North African mainland bordering Morocco?",
+      "options": [
+        "Tangier and Oran",
+        "Gibraltar and Algeciras",
+        "Ceuta and Melilla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ceuta and Melilla have been under Spanish sovereignty since 1580 and 1497 respectively, forming the only direct land borders of the European Union in Africa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What British Overseas Territory and monolithic limestone promontory on the southern tip of the Iberian Peninsula has been under British rule since the 1713 Treaty of Utrecht?",
+      "options": [
+        "Gibraltar",
+        "Ceuta",
+        "Tarifa"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rock of Gibraltar rises 426 meters above the bay, home to the only wild monkey population in Europe, the free-roaming Barbary macaques.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the southernmost town on the mainland of Spain and continental Europe, located on the Strait of Gibraltar famous as a world capital for windsurfing and kitesurfing?",
+      "options": [
+        "Marbella",
+        "Tarifa",
+        "Algeciras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Punta de Tarifa marks the exact divide between the Atlantic Ocean and Mediterranean Sea, swept by powerful Levante and Poniente winds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcanic nature park in Almería is the only true semi-arid hot desert climate region in mainland Europe, used as a filming location for classic Spaghetti Westerns?",
+      "options": [
+        "Tabernas Desert",
+        "Bardenas Reales",
+        "Cabo de Gata-Níjar Natural Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "The adjacent Tabernas Desert receives less than 200 mm of annual rainfall, where director Sergio Leone filmed A Fistful of Dollars and The Good, the Bad and the Ugly.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the minimum width in kilometers of the Strait of Gibraltar separating Spain from North Africa?",
+      "target": 14,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "8.9 miles",
+      "explanation": "At its narrowest point between Point Marroquí in Spain and Point Cires in Morocco, the Strait of Gibraltar measures approximately fourteen kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level Autonomous Communities (Comunidades Autónomas) is the Kingdom of Spain politically divided?",
+      "options": [
+        "17 Autonomous Communities",
+        "15 Autonomous Communities",
+        "20 Autonomous Communities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spain consists of seventeen autonomous communities plus two autonomous cities in North Africa (Ceuta and Melilla) under the 1978 Spanish Constitution.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ranking does Spain hold among the largest countries in the European Union by total geographical area (505,990 square kilometers)?",
+      "options": [
+        "Largest in the EU",
+        "Second Largest in the EU",
+        "Third Largest in the EU"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covering over half a million square kilometers, Spain is the second largest nation in the EU after France, and fourth largest in Europe overall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 18th-century royal residence in Madrid, with 3,418 rooms covering 135,000 square meters, is the largest functioning royal palace by floor area in Europe?",
+      "options": [
+        "Palace of Versailles",
+        "Buckingham Palace",
+        "Royal Palace of Madrid Palacio Real"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built on the site of a 9th-century Moorish fortress, the Palacio Real features the Royal Armoury, Stradivarius string quartet collection, and ceiling frescoes by Tiepolo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which autonomous community in central Spain is the largest autonomous community by land area in Spain, covering nearly twenty percent of national territory?",
+      "options": [
+        "Castile and León Castilla y León",
+        "Castile-La Mancha",
+        "Andalusia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Castile and León spans 94,223 square kilometers across nine provinces, containing more UNESCO World Heritage sites than almost any administrative region in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many official languages are recognized in Spain (Spanish/Castilian nationwide, plus Catalan, Galician, and Basque in their respective autonomous regions)?",
+      "options": [
+        "2 Official Languages",
+        "4 Official Languages",
+        "6 Official Languages"
+      ],
+      "correctIndex": 1,
+      "explanation": "Article 3 of the Spanish Constitution establishes Castilian as the official state language, with Catalan/Valencian, Galician, and Basque (Euskara) co-official in their regions.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many first-level Autonomous Communities comprise the Kingdom of Spain?",
+      "target": 17,
+      "metricUnit": "Autonomous Communities",
+      "imperialDisplay": "17 Autonomous Communities",
+      "explanation": "Spain is structured into seventeen Autonomous Communities (such as Andalusia, Catalonia, Galicia, and Madrid) plus the two autonomous cities of Ceuta and Melilla.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

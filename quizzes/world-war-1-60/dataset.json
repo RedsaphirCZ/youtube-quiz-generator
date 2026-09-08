@@ -1,0 +1,703 @@
+{
+  "id": "world-war-1-60",
+  "theme": "World War I: The Great War & Trench Battles",
+  "title": "World War I: The Great War & Trench Battles",
+  "description": "A 60-question comprehensive historical assessment on the July Crisis, Western Front trenches, Gallipoli, Verdun, the Somme, aerial dogfights, the Russian Revolution, and the Treaty of Versailles.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Whose assassination in Sarajevo on 28 June 1914 by Gavrilo Princip triggered the outbreak of World War I?",
+      "options": [
+        "Archduke Franz Ferdinand",
+        "Emperor Franz Joseph",
+        "Archduke Otto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heir to the Austro-Hungarian throne Archduke Franz Ferdinand and his wife Sophie were shot by Gavrilo Princip, a 19-year-old member of the Serbian nationalist movement Young Bosnia. The ensuing diplomatic July Crisis activated interlocking European military alliances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What secret nationalist militant society formed in Serbia was Gavrilo Princip and his co-conspirators linked to?",
+      "options": [
+        "Carbonari",
+        "The Black Hand",
+        "Chetniks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Officially named Unification or Death (Ujedinjenje ili Smrt) and led by Serbian military intelligence officer Dragutin Dimitrijevic (Apis), the Black Hand supplied the pistols, bombs, and cyanide capsules used in the Sarajevo assassination.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What German strategic operational plan aimed to quickly defeat France through Belgium before turning eastward to face Russia?",
+      "options": [
+        "Hindenburg Plan",
+        "Gneisenau Plan",
+        "Schlieffen Plan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Devised by Count Alfred von Schlieffen in 1905, the plan assumed that Russian mobilization would take six weeks, allowing the German right wing to sweep through neutral Belgium, encircle Paris from the west, and force a rapid French capitulation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which country neutral status was violated by the German army in August 1914, prompting Britain to declare war on Germany?",
+      "options": [
+        "Belgium",
+        "Switzerland",
+        "Netherlands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Britain had guaranteed Belgian neutrality under the 1839 Treaty of London. When German forces invaded Belgium on 4 August 1914 to execute the Schlieffen Plan, British Foreign Secretary Edward Grey issued an ultimatum, bringing the British Empire into the war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What decisive battle on the Marne River in September 1914 halted the German advance on Paris and began trench warfare?",
+      "options": [
+        "Battle of the Frontiers",
+        "First Battle of the Marne",
+        "Battle of Mons"
+      ],
+      "correctIndex": 1,
+      "explanation": "General Joseph Joffre counter-attacked an exposed German flank along the Marne, famously ferrying thousands of reserve French troops to the front line using Paris taxi cabs. The miracle of the Marne prevented a quick German victory and initiated four years of static trench deadlock.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was Archduke Franz Ferdinand assassinated in Sarajevo on June 28th?",
+      "target": 1914,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 1914",
+      "explanation": "The assassination of Archduke Franz Ferdinand took place on 28 June 1914, igniting the chain of mobilizations that led to World War I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What barren, cratered terrain between opposing enemy trench lines was swept by machine-gun and artillery fire?",
+      "options": [
+        "The Dead Zone",
+        "The Salients",
+        "No Man Land"
+      ],
+      "correctIndex": 2,
+      "explanation": "No Man Land was a nightmarish landscape of deep shell craters, thick coils of barbed wire, and unexploded munitions. Soldiers going over the top had to cross this exposed terrain directly into synchronized machine-gun fire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rapid-firing water-cooled heavy machine gun firing 450 to 600 rounds per minute dominated the Western Front?",
+      "options": [
+        "Maxim Machine Gun",
+        "Lewis Gun",
+        "Chauchat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invented by Sir Hiram Maxim in 1884, variants like the British Vickers and German MG08 utilized the recoil of each bullet to chamber the next. Its defensive lethality rendered mass infantry frontal cavalry and foot charges obsolete.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which 1915 battle in Belgium did the German army first unleash lethal chlorine gas on a large scale on the Western Front?",
+      "options": [
+        "Battle of Mons",
+        "Second Battle of Ypres",
+        "Battle of Passchendaele"
+      ],
+      "correctIndex": 1,
+      "explanation": "On 22 April 1915, German forces released 168 tons of pressurized chlorine gas from cylinders at Gravenstafel near Ypres, creating a greenish-yellow cloud that devastated French colonial troops and opened a 6-kilometer gap in the Allied line.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What armored combat vehicle introduced by the British at the Battle of Flers-Courcelette in September 1916 broke trench stalemates?",
+      "options": [
+        "Armored Train",
+        "Half-Track",
+        "The Tank"
+      ],
+      "correctIndex": 2,
+      "explanation": "Developed secretly under the naval committee cover name water carrier (tank), the British Mark I rhomboid tank could cross 9-foot trenches and crush barbed-wire entanglements. It evolved into the foundation of modern mechanized warfare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What blistering chemical blister agent smelling of garlic or mustard was introduced in 1917, causing agonizing internal and skin burns?",
+      "options": [
+        "Mustard Gas",
+        "Phosgene",
+        "Chloropicrin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mustard gas (sulfur mustard / Yellow Cross) was an oily liquid that persisted in soil and craters for days or weeks. Unlike chlorine and phosgene which attacked the lungs, mustard gas penetrated woolen uniforms, blinding soldiers and causing severe necrotic blisters.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the tank first deployed in combat history at the Battle of the Somme?",
+      "target": 1916,
+      "metricUnit": "CE",
+      "imperialDisplay": "September 1916",
+      "explanation": "British Mark I tanks entered combat for the first time in human history on 15 September 1916 at the Battle of Flers-Courcelette during the Somme offensive.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which strategic Turkish peninsula was invaded by British, French, and ANZAC forces in April 1915 to open a Black Sea supply route to Russia?",
+      "options": [
+        "Sinai",
+        "Gallipoli",
+        "Crimea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Championed by First Lord of the Admiralty Winston Churchill, the Gallipoli Campaign aimed to knock the Ottoman Empire out of the war by seizing the Dardanelles straits. Turkish defenders led by Mustafa Kemal repelled all Allied assaults, leading to an Allied evacuation in January 1916.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What does the military acronym ANZAC stand for, honoring the legendary corps from the South Pacific that landed at Anzac Cove?",
+      "options": [
+        "Allied National Zone Assault Command",
+        "Australian Naval Zone Amphibious Corps",
+        "Australian and New Zealand Army Corps"
+      ],
+      "correctIndex": 2,
+      "explanation": "The landing at Anzac Cove on 25 April 1915 is commemorated annually on Anzac Day as a foundational milestone of national identity and military sacrifice in both Australia and New Zealand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman military commander became a national hero for his tactical defense of Chunuk Bair and later founded modern Turkey?",
+      "options": [
+        "Mustafa Kemal Ataturk",
+        "Enver Pasha",
+        "Talat Pasha"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mustafa Kemal famously ordered his 19th Division troops on the ridge: I do not order you to fight, I order you to die! His brilliant leadership at Gallipoli established his reputation and launched his political rise to become the first President of the Republic of Turkey.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British archaeologist and military liaison helped lead the Arab Revolt against Ottoman rule across the Hejaz desert from 1916 to 1918?",
+      "options": [
+        "Gertrude Bell",
+        "T. E. Lawrence",
+        "John Bagot Glubb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Captain T. E. Lawrence (Lawrence of Arabia) coordinated guerrilla attacks with Emir Faisal forces, blowing up sections of the strategic Hejaz Railway and capturing the port of Aqaba in a surprise desert crossing from the landward side.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major British-Indian garrison was besieged and forced to surrender unconditionally to Ottoman forces at Kut-al-Amara in Mesopotamia in 1916?",
+      "options": [
+        "General Allenby Corps",
+        "General Maude Brigade",
+        "General Townshend 6th Division"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Siege of Kut lasted 147 days, ending with the surrender of over 13,000 British and Indian troops under Major-General Charles Townshend. It was one of the worst military defeats suffered by the British Empire in the Middle East.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "On what day of April in 1915 did ANZAC forces make their historic dawn landing on the Gallipoli peninsula, celebrated as Anzac Day?",
+      "target": 25,
+      "metricUnit": "April",
+      "imperialDisplay": "25 April 1915",
+      "explanation": "The historic landings at Anzac Cove took place at dawn on 25 April 1915.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French fortress city was the target of a massive German war of attrition launched by General Erich von Falkenhayn in February 1916?",
+      "options": [
+        "Verdun",
+        "Metz",
+        "Sedan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Battle of Verdun lasted 302 days (the longest single battle in modern history). Falkenhayn aimed to bleed the French army white by forcing France to defend the sacred fortress ring at all costs, resulting in over 700,000 total casualties.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French general organized the defense of Verdun and the vital supply highway (La Voie Sacree), declaring They shall not pass (Ils ne passeront pas)?",
+      "options": [
+        "Ferdinand Foch",
+        "Philippe Petain",
+        "Robert Nivelle"
+      ],
+      "correctIndex": 1,
+      "explanation": "General Philippe Petain instituted the rotating noria system of troop replacement and kept 4,000 trucks operating day and night along the Sacred Way to replenish Verdun defenders, becoming hailed as the Lion of Verdun.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On what single bloodiest day in British military history (1 July 1916) did the British Army suffer 57,470 casualties on the Somme?",
+      "options": [
+        "Black Day of the German Army",
+        "Battle of Passchendaele",
+        "First Day on the Somme"
+      ],
+      "correctIndex": 2,
+      "explanation": "Following an ineffective seven-day preliminary artillery bombardment that failed to cut German barbed wire, British battalions walked toward intact German machine-gun positions, suffering 19,240 dead on the morning of 1 July 1916 alone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive underground French concrete fort defending Verdun was captured early by German troops in February 1916 and recaptured in October?",
+      "options": [
+        "Fort Douaumont",
+        "Fort Vaux",
+        "Fort Souville"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fort Douaumont was the largest and highest fort of the Verdun ring. Its capture without a shot by a small German reconnaissance party was a major psychological shock, requiring eight months of intense artillery pulverization before French infantry retook it.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British Commander-in-Chief directed the prolonged British offensive on the Western Front during both the Somme and Passchendaele campaigns?",
+      "options": [
+        "Sir John French",
+        "Sir Douglas Haig",
+        "Sir Arthur Currie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Field Marshal Sir Douglas Haig believed firmly in the doctrine of continuous attrition against German reserves. While controversial among later historians for high casualty rates, his steady offensives wore down the German army and led to the Hundred Days victory in 1918.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many days in total did the brutal, grinding Battle of Verdun last between February and December 1916?",
+      "target": 302,
+      "metricUnit": "days",
+      "imperialDisplay": "302 days (approx 10 months)",
+      "explanation": "The Battle of Verdun raged from 21 February to 18 December 1916, lasting 302 days and becoming the longest battle in modern military history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive clash in the North Sea in May–June 1916 was the only major fleet engagement between British and German dreadnoughts in World War I?",
+      "options": [
+        "Battle of Dogger Bank",
+        "Battle of Heligoland Bight",
+        "Battle of Jutland"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Battle of Jutland (Skagerrakschlacht) pitted Admiral John Jellicoe Grand Fleet against Admiral Reinhard Scheer High Seas Fleet. While Britain lost more ships, the strategic German fleet never again challenged British surface naval supremacy in the North Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British ocean liner was torpedoed by German submarine U-20 off the southern coast of Ireland on 7 May 1915, killing 1,198 people?",
+      "options": [
+        "RMS Lusitania",
+        "RMS Mauretania",
+        "SS Arabic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sinking of the Lusitania with 128 American citizens aboard provoked intense outrage in the United States and pushed American public opinion decisively against Germany, contributing to the eventual US entry into the war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What naval strategy announced by Germany in February 1917 targeted all merchant shipping in war zones without warning to starve Great Britain?",
+      "options": [
+        "Cruiser Warfare",
+        "Unrestricted Submarine Warfare",
+        "Total Sea Blockade"
+      ],
+      "correctIndex": 1,
+      "explanation": "German high command gambled that sinking 600,000 tons of Allied shipping per month would force Britain to surrender within five months before the United States could mobilize. This policy directly provoked the US declaration of war in April 1917.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary all-big-gun turbine battleship launched by the Royal Navy in 1906 gave its name to an entire era of modern warships?",
+      "options": [
+        "HMS Iron Duke",
+        "HMS Warspite",
+        "HMS Dreadnought"
+      ],
+      "correctIndex": 2,
+      "explanation": "HMS Dreadnought rendered all existing battleships instantly obsolete with its uniform battery of ten 12-inch guns and revolutionary steam turbine propulsion, sparking an intense pre-war Anglo-German naval arms race.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What anti-submarine tactical system organized merchant cargo vessels into protected formations escorted by destroyers starting in 1917?",
+      "options": [
+        "Convoy System",
+        "Wolfpack System",
+        "Q-Ship Network"
+      ],
+      "correctIndex": 0,
+      "explanation": "Introduced by Prime Minister David Lloyd George and the Admiralty, the convoy system grouped merchant vessels under the escort of depth-charge-equipped destroyers, reducing U-boat shipping losses by over 80 percent within months.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the grand dreadnought clash of the Battle of Jutland take place off the coast of Denmark?",
+      "target": 1916,
+      "metricUnit": "CE",
+      "imperialDisplay": "31 May – 1 June 1916",
+      "explanation": "The Battle of Jutland was fought between 31 May and 1 June 1916 in the North Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary German aristocrat and fighter pilot was known as the Red Baron, shooting down 80 Allied aircraft in his scarlet Fokker triplane?",
+      "options": [
+        "Ernst Udet",
+        "Manfred von Richthofen",
+        "Oswald Boelcke"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manfred von Richthofen commanded the elite Jagdstaffel 11 (the Flying Circus), painted in vibrant colors. He was the highest-scoring fighter ace of World War I before being shot down over the Somme in April 1918 at age twenty-five.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mechanical innovation engineered by Anthony Fokker allowed machine guns to fire through the spinning propeller arc without hitting the blades?",
+      "options": [
+        "Gun Deflector Wedge",
+        "Wing Mount Rail",
+        "Interrupter Synchronization Gear"
+      ],
+      "correctIndex": 2,
+      "explanation": "The interrupter gear mechanically linked the machine-gun trigger mechanism to the aircraft engine camshaft, pausing fire whenever a propeller blade passed in front of the barrel. This innovation created the first true fighter aircraft (the Fokker Eindecker) and the Fokker Scourge of 1915.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French fighter pilot pioneered shooting through propellers with steel deflector wedges and had a Grand Slam tennis stadium named after him?",
+      "options": [
+        "Roland Garros",
+        "Georges Guynemer",
+        "Rene Fonck"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roland Garros bolted armored steel wedges to the back of his wooden propeller blades to deflect non-synchronized machine-gun bullets, scoring several quick aerial victories before crash-landing behind German lines in 1915.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What German rigid airships filled with lighter-than-air hydrogen were used to conduct the world first strategic nighttime bombing raids over London?",
+      "options": [
+        "Drachen Balloons",
+        "Zeppelins",
+        "Gotha Bombers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zeppelins (named after Count Ferdinand von Zeppelin) flew above the reach of early fighter planes, dropping explosive bombs on British cities. They were later countered by incendiary bullets that ignited the hydrogen gas bags.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American race car driver became America top-scoring fighter ace of World War I with 26 confirmed aerial victories?",
+      "options": [
+        "Billy Mitchell",
+        "Frank Luke",
+        "Eddie Rickenbacker"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eddie Rickenbacker commanded the 94th Aero Squadron (the Hat-in-the-Ring Squadron), flying French SPAD XIII fighters and earning the Medal of Honor for valor against multiple enemy aircraft.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many confirmed aerial victories did Manfred von Richthofen (the Red Baron) score, the all-time record of World War I?",
+      "target": 80,
+      "metricUnit": "victories",
+      "imperialDisplay": "80 confirmed kills",
+      "explanation": "Manfred von Richthofen achieved 80 officially credited aerial combat victories before his death in action on 21 April 1918.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which August 1914 battle in East Prussia did German Generals Hindenburg and Ludendorff encircle and crush the Russian Second Army?",
+      "options": [
+        "Battle of Tannenberg",
+        "Battle of the Masurian Lakes",
+        "Battle of Lodz"
+      ],
+      "correctIndex": 0,
+      "explanation": "General Paul von Hindenburg and Chief of Staff Erich Ludendorff exploited unencrypted Russian radio communications to intercept and encircle General Samsonov army, taking 92,000 prisoners and establishing their national heroic status in Germany.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which successful 1916 Russian offensive in modern Ukraine shattered the Austro-Hungarian army and forced Germany to divert divisions from Verdun?",
+      "options": [
+        "Gorlice-Tarnow Offensive",
+        "Brusilov Offensive",
+        "Kerensky Offensive"
+      ],
+      "correctIndex": 1,
+      "explanation": "General Aleksei Brusilov pioneered shock infantry infiltration tactics and short, accurate artillery barrages across a broad front, capturing 350,000 Austro-Hungarian troops in the most successful Russian military operation of the war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian Tsar was forced to abdicate during the February Revolution of March 1917 due to food riots and military mutinies in Petrograd?",
+      "options": [
+        "Alexander III",
+        "Grand Duke Michael",
+        "Nicholas II"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tsar Nicholas II abdicated the throne on 15 March 1917, ending over 300 years of Romanov dynastic rule. He and his imperial family were subsequently executed by Bolshevik revolutionaries at Yekaterinburg in July 1918.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bolshevik leader returned from Swiss exile in a sealed train in April 1917 to lead the October Revolution with the slogan Peace, Land, and Bread?",
+      "options": [
+        "Vladimir Lenin",
+        "Leon Trotsky",
+        "Joseph Stalin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vladimir Lenin overthrew the Russian Provisional Government in November (October O.S.) 1917, establishing the world first communist state and immediately pursuing peace negotiations to pull Russia out of World War I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What punitive peace treaty signed in March 1918 ceded Ukraine, the Baltic states, and Poland to the Central Powers, ending Russian participation in the war?",
+      "options": [
+        "Treaty of Bucharest",
+        "Treaty of Brest-Litovsk",
+        "Treaty of Riga"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Treaty of Brest-Litovsk stripped Soviet Russia of one-third of its population, half of its industrial enterprises, and nine-tenths of its coal reserves, allowing Germany to transfer one million troops to the Western Front for their 1918 Spring Offensive.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the two Russian Revolutions (February abdication and October Bolshevik coup) take place?",
+      "target": 1917,
+      "metricUnit": "CE",
+      "imperialDisplay": "March and November 1917",
+      "explanation": "Both the collapse of the Romanov monarchy and the Bolshevik rise to power occurred in 1917.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What intercepted German diplomatic telegram in January 1917 proposed a military alliance between Germany and Mexico against the United States?",
+      "options": [
+        "Krupp Telegram",
+        "Bernstorff Dispatch",
+        "Zimmermann Telegram"
+      ],
+      "correctIndex": 2,
+      "explanation": "British naval cryptanalysts in Room 40 decoded the telegram from German Foreign Secretary Arthur Zimmermann offering Mexico the return of Texas, New Mexico, and Arizona. Published in American newspapers, it galvanized public support for entering the war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which US President asked Congress to declare war on Germany in April 1917, proclaiming the world must be made safe for democracy?",
+      "options": [
+        "Woodrow Wilson",
+        "Theodore Roosevelt",
+        "William Howard Taft"
+      ],
+      "correctIndex": 0,
+      "explanation": "President Woodrow Wilson presented his Fourteen Points peace program to Congress in January 1918, outlining open diplomacy, freedom of the seas, national self-determination, and the establishment of a general association of nations (the League of Nations).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American General was appointed Commander-in-Chief of the American Expeditionary Forces (AEF) in Europe, insisting on an independent US army?",
+      "options": [
+        "Douglas MacArthur",
+        "John J. Pershing",
+        "Leonard Wood"
+      ],
+      "correctIndex": 1,
+      "explanation": "General John J. Black Jack Pershing rejected Allied plans to feed American doughboys into depleted British and French units as piecemeal replacements, forging an autonomous US fighting force that spearheaded the Saint-Mihiel and Meuse-Argonne offensives.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What final series of massive German offensives in spring 1918 used stormtrooper infiltration tactics before exhausting German reserves?",
+      "options": [
+        "Operation Michael",
+        "Operation Blucher",
+        "Kaiserschlacht Spring Offensive"
+      ],
+      "correctIndex": 2,
+      "explanation": "General Ludendorff Kaiserschlacht advanced over 40 miles and captured 1,200 square miles of French territory. However, lack of motorized logistics and heavy casualties among elite shock troops exhausted the German army without securing a decisive strategic victory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French Marshal was appointed supreme Generalissimo of all Allied armies in March 1918, coordinating the victorious Hundred Days Offensive?",
+      "options": [
+        "Ferdinand Foch",
+        "Philippe Petain",
+        "Joseph Joffre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marshal Ferdinand Foch coordinated simultaneous counter-attacks by French, British, American, and Belgian armies that breached the Hindenburg Line, leading directly to German military collapse in autumn 1918.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the United States officially enter World War I by declaring war on Germany on April 6th?",
+      "target": 1917,
+      "metricUnit": "CE",
+      "imperialDisplay": "April 1917",
+      "explanation": "The United States formally entered World War I on 6 April 1917.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On what historic day did the Armistice take effect in a railway carriage in the Forest of Compiegne, ending fighting on the Western Front?",
+      "options": [
+        "28 June 1919",
+        "11 November 1918",
+        "1 May 1919"
+      ],
+      "correctIndex": 1,
+      "explanation": "Signed in Ferdinand Foch private railway carriage, the Armistice took effect at the eleventh hour of the eleventh day of the eleventh month in 1918. Celebrated today as Remembrance Day or Veterans Day, it brought silence to the guns after four years of war.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What catastrophic global viral pandemic spread worldwide in 1918–1919 amid troop movements, killing an estimated 50 million people?",
+      "options": [
+        "Asiatic Cholera",
+        "Typhus Epidemic",
+        "Spanish Flu H1N1 Influenza"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 1918 influenza pandemic infected roughly one-third of the global population. It was dubbed the Spanish Flu because wartime censorship in belligerent nations suppressed news of the disease while neutral Spain reported it openly.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German Kaiser was forced to abdicate on 9 November 1918 following the Kiel naval mutiny, fleeing into exile in the Netherlands?",
+      "options": [
+        "Kaiser Wilhelm II",
+        "Kaiser Wilhelm I",
+        "Kaiser Friedrich III"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kaiser Wilhelm II abdication marked the end of the German Hohenzollern monarchy and the proclamation of the Weimar Republic. He spent the remainder of his life in exile at Huis Doorn in the Netherlands until his death in 1941.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What four historic ruling royal dynasties (Hohenzollern, Romanov, Habsburg, and Ottoman) were brought to total collapse by World War I?",
+      "options": [
+        "The Holy Alliance",
+        "The Four Imperial Houses",
+        "The Quadruple Alliance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The war destroyed the four great autocracies of Europe and the Near East: the German Empire, the Russian Empire, the Austro-Hungarian Dual Monarchy, and the six-century-old Ottoman Empire, reshaping global borders and creating new nation-states.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What red flower blooming on the disturbed soil of Flanders battlefields became the enduring international symbol of wartime remembrance?",
+      "options": [
+        "Red Rose",
+        "Cornflower",
+        "Remembrance Poppy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Canadian military physician Lieutenant-Colonel John McCrae penned the immortal 1915 poem In Flanders Fields: In Flanders fields the poppies blow / Between the crosses, row on row. Red paper poppies are worn worldwide every November.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "On what calendar day of November in 1918 did the Armistice end fighting on the Western Front (at 11:00 AM)?",
+      "target": 11,
+      "metricUnit": "November",
+      "imperialDisplay": "11th of November 1918 (11:00 AM)",
+      "explanation": "The Armistice took effect on the 11th hour of the 11th day of the 11th month (11 November 1918).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic 1919 peace treaty signed in the Hall of Mirrors imposed heavy financial reparations and territorial losses on Germany?",
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of Saint-Germain",
+        "Treaty of Trianon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Signed on 28 June 1919 exactly five years after the Sarajevo assassination, the Treaty of Versailles forced Germany to cede Alsace-Lorraine, demilitarize the Rhineland, reduce its army to 100,000 men, and pay massive financial reparations to the Allies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which controversial article of the Treaty of Versailles forced Germany to accept sole moral responsibility for causing all loss and damage of the war?",
+      "options": [
+        "Article 48",
+        "Article 231 War Guilt Clause",
+        "Article 10"
+      ],
+      "correctIndex": 1,
+      "explanation": "Article 231 served as the legal justification for imposing punitive financial reparations on Germany. It sparked deep resentment across German society and was exploited by Adolf Hitler and the Nazi Party to undermine the Weimar Republic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What international collective security organization proposed by Woodrow Wilson was established in Geneva in 1920 to prevent future world wars?",
+      "options": [
+        "United Nations",
+        "Permanent Court of Justice",
+        "League of Nations"
+      ],
+      "correctIndex": 2,
+      "explanation": "The League of Nations was the first worldwide intergovernmental organization dedicated to maintaining world peace. However, the United States Senate rejected ratification, leaving the League without American participation and fatally weakened in enforcing disarmament.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which peace treaty signed at the Grand Trianon palace in June 1920 partitioned the Kingdom of Hungary, ceding two-thirds of its historical territory?",
+      "options": [
+        "Treaty of Trianon",
+        "Treaty of Sevres",
+        "Treaty of Neuilly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Treaty of Trianon redrew Central European borders, allocating former Hungarian lands to Romania, Czechoslovakia, and Yugoslavia, leaving millions of ethnic Hungarians living outside Hungary national borders.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which four Allied leaders (Wilson, Lloyd George, Clemenceau, and Orlando) dominated the 1919 Paris Peace Conference negotiations?",
+      "options": [
+        "The Supreme War Council",
+        "The Big Four",
+        "The Allied Committee"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Big Four represented the dominant victorious powers: Woodrow Wilson (US), David Lloyd George (UK), Georges Clemenceau (France, known as The Tiger), and Vittorio Emanuele Orlando (Italy).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the Treaty of Versailles formally signed in the Hall of Mirrors on June 28th?",
+      "target": 1919,
+      "metricUnit": "CE",
+      "imperialDisplay": "June 1919",
+      "explanation": "The Treaty of Versailles was signed on 28 June 1919, concluding the state of war between Germany and the Allied powers.",
+      "validated": true
+    }
+  ],
+  "category": "Modern History & Landmark Wars",
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

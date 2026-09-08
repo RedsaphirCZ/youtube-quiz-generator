@@ -1,0 +1,703 @@
+{
+  "id": "insects-arachnids-micro-monsters-60",
+  "theme": "Insects, Arachnids & The Miniature World",
+  "title": "Insects, Arachnids & The Miniature World",
+  "description": "A 60-question grand master assessment exploring insect physiology, spider silk mechanics, superorganisms, venoms, microscopic tardigrades, and parasitoids.",
+  "category": "Nature, Wildlife & Biology",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What tough, nitrogenous polysaccharide forms the primary structural matrix of arthropod exoskeletons?",
+      "options": [
+        "Chitin",
+        "Keratin",
+        "Cellulose"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chitin is a long-chain polymer of N-acetylglucosamine that combines with sclerotin proteins to form a rigid, protective cuticle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Through what microscopic lateral body valves do insects breathe atmospheric air directly into internal tracheal tubes?",
+      "options": [
+        "Ostia",
+        "Spiracles",
+        "Malpighian pores"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spiracles are muscularly gated pores along the insect thorax and abdomen that control gas exchange while minimizing water loss.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What developmental process describes complete four-stage metamorphosis encompassing egg, larva, pupa, and winged adult?",
+      "options": [
+        "Hemimetabolism",
+        "Ametabolism",
+        "Holometabolism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Holometabolous insects, such as beetles, butterflies, flies, and wasps, undergo complete structural reorganization inside a pupal cocoon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fluid serves as the blood analog in insects, transporting nutrients and hormones through an open circulatory system?",
+      "options": [
+        "Hemolymph",
+        "Myoglobin",
+        "Hemocyanin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemolymph bathes internal organs directly in a hemocoel cavity, pumped forward by a dorsal vessel heart without closed capillaries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What excretory organs in insects extract nitrogenous waste from hemolymph and empty uric acid directly into the hindgut?",
+      "options": [
+        "Nephridia",
+        "Malpighian Tubules",
+        "Flame cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Malpighian tubules absorb uric acid and salts from body fluids, recycling water to produce dry waste pellets that conserve moisture.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many jointed walking legs do all adult insects possess across their three thoracic body segments?",
+      "target": 6,
+      "metricUnit": "legs",
+      "imperialDisplay": "6 jointed legs",
+      "explanation": "All hexapods (insects) are defined by having exactly six jointed legs attached in pairs to the prothorax, mesothorax, and metathorax.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many distinct body tagmata do spiders and scorpions possess, namely the cephalothorax and abdomen?",
+      "options": [
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correctIndex": 2,
+      "explanation": "Arachnids have two body segments: the prosoma (cephalothorax) housing legs and mouthparts, and the opisthosoma (abdomen).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pair of fang-bearing appendages do spiders use to deliver venom and grasp prey?",
+      "options": [
+        "Chelicerae",
+        "Pedipalps",
+        "Maxillae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chelicerae consist of a basal segment and a sharp articulating fang containing a venom duct pore at its tip.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What respiratory organs composed of stacked, vascularized tissue plates inside an abdominal cavity are used by most spiders?",
+      "options": [
+        "Tracheal spiracles",
+        "Book Lungs",
+        "Ctenidia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Book lungs contain dozens of thin leaf-like lamellae bathed in hemolymph that exchange gases directly with air entering via spiracles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Pound for pound, spider major ampullate dragline silk possesses higher tensile strength than what structural material?",
+      "options": [
+        "Aluminum",
+        "Copper alloy",
+        "High-grade Steel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spider dragline silk has a tensile strength of roughly 1.3 to 1.6 GPa, exceeding high-tensile structural steel while remaining five times more elastic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized abdominal appendages extrude liquid protein solution that polymerizes into strong spider silk strands?",
+      "options": [
+        "Spinnerets",
+        "Coxal glands",
+        "Stridulatory organs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spinnerets contain hundreds of microscopic spigots connected to specialized silk glands that shear liquid fibroin into solid protein fibrils.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many eyes do the vast majority of spider species possess arranged in patterns across the front of the carapace?",
+      "target": 8,
+      "metricUnit": "eyes",
+      "imperialDisplay": "8 eyes",
+      "explanation": "Most spiders possess eight simple eyes (ocelli), typically arranged in two rows of four to provide wide-angle peripheral vision.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In an ant colony, what biological term describes non-reproductive female workers performing specialized labor tasks?",
+      "options": [
+        "Drones",
+        "Castes",
+        "Gynes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ant colonies exhibit division of labor across morphological castes, including minor foragers, brood nurses, and large-headed major soldiers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What chemical communication molecules do worker ants deposit on the ground to mark foraging trails for their nestmates?",
+      "options": [
+        "Alkaloids",
+        "Kairomones",
+        "Pheromones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trail pheromones secreted from venom glands or abdominal Dufour glands guide nestmates along the most efficient path to food sources.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What aggressive nomadic ant genus does not construct permanent nests, marching across tropical forest floors in massive predatory swarm raids?",
+      "options": [
+        "Army Ants",
+        "Carpenter Ants",
+        "Harvester Ants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eciton army ant colonies form living bivouac nests from their own interlocking bodies, consuming thousands of invertebrates daily during raids.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What taxonomic insect order do termites belong to, sharing close evolutionary ancestry with wood-eating cockroaches?",
+      "options": [
+        "Hymenoptera",
+        "Blattodea",
+        "Hemiptera"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molecular phylogenetics placed termites within the cockroach order Blattodea, evolving sociality through shared gut wood-digesting microbes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized soldier caste in nasute termites features an elongated snout that squirts sticky defensive terpenes at attacking ants?",
+      "options": [
+        "Phragmotic defenders",
+        "Major workers",
+        "Nasute Soldiers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nasute termite soldiers have nozzle-like head projections capable of shooting irritating chemical glue up to several centimeters.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many eggs per day can a mature African driver ant queen Dorylus lay during her peak reproductive egg-laying phase?",
+      "target": 40000,
+      "metricUnit": "eggs/day",
+      "imperialDisplay": "40,000 eggs per day",
+      "explanation": "Physogastric driver ant queens can lay up to 40,000 eggs per day, producing millions of eggs across a single monthly breeding cycle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What beetle defends itself by mixing hydroquinones and hydrogen peroxide inside an abdominal chamber to fire boiling chemical pulses at 100 degrees Celsius?",
+      "options": [
+        "Bombardier Beetle",
+        "Blister Beetle",
+        "Tiger Beetle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brachininae beetles trigger an explosive exothermic reaction with catalase and peroxidase enzymes, firing pulsed jets at 500 pulses per second.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Central American ant delivers the most painful sting on the Schmidt Sting Pain Index, described as like walking over flaming charcoal with a rusty nail?",
+      "options": [
+        "Red Harvester Ant",
+        "Bullet Ant",
+        "Velvet Ant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Poneratoxin, a neurotoxic peptide in bullet ant venom, causes excruciating waves of burning pain and muscular contractions lasting up to 24 hours.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Australian spider burrows under rocks and logs in New South Wales and possesses atracotoxin venom capable of fatal human envenomation?",
+      "options": [
+        "Redback Spider",
+        "Huntsman Spider",
+        "Sydney Funnel-Web Spider"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atrax robustus produces delta-atracotoxins that overstimulate sodium channels, causing profound autonomic storm and respiratory collapse in primates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What hairy caterpillar native to North America hides venomous spines among its dense fur, delivering excruciating burning pain upon contact?",
+      "options": [
+        "Puss Caterpillar",
+        "Saddleback Caterpillar",
+        "Io Moth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Megalopyge opercularis larvae resemble tufts of cotton or Persian kittens but conceal venomous hollow spines that inject hemolytic toxins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What family of brightly colored wingless parasitic wasps is colloquially nicknamed cow killers due to their intensely painful defensive stings?",
+      "options": [
+        "Pompilidae",
+        "Mutillidae Velvet Ants",
+        "Sphecidae"
+      ],
+      "correctIndex": 1,
+      "explanation": "Velvet ants are female wasps with tough exoskeletons that can withstand immense crushing force while administering an agonising sting.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum rating score achieved by the Bullet Ant Paraponera clavata on the Schmidt Sting Pain Index?",
+      "target": 4,
+      "metricUnit": "rating",
+      "imperialDisplay": "4.0 on Schmidt Index",
+      "explanation": "Justin Schmidt established the index from 1.0 to 4.0, with the bullet ant and warrior wasp occupying the absolute maximum 4.0 pain tier.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What predatory insect can swivel its triangular head 180 degrees and uses folded, spiny raptorial forelegs to snatch live prey?",
+      "options": [
+        "Robber Fly",
+        "Neuropteran",
+        "Praying Mantis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mantises possess stereo vision with compound eyes containing a mobile pseudopupil and strike in less than 50 milliseconds to impale prey.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What insect order features compound eyes containing up to 30,000 ommatidia and holds the highest hunting success rate of any aerial predator at roughly 95%?",
+      "options": [
+        "Odonata Dragonflies",
+        "Diptera Flies",
+        "Lepidoptera"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dragonflies calculate prey trajectory and interception angles in mid-air, successfully catching target insects in roughly 95 percent of attempted attacks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What larval neuropteran insect excavates conical pitfall traps in dry sand to trap ants, flicking sand grains to cause avalanches?",
+      "options": [
+        "Dobsonfly larva",
+        "Antlion",
+        "Tiger beetle larva"
+      ],
+      "correctIndex": 1,
+      "explanation": "Myrmeleontidae larvae sit buried at the bottom of steep sandy pits, seizing slipping insects with large, sickle-shaped hollow jaws.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large aquatic true bug uses a needle-like piercing rostrum to inject digestive saliva into small fish, tadpoles, and frogs?",
+      "options": [
+        "Water Strider",
+        "Water Scorpion",
+        "Giant Water Bug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Belostomatidae grasp prey with hook-like front legs and inject enzymes that liquefy internal organs before sucking out the digested fluids.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What predatory beetle runs so fast that its eyes cannot process photons quickly enough, forcing it to stop periodically to re-locate prey?",
+      "options": [
+        "Tiger Beetle",
+        "Click Beetle",
+        "Rove Beetle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cicindelinae can sprint at 2.5 meters per second (over 120 body lengths per second), temporarily blinding itself during high-speed dashes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the hunting capture success percentage of a dragonfly in flight, the highest recorded in the entire animal kingdom?",
+      "target": 95,
+      "metricUnit": "percent",
+      "imperialDisplay": "95% catch success rate",
+      "explanation": "Harvard flight studies demonstrated that dragonflies capture up to 95 percent of targeted prey through predictive optical interception.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What figure-eight dance do honeybee scout foragers perform inside the dark hive to communicate the exact direction and distance of rich flowers?",
+      "options": [
+        "Round Dance",
+        "Waggle Dance",
+        "Tremble Dance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discovered by Karl von Frisch, the waggle angle relative to gravity indicates solar compass direction while duration indicates flight distance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What pollen-carrying structures located on the hind tibia of worker honeybees and bumblebees are used to transport pollen pellets?",
+      "options": [
+        "Arolia",
+        "Empodia",
+        "Corbiculae Pollen Baskets"
+      ],
+      "correctIndex": 2,
+      "explanation": "The corbicula is a smooth, concave depression on the outer surface of the hind tibia bordered by stiff hairs that secure packed pollen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mutualistic coevolutionary partnership occurs between tiny wasps and tropical trees where wasps pollinate inverted flowers inside a syconium?",
+      "options": [
+        "Fig Wasps and Figs",
+        "Yucca Moths and Yuccas",
+        "Orchid Bees and Orchids"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agaonidae wasps crawl inside hollow fig syconia to lay eggs, pollinating internal female flowers in an obligate partnership millions of years old.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What solitary bee genus nests in pre-existing hollow reeds and mud cells, serving as exceptionally efficient spring orchard pollinators?",
+      "options": [
+        "Carpenter Bee",
+        "Mason Bee Osmia",
+        "Mining Bee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osmia bees carry dry pollen on abdominal scopa hairs, pollinating hundreds of fruit blossoms per day with far higher efficiency than honeybees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What glandular secretion fed exclusively to selected larvae triggers epigenetic shifts in gene expression that develop a fertile queen bee?",
+      "options": [
+        "Beebread",
+        "Propolis",
+        "Royal Jelly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Royalactin protein and fatty acids in royal jelly downregulate DNA methyltransferase, allowing queen-specific developmental genes to express.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many kilometers per hour can an unladen worker honeybee fly when traveling between floral feeding sites and the hive?",
+      "target": 24,
+      "metricUnit": "km/h",
+      "imperialDisplay": "15 mph (24 km/h)",
+      "explanation": "Honeybees cruise at approximately 24 km/h (15 mph) when flying empty and slow to about 18 km/h when loaded with nectar and pollen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What microscopic eight-legged water bears can survive extreme outer space vacuum, boiling temperatures, and ionizing radiation by entering cryptobiosis?",
+      "options": [
+        "Tardigrades",
+        "Rotifers",
+        "Nematodes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tardigrades produce unique intrinsically disordered Dsup proteins that shield their DNA from ionizing radiation and oxidative breakdown.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What desiccated, near-metabolic-zero state allows tardigrades to lose over 99 percent of cellular water and survive decades without food?",
+      "options": [
+        "Diapause",
+        "Anhydrobiosis",
+        "Estivation"
+      ],
+      "correctIndex": 1,
+      "explanation": "During anhydrobiosis, tardigrades contract into a compact tun structure, replacing water with protective glass-like biopolymer matrices.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What microscopic mite lives harmlessly inside human facial hair follicles and sebaceous glands, consuming excess skin oils?",
+      "options": [
+        "Dust Mite",
+        "Chigger Mite",
+        "Demodex Mite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Demodex folliculorum and Demodex brevis are microscopic commensal arachnids inhabiting eyelashes, noses, and foreheads across nearly all human adults.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What primitive wingless hexapods catapult themselves hundreds of times their body length using a spring-loaded abdominal fork called a furcula?",
+      "options": [
+        "Springtails Collembola",
+        "Silverfish",
+        "Bristletails"
+      ],
+      "correctIndex": 0,
+      "explanation": "Collembolans latch a furcula under an abdominal retinaculum catch, releasing it to launch into the air away from predators in milliseconds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What simple freshwater cnidarian polyp possesses stem cells that continuously self-renew, showing no biological aging or senescence under laboratory conditions?",
+      "options": [
+        "Planaria",
+        "Hydra",
+        "Daphnia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydra vulgaris continuously expresses FoxO transcription factors in its interstitial stem cells, allowing constant cellular turnover and apparent biological immortality.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What extreme temperature in degrees Celsius below zero have tardigrades survived in laboratory cryogenic exposure tests?",
+      "target": -272,
+      "metricUnit": "celsius",
+      "imperialDisplay": "-272 °C (-458 °F)",
+      "explanation": "Tardigrades in the desiccated tun state have survived immersion in liquid helium at -272 °C (one degree above absolute zero) for several minutes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What hardened, shell-like forewings characteristic of beetles shield the delicate membranous flight wings folded underneath?",
+      "options": [
+        "Halteres",
+        "Tegmina",
+        "Elytra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elytra are heavily sclerotized modified front wings that protect the beetle dorsal abdomen when closed and lift during flight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What order of insects represents the largest biological order in the animal kingdom, containing over 400,000 described species?",
+      "options": [
+        "Coleoptera",
+        "Lepidoptera",
+        "Diptera"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beetles represent nearly 40 percent of all described insect species and approximately 25 percent of all documented animal life forms on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive Neotropical beetle features an enormous thoracic pincer horn that allows adult males to reach lengths up to 17 centimeters?",
+      "options": [
+        "Titan Beetle",
+        "Hercules Beetle",
+        "Goliath Beetle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Male Hercules beetles use their large opposing cephalic and thoracic horns to grapple rival males in territorial canopy wrestling matches.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What heavy African scarab beetle species is among the bulkiest flying insects in the world, with larvae weighing over 100 grams?",
+      "options": [
+        "Rhinoceros Beetle",
+        "Dung Beetle",
+        "Goliath Beetle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Goliath beetles feed on high-protein fruit and tree sap in tropical African forests, producing massive larvae that pupate in hard sandy cocoons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What horned dung beetle is recognized as the world strongest animal relative to body weight, capable of pulling 1,141 times its own mass?",
+      "options": [
+        "Onthophagus taurus",
+        "Hercules Beetle",
+        "Leafcutter Ant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Testing demonstrated that male Onthophagus taurus beetles can pull loads equivalent to a 70 kg human pulling six full double-decker buses.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousand described species belong to the beetle order Coleoptera?",
+      "target": 400,
+      "metricUnit": "thousand species",
+      "imperialDisplay": "400,000 species",
+      "explanation": "Entomologists have cataloged approximately 400,000 species of beetles, with estimates suggesting millions more remain undiscovered in tropical canopies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What enzymatic reaction involving luciferin substrate, luciferase enzyme, and ATP produces cold light without heat in fireflies?",
+      "options": [
+        "Phosphorescence",
+        "Bioluminescence",
+        "Chemiluminescence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Firefly lanterns combine luciferin with oxygen and ATP in the presence of luciferase and magnesium to emit light with nearly 100 percent optical efficiency.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What order of insects contains the longest insects on Earth, featuring bodies and legs that precisely mimic twigs and foliage?",
+      "options": [
+        "Mantophasmatodea",
+        "Orthoptera",
+        "Phasmatodea Stick Insects"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phasmids exhibit catalepsy (feigning death for hours) and produce sway movements that mimic tree branches blowing in gentle breezes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What acoustic organs consisting of ribbed cuticular membranes driven by powerful thoracic muscles allow male cicadas to produce 100-decibel songs?",
+      "options": [
+        "Timbals",
+        "Stridulating files",
+        "Pectines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cicadas deform their convex timbal membranes inward and outward hundreds of times per second, resonating sound through an enlarged abdominal air sac.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What subterranean insect nymphs feed on root xylem sap for prime-numbered intervals of 13 or 17 years before emerging en masse?",
+      "options": [
+        "Mayflies",
+        "Periodical Cicadas Magicicada",
+        "June Beetles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emerging in synchronized broods of billions, periodical cicadas overwhelm local predators through predator satiation based on prime-year lifecycles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What beetle larvae produce bioluminescent green light along their bodies and red light from lanterns on their heads, earning the name railroad worms?",
+      "options": [
+        "Click Beetles",
+        "Glowworms",
+        "Phengodidae Beetle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phrixothrix larvae possess dual luciferase enzymes that emit distinct red light from the head and green-yellow light from 11 pairs of abdominal ports.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded body length in centimeters of the world longest stick insect specimen Phryganistria chinensis?",
+      "target": 64,
+      "metricUnit": "cm",
+      "imperialDisplay": "25.2 inches (64 cm)",
+      "explanation": "A cultivated specimen of the Chinese giant stick insect Phryganistria chinensis measured 64 cm (25.2 inches) with its legs fully extended.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What parasitic fungus infects carpenter ants, hijacking their nervous system to compel them to bite into leaf veins 25 cm above ground before dying?",
+      "options": [
+        "Ophiocordyceps unilateralis",
+        "Aspergillus flavus",
+        "Claviceps purpurea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fungus secretes neurochemicals that compel the ant to lock its mandibles into a north-facing leaf vein at optimal temperature and humidity for spore release.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What solitary wasp delivers two precise brain stings to an American cockroach, paralyzing its escape reflex so it can be led to a burrow like a dog on a leash?",
+      "options": [
+        "Cicada Killer",
+        "Emerald Jewel Wasp",
+        "Tarantula Hawk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wasp injects dopamine and GABA blockers directly into the subesophageal ganglion, eliminating voluntary motor walking without paralyzing muscles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What giant desert wasp attacks tarantulas in their burrows, paralyzing the spider with a sting to serve as fresh food for a single larva?",
+      "options": [
+        "Mud Dauber",
+        "Velvet Ant",
+        "Tarantula Hawk Pepsis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pepsis wasps possess a massive sting that inflicts instant, debilitating pain to deter predators while paralyzing large theraphosid spiders.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What biological term describes parasites whose larvae develop inside or on a host organism and inevitably kill the host upon completing development?",
+      "options": [
+        "Parasitoids",
+        "Obligate Mutualists",
+        "Commensals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike true parasites that keep their host alive, parasitoid wasps, flies, and nematodes consume vital host tissues, killing the host upon pupation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What insect order contains true flies, characterized by possessing only a single pair of flight wings and miniature gyroscopic balancing organs called halteres?",
+      "options": [
+        "Hymenoptera",
+        "Diptera",
+        "Hemiptera"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dipterans include houseflies, mosquitoes, and hoverflies, using oscillating drumstick-shaped halteres that detect Coriolis rotational forces during flight.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many years do the longest-cycle periodical cicadas spend underground before emerging in synchronized broods of billions?",
+      "target": 17,
+      "metricUnit": "years",
+      "imperialDisplay": "17-year underground development",
+      "explanation": "Magicicada septendecim and related 17-year species spend 17 years underground undergoing five juvenile instar stages before synchronizing mass emergence.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,703 @@
+{
+  "id": "norway-geography-heritage-60",
+  "theme": "Norway: Geography, Fjords & Arctic Wilderness",
+  "title": "Norway: Geography, Fjords & Arctic Wilderness",
+  "description": "A 60-question grand master assessment exploring Sognefjord & Geirangerfjord, Galdhøpiggen & Jotunheimen, the Lofoten Islands, Svalbard & Seed Vault, Oslo & Viking ships, Bergen, Aurora Borealis, stave churches, and North Sea oil.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the longest and deepest fjord in Norway, stretching 205 kilometers inland and plunging to a maximum depth of 1,308 meters?",
+      "options": [
+        "Sognefjord",
+        "Geirangerfjord",
+        "Hardangerfjord"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nicknamed the King of the Fjords, Sognefjord branches into the UNESCO-listed Nærøyfjord, where cliffs tower over a thousand meters above narrow channels.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spectacular UNESCO World Heritage fjord in Sunnmøre is famed for emerald-green waters, steep rock walls, and the Seven Sisters waterfall?",
+      "options": [
+        "Lysefjord",
+        "Geirangerfjord",
+        "Aurlandsfjord"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Seven Sisters (Sju Søstre) consists of seven separate streams plunging 250 meters over the cliff face, facing the solitary Suitor waterfall across the fjord.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 604-meter sheer cliff plateau in Rogaland towers vertically over the waters of Lysefjord, one of Norway most famous hiking viewpoints?",
+      "options": [
+        "Trolltunga",
+        "Kjeragbolten",
+        "Preikestolen Pulpit Rock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Preikestolen features an almost perfectly flat twenty-five by twenty-five meter rock top formed by glacial frost wedging during the last Ice Age.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary rock ledge in Vestland hangs horizontally 700 meters above Lake Ringedalsvatnet, named for its resemblance to a mythical monster tongue?",
+      "options": [
+        "Trolltunga Troll Tongue",
+        "Preikestolen",
+        "Torghatten"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formed when a massive chunk of bedrock broke away during glacial retreat roughly 10,000 years ago, Trolltunga requires a rigorous 28-kilometer round-trip trek.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous mountain pass road in Møre og Romsdal features eleven dramatic hairpin switchbacks climbing a sheer mountain wall beside the Stigfossen waterfall?",
+      "options": [
+        "Aurlandsfjellet",
+        "Trollstigen Troll Road",
+        "Sognefjellet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opened by King Haakon VII in 1936, Trollstigen is surrounded by towering mountain peaks named the King, the Queen, and the Bishop.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Sognefjord, the longest fjord in Norway?",
+      "target": 205,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "127 miles long",
+      "explanation": "Sognefjord extends for 205 kilometers from the Atlantic coast near Skjolden deep into the Jotunheimen mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Norway and Northern Europe, rising 2,469 meters in the Jotunheimen National Park?",
+      "options": [
+        "Glittertind",
+        "Store Skagastølstind",
+        "Galdhøpiggen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Galdhøpiggen (Piggen) was first climbed in 1850, accessible across the Styggebreen glacier from the Juvasshytta mountain lodge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain range in southern central Norway, meaning 'Home of the Giants' in Norse mythology, contains all of Northern Europe twenty highest peaks?",
+      "options": [
+        "Jotunheimen",
+        "Rondane",
+        "Dovrefjell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jotunheimen features the razor-thin Besseggen Ridge between dark-blue Lake Bessvatnet and the glacial turquoise Lake Gjende, immortalized in Ibsen Peer Gynt.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest mountain plateau in Europe, covering 8,000 square kilometers in southern Norway, home to Europe largest wild reindeer herd?",
+      "options": [
+        "Dovrefjell",
+        "Hardangervidda",
+        "Finnmarksvidda"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hardangervidda averages 1,100 to 1,200 meters elevation, characterized by Arctic alpine tundra, countless glacial lakes, and the Vøringsfossen waterfall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest glacier in continental mainland Europe, covering 487 square kilometers in Vestland County?",
+      "options": [
+        "Svartisen",
+        "Folgefonna",
+        "Jostedalsbreen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jostedalsbreen reaches an ice thickness of up to 600 meters, featuring dramatic glacier outlet arms like Nigardsbreen and Briksdalsbreen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national park in central Norway is the only place in Europe supporting a wild, free-roaming population of prehistoric Arctic Muskoxen?",
+      "options": [
+        "Dovrefjell-Sunndalsfjella National Park",
+        "Rondane National Park",
+        "Femundsmarka"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reintroduced from Greenland between 1947 and 1953, roughly three hundred shaggy muskoxen thrive in the subarctic tundra surrounding Mount Snøhetta.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Galdhøpiggen, the highest peak in Northern Europe?",
+      "target": 2469,
+      "metricUnit": "meters",
+      "imperialDisplay": "8,100 feet",
+      "explanation": "Galdhøpiggen stands at an official elevation of 2,469 meters above sea level in the Jotunheimen mountain range.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic archipelago inside the Arctic Circle in northern Norway is world-famous for sheer granite peaks, sandy Arctic surf beaches, and red fishermen cabins (rorbuer)?",
+      "options": [
+        "Vesterålen",
+        "Lofoten Islands",
+        "Helgeland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despite lying above 68 degrees North latitude, Lofoten experiences an anomalously mild climate due to the warming waters of the Norwegian Current.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional preserved seafood product, dried on giant outdoor wooden racks (hjell) by cold ocean winds without salt, has been exported from Lofoten since the Viking Age?",
+      "options": [
+        "Klippfisk",
+        "Gravlax",
+        "Stockfish Tørrfisk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spawning Arctic cod (skrei) migrate from the Barents Sea to Lofoten each winter, where optimal near-freezing temperatures dry fish without rotting or freezing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary, powerful tidal whirlpool system in the open sea between the Lofoten islands of Moskenesøya and Værøy inspired stories by Edgar Allan Poe and Jules Verne?",
+      "options": [
+        "Moskstraumen The Maelstrom",
+        "Saltstraumen",
+        "Rystraumen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moskstraumen is one of the strongest ocean tidal current systems on Earth, where powerful tidal flows forced through shallow sounds create roaring whirlpools.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque postcard fishing village at the southern tip of the Lofoten archipelago perches beneath the sheer conical peak of Reinebringen?",
+      "options": [
+        "Henningsvær",
+        "Reine",
+        "Svolvær"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reine features wooden rorbuer cabins on stilts over fjord waters, regularly voted the most beautiful village in Norway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tidal strait near Bodø produces the strongest tidal current on Earth, where 400 million cubic meters of seawater rush through a three-kilometer sound every six hours?",
+      "options": [
+        "Moskstraumen",
+        "Grimsøyfjorden",
+        "Saltstraumen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Water speeds reach thirty-seven kilometers per hour, creating massive swirling whirlpools up to ten meters wide and five meters deep.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "At approximately what degree North latitude does the Arctic Circle line cross through the territory of Norway?",
+      "target": 66,
+      "metricUnit": "degrees North",
+      "imperialDisplay": "66°33'N latitude",
+      "explanation": "The Arctic Circle crosses northern Norway at roughly 66.5 degrees North (rounded to 66°N), marked by the Arctic Circle Centre on the Saltfjellet plateau.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high Arctic archipelago situated midway between the northern coast of Norway and the North Pole is governed under the 1920 international Svalbard Treaty?",
+      "options": [
+        "Svalbard Spitsbergen",
+        "Jan Mayen",
+        "Bear Island"
+      ],
+      "correctIndex": 0,
+      "explanation": "Svalbard covers 61,022 square kilometers (sixty percent covered by glaciers), where citizens of over forty signatory nations enjoy equal rights of residence and economic activity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What secure underground backup facility carved 120 meters inside a permafrost sandstone mountain near Longyearbyen safeguards over one million global crop seed samples?",
+      "options": [
+        "Arctic Gene Bank",
+        "Svalbard Global Seed Vault",
+        "Doomsday Vault"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maintained at minus eighteen degrees Celsius, the Seed Vault acts as an ultimate insurance policy against natural, military, or climate loss of world crop biodiversity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the administrative capital and largest settlement in Svalbard, holding the distinction of being the northernmost town on Earth with over 1,000 residents?",
+      "options": [
+        "Barentsburg",
+        "Ny-Ålesund",
+        "Longyearbyen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1906 as a coal mining company town by American industrialist John Munro Longyear, Longyearbyen is home to the University Centre in Svalbard (UNIS).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which apex Arctic predator species outnumbers human residents on the archipelago of Svalbard, legally requiring travelers outside settlements to carry polar bear deterrents?",
+      "options": [
+        "Polar Bear Isbjørn",
+        "Walrus",
+        "Arctic Wolf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Approximately 3,000 polar bears roam the Barents Sea sub-population around Svalbard and Franz Josef Land, hunting ringed seals on seasonal sea pack ice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What astronomical phenomenon occurs in northern Norway during summer when the sun remains continuously above the horizon for weeks to months?",
+      "options": [
+        "Polar Night",
+        "Midnight Sun Midnattssol",
+        "Equinox"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Longyearbyen, Svalbard, the Midnight Sun shines unbroken for 127 consecutive days from April 20 to August 23 without setting.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Svalbard Global Seed Vault officially opened and dedicated inside the Arctic permafrost of Spitsbergen?",
+      "target": 2008,
+      "metricUnit": "year",
+      "imperialDisplay": "2008 AD",
+      "explanation": "The Svalbard Global Seed Vault was formally inaugurated on February 26, 2008, receiving initial seed deposits from global genebanks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital and most populous city of Norway, located at the northern head of the 100-kilometer Oslofjord?",
+      "options": [
+        "Bergen",
+        "Trondheim",
+        "Oslo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded around 1040 by King Harald Hardrada, Oslo was named Christiania after King Christian IV rebuilt it in stone following a devastating 1624 fire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 9th-century royal Viking burial ship, excavated in Vestfold in 1904, is considered one of the finest surviving artifacts from the Viking Age?",
+      "options": [
+        "Oseberg Ship Osebergskipet",
+        "Gokstad Ship",
+        "Tune Ship"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 21-meter clinker-built oak ship served as the luxurious burial chamber for two high-status Norse women, buried with ornate carved animal head posts and a wooden cart.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which museum on Oslo Bygdøy peninsula houses the historic wooden exploration vessel used by Fridtjof Nansen, Otto Sverdrup, and Roald Amundsen for Arctic and Antarctic voyages?",
+      "options": [
+        "Kon-Tiki Museum",
+        "Fram Museum Frammuseet",
+        "Viking Ship Museum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Fram was designed by Colin Archer with a rounded hull to withstand extreme polar pack ice pressure, reaching the farthest north and farthest south of any wooden ship in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous sculpture installation in Oslo Frogner Park contains over two hundred bronze, granite, and cast-iron sculptures created by a single artist?",
+      "options": [
+        "Munch Park",
+        "Ekebergparken",
+        "Vigeland Sculpture Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Created by Gustav Vigeland, the park center is crowned by the 14-meter Monolith (Monolitten), carved from a single granite block depicting 121 human figures striving upward.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which striking modern waterfront landmark in Oslo, designed by architectural firm Snøhetta, features an angled white Italian Carrara marble roof that pedestrians can walk upon?",
+      "options": [
+        "Oslo Opera House Operahuset",
+        "Munch Museum",
+        "National Museum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opened in 2008 on the Bjørvika waterfront, the building won the European Union Prize for Contemporary Architecture (Mies van der Rohe Award).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In which century CE was the famous Oseberg Viking longship built and buried in a royal burial mound in Vestfold, Norway?",
+      "target": 9,
+      "metricUnit": "century CE",
+      "imperialDisplay": "9th century AD (circa 820-834 CE)",
+      "explanation": "Dendrochronological timber dating shows the Oseberg ship was constructed around 820 CE and buried in 834 CE during the 9th century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic commercial wharf in Bergen, featuring a row of colorful medieval gabled wooden merchant warehouses, is a UNESCO World Heritage site?",
+      "options": [
+        "Nyhavn",
+        "Bryggen Tyskebryggen",
+        "Gamle Stavanger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bryggen was the Norwegian headquarters of the Hanseatic League from the 14th to mid-16th century, controlling monopoly exports of dried cod stockfish.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal city surrounded by seven mountains is known as the Gateway to the Fjords and the rainiest major city in Europe, receiving over 2,200 mm of annual rainfall?",
+      "options": [
+        "Stavanger",
+        "Ålesund",
+        "Bergen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bergen was the capital of Norway during the 13th century, famous for the Fløibanen funicular railway climbing Mount Fløyen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which scenic 20-kilometer railway in western Norway climbs 866 meters from the Aurlandsfjord to Myrdal, one of the steepest standard-gauge adhesion railways in the world?",
+      "options": [
+        "Flåm Railway Flåmsbana",
+        "Rauma Railway",
+        "Bergen Line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Flåmsbana negotiates twenty tunnels with an eighteen-in-one gradient slope (5.5 percent grade), stopping for passengers to view the roaring Kjosfossen waterfall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal town in Møre og Romsdal was rebuilt completely in colorful Art Nouveau (Jugendstil) stone and brick architecture following a catastrophic fire in 1904?",
+      "options": [
+        "Molde",
+        "Ålesund",
+        "Kristiansund"
+      ],
+      "correctIndex": 1,
+      "explanation": "German Kaiser Wilhelm II sent warships loaded with building materials to rebuild Ålesund with ornate stone towers, turrets, and dragon-motif facades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which medieval stone cathedral in Trondheim, founded in 1070 over the tomb of King Olav Haraldsson (Saint Olav), is the northernmost medieval cathedral in the world?",
+      "options": [
+        "Stavanger Cathedral",
+        "Bergen Cathedral",
+        "Nidaros Cathedral Nidarosdomen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nidaros Cathedral was the traditional coronation site for Norwegian monarchs and the historical terminus of the Saint Olav medieval pilgrimage ways.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate average annual rainfall in millimeters recorded in the coastal city of Bergen, Norway?",
+      "target": 2250,
+      "metricUnit": "millimeters",
+      "imperialDisplay": "88.6 inches of rain annually",
+      "explanation": "Bergen receives an average of approximately 2,250 millimeters of precipitation per year due to Atlantic weather systems trapped against the surrounding mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vibrant Arctic city in northern Norway, situated on Tromsøya island at 69 degrees North, is known as the Capital of the Northern Lights and Paris of the North?",
+      "options": [
+        "Tromsø",
+        "Bodø",
+        "Alta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tromsø is home to the Arctic Cathedral (Ishavskatedralen), Polaria Arctic center, and world-renowned research centers for the Aurora Borealis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What indigenous Finno-Ugric people have inhabited the northern Arctic regions of Norway, Sweden, Finland, and Russia (Sápmi) for thousands of years, practicing semi-nomadic reindeer herding?",
+      "options": [
+        "The Inuit",
+        "The Sámi People",
+        "The Nenets"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sámi have their own democratically elected parliament (Sámediggi) in Karasjok, traditional joik vocal folk music, and colorful gákti clothing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 307-meter ocean cliff promontory on Magerøya island is marketed as the northernmost point of continental Europe accessible by road?",
+      "options": [
+        "Knivskjellodden",
+        "Cape Arkona",
+        "North Cape Nordkapp"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nordkapp is crowned by a famous steel globe monument at 71 degrees 10 minutes North latitude, where visitors watch the Midnight Sun hover over the Barents Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular atmospheric light display in the polar night sky is caused by solar wind particles colliding with oxygen and nitrogen atoms in Earth upper atmosphere?",
+      "options": [
+        "Aurora Borealis Northern Lights",
+        "Zodiacal Light",
+        "Noctilucent Clouds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charged particles funneled by Earth magnetic field excite oxygen atoms to emit green and red light and nitrogen to emit purple and blue curtains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which town in Finnmark is home to a UNESCO World Heritage collection of over 6,000 prehistoric rock carvings dating between 4200 and 500 BCE?",
+      "options": [
+        "Kautokeino",
+        "Alta",
+        "Hammerfest"
+      ],
+      "correctIndex": 1,
+      "explanation": "The petroglyphs in the Alta Fjord depict prehistoric reindeer hunting, brown bears, elk, boats with elk-head prows, and shamanic rituals.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "At what degree North latitude is the iconic North Cape (Nordkapp) cliff lookout located in northern Norway?",
+      "target": 71,
+      "metricUnit": "degrees North",
+      "imperialDisplay": "71°10'21\"N latitude",
+      "explanation": "Nordkapp sits at 71 degrees 10 minutes North latitude, just 2,100 kilometers from the Geographic North Pole.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive style of medieval wooden Christian church architecture, supported by massive vertical timber posts (staves), is unique to Norway?",
+      "options": [
+        "Log Church",
+        "Plank Church",
+        "Stave Church Stavkirke"
+      ],
+      "correctIndex": 2,
+      "explanation": "During the Middle Ages, over one thousand stave churches were built across Norway using intricate timber joinery without iron nails.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage 12th-century stave church in Sogn og Fjordane is the oldest surviving stave church in Norway, famed for Viking-style animal scroll woodcarvings?",
+      "options": [
+        "Urnes Stave Church",
+        "Borgund Stave Church",
+        "Heddal Stave Church"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built around 1130 CE, Urnes gave its name to the Urnes style of Norse animal art, depicting interlaced snakes, dragons, and stylized four-legged beasts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which exceptionally well-preserved stave church in Lærdal is famous for its layered tiered roofs, carved dragon heads, and black protective pine tar coating?",
+      "options": [
+        "Gol Stave Church",
+        "Borgund Stave Church",
+        "Lom Stave Church"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built around 1180 CE, Borgund has remained virtually unchanged since the Middle Ages, featuring runic inscriptions and a covered exterior ambulatory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest surviving stave church in Norway, located in Telemark, nicknamed the Wooden Cathedral with three massive rising towers?",
+      "options": [
+        "Fantoft Stave Church",
+        "Ringebu Stave Church",
+        "Heddal Stave Church"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heddal was constructed in the early 13th century and remains an active parish church, restored in the 19th century with traditional wood carvings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 24.5-kilometer road tunnel in Vestland is the longest road tunnel in the world, featuring blue and yellow illuminated mountain light caves to prevent driver fatigue?",
+      "options": [
+        "Lærdal Tunnel Lærdalstunnelen",
+        "Gotthard Road Tunnel",
+        "Mont Blanc Tunnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opened in 2000 connecting Lærdal and Aurland on the E16 highway, the tunnel eliminated the treacherous winter crossing of the Aurlandsfjellet mountain pass.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Lærdal Tunnel in Norway, the longest road tunnel in the world?",
+      "target": 25,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "15.2 miles long",
+      "explanation": "The Lærdal Tunnel measures exactly 24.51 kilometers (rounded to 25 km), passing deep beneath the mountains of western Norway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular 8.3-kilometer coastal highway in Møre og Romsdal hops across eight bridges connecting low rocky ocean islets over the Norwegian Sea?",
+      "options": [
+        "The Golden Route",
+        "The Atlantic Ocean Road Atlanterhavsveien",
+        "Helgeland Coast Road"
+      ],
+      "correctIndex": 1,
+      "explanation": "Declared Norway Construction of the Century, the road is famous for the dramatic curving cantilever Storseisundet Bridge, known as the Road to Nowhere.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which giant North Sea offshore oil field discovered on Christmas Eve in 1969 launched Norway transformation into one of the world wealthiest energy exporters?",
+      "options": [
+        "Statfjord Field",
+        "Troll Gas Field",
+        "Ekofisk Oil Field"
+      ],
+      "correctIndex": 2,
+      "explanation": "Operated by Phillips Petroleum, Ekofisk is one of the largest offshore oil basins in the North Sea, producing hydrocarbons for over fifty years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the massive sovereign wealth fund of Norway, valued at over 1.7 trillion dollars, created to invest surplus petroleum revenues for future generations?",
+      "options": [
+        "Government Pension Fund Global Oljefondet",
+        "Norwegian State Fund",
+        "Nordic Heritage Fund"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oljefondet owns roughly 1.5% of all publicly listed companies on Earth across seventy countries, governed by strict ethical and environmental guidelines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of Norway domestic electricity generation is produced by clean, renewable hydroelectric power from mountain dams and waterfalls?",
+      "options": [
+        "50 Percent",
+        "Over 90 Percent",
+        "70 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abundant mountain precipitation, steep valleys, and natural glacier lakes allow Norway to generate over ninety percent of its electricity from hydropower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which industry in Norway coastal fjords makes the country the undisputed world leading producer and exporter of farmed Atlantic Salmon (Salmo salar)?",
+      "options": [
+        "Herring Trawling",
+        "King Crab Harvesting",
+        "Aquaculture Salmon Farming"
+      ],
+      "correctIndex": 2,
+      "explanation": "Norwegian salmon farming pioneered modern floating net-pens in the 1970s, exporting over 1.3 million metric tons of fresh salmon annually across the globe.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Ekofisk offshore oil field discovered in the Norwegian sector of the North Sea?",
+      "target": 1969,
+      "metricUnit": "year",
+      "imperialDisplay": "1969 AD",
+      "explanation": "The Ocean Viking drilling rig struck giant commercial oil reserves at Ekofisk on December 23, 1969, transforming the Norwegian economy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "When including all indented fjord shorelines, bays, and roughly 239,000 coastal islands, what is the estimated total coastline length of Norway?",
+      "options": [
+        "Over 100,000 Kilometers",
+        "25,000 Kilometers",
+        "50,000 Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to Statistics Norway, the intricate fractured fractal coastline measures over 104,000 kilometers, the second longest in the world after Canada.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What uninhabited Norwegian volcanic island in the South Atlantic Ocean is recognized as the most geographically isolated uninhabited island on Earth?",
+      "options": [
+        "Peter I Island",
+        "Bouvet Island Bouvetøya",
+        "Jan Mayen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bouvet Island lies over 1,700 kilometers from the coast of Queen Maud Land in Antarctica, covered ninety-three percent by glaciers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many regional administrative counties (Fylker) comprise the Kingdom of Norway following the regional administrative adjustments of 2024?",
+      "options": [
+        "11 Counties",
+        "19 Counties",
+        "15 Counties"
+      ],
+      "correctIndex": 2,
+      "explanation": "Norway is divided into fifteen counties (such as Oslo, Rogaland, Vestland, Møre og Romsdal, Trøndelag, Nordland, Troms, and Finnmark).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep Arctic coal-mining settlement in Svalbard is home to the world northernmost commercial brewery (Svalbard Bryggeri)?",
+      "options": [
+        "Longyearbyen",
+        "Barentsburg",
+        "Pyramiden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Svalbard Bryggeri brews craft beers using 2,000-year-old glacial meltwater from the Bogerbreen glacier on the 78th parallel north.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ranking does Norway consistently hold on the United Nations Human Development Index (HDI), reflecting exceptional longevity, education, and standard of living?",
+      "options": [
+        "Top 20",
+        "Top 2 in the World",
+        "Top 50"
+      ],
+      "correctIndex": 1,
+      "explanation": "Norway has ranked first or second globally on the UN Human Development Index for over two decades, driven by strong social welfare and egalitarian institutions.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many first-level administrative counties (Fylker) make up the Kingdom of Norway?",
+      "target": 15,
+      "metricUnit": "counties",
+      "imperialDisplay": "15 Fylker",
+      "explanation": "Following the regional demerger reforms effective January 1, 2024, Norway is structured into fifteen official counties.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

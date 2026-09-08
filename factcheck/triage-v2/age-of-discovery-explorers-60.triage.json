@@ -1,0 +1,72 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "age-of-discovery-explorers-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 9,
+  "findings": [
+    {
+      "question_number": 6,
+      "severity": "major",
+      "issue": "The numeric target '3 masts' is factually inaccurate for a standard Portuguese caravel. Historical consensus indicates that the typical exploration caravel (like those used by Dias and da Gama) featured two masts (one square-rigged foremast, one lateen-masted mainmast). Three-masted caravels were rare exceptions or later developments.",
+      "proposed_fix": "Change Target to '2 masts' and update the explanation to reflect that most standard caravels had two masts, though some larger variants could have three.",
+      "verification_query": "Search for historical records of Portuguese caravel rigging configurations in the 15th century, specifically focusing on the number of masts on vessels used by Bartolomeu Dias and Vasco da Gama."
+    },
+    {
+      "question_number": 18,
+      "severity": "major",
+      "issue": "The numeric target '90 crewmen' is an understatement and potentially misleading. While estimates vary, most modern historical accounts suggest the Columbus fleet of 1492 carried between 86 and 90 men initially, but some sources cite up to 120 or more depending on whether officers are counted separately or if the count includes those who joined later. However, stating 'Approximately 90' is acceptable, but the target should be phrased as a range or 'approximately 90-100' to avoid implying an exact low number that might be disputed by sources citing higher figures.",
+      "proposed_fix": "Change Target to 'approximately 90-100 crew members' and update the explanation to acknowledge the range of historical estimates (86-120).",
+      "verification_query": "Consult primary sources like Columbus's logs or secondary scholarly works on the exact number of men aboard the Santa Maria, Pinta, and Nina in August 1492."
+    },
+    {
+      "question_number": 24,
+      "severity": "critical",
+      "issue": "The numeric target '370 leagues' is historically inaccurate and disputed. The Treaty of Tordesillas (1494) set the demarcation line at 370 *leguas* west of Cape Verde, but the specific unit 'league' varied significantly by region and time (Portuguese vs Spanish). Furthermore, modern historical consensus often cites the distance as approximately 270 leagues or simply notes the ambiguity of the unit. The specific figure '370' is a common misconception derived from later interpretations or different units; stating it as a hard fact without qualification is misleading for a high-quality quiz.",
+      "proposed_fix": "Change the question type to [mcq] and ask for the approximate distance in leagues, or change the target to 'approximately 270-370' with an explanation noting the unit ambiguity. Alternatively, remove the specific number and focus on the location relative to Cape Verde.",
+      "verification_query": "Verify the exact distance in leagues specified by the Treaty of Tordesillas and the historical debate regarding the definition of a 'league' at that time."
+    },
+    {
+      "question_number": 30,
+      "severity": "minor",
+      "issue": "The explanation states 'just 18 surviving crew members out of roughly 270 men'. While the number of survivors is often cited as around 18, some historical accounts suggest slightly higher numbers (e.g., 19 or 20) depending on whether they include those who died shortly after arrival. The phrasing 'just 18' is slightly underspecified but acceptable; however, the explanation could be more precise by acknowledging the variance in historical records.",
+      "proposed_fix": "Refine the explanation to state 'approximately 18 survivors' or cite the specific number from the most authoritative source (e.g., Pigafetta's account) while acknowledging minor discrepancies in other accounts.",
+      "verification_query": "Cross-reference multiple primary sources (Pigafetta, Solis, etc.) for the exact number of survivors of Magellan's voyage to ensure accuracy."
+    },
+    {
+      "question_number": 41,
+      "severity": "minor",
+      "issue": "The explanation is slightly imprecise regarding the scope of Champlain's mapping; he mapped the St. Lawrence River and Great Lakes specifically, not the entire 'Atlantic coastlines' which implies a much larger geographic scope than achieved in his lifetime.",
+      "proposed_fix": "Explanation: Champlain mapped the St. Lawrence River valley and the Great Lakes region, cementing French fur trading alliances in North America.",
+      "verification_query": "Did Samuel de Champlain map the entire Atlantic coastline or just specific regions like the St. Lawrence and Great Lakes?"
+    },
+    {
+      "question_number": 48,
+      "severity": "major",
+      "issue": "The target value (150 tons) is an upper estimate; historical records for the Golden Hind's displacement vary significantly between 100 and 150 tons. Presenting 150 as a definitive 'Target' without qualification is factually overstated given the ambiguity in primary sources.",
+      "proposed_fix": "Change target to a range or acknowledge the variance: Target: 100-150 tons; display: ~125 metric tons (approx).",
+      "verification_query": "What are the specific historical estimates for the displacement of Francis Drake's Golden Hind in tons?"
+    },
+    {
+      "question_number": 51,
+      "severity": "critical",
+      "issue": "The explanation contains a significant factual error. Willem Janszoon made landfall on the *western* coast of Cape York Peninsula (specifically near the Gulf of Carpentaria), not the eastern coast. The western coast is part of the Torres Strait region, while the eastern coast faces the Coral Sea.",
+      "proposed_fix": "Explanation: Janszoon made landfall on the western coast of Cape York Peninsula in Queensland, making the first documented European contact with Aboriginal Australians.",
+      "verification_query": "Did Willem Janszoon make landfall on the eastern or western coast of Cape York Peninsula?"
+    },
+    {
+      "question_number": 57,
+      "severity": "minor",
+      "issue": "The explanation claims Cook 'losing zero men to scurvy on his first voyage'. While he did not lose men *to scurvy* specifically (he lost men to other causes like drowning or accidents), the phrasing implies a perfect record for all mortality, which is historically inaccurate. Additionally, the primary method was sauerkraut and fresh water, but the 'zero men' claim needs nuance.",
+      "proposed_fix": "Explanation: Cook enforced strict shipboard hygiene, fresh foraging, and vitamin C-rich sauerkraut, resulting in no deaths from scurvy on his first voyage (though other casualties occurred).",
+      "verification_query": "How many men did Captain Cook lose to scurvy specifically on his first voyage?"
+    },
+    {
+      "question_number": 59,
+      "severity": "minor",
+      "issue": "The explanation states the sextant replaced the octant. Technically, the sextant evolved from the octant (which measured up to 45 degrees) and eventually superseded it for angles up to 120 degrees. The phrasing is acceptable but could be slightly more precise regarding the transition.",
+      "proposed_fix": "Explanation: The marine sextant allowed sight angles up to 120 degrees, evolving from the octant to become the essential tool for celestial navigation and lunar distance calculations.",
+      "verification_query": "Did the sextant immediately replace the octant or was there a transitional period?"
+    }
+  ]
+}

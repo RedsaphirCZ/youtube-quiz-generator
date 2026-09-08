@@ -1,0 +1,58 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "ancient-americas-maya-inca-aztec-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 7,
+  "findings": [
+    {
+      "question_number": 6,
+      "severity": "critical",
+      "issue": "Factual error in numeric target and explanation regarding the location of the largest Olmec head.",
+      "proposed_fix": "Change Target to '20 tons' (or remove specific weight if uncertain) and update Explanation to state the largest known head is at La Venta, not La Cobata. The 40-ton figure likely conflates the height/weight of a different artifact or misidentifies the site.",
+      "verification_query": "Verify the location (La Venta vs La Cobata) and weight (metric tons) of the largest Olmec colossal stone head."
+    },
+    {
+      "question_number": 12,
+      "severity": "minor",
+      "issue": "Outdated/ambiguous date in explanation.",
+      "proposed_fix": "Update Explanation to clarify that while built around 741 CE (or late 8th century), the pyramid was significantly modified and raised by later kings (e.g., Jasaw Chan K'awiil II) in the 9th century, which is when it reached its final height.",
+      "verification_query": "Confirm the original construction date vs. final modification date of Temple IV at Tikal."
+    },
+    {
+      "question_number": 25,
+      "severity": "critical",
+      "issue": "Factual error in answer key and explanation regarding Aztec mythology.",
+      "proposed_fix": "Change Answer to 'Chicomoztoc' and update Explanation to state: 'Chicomoztoc was the mythical homeland from which the seven Nahua tribes (including the Mexica) emerged, while Aztlan was their specific ancestral island origin during migration.'",
+      "verification_query": "Verify the distinction between Chicomoztoc (origin of 7 tribes) and Aztlan (specific Mexica homeland) in Aztec mythology."
+    },
+    {
+      "question_number": 36,
+      "severity": "major",
+      "issue": "Overstated/ambiguous numeric claim regarding population comparison.",
+      "proposed_fix": "Modify Target to '200000 people' (remove specific formatting if needed) and update Explanation to: 'Estimates range from 200,000 to 250,000 inhabitants; while often compared to London or Paris of the era, exact population figures for these cities remain debated by historians.'",
+      "verification_query": "Verify historical demographic estimates for Tenochtitlan (1519) and compare with London/Paris populations of the same period."
+    },
+    {
+      "question_number": 47,
+      "severity": "critical",
+      "issue": "Factual error in explanation: The Qhapaq Nan (Inca Road System) was primarily paved with stone or gravel. Suspension bridges made of woven ichu grass were used only for crossing deep ravines and gorges, not as the primary feature of the 'paved road network' described.",
+      "proposed_fix": "Update explanation to specify that while suspension bridges crossed ravines, the main roads were paved with stone/gravel. Remove the implication that the entire network featured suspension bridges as a standard feature alongside paved stairways.",
+      "verification_query": "Did the Qhapaq Nan primarily use suspension bridges or paved stone surfaces?"
+    },
+    {
+      "question_number": 58,
+      "severity": "major",
+      "issue": "Overstated/Disputed claim: The explanation claims temperature variations of 'up to 15 degrees Celsius' between the top rim and bottom circle. While microclimates exist, a consistent 15-degree difference is often considered an exaggeration in scientific literature; typical ranges are cited as 3-8°C depending on season and depth.",
+      "proposed_fix": "Modify the claim to 'up to 8 degrees Celsius' or 'significant temperature variations' to align with more conservative archaeological estimates.",
+      "verification_query": "What is the scientifically accepted maximum temperature difference in Moray's terraces?"
+    },
+    {
+      "question_number": 60,
+      "severity": "critical",
+      "issue": "Factual error: The specific weight of '128 metric tons' for the largest block at Sacsayhuaman is not supported by standard archaeological records. Most sources cite blocks ranging from 50 to 100+ tons, with some estimates reaching ~150 tons, but '128' appears to be a specific, likely fabricated or misremembered figure (possibly conflating with other sites like Ollantaytambo's largest block).",
+      "proposed_fix": "Change the target answer and explanation to reflect the general consensus of 'over 100 metric tons' or remove the specific number if exactness is not required, as precise weights for individual Sacsayhuaman blocks are often estimated ranges rather than fixed integers.",
+      "verification_query": "What is the verified weight of the largest single block at Sacsayhuaman?"
+    }
+  ]
+}

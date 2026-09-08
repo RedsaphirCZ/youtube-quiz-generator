@@ -1,0 +1,640 @@
+{
+  "id": "ancient-greece-60",
+  "theme": "Ancient Greece: Philosophy, Mythology & Golden Age",
+  "title": "Ancient Greece: Philosophy, Mythology & Golden Age",
+  "description": "A 60-question grand master assessment on classical Athens, Sparta, Greek philosophy, Persian Wars, Homeric epics, and Hellenistic conquests.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which Athenian statesman established the constitutional reforms in 508 BCE that created Athenian direct democracy?",
+      "options": [
+        "Cleisthenes",
+        "Solon",
+        "Pericles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cleisthenes reorganized the citizen body into ten geographic tribes, breaking the power of aristocratic clans and establishing the Boule (Council of 500) and the popular Assembly (Ekklesia). For these groundbreaking reforms, he is celebrated as the father of Athenian democracy."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the democratic procedure in Athens where citizens voted on pottery shards to exile dangerous politicians for ten years?",
+      "options": [
+        "Dokimasia",
+        "Ostracism",
+        "Euthyna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Citizens scratched the name of the individual they wished to banish onto broken pottery pieces called ostraka. If at least 6,000 votes were cast, the target was exiled for a decade without losing their property, neutralizing potential tyrants."
+    },
+    {
+      "type": "mcq",
+      "question": "Which celebrated orator and general led Athens during its Golden Age, commissioning the construction of the Parthenon?",
+      "options": [
+        "Themistocles",
+        "Alcibiades",
+        "Pericles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pericles dominated Athenian politics from 461 to 429 BCE, fostering democratic institutions, the arts, and the Delian League. His ambitious Acropolis building program transformed Athens into the intellectual and artistic capital of the Mediterranean."
+    },
+    {
+      "type": "mcq",
+      "question": "On what rocky hill in central Athens was the Parthenon temple constructed overlooking the city?",
+      "options": [
+        "Acropolis",
+        "Areopagus",
+        "Pnyx"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Acropolis of Athens is an ancient fortified citadel rising 150 meters above the Ilissos valley. Dedicated primarily to Athena Polias, its monumental complex includes the Propylaea, Erechtheion, and the Temple of Athena Nike."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient open meeting ground in Athens served as the primary gathering place for democratic debates of the Ekklesia?",
+      "options": [
+        "Agora",
+        "Pnyx",
+        "Kerameikos"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pnyx was an open-air stone terrace located west of the Acropolis where thousands of Athenian male citizens gathered to vote on war, alliances, and laws. Orators spoke from the bema, a carved stone speaker platform."
+    },
+    {
+      "type": "number",
+      "question": "How many members comprised the executive governing council of citizens (the Boule) in classical democratic Athens?",
+      "target": 500,
+      "metricUnit": "citizens",
+      "imperialDisplay": "Council of 500 (Boule)",
+      "explanation": "The Boule consisted of 500 citizens (50 chosen annually by lot from each of the 10 Cleisthenic tribes) who prepared the legislative agenda for the general Assembly."
+    },
+    {
+      "type": "mcq",
+      "question": "Which philosopher was condemned to death in 399 BCE for corrupting the youth and not believing in the city gods?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates"
+      ],
+      "correctIndex": 2,
+      "explanation": "Socrates practiced the dialectical elenchus (Socratic Method), questioning orthodox assumptions about justice, piety, and virtue in the Athenian Agora. Rather than escape or plead for mercy, he drank a cup of poisonous hemlock in accordance with the court ruling."
+    },
+    {
+      "type": "mcq",
+      "question": "Which student of Socrates founded the Academy in Athens and wrote The Republic formulating the Theory of Forms?",
+      "options": [
+        "Plato",
+        "Xenophon",
+        "Antisthenes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plato established the Academy around 387 BCE, widely regarded as the first institution of higher learning in the Western world. His philosophical dialogues explored epistemology, metaphysics, and the ideal state ruled by philosopher-kings."
+    },
+    {
+      "type": "mcq",
+      "question": "Which polymath studied under Plato for twenty years, founded the Lyceum, and tutored Alexander the Great?",
+      "options": [
+        "Zeno of Elea",
+        "Aristotle",
+        "Epicurus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aristotle pioneered formal deductive logic, empirical biology, ethics, physics, and literary theory in works such as Nicomachean Ethics and Politics. His peripatetic school walked and lectured in the groves of the Lyceum."
+    },
+    {
+      "type": "mcq",
+      "question": "Which philosophical school founded by Zeno of Citium taught that virtue, reason, and emotional resilience in harmony with nature lead to true peace of mind?",
+      "options": [
+        "Epicureanism",
+        "Cynicism",
+        "Stoicism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Meeting at the Stoa Poikile (Painted Porch) in Athens, Stoics taught that while external circumstances cannot be controlled, one rational moral response and internal virtue are entirely within human power."
+    },
+    {
+      "type": "mcq",
+      "question": "Which philosopher lived in a ceramic tub in the Agora of Athens and practiced radical Cynicism, famously mocking Alexander the Great?",
+      "options": [
+        "Diogenes of Sinope",
+        "Aristippus",
+        "Crates of Thebes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diogenes rejected conventional material wealth, manners, and social hypocrisies, carrying a lamp in daylight looking for an honest human. When Alexander offered him any gift, Diogenes famously replied: Stand a little out of my sun."
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE was the classical philosopher Socrates tried and executed in Athens by drinking hemlock?",
+      "target": 399,
+      "metricUnit": "BCE",
+      "imperialDisplay": "399 BC",
+      "explanation": "Socrates trial and execution took place in 399 BCE, an event commemorated in Plato dialogues the Apology, Crito, and Phaedo."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Athenian general devised the tactical strategy that routed the Persian army of King Darius I at Marathon in 490 BCE?",
+      "options": [
+        "Themistocles",
+        "Miltiades",
+        "Cimon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Miltiades reinforced the Athenian phalanx flanks while thinning the center, executing a devastating double envelopment that crushed the Persian landing force. The unexpected victory showed that Greek hoplites could overcome superior Persian numbers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spartan king led a rearguard of 300 Spartans and allied Greeks at the narrow pass of Thermopylae in 480 BCE?",
+      "options": [
+        "Pausanias",
+        "Archidamus II",
+        "Leonidas I"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Leonidas I held off King Xerxes massive Persian invasion force for three days before being surrounded through the mountain path of Ephialtes. The heroic sacrifice allowed the Greek city-states time to prepare their naval defense."
+    },
+    {
+      "type": "mcq",
+      "question": "What decisive naval battle in 480 BCE saw the allied Greek triremes lure and crush the Persian fleet in narrow straits?",
+      "options": [
+        "Battle of Salamis",
+        "Battle of Artemisium",
+        "Battle of Mycale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athenian naval commander Themistocles tricked Xerxes into sailing his heavy, unmaneuverable ships into the cramped waters between Salamis and the mainland. The agile Greek bronze-rammed triremes decimated the Persian fleet, turning the tide of the invasion."
+    },
+    {
+      "type": "mcq",
+      "question": "Which final land battle in Boeotia in 479 BCE saw Spartan and Athenian hoplites permanently expel Persian forces from mainland Greece?",
+      "options": [
+        "Battle of Marathon",
+        "Battle of Plataea",
+        "Battle of Chaeronea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Led by the Spartan regent Pausanias, the allied Greek army routed Persian general Mardonius forces at Plataea, simultaneously destroying their remaining naval base at Mycale."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the maritime confederation of Greek city-states formed in 478 BCE on a sacred Aegean island to continue resisting Persia?",
+      "options": [
+        "Peloponnesian League",
+        "Achaean League",
+        "Delian League"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed on the holy island of Delos, the Delian League collected tribute in ships or silver from allied islands and coastal cities. Over time, Athens converted the mutual defense alliance into an Athenian maritime empire."
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE was the pivotal naval Battle of Salamis fought, shattering Persian maritime dominance in the Aegean?",
+      "target": 480,
+      "metricUnit": "BCE",
+      "imperialDisplay": "September 480 BC",
+      "explanation": "The Battle of Salamis was fought in September 480 BCE, saving Greece from Persian conquest."
+    },
+    {
+      "type": "mcq",
+      "question": "What rigorous state-mandated military education and training system was compulsory for all male Spartan citizens from age seven?",
+      "options": [
+        "Agoge",
+        "Syssitia",
+        "Krypteia"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Agoge emphasized physical endurance, stealth, martial combat, obedience, and tactical discipline. Boys lived in communal barracks, undergoing intense physical hardship until becoming full Spartan warrior citizens (Spartiates) at age thirty."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the subjugated, enslaved agricultural peasant class of ancient Laconia and Messenia that worked the land for Spartan masters?",
+      "options": [
+        "Perioikoi",
+        "Helots",
+        "Metics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Helots vastly outnumbered full Spartan citizens and formed the agricultural backbone that freed Spartiates to train exclusively for war. Spartans declared ritual war on Helots annually to suppress uprisings through the secret police (Krypteia)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary semi-mythical Spartan lawgiver was credited with creating Sparta communal, militaristic constitution (the Great Rhetra)?",
+      "options": [
+        "Solon",
+        "Draco",
+        "Lycurgus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lycurgus instituted the dual kingship, the council of elders (Gerousia), communal dining messes (syssitia), and banned gold and silver coinage in favor of heavy iron bars to discourage greed and corruption."
+    },
+    {
+      "type": "mcq",
+      "question": "What bronze shield did Greek hoplites carry in tight battle formations, locking them together to form an impenetrable wall?",
+      "options": [
+        "Aspis",
+        "Scutum",
+        "Pelta"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aspis (or hoplon) was a convex wooden shield faced with bronze and fitted with a central forearm strap (porpax) and handgrip (antilabe). In a phalanx, each warrior shield protected his left side and the unarmored right side of the comrade beside him."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek city-state defeated the invincible Spartan army at the Battle of Leuctra in 371 BCE using the innovative Sacred Band?",
+      "options": [
+        "Athens",
+        "Thebes",
+        "Corinth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theban general Epaminondas massed an oblique 50-deep left wing spearheaded by the elite 300-man Sacred Band, crushing the Spartan royal right wing and permanently ending Spartan military hegemony in Greece."
+    },
+    {
+      "type": "number",
+      "question": "At what minimum age in years could a Spartan male finally complete the Agoge and become a full voting citizen in the Apella?",
+      "target": 30,
+      "metricUnit": "years",
+      "imperialDisplay": "Age 30",
+      "explanation": "Spartan men completed mandatory active barracks life and achieved full civic and voting rights at age 30, though remaining subject to military call-up until age 60."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the king of the Olympian gods and ruler of the sky, lightning, and justice in Greek mythology?",
+      "options": [
+        "Poseidon",
+        "Hades",
+        "Zeus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zeus overthrew his father Cronus during the Titanomachy, casting the Titans into Tartarus and drawing lots with his brothers Poseidon and Hades to govern the sky, oceans, and underworld."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek goddess of wisdom, strategic warfare, and crafts was said to have sprung fully armed from the head of Zeus?",
+      "options": [
+        "Athena",
+        "Artemis",
+        "Aphrodite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athena was the patron goddess of Athens, having gifted the city the olive tree in a contest against Poseidon. Her sacred symbols include the owl, the olive branch, and the Aegis shield depicting Medusa head."
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin archer deities were revered as the god of music, light, and prophecy, and the goddess of the hunt and wilderness?",
+      "options": [
+        "Ares and Aphrodite",
+        "Apollo and Artemis",
+        "Hermes and Hestia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Born to Zeus and Leto on the sacred island of Delos, Apollo presided over music, medicine, and the Pythian Oracle at Delphi, while his twin sister Artemis protected wildlife, young women, and the moon."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous labyrinth beneath the palace of Knossos on Crete was designed by Daedalus to imprison the monstrous Minotaur?",
+      "options": [
+        "Tiryns",
+        "Tartarus",
+        "Labyrinth"
+      ],
+      "correctIndex": 2,
+      "explanation": "According to myth, King Minos of Crete demanded annual Athenian youth tributes to feed the half-bull, half-man Minotaur until Prince Theseus slew the beast and escaped using Ariadne ball of thread."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek hero was fatally vulnerable only in his heel after his mother Thetis dipped him in the River Styx?",
+      "options": [
+        "Achilles",
+        "Perseus",
+        "Heracles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thetis held the infant Achilles by his heel, leaving that single spot untouched by the magical protective waters of the underworld river Styx. He was eventually slain by Paris poisoned arrow during the siege of Troy."
+    },
+    {
+      "type": "number",
+      "question": "How many major Olympian deities traditionally made up the supreme divine council on Mount Olympus?",
+      "target": 12,
+      "metricUnit": "gods",
+      "imperialDisplay": "The Twelve Olympians (Dodekatheon)",
+      "explanation": "The classical Twelve Olympians consisted of Zeus, Hera, Poseidon, Demeter, Athena, Apollo, Artemis, Ares, Aphrodite, Hephaestus, Hermes, and either Hestia or Dionysus."
+    },
+    {
+      "type": "mcq",
+      "question": "In what year BCE were the first recorded Ancient Olympic Games held in the sanctuary of Olympia?",
+      "options": [
+        "500 BCE",
+        "776 BCE",
+        "490 BCE"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ancient games were held every four years (an Olympiad) in honor of Zeus at Olympia in the Peloponnese. An Olympic truce (ekecheiria) was declared across all Greek city-states, guaranteeing safe passage for athletes and pilgrims."
+    },
+    {
+      "type": "mcq",
+      "question": "What simple prize was awarded to champions of events at the Ancient Olympic Games?",
+      "options": [
+        "Gold Medal",
+        "Silver Chariot",
+        "Crown of Olive Leaves"
+      ],
+      "correctIndex": 2,
+      "explanation": "Victors were crowned with the kotinos, a wreath woven from sacred wild olive branches cut with a golden sickle from a tree near the temple of Zeus. When returning to their home city-states, champions received free meals for life and heroic status."
+    },
+    {
+      "type": "mcq",
+      "question": "Which brutal ancient combat sport combining boxing and wrestling permitted almost any move except eye-gouging and biting?",
+      "options": [
+        "Pankration",
+        "Pygmachia",
+        "Pale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pankration (meaning all-powers) was introduced to the Olympic program in 648 BCE. Contests continued without weight classes or time limits until one fighter raised a single index finger to submit or lost consciousness."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major Panhellenic sanctuary located on the slopes of Mount Parnassus was home to the high priestess Pythia who delivered prophecies for Apollo?",
+      "options": [
+        "Sanctuary of Epidaurus",
+        "Oracle of Delphi",
+        "Oracle of Dodona"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Delphic Oracle was consulted by Greek kings, generals, and citizens before making decisions on wars, colonies, or laws. The Pythia sat upon a bronze tripod over a chasm emitting hydrocarbon vapors, delivering inspired poetic riddles."
+    },
+    {
+      "type": "mcq",
+      "question": "What chryselephantine (gold and ivory) colossal masterpiece sculpted by Phidias at Olympia was one of the Seven Wonders of the Ancient World?",
+      "options": [
+        "Athena Parthenos",
+        "Colossus of Rhodes",
+        "Statue of Zeus at Olympia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phidias sculpted the 12-meter-tall seated Statue of Zeus inside the Temple of Zeus around 435 BCE. Featuring gold robes and carved cedarwood inlaid with ebony and precious stones, it was celebrated as the ultimate masterpiece of classical sculpture."
+    },
+    {
+      "type": "number",
+      "question": "Every how many years were the Ancient Olympic Games celebrated in classical antiquity?",
+      "target": 4,
+      "metricUnit": "years",
+      "imperialDisplay": "4-year Olympiad cycle",
+      "explanation": "The four-year interval between Olympic Games was known as an Olympiad and served as a universal chronological calendar system across the Greek world."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek god of wine, fertility, theater, and ecstasy was honored through the annual dramatic festivals in Athens?",
+      "options": [
+        "Dionysus",
+        "Apollo",
+        "Hermes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The City Dionysia festival featured lavish choral dithyramb competitions and dramatic trilogies where playwrights competed for prestigious ivy crowns before audiences of up to 15,000 spectators."
+    },
+    {
+      "type": "mcq",
+      "question": "Who is recognized as the world first actor after stepping out of the chorus to speak individual dialogue in 534 BCE?",
+      "options": [
+        "Aeschylus",
+        "Thespis",
+        "Sophocles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thespis introduced spoken dramatic dialogue and character impersonation using linen masks, giving rise to the modern word thespian for actors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek tragic playwright wrote Oedipus Rex and Antigone, introducing a third actor and painted scenery?",
+      "options": [
+        "Euripides",
+        "Aeschylus",
+        "Sophocles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sophocles won more dramatic victories at the Dionysia than any other playwright. In Oedipus Rex, he crafted a peerless masterpiece of dramatic irony, fate, and psychological tragedy."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Athenian comic dramatist wrote scathing political satires including The Clouds, The Frogs, and Lysistrata?",
+      "options": [
+        "Aristophanes",
+        "Menander",
+        "Cratinus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aristophanes was the foremost master of Old Comedy, using outrageous absurdity, slapstick, and sharp political parody to lampoon warmongering politicians like Cleon and philosophers like Socrates."
+    },
+    {
+      "type": "mcq",
+      "question": "What term did Aristotle use in his Poetics to describe the emotional purging and release of pity and fear experienced by the audience of a tragedy?",
+      "options": [
+        "Hamartia",
+        "Catharsis",
+        "Hubris"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aristotle posited that catharsis provides therapeutic moral and emotional equilibrium, allowing viewers to vicariously experience tragic downfall through the fatal error (hamartia) of a noble protagonist."
+    },
+    {
+      "type": "number",
+      "question": "How many major tragic playwrights (Aeschylus, Sophocles, Euripides) form the canon of surviving classical Athenian tragedy?",
+      "target": 3,
+      "metricUnit": "playwrights",
+      "imperialDisplay": "The Great Tragic Trio (Aeschylus, Sophocles, Euripides)",
+      "explanation": "Out of hundreds of ancient Greek tragedies produced, surviving complete scripts exist from only three masters: Aeschylus (7 plays), Sophocles (7 plays), and Euripides (18-19 plays)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which devastating 27-year war (431–404 BCE) pitted the Athenian maritime empire against the Spartan land alliance?",
+      "options": [
+        "Persian War",
+        "Corinthian War",
+        "Peloponnesian War"
+      ],
+      "correctIndex": 2,
+      "explanation": "Historian Thucydides recorded that the fundamental cause of the war was the growth of Athenian power and the fear this inspired in Sparta. The brutal protracted conflict drained the resources of the Greek world and ended Athens Golden Age."
+    },
+    {
+      "type": "mcq",
+      "question": "What catastrophic disaster struck overcrowded Athens in 430 BCE during the Spartan siege, killing leader Pericles and one-third of the population?",
+      "options": [
+        "Plague of Athens",
+        "The Great Fire of Athens",
+        "Famine of Attica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pericles strategy gathered the entire rural population behind the Long Walls connecting Athens to Piraeus. Typhoid fever or typhus swept through the crowded quarters, severely demoralizing Athenian resistance."
+    },
+    {
+      "type": "mcq",
+      "question": "Which charismatic but treacherous Athenian general championed the disastrous Sicilian Expedition in 415 BCE before defecting to Sparta?",
+      "options": [
+        "Nicias",
+        "Alcibiades",
+        "Cleon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alcibiades persuaded Athens to launch a massive armada of over 100 triremes against Syracuse. When recalled to face charges of religious impiety, he fled to Sparta and advised them to fortify Decelea and aid the Syracusans, resulting in the total destruction of the Athenian expeditionary force."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spartan admiral secured Persian gold to build a fleet and decisively destroyed the last Athenian navy at Aegospotami in 405 BCE?",
+      "options": [
+        "Brasidas",
+        "Agesilaus II",
+        "Lysander"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lysander caught the Athenian fleet unawares on the beach of Aegospotami in the Hellespont, capturing 170 triremes and severing Athens grain supply. In 404 BCE, Athens surrendered, tore down the Long Walls, and submitted to the pro-Spartan oligarchy of the Thirty Tyrants."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Athenian general and historian wrote the History of the Peloponnesian War, pioneered rigorous evidence-based political history?",
+      "options": [
+        "Thucydides",
+        "Herodotus",
+        "Xenophon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thucydides rejected divine mythological causation in favor of strict historical analysis, balance of power dynamics, human psychology, and eyewitness testimony, giving rise to the political theory of realism (such as the Melian Dialogue)."
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE did Athens formally surrender to Sparta, marking the end of the Peloponnesian War?",
+      "target": 404,
+      "metricUnit": "BCE",
+      "imperialDisplay": "404 BC",
+      "explanation": "Athens starved into unconditional surrender in 404 BCE, dismantling its maritime empire and submitting to the rule of the Thirty Tyrants."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Macedonian king reformed the army with the 18-foot sarissa pike and unified Greece at the Battle of Chaeronea in 338 BCE?",
+      "options": [
+        "Perdiccas III",
+        "Philip II",
+        "Alexander I"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Philip II of Macedon transformed the Macedonian phalanx with elongated sarissa spears, heavy companion cavalry, and advanced siegecraft, creating the League of Corinth to unite Greece for a Persian invasion before his assassination in 336 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which son of Philip II conquered the Persian Empire, Egypt, and marched his army to the Indus River by age thirty-two?",
+      "options": [
+        "Ptolemy I",
+        "Seleucus I",
+        "Alexander the Great"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alexander the Great won legendary battles at the Granicus, Issus, and Gaugamela, never suffering a single military defeat. His conquests spread Greek language, science, and urban architecture across three continents, ushering in the Hellenistic Era."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous naval port city in the Nile Delta of Egypt was founded by Alexander the Great in 331 BCE, housing the world largest ancient library?",
+      "options": [
+        "Alexandria",
+        "Memphis",
+        "Thebes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexandria became the premier intellectual and commercial capital of the Hellenistic and Roman worlds, famous for the Pharos Lighthouse (one of the Seven Wonders) and the Great Library of Alexandria."
+    },
+    {
+      "type": "mcq",
+      "question": "What 100-foot colossal bronze statue of the sun god Helios stood guarding the harbor of a Greek Aegean island in the 3rd century BCE?",
+      "options": [
+        "Statue of Zeus",
+        "Colossus of Rhodes",
+        "Winged Victory of Samothrace"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sculpted by Chares of Lindos around 280 BCE to commemorate a failed siege, the Colossus of Rhodes stood roughly 33 meters high before toppling during a powerful earthquake in 226 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek mathematician and inventor in Syracuse calculated pi, explained buoyancy (Eureka!), and designed mirrors to ignite invading ships?",
+      "options": [
+        "Euclid",
+        "Pythagoras",
+        "Archimedes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Archimedes formalized the principles of levers, hydrostatics, and the Archimedean screw water pump, famously declaring: Give me a place to stand, and I will move the Earth."
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE did Alexander the Great die in the palace of Nebuchadnezzar II in Babylon at age 32?",
+      "target": 323,
+      "metricUnit": "BCE",
+      "imperialDisplay": "June 323 BC",
+      "explanation": "Alexander the Great died on 10/11 June 323 BCE in Babylon, triggering the Wars of the Diadochi among his rival generals for control of his fragmented empire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Greek geometer in Alexandria wrote Elements around 300 BCE, the most influential textbook in mathematical history?",
+      "options": [
+        "Euclid",
+        "Apollonius",
+        "Diophantus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Euclid Elements synthesized plane and solid geometry through rigorous axiomatic deduction from five fundamental postulates, serving as the standard textbook for geometry instruction for over two millennia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greek physician from Kos is considered the father of Western medicine and authored the famous medical ethical oath?",
+      "options": [
+        "Galen",
+        "Hippocrates",
+        "Herophilus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hippocrates separated the practice of clinical medicine from religious superstition, emphasizing bedside observation, dietary hygiene, and prognostic medicine. The Hippocratic Oath remains an enduring ethical pledge for physicians."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient Hellenistic geared mechanical analog computer salvaged from an Aegean shipwreck in 1901 was used to predict astronomical positions and eclipses?",
+      "options": [
+        "Astrolabe of Rhodes",
+        "Archimedes Sphere",
+        "Antikythera Mechanism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dating to roughly 150–100 BCE, the Antikythera mechanism contained over 30 precision differential bronze gears, capable of calculating planetary cycles, lunar phases, and Olympic games dates with astonishing mechanical sophistication."
+    },
+    {
+      "type": "mcq",
+      "question": "Which classical Greek architectural column style is characterized by simple round capitals and no decorative base, as seen on the Parthenon?",
+      "options": [
+        "Doric",
+        "Ionic",
+        "Corinthian"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Doric order was the earliest and sturdiest of the classical Greek architectural orders, featuring fluted columns, plain circular capitals (echinus), and an alternating frieze of triglyphs and metopes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which island Greek mathematician and philosopher formulated the theorem stating that in a right-angled triangle, a squared plus b squared equals c squared?",
+      "options": [
+        "Thales of Miletus",
+        "Pythagoras of Samos",
+        "Anaxagoras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pythagoras founded a mystical and philosophical brotherhood in Croton, southern Italy, believing that numbers and harmonic ratios form the fundamental essence of the physical universe."
+    },
+    {
+      "type": "number",
+      "question": "How many classical architectural column orders (Doric, Ionic, Corinthian) were developed in ancient Greece?",
+      "target": 3,
+      "metricUnit": "orders",
+      "imperialDisplay": "Three Classical Greek Orders (Doric, Ionic, Corinthian)",
+      "explanation": "The three classical orders of ancient Greek architecture are the sturdy Doric, the scroll-capped Ionic, and the ornate acanthus-leaf Corinthian."
+    }
+  ]
+}

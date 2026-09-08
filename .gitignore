@@ -1,0 +1,24 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local browser/test artifacts
+.playwright-cli/
+tmp/
+output/
+
+# Local or legacy cloud configuration (never publish credentials/config by accident)
+firebase-applet-config.json
+firestore.rules
+migration/firestore-archive/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

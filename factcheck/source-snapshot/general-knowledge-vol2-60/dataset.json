@@ -1,0 +1,640 @@
+{
+  "id": "general-knowledge-vol2-60",
+  "theme": "General Knowledge Vol 2: Discoveries, Milestones & Global Wonder",
+  "title": "General Knowledge Vol 2: Discoveries, Milestones & Global Wonder",
+  "description": "Comprehensive 60-question grand master assessment exploring medicine, empires, earth landmarks, masterworks, physics, deep sea, mythology, aviation, megastructures, and philosophy.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-26T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which English physician published the first accurate description of the systemic circulation of blood pumped by the heart in 1628?",
+      "options": [
+        "William Harvey",
+        "Andreas Vesalius",
+        "Edward Jenner"
+      ],
+      "correctIndex": 0,
+      "explanation": "William Harvey published De Motu Cordis in 1628, demonstrating that blood circulates continuously in a closed system."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest organ of the human body by both surface area and weight?",
+      "options": [
+        "Liver",
+        "Skin",
+        "Lungs"
+      ],
+      "correctIndex": 1,
+      "explanation": "The skin, or integumentary system, accounts for approximately 15 percent of total body weight and covers roughly two square meters."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British biophysicist captured Photo 51, providing critical X-ray diffraction data for discovering the DNA double helix?",
+      "options": [
+        "Marie Curie",
+        "Dorothy Hodgkin",
+        "Rosalind Franklin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rosalind Franklin obtained Photo 51 at Kings College London in 1952, which clearly revealed the helical nature of DNA."
+    },
+    {
+      "type": "mcq",
+      "question": "Which human blood type is considered the universal red blood cell donor for emergency transfusions?",
+      "options": [
+        "O negative",
+        "AB positive",
+        "A positive"
+      ],
+      "correctIndex": 0,
+      "explanation": "Type O-negative red blood cells lack A, B, and Rh antigens, minimizing the risk of adverse immune reactions in recipients."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest, heaviest, and strongest single bone in the human body?",
+      "options": [
+        "Tibia",
+        "Femur",
+        "Humerus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The femur or thighbone extends from the hip to the knee joint and can support up to thirty times an adult body weight."
+    },
+    {
+      "type": "number",
+      "question": "What is the average resting heart rate in beats per minute for a healthy adult at rest?",
+      "target": 72,
+      "metricUnit": "bpm",
+      "imperialDisplay": "approx 60 to 100 bpm (avg 72)",
+      "explanation": "A normal resting heart rate for healthy adults typically ranges between 60 and 100 beats per minute, averaging roughly 72 bpm."
+    },
+    {
+      "type": "mcq",
+      "question": "Which decisive battle fought in October 1066 led to the Norman conquest of Anglo-Saxon England?",
+      "options": [
+        "Battle of Agincourt",
+        "Battle of Bosworth Field",
+        "Battle of Hastings"
+      ],
+      "correctIndex": 2,
+      "explanation": "Duke William of Normandy defeated King Harold Godwinson at Hastings, beginning centuries of Norman rule in Britain."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Macedonian king defeated Persian Emperor Darius III at the Battle of Gaugamela in 331 BCE?",
+      "options": [
+        "Alexander the Great",
+        "Philip II",
+        "Seleucus I"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexander the Great employed brilliant tactical maneuvering at Gaugamela to overthrow the Achaemenid Persian Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "In what year did Ottoman forces led by Sultan Mehmed II breach the defensive walls of Constantinople?",
+      "options": [
+        "1389",
+        "1453",
+        "1492"
+      ],
+      "correctIndex": 1,
+      "explanation": "The siege and fall of Constantinople on 29 May 1453 marked the end of the Eastern Roman (Byzantine) Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark constitutional charter was signed by King John of England at Runnymede in 1215?",
+      "options": [
+        "Bill of Rights",
+        "Petition of Right",
+        "Magna Carta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magna Carta established the principle that everyone, including the sovereign king, is subject to the rule of law."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic battle in 490 BCE saw Athenian hoplites defeat a Persian invasion force, inspiring the modern marathon run?",
+      "options": [
+        "Battle of Marathon",
+        "Battle of Thermopylae",
+        "Battle of Salamis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athenian forces crushed the Persian expedition at the plain of Marathon, after which a runner famously carried word of victory to Athens."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the monumental Hagia Sophia completed and consecrated in Constantinople under Emperor Justinian I?",
+      "target": 537,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 537 AD",
+      "explanation": "Justinian I inaugurated the grand domed basilica of Hagia Sophia on 27 December 537 CE."
+    },
+    {
+      "type": "mcq",
+      "question": "What South American waterfall in Venezuela is the highest uninterrupted waterfall on Earth?",
+      "options": [
+        "Iguazu Falls",
+        "Angel Falls",
+        "Victoria Falls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Angel Falls plunges 979 meters from the Auyan-tepui mountain, with an uninterrupted single drop of 807 meters."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the world largest salt flat, spanning over 10,000 square kilometers high in southwest Bolivia?",
+      "options": [
+        "Bonneville Salt Flats",
+        "Etosha Pan",
+        "Salar de Uyuni"
+      ],
+      "correctIndex": 2,
+      "explanation": "Salar de Uyuni was formed by prehistoric lake transformations, creating an extraordinary natural mirror when covered in water."
+    },
+    {
+      "type": "mcq",
+      "question": "Which African lake is the deepest lake in Africa and the second deepest freshwater lake in the world?",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Victoria",
+        "Lake Malawi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Tanganyika reaches a maximum depth of approximately 1,470 meters and contains 16 percent of global surface fresh water."
+    },
+    {
+      "type": "mcq",
+      "question": "What island nation in the North Atlantic Ocean is famous for geysers, active volcanoes, and the Mid-Atlantic Ridge rift?",
+      "options": [
+        "Greenland",
+        "Iceland",
+        "Faroe Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iceland sits directly atop the divergent tectonic boundary between the North American and Eurasian tectonic plates."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain pass at the border of Pakistan and Afghanistan served as a historic military and trade corridor for millennia?",
+      "options": [
+        "Bolan Pass",
+        "Salang Pass",
+        "Khyber Pass"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Khyber Pass traverses the Spin Ghar mountains and was a strategic chokepoint on the northern Silk Road."
+    },
+    {
+      "type": "number",
+      "question": "What is the official elevation in meters of Mount Kilimanjaro, the highest mountain summit in Africa?",
+      "target": 5895,
+      "metricUnit": "meters",
+      "imperialDisplay": "19,341 feet",
+      "explanation": "Mount Kilimanjaro in Tanzania is a dormant stratovolcano rising to an elevation of 5,895 meters above sea level."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Renaissance master spent four years painting the monumental Genesis frescoes on the ceiling of the Sistine Chapel?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael"
+      ],
+      "correctIndex": 0,
+      "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512 under the commission of Pope Julius II."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German Baroque master composed the celebrated six Brandenburg Concertos in 1721?",
+      "options": [
+        "George Frideric Handel",
+        "Johann Sebastian Bach",
+        "Antonio Vivaldi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Johann Sebastian Bach presented the six instrumental concertos to the Margrave of Brandenburg-Schwedt in 1721."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French sculptor created the famous bronze masterpiece The Thinker in 1904?",
+      "options": [
+        "Camille Claudel",
+        "Constantin Brancusi",
+        "Auguste Rodin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Auguste Rodin conceived The Thinker as part of his monumental commission The Gates of Hell depicting Dante Alighieri."
+    },
+    {
+      "type": "mcq",
+      "question": "What classical Greek temple dedicated to the goddess Athena crowns the Acropolis of Athens?",
+      "options": [
+        "Parthenon",
+        "Erechtheion",
+        "Temple of Hephaestus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built under the statesman Pericles in the 5th century BCE, the Parthenon represents the pinnacle of classical Doric architecture."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian Romantic composer wrote the ballet masterpieces Swan Lake, The Nutcracker, and The Sleeping Beauty?",
+      "options": [
+        "Sergei Rachmaninoff",
+        "Pyotr Ilyich Tchaikovsky",
+        "Modest Mussorgsky"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pyotr Ilyich Tchaikovsky composed beloved orchestral scores that defined the golden age of classical Russian ballet."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Eiffel Tower officially inaugurated in Paris as the entrance arch for the 1889 World Fair?",
+      "target": 1889,
+      "metricUnit": "CE",
+      "imperialDisplay": "March 1889",
+      "explanation": "Gustave Eiffel opened the 330-meter wrought-iron lattice tower on 31 March 1889 for the Exposition Universelle."
+    },
+    {
+      "type": "mcq",
+      "question": "Which theoretical physicist formulated the General Theory of Relativity published in 1915?",
+      "options": [
+        "Max Planck",
+        "Niels Bohr",
+        "Albert Einstein"
+      ],
+      "correctIndex": 2,
+      "explanation": "Albert Einstein revolutionized modern physics by describing gravitation not as a force, but as curvature of spacetime caused by mass."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian chemist published the first recognized Periodic Table of Elements arranged by atomic mass in 1869?",
+      "options": [
+        "Dmitri Mendeleev",
+        "Mikhail Lomonosov",
+        "Antoine Lavoisier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dmitri Mendeleev organized known elements and successfully predicted the physical properties of yet-undiscovered elements."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the theoretical temperature at which all fundamental thermal motion of particles ceases, defined as zero Kelvin?",
+      "options": [
+        "Critical Point",
+        "Absolute Zero",
+        "Triple Point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Absolute zero corresponds to zero on the Kelvin thermodynamic scale, equivalent to minus 273.15 degrees Celsius."
+    },
+    {
+      "type": "mcq",
+      "question": "What fundamental law of physics states that energy cannot be created or destroyed, only transformed from one form to another?",
+      "options": [
+        "Second Law of Thermodynamics",
+        "Law of Universal Gravitation",
+        "First Law of Thermodynamics"
+      ],
+      "correctIndex": 2,
+      "explanation": "The First Law of Thermodynamics, or the law of conservation of energy, is a fundamental invariant of physical systems."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the approximate speed of sound in dry air at 20 degrees Celsius at sea level?",
+      "options": [
+        "About 343 meters per second",
+        "About 120 meters per second",
+        "About 680 meters per second"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acoustic sound waves travel through dry air at 20 degrees Celsius at approximately 343 meters per second (1,235 km/h)."
+    },
+    {
+      "type": "number",
+      "question": "What is the boiling temperature of pure water in degrees Celsius at standard atmospheric pressure?",
+      "target": 100,
+      "metricUnit": "degrees Celsius",
+      "imperialDisplay": "212 degrees Fahrenheit (100 C)",
+      "explanation": "Under standard 1-atmosphere sea-level pressure, pure liquid water boils and transitions to steam at 100 degrees Celsius."
+    },
+    {
+      "type": "mcq",
+      "question": "Which marine mammal holds the record as the largest known animal ever to have existed on Earth?",
+      "options": [
+        "Sperm Whale",
+        "Blue Whale",
+        "Fin Whale"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Blue Whale (Balaenoptera musculus) can reach masses exceeding 190 metric tons, far surpassing any known dinosaur."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian coastal marvel is the largest living coral reef ecosystem on Earth, visible from space?",
+      "options": [
+        "Ningaloo Reef",
+        "Mesoamerican Reef",
+        "Great Barrier Reef"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stretching over 2,300 kilometers off Queensland, the Great Barrier Reef comprises over 2,900 individual coral reefs."
+    },
+    {
+      "type": "mcq",
+      "question": "Which cephalopod boasts the largest eyes of any living creature, measuring up to 27 centimeters in diameter?",
+      "options": [
+        "Colossal Squid",
+        "Giant Pacific Octopus",
+        "Chambered Nautilus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Colossal Squid possesses massive bioluminescent-detecting eyes designed to spot predatory sperm whales in the deep sea."
+    },
+    {
+      "type": "mcq",
+      "question": "What deep-sea hydrothermal structures vent mineral-rich sulfide waters exceeding 350 degrees Celsius?",
+      "options": [
+        "Abyssal Trenches",
+        "Black Smokers",
+        "Cold Seeps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black smokers form along volcanic spreading centers, supporting chemosynthetic ecosystems independent of solar sunlight."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the main structural component that forms the hardened exoskeletons of crustaceans and insects?",
+      "options": [
+        "Keratin",
+        "Cellulose",
+        "Chitin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chitin is a tough nitrogen-containing polysaccharide polymer that provides structural rigidity to arthropod shells."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded body length in meters of a mature Blue Whale?",
+      "target": 30,
+      "metricUnit": "meters",
+      "imperialDisplay": "98 to 100 feet",
+      "explanation": "The largest recorded blue whales measured up to 30 meters (roughly 98 to 100 feet) from rostrum to fluke."
+    },
+    {
+      "type": "mcq",
+      "question": "In Norse mythology, what immense sacred ash tree connects and supports the nine cosmos realms?",
+      "options": [
+        "Yggdrasil",
+        "Valhalla",
+        "Midgard"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yggdrasil is the central world tree in Norse cosmology, with roots extending to the well of Urd, Niflheim, and Jotunheim."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Mesopotamian narrative inscribed on clay tablets is widely recognized as the world earliest surviving epic poem?",
+      "options": [
+        "Enuma Elish",
+        "Epic of Gilgamesh",
+        "Code of Hammurabi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Epic of Gilgamesh recounts the legendary King of Uruk quest for immortality, dating back to the Third Dynasty of Ur."
+    },
+    {
+      "type": "mcq",
+      "question": "Which jackal-headed deity was worshipped in ancient Egypt as the god of mummification and the afterlife?",
+      "options": [
+        "Osiris",
+        "Horus",
+        "Anubis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anubis presided over the embalming rituals and guided souls to the Hall of Maat for the Weighing of the Heart."
+    },
+    {
+      "type": "mcq",
+      "question": "According to classical Greek mythology, which peak was revered as the home of the Twelve Olympian gods?",
+      "options": [
+        "Mount Olympus",
+        "Mount Parnassus",
+        "Mount Athos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Olympus, the highest mountain in Greece, was believed in ancient times to be the divine court of Zeus and the gods."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Roman sea god corresponds directly to the Greek Olympian god Poseidon?",
+      "options": [
+        "Mercury",
+        "Neptune",
+        "Vulcan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neptune was the Roman deity of freshwater and the sea, traditionally depicted wielding a three-pronged trident."
+    },
+    {
+      "type": "number",
+      "question": "How many famous heroic labors was the Greek demigod Heracles tasked with performing for King Eurystheus?",
+      "target": 12,
+      "metricUnit": "labors",
+      "imperialDisplay": "Twelve Labors of Heracles",
+      "explanation": "Mythological tradition establishes the Twelve Labors of Heracles, including slaying the Nemean Lion and the Lernaean Hydra."
+    },
+    {
+      "type": "mcq",
+      "question": "Who made the first solo nonstop transatlantic flight from New York to Paris aboard the Spirit of St. Louis in 1927?",
+      "options": [
+        "Wiley Post",
+        "Howard Hughes",
+        "Charles Lindbergh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Charles Lindbergh completed the 33.5-hour solo flight across the Atlantic Ocean on 20–21 May 1927, winning the Orteig Prize."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian explorer led the first expedition to reach the geographic South Pole in December 1911?",
+      "options": [
+        "Roald Amundsen",
+        "Robert Falcon Scott",
+        "Ernest Shackleton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roald Amundsen and four team members reached the South Pole on 14 December 1911, five weeks ahead of Scotts party."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ocean liner struck an iceberg on its maiden voyage and sank in the North Atlantic in April 1912?",
+      "options": [
+        "RMS Lusitania",
+        "RMS Titanic",
+        "HMHS Britannic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The White Star Line ship RMS Titanic collided with an iceberg and sank on the night of 14–15 April 1912 with heavy loss of life."
+    },
+    {
+      "type": "mcq",
+      "question": "Which supersonic passenger jet airliner operated commercial transatlantic flights at over Mach 2 from 1976 to 2003?",
+      "options": [
+        "Tupolev Tu-144",
+        "Boeing 2707",
+        "Concorde"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jointly developed by Britain and France, Concorde carried passengers from London and Paris to New York in under 3.5 hours."
+    },
+    {
+      "type": "mcq",
+      "question": "Who led the 16th-century Spanish expedition that achieved the first recorded maritime circumnavigation of the globe?",
+      "options": [
+        "Ferdinand Magellan",
+        "Vasco da Gama",
+        "Francis Drake"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ferdinand Magellan initiated the voyage in 1519, and Juan Sebastian Elcano completed the historic global voyage aboard the Victoria in 1522."
+    },
+    {
+      "type": "number",
+      "question": "What was the cruising top speed in kilometers per hour of the supersonic Concorde airliner?",
+      "target": 2179,
+      "metricUnit": "km/h",
+      "imperialDisplay": "1,354 mph (Mach 2.04)",
+      "explanation": "Concorde cruised at Mach 2.04, equivalent to approximately 2,179 km/h (1,354 mph), at an altitude of 60,000 feet."
+    },
+    {
+      "type": "mcq",
+      "question": "What 50-kilometer railway tunnel beneath the Strait of Dover connects Folkestone, England with Coquelles, France?",
+      "options": [
+        "Gotthard Base Tunnel",
+        "Channel Tunnel",
+        "Seikan Tunnel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opened in 1994, the Channel Tunnel possesses the longest undersea portion of any tunnel in the world at 37.9 kilometers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic orange suspension bridge spanning the Golden Gate strait in California opened to traffic in 1937?",
+      "options": [
+        "Brooklyn Bridge",
+        "Mackinac Bridge",
+        "Golden Gate Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by Joseph Strauss, the Golden Gate Bridge spans 2.7 kilometers and is internationally recognized by its International Orange hue."
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive particle physics laboratory in Geneva, Switzerland operates the Large Hadron Collider?",
+      "options": [
+        "CERN",
+        "Fermilab",
+        "DESY"
+      ],
+      "correctIndex": 0,
+      "explanation": "The European Organization for Nuclear Research (CERN) operates the LHC to explore fundamental subatomic particles like the Higgs boson."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive hydroelectric gravity dam spanning the Yangtze River in Hubei, China is the world largest power station by installed capacity?",
+      "options": [
+        "Itaipu Dam",
+        "Three Gorges Dam",
+        "Hoover Dam"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Three Gorges Dam has an installed capacity of 22,500 megawatts and generates over 100 terawatt-hours of electricity annually."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 82-kilometer artificial waterway across Central America connects the Atlantic and Pacific oceans, opening in 1914?",
+      "options": [
+        "Suez Canal",
+        "Kiel Canal",
+        "Panama Canal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Panama Canal utilizes a stepped system of lock chambers that lift ships 26 meters up to Gatun Lake and down to sea level."
+    },
+    {
+      "type": "number",
+      "question": "What is the total circumference in kilometers of the Large Hadron Collider circular underground tunnel ring at CERN?",
+      "target": 27,
+      "metricUnit": "km",
+      "imperialDisplay": "16.7 miles",
+      "explanation": "The LHC occupies a circular tunnel 26.7 kilometers (commonly cited as 27 km) in circumference buried up to 175 meters beneath the Franco-Swiss border."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient civilization of southern Mesopotamia developed the cuneiform script, one of the earliest writing systems?",
+      "options": [
+        "Sumerians",
+        "Babylonians",
+        "Assyrians"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sumerians developed cuneiform wedge-shaped marks pressed into soft clay tablets around 3400 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which classical Athenian philosopher was sentenced to death in 399 BCE by drinking poisonous hemlock for corrupting the youth?",
+      "options": [
+        "Plato",
+        "Socrates",
+        "Aristotle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Socrates accepted the Athenian court verdict in 399 BCE, choosing philosophical integrity over flight from the city."
+    },
+    {
+      "type": "mcq",
+      "question": "What planned international auxiliary language was created in 1887 by ophthalmologist L. L. Zamenhof?",
+      "options": [
+        "Volapuk",
+        "Interlingua",
+        "Esperanto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zamenhof published Unua Libro under the pseudonym Doktoro Esperanto, aiming to create an easy-to-learn universal second language."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish industrialist and inventor of dynamite endowed the prestigious international Nobel Prizes in his 1895 will?",
+      "options": [
+        "Alfred Nobel",
+        "Gunnar Myrdal",
+        "Svante Arrhenius"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alfred Nobel bequeathed his fortune to establish annual awards in Physics, Chemistry, Physiology or Medicine, Literature, and Peace."
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient library in Ptolemaic Egypt was one of the largest and most significant scholarly archives of the ancient world?",
+      "options": [
+        "Library of Pergamum",
+        "Library of Alexandria",
+        "House of Wisdom"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Library of Alexandria was founded in the 3rd century BCE under the patronage of the Ptolemaic dynasty."
+    },
+    {
+      "type": "number",
+      "question": "How many total Nobel Prize categories are officially awarded annually according to the Nobel Foundation?",
+      "target": 6,
+      "metricUnit": "categories",
+      "imperialDisplay": "6 award categories",
+      "explanation": "Six Nobel awards are conferred: the original five established by Nobel (Physics, Chemistry, Medicine, Literature, Peace) plus Economic Sciences added in 1968."
+    }
+  ]
+}

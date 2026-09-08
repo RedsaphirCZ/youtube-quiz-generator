@@ -1,0 +1,142 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "ancient-egypt-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 19,
+  "findings": [
+    {
+      "question_number": 42,
+      "severity": "critical",
+      "issue": "The standard royal mummification ritual took exactly 70 days in total: 40 days for desiccation in natron followed by 30 days of wrapping and anointing.",
+      "proposed_fix": "Update the answer to reflect the complete 70-day process as historically documented.",
+      "verification_query": "How many days did the full royal mummification ritual take?"
+    },
+    {
+      "question_number": 43,
+      "severity": "critical",
+      "issue": "Karnak Temple Complex is indeed the largest religious sanctuary ever built in the ancient world, dedicated to Amun-Ra.",
+      "proposed_fix": "Confirm the answer as 'Karnak Temple Complex' with options: Edfu Temple | Philae Temple | Karnak Temple Complex.",
+      "verification_query": "Which temple complex near Luxor is the largest religious sanctuary ever built?"
+    },
+    {
+      "question_number": 44,
+      "severity": "critical",
+      "issue": "Abu Simbel are the colossal rock-cut temples in Nubia carved by Ramses II and relocated in the 1960s.",
+      "proposed_fix": "Ensure the answer is 'Abu Simbel' with options: Abu Simbel | Kom Ombo | Dendera.",
+      "verification_query": "Which pair of temples in Nubia were relocated from Lake Nasser?"
+    },
+    {
+      "question_number": 45,
+      "severity": "critical",
+      "issue": "The Colossi of Memnon are the twin monolithic statues of Amenhotep III near Luxor that produced a singing sound at sunrise.",
+      "proposed_fix": "Verify the answer as 'Colossi of Memnon' with options: Pillars of Karnak | Colossi of Memnon | Sphinxes of Thebes.",
+      "verification_query": "Which statues near Luxor were believed to sing at sunrise?"
+    },
+    {
+      "question_number": 46,
+      "severity": "critical",
+      "issue": "Obelisks are towering monolithic four-sided stone monuments tapering to a pyramidion, symbolizing sun rays petrified into granite.",
+      "proposed_fix": "Confirm the answer as 'Obelisk' with options: Stela | Cenotaph | Obelisk.",
+      "verification_query": "What monument symbolized sun rays petrified into granite?"
+    },
+    {
+      "question_number": 47,
+      "severity": "critical",
+      "issue": "The Temple of Philae was the last island temple to preserve hieroglyphic writing until closed in 537 CE.",
+      "proposed_fix": "Ensure the answer is 'Temple of Philae' with options: Temple of Philae | Elephantine | Dabod.",
+      "verification_query": "Which island temple preserved hieroglyphs until 537 CE?"
+    },
+    {
+      "question_number": 48,
+      "severity": "critical",
+      "issue": "The Great Hypostyle Hall at Karnak contains 134 colossal sandstone columns.",
+      "proposed_fix": "Update the answer to '134 columns' with display text '134 sandstone columns'.",
+      "verification_query": "How many columns are in the Great Hypostyle Hall at Karnak?"
+    },
+    {
+      "question_number": 49,
+      "severity": "critical",
+      "issue": "Ptolemy I Soter founded the Ptolemaic dynasty in Egypt in 305 BCE.",
+      "proposed_fix": "Confirm the answer as 'Ptolemy I Soter' with options: Seleucus | Ptolemy I Soter | Antigonus.",
+      "verification_query": "Which Macedonian general founded the final pharaonic dynasty?"
+    },
+    {
+      "question_number": 50,
+      "severity": "critical",
+      "issue": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom before Roman annexation in 30 BCE.",
+      "proposed_fix": "Ensure the answer is 'Cleopatra VII' with options: Arsinoe IV | Berenice IV | Cleopatra VII.",
+      "verification_query": "Who was the final ruler of the Ptolemaic Kingdom?"
+    },
+    {
+      "question_number": 51,
+      "severity": "critical",
+      "issue": "The Pharos Lighthouse in Alexandria was one of the Seven Wonders of the Ancient World.",
+      "proposed_fix": "Confirm the answer as 'Pharos Lighthouse' with options: Pharos Lighthouse | Colossus of Alexandria | Tower of Canopus.",
+      "verification_query": "Which lighthouse in Alexandria was a Wonder of the Ancient World?"
+    },
+    {
+      "question_number": 52,
+      "severity": "critical",
+      "issue": "Octavian defeated Cleopatra and Mark Antony at the Battle of Actium in 31 BCE.",
+      "proposed_fix": "Ensure the answer is 'Octavian' with options: Julius Caesar | Octavian | Pompey the Great.",
+      "verification_query": "Which general defeated Cleopatra at Actium?"
+    },
+    {
+      "question_number": 53,
+      "severity": "critical",
+      "issue": "The Egyptian Asp (Naja haje) is traditionally associated with Cleopatra's death.",
+      "proposed_fix": "Confirm the answer as 'Egyptian Asp' with options: Saw-scaled Viper | Horned Viper | Egyptian Asp.",
+      "verification_query": "Which snake was used in Cleopatra's suicide?"
+    },
+    {
+      "question_number": 54,
+      "severity": "critical",
+      "issue": "Egypt fell to Rome in 30 BCE following Cleopatra's death.",
+      "proposed_fix": "Update the answer to '30 BCE' with display text '30 BC'.",
+      "verification_query": "In what year did Egypt fall to Rome?"
+    },
+    {
+      "question_number": 55,
+      "severity": "critical",
+      "issue": "The Ankh is the looped cross symbol representing life and immortality.",
+      "proposed_fix": "Ensure the answer is 'Ankh' with options: Ankh | Was Scepter | Djed Pillar.",
+      "verification_query": "What symbol represents life in Egyptian art?"
+    },
+    {
+      "question_number": 56,
+      "severity": "critical",
+      "issue": "The Djed Pillar represents stability and endurance, associated with Osiris.",
+      "proposed_fix": "Confirm the answer as 'Djed Pillar' with options: Tyet Knot | Djed Pillar | Uraeus.",
+      "verification_query": "Which symbol represented stability and Osiris?"
+    },
+    {
+      "question_number": 57,
+      "severity": "critical",
+      "issue": "The Uraeus is the cobra motif on pharaohs' crowns symbolizing sovereignty.",
+      "proposed_fix": "Ensure the answer is 'Uraeus' with options: Nemes | Khepresh | Uraeus.",
+      "verification_query": "What cobra motif was worn by pharaohs?"
+    },
+    {
+      "question_number": 58,
+      "severity": "critical",
+      "issue": "The Edwin Smith Papyrus contains the earliest known rational surgical treatise on trauma medicine.",
+      "proposed_fix": "Confirm the answer as 'Edwin Smith Papyrus' with options: Edwin Smith Papyrus | Ebers Papyrus | Kahun Papyrus.",
+      "verification_query": "Which papyrus contains early surgical trauma cases?"
+    },
+    {
+      "question_number": 59,
+      "severity": "critical",
+      "issue": "The Heka (crook) and Nekhakha (flail) symbolize leadership and agricultural sustenance.",
+      "proposed_fix": "Ensure the answer is 'Heka and Nekhakha' with options: Scepter and Orb | Heka and Nekhakha | Bow and Arrow.",
+      "verification_query": "What symbols represent leadership and agriculture?"
+    },
+    {
+      "question_number": 60,
+      "severity": "critical",
+      "issue": "The Edwin Smith Papyrus documents 48 surgical trauma cases.",
+      "proposed_fix": "Update the answer to '48 clinical cases' with display text '48 anatomical trauma cases'.",
+      "verification_query": "How many trauma cases are in the Edwin Smith Papyrus?"
+    }
+  ]
+}

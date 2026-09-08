@@ -1,0 +1,703 @@
+{
+  "id": "medieval-europe-knights-castles-60",
+  "theme": "Medieval Europe: Castles, Crusades & Feudal Realm",
+  "title": "Medieval Europe: Castles, Crusades & Feudal Realm",
+  "description": "A 60-question grand master assessment on the Middle Ages, feudalism, chivalry, castle architecture, the Crusades, Magna Carta, Black Death, and the Hundred Years' War.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which Frankish king united much of Western Europe and was crowned Emperor of the Romans on Christmas Day in 800 CE?",
+      "options": [
+        "Charlemagne",
+        "Clovis I",
+        "Charles Martel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charlemagne spurred the Carolingian Renaissance of scholarship, scriptoria, and Latin literacy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which decisive 732 CE battle did Charles Martel halt the advance of the Umayyad Caliphate into Western Europe?",
+      "options": [
+        "Battle of Hastings",
+        "Battle of Tours",
+        "Battle of Roncevaux Pass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charles Martel's Frankish infantry stood firm without cavalry at Tours, stopping the northern expansion of Muslim forces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What standard clear script developed under Charlemagne introduced lowercase letters, word spacing, and punctuation to medieval writing?",
+      "options": [
+        "Blackletter Gothic",
+        "Uncial",
+        "Carolingian minuscule"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carolingian minuscule established uniform handwriting across monastic scriptoria, greatly preserving classical manuscripts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What treaty signed in 843 CE divided Charlemagne's Carolingian Empire among his three grandsons, laying foundations for France and Germany?",
+      "options": [
+        "Treaty of Verdun",
+        "Treaty of Worms",
+        "Treaty of Utrecht"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Treaty of Verdun partitioned the empire into West Francia, Middle Francia, and East Francia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Saxon king was crowned Holy Roman Emperor in 962 CE after decisively crushing the invading Magyars at the Battle of Lechfeld?",
+      "options": [
+        "Henry the Fowler",
+        "Otto the Great",
+        "Frederick Barbarossa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Otto I founded the Holy Roman Empire, linking the German kingdom directly to the papal crown in Rome.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Pope Leo III crown Charlemagne Emperor of the Romans at Old St. Peter's Basilica in Rome?",
+      "target": 800,
+      "metricUnit": "year CE",
+      "imperialDisplay": "800 CE",
+      "explanation": "On Christmas Day in 800 CE, Charlemagne's coronation revived the Western imperial title that had been vacant since 476.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In the medieval feudal hierarchy, what land grant was given by a lord to a vassal in exchange for military service and loyalty?",
+      "options": [
+        "Bailiwick",
+        "Demesne",
+        "Fief"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fief provided the vassal with income from agricultural manors to support his armor, horses, and military retinue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ceremonial act of sworn allegiance did a medieval vassal perform before his lord to seal their feudal bond?",
+      "options": [
+        "Homage and fealty",
+        "Chivalric dubbing",
+        "Investiture"
+      ],
+      "correctIndex": 0,
+      "explanation": "During the ceremony of homage, the vassal knelt bareheaded, placed his hands between the lord's hands, and swore the oath of fealty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What agricultural system rotated crops across three fields to boost food production and preserve soil fertility?",
+      "options": [
+        "Slash and burn",
+        "Three-field system",
+        "Enclosure system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The three-field rotation reduced fallow land to one-third, significantly increasing yields of wheat, rye, barley, and legumes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unfree peasant class was legally bound to the lord's estate and required to provide labor and agricultural dues?",
+      "options": [
+        "Yeomen",
+        "Freemen",
+        "Serfs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Serfs were tied to the land, needing the manorial lord's permission to marry, leave the estate, or pass on inheritances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What heavy wheeled iron plow revolutionized European agriculture in the Middle Ages by turning dense clay soils?",
+      "options": [
+        "Carruca",
+        "Ard",
+        "Scratch plow"
+      ],
+      "correctIndex": 0,
+      "explanation": "The carruca used a coulter, share, and moldboard pulled by oxen or horses to furrow deep fertile soils.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What estimated percentage of the population in high medieval Western Europe lived and worked as agrarian peasants and serfs?",
+      "target": 85,
+      "metricUnit": "percent",
+      "imperialDisplay": "85 percent",
+      "explanation": "Roughly 85 to 90 percent of medieval Europeans were rural peasants whose agricultural labor sustained the nobility and clergy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At what initial rank did a young noble boy begin his martial and courtly training at age seven in another noble household?",
+      "options": [
+        "Squire",
+        "Page",
+        "Herald"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pages learned court etiquette, religion, languages, and riding before progressing to become squires around age fourteen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ceremonial blow to the neck or shoulder with the flat of a blade conferred knighthood upon a squire?",
+      "options": [
+        "Fealty blow",
+        "Ordeal",
+        "Accolade"
+      ],
+      "correctIndex": 2,
+      "explanation": "Also known as dubbing, the accolade transformed a mature squire into a consecrated Christian knight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What formal equestrian combat event in tournaments pitted two armored knights charging each other with blunted wooden lances?",
+      "options": [
+        "Joust",
+        "Melee",
+        "Pas d'armes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jousting tested horsemanship and lance precision, divided by a wooden tilt barrier to prevent direct horse collisions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What visual identification system of shields, crests, and tinctures evolved to identify armored knights on the battlefield?",
+      "options": [
+        "Iconography",
+        "Heraldry",
+        "Sigillography"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heraldry regulated coat-of-arms designs, crests, and mottos under strict laws of blazon overseen by court heralds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which powerful heavy warhorse, specifically bred and trained for mounted shock combat in plate armor, was ridden by knights?",
+      "options": [
+        "Palfrey",
+        "Rouncey",
+        "Destrier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Destriers were prized stallions bred for physical strength, courage, and agility in violent cavalry clashes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the approximate weight in kilograms of a complete, custom-tailored European full suit of articulated plate armor?",
+      "target": 25,
+      "metricUnit": "kg",
+      "imperialDisplay": "55 lbs (25 kg)",
+      "explanation": "A standard field battle harness weighed 20 to 25 kg with weight evenly distributed across the body for fluid movement.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What early medieval timber fortification consisted of a wooden tower atop an earthen mound surrounded by a palisaded courtyard?",
+      "options": [
+        "Motte-and-bailey",
+        "Concentric castle",
+        "Star fort"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Normans constructed hundreds of motte-and-bailey castles across Britain and France for rapid territorial control.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What central fortified tower served as the strongest defensive stronghold and noble residence inside a stone castle?",
+      "options": [
+        "Barbican",
+        "Keep",
+        "Bailey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also called a donjon, the stone keep had thick walls, spiral stairways, wells, and storehouses to withstand prolonged sieges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What heavy sliding iron or oak grille gate was lowered vertically in castle gatehouses to trap or block besieging attackers?",
+      "options": [
+        "Drawbridge",
+        "Machicolation",
+        "Portcullis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Portcullises could be dropped rapidly from winch chambers above, creating lethal choke points reinforced by murder holes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What devastating siege weapon utilized a heavy counterweight swinging a pivot arm to launch 100-kg boulders over castle walls?",
+      "options": [
+        "Trebuchet",
+        "Ballista",
+        "Mangonel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The counterweight trebuchet possessed immense kinetic energy, hurling massive stones and incendiaries with destructive trajectory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What defensive projecting gallery with floor openings allowed castle defenders to drop rocks and boiling liquids onto attackers at the wall base?",
+      "options": [
+        "Arrowslit",
+        "Machicolation",
+        "Bartizan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Machicolations projected out over stone corbels, eliminating blind spots at the bottom of curtain walls and towers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the effective maximum throwing range in meters of a heavy medieval counterweight siege trebuchet?",
+      "target": 300,
+      "metricUnit": "meters",
+      "imperialDisplay": "984 feet (300 m)",
+      "explanation": "Large trebuchets could fling 100 to 150 kg projectiles accurately over 300 meters, safely out of range of longbow archers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pope called for the First Crusade at the Council of Clermont in 1095 with the rally cry Deus vult?",
+      "options": [
+        "Pope Innocent III",
+        "Pope Gregory VII",
+        "Pope Urban II"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pope Urban II called on Western Christian knights to assist the Byzantine Empire and recapture Jerusalem from Seljuk control.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year did the armies of the First Crusade breach the walls of Jerusalem, establishing the Crusader Kingdom of Jerusalem?",
+      "options": [
+        "1099 CE",
+        "1187 CE",
+        "1204 CE"
+      ],
+      "correctIndex": 0,
+      "explanation": "Led by Godfrey of Bouillon and Raymond of Toulouse, crusaders captured Jerusalem on July 15, 1099, following a bloody siege.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Muslim sultan of Egypt and Syria recaptured Jerusalem for Islam in 1187 following his victory at the Battle of Hattin?",
+      "options": [
+        "Nur ad-Din",
+        "Saladin",
+        "Baibars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saladin outmaneuvered the Crusader army at the Horns of Hattin, leading to the honorable surrender of Jerusalem.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which military monastic order founded in 1119 protected Christian pilgrims and developed an international banking network across Europe?",
+      "options": [
+        "Knights Hospitaller",
+        "Teutonic Knights",
+        "Knights Templar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Knights Templar grew into a wealthy monastic military powerhouse before being dissolved in 1312.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which notorious Crusade was diverted by Venetian merchants in 1204, culminating in the sack of fellow Christian Constantinople?",
+      "options": [
+        "Fourth Crusade",
+        "Third Crusade",
+        "Seventh Crusade"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Fourth Crusade never reached the Holy Land, instead pillaging Constantinople and establishing the fragile Latin Empire.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the First Crusade successfully capture the holy city of Jerusalem?",
+      "target": 1099,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1099 CE",
+      "explanation": "On July 15, 1099, Crusader forces breached the northern wall of Jerusalem, establishing four Crusader States in the Levant.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What architectural innovation transmitted the lateral thrust of high stone vaults outward to external piers in Gothic cathedrals?",
+      "options": [
+        "Groin arches",
+        "Flying buttresses",
+        "Pendentives"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flying buttresses allowed Gothic master masons to build towering, thin stone walls filled with vast stained-glass lancets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Gothic cathedral near Paris pioneered the pointed arch, ribbed vault, and stained glass under Abbot Suger in 1144?",
+      "options": [
+        "Notre-Dame de Paris",
+        "Chartres Cathedral",
+        "Basilica of Saint-Denis"
+      ],
+      "correctIndex": 2,
+      "explanation": "The choir of Saint-Denis is recognized as the birthplace of Gothic architecture, transforming churches into illuminated houses of light.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What room in a medieval monastery was dedicated to the painstaking hand-copying and illumination of religious and classical manuscripts?",
+      "options": [
+        "Scriptorium",
+        "Refectory",
+        "Chapter house"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monks in scriptoria copied texts onto animal vellum and parchment, preserving classical philosophy, theology, and science.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What influential Dominican theologian synthesized Christian theology with Aristotelian philosophy in his masterwork Summa Theologiae?",
+      "options": [
+        "Peter Abelard",
+        "Thomas Aquinas",
+        "William of Ockham"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saint Thomas Aquinas became the leading proponent of Scholasticism, arguing that faith and reason work in harmonious complement.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What early university, founded in Italy around 1088, is recognized as the oldest continuously operating university in the Western world?",
+      "options": [
+        "University of Oxford",
+        "University of Paris",
+        "University of Bologna"
+      ],
+      "correctIndex": 2,
+      "explanation": "The University of Bologna was organized as a guild of students renowned for the study of canon and civil law.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the height in meters of the stone choir vault of Beauvais Cathedral, representing the soaring pinnacle of Gothic verticality?",
+      "target": 48,
+      "metricUnit": "meters",
+      "imperialDisplay": "157 feet (48 m)",
+      "explanation": "Reaching 48 meters, the ambitious vault of Beauvais Cathedral collapsed in 1284, remaining the highest Gothic choir ever built.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what meadow near Windsor was King John of England forced by rebel barons to affix the Great Seal to Magna Carta in 1215?",
+      "options": [
+        "Runnymede",
+        "Bosworth",
+        "Marston Moor"
+      ],
+      "correctIndex": 0,
+      "explanation": "On June 15, 1215, at Runnymede, King John conceded that even the sovereign monarch was subject to the rule of law.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous clause of Magna Carta established the foundational legal principle of due process and protection against unlawful imprisonment?",
+      "options": [
+        "Clause 12",
+        "Clause 39",
+        "Clause 61"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clause 39 guaranteed that no free man could be seized or imprisoned except by the lawful judgment of his equals or the law of the land.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What comprehensive survey of landholding, wealth, and livestock across England was commissioned by William the Conqueror in 1086?",
+      "options": [
+        "Magna Carta",
+        "Pipe Rolls",
+        "Domesday Book"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Domesday Book provided William with an exact tax inventory of England following the 1066 Norman Conquest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Norman victory on October 14, 1066, led to William the Conqueror's coronation and transformed English language and culture?",
+      "options": [
+        "Battle of Hastings",
+        "Battle of Stamford Bridge",
+        "Battle of Evesham"
+      ],
+      "correctIndex": 0,
+      "explanation": "William of Normandy defeated Anglo-Saxon King Harold Godwinson at Hastings, ending Anglo-Saxon rule and introducing Norman feudalism.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 70-meter-long embroidered linen cloth depicts the events leading up to the Norman Conquest of England?",
+      "options": [
+        "Hastings Tapestry",
+        "Bayeux Tapestry",
+        "Rouen Scroll"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bayeux Tapestry visually narrates the Battle of Hastings, Halley's Comet, longships, and Norman cavalry charges.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many distinct clauses were contained in the original 1215 Latin text of Magna Carta issued by King John?",
+      "target": 63,
+      "metricUnit": "clauses",
+      "imperialDisplay": "63 clauses",
+      "explanation": "The 1215 charter contained 63 clauses regulating feudal rights, royal forestry, debt, commerce, and legal administration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which bacterium, carried by oriental rat fleas living on black rats aboard merchant ships, caused the bubonic Black Death pandemic in 1347?",
+      "options": [
+        "Bacillus anthracis",
+        "Vibrio cholerae",
+        "Yersinia pestis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yersinia pestis spread rapidly along Genoese trade galleys from the Black Sea port of Caffa into Sicily and mainland Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prominent symptom gave bubonic plague its name, manifesting as painful swollen lymph nodes in the groin and armpits?",
+      "options": [
+        "Buboes",
+        "Carbuncles",
+        "Pustules"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buboes swelled to large sizes and turned black from subcutaneous hemorrhaging, causing rapid septicemic fever.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 1381 social rebellion in England was sparked by a hated poll tax and long-standing peasant economic grievances?",
+      "options": [
+        "Jack Cade Rebellion",
+        "Peasants Revolt",
+        "Cornish Rebellion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Led by Wat Tyler and radical preacher John Ball, peasants marched on London demanding the abolition of serfdom and wage ceilings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What religious movement during the Black Death marched between towns whipping themselves publicly to appease divine wrath?",
+      "options": [
+        "Cathars",
+        "Lollards",
+        "Flagellants"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flagellant brotherhoods carried out 33-day penances of self-mortification, spreading religious fervor across central Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How did the massive labor shortage caused by the Black Death alter the economic status of surviving European peasants?",
+      "options": [
+        "Higher wages and bargaining power",
+        "Total loss of property",
+        "Enslavement by royal decree"
+      ],
+      "correctIndex": 0,
+      "explanation": "With farmland lying idle, surviving serfs demanded higher wages and lower rents, accelerating the breakdown of feudal bondage.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million people are estimated to have died across Europe during the initial wave of the Black Death from 1347 to 1351?",
+      "target": 25,
+      "metricUnit": "million people",
+      "imperialDisplay": "25 million people",
+      "explanation": "The pandemic eradicated between 30 and 50 percent of the European continent, claiming an estimated 25 to 30 million lives.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What powerful wooden weapon enabled English archers to decimate French heavy cavalry at Crecy and Agincourt?",
+      "options": [
+        "Crossbow",
+        "English Longbow",
+        "Arquebus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Made from yew wood with draw weights exceeding 100 pounds, the longbow could loose ten armor-piercing arrows per minute.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which 1415 battle did King Henry V of England lead a mud-soaked, outnumbered army to a stunning victory over French chivalry?",
+      "options": [
+        "Battle of Poitiers",
+        "Battle of Castillon",
+        "Battle of Agincourt"
+      ],
+      "correctIndex": 2,
+      "explanation": "French knights charged across narrow, freshly plowed clay fields and were cut down by English archers and longbow barricades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 17-year-old French peasant girl claimed divine visions and lifted the English Siege of Orleans in 1429?",
+      "options": [
+        "Joan of Arc",
+        "Eleanor of Aquitaine",
+        "Isabella of France"
+      ],
+      "correctIndex": 0,
+      "explanation": "Joan of Arc inspired French forces to break the siege, leading Charles VII to his coronation at Reims before being martyred at Rouen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which final battle of the Hundred Years' War in 1453 did French field artillery decisively defeat English forces in Gascony?",
+      "options": [
+        "Battle of Crecy",
+        "Battle of Castillon",
+        "Battle of Formigny"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Battle of Castillon marked the first decisive use of field artillery in European warfare, ending English control of Gascony.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English prince was known as the Black Prince for his devastating military raids across France during the Hundred Years' War?",
+      "options": [
+        "Edward I",
+        "Richard I",
+        "Edward of Woodstock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prince Edward captured French King John II at Poitiers in 1356, earning legendary status as an aggressive military commander.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the average draw weight in pounds of a standard military English war longbow recovered from the Mary Rose shipwreck?",
+      "target": 120,
+      "metricUnit": "pounds",
+      "imperialDisplay": "120 lbs (54 kg)",
+      "explanation": "Tests on Mary Rose bows revealed draw weights ranging from 100 to over 150 lbs, requiring lifelong muscular conditioning.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What powerful commercial and defensive confederation of German merchant guilds dominated Baltic maritime trade for centuries?",
+      "options": [
+        "Hanseatic League",
+        "Lombard League",
+        "Swabian League"
+      ],
+      "correctIndex": 0,
+      "explanation": "Centered at Lubeck, the Hansa monopolized trade in timber, fur, wax, rye, and salted herring across Northern Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What three progressive ranks structured the medieval craft guild system from entry to independent mastership?",
+      "options": [
+        "Novice, Knight, Master",
+        "Apprentice, Journeyman, Master",
+        "Servant, Craftsman, Alderman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Apprentices trained without pay, became paid day-laborer journeymen, and produced a judged masterpiece to become full guild masters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary 12th-century queen ruled Aquitaine in her own right and was successively Queen of France and Queen of England?",
+      "options": [
+        "Empress Matilda",
+        "Blanche of Castile",
+        "Eleanor of Aquitaine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eleanor participated in the Second Crusade, patronized troubadour courtly romance, and was mother to Kings Richard I and John.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What bloody 15th-century English dynastic civil war between the Houses of Lancaster and York ended at Bosworth Field?",
+      "options": [
+        "Wars of the Roses",
+        "Barons Wars",
+        "Bishops Wars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Henry Tudor defeated Richard III at Bosworth in 1485, uniting the warring dynasties through marriage as King Henry VII.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary king of England, called the Lionheart, spent most of his reign fighting on the Third Crusade and in France?",
+      "options": [
+        "Henry II",
+        "Richard I",
+        "Edward III"
+      ],
+      "correctIndex": 1,
+      "explanation": "Richard the Lionheart was revered as an archetype of Christian chivalry, defeating Saladin at Arsuf in 1191.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many total years did the Hundred Years' War between the kingdoms of England and France actually last between 1337 and 1453?",
+      "target": 116,
+      "metricUnit": "years",
+      "imperialDisplay": "116 years (1337–1453)",
+      "explanation": "Interspersed with truces and plague outbreaks, the conflict spanned 116 years across the reigns of five generations of kings.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

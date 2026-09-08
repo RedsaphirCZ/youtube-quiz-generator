@@ -1,0 +1,16 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "african-geography-safari-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 1,
+  "findings": [
+    {
+      "question_number": 1,
+      "severity": "minor",
+      "issue": "The first question in the provided text is missing its question number label (e.g., '1. [mcq]') and does not follow the consistent formatting of the subsequent questions (38-60). Additionally, the explanation for Question 1 contains a factual error: the Okavango Delta floods during the *dry winter season* in Southern Africa (June-August), but this occurs because the river originates in the highlands of Angola where it rains during that time. The phrasing 'transforming desert plains into an oasis' is correct, but the causal link to the 'dry winter season' needs clarification as it refers to the receiving end's climate, not the source.",
+      "proposed_fix": "Add the question number label (e.g., '1. [mcq]') and slightly refine the explanation for accuracy: 'The Okavango Delta floods annually during the Southern Hemisphere winter (June-August), when rains in the Angolan highlands cause the river to swell, transforming the Kalahari sands into a vast oasis.'",
+      "verification_query": "Verify the flood season of the Okavango Delta and confirm if it is referred to as the 'dry winter season' in Botswana."
+    }
+  ]
+}

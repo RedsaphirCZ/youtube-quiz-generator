@@ -1,0 +1,6 @@
+{
+  "name": "Quiz Generator for YouTube",
+  "description": "Interactive themed quiz generator with relaxed two-choice or classic three-choice questions, live gameplay, review tools, and production-ready exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,703 @@
+{
+  "id": "brazil-geography-heritage-60",
+  "theme": "Brazil: Geography, Amazon & Cultural Heritage",
+  "title": "Brazil: Geography, Amazon & Cultural Heritage",
+  "description": "A 60-question grand master assessment exploring the Amazon River and basin, Pantanal wetlands, Brasília architecture, Rio de Janeiro, São Paulo, Caatinga, Iguazu Falls, Cerrado, and Pico da Neblina.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the largest river in the world by discharge volume, discharging roughly twenty percent of all global river flow into the Atlantic Ocean?",
+      "options": [
+        "Amazon River",
+        "Paraná River",
+        "São Francisco River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Amazon River discharges approximately 209,000 cubic meters of water per second, greater than the next seven largest rivers combined.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural phenomenon near Manaus occurs where the dark, acidic Rio Negro and the pale, sandy Rio Solimões flow side-by-side without mixing for six kilometers?",
+      "options": [
+        "Pororoca Tidal Bore",
+        "Meeting of the Waters Encontro das Águas",
+        "Iguazu Confluence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Differences in water temperature, flow speed, and sediment density prevent the two major rivers from blending immediately.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest fluvial-marine island in the world, situated in the mouth of the Amazon River in the northern state of Pará?",
+      "options": [
+        "Bananal Island",
+        "Tupinambarana Island",
+        "Marajó Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering over 40,000 square kilometers (larger than Switzerland), Marajó is famous for wild water buffalo herds and ancient Marajoara ceramic cultures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What tidal bore phenomenon on the lower Amazon River produces a surging wall of ocean water up to four meters high traveling upstream?",
+      "options": [
+        "Pororoca",
+        "Aguagem",
+        "Repiquete"
+      ],
+      "correctIndex": 0,
+      "explanation": "During spring new and full moons, the Atlantic tide rushes into the Amazon river mouth, creating a roaring wave that surfers ride for miles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major inland Brazilian city on the Rio Negro grew into a wealthy metropolis during the Amazon Rubber Boom, building the opulent Teatro Amazonas opera house?",
+      "options": [
+        "Belém",
+        "Manaus",
+        "Santarém"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manaus is the capital of Amazonas state and a free economic trade zone surrounded by millions of square kilometers of dense rainforest.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the Amazon River from its Peruvian Andean sources to the Atlantic Ocean?",
+      "target": 6400,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "3,977 miles",
+      "explanation": "The Amazon River measures approximately 6,400 kilometers in length, flowing eastward across South America.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the world largest tropical wetland ecosystem, spanning roughly 150,000 square kilometers across Mato Grosso and Mato Grosso do Sul?",
+      "options": [
+        "The Everglades",
+        "The Llanos",
+        "The Pantanal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Pantanal is a vast tectonic depression flooded annually by the Paraguay River basin, hosting the highest concentration of wildlife in South America.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which apex predator felid, the largest cat in the Americas, has its highest global population density along the riverbanks of the Pantanal?",
+      "options": [
+        "Jaguar Onça Pintada",
+        "Puma Cougar",
+        "Ocelot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pantanal jaguars are the largest in the world, weighing up to 130 kilograms and preying heavily on yacare caiman and capybaras.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest rodent in the world, a semi-aquatic herbivore found in abundance across Brazilian rivers, wetlands, and city parks?",
+      "options": [
+        "Nutria",
+        "Capybara",
+        "Agouti"
+      ],
+      "correctIndex": 1,
+      "explanation": "Capybaras can weigh over sixty kilograms, living in social family groups along riverbanks and wetland marshes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large crocodilian species, with an estimated population of over ten million individuals, thrives across the waters of the Pantanal?",
+      "options": [
+        "Black Caiman",
+        "Spectacled Caiman",
+        "Yacare Caiman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yacare caimans gather by the hundreds in shrinking waterholes during the dry season, feeding on piranhas, crabs, and fish.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic, brilliant blue parrot species endemic to the Pantanal and Cerrado is the longest parrot in the world?",
+      "options": [
+        "Hyacinth Macaw",
+        "Scarlet Macaw",
+        "Spix Macaw"
+      ],
+      "correctIndex": 0,
+      "explanation": "With a wingspan of over 1.2 meters, the Hyacinth Macaw has a powerful beak designed to crack open hard acuri and bocaiuva palm nuts.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousands of square kilometers are covered by the vast Pantanal wetland basin in Brazil?",
+      "target": 150,
+      "metricUnit": "thousand square kilometers",
+      "imperialDisplay": "58,000 square miles",
+      "explanation": "The Brazilian portion of the Pantanal spans approximately 150,000 square kilometers, extending also into Bolivia and Paraguay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which planned federal capital city in the central Brazilian highlands was inaugurated in 1960, laid out in the shape of a giant airplane?",
+      "options": [
+        "Goiânia",
+        "Brasília",
+        "Belo Horizonte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by urban planner Lúcio Costa and architect Oscar Niemeyer, Brasília moved the national capital inland from coastal Rio de Janeiro.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which visionary Brazilian president championed the construction of Brasília under the political slogan Fifty Years of Progress in Five?",
+      "options": [
+        "Getúlio Vargas",
+        "João Goulart",
+        "Juscelino Kubitschek"
+      ],
+      "correctIndex": 2,
+      "explanation": "President Kubitschek initiated construction in 1956 in the interior Federal District, dedicating the modernist capital on April 21, 1960.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-renowned Brazilian architect designed the iconic modernist public monuments of Brasília, including the Cathedral of Brasília and Congress?",
+      "options": [
+        "Oscar Niemeyer",
+        "Roberto Burle Marx",
+        "Lina Bo Bardi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Niemeyer utilized curved reinforced concrete to create soaring sculptural civic architecture, winning the 1988 Pritzker Architecture Prize.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large artificial lake was created in Brasília by damming the Paranoá River to increase humidity and provide recreation for the dry highland city?",
+      "options": [
+        "Lake Furnas",
+        "Lake Paranoá",
+        "Lake Sobradinho"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Paranoá covers forty square kilometers, bordered by embassies, the presidential residence (Palácio da Alvorada), and water sports clubs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What expansive geological plateau region covers roughly half of Brazil land area, forming the watershed for South America major river basins?",
+      "options": [
+        "Guiana Shield",
+        "Patagonian Plateau",
+        "Brazilian Highlands Planalto Central"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Brazilian Highlands average roughly 1,000 meters elevation, supporting diverse biomes and major agriculture in central and southeastern Brazil.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Brasília officially inaugurated as the new federal capital of Brazil?",
+      "target": 1960,
+      "metricUnit": "year",
+      "imperialDisplay": "1960 AD",
+      "explanation": "President Juscelino Kubitschek officially inaugurated Brasília on April 21, 1960, transferring federal power from Rio de Janeiro.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal 30-meter Art Deco statue of Jesus Christ stands atop the 710-meter Corcovado mountain overlooking Rio de Janeiro?",
+      "options": [
+        "Christ the Redeemer Cristo Redentor",
+        "Christ of the Ozarks",
+        "Christ the King"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructed between 1922 and 1931 from reinforced concrete and millions of soapstone mosaic tiles, it is one of the New Seven Wonders of the World.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 396-meter granite monolith peak rises directly from the mouth of Guanabara Bay in Rio de Janeiro, accessible by cable car?",
+      "options": [
+        "Pedra da Gávea",
+        "Sugarloaf Mountain Pão de Açúcar",
+        "Two Brothers Hill"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sugarloaf cable car (Bondinho) opened in 1912, providing panoramic views across Copacabana beach, Niteroi, and the Atlantic Ocean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous coastal bay in Rio de Janeiro was named River of January by Portuguese navigators who mistakenly believed it was a river mouth in 1502?",
+      "options": [
+        "Todos os Santos Bay",
+        "Paranaguá Bay",
+        "Guanabara Bay"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guanabara Bay is the second largest bay in Brazil, crossed by the 13.2-kilometer Rio-Niterói Bridge connecting Rio with Niterói.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What lush tropical national park inside the city limits of Rio de Janeiro is recognized as one of the world largest urban rainforests?",
+      "options": [
+        "Tijuca National Park",
+        "Serra dos Órgãos",
+        "Itatiaia National Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "Emperor Pedro II ordered the reforestation of Tijuca in the 1860s to protect the municipal water supply after coffee plantations caused severe deforestation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous crescent-shaped beach in Rio de Janeiro stretches for four kilometers with a distinctive wave-patterned Portuguese stone promenade?",
+      "options": [
+        "Ipanema Beach",
+        "Copacabana Beach",
+        "Barra da Tijuca"
+      ],
+      "correctIndex": 1,
+      "explanation": "Copacabana is flanked by the historic Copacabana Fort and hosts the world largest New Year Eve fireworks celebration, drawing millions of revelers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the iconic Christ the Redeemer statue officially dedicated atop Corcovado in Rio de Janeiro?",
+      "target": 1931,
+      "metricUnit": "year",
+      "imperialDisplay": "1931 AD",
+      "explanation": "Christ the Redeemer was officially inaugurated on October 12, 1931, after nine years of collaborative Franco-Brazilian construction.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most populous city in Brazil, the Americas, and the entire Southern Hemisphere, with an urban population over twelve million?",
+      "options": [
+        "Rio de Janeiro",
+        "Belo Horizonte",
+        "São Paulo"
+      ],
+      "correctIndex": 2,
+      "explanation": "São Paulo is the financial capital of Latin America, generating more than ten percent of Brazil entire national Gross Domestic Product.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic 2.8-kilometer avenue in São Paulo is the financial and cultural axis of the city, lined with corporate skyscrapers and the MASP art museum?",
+      "options": [
+        "Avenida Paulista",
+        "Avenida Faria Lima",
+        "Avenida Rio Branco"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avenida Paulista sits on the highest ridge in the city, home to the São Paulo Museum of Art (MASP) designed by architect Lina Bo Bardi.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal port city in São Paulo state is the largest and busiest container port in Latin America, historically exporting Brazil coffee?",
+      "options": [
+        "Paranaguá",
+        "Santos",
+        "Rio Grande"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Port of Santos handles over one hundred million tons of cargo annually, connecting the industrial heart of São Paulo to international shipping routes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which neighborhood in central São Paulo hosts the largest ethnic Japanese diaspora community outside of Japan, marked by red torii gates and lantern streetlights?",
+      "options": [
+        "Bixiga",
+        "Bom Retiro",
+        "Liberdade"
+      ],
+      "correctIndex": 2,
+      "explanation": "Japanese immigration to Brazil began aboard the Kasato Maru in 1908, with over 1.5 million people of Japanese descent living in Brazil today.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest university in Brazil and Latin America, based in São Paulo and consistently ranked among the top research universities in the Global South?",
+      "options": [
+        "University of São Paulo USP",
+        "Federal University of Rio de Janeiro",
+        "UNICAMP"
+      ],
+      "correctIndex": 0,
+      "explanation": "USP accounts for more than twenty percent of all scientific research papers published in Brazil, founded in 1934.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the first Japanese immigrant ship, Kasato Maru, arrive in the Port of Santos, Brazil?",
+      "target": 1908,
+      "metricUnit": "year",
+      "imperialDisplay": "1908 AD",
+      "explanation": "On June 18, 1908, the Kasato Maru docked in Santos carrying the first 781 Japanese agricultural emigrants contracted for coffee plantations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal city in Bahia was founded in 1549 as the first colonial capital of Brazil, famous for its Afro-Brazilian culture and historic Pelourinho district?",
+      "options": [
+        "Recife",
+        "Salvador da Bahia",
+        "Fortaleza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Salvador was the center of the transatlantic sugar trade and Portuguese colonial administration until the capital moved to Rio de Janeiro in 1763.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique, semi-arid thorny scrubland biome covers roughly ten percent of Brazil in the dry interior Northeast, meaning 'white forest' in Tupi?",
+      "options": [
+        "Cerrado",
+        "Pampas",
+        "Caatinga"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Caatinga is characterized by drought-adapted succulent cacti, spiny deciduous shrubs, and the endangered Lear macaw.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular national park in Maranhão features thousands of undulating white silica sand dunes filled with crystal-clear seasonal rainwater lagoons?",
+      "options": [
+        "Lençóis Maranhenses",
+        "Chapada Diamantina",
+        "Serra da Capivara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seasonal tropical rains trapped by impermeable underground rock create turquoise and green freshwater lagoons among sweeping desert-like dunes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcanic archipelago of twenty-one islands off the northeastern coast of Brazil is a protected marine national park famed for spinner dolphins?",
+      "options": [
+        "Abrolhos Archipelago",
+        "Fernando de Noronha",
+        "Trindade Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fernando de Noronha is a UNESCO World Heritage marine sanctuary with strictly controlled visitor numbers to preserve sea turtles and coral reefs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major coastal city in Pernambuco is nicknamed the Brazilian Venice due to its numerous rivers, canals, and bridges connecting coastal islands?",
+      "options": [
+        "Natal",
+        "João Pessoa",
+        "Recife"
+      ],
+      "correctIndex": 2,
+      "explanation": "Recife is famous for its neighboring colonial sister city Olinda, frevo dance culture, and 17th-century Dutch colonial rule under Johan Maurits.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Salvador da Bahia officially founded by Tomé de Sousa as the first capital of colonial Brazil?",
+      "target": 1549,
+      "metricUnit": "year",
+      "imperialDisplay": "1549 AD",
+      "explanation": "King John III of Portugal appointed Governor-General Tomé de Sousa to establish Salvador as the capital on March 29, 1549.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spectacular waterfall complex on the border between Brazil and Argentina features 275 individual cataracts spanning nearly three kilometers?",
+      "options": [
+        "Iguazu Falls",
+        "Guaíra Falls",
+        "Paulo Afonso Falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iguazu Falls is surrounded by lush subtropical rainforests, centered on the semicircular Devil Throat (Garganta do Diabo) chasm.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal binational hydroelectric dam on the Paraná River between Brazil and Paraguay was the world largest energy-producing dam for decades?",
+      "options": [
+        "Belo Monte Dam",
+        "Itaipu Dam",
+        "Tucuruí Dam"
+      ],
+      "correctIndex": 1,
+      "explanation": "Itaipu generated over 103 million megawatt-hours in a single year, supplying substantial electricity to both Brazil and Paraguay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What temperate grassland and prairie biome in the southernmost state of Rio Grande do Sul is the traditional heartland of the Gaúcho culture?",
+      "options": [
+        "Cerrado",
+        "Chaco",
+        "Pampas Campos Sulinos"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Brazilian Pampas support extensive beef cattle ranching, mate tea (chimarrão) drinking traditions, and fertile soybean agriculture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which capital city of Paraná is internationally recognized as a pioneer in sustainable urban planning, dedicated bus rapid transit (BRT), and green recycling?",
+      "options": [
+        "Curitiba",
+        "Porto Alegre",
+        "Florianópolis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under urban planner and mayor Jaime Lerner, Curitiba created pedestrian-only boulevards, integrated public transit, and extensive municipal parks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountainous national park in Paraná and Rio Grande do Sul features the gigantic Itaimbezinho and Fortaleza canyons with vertical 700-meter cliffs?",
+      "options": [
+        "Serra da Canastra",
+        "Aparados da Serra National Park",
+        "Serra do Cipó"
+      ],
+      "correctIndex": 1,
+      "explanation": "The canyons expose ancient basaltic lava flows that cooled during the opening of the Atlantic Ocean, draped in native Paraná pine trees.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many individual waterfalls and cataracts comprise the Iguazu Falls waterfall system on the Brazil-Argentina border?",
+      "target": 275,
+      "metricUnit": "cataracts",
+      "imperialDisplay": "275 distinct waterfalls",
+      "explanation": "Depending on water flow volume, Iguazu Falls consists of approximately 275 individual waterfalls plunging over basalt ledges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast tropical savanna biome covering over twenty percent of Brazil is considered the most biologically rich savanna in the world?",
+      "options": [
+        "Caatinga",
+        "Pampas",
+        "Cerrado"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Cerrado contains over 10,000 plant species, acting as the water cradle of Brazil by feeding the Amazon, São Francisco, and Paraná river basins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What highly endangered coastal tropical biome stretching along the Atlantic coast has lost over eighty-five percent of its original forest cover?",
+      "options": [
+        "Atlantic Forest Mata Atlântica",
+        "Amazon Forest",
+        "Araucaria Forest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite massive fragmentation by urban centers and agriculture, the Atlantic Forest harbors thousands of endemic species like the golden lion tamarin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which critically endangered small primate with a brilliant flame-orange mane is the flagship conservation species of the Rio de Janeiro Atlantic Forest?",
+      "options": [
+        "Pied Tamarin",
+        "Golden Lion Tamarin",
+        "Emperor Tamarin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intensive captive breeding and forest corridor reconnection programs helped increase the wild golden lion tamarin population back to several thousand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which distinctive evergreen conifer tree with candelabra-shaped crown branches dominates the subtropical highland forests of southern Brazil?",
+      "options": [
+        "Brazil Nut Tree",
+        "Pau-Brasil",
+        "Paraná Pine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Araucaria trees produce edible pinhão pine nuts that sustain indigenous communities and wildlife like the azure jay across southern highlands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What valuable tropical hardwood tree yielding rich red dye gave the nation of Brazil its modern name during early colonial Portuguese trade?",
+      "options": [
+        "Pau-Brasil Brazilwood",
+        "Jacarandá",
+        "Ipê"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paubrasilia echinata was harvested intensively for its valuable red textile dye (brasil, meaning glowing red like an ember) throughout the 16th century.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of Brazil total land area is occupied by the biodiverse Cerrado tropical savanna biome?",
+      "target": 22,
+      "metricUnit": "percent",
+      "imperialDisplay": "22% of national land area",
+      "explanation": "The Cerrado encompasses roughly 22 percent of Brazil territory (over two million square kilometers) across the central highlands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major 2,900-kilometer river flowing entirely within Brazilian territory is known as the River of National Unity (O Velho Chico)?",
+      "options": [
+        "Tocantins River",
+        "São Francisco River",
+        "Araguaia River"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originating in Minas Gerais, the São Francisco flows north through the arid Northeast before turning east to empty into the Atlantic between Alagoas and Sergipe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river island in the world, formed by the split of the Araguaia River in the central state of Tocantins?",
+      "options": [
+        "Marajó Island",
+        "Tupinambarana",
+        "Bananal Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering 19,162 square kilometers, Bananal Island is an indigenous sanctuary inhabited by the Karajá and Javaé peoples and a national park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which immense river basin in central-northern Brazil drains into the Atlantic near Belém, entirely separate from the Amazon drainage system?",
+      "options": [
+        "Tocantins-Araguaia Basin",
+        "Paraná Basin",
+        "Parnaíba Basin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tocantins River flows northward for 2,450 kilometers, powering the massive 8,370-megawatt Tucuruí hydroelectric dam.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive multi-billion-dollar engineering project diverted water from the São Francisco River via 700 kilometers of concrete canals to drought-prone states?",
+      "options": [
+        "Ceará Canal Project",
+        "São Francisco River Transposition Project",
+        "Northeastern Aqueduct"
+      ],
+      "correctIndex": 1,
+      "explanation": "Completed in the 2010s and 2020s, the east and north canal axes supply fresh drinking water to twelve million people in Pernambuco, Ceará, Paraíba, and Rio Grande do Norte.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which tributary of the Amazon River in western Brazil is the longest tributary on Earth, flowing over 3,250 kilometers from the Andes into the Amazon?",
+      "options": [
+        "Purus River",
+        "Tapajós River",
+        "Madeira River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Madeira River carries immense silt volume, named Rio Madeira (Wood River) by Portuguese explorers due to massive floating tree trunks during floods.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the São Francisco River (O Velho Chico)?",
+      "target": 2914,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "1,811 miles",
+      "explanation": "The São Francisco River stretches approximately 2,914 kilometers from the Serra da Canastra in Minas Gerais to the Atlantic Ocean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Brazil, standing at 2,995 meters near the Venezuelan border in the Serra do Imeri?",
+      "options": [
+        "Pico da Neblina",
+        "Pico 31 de Março",
+        "Pico da Bandeira"
+      ],
+      "correctIndex": 0,
+      "explanation": "Located in the remote Amazonian highlands of Amazonas state, Pico da Neblina (Mist Peak) is enveloped in dense clouds nearly year-round.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign South American countries share a land border with Brazil, encompassing all South American nations except Chile and Ecuador?",
+      "options": [
+        "8 Countries",
+        "10 Countries",
+        "12 Countries"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brazil borders French Guiana, Suriname, Guyana, Venezuela, Colombia, Peru, Bolivia, Paraguay, Argentina, and Uruguay across 16,885 kilometers of frontier.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic flat-topped sandstone tepui mountain marks the triple border junction of Brazil, Venezuela, and Guyana?",
+      "options": [
+        "Auyán-tepui",
+        "Autana Tepui",
+        "Mount Roraima"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Roraima sheer 400-meter vertical cliffs and unique endemic summit flora inspired Sir Arthur Conan Doyle 1912 novel The Lost World.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the smallest state in Brazil by geographical area, located in the Northeast region along the Atlantic coast?",
+      "options": [
+        "Sergipe",
+        "Alagoas",
+        "Espírito Santo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering just 21,915 square kilometers, Sergipe capital is Aracaju, situated between the states of Bahia and Alagoas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many federative units (states plus one Federal District) is the Federative Republic of Brazil divided?",
+      "options": [
+        "24 States and 1 Federal District",
+        "26 States and 1 Federal District",
+        "28 States and 1 Federal District"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brazil consists of 26 autonomous states grouped into five official geopolitical regions (North, Northeast, Central-West, Southeast, and South) plus Brasília.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Pico da Neblina, the highest mountain in Brazil?",
+      "target": 2995,
+      "metricUnit": "meters",
+      "imperialDisplay": "9,826 feet",
+      "explanation": "Pico da Neblina stands at 2,995 meters elevation inside Pico da Neblina National Park in northern Amazonas state.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

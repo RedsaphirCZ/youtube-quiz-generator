@@ -1,0 +1,703 @@
+{
+  "id": "general-knowledge-vol3-60",
+  "theme": "General Knowledge Vol 3: Nature, History, Science & Pop Culture",
+  "title": "General Knowledge Vol 3: Nature, History, Science & Pop Culture",
+  "description": "Comprehensive 60-question grand master trivia assessment exploring evolutionary wonders, modern revolutions, world enclaves, literature classics, astrophysics, computing, gastronomy, architecture, sports legends, and climate extremes.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-26T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which African mammal is the fastest land animal, capable of accelerating from 0 to 95 km/h in under three seconds?",
+      "options": [
+        "Cheetah",
+        "Lion",
+        "Pronghorn"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cheetah possesses specialized non-retractable claws and an elongated spine allowing strides up to seven meters long.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What species of giant conifer native to California is the largest living single tree species by volume on Earth?",
+      "options": [
+        "Coast Douglas-fir",
+        "Giant Sequoia",
+        "Coast Redwood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giant sequoias (Sequoiadendron giganteum), such as General Sherman in Sequoia National Park, exceed 1,480 cubic meters in volume.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which unique Australian semi-aquatic mammal lays eggs rather than giving birth to live young?",
+      "options": [
+        "Echidna",
+        "Numbat",
+        "Platypus"
+      ],
+      "correctIndex": 2,
+      "explanation": "The platypus is a monotreme mammal with electroreceptive duck bills and egg-laying reproductive biology.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many separate systemic and branchial hearts does an octopus possess to pump copper-rich hemocyanin blood?",
+      "options": [
+        "Three",
+        "Two",
+        "Four"
+      ],
+      "correctIndex": 0,
+      "explanation": "An octopus has one central systemic heart and two branchial hearts that pump blood through each of its two gills.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered Mexican salamander retains its larval aquatic features throughout adulthood, a trait known as neoteny?",
+      "options": [
+        "Olm",
+        "Axolotl",
+        "Hellbender"
+      ],
+      "correctIndex": 1,
+      "explanation": "The axolotl (Ambystoma mexicanum) exhibits complete neoteny and possesses extraordinary abilities to regenerate severed limbs and organs.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded sprint speed in kilometers per hour achieved by a wild cheetah over short bursts?",
+      "target": 120,
+      "metricUnit": "km/h",
+      "imperialDisplay": "approx 75 mph (120 km/h)",
+      "explanation": "Top-speed measurements document cheetahs sprinting at velocities up to 120 km/h [75 mph] in short 400-meter bursts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year was the Berlin Wall breached and opened, signaling the imminent collapse of the Iron Curtain?",
+      "options": [
+        "1987",
+        "1991",
+        "1989"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Berlin Wall fell on 9 November 1989 following mass peaceful demonstrations, reunifying Germany the following year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which protest against British tea taxes took place in Boston Harbor in December 1773, escalating American revolutionary tensions?",
+      "options": [
+        "Boston Tea Party",
+        "Boston Massacre",
+        "Gaspee Affair"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sons of Liberty boarded three ships and dumped 342 chests of British East India Company tea into Boston Harbor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 1868 political transition in Japan restored practical imperial rule under Emperor Meiji and accelerated rapid modernization?",
+      "options": [
+        "Taisho Democracy",
+        "Meiji Restoration",
+        "Tokugawa Shogunate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Meiji Restoration dismantled feudal samurai dominance and transformed Japan into an industrial and military power.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which final military engagement in June 1815 resulted in the permanent defeat and second abdication of Napoleon Bonaparte?",
+      "options": [
+        "Battle of Leipzig",
+        "Battle of Austerlitz",
+        "Battle of Waterloo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anglo-allied forces under Wellington and Prussian troops under Blucher defeated Napoleons army near Waterloo, Belgium.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which US president issued the Emancipation Proclamation in January 1863, declaring enslaved persons in Confederate states free?",
+      "options": [
+        "Abraham Lincoln",
+        "George Washington",
+        "Andrew Jackson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abraham Lincoln signed the executive order on 1 January 1863, transforming the Civil War into an explicit struggle for human freedom.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the French citizens storm the medieval Bastille prison fortress in Paris?",
+      "target": 1789,
+      "metricUnit": "CE",
+      "imperialDisplay": "July 1789 AD",
+      "explanation": "The storming of the Bastille on 14 July 1789 is commemorated as Frances National Day (Fete nationale).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic metropolis is the only city in the world situated across two distinct continents, Europe and Asia?",
+      "options": [
+        "Cairo",
+        "Istanbul",
+        "Baku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Istanbul is bisected by the Bosporus Strait, placing its historic center in Europe and its eastern districts in Asia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sovereign country has the only national flag in the world that is non-quadrilateral, consisting of two stacked pennants?",
+      "options": [
+        "Bhutan",
+        "Sri Lanka",
+        "Nepal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flag of Nepal consists of two joined triangular pennants featuring symbols of the sun and crescent moon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landlocked sovereign kingdom is completely encircled within the national territory of South Africa?",
+      "options": [
+        "Lesotho",
+        "Eswatini",
+        "Botswana"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lesotho is an independent enclave kingdom situated entirely within South Africa high in the Drakensberg mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the southernmost national capital city of any sovereign state in the world?",
+      "options": [
+        "Canberra",
+        "Wellington",
+        "Buenos Aires"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wellington, the capital of New Zealand, is situated at latitude 41.29 degrees South on the Cook Strait.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which country has the longest total shoreline of any nation in the world, spanning over 202,000 kilometers?",
+      "options": [
+        "Russia",
+        "Norway",
+        "Canada"
+      ],
+      "correctIndex": 2,
+      "explanation": "Canada boasts 202,080 kilometers of ocean coastline along the Atlantic, Pacific, and Arctic oceans.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many continuous standard time zones span across the Russian Federation from Kaliningrad to Kamchatka?",
+      "target": 11,
+      "metricUnit": "time zones",
+      "imperialDisplay": "11 contiguous time zones",
+      "explanation": "Russia spans 11 continuous standard time zones, from UTC+2 in Kaliningrad to UTC+12 in Chukotka and Kamchatka.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish author wrote Don Quixote, universally celebrated as the first modern European novel?",
+      "options": [
+        "Miguel de Cervantes",
+        "Lope de Vega",
+        "Federico Garcia Lorca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Miguel de Cervantes published the first part of Don Quixote in 1605, creating an immortal satire of chivalric romance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dystopian novel by George Orwell published in 1949 introduced Big Brother, Thought Police, and Doublethink?",
+      "options": [
+        "Brave New World",
+        "1984",
+        "Fahrenheit 451"
+      ],
+      "correctIndex": 1,
+      "explanation": "George Orwell wrote 1984 as a terrifying examination of totalitarian surveillance, state censorship, and historical revisionism.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American author captured the Roaring Twenties Jazz Age in his 1925 masterpiece The Great Gatsby?",
+      "options": [
+        "Ernest Hemingway",
+        "William Faulkner",
+        "F. Scott Fitzgerald"
+      ],
+      "correctIndex": 2,
+      "explanation": "F. Scott Fitzgerald explored themes of idealism, wealth, and moral decay through narrator Nick Carraway in Long Island.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What classic 1851 American novel begins with the iconic opening line Call me Ishmael?",
+      "options": [
+        "Moby-Dick",
+        "The Scarlet Letter",
+        "Walden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herman Melville epic tale follows the monomaniacal Captain Ahab pursuit of the white whale Moby Dick.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian author wrote the monumental psychological masterpieces Crime and Punishment and The Brothers Karamazov?",
+      "options": [
+        "Leo Tolstoy",
+        "Fyodor Dostoevsky",
+        "Anton Chekhov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fyodor Dostoevsky explored human psychology, guilt, and existential redemption in St. Petersburg and imperial Russia.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Mary Shelley publish her pioneering science fiction gothic masterpiece Frankenstein?",
+      "target": 1818,
+      "metricUnit": "CE",
+      "imperialDisplay": "January 1818",
+      "explanation": "Mary Shelley completed and published Frankenstein anonymously in London on 1 January 1818 at the age of twenty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the first confirmed exoplanet discovered orbiting a Sun-like main-sequence star, discovered in 1995?",
+      "options": [
+        "Kepler-186f",
+        "Proxima Centauri b",
+        "51 Pegasi b"
+      ],
+      "correctIndex": 2,
+      "explanation": "Swiss astronomers Michel Mayor and Didier Queloz discovered 51 Pegasi b, earning the 2019 Nobel Prize in Physics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which Sun-Earth gravitational Lagrange point does the James Webb Space Telescope maintain its deep-space orbit?",
+      "options": [
+        "L2 Point",
+        "L1 Point",
+        "L5 Point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Webb orbits the Sun-Earth L2 Lagrange point roughly 1.5 million kilometers from Earth, keeping its instruments shielded and cold.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What theoretical boundary surrounds a black hole beyond which the escape velocity exceeds the speed of light?",
+      "options": [
+        "Photon Sphere",
+        "Event Horizon",
+        "Ergosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "The event horizon marks the point of no return, where gravity prevents any matter or electromagnetic radiation from escaping.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What type of stellar remnant is an extremely dense neutron star with an ultra-strong magnetic field called?",
+      "options": [
+        "White Dwarf",
+        "Quasar",
+        "Magnetar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Magnetars have magnetic fields up to a thousand trillion times stronger than Earth, producing intense bursts of X-rays and gamma rays.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spiral galaxy is the largest member of the Local Group and is on a gravitational collision course with the Milky Way?",
+      "options": [
+        "Andromeda Galaxy",
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Andromeda Galaxy (M31) contains roughly one trillion stars and is approaching the Milky Way at roughly 110 km/s.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the mean orbital distance from Earth to the Moon in kilometers rounded to the nearest hundred?",
+      "target": 384400,
+      "metricUnit": "km",
+      "imperialDisplay": "238,855 miles (384,400 km)",
+      "explanation": "The average center-to-center distance between Earth and the Moon is approximately 384,400 kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century mathematician is widely recognized as the world first computer programmer for writing an algorithm for the Analytical Engine?",
+      "options": [
+        "Grace Hopper",
+        "Ada Lovelace",
+        "Katherine Johnson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ada Lovelace recognized that Charles Babbages mechanical engine could follow symbolic instructions beyond pure numerical calculation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the name of the first programmable, electronic, general-purpose digital computer completed in the United States in 1945?",
+      "options": [
+        "UNIVAC I",
+        "Colossus",
+        "ENIAC"
+      ],
+      "correctIndex": 2,
+      "explanation": "ENIAC (Electronic Numerical Integrator and Computer) was built at the University of Pennsylvania containing over 17,000 vacuum tubes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British mathematician and codebreaker formulated the concept of modern theoretical computer science and artificial intelligence testing?",
+      "options": [
+        "Alan Turing",
+        "John von Neumann",
+        "Claude Shannon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alan Turing broke the Enigma cipher at Bletchley Park and formalized the foundational model of computation (the Turing machine).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What empirical observation formulated by an Intel co-founder stated that the number of transistors on a microchip doubles roughly every two years?",
+      "options": [
+        "Metcalfe Law",
+        "Moore Law",
+        "Amphora Principle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gordon Moore proposed in 1965 that semiconductor manufacturing improvements would double transistor density roughly every two years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Finnish software engineer created the open-source Linux operating system kernel in 1991?",
+      "options": [
+        "Richard Stallman",
+        "Ken Thompson",
+        "Linus Torvalds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Linus Torvalds released the initial Linux kernel source code to the Minix newsgroup in September 1991.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Apple Computer publicly release the groundbreaking original Macintosh personal computer?",
+      "target": 1984,
+      "metricUnit": "CE",
+      "imperialDisplay": "January 1984",
+      "explanation": "Steve Jobs unveiled the original Macintosh 128K featuring a graphical user interface and mouse on 24 January 1984.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Mesoamerican civilization was among the first to domesticate and consume cacao beans as a sacred beverage?",
+      "options": [
+        "Olmec",
+        "Inca",
+        "Maya"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Olmec civilization cultivated cacao as early as 1500 BCE, passing chocolate traditions to the Maya and Aztecs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What precious culinary spice is harvested by hand from the delicate red stigmas of the Crocus sativus flower?",
+      "options": [
+        "Vanilla",
+        "Saffron",
+        "Cardamom"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saffron is the world most expensive spice by weight, requiring up to 150,000 blossoms to yield one kilogram of dried spice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which plant in the Brassicaceae family provides the authentic green paste traditionally grated and served with Japanese sushi?",
+      "options": [
+        "Daikon",
+        "Horseradish",
+        "Wasabi"
+      ],
+      "correctIndex": 2,
+      "explanation": "True wasabi (Eutrema japonicum) grows naturally along clear mountain stream beds in Japan and is grated fresh on sharkskin boards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "According to historical accounts, in which East African highlands region did the Coffea arabica plant originate?",
+      "options": [
+        "Ethiopia",
+        "Kenya",
+        "Tanzania"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wild Coffea arabica originated in the southwestern forests of the Kaffa region of modern Ethiopia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian hard, granular cheese is protected by EU law and produced exclusively in designated northern Italian provinces?",
+      "options": [
+        "Pecorino Romano",
+        "Parmigiano-Reggiano",
+        "Gorgonzola"
+      ],
+      "correctIndex": 1,
+      "explanation": "Authentic Parmigiano-Reggiano is produced under strict PDO regulations in Parma, Reggio Emilia, Modena, Bologna, and Mantua.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many individual purple crocus flowers must be hand-harvested to produce one single kilogram of pure saffron spice?",
+      "target": 150000,
+      "metricUnit": "flowers",
+      "imperialDisplay": "approx 150,000 blossoms",
+      "explanation": "Each saffron crocus flower produces only three delicate red stigmas, requiring roughly 150,000 blossoms to yield one kilogram of spice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 13th-century Islamic palace and fortress complex overlooking Granada, Spain is celebrated for Nasrid stucco and geometric tilework?",
+      "options": [
+        "Alcazar of Seville",
+        "Great Mosque of Cordoba",
+        "Alhambra"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Alhambra was the royal citadel of the Nasrid dynasty, renowned for its Court of the Lions and Moorish architecture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 12th-century sandstone temple complex in Cambodia is the largest religious structure in the world?",
+      "options": [
+        "Angkor Wat",
+        "Borobudur",
+        "Bagan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built by King Suryavarman II as a Hindu temple for Vishnu, Angkor Wat covers more than 160 hectares.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish architect won the international design competition to construct the iconic shell-roofed Sydney Opera House?",
+      "options": [
+        "Alvar Aalto",
+        "Jorn Utzon",
+        "Arne Jacobsen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jorn Utzon conceived the precast concrete spherical shells that opened on Sydney Harbour in 1973.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 19th-century fairy-tale Romanesque Revival castle in the Bavarian Alps was commissioned by King Ludwig II of Bavaria?",
+      "options": [
+        "Hohenzollern Castle",
+        "Wartburg Castle",
+        "Neuschwanstein Castle"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Ludwig II constructed Neuschwanstein as a personal romantic retreat dedicated to the operas of Richard Wagner.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient rock-cut Nabataean capital in Jordan features the famous Al-Khazneh temple facade carved into red sandstone cliffs?",
+      "options": [
+        "Petra",
+        "Palmyra",
+        "Baalbek"
+      ],
+      "correctIndex": 0,
+      "explanation": "Petra was established in the 4th century BCE as the capital of the Nabataean Kingdom, carved directly into canyon rock.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Empire State Building in New York City officially completed and opened after just 410 days of construction?",
+      "target": 1931,
+      "metricUnit": "CE",
+      "imperialDisplay": "May 1931",
+      "explanation": "The 102-story Empire State Building opened on 1 May 1931 and remained the world tallest building for nearly 40 years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which African American track star shattered racial dogmas by winning four gold medals at the 1936 Berlin Olympic Games?",
+      "options": [
+        "Carl Lewis",
+        "Jesse Owens",
+        "Bob Beamon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jesse Owens triumphed in the 100m, 200m, long jump, and 4x100m relay in front of Adolf Hitler at the 1936 Berlin Games.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British middle-distance runner became the first human in history to run a sub-four-minute mile in May 1954?",
+      "options": [
+        "Sebastian Coe",
+        "Steve Ovett",
+        "Roger Bannister"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roger Bannister ran the mile in 3 minutes 59.4 seconds on the Iffley Road track in Oxford on 6 May 1954.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 17-year-old Brazilian soccer prodigy scored two goals in the 1958 World Cup final, becoming the youngest player to win the tournament?",
+      "options": [
+        "Pele",
+        "Garrincha",
+        "Vava"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pele scored six goals during the 1958 tournament in Sweden, launching his career as football greatest global ambassador.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 14-year-old Romanian gymnast made Olympic history by scoring the first perfect 10.0 in gymnastics at the 1976 Montreal Games?",
+      "options": [
+        "Olga Korbut",
+        "Nadia Comaneci",
+        "Svetlana Khorkina"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nadia Comaneci earned seven perfect scores of 10.0 in Montreal, causing the digital scoreboards to display 1.00 as they lacked four digits.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American swimmer holds the all-time record for the most Olympic medals won by an athlete in history?",
+      "options": [
+        "Mark Spitz",
+        "Caeleb Dressel",
+        "Michael Phelps"
+      ],
+      "correctIndex": 2,
+      "explanation": "Michael Phelps accumulated 28 total Olympic medals across five Olympic Games, including 23 gold medals.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total count of career Olympic medals won by American swimmer Michael Phelps?",
+      "target": 28,
+      "metricUnit": "medals",
+      "imperialDisplay": "28 medals (23 Gold, 3 Silver, 2 Bronze)",
+      "explanation": "Michael Phelps stands as the most decorated Olympian in history with 28 Olympic medals won between 2004 and 2016.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which layer of Earth atmosphere is the protective ozone layer located, absorbing harmful ultraviolet solar radiation?",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ozone layer is concentrated in the lower stratosphere between roughly 15 and 35 kilometers above Earth surface.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which hyper-arid plateau in northern Chile is scientifically recognized as the driest non-polar desert on Earth?",
+      "options": [
+        "Kalahari Desert",
+        "Atacama Desert",
+        "Mojave Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Atacama Desert is shielded by the Andes and the Chilean Coastal Range, creating centuries of rain shadow hyper-aridity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the lowest dry-land elevation on Earth surface, located along the shoreline of a hypersaline lake in the Jordan Rift Valley?",
+      "options": [
+        "Lake Eyre Basin",
+        "Qattara Depression",
+        "Dead Sea Shore"
+      ],
+      "correctIndex": 2,
+      "explanation": "The water surface and shoreline of the Dead Sea sit at approximately 430 meters below global mean sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain peak in the Himalayas forms the highest point on Earth above sea level, surveyed at 8,848.86 meters?",
+      "options": [
+        "Mount Everest",
+        "K2",
+        "Kangchenjunga"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known in Nepal as Sagarmatha and in Tibet as Chomolungma, Mount Everest rises on the international border of Nepal and China.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Siberian lake holds the records as both the deepest and the oldest freshwater lake on planet Earth?",
+      "options": [
+        "Caspian Sea",
+        "Lake Baikal",
+        "Lake Superior"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Baikal plunges to 1,642 meters and is estimated to be 25 to 30 million years old, housing thousands of endemic species.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate elevation in meters of the Dead Sea shoreline below mean sea level?",
+      "target": 430,
+      "metricUnit": "meters below sea level",
+      "imperialDisplay": "approx 1,410 feet below sea level",
+      "explanation": "The Dead Sea shoreline sits at roughly 430 meters (1,410 feet) below sea level, representing the lowest land elevation on Earth.",
+      "validated": true
+    }
+  ],
+  "category": "Sports, Records & General Knowledge",
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

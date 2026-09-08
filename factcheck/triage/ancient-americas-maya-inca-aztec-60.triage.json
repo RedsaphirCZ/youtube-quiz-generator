@@ -1,0 +1,16 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "ancient-americas-maya-inca-aztec-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 1,
+  "findings": [
+    {
+      "question_number": 38,
+      "severity": "critical",
+      "issue": "Missing context for question 38",
+      "proposed_fix": "Add the missing introductory sentence: 'You or more enemy combatants for ritual sacrifice earned induction into the Eagle or Jaguar orders.' before question 38.",
+      "verification_query": "Check if the text provided includes the full context for question 38 about Flower Wars."
+    }
+  ]
+}

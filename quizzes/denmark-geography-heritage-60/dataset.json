@@ -1,0 +1,703 @@
+{
+  "id": "denmark-geography-heritage-60",
+  "theme": "Denmark: Geography, Viking Fortresses & Nordic Innovations",
+  "title": "Denmark: Geography, Viking Fortresses & Nordic Innovations",
+  "description": "A 60-question grand master assessment exploring Copenhagen & The Little Mermaid (1913), Tivoli Gardens (1843), Greenland (2M sq km), Lego (1958 patent), Hans Christian Andersen (1805), Jelling Stones (965 CE), Øresund Bridge (2000), offshore wind (1991), and Møllehøj (171 m).",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What capital and largest city of Denmark, situated on the eastern coast of the island of Zealand, translates from Old Danish as 'Merchants Harbour'?",
+      "options": [
+        "Copenhagen",
+        "Aarhus",
+        "Odense"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded as a fishing village in the 10th century and fortified by Bishop Absalon in 1167, Copenhagen is consistently rated among the world most livable cities.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What picturesque 17th-century waterfront canal in Copenhagen is world-famous for its colorful gabled 300-year-old townhouses, historic wooden ships, and outdoor cafes?",
+      "options": [
+        "Christianshavn",
+        "Nyhavn",
+        "Slotsholmen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dug by Swedish prisoners of war between 1670 and 1673, fairy-tale author Hans Christian Andersen lived at numbers 18, 20, and 67 along Nyhavn.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 1.25-meter bronze statue perched on a granite boulder along the Langelinie promenade in Copenhagen was sculpted in 1913 by Edvard Eriksen, inspired by Hans Christian Andersen fairy tale?",
+      "options": [
+        "Gefion Fountain",
+        "Ianto Fountain",
+        "The Little Mermaid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commissioned by Carl Jacobsen of Carlsberg Brewery, the statue face was modeled after ballerina Ellen Price and her body after the sculptor wife Eline Eriksen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 18th-century rococo palace complex in Copenhagen, consisting of four identical palaces around an octagonal courtyard, serves as the winter residence of the Danish royal family?",
+      "options": [
+        "Amalienborg Palace",
+        "Christiansborg Palace",
+        "Rosenborg Castle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guarded by the Royal Life Guards (Den Kongelige Livgarde) with tall bearskin hats, a daily changing of the guard ceremony takes place at 12:00 noon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 1.1-kilometer car-free pedestrian shopping thoroughfare in central Copenhagen is one of the longest and oldest pedestrian shopping streets in Europe?",
+      "options": [
+        "Vesterbrogade",
+        "Strøget",
+        "Købmagergade"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pedestrianized in 1962 despite initial public skepticism, Strøget connects City Hall Square (Rådhuspladsen) to Kongens Nytorv, sparking global urban pedestrianization.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the famous bronze statue of The Little Mermaid officially unveiled on the waterfront promenade of Copenhagen?",
+      "target": 1913,
+      "metricUnit": "year",
+      "imperialDisplay": "1913 AD",
+      "explanation": "The Little Mermaid statue was unveiled to the public on August 23, 1913.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous amusement park and pleasure garden in downtown Copenhagen, opened in August 1843 by Georg Carstensen, is the second oldest operating amusement park in the world?",
+      "options": [
+        "Dyrehavsbakken",
+        "Legoland",
+        "Tivoli Gardens"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carstensen famously convinced King Christian VIII by saying: 'When people are amusing themselves, they do not think about politics.' Walt Disney visited Tivoli to find inspiration for Disneyland.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 1914 wooden roller coaster in Tivoli Gardens, one of the oldest wooden coasters still operating on Earth, is still controlled by an onboard human brakeman on every ride?",
+      "options": [
+        "Rutschebanen",
+        "Dæmonen",
+        "Odin Express"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brakeman manually applies hand brakes on sharp downhill curves, navigating 720 meters of track through artificial mountain scenery.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of all daily commuter trips to work and school in the city of Copenhagen are made by bicycle, making it the Cycling Capital of the World?",
+      "options": [
+        "25 Percent",
+        "Over 60 Percent",
+        "40 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "With 382 kilometers of dedicated cycle tracks separated from road traffic and Cycle Superhighways (Cykelsuperstier), bikes outnumber cars in central Copenhagen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous bicycle bridge in Copenhagen, connecting Nørrebro to the city center across the lakes, is one of the busiest bicycle corridors in the world with over 40,000 daily cyclists?",
+      "options": [
+        "Cykelslangen The Bicycle Snake",
+        "Inderhavnsbroen",
+        "Dronning Louises Bro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Equipped with digital bike counters and green waves (traffic lights synchronized to average cycling speeds of 20 km/h), cyclists can ride without stopping at red lights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest continuously operating amusement park in the world, founded in 1583 in Klampenborg north of Copenhagen near the royal deer park?",
+      "options": [
+        "Dyrehavsbakken",
+        "Tivoli Gardens",
+        "Liseberg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originating when Kirsten Piil discovered a natural spring in the woods, Bakken features the 1932 wooden roller coaster and traditional white clown Pierrot.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the historic Tivoli Gardens amusement park first open its gates to the public in Copenhagen, Denmark?",
+      "target": 1843,
+      "metricUnit": "year",
+      "imperialDisplay": "1843 AD",
+      "explanation": "Tivoli Gardens opened on August 15, 1843, remaining one of Europe's most beloved amusement parks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What constitutional arrangement, meaning the Unity of the Realm, unites the European country of Denmark with its two self-governing autonomous Atlantic overseas territories: Greenland and the Faroe Islands?",
+      "options": [
+        "The Nordic Union",
+        "Rigsfællesskabet",
+        "The Scandinavian Commonwealth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Greenland and the Faroe Islands each have their own parliaments, prime ministers, and home-rule governments, while sending two elected representatives each to the Danish Folketing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What autonomous island in the Danish Realm is the largest island in the world (excluding continental landmasses), covering 2.16 million square kilometers, eighty percent of which is covered by an ice sheet?",
+      "options": [
+        "Baffin Island",
+        "New Guinea",
+        "Greenland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Greenland contains the Ilulissat Icefjord (a UNESCO World Heritage site fed by Sermeq Kujalleq, the most productive glacier in the Northern Hemisphere).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What self-governing volcanic archipelago in the North Atlantic, comprising eighteen rugged islands between Iceland and Norway, is famous for puffin colonies and grass-roofed cottages?",
+      "options": [
+        "The Faroe Islands",
+        "The Shetland Islands",
+        "The Hebrides"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Faroes feature the famous Múlafossur Waterfall in Gásadalur, sheer sea cliffs (Enniberg), and the world first underwater roundabout in the Eysturoyartunnilin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage fjord on the west coast of Greenland discharges thirty-five billion tons of icebergs annually into Disko Bay?",
+      "options": [
+        "Scoresby Sound",
+        "Ilulissat Icefjord",
+        "Tasermiut Fjord"
+      ],
+      "correctIndex": 1,
+      "explanation": "Calving from the Jakobshavn Glacier (Sermeq Kujalleq) at rates of forty meters per day, icebergs drifting into the Atlantic are believed to include the iceberg that struck the Titanic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What capital city of Greenland, situated on the southwest coast along Nuup Kangerlua fjord, is the northernmost capital of the Danish Realm with twenty thousand residents?",
+      "options": [
+        "Ilulissat",
+        "Sisimiut",
+        "Nuuk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1728 by Norwegian-Danish missionary Hans Egede, Nuuk features the Greenland National Museum exhibiting the 500-year-old Qilakitsoq Inughuit mummies.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total geographical land surface area in millions of square kilometers of Greenland, the world largest island within the Danish Realm?",
+      "target": 2,
+      "metricUnit": "million square kilometers",
+      "imperialDisplay": "836,330 square miles (2.16M sq km)",
+      "explanation": "Greenland covers 2.16 million square kilometers (rounded to 2 million), of which 1.7 million sq km is covered by the Greenland Ice Sheet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous global toy company, founded in 1932 in the small town of Billund, Denmark, by carpenter Ole Kirk Christiansen, takes its name from the Danish phrase 'leg godt' (play well)?",
+      "options": [
+        "The Lego Group Lego",
+        "Playmobil",
+        "Meccano"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beginning as a modest workshop making wooden pull-along ducks, Lego introduced its revolutionary patented plastic interlocking automatic binding bricks in the 1950s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what landmark year was the modern interlocking plastic Lego brick design, with its patented internal hollow tube and stud coupling system, officially patented in Copenhagen?",
+      "options": [
+        "1949",
+        "1958",
+        "1968"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patented on January 28, 1958, by Godtfred Kirk Christiansen, any Lego brick made in 1958 still interconnects perfectly with bricks manufactured today.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous original theme park, opened in Billund in June 1968 next to the Lego factory, features Miniland displaying miniature world landmarks made from forty million Lego bricks?",
+      "options": [
+        "Legoland Windsor",
+        "Legoland Deutschland",
+        "Legoland Billund"
+      ],
+      "correctIndex": 2,
+      "explanation": "Legoland Billund welcomes two million visitors annually, complemented by the 2017 Lego House (Home of the Brick) designed by Danish architect Bjarke Ingels (BIG).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world record does the Lego Group hold continuously as the largest manufacturer on planet Earth, producing over 300 million small rubber units annually for its toy sets?",
+      "options": [
+        "World largest manufacturer of vehicle tires",
+        "World largest producer of plastic cups",
+        "World largest producer of miniature glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Recognized by Guinness World Records in 2012, Lego manufactures over 318 million miniature rubber tires every year, surpassing Bridgestone and Michelin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Danish toy company innovation, introduced in 1978, added articulated yellow-skinned human characters with movable arms, legs, and interchangeable hair pieces to Lego sets?",
+      "options": [
+        "The Lego Duplo",
+        "The Lego Minifigure",
+        "The Lego Technic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Over four billion Minifigures have been produced since 1978; if placed together, their population would represent the largest artificial demographic group on Earth.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what historic year did Godtfred Kirk Christiansen officially patent the iconic interlocking stud-and-tube design of the modern Lego plastic brick?",
+      "target": 1958,
+      "metricUnit": "year",
+      "imperialDisplay": "1958 AD",
+      "explanation": "The foundational Lego brick patent was granted on January 28, 1958.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous Danish author, born into poverty in Odense on the island of Funen in 1805, penned 156 globally beloved fairy tales translated into over 125 languages?",
+      "options": [
+        "Søren Kierkegaard",
+        "Ludvig Holberg",
+        "Hans Christian Andersen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Andersen masterworks include The Little Mermaid, The Ugly Duckling, The Emperor New Clothes, The Princess and the Pea, and The Snow Queen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what historic year was master storyteller Hans Christian Andersen born in a humble cobbler house in Odense, Denmark?",
+      "options": [
+        "1805",
+        "1789",
+        "1848"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andersen was born on April 2, 1805, commemorated globally every year on his birthday as International Children Book Day.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish 19th-century philosopher and theologian, born in Copenhagen in 1813, is recognized as the Father of Christian Existentialism (author of Either/Or and Fear and Trembling)?",
+      "options": [
+        "N.F.S. Grundtvig",
+        "Søren Kierkegaard",
+        "Georg Brandes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kierkegaard wrote extensively under pseudonyms, exploring individual angst, subjectivity, and the radical 'leap of faith' required for spiritual authentic existence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish noblewoman and author lived on a coffee plantation in British Kenya from 1914 to 1931, writing the internationally acclaimed memoir Out of Africa under the pen name Isak Dinesen?",
+      "options": [
+        "Tove Ditlevsen",
+        "Agnes Henningsen",
+        "Karen Blixen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Her ancestral manor house at Rungstedlund north of Copenhagen is preserved as the Karen Blixen Museum, where she wrote Seven Gothic Tales.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Hans Christian Andersen fairy tale, about an icy monarch who kidnaps little boy Kai to her frozen palace in Spitsbergen, was the direct narrative inspiration for Disney animated blockbuster Frozen?",
+      "options": [
+        "The Snow Queen",
+        "The Wild Swans",
+        "The Steadfast Tin Soldier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Published in December 1844, The Snow Queen tells the epic journey of young Gerda who travels to the far north to rescue her childhood companion Kai.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the world-famous Danish fairy tale author Hans Christian Andersen born in Odense, Denmark?",
+      "target": 1805,
+      "metricUnit": "year",
+      "imperialDisplay": "1805 AD",
+      "explanation": "Hans Christian Andersen was born on April 2, 1805.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental Renaissance coastal fortress in Helsingør, guarding the narrow four-kilometer Øresund sound chokepoint between Denmark and Sweden, was immortalized by William Shakespeare as Elsinore Castle in Hamlet?",
+      "options": [
+        "Frederiksborg Castle",
+        "Kronborg Castle",
+        "Rosenborg Castle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rebuilt by King Frederick II in 1574, Kronborg generated immense wealth by collecting the Sound Dues (Øresundstolden) from every merchant ship entering the Baltic Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "According to Danish folklore, what legendary warrior and king sleeps in the dark underground casemates of Kronborg Castle, prophesied to awaken to defend Denmark when the nation is in peril?",
+      "options": [
+        "Ragnar Lothbrok",
+        "Gorm the Old",
+        "Holger the Dane Holger Danske Ogier the Dane"
+      ],
+      "correctIndex": 2,
+      "explanation": "A famous bronze-and-concrete statue of Holger Danske with a long white beard and drawn sword sits in the subterranean vaulted tunnels of Kronborg.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 10th-century runic monuments in Jylland, erected by King Harald Bluetooth around 965 CE, are celebrated as the Birth Certificate of Denmark for uniting the Danish nation and adopting Christianity?",
+      "options": [
+        "The Jelling Stones",
+        "The Rök Stone",
+        "The Karlevi Stone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Great Jelling Stone features the oldest depiction of Christ in Scandinavia, proclaiming that Harald 'won for himself all of Denmark and Norway and made the Danes Christian'.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-renowned maritime museum on Roskilde Fjord houses five intact 11th-century Viking ships (Skuldelev ships) scuttled in 1070 to block naval channels to the ancient royal capital?",
+      "options": [
+        "National Museum of Denmark",
+        "Viking Ship Museum",
+        "Moesgaard Museum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The museum operates a traditional working boatyard that reconstructs exact seaworthy replicas using authentic Viking axes, pine tar, and hand-woven wool sails.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental Gothic brick cathedral in Roskilde, built in the 12th and 13th centuries, has been the primary royal mausoleum for forty-four Danish monarchs since the 15th century?",
+      "options": [
+        "Ribe Cathedral",
+        "Viborg Cathedral",
+        "Roskilde Cathedral"
+      ],
+      "correctIndex": 2,
+      "explanation": "The UNESCO-listed twin-spired cathedral contains the opulent marble sarcophagi of Queen Margrethe I, King Christian IV, and all Danish kings and queens.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In approximately what year CE did King Harald Bluetooth erect the Great Jelling Stone, officially recognized as the Birth Certificate of the Danish nation?",
+      "target": 965,
+      "metricUnit": "CE",
+      "imperialDisplay": "965 AD",
+      "explanation": "The Great Jelling Stone was carved around 965 CE, commemorating Harald Bluetooth's unification of Denmark.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental 16-kilometer combined road-and-rail fixed link, completed in 2000, connects the Danish capital of Copenhagen directly to the Swedish coastal city of Malmö?",
+      "options": [
+        "The Øresund Bridge",
+        "The Great Belt Fixed Link",
+        "The Fehmarnbelt Tunnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The link consists of a 7.8-kilometer cable-stayed bridge, the 4-kilometer artificial island of Peberholm, and the 4-kilometer Drogden submerged concrete tunnel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year was the international Øresund Bridge between Denmark and Sweden officially opened to motor and train traffic by Queen Margrethe II and King Carl XVI Gustaf?",
+      "options": [
+        "1995",
+        "2000",
+        "2008"
+      ],
+      "correctIndex": 1,
+      "explanation": "The bridge opened on July 1, 2000, creating the unified transnational Øresund metropolitan region of 4.1 million residents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 18-kilometer fixed transport link across the Great Belt waterway connects the Danish islands of Zealand and Funen, featuring the third longest suspension bridge span in the world (6.8 km)?",
+      "options": [
+        "The Little Belt Bridge",
+        "The Storstrøm Bridge",
+        "Great Belt Fixed Link"
+      ],
+      "correctIndex": 2,
+      "explanation": "Opened in 1998, the East Bridge suspension towers stand 254 meters tall, eliminating ferry crossings between eastern and western Denmark.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 18-kilometer immersed road-and-rail tunnel currently under construction beneath the Baltic Sea will connect the Danish island of Lolland directly to the German island of Fehmarn in seven minutes?",
+      "options": [
+        "Fehmarnbelt Fixed Link",
+        "The Channel Tunnel",
+        "The Rogfast Tunnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scheduled for completion in 2029, it will be the longest immersed combined road and rail tunnel in the world, reducing travel time between Copenhagen and Hamburg to 2.5 hours.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What futuristic waste-to-energy power plant in Copenhagen, designed by architect Bjarke Ingels, features a year-round artificial ski slope and the world tallest climbing wall (85 m) on its sloping roof?",
+      "options": [
+        "Sydhavn Plant",
+        "CopenHill",
+        "Vestforbrænding"
+      ],
+      "correctIndex": 1,
+      "explanation": "CopenHill burns municipal waste cleanly to provide electricity for 30,000 households and district heating for 72,000 homes, topped with hiking trails and a rooftop bar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the landmark Øresund Bridge connecting Denmark and Sweden officially open to vehicular and rail transit?",
+      "target": 2000,
+      "metricUnit": "year",
+      "imperialDisplay": "2000 AD",
+      "explanation": "The Øresund Bridge was officially inaugurated and opened on July 1, 2000.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-leading Danish wind turbine manufacturer, founded in Lem in 1945, is the largest manufacturer and installer of wind turbines in global history?",
+      "options": [
+        "Siemens Gamesa",
+        "Goldwind",
+        "Vestas Wind Systems"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vestas has installed over 88,000 wind turbines in eighty-eight countries, pioneering industrial-scale wind turbine blades and composite materials.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what historic year did Denmark install the world very first offshore wind farm (Vindeby Offshore Wind Farm), consisting of eleven 450 kW turbines off the coast of Lolland?",
+      "options": [
+        "1991",
+        "1980",
+        "2002"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vindeby operated successfully for twenty-five years before being decommissioned in 2017, proving that offshore ocean wind power was commercially viable.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the total domestic electricity consumption of Denmark is generated from clean renewable wind and solar power, ranking highest among OECD nations?",
+      "options": [
+        "20 Percent",
+        "Over 50 Percent",
+        "35 Percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "On windy days, Denmark wind turbines generate more than 100 percent of national electrical demand, exporting excess clean electricity to Germany, Norway, and Sweden.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive green energy infrastructure project planned by Denmark in the North Sea eighty kilometers offshore will create an artificial artificial island acting as a clean energy hub for 200 giant wind turbines?",
+      "options": [
+        "Dogger Bank Hub",
+        "Baltic Energy Island Bornholm",
+        "North Sea Energy Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering 120,000 square meters, the energy island will generate up to 10 GW of electricity and produce green hydrogen fuel (Power-to-X) for heavy transport.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What global renewable energy enterprise, formerly known as DONG Energy (Danish Oil and Natural Gas), completely divested its fossil fuels to become the world largest developer of offshore wind farms?",
+      "options": [
+        "Ørsted",
+        "Vattenfall",
+        "Equinor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Named in honor of Danish physicist Hans Christian Ørsted (who discovered electromagnetism in 1820), the company completed the world largest offshore wind farms.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Denmark install the world very first offshore wind farm (the historic Vindeby project) in the waters off Lolland?",
+      "target": 1991,
+      "metricUnit": "year",
+      "imperialDisplay": "1991 AD",
+      "explanation": "Vindeby Offshore Wind Farm began generating clean marine electricity in 1991.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous untranslatable Danish cultural concept embodies a feeling of cozy contentment, warmth, relaxed conviviality, and enjoying life simple pleasures with loved ones?",
+      "options": [
+        "Lagom",
+        "Hygge",
+        "Sisu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Associated with glowing candlelight, warm wool socks, steaming cups of coffee, and cozy firesides during dark winter months, hygge is central to Danish happiness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Danish open-faced sandwich, built on a buttered slice of dense dark sourdough rye bread (rugbrød) with artistic layers of pickled herring, roast beef, or cold-water shrimp, is a lunchtime staple?",
+      "options": [
+        "Smörgåsbord",
+        "Pølser",
+        "Smørrebrød"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smørrebrød is traditionally eaten with knife and fork, paired with cold lager beer and a glass of caraway-spiced aquavit (snaps).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous multi-layered laminated puff pastry, known in Denmark as Wienerbrød (Viennese Bread), was introduced to Denmark in the 1850s by Austrian bakers during a Danish bakery strike?",
+      "options": [
+        "Danish Pastry",
+        "Kanelsnegl",
+        "Spandauer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Danish bakers adapted the Austrian plundeldeig technique by adding extra eggs and butter, creating iconic custard-filled Spandauer and cinnamon swirls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous brewery founded in Copenhagen in 1847 by J.C. Jacobsen pioneered the revolutionary isolation of the world first pure lager yeast culture (Saccharomyces carlsbergensis) in 1883?",
+      "options": [
+        "Tuborg",
+        "Carlsberg Brewery",
+        "Mikkeller"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jacobsen shared his pure yeast culture freely with breweries worldwide without patenting it, revolutionizing consistent quality in beer brewing across the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic red-skinned boiled pork hot dog sausage, served from street food carts (Pølsevogn) across Denmark with remoulade, fried onions, and sweet pickled cucumber, is a beloved national street food?",
+      "options": [
+        "Medisterpølse",
+        "Frikadeller",
+        "Rød Pølse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Originally dipped in red food dye in the 1920s to mark day-old discount sausages, the bright red skin became a permanent hallmark of Danish street food.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Carlsberg Brewery founded in Copenhagen by industrialist J.C. Jacobsen?",
+      "target": 1847,
+      "metricUnit": "year",
+      "imperialDisplay": "1847 AD",
+      "explanation": "Carlsberg was founded on November 10, 1847, named after Jacobsen's son Carl and the Valby hill (bjerg).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest natural ground elevation point in European Denmark, rising to a modest 170.86 meters above sea level in the Ejerbjerge hills of eastern Jutland?",
+      "options": [
+        "Møllehøj",
+        "Himmelbjerget",
+        "Yding Skovhøj"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marked by a millstone from the former 19th-century windmill, Møllehøj narrowly edges out neighboring Yding Skovhøj and Ejer Bavnehøj as Denmark highest natural point.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular six-kilometer stretch of sheer 128-meter-tall white chalk cliffs along the eastern coast of the island of Møn drops directly into the turquoise Baltic Sea?",
+      "options": [
+        "Stevns Klint",
+        "Møns Klint",
+        "Bulbjerg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Formed from microscopic calcium coccolith shells deposited seventy million years ago during the Cretaceous period, the cliffs are rich in fossilized sea urchins and belemnites.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative regions (Regioner), established in the 2007 territorial reform, is the sovereign country of Denmark politically divided?",
+      "options": [
+        "10 Regions",
+        "14 Regions",
+        "5 Regions"
+      ],
+      "correctIndex": 2,
+      "explanation": "The five regions are the Capital Region of Denmark, Region Zealand, Region of Southern Denmark, Central Denmark Region, and North Denmark Region.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What isolated, rocky Danish island in the Baltic Sea, situated south of Sweden, is renowned for round fortified medieval churches (Rundkirker), smokehouses for smoked herring, and Hammershus Castle ruins?",
+      "options": [
+        "Bornholm",
+        "Lolland",
+        "Langeland"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bornholm features sunny microclimates where fig trees and mulberries grow, alongside the medieval round churches like Østerlars Church.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique distinction does the Danish Monarchy hold as one of the oldest continuous royal dynasties on Earth, tracing its lineage back to King Gorm the Old in what century CE?",
+      "options": [
+        "13th Century CE",
+        "10th Century CE c. 936 CE",
+        "8th Century BCE"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Frederik X ascended the Danish throne in January 2024 following the abdication of Queen Margrethe II, continuing over 1,100 years of unbroken royal heritage.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Møllehøj, the highest natural terrain elevation point in Denmark?",
+      "target": 171,
+      "metricUnit": "meters",
+      "imperialDisplay": "561 feet",
+      "explanation": "Møllehøj in the Central Denmark Region stands at an official surveyed elevation of 170.86 meters (rounded to 171 m) above sea level.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

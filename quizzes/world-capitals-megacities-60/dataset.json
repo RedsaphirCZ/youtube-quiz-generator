@@ -1,0 +1,703 @@
+{
+  "id": "world-capitals-megacities-60",
+  "theme": "World Capitals, Megacities & Urban Geography",
+  "title": "World Capitals, Megacities & Urban Geography",
+  "description": "Comprehensive 60-question urban expedition exploring planned capitals, high-altitude metropolises, historic citadels, sprawling megacities, and demographic records.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which planned capital city was designed in the shape of a massive airplane by urban planner Lúcio Costa and inaugurated in 1960?",
+      "options": [
+        "Brasília",
+        "Canberra",
+        "Islamabad"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brasília was constructed in the interior Brazilian highlands with landmark modernist administrative buildings designed by Oscar Niemeyer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In 2005, which Southeast Asian nation officially transferred its administrative capital from Yangon to the purpose-built city of Naypyidaw?",
+      "options": [
+        "Cambodia",
+        "Myanmar",
+        "Laos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naypyidaw was developed inland as a sprawling, planned administrative center with twenty-lane boulevards and expansive ministry zones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national capital was planned by American architect Walter Burley Griffin as a compromise between two rival cities?",
+      "options": [
+        "Wellington",
+        "Ottawa",
+        "Canberra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Canberra was chosen and designed as the federal capital of Australia situated in a purpose-built territory between Sydney and Melbourne.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which West African nation moved its official federal capital from coastal Lagos to the centrally located planned city of Abuja in 1991?",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Ivory Coast"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abuja was selected for its geographic centrality and neutral ethnic positioning, dominated by the colossal monolith Zuma Rock.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which planned capital city replaced Karachi as the permanent seat of government in Pakistan during the 1960s?",
+      "options": [
+        "Lahore",
+        "Islamabad",
+        "Rawalpindi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Islamabad was designed by Greek urban planner Constantinos Doxiadis in a grid-like sector layout near the Margalla Hills.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Brasília officially inaugurated as the new federal capital of Brazil?",
+      "target": 1960,
+      "metricUnit": "year",
+      "imperialDisplay": "1960 AD",
+      "explanation": "President Juscelino Kubitschek officially inaugurated Brasília on April 21, 1960, replacing Rio de Janeiro as the national seat of power.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city is the highest administrative national capital in the world, sitting over 3,600 meters above sea level in an Andean canyon?",
+      "options": [
+        "Quito",
+        "Bogotá",
+        "La Paz"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Paz serves as the seat of Bolivia executive and legislative branches, nestled within a dramatic canyon beneath Mount Illimani.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which South American capital city is situated just twenty-five kilometers south of the Equator on the slopes of the active Pichincha volcano?",
+      "options": [
+        "Quito",
+        "Lima",
+        "Caracas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quito is the capital of Ecuador and one of the highest national capitals on Earth at roughly 2,850 meters elevation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national capital is recognized as the coldest capital city on Earth by annual mean temperature?",
+      "options": [
+        "Astana",
+        "Ulaanbaatar",
+        "Reykjavik"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ulaanbaatar in Mongolia experiences extreme subarctic continental winters, with average January temperatures plunging below minus twenty degrees Celsius.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the northernmost capital city of an independent sovereign nation on Earth?",
+      "options": [
+        "Helsinki",
+        "Oslo",
+        "Reykjavik"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reykjavik in Iceland sits at approximately 64 degrees 08 minutes North latitude, making it the most northerly sovereign capital.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city holds the distinction of being the southernmost national capital in the world?",
+      "options": [
+        "Wellington",
+        "Canberra",
+        "Buenos Aires"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wellington at the southern tip of New Zealand North Island sits at approximately 41 degrees 17 minutes South latitude.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate elevation in meters above sea level of La Paz, the world highest administrative capital?",
+      "target": 3640,
+      "metricUnit": "meters",
+      "imperialDisplay": "11,942 feet",
+      "explanation": "La Paz sits at an average altitude of approximately 3,640 meters, while its adjoining sister city El Alto exceeds 4,000 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which country has three official capital cities dividing administrative, legislative, and judicial powers across Pretoria, Cape Town, and Bloemfontein?",
+      "options": [
+        "Nigeria",
+        "South Africa",
+        "Malaysia"
+      ],
+      "correctIndex": 1,
+      "explanation": "South Africa distributes national power among Pretoria as executive, Cape Town as legislative, and Bloemfontein as judicial capitals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic city is recognized in the national constitution as the historic constitutional capital of Bolivia, where the supreme court sits?",
+      "options": [
+        "Cochabamba",
+        "Santa Cruz",
+        "Sucre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sucre is the constitutional and judicial capital of Bolivia, while La Paz houses the national congress and presidential palace.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Although Amsterdam is the constitutional capital of the Netherlands, in which city do the parliament and royal court reside?",
+      "options": [
+        "The Hague",
+        "Rotterdam",
+        "Utrecht"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hague has served as the actual seat of Dutch government, parliament, supreme court, and diplomatic embassies since the late sixteenth century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sovereign microstate capital is perched dramatically on the three peaks of Mount Titano in the Apennine Mountains?",
+      "options": [
+        "Vaduz",
+        "City of San Marino",
+        "Andorra la Vella"
+      ],
+      "correctIndex": 1,
+      "explanation": "The City of San Marino crowns Mount Titano with its three iconic medieval fortress towers Guaita, Cesta, and Montale.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sovereign city-state is completely enclosed within the municipal boundaries of Rome?",
+      "options": [
+        "Monaco",
+        "San Marino",
+        "Vatican City"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vatican City was established as an independent sovereign enclave inside Rome via the 1929 Lateran Treaty with Italy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many official capital cities does the Republic of South Africa maintain to balance power across its provinces?",
+      "target": 3,
+      "metricUnit": "capitals",
+      "imperialDisplay": "3 official capitals",
+      "explanation": "South Africa designates Pretoria for the executive branch, Cape Town for the parliament, and Bloemfontein for the judicial supreme court.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which metropolitan area is the most populous continuous urban agglomeration in the world with over 37 million residents?",
+      "options": [
+        "Greater Tokyo Area",
+        "Delhi NCR",
+        "Shanghai"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Greater Tokyo metropolitan region in the Kanto Plain encompasses Tokyo, Yokohama, Kawasaki, and Chiba with over 37 million people.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Due to land subsidence and severe flooding, which Southeast Asian nation is constructing a replacement capital named Nusantara in East Kalimantan?",
+      "options": [
+        "Philippines",
+        "Indonesia",
+        "Thailand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jakarta on Java is sinking rapidly due to groundwater extraction, prompting Indonesia to build the smart forest city Nusantara on Borneo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian megacity, formerly known as Bombay, is the commercial capital of India built across seven interconnected islands?",
+      "options": [
+        "Kolkata",
+        "Chennai",
+        "Mumbai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mumbai was formed by joining seven historic islands via extensive colonial land reclamation schemes throughout the eighteenth and nineteenth centuries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sovereign island city-state is connected to the southern tip of the Malay Peninsula by the Johor-Singapore Causeway?",
+      "options": [
+        "Singapore",
+        "Brunei",
+        "Bahrain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Singapore transformed from a British colonial trading post into one of the world wealthiest global financial hubs and maritime ports.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Asian megacity region forms the world largest continuous manufacturing and urban megaregion around the mouth of the Pearl River?",
+      "options": [
+        "Keihanshin Megalopolis",
+        "Guangdong-Hong Kong-Macao Greater Bay Area",
+        "Seoul National Capital Area"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pearl River Delta combines Guangzhou, Shenzhen, Dongguan, Foshan, Hong Kong, and Macao into a powerhouse urban zone.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million people reside within the Greater Tokyo Area, making it the most populous urban region on Earth?",
+      "target": 37,
+      "metricUnit": "million residents",
+      "imperialDisplay": "37 million people",
+      "explanation": "Demographic surveys estimate the Greater Tokyo metropolitan population at approximately 37.4 million residents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic city served as the imperial capital and residence of the Emperor of Japan for over a thousand years before Tokyo?",
+      "options": [
+        "Nara",
+        "Kamakura",
+        "Kyoto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kyoto, originally named Heian-kyo, served as the formal seat of the imperial court from 794 until the Meiji Restoration in 1868.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city on the Rhine River served as the federal capital of West Germany from 1949 until German reunification?",
+      "options": [
+        "Bonn",
+        "Frankfurt",
+        "Hamburg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bonn was selected by Chancellor Konrad Adenauer as the provisional federal capital of the Federal Republic of Germany.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major southeastern city served as the national capital of Brazil for nearly two centuries prior to the founding of Brasília?",
+      "options": [
+        "Salvador",
+        "Rio de Janeiro",
+        "São Paulo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rio de Janeiro was the capital of Portuguese America and Brazil from 1763 until the federal administration relocated inland in 1960.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What city was the capital of Kazakhstan from its independence in 1991 until the government relocated north to Astana in 1997?",
+      "options": [
+        "Shymkent",
+        "Karaganda",
+        "Almaty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Almaty remains Kazakhstan largest metropolis and cultural hub despite the administrative move to Astana.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient metropolis on the Bosporus served as the capital of the Ottoman Empire for nearly five centuries before Ankara was chosen in 1923?",
+      "options": [
+        "Istanbul",
+        "Edirne",
+        "Bursa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the Turkish War of Independence, Mustafa Kemal Atatürk declared Ankara the national capital of the new Turkish Republic.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Kazakhstan officially transfer its national capital from Almaty to the northern city of Astana?",
+      "target": 1997,
+      "metricUnit": "year",
+      "imperialDisplay": "1997 AD",
+      "explanation": "President Nursultan Nazarbayev officially proclaimed Akmola, soon renamed Astana, as the national capital on December 10, 1997.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Canadian city on the border of Ontario and Quebec was chosen by Queen Victoria in 1857 as the national capital?",
+      "options": [
+        "Montreal",
+        "Ottawa",
+        "Toronto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottawa was selected as a defensible inland compromise situated between English-speaking Upper Canada and French-speaking Lower Canada.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Argentine capital city is located along the southwestern shore of the vast Río de la Plata estuary?",
+      "options": [
+        "Montevideo",
+        "Rosario",
+        "Buenos Aires"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buenos Aires is the political and cultural capital of Argentina, famous for its historic Plaza de Mayo and colorful La Boca district.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which South American capital city is situated in a central valley encircled by the towering peaks of the Andes and the Chilean Coastal Range?",
+      "options": [
+        "Santiago",
+        "Lima",
+        "Asunción"
+      ],
+      "correctIndex": 0,
+      "explanation": "Santiago was founded in 1541 by Pedro de Valdivia alongside the Mapocho River in the central Chilean valley.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-altitude Andean capital city sits on the Sabana de Bogotá plateau at roughly 2,640 meters above sea level?",
+      "options": [
+        "Caracas",
+        "Bogotá",
+        "Medellín"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bogotá is the sprawling capital of Colombia, featuring the historic colonial center La Candelaria beneath Monserrate mountain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Caribbean capital city was founded by Spanish colonists in 1521, featuring massive coastal fortifications named El Morro and San Cristóbal?",
+      "options": [
+        "Havana",
+        "Santo Domingo",
+        "San Juan"
+      ],
+      "correctIndex": 2,
+      "explanation": "San Juan in Puerto Rico is the oldest European-founded city under United States jurisdiction with grand colonial walls.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the average elevation in meters above sea level of Bogotá, the capital of Colombia?",
+      "target": 2640,
+      "metricUnit": "meters",
+      "imperialDisplay": "8,660 feet",
+      "explanation": "Bogotá sits on a high Andean plateau at roughly 2,640 meters altitude, making it the third-highest national capital in South America.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic river divides the Hungarian capital into the hilly, historic Buda district on the west bank and the flat Pest district on the east?",
+      "options": [
+        "Danube River",
+        "Rhine River",
+        "Tisza River"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buda, Pest, and Óbuda were unified in 1873 to form modern Budapest, connected by landmark spans such as the Széchenyi Chain Bridge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Central European capital city on the Vltava River is celebrated worldwide as the City of a Hundred Spires?",
+      "options": [
+        "Vienna",
+        "Prague",
+        "Bratislava"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prague in the Czech Republic features the ancient Charles Bridge, the historic Astronomical Clock, and the expansive Prague Castle complex.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nordic capital city is constructed across an archipelago of fourteen islands where Lake Mälaren flows into the Baltic Sea?",
+      "options": [
+        "Copenhagen",
+        "Helsinki",
+        "Stockholm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stockholm in Sweden is often called the Venice of the North, linked by over fifty bridges across scenic waterways.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which European capital is located at the mouth of the Tagus River, featuring the historic Belem Tower and the steep Alfama quarter?",
+      "options": [
+        "Lisbon",
+        "Madrid",
+        "Porto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lisbon is the westernmost capital city in mainland Europe, built across seven steep hills overlooking the Tagus estuary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which inland capital city is situated on the Manzanares River at the exact geographic center of the Iberian Peninsula?",
+      "options": [
+        "Toledo",
+        "Madrid",
+        "Seville"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Philip II relocated the Spanish royal court to Madrid in 1561, establishing it as the permanent political heart of Spain.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Across how many primary islands is the Swedish capital city of Stockholm built?",
+      "target": 14,
+      "metricUnit": "islands",
+      "imperialDisplay": "14 islands",
+      "explanation": "Stockholm spans 14 main islands connected by over 50 bridges where Lake Mälaren empties into the Baltic archipelago.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What megacity along the Nile River is the largest metropolitan area in Egypt and the wider Arab world?",
+      "options": [
+        "Alexandria",
+        "Khartoum",
+        "Cairo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cairo was founded in 969 CE by the Fatimid dynasty and sits immediately adjacent to the ancient Giza Necropolis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sprawling Nigerian megacity situated on coastal lagoons is the largest urban center and financial engine in Sub-Saharan Africa?",
+      "options": [
+        "Lagos",
+        "Abuja",
+        "Ibadan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lagos expanded rapidly across Lagos Island, Victoria Island, and the mainland to house over twenty million residents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which East African capital city, known as the Green City in the Sun, is famous for hosting a wild game national park right against its city skyline?",
+      "options": [
+        "Kampala",
+        "Nairobi",
+        "Dodoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nairobi National Park borders the city limits of the Kenyan capital, allowing lions and rhinos to roam against modern high-rise backdrops.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high-altitude Ethiopian capital city serves as the diplomatic headquarters of the African Union?",
+      "options": [
+        "Asmara",
+        "Djibouti",
+        "Addis Ababa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Addis Ababa was founded in 1886 by Emperor Menelik II at the foot of Mount Entoto and sits over 2,300 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic coastal capital city of Ghana was formed around seventeenth-century British, Dutch, and Danish trading forts along the Gulf of Guinea?",
+      "options": [
+        "Accra",
+        "Kumasi",
+        "Takoradi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Accra became the capital of the British Gold Coast in 1877 and continued as the national capital following Ghanaian independence in 1957.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the average elevation in meters above sea level of Addis Ababa, making it one of the highest capital cities in Africa?",
+      "target": 2355,
+      "metricUnit": "meters",
+      "imperialDisplay": "7,726 feet",
+      "explanation": "Addis Ababa sits in the Ethiopian highlands at an average elevation of 2,355 meters, with northern sectors exceeding 3,000 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which futuristic Persian Gulf metropolis is globally renowned for architectural icons including the Burj Khalifa and the Palm Jumeirah?",
+      "options": [
+        "Doha",
+        "Dubai",
+        "Manama"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dubai grew from a small pearl fishing creek into a premier global hub for international aviation, finance, and record-breaking architecture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Middle Eastern capital city spreads across the southern slopes of the snow-capped Alborz mountain range beneath Mount Damavand?",
+      "options": [
+        "Isfahan",
+        "Shiraz",
+        "Tehran"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tehran was chosen as the capital of Persia by Agha Mohammad Khan in 1786 and has grown into a metropolis of nearly ten million people.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Silk Road metropolis in Uzbekistan is world-famous for its majestic turquoise-domed madrasas on the Registan square?",
+      "options": [
+        "Samarkand",
+        "Bukhara",
+        "Tashkent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samarkand served as the imperial capital of the Timurid Empire under conqueror Timur, celebrated for magnificent Islamic architecture.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Saudi Arabian capital city grew from an isolated desert oasis walled town into a vast modern metropolis surrounding the historic Masmak Fortress?",
+      "options": [
+        "Jeddah",
+        "Riyadh",
+        "Mecca"
+      ],
+      "correctIndex": 1,
+      "explanation": "Riyadh is the political and financial capital of Saudi Arabia, home to landmarks such as the Kingdom Centre and Al Faisaliah Tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which hilly Levantine capital city was known in antiquity as Philadelphia and features a well-preserved Roman theatre in its downtown valley?",
+      "options": [
+        "Damascus",
+        "Beirut",
+        "Amman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amman in Jordan was originally built over seven steep limestone hills and now spans over nineteen distinct urban hills.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the United Arab Emirates officially formed, triggering the rapid modern transformation of Abu Dhabi and Dubai?",
+      "target": 1971,
+      "metricUnit": "year",
+      "imperialDisplay": "1971 AD",
+      "explanation": "Six emirates united under the leadership of Sheikh Zayed bin Sultan Al Nahyan on December 2, 1971, with Ras Al Khaimah joining in early 1972.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Asian megacity on the Buriganga River is ranked as the most densely populated national capital city in the world?",
+      "options": [
+        "Dhaka",
+        "Manila",
+        "Cairo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dhaka in Bangladesh packs over twenty-three million residents into its metropolitan territory, exceeding forty thousand people per square kilometer in central wards.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two sovereign national capital cities face each other directly across the width of the Congo River as the closest pair on Earth?",
+      "options": [
+        "Vienna and Bratislava",
+        "Kinshasa and Brazzaville",
+        "Rome and Vatican City"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kinshasa capital of the DRC and Brazzaville capital of the Republic of the Congo sit directly opposite each other on the Congo River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which South American capital city is situated closest to the terrestrial Equator, located just twenty-five kilometers south of zero latitude?",
+      "options": [
+        "Bogotá",
+        "Nairobi",
+        "Quito"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quito is the closest national capital to the Equator, featuring the famous Middle of the World monument at zero latitude.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major European capital was physically split into two distinct ideological sectors by a fortified concrete wall from 1961 to 1989?",
+      "options": [
+        "Berlin",
+        "Vienna",
+        "Prague"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Berlin Wall separated West Berlin from East Berlin during the Cold War until it was peacefully breached on November 9, 1989.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What city on the Beagle Channel in Tierra del Fuego is commonly recognized as the southernmost city on Earth?",
+      "options": [
+        "Punta Arenas",
+        "Ushuaia",
+        "Puerto Williams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ushuaia in Argentina is the southernmost major city with over eighty thousand residents, serving as the main gateway to Antarctica.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate straight-line distance in kilometers separating the twin capital city centers of Kinshasa and Brazzaville across the Congo River?",
+      "target": 4,
+      "metricUnit": "km",
+      "imperialDisplay": "2.5 miles",
+      "explanation": "Kinshasa and Brazzaville sit only about four kilometers apart across the Pool Malebo expanse of the Congo River.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

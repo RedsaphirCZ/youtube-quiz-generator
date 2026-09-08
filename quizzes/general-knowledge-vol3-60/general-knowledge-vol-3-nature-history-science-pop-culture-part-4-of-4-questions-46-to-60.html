@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Knowledge Vol 3: Nature, History, Science &amp; Pop Culture • Part 4/4 — Interactive Quiz</title>
+  <style>
+    :root {
+      --bg-parchment: #f5f2eb;
+      --card-surface: #ffffff;
+      --accent-red: #8b1e1e;
+      --accent-red-hover: #731818;
+      --accent-gold: #c59b27;
+      --accent-gold-light: #fef8e7;
+      --correct-green: #2e7d32;
+      --correct-green-bg: #e8f5e9;
+      --incorrect-red: #c62828;
+      --incorrect-red-bg: #ffebee;
+      --numeric-blue: #185a9d;
+      --numeric-blue-bg: #eef6fc;
+      --text-main: #2b2520;
+      --text-muted: #6b635b;
+      --border-subtle: #e0d8cb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    body {
+      background-color: var(--bg-parchment);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 1.4;
+      padding: 8px 12px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8px;
+      min-height: 0;
+    }
+
+    /* Header Banner */
+    header {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-red);
+      border-radius: 12px;
+      padding: 10px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-title-group h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--accent-red);
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+
+    .theme-badge {
+      display: inline-flex;
+      align-items: center;
+      background: var(--accent-gold-light);
+      border: 1px solid var(--accent-gold);
+      color: #7c5c0a;
+      font-size: 0.78rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    /* Status Bar */
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-subtle);
+      align-items: center;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .stat-value {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .btn-reset {
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-reset:hover {
+      background: #eee8dc;
+      color: var(--accent-red);
+      border-color: var(--accent-red);
+    }
+
+    /* Progress Bar */
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: #e6dfd1;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 12px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-red));
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Middle Section Wrapper */
+    .middle-section {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-y: auto;
+      padding-right: 2px;
+    }
+
+    /* Main Question Card */
+    .question-card {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 16px 20px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .question-badge {
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .badge-mcq {
+      background: var(--accent-gold-light);
+      color: #8c6a0c;
+      border: 1px solid rgba(197, 155, 39, 0.5);
+    }
+
+    .badge-number {
+      background: var(--numeric-blue-bg);
+      color: var(--numeric-blue);
+      border: 1px solid rgba(24, 90, 157, 0.4);
+    }
+
+    .card-counter {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .question-text {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    /* MCQ Option List */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-btn {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      text-align: left;
+      background: #faf8f4;
+      border: 2.5px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 12px 18px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      gap: 14px;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      background: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .option-marker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #e8decb;
+      color: var(--text-main);
+      font-size: 1.05rem;
+      font-weight: 900;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .option-btn.selected-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+    }
+    .option-btn.selected-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn.selected-incorrect {
+      border-color: var(--incorrect-red);
+      background-color: var(--incorrect-red-bg);
+      color: #b71c1c;
+    }
+    .option-btn.selected-incorrect .option-marker {
+      background-color: var(--incorrect-red);
+      color: #fff;
+    }
+
+    .option-btn.reveal-correct {
+      border-color: var(--correct-green);
+      background-color: var(--correct-green-bg);
+      color: #1b5e20;
+      border-style: dashed;
+    }
+    .option-btn.reveal-correct .option-marker {
+      background-color: var(--correct-green);
+      color: #fff;
+    }
+
+    .option-btn:disabled {
+      cursor: default;
+    }
+
+    /* Number Guess Input View */
+    .number-input-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 8px;
+      background: #fff;
+      padding: 4px 12px;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .input-wrapper:focus-within {
+      border-color: var(--numeric-blue);
+      box-shadow: 0 0 0 3px rgba(24, 90, 157, 0.15);
+    }
+
+    .num-input {
+      border: none;
+      outline: none;
+      font-size: 1.15rem;
+      font-weight: 600;
+      width: 100%;
+      color: var(--text-main);
+      padding: 8px 4px;
+    }
+
+    .unit-label {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding-left: 8px;
+    }
+
+    .btn-check {
+      background: var(--numeric-blue);
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-check:hover:not(:disabled) {
+      background: #124479;
+    }
+
+    .btn-check:disabled {
+      opacity: 0.6;
+      cursor: default;
+    }
+
+    /* Numeric Comparison Metrics */
+    .metrics-box {
+      margin-top: 20px;
+      background: var(--numeric-blue-bg);
+      border: 1px solid rgba(24, 90, 157, 0.25);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+    }
+
+    .metric-card {
+      background: #fff;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid rgba(24, 90, 157, 0.15);
+    }
+
+    .metric-title {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .metric-data {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--numeric-blue);
+    }
+
+    .metric-direction-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .dir-exact { background: var(--correct-green-bg); color: var(--correct-green); }
+    .dir-high { background: #fff3e0; color: #e65100; }
+    .dir-low { background: #e1f5fe; color: #0277bd; }
+
+    /* Explanation Box */
+    .explanation-box {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-radius: 8px;
+      background: #faf8f5;
+      border-left: 4px solid var(--accent-gold);
+      font-size: 0.95rem;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    .explanation-box strong {
+      color: var(--accent-red);
+    }
+
+    /* Navigation Controls */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .nav-btn {
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      border-color: var(--accent-red);
+      color: var(--accent-red);
+      background: #faf7f0;
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .nav-btn-primary {
+      background: var(--accent-red);
+      color: #fff;
+      border-color: var(--accent-red);
+    }
+
+    .nav-btn-primary:hover:not(:disabled) {
+      background: var(--accent-red-hover);
+      color: #fff;
+    }
+
+    /* Jump Grid */
+    .jump-section {
+      flex-shrink: 0;
+      background: var(--card-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 8px 12px;
+    }
+
+    .jump-header {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 800;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .jump-legend {
+      display: flex;
+      gap: 8px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 2px;
+    }
+
+    .jump-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+      gap: 4px;
+    }
+
+    .jump-btn {
+      width: 100%;
+      height: 24px;
+      border-radius: 5px;
+      font-size: 0.76rem;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border-subtle);
+      background: #fbf9f4;
+      color: var(--text-muted);
+      transition: all 0.15s;
+    }
+
+    .jump-btn:hover {
+      border-color: var(--accent-gold);
+      transform: scale(1.05);
+    }
+
+    .jump-btn.state-current {
+      outline: 2.5px solid var(--accent-red);
+      outline-offset: 1px;
+      font-weight: 800;
+    }
+
+    .jump-btn.state-correct {
+      background: var(--correct-green);
+      color: #ffffff;
+      border-color: var(--correct-green);
+    }
+
+    .jump-btn.state-incorrect {
+      background: var(--incorrect-red);
+      color: #ffffff;
+      border-color: var(--incorrect-red);
+    }
+
+    .jump-btn.state-number-checked {
+      background: var(--numeric-blue);
+      color: #ffffff;
+      border-color: var(--numeric-blue);
+    }
+
+    /* Summary Screen */
+    .summary-card {
+      display: none;
+      background: var(--card-surface);
+      border: 1px solid var(--border-subtle);
+      border-top: 4px solid var(--accent-gold);
+      border-radius: 12px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .summary-title {
+      font-size: 1.8rem;
+      color: var(--accent-red);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .summary-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 24px;
+    }
+
+    .summary-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      max-width: 600px;
+      margin: 0 auto 32px auto;
+    }
+
+    .summary-stat-box {
+      background: #faf8f4;
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .summary-stat-val {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent-red);
+    }
+
+    .summary-stat-lbl {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .btn-restart {
+      background: var(--accent-red);
+      color: #fff;
+      border: none;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .btn-restart:hover {
+      background: var(--accent-red-hover);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-top">
+        <div class="header-title-group">
+          <h1>General Knowledge Vol 3: Nature, History, Science &amp; Pop Culture • Part 4/4</h1>
+        </div>
+        <span class="theme-badge">Part 4/4</span>
+      </div>
+
+      <div class="status-bar">
+        <div class="stat-item">
+          <span class="stat-label">Question</span>
+          <span class="stat-value" id="disp-curr-q">1 / 15</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">MCQ Score</span>
+          <span class="stat-value" id="disp-mcq-score">0 / 0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Completed</span>
+          <span class="stat-value" id="disp-completed">0 / 15</span>
+        </div>
+        <button class="btn-reset" id="btn-reset-quiz">Reset Quiz</button>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-bar"></div>
+      </div>
+    </header>
+
+    <!-- Middle Section: Only this area adjusts while header and navigator stay locked -->
+    <div class="middle-section">
+      <!-- Interactive Question Card -->
+      <main class="question-card" id="main-question-card">
+        <div class="card-meta">
+          <span class="question-badge badge-mcq" id="card-badge">Multiple Choice</span>
+          <span class="card-counter" id="card-counter">Question 1 of 15</span>
+        </div>
+
+        <h2 class="question-text" id="card-question-text">Loading question...</h2>
+
+        <!-- MCQ View -->
+        <div class="options-grid" id="mcq-options-container">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Number View -->
+        <div class="number-input-form" id="number-input-container" style="display: none;">
+          <div class="input-row">
+            <div class="input-wrapper">
+              <input type="number" id="num-guess-input" class="num-input" placeholder="Enter estimated number" step="any" />
+              <span class="unit-label" id="unit-label"></span>
+            </div>
+            <button class="btn-check" id="btn-check-number">Check Estimate</button>
+          </div>
+
+          <div class="metrics-box" id="num-metrics-box" style="display: none;">
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-title">Target Value</div>
+                <div class="metric-data" id="m-target">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Your Guess</div>
+                <div class="metric-data" id="m-guess">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Off By</div>
+                <div class="metric-data" id="m-diff">-</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-title">Closer Span</div>
+                <div class="metric-data" id="m-span">-</div>
+              </div>
+            </div>
+            <div>
+              <span class="metric-direction-badge" id="m-dir-badge">Direction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Explanation -->
+        <div class="explanation-box" id="explanation-box" style="display: none;">
+          <strong>Fact & Context:</strong> <span id="explanation-text"></span>
+        </div>
+
+        <!-- Navigation Controls inside Card -->
+        <div class="nav-bar" id="nav-controls" style="margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border-subtle);">
+          <button class="nav-btn" id="btn-prev">Previous</button>
+          <button class="nav-btn nav-btn-primary" id="btn-next">Next</button>
+        </div>
+      </main>
+
+      <!-- Summary Screen -->
+      <section class="summary-card" id="summary-card" style="display: none;">
+        <h2 class="summary-title">Quiz Completed!</h2>
+        <p class="summary-subtitle">General Knowledge Vol 3: Nature, History, Science &amp; Pop Culture • Part 4/4 Knowledge Assessment</p>
+
+        <div class="summary-metrics-grid">
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-score">0 / 0</div>
+            <div class="summary-stat-lbl">MCQ Score</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-accuracy">0%</div>
+            <div class="summary-stat-lbl">Accuracy</div>
+          </div>
+          <div class="summary-stat-box">
+            <div class="summary-stat-val" id="sum-completed">0 / 15</div>
+            <div class="summary-stat-lbl">Questions Checked</div>
+          </div>
+        </div>
+
+        <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+      </section>
+    </div>
+
+    <!-- 1-60 Jump Grid (Locked at bottom) -->
+    <section class="jump-section">
+      <div class="jump-header">
+        <span>Question Quick Jump (1–15)</span>
+        <div class="jump-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:#2e7d32"></div> Correct</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#c62828"></div> Incorrect</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#185a9d"></div> Estimate</div>
+        </div>
+      </div>
+      <div class="jump-grid" id="jump-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Summary Screen -->
+    <section class="summary-card" id="summary-card">
+      <h2 class="summary-title">Quiz Completed!</h2>
+      <p class="summary-subtitle">General Knowledge Vol 3: Nature, History, Science &amp; Pop Culture • Part 4/4 Knowledge Assessment</p>
+
+      <div class="summary-metrics-grid">
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-score">0 / 0</div>
+          <div class="summary-stat-lbl">MCQ Score</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-accuracy">0%</div>
+          <div class="summary-stat-lbl">Accuracy</div>
+        </div>
+        <div class="summary-stat-box">
+          <div class="summary-stat-val" id="sum-completed">0 / 15</div>
+          <div class="summary-stat-lbl">Questions Checked</div>
+        </div>
+      </div>
+
+      <button class="btn-restart" id="btn-restart-quiz">Restart Quiz</button>
+    </section>
+  </div>
+
+  <script>
+    const questions = [
+  {
+    "type": "mcq",
+    "question": "Which 19th-century fairy-tale Romanesque Revival castle in the Bavarian Alps was commissioned by King Ludwig II of Bavaria?",
+    "options": [
+      "Hohenzollern Castle",
+      "Wartburg Castle",
+      "Neuschwanstein Castle"
+    ],
+    "correctIndex": 2,
+    "explanation": "King Ludwig II constructed Neuschwanstein as a personal romantic retreat dedicated to the operas of Richard Wagner."
+  },
+  {
+    "type": "mcq",
+    "question": "Which ancient rock-cut Nabataean capital in Jordan features the famous Al-Khazneh temple facade carved into red sandstone cliffs?",
+    "options": [
+      "Petra",
+      "Palmyra",
+      "Baalbek"
+    ],
+    "correctIndex": 0,
+    "explanation": "Petra was established in the 4th century BCE as the capital of the Nabataean Kingdom, carved directly into canyon rock."
+  },
+  {
+    "type": "number",
+    "question": "In what year was the Empire State Building in New York City officially completed and opened after just 410 days of construction?",
+    "target": 1931,
+    "metricUnit": "CE",
+    "imperialDisplay": "May 1931",
+    "explanation": "The 102-story Empire State Building opened on 1 May 1931 and remained the world tallest building for nearly 40 years."
+  },
+  {
+    "type": "mcq",
+    "question": "Which African American track star shattered racial dogmas by winning four gold medals at the 1936 Berlin Olympic Games?",
+    "options": [
+      "Carl Lewis",
+      "Jesse Owens",
+      "Bob Beamon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jesse Owens triumphed in the 100m, 200m, long jump, and 4x100m relay in front of Adolf Hitler at the 1936 Berlin Games."
+  },
+  {
+    "type": "mcq",
+    "question": "Which British middle-distance runner became the first human in history to run a sub-four-minute mile in May 1954?",
+    "options": [
+      "Sebastian Coe",
+      "Steve Ovett",
+      "Roger Bannister"
+    ],
+    "correctIndex": 2,
+    "explanation": "Roger Bannister ran the mile in 3 minutes 59.4 seconds on the Iffley Road track in Oxford on 6 May 1954."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 17-year-old Brazilian soccer prodigy scored two goals in the 1958 World Cup final, becoming the youngest player to win the tournament?",
+    "options": [
+      "Pele",
+      "Garrincha",
+      "Vava"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pele scored six goals during the 1958 tournament in Sweden, launching his career as football greatest global ambassador."
+  },
+  {
+    "type": "mcq",
+    "question": "Which 14-year-old Romanian gymnast made Olympic history by scoring the first perfect 10.0 in gymnastics at the 1976 Montreal Games?",
+    "options": [
+      "Olga Korbut",
+      "Nadia Comaneci",
+      "Svetlana Khorkina"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nadia Comaneci earned seven perfect scores of 10.0 in Montreal, causing the digital scoreboards to display 1.00 as they lacked four digits."
+  },
+  {
+    "type": "mcq",
+    "question": "Which American swimmer holds the all-time record for the most Olympic medals won by an athlete in history?",
+    "options": [
+      "Mark Spitz",
+      "Caeleb Dressel",
+      "Michael Phelps"
+    ],
+    "correctIndex": 2,
+    "explanation": "Michael Phelps accumulated 28 total Olympic medals across five Olympic Games, including 23 gold medals."
+  },
+  {
+    "type": "number",
+    "question": "What is the total count of career Olympic medals won by American swimmer Michael Phelps?",
+    "target": 28,
+    "metricUnit": "medals",
+    "imperialDisplay": "28 medals (23 Gold, 3 Silver, 2 Bronze)",
+    "explanation": "Michael Phelps stands as the most decorated Olympian in history with 28 Olympic medals won between 2004 and 2016."
+  },
+  {
+    "type": "mcq",
+    "question": "In which layer of Earth atmosphere is the protective ozone layer located, absorbing harmful ultraviolet solar radiation?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ozone layer is concentrated in the lower stratosphere between roughly 15 and 35 kilometers above Earth surface."
+  },
+  {
+    "type": "mcq",
+    "question": "Which hyper-arid plateau in northern Chile is scientifically recognized as the driest non-polar desert on Earth?",
+    "options": [
+      "Kalahari Desert",
+      "Atacama Desert",
+      "Mojave Desert"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Atacama Desert is shielded by the Andes and the Chilean Coastal Range, creating centuries of rain shadow hyper-aridity."
+  },
+  {
+    "type": "mcq",
+    "question": "What is the lowest dry-land elevation on Earth surface, located along the shoreline of a hypersaline lake in the Jordan Rift Valley?",
+    "options": [
+      "Lake Eyre Basin",
+      "Qattara Depression",
+      "Dead Sea Shore"
+    ],
+    "correctIndex": 2,
+    "explanation": "The water surface and shoreline of the Dead Sea sit at approximately 430 meters below global mean sea level."
+  },
+  {
+    "type": "mcq",
+    "question": "Which mountain peak in the Himalayas forms the highest point on Earth above sea level, surveyed at 8,848.86 meters?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0,
+    "explanation": "Known in Nepal as Sagarmatha and in Tibet as Chomolungma, Mount Everest rises on the international border of Nepal and China."
+  },
+  {
+    "type": "mcq",
+    "question": "What Siberian lake holds the records as both the deepest and the oldest freshwater lake on planet Earth?",
+    "options": [
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Superior"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lake Baikal plunges to 1,642 meters and is estimated to be 25 to 30 million years old, housing thousands of endemic species."
+  },
+  {
+    "type": "number",
+    "question": "What is the approximate elevation in meters of the Dead Sea shoreline below mean sea level?",
+    "target": 430,
+    "metricUnit": "meters below sea level",
+    "imperialDisplay": "approx 1,410 feet below sea level",
+    "explanation": "The Dead Sea shoreline sits at roughly 430 meters (1,410 feet) below sea level, representing the lowest land elevation on Earth."
+  }
+];
+    const totalCount = questions.length;
+    let currentIndex = 0;
+    const userAnswers = {};
+
+    // DOM Elements
+    const dispCurrQ = document.getElementById('disp-curr-q');
+    const dispScore = document.getElementById('disp-mcq-score');
+    const dispCompleted = document.getElementById('disp-completed');
+    const progressBar = document.getElementById('progress-bar');
+    const jumpGrid = document.getElementById('jump-grid');
+    const cardBadge = document.getElementById('card-badge');
+    const cardCounter = document.getElementById('card-counter');
+    const cardQuestionText = document.getElementById('card-question-text');
+    const mcqContainer = document.getElementById('mcq-options-container');
+    const numContainer = document.getElementById('number-input-container');
+    const numInput = document.getElementById('num-guess-input');
+    const unitLabel = document.getElementById('unit-label');
+    const btnCheckNum = document.getElementById('btn-check-number');
+    const numMetricsBox = document.getElementById('num-metrics-box');
+    const mTarget = document.getElementById('m-target');
+    const mGuess = document.getElementById('m-guess');
+    const mDiff = document.getElementById('m-diff');
+    const mSpan = document.getElementById('m-span');
+    const mDirBadge = document.getElementById('m-dir-badge');
+    const explanationBox = document.getElementById('explanation-box');
+    const explanationText = document.getElementById('explanation-text');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const mainQuestionCard = document.getElementById('main-question-card');
+    const summaryCard = document.getElementById('summary-card');
+    const navControls = document.getElementById('nav-controls');
+    const btnReset = document.getElementById('btn-reset-quiz');
+    const btnRestart = document.getElementById('btn-restart-quiz');
+
+    function init() {
+      createJumpGrid();
+      renderQuestion(0);
+      updateStatusBar();
+      setupEventListeners();
+    }
+
+    function createJumpGrid() {
+      jumpGrid.innerHTML = '';
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'jump-btn';
+        btn.textContent = (i + 1);
+        btn.id = 'jump-btn-' + i;
+        btn.addEventListener('click', () => {
+          showQuestionView();
+          renderQuestion(i);
+        });
+        jumpGrid.appendChild(btn);
+      }
+    }
+
+    function renderQuestion(index) {
+      currentIndex = index;
+      const q = questions[index];
+      const ans = userAnswers[index];
+
+      // Update counters
+      dispCurrQ.textContent = (index + 1) + ' / ' + totalCount;
+      cardCounter.textContent = 'Question ' + (index + 1) + ' of ' + totalCount;
+      cardQuestionText.textContent = q.question;
+
+      // Update Nav Buttons
+      btnPrev.disabled = index === 0;
+      if (index === totalCount - 1) {
+        btnNext.textContent = 'Finish & Summary';
+      } else {
+        btnNext.textContent = 'Next';
+      }
+
+      // Reset dynamic containers
+      explanationBox.style.display = 'none';
+      explanationText.textContent = '';
+
+      if (q.type === 'mcq') {
+        cardBadge.className = 'question-badge badge-mcq';
+        cardBadge.textContent = 'Multiple Choice';
+        mcqContainer.style.display = 'flex';
+        numContainer.style.display = 'none';
+        renderMCQOptions(q, ans);
+      } else {
+        cardBadge.className = 'question-badge badge-number';
+        cardBadge.textContent = 'Guess the Number';
+        mcqContainer.style.display = 'none';
+        numContainer.style.display = 'flex';
+        renderNumberQuestion(q, ans);
+      }
+
+      updateJumpGridStyles();
+      updateStatusBar();
+    }
+
+    function renderMCQOptions(q, ans) {
+      mcqContainer.innerHTML = '';
+      const letters = ['A', 'B', 'C'];
+
+      q.options.forEach((optText, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.id = 'opt-btn-' + optIdx;
+
+        const marker = document.createElement('span');
+        marker.className = 'option-marker';
+        marker.textContent = letters[optIdx];
+
+        const textSpan = document.createElement('span');
+        textSpan.textContent = optText;
+
+        btn.appendChild(marker);
+        btn.appendChild(textSpan);
+
+        if (ans !== undefined) {
+          btn.disabled = true;
+          if (optIdx === q.correctIndex) {
+            btn.classList.add('selected-correct');
+          } else if (optIdx === ans.selectedOption) {
+            btn.classList.add('selected-incorrect');
+          }
+        } else {
+          btn.addEventListener('click', () => handleMCQAnswer(optIdx));
+        }
+
+        mcqContainer.appendChild(btn);
+      });
+
+      if (ans !== undefined) {
+        showExplanation(q.explanation);
+      }
+    }
+
+    function handleMCQAnswer(selectedIdx) {
+      const q = questions[currentIndex];
+      const isCorrect = selectedIdx === q.correctIndex;
+      userAnswers[currentIndex] = {
+        selectedOption: selectedIdx,
+        isCorrect: isCorrect,
+        isChecked: true
+      };
+
+      renderMCQOptions(q, userAnswers[currentIndex]);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function renderNumberQuestion(q, ans) {
+      unitLabel.textContent = q.metricUnit || '';
+      numInput.value = '';
+      numMetricsBox.style.display = 'none';
+
+      if (ans !== undefined) {
+        numInput.value = ans.guess;
+        numInput.disabled = true;
+        btnCheckNum.disabled = true;
+        displayNumberMetrics(q, ans.guess);
+        showExplanation(q.explanation);
+      } else {
+        numInput.disabled = false;
+        btnCheckNum.disabled = false;
+      }
+    }
+
+    function handleNumberCheck() {
+      const val = parseFloat(numInput.value);
+      if (isNaN(val)) return;
+
+      const q = questions[currentIndex];
+      userAnswers[currentIndex] = {
+        guess: val,
+        isChecked: true
+      };
+
+      numInput.disabled = true;
+      btnCheckNum.disabled = true;
+      displayNumberMetrics(q, val);
+      showExplanation(q.explanation);
+      updateStatusBar();
+      updateJumpGridStyles();
+    }
+
+    function displayNumberMetrics(q, guess) {
+      const target = q.target;
+      const diff = Math.abs(guess - target);
+      const spanLow = target - diff;
+      const spanHigh = target + diff;
+      const unit = q.metricUnit ? ' ' + q.metricUnit : '';
+      const imp = q.imperialDisplay ? ' [' + q.imperialDisplay + ']' : '';
+
+      mTarget.textContent = target + unit + imp;
+      mGuess.textContent = guess + unit;
+      mDiff.textContent = diff.toLocaleString() + unit;
+      mSpan.textContent = '[' + spanLow.toLocaleString() + ' to ' + spanHigh.toLocaleString() + ']';
+
+      mDirBadge.className = 'metric-direction-badge';
+      if (guess === target) {
+        mDirBadge.classList.add('dir-exact');
+        mDirBadge.textContent = 'Exact Match!';
+      } else if (guess > target) {
+        mDirBadge.classList.add('dir-high');
+        mDirBadge.textContent = 'Higher than target';
+      } else {
+        mDirBadge.classList.add('dir-low');
+        mDirBadge.textContent = 'Lower than target';
+      }
+
+      numMetricsBox.style.display = 'flex';
+    }
+
+    function showExplanation(text) {
+      if (!text) return;
+      explanationText.textContent = text;
+      explanationBox.style.display = 'block';
+    }
+
+    function updateStatusBar() {
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      dispScore.textContent = mcqCorrect + ' / ' + mcqAnswered;
+      dispCompleted.textContent = completedCount + ' / ' + totalCount;
+      const pct = (completedCount / totalCount) * 100;
+      progressBar.style.width = pct + '%';
+    }
+
+    function updateJumpGridStyles() {
+      for (let i = 0; i < totalCount; i++) {
+        const btn = document.getElementById('jump-btn-' + i);
+        if (!btn) continue;
+
+        btn.className = 'jump-btn';
+        if (i === currentIndex) {
+          btn.classList.add('state-current');
+        }
+
+        const ans = userAnswers[i];
+        if (ans && ans.isChecked) {
+          if (questions[i].type === 'mcq') {
+            if (ans.isCorrect) {
+              btn.classList.add('state-correct');
+            } else {
+              btn.classList.add('state-incorrect');
+            }
+          } else {
+            btn.classList.add('state-number-checked');
+          }
+        }
+      }
+    }
+
+    function showSummary() {
+      mainQuestionCard.style.display = 'none';
+      navControls.style.display = 'none';
+      summaryCard.style.display = 'block';
+
+      let mcqAnswered = 0;
+      let mcqCorrect = 0;
+      let completedCount = 0;
+
+      for (let i = 0; i < totalCount; i++) {
+        const a = userAnswers[i];
+        if (a && a.isChecked) {
+          completedCount++;
+          if (questions[i].type === 'mcq') {
+            mcqAnswered++;
+            if (a.isCorrect) mcqCorrect++;
+          }
+        }
+      }
+
+      document.getElementById('sum-score').textContent = mcqCorrect + ' / ' + mcqAnswered;
+      const acc = mcqAnswered > 0 ? Math.round((mcqCorrect / mcqAnswered) * 100) : 0;
+      document.getElementById('sum-accuracy').textContent = acc + '%';
+      document.getElementById('sum-completed').textContent = completedCount + ' / ' + totalCount;
+    }
+
+    function showQuestionView() {
+      mainQuestionCard.style.display = 'block';
+      navControls.style.display = 'flex';
+      summaryCard.style.display = 'none';
+    }
+
+    function setupEventListeners() {
+      btnPrev.addEventListener('click', () => {
+        if (currentIndex > 0) renderQuestion(currentIndex - 1);
+      });
+
+      btnNext.addEventListener('click', () => {
+        if (currentIndex === totalCount - 1) {
+          showSummary();
+        } else {
+          renderQuestion(currentIndex + 1);
+        }
+      });
+
+      btnCheckNum.addEventListener('click', handleNumberCheck);
+      numInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') handleNumberCheck();
+      });
+
+      btnReset.addEventListener('click', () => {
+        if (confirm('Are you sure you want to reset all answers and return to Question 1?')) {
+          for (let k in userAnswers) delete userAnswers[k];
+          showQuestionView();
+          renderQuestion(0);
+        }
+      });
+
+      btnRestart.addEventListener('click', () => {
+        for (let k in userAnswers) delete userAnswers[k];
+        showQuestionView();
+        renderQuestion(0);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

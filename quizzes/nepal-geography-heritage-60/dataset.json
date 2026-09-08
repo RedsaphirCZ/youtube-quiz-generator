@@ -1,0 +1,703 @@
+{
+  "id": "nepal-geography-heritage-60",
+  "theme": "Nepal: Geography, Mount Everest & Himalayan Sanctuaries",
+  "title": "Nepal: Geography, Mount Everest & Himalayan Sanctuaries",
+  "description": "A 60-question grand master assessment exploring Mount Everest (8,849 m), 8 eight-thousanders, Kathmandu Valley Durbar Squares (7 zones), Swayambhunath & Boudhanath (5th c.), Pokhara, Chitwan rhinos, Lumbini & Buddha (623 BCE), Sherpa culture, Gurkhas, and the unique 2-triangle flag.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak on planet Earth, rising 8,848.86 meters above sea level on the international border between Nepal and China (Tibet)?",
+      "options": [
+        "Mount Everest Sagarmatha Chomolungma",
+        "K2",
+        "Kangchenjunga"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known in Nepali as Sagarmatha (Forehead of the Sky) and in Tibetan as Chomolungma (Goddess Mother of the World), Everest is protected inside Sagarmatha National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On what historic date did Sir Edmund Hillary of New Zealand and Tenzing Norgay Sherpa of Nepal become the first humans verified to reach the summit of Mount Everest?",
+      "options": [
+        "June 8, 1924",
+        "May 29, 1953",
+        "October 14, 1978"
+      ],
+      "correctIndex": 1,
+      "explanation": "Climbing via the South Col route under John Hunt British expedition, the news reached London on the morning of Queen Elizabeth II coronation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dangerous high-altitude physiological zone above 8,000 meters on Mount Everest contains only one-third of the atmospheric oxygen found at sea level?",
+      "options": [
+        "The Twilight Zone",
+        "The Abyssal Zone",
+        "The Death Zone"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Death Zone, human bodies cannot acclimatize and consume oxygen faster than it can be replenished, requiring bottled supplementary oxygen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What terrifying labyrinth of constantly shifting giant glacial ice towers (seracs) and crevasses lies immediately above Everest Base Camp on the Khumbu Glacier?",
+      "options": [
+        "The Khumbu Icefall",
+        "The Western Cwm",
+        "The Lhotse Face"
+      ],
+      "correctIndex": 0,
+      "explanation": "Icefall Doctors (elite Sherpa mountaineers) set ladders and fixed safety ropes across gaping crevasses every spring climbing season.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 12-meter near-vertical rock face on the Southeast Ridge of Everest, situated at 8,790 meters just below the summit, was named after its first conqueror?",
+      "options": [
+        "The Geneva Spur",
+        "The Hillary Step",
+        "The Yellow Band"
+      ],
+      "correctIndex": 1,
+      "explanation": "Altered by the 2015 Nepal earthquake, the Hillary Step was historically the most formidable technical rock-climbing obstacle on the final summit push.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official surveyed summit elevation in meters above sea level of Mount Everest (Sagarmatha)?",
+      "target": 8849,
+      "metricUnit": "meters",
+      "imperialDisplay": "29,031.7 feet (8,848.86 m)",
+      "explanation": "In December 2020, Nepal and China jointly announced the official new height of Mount Everest as 8,848.86 meters (rounded to 8,849 m).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many of the world fourteen mountain peaks exceeding 8,000 meters in elevation (the Eight-Thousanders) are located entirely or partially within Nepal?",
+      "options": [
+        "5 Peaks",
+        "10 Peaks",
+        "8 of the 14 Peaks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nepal contains Everest, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, and Annapurna I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which lethal 8,091-meter Himalayan peak in north-central Nepal became the very first 8,000-meter mountain ever climbed by humans in June 1950 by Maurice Herzog and Louis Lachenal?",
+      "options": [
+        "Annapurna I",
+        "Dhaulagiri",
+        "Manaslu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Annapurna I is statistically one of the most hazardous 8,000-meter peaks on Earth due to frequent massive avalanches on its sheer South Face.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic double-peaked sacred mountain in the Annapurna range, rising 6,993 meters above Pokhara, is named Fishtail Mountain and strictly banned from climbing?",
+      "options": [
+        "Ama Dablam",
+        "Machapuchare",
+        "Hiunchuli"
+      ],
+      "correctIndex": 1,
+      "explanation": "Revered by locals as the sacred abode of the Hindu god Shiva, Machapuchare has remained pristine and unclimbed to its true summit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal river canyon between the 8,000-meter massifs of Dhaulagiri and Annapurna is recognized as the deepest river gorge in the world?",
+      "options": [
+        "Yarlung Tsangpo Grand Canyon",
+        "Indus Gorge",
+        "Kali Gandaki Gorge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carved by the Kali Gandaki River, the elevation difference between the riverbed and the summit of Dhaulagiri (8,167 m) spans an astonishing 5,500 vertical meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What elegant 6,812-meter pyramid-shaped mountain in the Khumbu region, meaning 'Mother Necklace', is celebrated as the Matterhorn of the Himalayas?",
+      "options": [
+        "Ama Dablam",
+        "Pumori",
+        "Nuptse"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hanging glacier (dablam) resembles the traditional double-pendant necklace worn by Sherpa women, featuring soaring granite ridges.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many of the world fourteen iconic 8,000-meter mountain peaks (the Eight-Thousanders) are situated in Nepal?",
+      "target": 8,
+      "metricUnit": "eight-thousander peaks",
+      "imperialDisplay": "8 of the 14 global 8,000ers",
+      "explanation": "Nepal is home to eight of the fourteen 8,000-meter peaks on Earth, earning its title as the Mountain Kingdom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many distinct UNESCO World Heritage monument zones, spanning royal palaces, temples, and stupas, are collectively protected across the historic Kathmandu Valley?",
+      "options": [
+        "3 Monument Zones",
+        "7 Monument Zones",
+        "10 Monument Zones"
+      ],
+      "correctIndex": 1,
+      "explanation": "The inscription encompasses the three Durbar Squares (Kathmandu, Patan, Bhaktapur), two Buddhist stupas (Swayambhunath, Boudhanath), and two Hindu temples (Pashupatinath, Changu Narayan).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What royal palace complex on Kathmandu Durbar Square is the historic seat of Malla and Shah kings, guarded by a stone statue of the monkey god Hanuman?",
+      "options": [
+        "Narayanhiti Palace",
+        "Singha Durbar",
+        "Hanuman Dhoka"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hanuman Dhoka features the nine-story Basantapur Tower, the Taleju Temple, and courtyards (chowks) adorned with intricate Newar woodcarvings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique religious tradition in Kathmandu involves selecting a young prepubescent girl from the Newar Shakya clan to live as the Living Goddess until puberty?",
+      "options": [
+        "The Royal Kumari",
+        "The Devi",
+        "The Yogini"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venerated as the earthly incarnation of goddess Taleju (Durga), the Kumari resides inside the intricately carved wooden Kumari Ghar palace in Kathmandu Durbar Square.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient city in the Kathmandu Valley, known as the City of Devotees, features the 30-meter five-story Nyatapola Temple, the tallest pagoda temple in Nepal?",
+      "options": [
+        "Patan",
+        "Bhaktapur",
+        "Kirtipur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bhaktapur is famous for the 55-Window Palace, Pottery Square, and traditional King Curd (Juju Dhau) sweet yogurt served in clay pots.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city in the Kathmandu Valley, known as the City of Fine Arts (Lalitpur), is celebrated for master bronze casters, stone carvers, and the Krishna Mandir stone temple?",
+      "options": [
+        "Bhaktapur",
+        "Nagarkot",
+        "Patan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Patan Durbar Square is considered the finest display of Newar classical architecture, featuring the Patan Museum housed in a restored royal palace.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many distinct architectural monument zones comprise the UNESCO World Heritage designation of the Kathmandu Valley in Nepal?",
+      "target": 7,
+      "metricUnit": "monument zones",
+      "imperialDisplay": "7 UNESCO monument zones",
+      "explanation": "The Kathmandu Valley UNESCO designation protects seven distinct monument zones across Kathmandu, Patan, and Bhaktapur.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient hilltop Buddhist stupa complex overlooking Kathmandu, nicknamed the Monkey Temple for hundreds of sacred rhesus macaques, features the all-seeing eyes of Buddha?",
+      "options": [
+        "Swayambhunath",
+        "Boudhanath",
+        "Namobuddha"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to legend, the stupa arose spontaneously from a sacred lotus flower when the mythical hero Manjushri drained the lake that once filled the Kathmandu Valley.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 36-meter spherical Buddhist stupa in eastern Kathmandu is the largest stupa in Nepal and the focal heart of Tibetan Buddhism in exile?",
+      "options": [
+        "Swayambhunath",
+        "Boudhanath Stupa",
+        "Charumati Stupa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surrounded by over fifty Tibetan monasteries (gompas), thousands of pilgrims walk clockwise (kora) around the giant mandala base while spinning prayer wheels.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred Hindu temple complex on the banks of the holy Bagmati River in Kathmandu is dedicated to Lord Shiva as Pashupati (Lord of Animals)?",
+      "options": [
+        "Muktinath Temple",
+        "Janaki Mandir",
+        "Pashupatinath Temple"
+      ],
+      "correctIndex": 2,
+      "explanation": "A major pilgrimage site during Maha Shivaratri, open-air cremation pyres operate twenty-four hours a day along the sacred river ghats.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest verified Hindu temple complex in the Kathmandu Valley, dating back to the 5th-century Licchavi Dynasty on a high forested ridge?",
+      "options": [
+        "Changu Narayan Temple",
+        "Pashupatinath",
+        "Dakshinkali"
+      ],
+      "correctIndex": 0,
+      "explanation": "Changu Narayan houses a stone pillar inscription erected by King Manadeva in 464 CE, the oldest historical written record in Nepal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous holy pilgrimage shrine at 3,710 meters in Mustang is sacred to both Hindus and Buddhists, featuring 108 sacred water spouts and eternal natural gas flames?",
+      "options": [
+        "Gosainkunda",
+        "Muktinath Temple",
+        "Damodar Kunda"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hindus bathe under the 108 stone bull-head water spouts for liberation (moksha), while Buddhists revere it as a place where Guru Rinpoche (Padmasambhava) meditated.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In which century CE was the landmark stone inscription of King Manadeva erected at Changu Narayan Temple, the oldest written historical record in Nepal?",
+      "target": 5,
+      "metricUnit": "century CE",
+      "imperialDisplay": "5th Century AD (464 CE)",
+      "explanation": "King Manadeva inscribed the historic stone pillar at Changu Narayan in 464 CE (5th century).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scenic lakeside city at 822 meters elevation, situated beneath the Annapurna range on Phewa Lake, is celebrated as the Tourism and Adventure Capital of Nepal?",
+      "options": [
+        "Kathmandu",
+        "Biratnagar",
+        "Pokhara"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pokhara is the primary gateway for treks into the Annapurna region, world-renowned for paragliding over Phewa Lake from the Sarangkot hill ridge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic two-story Hindu pagoda temple sits on a small island in the middle of Phewa Lake in Pokhara, dedicated to the boar manifestation of goddess Durga?",
+      "options": [
+        "Tal Barahi Temple",
+        "Bindhyabasini Temple",
+        "Bhadrakali Temple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Devotees travel by wooden rowboats (doonga) to the island temple, which offers reflections of the Annapurna mountain peaks in the water.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 115-meter white Buddhist stupa perches on Anadu Hill overlooking Lake Phewa and Pokhara, built by Japanese monks of Nipponzan-Myōhōji in 1999?",
+      "options": [
+        "Boudhanath",
+        "World Peace Pagoda",
+        "Lumbini Stupa"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Shanti Stupa is designed to inspire world peace, featuring four golden statues of the Buddha depicting his birth, enlightenment, first sermon, and parinirvana.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mysterious subterranean waterfall in Pokhara plunges fifty meters into an underground sinkhole, named after a Swiss tourist swept away in 1961?",
+      "options": [
+        "Seti River Gorge",
+        "Rupse Falls",
+        "Davis Falls"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known in Nepali as Patale Chhango (Underworld Waterfall), the waters tunnel underground for 500 meters before emerging near Gupteshwor Mahadev Cave.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 5,416-meter high mountain pass is the highest point and climax of the world-famous Annapurna Circuit trekking route?",
+      "options": [
+        "Thorong La Pass",
+        "Cho La Pass",
+        "Renjo La Pass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trekkers cross Thorong La connecting the arid Tibetan-like plateau of Manang with the sacred pilgrimage valley of Muktinath in Mustang.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the monumental World Peace Pagoda (Shanti Stupa) completed on the ridge overlooking Lake Phewa in Pokhara, Nepal?",
+      "target": 1999,
+      "metricUnit": "year",
+      "imperialDisplay": "1999 AD",
+      "explanation": "The Pokhara Shanti Stupa was formally inaugurated on October 30, 1999.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the very first national park established in Nepal in 1973, covering 952 square kilometers of subtropical sal forests and tall elephant grasslands in the southern Terai?",
+      "options": [
+        "Bardia National Park",
+        "Chitwan National Park",
+        "Shuklaphanta National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "A UNESCO World Heritage site, Chitwan was transformed from a royal hunting reserve into one of Asia most successful conservation sanctuaries for endangered megafauna.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic, armored-looking endangered mammal species was brought back from near extinction in Chitwan National Park, with national wild populations now exceeding 750 individuals?",
+      "options": [
+        "Javan Rhinoceros",
+        "Sumatran Rhinoceros",
+        "Greater One-Horned Rhinoceros"
+      ],
+      "correctIndex": 2,
+      "explanation": "Through zero-poaching military patrols and community anti-poaching units, Nepal has achieved consecutive years of zero rhino poaching.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered fish-eating crocodilian species, characterized by an extremely long and narrow snout tipped with a bulbous growth (ghara), is bred in Chitwan?",
+      "options": [
+        "Gharial Gavialis gangeticus",
+        "Mugger Crocodile",
+        "Saltwater Crocodile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chitwan Gharial Breeding Centre raises hatchlings to release into the Rapti and Narayani rivers to rebuild wild riverine populations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What largest national park in the western Terai of Nepal covers 968 square kilometers of wilderness, famous for high densities of wild Bengal Tigers and wild Asian elephants?",
+      "options": [
+        "Banke National Park",
+        "Bardia National Park",
+        "Parsa National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bounded by the Karnali River (Nepal longest river), Bardia is home to the Gangetic river dolphin and swamp deer (barasingha).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What indigenous ethnolinguistic group of the Terai lowlands developed natural genetic resistance to malaria and is renowned for clay-relief wall art and stick dances?",
+      "options": [
+        "The Newar",
+        "The Magar",
+        "The Tharu People"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tharu villages feature mud and thatch houses adorned with reliefs of peacocks and elephants, historically living in harmony with the wild Terai jungles.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many facial horns does the native Greater One-Horned Rhinoceros (Rhinoceros unicornis) of Chitwan National Park possess?",
+      "target": 1,
+      "metricUnit": "horn",
+      "imperialDisplay": "1 single horn",
+      "explanation": "Unlike African rhinos with two horns, the Greater One-horned Rhinoceros has a single keratin horn measuring twenty to sixty centimeters long.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred UNESCO World Heritage pilgrimage site in Rupandehi District in southern Nepal is celebrated as the historical birthplace of Siddhartha Gautama (Lord Buddha) in 623 BCE?",
+      "options": [
+        "Lumbini",
+        "Bodh Gaya",
+        "Sarnath"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visited by millions of Buddhist pilgrims from across the globe, Lumbini features the sacred Maya Devi Temple and an International Monastic Zone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient stone pillar, erected in 249 BCE by Mauryan Emperor Ashoka the Great with a Brahmi script inscription, confirmed the exact location of the Buddha birthplace?",
+      "options": [
+        "The Heliodorus Pillar",
+        "The Ashoka Pillar of Lumbini",
+        "The Iron Pillar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The inscription reads: 'King Piyadasi, beloved of the gods, came here in person and worshipped, because here the Buddha, the sage of the Shakyas, was born.'",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred rectangular water pond next to the Maya Devi Temple in Lumbini is where Queen Maya Devi is believed to have bathed before giving birth to infant Prince Siddhartha?",
+      "options": [
+        "Manasarovar",
+        "Gosainkunda",
+        "Pushkarini Holy Pond"
+      ],
+      "correctIndex": 2,
+      "explanation": "According to Buddhist scriptures, two celestial streams of warm and cold water poured from the heavens to bathe the newborn prince and his mother.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Under what sacred tree in Lumbini garden did Queen Maya Devi grasp a branch while giving birth to Prince Siddhartha Gautama?",
+      "options": [
+        "The Bodhi Tree Sal Tree",
+        "Banyan Tree",
+        "Peepal Tree"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immediately after birth, legend holds that the infant took seven steps in each cardinal direction, with lotus flowers blooming beneath his feet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which renowned Japanese modernist architect created the master plan for the Lumbini Sacred Garden and International Monastic Zone in 1978?",
+      "options": [
+        "Tadao Ando",
+        "Kenzō Tange",
+        "Kengo Kuma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tange designed a three-square-mile master plan centered on a central water canal, dividing East Monastic Zone (Theravada) from West Monastic Zone (Mahayana/Vajrayana).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year BCE is the historical Buddha Siddhartha Gautama traditionally recorded to have been born in Lumbini, Nepal?",
+      "target": 623,
+      "metricUnit": "BCE",
+      "imperialDisplay": "623 BC (over 2,600 years ago)",
+      "explanation": "According to Buddhist tradition, Siddhartha Gautama was born in the garden of Lumbini in the year 623 BCE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What indigenous ethnic group of the high Himalayas in eastern Nepal, of Tibetan origin, is internationally renowned for extraordinary mountaineering endurance and guiding skills?",
+      "options": [
+        "The Gurung",
+        "The Tamang",
+        "The Sherpa People"
+      ],
+      "correctIndex": 2,
+      "explanation": "Centuries of living above 3,000 meters led Sherpas to evolve unique physiological genetic adaptations that burn oxygen more efficiently at extreme altitudes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What long-haired domesticated bovine species is essential to high-altitude Himalayan transport, milk, wool, and fuel above 3,000 meters elevation in Nepal?",
+      "options": [
+        "The Himalayan Yak",
+        "The Water Buffalo",
+        "The Zebu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Female yaks (naks) produce rich milk for making yak butter tea (po cha) and hardened sun-dried chhurpi cheese, the hardest cheese in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Tibetan Buddhist monastery at 3,867 meters in the Khumbu region, set against the backdrop of Ama Dablam, is the spiritual center of the Sherpa people?",
+      "options": [
+        "Kyangjuma Monastery",
+        "Tengboche Monastery",
+        "Pangboche Monastery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Climbers and Sherpas routinely visit Tengboche to receive blessings from the Rinpoche lama for safe passage before ascending Mount Everest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Nepali mountaineer set a Guinness World Record by climbing Mount Everest an unprecedented twenty-eight times as of 2023?",
+      "options": [
+        "Apa Sherpa",
+        "Phurba Tashi Sherpa",
+        "Kami Rita Sherpa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as the Everest Man, Kami Rita has guided international expeditions on Everest since 1994, alongside summits of K2, Cho Oyu, and Lhotse.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nepali mountaineer and former Gurkha soldier climbed all fourteen of the world 8,000-meter peaks in a record-breaking six months and six days in 2019 (Project Possible)?",
+      "options": [
+        "Nirmal Nims Purja",
+        "Kami Rita Sherpa",
+        "Mingma Gyabu Sherpa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chronicled in the documentary 14 Peaks: Nothing Is Impossible, Purja smashed the previous world record of seven years, eleven months, and fourteen days.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the elevation in meters above sea level of the historic Tengboche Monastery in the Everest Khumbu region?",
+      "target": 3867,
+      "metricUnit": "meters",
+      "imperialDisplay": "12,687 feet",
+      "explanation": "Tengboche Monastery sits at an official elevation of 3,867 meters above sea level overlooking the Imja Khola river.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-renowned elite soldiers from Nepal have served with distinction in the British and Indian armies for over two centuries, carrying the motto 'Better to die than be a coward'?",
+      "options": [
+        "The Rajputs",
+        "The Gurkhas",
+        "The Sikhs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recruited from hill tribes like the Magar, Gurung, Rai, and Limbu, Gurkha soldiers have earned twenty-six Victoria Cross medals for extreme valor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic, heavy forward-curved steel combat knife with a notch (cho) near the handle is the traditional utility tool and combat weapon of the Gurkhas?",
+      "options": [
+        "The Kris",
+        "The Jambiya",
+        "The Khukuri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carried in a leather sheath with two small companion knives (karda for skinning and chakmak for sharpening and striking sparks), the khukuri is the national knife of Nepal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and most auspicious 15-day Hindu religious festival celebrated in Nepal, commemorating the victory of Goddess Durga over the demon Mahishasura?",
+      "options": [
+        "Dashain",
+        "Tihar",
+        "Holi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Families gather to receive red rice-and-yogurt tika blessings on their foreheads from elders and fly colorful kites across city rooftops.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What five-day Festival of Lights in Nepal (Tihar) dedicates an entire official day (Kukur Tihar) to worshipping and thanking dogs for their loyalty with flower garlands and treats?",
+      "options": [
+        "Dashain",
+        "Tihar Deepawali",
+        "Chhath"
+      ],
+      "correctIndex": 1,
+      "explanation": "During Tihar, crows (messengers of death), dogs (guardians of the afterlife), cows (prosperity), and oxen are ritually honored before Bhai Tika honors siblings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Nepali culinary staple, consisting of steamed white rice served with spiced yellow lentil soup (dal) and seasonal vegetable curry (tarkari), is eaten twice daily across Nepal?",
+      "options": [
+        "Thukpa",
+        "Momo",
+        "Dal Bhat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Popular among hikers under the slogan 'Dal Bhat Power, 24 Hour', it is accompanied by spicy pickled achar, fermented mustard greens (gundruk), and crispy papad.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many continuous days is the grand national Hindu festival of Dashain celebrated across Nepal?",
+      "target": 15,
+      "metricUnit": "days",
+      "imperialDisplay": "15-day festival",
+      "explanation": "Dashain is the longest and most celebrated festival in the Nepali calendar, lasting fifteen days from Ghatasthapana to Kojagrat Purnima.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive geometric design makes the national flag of Nepal unique in the entire world as the only non-quadrilateral (non-rectangular) national flag?",
+      "options": [
+        "Two stacked triangular pennants representing the Himalayas, Sun, and Moon",
+        "A circle inside a square",
+        "A trapezoid with a dragon"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crimson red color represents the national flower (rhododendron) and bravery, with the blue border symbolizing peace, and the sun and moon expressing hope Nepal will endure as long as celestial bodies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many first-level administrative provinces (such as Bagmati, Gandaki, Koshi, Lumbini, and Karnali) was Nepal reorganized under its 2015 Federal Democratic Constitution?",
+      "options": [
+        "5 Provinces",
+        "7 Provinces",
+        "14 Provinces"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 2015 constitution transitioned Nepal from a unitary monarchy into a secular federal democratic republic structured into seven provinces and seventy-seven districts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the astonishing vertical elevation span across the land territory of Nepal, rising from just sixty meters above sea level in the southern Terai plains to 8,849 meters at Mount Everest?",
+      "options": [
+        "3,000 Vertical Meters",
+        "5,000 Vertical Meters",
+        "Over 8,780 Vertical Meters"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a horizontal distance of just 150 kilometers, Nepal transitions from tropical jungles where tigers and elephants roam to permanent Arctic alpine glaciers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vibrant national flower of Nepal, known locally as Lali Gurans (Rhododendron arboreum), covers subalpine mountain hillsides in brilliant red blooms in spring?",
+      "options": [
+        "Rhododendron",
+        "Lotus",
+        "Marigold"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rhododendron forests in the Helambu and Langtang regions form magnificent red and pink floral canopies between 2,000 and 3,500 meters altitude.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total land area of the Federal Democratic Republic of Nepal in square kilometers, landlocked between India to the south, east, and west, and China to the north?",
+      "options": [
+        "85,000 Square Kilometers",
+        "147,516 Square Kilometers",
+        "250,000 Square Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nepal spans 880 kilometers from east to west and an average of 193 kilometers from north to south, home to over thirty million people and 120 ethnic groups.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many administrative Provinces comprise the federal governance structure of Nepal?",
+      "target": 7,
+      "metricUnit": "provinces",
+      "imperialDisplay": "7 federal provinces",
+      "explanation": "Nepal is officially structured into seven federal provinces under its modern constitutional framework.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

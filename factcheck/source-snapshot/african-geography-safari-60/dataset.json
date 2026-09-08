@@ -1,0 +1,641 @@
+{
+  "id": "african-geography-safari-60",
+  "theme": "African Geography: Rift Valley, Sahara & Diverse Biomes",
+  "title": "African Geography: Rift Valley, Sahara & Diverse Biomes",
+  "description": "Comprehensive 60-question safari through the Great Rift Valley, the Sahara, the Congo rainforest, vast savannas, and iconic wildlife sanctuaries.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What massive continuous tectonic trench system stretches over six thousand kilometers from Lebanon to Mozambique, splitting the African continent?",
+      "options": [
+        "East African Rift System",
+        "Mid-African Trench",
+        "Trans-Saharan Fault"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rift is slowly pulling the Somali tectonic plate away from the Nubian plate, forming volcanic mountains and deep rift lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcano in northern Tanzania is the only active volcano on Earth known to erupt black natrocarbonatite lava rather than silicate lava?",
+      "options": [
+        "Mount Meru",
+        "Ol Doinyo Lengai",
+        "Mount Nyiragongo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ol Doinyo Lengai or Mountain of God erupts low-temperature carbonate lava that turns white upon exposure to atmospheric moisture."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest unbroken, unflooded volcanic caldera on Earth, located in northern Tanzania and hosting over twenty-five thousand large mammals?",
+      "options": [
+        "Empakaai Crater",
+        "Menengai Crater",
+        "Ngorongoro Crater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ngorongoro formed when a giant volcano exploded and collapsed on itself roughly two to three million years ago, creating a 600-meter-deep haven."
+    },
+    {
+      "type": "mcq",
+      "question": "Which active stratovolcano in Virunga National Park in the DRC is infamous for hosting the world largest persistent churning lava lake?",
+      "options": [
+        "Mount Nyiragongo",
+        "Nyamuragira",
+        "Mount Karisimbi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Nyiragongo lava has extremely low silica content, allowing it to flow down mountain slopes at lethal speeds up to 100 km/h."
+    },
+    {
+      "type": "mcq",
+      "question": "Which low-lying geological depression in northeastern Ethiopia sits at the junction of three tectonic plates, featuring vibrant yellow sulfur springs?",
+      "options": [
+        "Qattara Depression",
+        "Danakil Depression",
+        "Afar Triple Basin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Danakil Depression lies in the Afar Triangle where the African, Somali, and Arabian plates are rifting apart."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate diameter in kilometers of the unbroken Ngorongoro volcanic crater in Tanzania?",
+      "target": 20,
+      "metricUnit": "km",
+      "imperialDisplay": "12 miles",
+      "explanation": "The Ngorongoro caldera spans approximately 20 kilometers in diameter, enclosing 260 square kilometers of grassland and soda lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest lake in Africa by surface area, shared by Tanzania, Uganda, and Kenya, and acting as the chief source of the White Nile?",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Victoria"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Victoria covers approximately 59,940 square kilometers, making it the second-largest freshwater lake in the world."
+    },
+    {
+      "type": "mcq",
+      "question": "Which East African Great Lake is the second-deepest lake in the world, plunging to 1,470 meters along the Western Rift?",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Kivu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Tanganyika holds nearly eighteen percent of the world surface freshwater, shared by Tanzania, DRC, Burundi, and Zambia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Great Lake in southern Africa is famed among evolutionary biologists for harboring over one thousand unique endemic species of cichlid fish?",
+      "options": [
+        "Lake Albert",
+        "Lake Malawi",
+        "Lake Edward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lake Malawi, also known as Lake Nyasa, features crystal-clear waters and has evolved more fish species than any other lake."
+    },
+    {
+      "type": "mcq",
+      "question": "Which shallow, alkaline desert lake in northern Kenya is known as the Jade Sea due to vibrant blue-green algae blooms?",
+      "options": [
+        "Lake Baringo",
+        "Lake Bogoria",
+        "Lake Turkana"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Turkana is the world largest permanent desert lake, famous for hominid fossil discoveries at Koobi Fora by Richard Leakey."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Great Lake situated between Rwanda and the DRC contains massive quantities of dissolved methane and carbon dioxide in its deep waters?",
+      "options": [
+        "Lake Kivu",
+        "Lake Albert",
+        "Lake George"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Kivu is a meromictic lake undergoing commercial methane extraction projects to generate electrical power."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded water depth in meters of Lake Tanganyika in the East African Rift?",
+      "target": 1470,
+      "metricUnit": "meters",
+      "imperialDisplay": "4,823 feet",
+      "explanation": "Lake Tanganyika reaches a maximum depth of 1,470 meters in its northern basin, second only to Lake Baikal in depth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which national park in northern Tanzania is world-famous for hosting the annual Great Migration of over 1.5 million blue wildebeest and zebras?",
+      "options": [
+        "Tarangire National Park",
+        "Serengeti National Park",
+        "Ruaha National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Serengeti ecosystem spans 30,000 square kilometers, where herds traverse circular migration routes across the Mara River."
+    },
+    {
+      "type": "mcq",
+      "question": "Which national reserve in southwestern Kenya forms the northern continuation of the Serengeti plains across the Mara River?",
+      "options": [
+        "Amboseli National Park",
+        "Tsavo National Park",
+        "Maasai Mara National Reserve"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Maasai Mara is famous for its dense predator populations of lions, leopards, and cheetahs following migrating ungulate herds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Kenyan national park is famous for spectacular views of Mount Kilimanjaro towering across the border behind free-ranging elephant herds?",
+      "options": [
+        "Amboseli National Park",
+        "Samburu National Reserve",
+        "Meru National Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amboseli features observation hills and underground springs fed by melting Kilimanjaro snowpack, supporting massive bull elephants."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest national park in South Africa, covering nearly twenty thousand square kilometers along the Mozambique border?",
+      "options": [
+        "Kgalagadi Transfrontier Park",
+        "Kruger National Park",
+        "Addo Elephant National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "Established in 1898 as the Sabie Game Reserve, Kruger is a flagship African wildlife sanctuary supporting all the Big Five mammals."
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive national park complex in southeastern Kenya is divided into East and West sectors, famous for red elephants rolling in volcanic dust?",
+      "options": [
+        "Aberdare National Park",
+        "Mount Kenya National Park",
+        "Tsavo National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tsavo is Kenya largest national park, spanning 22,000 square kilometers of semi-arid scrub, the Yatta Plateau, and Mzima Springs."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many blue wildebeest participate in the annual Great Migration across the Serengeti-Mara ecosystem?",
+      "target": 1500000,
+      "metricUnit": "wildebeest",
+      "imperialDisplay": "1.5 million animals",
+      "explanation": "An estimated 1.5 million wildebeest, accompanied by 200,000 zebras and 300,000 gazelles, make the continuous 800-kilometer circuit."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in Africa and traditionally recognized as the longest river in the world, stretching over 6,650 kilometers?",
+      "options": [
+        "Nile River",
+        "Congo River",
+        "Niger River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Nile River is formed by the convergence of the White Nile from Lake Victoria and the Blue Nile from Lake Tana in Ethiopia at Khartoum."
+    },
+    {
+      "type": "mcq",
+      "question": "Which African river is the second-longest on the continent and carries the second-largest water discharge volume in the world after the Amazon?",
+      "options": [
+        "Zambezi River",
+        "Congo River",
+        "Orange River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Congo River drains an expansive equatorial rainforest basin of 3.7 million square kilometers, flowing through Malebo Pool to the Atlantic."
+    },
+    {
+      "type": "mcq",
+      "question": "What major southern African river rises in Zambia, flows over Victoria Falls, and empties into the Indian Ocean in Mozambique?",
+      "options": [
+        "Limpopo River",
+        "Okavango River",
+        "Zambezi River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Zambezi spans 2,574 kilometers, supplying major hydroelectric projects at the Kariba Dam and Cahora Bassa Dam."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major river in West Africa follows an unusual crescent boomerang course, flowing north toward the Sahara before curving south to the Gulf of Guinea?",
+      "options": [
+        "Niger River",
+        "Senegal River",
+        "Volta River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Niger River flows 4,180 kilometers through Guinea, Mali, Niger, Benin, and Nigeria, creating the fertile Inner Niger Delta in Mali."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river located entirely within South Africa, rising in the Drakensberg Mountains and flowing west to the Atlantic Ocean?",
+      "options": [
+        "Vaal River",
+        "Orange River",
+        "Tugela River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Orange River, or Gariep, flows 2,200 kilometers, defining borders between South Africa, Lesotho, and Namibia."
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum recorded depth in meters of the Congo River, making it the deepest known river in the world?",
+      "target": 220,
+      "metricUnit": "meters",
+      "imperialDisplay": "720 feet",
+      "explanation": "Deep canyon sections along the lower Congo River rapids plunge past 220 meters, preventing cross-river fish gene flow."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest hot desert on Earth, covering over nine million square kilometers across the northern third of Africa?",
+      "options": [
+        "Namib Desert",
+        "Kalahari Desert",
+        "Sahara Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sahara encompasses ergs, regs, and mountain massifs such as the Tibesti and Ahaggar, stretching from the Atlantic to the Red Sea."
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal desert in southwestern Africa features the towering red sand dunes of Sossusvlei and the stark dead camel thorn trees of Deadvlei?",
+      "options": [
+        "Namib Desert",
+        "Kalahari Desert",
+        "Karoo Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Namib is directly cooled by the offshore Benguela Current, producing regular sea fogs that sustain desert beetles and plants."
+    },
+    {
+      "type": "mcq",
+      "question": "What large semi-arid sandy savanna basin covers most of Botswana and parts of Namibia and South Africa?",
+      "options": [
+        "Danakil Desert",
+        "Kalahari Desert",
+        "Nubian Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kalahari is covered in red Kalahari sands but receives more rainfall than a true desert, supporting acacias and San hunter-gatherers."
+    },
+    {
+      "type": "mcq",
+      "question": "What barren hyper-arid sand sea in north-central Niger is famous as the Tenere, which once contained the world most isolated solitary tree?",
+      "options": [
+        "Libyan Desert",
+        "Bayuda Desert",
+        "Ténéré Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Tree of Ténéré was an acacia that stood as the only tree for over 400 kilometers around until struck by a truck in 1973."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive seasonal salt pan network in northeastern Botswana is the remnant of the ancient super-lake Lake Makgadikgadi?",
+      "options": [
+        "Makgadikgadi Pan",
+        "Etosha Pan",
+        "Salar Pan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Makgadikgadi Pans cover 16,000 square kilometers, hosting massive zebra migrations and breeding flamingo flocks during wet seasons."
+    },
+    {
+      "type": "number",
+      "question": "What is the estimated geological age in millions of years of the hyper-arid Namib Desert?",
+      "target": 55,
+      "metricUnit": "million years",
+      "imperialDisplay": "55 million years old",
+      "explanation": "Geologists estimate the Namib Desert has experienced continuous arid or hyper-arid conditions for at least 55 million years."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second-largest contiguous tropical rainforest in the world after the Amazon, covering 3.7 million square kilometers in Central Africa?",
+      "options": [
+        "Upper Guinean Forest",
+        "Congo Basin Rainforest",
+        "Madagascar Rainforest"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Congo Basin spans six nations, storing eight percent of global forest carbon and acting as the green heart of Africa."
+    },
+    {
+      "type": "mcq",
+      "question": "Which dense rainforest in northeastern DRC is the primary native habitat of the elusive okapi, a forest giraffe with zebra-striped legs?",
+      "options": [
+        "Nyungwe Forest",
+        "Taï Forest",
+        "Ituri Rainforest"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ituri Forest is also the ancestral home of the indigenous Mbuti pygmy hunter-gatherers living along the Epulu River."
+    },
+    {
+      "type": "mcq",
+      "question": "Which national park in the Democratic Republic of the Congo was Africa first national park, established in 1925 to protect mountain gorillas?",
+      "options": [
+        "Virunga National Park",
+        "Kahuzi-Biega National Park",
+        "Garamba National Park"
+      ],
+      "correctIndex": 0,
+      "explanation": "Virunga National Park encompasses the Rwenzori glaciers, Mount Nyiragongo lava lake, and endangered mountain gorilla sectors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage national park in southwestern Uganda is named for its dense, mist-shrouded jungle canopy harboring mountain gorillas?",
+      "options": [
+        "Queen Elizabeth National Park",
+        "Bwindi Impenetrable National Park",
+        "Murchison Falls National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bwindi Impenetrable Forest contains nearly half of the world remaining wild mountain gorilla population."
+    },
+    {
+      "type": "mcq",
+      "question": "What transition zone of semi-arid savanna and grasslands separates the hyper-arid Sahara Desert from the humid tropical savannas to the south?",
+      "options": [
+        "Miombo",
+        "Bushveld",
+        "Sahel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sahel stretches 5,400 kilometers from the Atlantic Ocean to the Red Sea across Senegal, Mali, Burkina Faso, Niger, Chad, and Sudan."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total land area in millions of square kilometers of the Congo Basin drainage and rainforest region?",
+      "target": 3.7,
+      "metricUnit": "million sq km",
+      "imperialDisplay": "1.4 million sq miles",
+      "explanation": "The Congo Basin covers approximately 3.7 million square kilometers, encompassing equatorial forests across central Africa."
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous endorheic wetland in Botswana is formed where the Okavango River empties onto the sands of the Kalahari Desert basin?",
+      "options": [
+        "Okavango Delta",
+        "Chobe Wetland",
+        "Linyanti Swamp"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Okavango Delta floods annually during the dry winter season, transforming desert plains into an oasis for wildlife."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the colossal swamp in South Sudan formed by the White Nile, representing one of the largest freshwater wetlands in the world?",
+      "options": [
+        "Bangweulu Swamps",
+        "Sudd",
+        "Lorna Marshes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sudd covers over 30,000 square kilometers of papyrus and floating aquatic vegetation, evaporating over half the White Nile water."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mineral-rich, bright red alkaline lake in northern Tanzania is the primary breeding ground for over 2.5 million Lesser Flamingos?",
+      "options": [
+        "Lake Manyara",
+        "Lake Magadi",
+        "Lake Natron"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Natron caustic water reaches pH levels above 10.5, with halophilic spirulina cyanobacteria providing food and pink plumage to flamingos."
+    },
+    {
+      "type": "mcq",
+      "question": "Which scenic river canyon in Mpumalanga, South Africa, is recognized as one of the largest green canyons on Earth, featuring the Three Rondavels?",
+      "options": [
+        "Blyde River Canyon",
+        "Fish River Canyon",
+        "Oribi Gorge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blyde River Canyon plunges 800 meters through lush subtropical foliage and red sandstone cliffs along the Drakensberg escarpment."
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive canyon in southern Namibia is the second-largest canyon in the world after the Grand Canyon, carved by ancient flash floods?",
+      "options": [
+        "Kuiseb Canyon",
+        "Fish River Canyon",
+        "Sesriem Canyon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fish River Canyon stretches 160 kilometers long, up to 27 kilometers wide, and plunges 550 meters deep into barren desert rock."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Okavango Delta in Botswana officially inscribed as the milestone 1,000th UNESCO World Heritage Site?",
+      "target": 2014,
+      "metricUnit": "year",
+      "imperialDisplay": "2014 AD",
+      "explanation": "The World Heritage Committee officially inscribed the Okavango Delta as the 1,000th World Heritage Site on June 22, 2014."
+    },
+    {
+      "type": "mcq",
+      "question": "What major mountain range stretches across Morocco, Algeria, and Tunisia, separating the Mediterranean coastline from the Sahara Desert?",
+      "options": [
+        "Rif Mountains",
+        "Ahaggar Mountains",
+        "Atlas Mountains"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Atlas Mountains span 2,500 kilometers, crowned by Toubkal peak at 4,167 meters in the High Atlas of southwestern Morocco."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Atlas Mountains and the highest summit in North Africa, located in Morocco?",
+      "options": [
+        "Toubkal",
+        "M Goun",
+        "Ouanoukrim"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jbel Toubkal stands at 4,167 meters in Toubkal National Park, first climbed by European mountaineers in 1923."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain range in Southern Africa, forming an imposing basalt escarpment and the border between South Africa and Lesotho?",
+      "options": [
+        "Cederberg",
+        "Drakensberg",
+        "Swartberg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as uKhahlamba or Barrier of Spears in Zulu, the Drakensberg rises to 3,482 meters at Thabana Ntlenyana in Lesotho."
+    },
+    {
+      "type": "mcq",
+      "question": "Which rugged volcanic mountain plateau in northern Ethiopia is nicknamed the Chess Pieces of the Gods and hosts endemic Gelada baboons?",
+      "options": [
+        "Bale Mountains",
+        "Danakil Alps",
+        "Simien Mountains"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Simien Mountains feature Ras Dashen at 4,550 meters, characterized by massive sheer precipices and Walia ibex."
+    },
+    {
+      "type": "mcq",
+      "question": "What active stratovolcano near the coast of the Gulf of Guinea is the highest peak in West and Central Africa at 4,040 meters?",
+      "options": [
+        "Mount Cameroon",
+        "Mount Oku",
+        "Pico Basilé"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known locally as Fako, Mount Cameroon rises directly near the Atlantic ocean shore and last erupted in February 2000."
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Toubkal, the highest peak in North Africa?",
+      "target": 4167,
+      "metricUnit": "meters",
+      "imperialDisplay": "13,671 feet",
+      "explanation": "Jbel Toubkal in the High Atlas of Morocco reaches a summit elevation of 4,167 meters above sea level."
+    },
+    {
+      "type": "mcq",
+      "question": "What rocky promontory at the southern tip of the Cape Peninsula is famous in maritime lore as the Cape of Storms?",
+      "options": [
+        "Cape Agulhas",
+        "Cape of Good Hope",
+        "Cape Point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Portuguese explorer Bartolomeu Dias rounded the cape in 1488, renamed Cabo da Boa Esperança by King John II of Portugal."
+    },
+    {
+      "type": "mcq",
+      "question": "What geographical headland in South Africa is the true southernmost point of the African continent and official boundary between the Atlantic and Indian oceans?",
+      "options": [
+        "Cape of Good Hope",
+        "Cape Saint Blaize",
+        "Cape Agulhas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cape Agulhas lies roughly 150 kilometers southeast of the Cape of Good Hope at latitude 34 degrees 50 minutes South."
+    },
+    {
+      "type": "mcq",
+      "question": "What promontory in northern Tunisia near Bizerte marks the northernmost point of the continental African mainland?",
+      "options": [
+        "Ras ben Sakka",
+        "Cape Angela",
+        "Cape Bon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ras ben Sakka sits at latitude 37 degrees 21 minutes North, extending just slightly further north than neighboring Cape Angela."
+    },
+    {
+      "type": "mcq",
+      "question": "What major peninsula in East Africa projects hundreds of kilometers into the Arabian Sea, commonly known as the Horn of Africa?",
+      "options": [
+        "Sinai Peninsula",
+        "Somali Peninsula",
+        "Bakassi Peninsula"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Horn of Africa encompasses Somalia, Ethiopia, Eritrea, and Djibouti along the strategic Gulf of Aden."
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign African nations are intersected directly by the terrestrial Equator line?",
+      "options": [
+        "5",
+        "9",
+        "7"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Equator crosses Gabon, Republic of the Congo, DRC, Uganda, Kenya, Somalia, and the island nation of São Tomé and Príncipe."
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign African nations are directly crossed by the line of the terrestrial Equator?",
+      "target": 7,
+      "metricUnit": "countries",
+      "imperialDisplay": "7 African nations",
+      "explanation": "Seven African nations lie on the Equator: São Tomé and Príncipe, Gabon, Republic of the Congo, DRC, Uganda, Kenya, and Somalia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which large island nation in the Indian Ocean is famous for its Avenue of the Baobabs and over one hundred distinct species of lemurs?",
+      "options": [
+        "Madagascar",
+        "Mauritius",
+        "Comoros"
+      ],
+      "correctIndex": 0,
+      "explanation": "Madagascar broke away from India roughly eighty-eight million years ago, allowing plants and animals to evolve in near-complete isolation."
+    },
+    {
+      "type": "mcq",
+      "question": "Which semi-autonomous Tanzanian archipelago in the Indian Ocean is celebrated historically as the Spice Island, famous for cloves and Stone Town?",
+      "options": [
+        "Mafia Island",
+        "Zanzibar",
+        "Pemba Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zanzibar, or Unguja, was a major historical hub of the Omani sultanate and Indian Ocean spice and dhow trade."
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcanic island in the Mascarene archipelago east of Madagascar was the only historical home of the extinct flightless Dodo bird?",
+      "options": [
+        "Réunion",
+        "Rodrigues",
+        "Mauritius"
+      ],
+      "correctIndex": 2,
+      "explanation": "The dodo Raphus cucullatus became extinct around the 1660s following Dutch settlement and the introduction of invasive predators."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous flat-topped sandstone mountain overlooks Cape Town, flanked by Devil Peak and Lion Head?",
+      "options": [
+        "Table Mountain",
+        "Twelve Apostles",
+        "Signal Hill"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table Mountain stands 1,086 meters high, often covered by a dramatic orographic cloud layer known as the Tablecloth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which triangular peninsula in Egypt links the African continent to Asia, bordered by the Gulf of Suez and the Gulf of Aqaba?",
+      "options": [
+        "Arabian Peninsula",
+        "Sinai Peninsula",
+        "Ras Muhammad Peninsula"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sinai Peninsula serves as a continental land bridge, hosting Mount Catherine at 2,629 meters and Saint Catherine Monastery."
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Cameroon near the Atlantic coast?",
+      "target": 4040,
+      "metricUnit": "meters",
+      "imperialDisplay": "13,255 feet",
+      "explanation": "Mount Cameroon stands at 4,040 meters above sea level, rising steeply from tropical coastal lowlands."
+    }
+  ]
+}

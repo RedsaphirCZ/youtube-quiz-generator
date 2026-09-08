@@ -1,0 +1,641 @@
+{
+  "id": "asian-geography-landmarks-60",
+  "theme": "Asian Geography: Rivers, Steppes & Natural Wonders",
+  "title": "Asian Geography: Rivers, Steppes & Natural Wonders",
+  "description": "Comprehensive 60-question master assessment exploring the Tibetan Plateau, Siberian taiga, ancient steppes, sacred rivers, and natural wonders of Asia.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What vast elevated plateau in Central and East Asia is celebrated as the Roof of the World and the Third Pole for its immense glacial ice reserves?",
+      "options": [
+        "Tibetan Plateau",
+        "Deccan Plateau",
+        "Mongolian Plateau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covering 2.5 million square kilometers at an average elevation of 4,500 meters, it feeds the ten greatest river systems of Asia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which complex high-mountain junction where the Himalayas, Karakoram, Hindu Kush, and Tian Shan converge is known as the Pamir Knot?",
+      "options": [
+        "Altai Mountains",
+        "Pamir Mountains",
+        "Kunlun Mountains"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pamir Knot forms a formidable high-altitude mountain nexus in Tajikistan, Afghanistan, China, and Kyrgyzstan."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive triangular volcanic basalt plateau covers much of southern and central India between the Western and Eastern Ghats?",
+      "options": [
+        "Chota Nagpur Plateau",
+        "Malwa Plateau",
+        "Deccan Plateau"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Deccan Traps were formed by massive flood basalt eruptions 66 million years ago around the Cretaceous-Paleogene boundary."
+    },
+    {
+      "type": "mcq",
+      "question": "Which expansive high plateau forms the central geographical core of modern Turkey between the Pontic and Taurus mountain ranges?",
+      "options": [
+        "Anatolian Plateau",
+        "Iranian Plateau",
+        "Armenian Highland"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Anatolian Plateau is an arid steppe basin featuring dramatic volcanic fairy chimneys in Cappadocia and salt lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest dry steppe region in the world, stretching over 800,000 square kilometers across northern Kazakhstan?",
+      "options": [
+        "Pontic-Caspian Steppe",
+        "Kazakh Steppe",
+        "Baraba Steppe"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kazakh Steppe is an enormous expanse of open grassland with extreme continental temperatures, home to the saiga antelope."
+    },
+    {
+      "type": "number",
+      "question": "What is the average elevation in meters above sea level across the vast expanse of the Tibetan Plateau?",
+      "target": 4500,
+      "metricUnit": "meters",
+      "imperialDisplay": "14,764 feet",
+      "explanation": "The Tibetan Plateau sits at an average altitude exceeding 4,500 meters, making it the highest and largest plateau on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in Asia and the third-longest river in the world, flowing over 6,300 kilometers across China?",
+      "options": [
+        "Yellow River",
+        "Mekong River",
+        "Yangtze River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yangtze, or Chang Jiang, drains one-fifth of China land area and generates immense power at the Three Gorges Dam."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major river flowing through China is nicknamed the Yellow River because of the enormous volume of yellow loess sediment it carries?",
+      "options": [
+        "Huang He",
+        "Huai He",
+        "Hai He"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Yellow River carries over one billion tons of silt annually from the Loess Plateau, causing historical riverbed elevations."
+    },
+    {
+      "type": "mcq",
+      "question": "Which major river system in Pakistan and northwestern India originates near Lake Manasarovar in Tibet and empties into the Arabian Sea?",
+      "options": [
+        "Ganges River",
+        "Indus River",
+        "Brahmaputra River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Indus River is the key water source for agriculture in Pakistan, supporting the extensive Indus Basin Irrigation System."
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic river canyon on the Tibetan Plateau is recognized as the deepest canyon on Earth, plunging over 5,300 meters?",
+      "options": [
+        "Tiger Leaping Gorge",
+        "Kali Gandaki Gorge",
+        "Yarlung Tsangpo Grand Canyon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yarlung Tsangpo loops around Mount Namcha Barwa in Tibet before cascading south into India as the Brahmaputra River."
+    },
+    {
+      "type": "mcq",
+      "question": "Which river forms the primary domestic and commercial waterway through central Thailand, flowing through Bangkok into the Gulf of Thailand?",
+      "options": [
+        "Chao Phraya River",
+        "Mekong River",
+        "Salween River"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Chao Phraya is formed by the confluence of the Ping and Nan rivers, renowned for iconic floating markets and historic temples."
+    },
+    {
+      "type": "number",
+      "question": "What is the total official length in kilometers of the Yangtze River in China?",
+      "target": 6300,
+      "metricUnit": "km",
+      "imperialDisplay": "3,915 miles",
+      "explanation": "The Yangtze River measures approximately 6,300 kilometers from its source in the Tanggula Mountains to the East China Sea."
+    },
+    {
+      "type": "mcq",
+      "question": "Which UNESCO World Heritage bay in northern Vietnam features thousands of towering limestone karsts and emerald waters?",
+      "options": [
+        "Nha Trang Bay",
+        "Ha Long Bay",
+        "Phang Nga Bay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ha Long Bay contains nearly two thousand limestone islets and sunken caves sculpted over five hundred million years of tropical karst evolution."
+    },
+    {
+      "type": "mcq",
+      "question": "Which unique geological formation on Bohol Island in the Philippines consists of over 1,700 cone-shaped limestone hills that turn brown in the dry season?",
+      "options": [
+        "Pinnacles",
+        "Tsingy",
+        "Chocolate Hills"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Chocolate Hills are symmetrical grass-covered karst mounds that turn cocoa-brown during the dry season from February to May."
+    },
+    {
+      "type": "mcq",
+      "question": "Which valley in northern Sichuan, China, is celebrated for its multi-tiered waterfalls and vivid turquoise and jade crystal lakes?",
+      "options": [
+        "Jiuzhaigou",
+        "Huanglong",
+        "Wulingyuan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jiuzhaigou or Valley of Nine Fortified Villages sits on the edge of the Tibetan Plateau, famous for high-clarity mineral lakes."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous national geological park in Zhangye, Gansu Province, China, is renowned for vibrant rainbow-striped rock formations?",
+      "options": [
+        "Shilin Stone Forest",
+        "Zhangye Danxia",
+        "Karst of Guilin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zhangye Danxia landforms were formed by layers of red sandstone and mineral deposits compressed and uplifted over 24 million years."
+    },
+    {
+      "type": "mcq",
+      "question": "Which scenic area in Hunan Province, China, features thousands of quartzite sandstone pillars that inspired the floating Hallelujah Mountains in Avatar?",
+      "options": [
+        "Mount Huangshan",
+        "Mount Emei",
+        "Zhangjiajie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wulingyuan in Zhangjiajie preserves more than 3,000 sheer sandstone pillars rising hundreds of meters above dense misty forests."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many limestone islands and islets make up the dramatic seascape of Ha Long Bay in Vietnam?",
+      "target": 1969,
+      "metricUnit": "islands",
+      "imperialDisplay": "1,969 islands",
+      "explanation": "Official UNESCO documentation records 1,969 limestone karst islands and islets scattered across Ha Long Bay."
+    },
+    {
+      "type": "mcq",
+      "question": "What hypersaline terminal lake situated between Israel, Jordan, and the West Bank marks the lowest land elevation on Earth?",
+      "options": [
+        "Dead Sea",
+        "Lake Assal",
+        "Sea of Galilee"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Dead Sea shore sits roughly 430 meters below sea level with salinity exceeding thirty-four percent, allowing bathers to float effortlessly."
+    },
+    {
+      "type": "mcq",
+      "question": "What freshwater lake in Galilee in northern Israel is the lowest freshwater lake on Earth, sitting roughly 210 meters below sea level?",
+      "options": [
+        "Lake Hula",
+        "Sea of Galilee",
+        "Dead Sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sea of Galilee, or Lake Kinneret, is fed by the Jordan River and serves as a major freshwater reservoir and biblical pilgrimage site."
+    },
+    {
+      "type": "mcq",
+      "question": "Which crescent-shaped tectonic rift lake in eastern Siberia is estimated to be twenty-five million years old, making it the oldest lake on Earth?",
+      "options": [
+        "Lake Balkhash",
+        "Lake Khövsgöl",
+        "Lake Baikal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Baikal holds roughly 23,600 cubic kilometers of fresh water, home to the endemic Baikal seal or nerpa."
+    },
+    {
+      "type": "mcq",
+      "question": "Which large lake in southeastern Kazakhstan is unusual for being fresh water in its western half and saline in its eastern half?",
+      "options": [
+        "Lake Balkhash",
+        "Lake Zaysan",
+        "Lake Alakol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Balkhash is divided by a narrow strait, with the freshwater western basin fed by the glacial Ili River."
+    },
+    {
+      "type": "mcq",
+      "question": "What major depression in Xinjiang, China, is the second-lowest land depression in the world at 154 meters below sea level?",
+      "options": [
+        "Qattara Depression",
+        "Turpan Depression",
+        "Danakil Depression"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Turpan Depression experiences blistering summer heat, utilizing ancient subterranean karez canal systems for grape irrigation."
+    },
+    {
+      "type": "number",
+      "question": "What is the lowest land elevation in meters below sea level at the shore of the Dead Sea?",
+      "target": 430,
+      "metricUnit": "meters below sea level",
+      "imperialDisplay": "1,411 feet below sea level",
+      "explanation": "The surface of the Dead Sea lies approximately 430 meters below global mean sea level, dropping slowly due to water diversion."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic snow-draped stratovolcano on Honshu Island is the highest mountain in Japan and a sacred cultural landmark?",
+      "options": [
+        "Mount Ontake",
+        "Mount Aso",
+        "Mount Fuji"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Fuji stands 3,776 meters high, surrounded by the Fuji Five Lakes and immortalized in Hokusai Thirty-Six Views of Mount Fuji."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred volcanic mountain on the border of North Korea and China holds the colossal crater lake named Heaven Lake at its summit?",
+      "options": [
+        "Mount Paektu",
+        "Mount Kumgang",
+        "Mount Myohyang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Paektu or Changbai Mountain erupted cataclysmically in 946 CE in one of the most powerful volcanic eruptions in recorded history."
+    },
+    {
+      "type": "mcq",
+      "question": "Which active volcano in East Java sits inside the massive Tengger Caldera, renowned for dramatic sunrises across the Sea of Sand?",
+      "options": [
+        "Mount Merapi",
+        "Mount Bromo",
+        "Mount Kelud"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Bromo stands 2,329 meters high within Bromo Tengger Semeru National Park, sacred in local Tenggerese Hindu rituals."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain on the island of Borneo and in Malaysia, rising 4,095 meters in Sabah?",
+      "options": [
+        "Mount Trusmadi",
+        "Mount Tambuyukon",
+        "Mount Kinabalu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Kinabalu is a granitic pluton recognized for rich botanical diversity, including hundreds of endemic orchid and pitcher plant species."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest peak and highest volcano in Iran and the Middle East, rising 5,610 meters in the Alborz Mountains?",
+      "options": [
+        "Mount Damavand",
+        "Mount Sabalan",
+        "Mount Sahand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Damavand is a dormant stratovolcano holding a prominent place in Persian mythology and epic poetry as a symbol of resistance."
+    },
+    {
+      "type": "number",
+      "question": "What is the official summit elevation in meters above sea level of Mount Fuji in Japan?",
+      "target": 3776,
+      "metricUnit": "meters",
+      "imperialDisplay": "12,389 feet",
+      "explanation": "Mount Fuji summit stands at exactly 3,776 meters above sea level, last erupting during the Hoei eruption in 1707."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest forested region on Earth, stretching across thousands of kilometers of northern Russia and Siberia?",
+      "options": [
+        "Valdai Forest",
+        "Siberian Taiga",
+        "Ussuri Taiga"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Siberian Taiga is a massive biome dominated by coniferous larch, pine, spruce, and fir adapted to long, freezing winters."
+    },
+    {
+      "type": "mcq",
+      "question": "Which cold desert spanning parts of southern Mongolia and northern China is the source of frequent springtime yellow dust storms across East Asia?",
+      "options": [
+        "Taklamakan Desert",
+        "Karakum Desert",
+        "Gobi Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gobi Desert covers 1.3 million square kilometers, bordered by the Altai Mountains and the grassy Mongolian steppes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which vast red sand desert in Uzbekistan and Kazakhstan lies between the Amu Darya and Syr Darya river basins?",
+      "options": [
+        "Kyzylkum Desert",
+        "Karakum Desert",
+        "Betpak-Dala"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kyzylkum means Red Sand in Turkic languages, covering roughly 300,000 square kilometers of mineral-rich arid plains."
+    },
+    {
+      "type": "mcq",
+      "question": "What desert in the Indian state of Rajasthan and southeastern Pakistan is one of the most densely populated deserts in the world?",
+      "options": [
+        "Cholistan Desert",
+        "Thar Desert",
+        "Rann of Kutch"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Thar Desert supports over eighty people per square kilometer through traditional rainwater harvesting and camel pastoralism."
+    },
+    {
+      "type": "mcq",
+      "question": "What extensive salt marsh desert in the Indian state of Gujarat transforms into a seasonal shallow wetland during the summer monsoon?",
+      "options": [
+        "Thar Basin",
+        "Deccan Salina",
+        "Rann of Kutch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Rann of Kutch covers 7,500 square kilometers of blinding white salt crust, famous for the Rann Utsav cultural festival."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total area in millions of square kilometers covered by the Siberian Taiga forest belt?",
+      "target": 12,
+      "metricUnit": "million sq km",
+      "imperialDisplay": "4.6 million sq miles",
+      "explanation": "The Siberian Taiga spans approximately 12 million square kilometers, representing over a quarter of the world total forested area."
+    },
+    {
+      "type": "mcq",
+      "question": "Which narrow 900-kilometer strait between the Malay Peninsula and Sumatra is the busiest maritime shipping chokepoint in the world?",
+      "options": [
+        "Strait of Malacca",
+        "Sunda Strait",
+        "Lombok Strait"
+      ],
+      "correctIndex": 0,
+      "explanation": "Over 85,000 commercial vessels transit the Strait of Malacca each year, carrying one-quarter of all global traded goods."
+    },
+    {
+      "type": "mcq",
+      "question": "Which narrow strait connects the Persian Gulf to the Gulf of Oman, carrying approximately one-fifth of the world total petroleum consumption?",
+      "options": [
+        "Bab-el-Mandeb",
+        "Strait of Hormuz",
+        "Strait of Malacca"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Strait of Hormuz is bordered by Iran and Oman, with navigation channels only three kilometers wide in each direction."
+    },
+    {
+      "type": "mcq",
+      "question": "Which strait connects the Red Sea to the Gulf of Aden between Yemen and Djibouti, with a name translating to Gate of Tears?",
+      "options": [
+        "Strait of Tiran",
+        "Suez Passage",
+        "Bab-el-Mandeb"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bab-el-Mandeb acts as the strategic southern maritime gateway to the Red Sea and the Suez Canal route to Europe."
+    },
+    {
+      "type": "mcq",
+      "question": "Which shallow strait separates the easternmost point of Asia at Cape Dezhnev from the westernmost point of North America at Cape Prince of Wales?",
+      "options": [
+        "Bering Strait",
+        "Tartary Strait",
+        "La Pérouse Strait"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bering Strait is approximately eighty-two kilometers wide, linking the Arctic Chukchi Sea with the Pacific Bering Sea."
+    },
+    {
+      "type": "mcq",
+      "question": "Which strait separates the Indonesian islands of Java and Sumatra, connecting the Java Sea to the Indian Ocean?",
+      "options": [
+        "Lombok Strait",
+        "Sunda Strait",
+        "Makassar Strait"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sunda Strait is famous for hosting the volcanic island of Krakatoa, which erupted cataclysmically in 1883."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the Strait of Malacca between the Malay Peninsula and Sumatra?",
+      "target": 900,
+      "metricUnit": "km",
+      "imperialDisplay": "560 miles",
+      "explanation": "The Strait of Malacca stretches roughly 900 kilometers from the Andaman Sea in the north to Singapore in the south."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest continuous mangrove forest in the world, spanning the delta of the Ganges and Brahmaputra across Bangladesh and India?",
+      "options": [
+        "Pichavaram",
+        "Bhitarkanika",
+        "Sundarbans"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sundarbans covers 10,000 square kilometers of tidal halophytic mangrove forest, home to the endangered Royal Bengal tiger."
+    },
+    {
+      "type": "mcq",
+      "question": "Which island in the Sunda Strait experienced one of the deadliest and loudest volcanic eruptions in recorded history on August 27, 1883?",
+      "options": [
+        "Krakatoa",
+        "Tambora",
+        "Kelud"
+      ],
+      "correctIndex": 0,
+      "explanation": "Krakatoa explosion generated tsunamis over thirty meters high and was heard nearly 4,800 kilometers away on Rodrigues Island."
+    },
+    {
+      "type": "mcq",
+      "question": "Which island province of the Philippines is celebrated for its 8.2-kilometer navigable Underground River flowing through a karst cave into the sea?",
+      "options": [
+        "Cebu",
+        "Palawan",
+        "Bohol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Puerto Princesa Subterranean River National Park is a UNESCO World Heritage site featuring dramatic stalactites and cathedral chambers."
+    },
+    {
+      "type": "mcq",
+      "question": "What vast, biodiversity-rich rainforest on Borneo is estimated to be 140 million years old, older than the Amazon rainforest?",
+      "options": [
+        "Taman Negara",
+        "Harapan Rainforest",
+        "Borneo Lowland Rainforest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Borneo ancient dipterocarp rainforests harbor over 15,000 plant species, Bornean orangutans, and pygmy elephants."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indonesian island is known as the Island of the Gods, celebrated for terraced rice paddies and volcanic temples around Mount Agung?",
+      "options": [
+        "Bali",
+        "Lombok",
+        "Flores"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bali is world-renowned for its Subak cooperative irrigation water temple system dating back to the ninth century."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the catastrophic eruption of Krakatoa occur in the Sunda Strait, generating global shockwaves?",
+      "target": 1883,
+      "metricUnit": "year",
+      "imperialDisplay": "1883 AD",
+      "explanation": "Krakatoa erupted cataclysmically on August 26-27, 1883, killing over 36,000 people primarily through massive tsunamis."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain range along the western coast of India is recognized as one of the world eight hottest biodiversity hotspots?",
+      "options": [
+        "Eastern Ghats",
+        "Western Ghats",
+        "Aravalli Range"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Western Ghats, or Sahyadri, intercept the southwest monsoon, harboring thousands of endemic flowering plants, amphibians, and mammals."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest mountain range in India, stretching from Gujarat through Rajasthan to Delhi?",
+      "options": [
+        "Vindhya Range",
+        "Satpura Range",
+        "Aravalli Range"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Aravalli Range is an ancient eroded fold mountain belt dating back over two billion years to the Proterozoic Eon."
+    },
+    {
+      "type": "mcq",
+      "question": "What vast alluvial plain covers northern India and Bangladesh, formed by rich silt deposits from the Indus, Ganges, and Brahmaputra rivers?",
+      "options": [
+        "Indo-Gangetic Plain",
+        "Deccan Basin",
+        "Malabar Plain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Indo-Gangetic Plain is one of the most fertile and densely populated agricultural regions on Earth, home to over 400 million people."
+    },
+    {
+      "type": "mcq",
+      "question": "What glacier in the eastern Karakoram Range is the longest glacier in the Karakoram and the second-longest non-polar glacier in the world?",
+      "options": [
+        "Biafo Glacier",
+        "Siachen Glacier",
+        "Baltoro Glacier"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Siachen Glacier spans seventy-six kilometers, known geopolitically as the highest battleground on Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous tea-growing hill station in West Bengal, India, sits in the Mahabharat Range of the Himalayas at over 2,000 meters altitude?",
+      "options": [
+        "Shimla",
+        "Ooty",
+        "Darjeeling"
+      ],
+      "correctIndex": 2,
+      "explanation": "Darjeeling is world-famous for its high-grown black tea and the historic UNESCO-listed Darjeeling Himalayan Toy Train railway."
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Siachen Glacier in the Karakoram Range?",
+      "target": 76,
+      "metricUnit": "km",
+      "imperialDisplay": "47 miles",
+      "explanation": "The Siachen Glacier measures approximately 76 kilometers from its source at Indira Col to its snout at 3,620 meters altitude."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest freshwater lake in Japan, located in Shiga Prefecture northeast of Kyoto?",
+      "options": [
+        "Lake Biwa",
+        "Lake Kasumigaura",
+        "Lake Ashi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lake Biwa is an ancient lake over four million years old, supporting unique endemic species including the Biwa trout."
+    },
+    {
+      "type": "mcq",
+      "question": "What large endorheic basin in Xinjiang, northwestern China, is encircled by mountains and filled by the Taklamakan Desert?",
+      "options": [
+        "Junggar Basin",
+        "Tarim Basin",
+        "Sichuan Basin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tarim Basin is fed by the glacial Tarim River, historically traversed along northern and southern Silk Road oasis tracks."
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-density agricultural basin in southwestern China is nicknamed the Red Basin or Land of Abundance due to its fertile purple soils?",
+      "options": [
+        "Tarim Basin",
+        "Songliao Basin",
+        "Sichuan Basin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sichuan Basin is encircled by mountains and watered by the ancient Dujiangyan irrigation system dating to 256 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous sandstone fossil site in the Mongolian Gobi Desert was where American explorer Roy Chapman Andrews discovered the first fossilized dinosaur eggs?",
+      "options": [
+        "Flaming Cliffs",
+        "Nemegt Basin",
+        "Tugriken Shireh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known locally as Bayanzag, the Flaming Cliffs yielded groundbreaking discoveries of Protoceratops and Oviraptor nests in the 1920s."
+    },
+    {
+      "type": "mcq",
+      "question": "What series of dramatic gorges along the middle reaches of the Yangtze River was transformed by the construction of the world largest hydroelectric dam?",
+      "options": [
+        "Tiger Leaping Gorge",
+        "Three Gorges",
+        "Taroko Gorge"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Qutang, Wu, and Xiling gorges span nearly two hundred kilometers of steep limestone cliffs along the Yangtze."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Roy Chapman Andrews expeditions discover the first confirmed dinosaur eggs at the Flaming Cliffs in the Gobi Desert?",
+      "target": 1923,
+      "metricUnit": "year",
+      "imperialDisplay": "1923 AD",
+      "explanation": "The Central Asiatic Expedition of the American Museum of Natural History uncovered the famous dinosaur nests in July 1923."
+    }
+  ]
+}

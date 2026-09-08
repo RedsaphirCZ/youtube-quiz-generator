@@ -1,0 +1,641 @@
+{
+  "id": "islands-archipelagos-atolls-60",
+  "theme": "Isolated Islands, Archipelagos & Coral Atolls",
+  "title": "Isolated Islands, Archipelagos & Coral Atolls",
+  "description": "Comprehensive 60-question maritime odyssey exploring continental giants, volcanic hotspots, remote ocean outposts, and coral atolls.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the largest non-continental island on Earth by surface area, covering over 2.1 million square kilometers?",
+      "options": [
+        "Greenland",
+        "New Guinea",
+        "Borneo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark, covered largely by a massive permanent ice sheet."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second-largest island in the world, divided between Papua New Guinea and Indonesia?",
+      "options": [
+        "Borneo",
+        "New Guinea",
+        "Madagascar"
+      ],
+      "correctIndex": 1,
+      "explanation": "New Guinea covers roughly 785,753 square kilometers and is renowned for extreme biological diversity and linguistic variety."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Southeast Asian island is the third-largest on Earth and the only island shared by three sovereign nations?",
+      "options": [
+        "Sumatra",
+        "Sulawesi",
+        "Borneo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Borneo is divided among Indonesia Kalimantan, the Malaysian states of Sabah and Sarawak, and the sovereign Sultanate of Brunei."
+    },
+    {
+      "type": "mcq",
+      "question": "What island off the southeastern coast of Africa is the fourth-largest island on Earth, isolated for over eighty million years?",
+      "options": [
+        "Madagascar",
+        "Mauritius",
+        "Reunion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Madagascar split from the Indian landmass millions of years ago, evolving unique wildlife such as lemurs and baobab trees."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest island in Canada and the fifth-largest island in the world, located in the northern territory of Nunavut?",
+      "options": [
+        "Victoria Island",
+        "Baffin Island",
+        "Ellesmere Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Baffin Island covers over 507,000 square kilometers, named after English navigator William Baffin who explored the Arctic waterway."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total surface area in thousands of square kilometers of Greenland?",
+      "target": 2166,
+      "metricUnit": "thousand sq km",
+      "imperialDisplay": "836,330 sq miles",
+      "explanation": "Greenland encompasses roughly 2,166,086 square kilometers, making it more than three times the size of Texas."
+    },
+    {
+      "type": "mcq",
+      "question": "Which nation is the world largest archipelagic state, comprising over seventeen thousand islands across five thousand kilometers?",
+      "options": [
+        "Philippines",
+        "Japan",
+        "Indonesia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Indonesia spans from Sumatra in the west to Papua in the east, encompassing major islands including Java, Kalimantan, and Sulawesi."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pacific island nation consists of an archipelago of over 7,600 islands categorized into Luzon, Visayas, and Mindanao?",
+      "options": [
+        "Philippines",
+        "Solomon Islands",
+        "Vanuatu"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Philippine archipelago sits along the Pacific Ring of Fire, featuring rich coral reefs and deep oceanic trenches."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and most populous of the four main home islands that make up the Japanese archipelago?",
+      "options": [
+        "Hokkaido",
+        "Honshu",
+        "Kyushu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Honshu contains Tokyo, Osaka, Kyoto, and Mount Fuji, housing over eighty percent of the total Japanese population."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indian Ocean nation comprises twenty-six natural coral atolls and has the lowest average ground elevation on Earth at 1.5 meters?",
+      "options": [
+        "Seychelles",
+        "Comoros",
+        "Maldives"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Maldives consists of nearly 1,200 coral islands dispersed across 90,000 square kilometers of equatorial Indian Ocean."
+    },
+    {
+      "type": "mcq",
+      "question": "Which archipelago nation in the western Indian Ocean is unique for containing the world only oceanic islands formed of ancient continental granite?",
+      "options": [
+        "Seychelles",
+        "Mauritius",
+        "Cabo Verde"
+      ],
+      "correctIndex": 0,
+      "explanation": "The granitic Inner Seychelles islands are fragments of the ancient supercontinent Gondwana that remained above sea level."
+    },
+    {
+      "type": "number",
+      "question": "What is the officially recorded total count of registered islands making up the Indonesian archipelago?",
+      "target": 17508,
+      "metricUnit": "islands",
+      "imperialDisplay": "17,508 islands",
+      "explanation": "Geospatial surveys by the Indonesian government have cataloged approximately 17,508 islands, of which around 6,000 are inhabited."
+    },
+    {
+      "type": "mcq",
+      "question": "What volcanic archipelago in the South Atlantic is recognized as the most remote permanently inhabited archipelago on Earth?",
+      "options": [
+        "Saint Helena",
+        "Tristan da Cunha",
+        "Falkland Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tristan da Cunha lies over 2,400 kilometers from the nearest inhabited land of Saint Helena and 2,800 kilometers from South Africa."
+    },
+    {
+      "type": "mcq",
+      "question": "What isolated Polynesian volcanic island in the southeastern Pacific is famous for nearly one thousand monumental stone statues named Moai?",
+      "options": [
+        "Pitcairn Island",
+        "Tahiti",
+        "Easter Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rapa Nui or Easter Island was settled by Polynesian voyagers who carved monolithic volcanic tuff statues between 1250 and 1500 CE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which glacier-covered uninhabited volcanic island in the South Atlantic is recognized as the single most remote point of land on Earth?",
+      "options": [
+        "Bouvet Island",
+        "Peter I Island",
+        "Heard Island"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bouvet Island is a Norwegian dependency located over 1,600 kilometers from Antarctica and 2,200 kilometers from Gough Island."
+    },
+    {
+      "type": "mcq",
+      "question": "Which tiny South Pacific volcanic island became the permanent refuge for the historic HMS Bounty mutineers led by Fletcher Christian in 1790?",
+      "options": [
+        "Norfolk Island",
+        "Pitcairn Island",
+        "Henderson Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pitcairn Island remains the smallest and least populous sovereign British Overseas Territory with roughly fifty residents."
+    },
+    {
+      "type": "mcq",
+      "question": "On which isolated British volcanic island in the South Atlantic did French Emperor Napoleon Bonaparte live in exile until his death in 1821?",
+      "options": [
+        "Ascension Island",
+        "Tristan da Cunha",
+        "Saint Helena"
+      ],
+      "correctIndex": 2,
+      "explanation": "Napoleon was imprisoned at Longwood House on Saint Helena following his final defeat at the Battle of Waterloo in 1815."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate straight-line distance in kilometers from Tristan da Cunha to the nearest continental mainland in South Africa?",
+      "target": 2816,
+      "metricUnit": "km",
+      "imperialDisplay": "1,750 miles",
+      "explanation": "Tristan da Cunha lies approximately 2,816 kilometers west of Cape Town, South Africa, accessible only by a six-day boat voyage."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the world largest coral reef system, stretching over 2,300 kilometers off the northeastern coast of Queensland, Australia?",
+      "options": [
+        "Great Barrier Reef",
+        "Belize Barrier Reef",
+        "New Caledonia Barrier Reef"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Great Barrier Reef comprises nearly 3,000 individual reefs and 900 islands, visible from Earth orbit."
+    },
+    {
+      "type": "mcq",
+      "question": "Which remote raised coral atoll in the Seychelles is the second-largest atoll on Earth and home to the world largest giant tortoise colony?",
+      "options": [
+        "Farquhar Atoll",
+        "Aldabra Atoll",
+        "Cosmoledo Atoll"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aldabra hosts over 100,000 endemic Aldabra giant tortoises, protected as a pristine UNESCO World Heritage natural site."
+    },
+    {
+      "type": "mcq",
+      "question": "Which coral atoll in the Marshall Islands features the largest enclosed lagoon in the world by surface area, covering over 2,170 square kilometers?",
+      "options": [
+        "Rangiroa Atoll",
+        "Majuro Atoll",
+        "Kwajalein Atoll"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kwajalein Atoll surrounds an enormous lagoon with nearly one hundred islets, serving as a key missile testing range."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Micronesian atoll in the Marshall Islands was the site of twenty-three nuclear weapons tests conducted by the United States between 1946 and 1958?",
+      "options": [
+        "Bikini Atoll",
+        "Enewetak Atoll",
+        "Mururoa Atoll"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bikini Atoll was the site of Castle Bravo in 1954, the largest thermonuclear explosion ever detonated by the United States."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous French Polynesian island in the Leeward Society Islands is formed of an extinct volcano surrounded by a turquoise barrier lagoon?",
+      "options": [
+        "Moorea",
+        "Bora Bora",
+        "Raiatea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bora Bora is crowned by the basalt peaks of Mount Otemanu and Mount Pahia, surrounded by an outer ring of coral motus."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the Great Barrier Reef along the Australian coast?",
+      "target": 2300,
+      "metricUnit": "km",
+      "imperialDisplay": "1,430 miles",
+      "explanation": "The Great Barrier Reef extends approximately 2,300 kilometers along the continental shelf of Queensland."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian Arctic archipelago halfway between Norway and the North Pole hosts the Global Seed Vault inside permafrost rock?",
+      "options": [
+        "Jan Mayen",
+        "Franz Josef Land",
+        "Svalbard"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Svalbard Global Seed Vault on the island of Spitsbergen preserves millions of backup crop seed samples deep in frozen sandstone."
+    },
+    {
+      "type": "mcq",
+      "question": "On which glaciated sub-Antarctic island is legendary polar explorer Sir Ernest Shackleton buried at the former whaling station of Grytviken?",
+      "options": [
+        "South Georgia",
+        "Falkland Islands",
+        "South Shetland Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shackleton died aboard the Quest in 1922 and was laid to rest in the Grytviken cemetery on mountainous South Georgia."
+    },
+    {
+      "type": "mcq",
+      "question": "Which remote French southern territory in the southern Indian Ocean is known as the Desolation Islands due to gale winds and barren terrain?",
+      "options": [
+        "Crozet Islands",
+        "Kerguelen Islands",
+        "Amsterdam Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kerguelen archipelago is an isolated volcanic plateau populated only by French researchers, elephant seals, and king penguins."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the northernmost major island in the Canadian Arctic Archipelago, separated from Greenland only by the narrow Nares Strait?",
+      "options": [
+        "Devon Island",
+        "Axel Heiberg Island",
+        "Ellesmere Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ellesmere Island hosts Cape Columbia, the northernmost point of land in Canada, and the year-round military research station Alert."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Arctic archipelago belonging to Russia served as the testing ground for the Tsar Bomba, the largest nuclear detonation in human history?",
+      "options": [
+        "Novaya Zemlya",
+        "Severnaya Zemlya",
+        "New Siberian Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Novaya Zemlya is a mountainous Arctic island chain dividing the Barents and Kara seas, used as a major Soviet nuclear test range."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Svalbard Global Seed Vault officially open in the Norwegian Arctic?",
+      "target": 2008,
+      "metricUnit": "year",
+      "imperialDisplay": "2008 AD",
+      "explanation": "The Svalbard Global Seed Vault was officially opened on February 26, 2008, to provide permanent insurance against global agricultural loss."
+    },
+    {
+      "type": "mcq",
+      "question": "Which oceanic archipelago was formed over millions of years as the Pacific tectonic plate migrated northwest across a stationary mantle plume?",
+      "options": [
+        "Mariana Islands",
+        "Hawaiian Islands",
+        "Aleutian Islands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Hawaiian-Emperor seamount chain stretches over 6,000 kilometers, with active shield volcanoes Kilauea and Mauna Loa on Hawaii Island."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pacific volcanic archipelago located on the Equator inspired Charles Darwin theory of natural selection during his 1835 visit?",
+      "options": [
+        "Revillagigedo Islands",
+        "Juan Fernández Islands",
+        "Galápagos Islands"
+      ],
+      "correctIndex": 2,
+      "explanation": "Darwin studied the distinct adaptive beak morphologies of finches and carapaces of giant tortoises across different Galápagos islands."
+    },
+    {
+      "type": "mcq",
+      "question": "Which North Atlantic island nation sits directly astride both the divergent Mid-Atlantic Ridge and a deep thermal mantle plume?",
+      "options": [
+        "Iceland",
+        "Faroe Islands",
+        "Azores"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iceland rifts apart along the North American and Eurasian plates, resulting in extensive volcanism, geysers, and geothermal energy."
+    },
+    {
+      "type": "mcq",
+      "question": "Which autonomous Spanish archipelago off the coast of northwest Africa is crowned by the 3,715-meter volcanic peak of Mount Teide?",
+      "options": [
+        "Balearic Islands",
+        "Canary Islands",
+        "Madeira"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Canary Islands comprise seven main volcanic islands including Tenerife, Gran Canaria, Lanzarote, and Fuerteventura."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Portuguese volcanic archipelago in the mid-Atlantic consists of nine islands spread across three distinct tectonic groups?",
+      "options": [
+        "Madeira",
+        "Cabo Verde",
+        "Azores"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Azores lie near the triple junction where the North American, Eurasian, and African tectonic plates meet."
+    },
+    {
+      "type": "number",
+      "question": "In what year did English naturalist Charles Darwin visit the Galápagos Islands aboard HMS Beagle?",
+      "target": 1835,
+      "metricUnit": "year",
+      "imperialDisplay": "1835 AD",
+      "explanation": "Charles Darwin arrived in the Galápagos archipelago in September 1835, collecting zoological specimens that shaped On the Origin of Species."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest island in the Mediterranean Sea, separated from the Italian mainland by the narrow Strait of Messina?",
+      "options": [
+        "Sicily",
+        "Sardinia",
+        "Corsica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sicily spans over 25,700 square kilometers, dominated by the active volcano Mount Etna and historic Greco-Roman temples."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest and most populous of the Greek islands, famous for the ancient Minoan Bronze Age palace of Knossos?",
+      "options": [
+        "Rhodes",
+        "Crete",
+        "Corfu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crete was the center of Europe earliest advanced civilization, the Minoans, who flourished from roughly 2700 to 1420 BCE."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mediterranean island nation is geographically in Western Asia but politically integrated into the European Union?",
+      "options": [
+        "Malta",
+        "Rhodes",
+        "Cyprus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cyprus is divided by a UN buffer zone known as the Green Line separating the Republic of Cyprus from Northern Cyprus."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountainous French Mediterranean island located north of Sardinia is celebrated as the birthplace of Napoleon Bonaparte?",
+      "options": [
+        "Corsica",
+        "Elba",
+        "Capri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon was born in Ajaccio, Corsica, in 1769, shortly after the Republic of Genoa ceded the island to France."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest island on the European continent and the ninth-largest island in the world by surface area?",
+      "options": [
+        "Ireland",
+        "Great Britain",
+        "Iceland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Great Britain covers over 209,000 square kilometers and comprises England, Scotland, and Wales."
+    },
+    {
+      "type": "number",
+      "question": "What is the total surface area in square kilometers of Sicily, the largest island in the Mediterranean?",
+      "target": 25711,
+      "metricUnit": "sq km",
+      "imperialDisplay": "9,927 sq miles",
+      "explanation": "Sicily encompasses 25,711 square kilometers of diverse agricultural plains, coastal cliffs, and volcanic highlands."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Caribbean island is shared by two sovereign nations: Haiti occupying the western third and the Dominican Republic the eastern two-thirds?",
+      "options": [
+        "Cuba",
+        "Jamaica",
+        "Hispaniola"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hispaniola was the site of the first permanent European settlement in the Americas founded by Christopher Columbus in 1492."
+    },
+    {
+      "type": "mcq",
+      "question": "Which European island in the North Atlantic is politically divided between the independent Republic of Ireland and Northern Ireland?",
+      "options": [
+        "Ireland",
+        "Great Britain",
+        "Isle of Man"
+      ],
+      "correctIndex": 0,
+      "explanation": "The island of Ireland was partitioned in 1921 under the Government of Ireland Act, creating six northern counties within the UK."
+    },
+    {
+      "type": "mcq",
+      "question": "What small Caribbean island is divided between a northern French overseas collectivity and a southern Dutch constituent country?",
+      "options": [
+        "Saint Lucia",
+        "Saint Martin",
+        "Saint Thomas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saint Martin / Sint Maarten is the smallest inhabited island in the world divided between two sovereign nations, partitioned in 1648."
+    },
+    {
+      "type": "mcq",
+      "question": "Which archipelago at the southern tip of South America is divided between Chile and Argentina by the Beagle Channel and meridian lines?",
+      "options": [
+        "Falkland Islands",
+        "Chiloé Archipelago",
+        "Tierra del Fuego"
+      ],
+      "correctIndex": 2,
+      "explanation": "Isla Grande de Tierra del Fuego is partitioned with western fjords belonging to Chile and eastern plains belonging to Argentina."
+    },
+    {
+      "type": "mcq",
+      "question": "How many sovereign nations share territory on the Southeast Asian island of Borneo?",
+      "options": [
+        "3",
+        "2",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Borneo is uniquely shared by three sovereign countries: Brunei, Malaysia, and Indonesia."
+    },
+    {
+      "type": "number",
+      "question": "How many sovereign nations have territorial sovereignty over parts of the island of Borneo?",
+      "target": 3,
+      "metricUnit": "countries",
+      "imperialDisplay": "3 sovereign nations",
+      "explanation": "Borneo is divided among Indonesia (approx 73%), Malaysia (approx 26%), and the Sultanate of Brunei (approx 1%)."
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of floral species found on the island of Madagascar are completely endemic, occurring nowhere else on Earth?",
+      "options": [
+        "60 percent",
+        "90 percent",
+        "40 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Over 11,000 plant species in Madagascar are strictly endemic, including six of the world eight distinct baobab tree species."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Indonesian island is the primary natural habitat of the Komodo dragon, the heaviest living lizard species on Earth?",
+      "options": [
+        "Sulawesi",
+        "Sumatra",
+        "Komodo Island"
+      ],
+      "correctIndex": 2,
+      "explanation": "Varanus komodoensis thrives in the dry savannas of Komodo, Rinca, and Flores islands within Komodo National Park."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Yemeni island in the Arabian Sea is famous for bizarre endemic flora including the umbrella-shaped Dragon Blood Tree?",
+      "options": [
+        "Socotra",
+        "Zanzibar",
+        "Pemba"
+      ],
+      "correctIndex": 0,
+      "explanation": "Socotra is described as the most alien-looking place on Earth, with one-third of its plant species found nowhere else."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian island state south of Bass Strait is the exclusive wild habitat of the carnivorous marsupial the Tasmanian devil?",
+      "options": [
+        "Kangaroo Island",
+        "Tasmania",
+        "Flinders Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tasmania served as a natural refuge for marsupials extinct on the mainland, including the Tasmanian devil and the extinct thylacine."
+    },
+    {
+      "type": "mcq",
+      "question": "Which flightless, nocturnal ratite bird with hair-like feathers and nostrils at the tip of its beak is the national emblem of New Zealand?",
+      "options": [
+        "Kākāpō",
+        "Takahe",
+        "Kiwi"
+      ],
+      "correctIndex": 2,
+      "explanation": "The kiwi evolved in the absence of native terrestrial mammalian predators on the isolated islands of New Zealand."
+    },
+    {
+      "type": "number",
+      "question": "What approximate percentage of the native flora of Madagascar is entirely endemic to the island?",
+      "target": 90,
+      "metricUnit": "percent",
+      "imperialDisplay": "90 percent endemic",
+      "explanation": "Botanists estimate that roughly ninety percent of Madagascar twelve thousand plant species grow nowhere else naturally."
+    },
+    {
+      "type": "mcq",
+      "question": "What Indonesian island is the most populous island on Earth, home to over 150 million residents and more than half the national population?",
+      "options": [
+        "Java",
+        "Honshu",
+        "Great Britain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Java is one of the most densely settled major islands in the world, hosting Jakarta, Surabaya, Bandung, and numerous active volcanoes."
+    },
+    {
+      "type": "mcq",
+      "question": "What island off the coast of Queensland, Australia, is recognized as the largest sand island in the world, known traditionally as K gari?",
+      "options": [
+        "Moreton Island",
+        "Fraser Island",
+        "Stradbroke Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "K gari spans over 1,840 square kilometers of massive parabolic sand dunes, perched freshwater dune lakes, and rainforest growing in sand."
+    },
+    {
+      "type": "mcq",
+      "question": "Which volcanic island emerged from the North Atlantic Ocean near Iceland during a continuous submarine eruption from 1963 to 1967?",
+      "options": [
+        "Heimaey",
+        "Eldey",
+        "Surtsey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Surtsey is a pristine natural laboratory protected from human interference to study primary biological colonization on new land."
+    },
+    {
+      "type": "mcq",
+      "question": "According to Guinness World Records, what tiny rock ledge in the Isles of Scilly holds the title of the smallest island with a building on it?",
+      "options": [
+        "Bishop Rock",
+        "Just Room Enough Island",
+        "Fastnet Rock"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bishop Rock is capped entirely by a forty-nine-meter-tall granite Victorian lighthouse built to guide ships entering the English Channel."
+    },
+    {
+      "type": "mcq",
+      "question": "Which low-lying Pacific atoll nation comprising nine coral islands is one of the most vulnerable nations on Earth to rising sea levels?",
+      "options": [
+        "Nauru",
+        "Tuvalu",
+        "Palau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuvalu has a maximum elevation of less than five meters above sea level, pioneering digital nationhood initiatives."
+    },
+    {
+      "type": "number",
+      "question": "In what year did the volcanic island of Surtsey first emerge above sea level off the southern coast of Iceland?",
+      "target": 1963,
+      "metricUnit": "year",
+      "imperialDisplay": "1963 AD",
+      "explanation": "Surtsey broke through the ocean surface on November 14, 1963, creating an island of 2.7 square kilometers."
+    }
+  ]
+}

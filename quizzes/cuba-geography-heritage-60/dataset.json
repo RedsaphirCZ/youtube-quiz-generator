@@ -1,0 +1,703 @@
+{
+  "id": "cuba-geography-heritage-60",
+  "theme": "Cuba: Geography, Classic Havana & The Caribbean Pearl",
+  "title": "Cuba: Geography, Classic Havana & The Caribbean Pearl",
+  "description": "A 60-question grand master assessment exploring Havana & Habana Vieja (1519), 1950s classic cars, Viñales tobacco & mogotes (1999), Trinidad & Sugar Mills (45 m), Pico Turquino (1,974 m), Varadero (20 km), Son Cubano, Hemingway (1954), and the Bee Hummingbird (5 cm).",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What capital city of Cuba, founded in 1519 by Spanish conquistador Diego Velázquez de Cuéllar on the Gulf of Mexico, is the largest city in the Caribbean?",
+      "options": [
+        "Havana",
+        "Santiago de Cuba",
+        "Camagüey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally named San Cristóbal de la Habana, it was the key assembly port for the Spanish treasure fleets (Flota de Indias) before crossing the Atlantic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage historic city center in Havana contains hundreds of preserved Spanish colonial buildings across five historic main plazas?",
+      "options": [
+        "Vedado",
+        "Old Havana",
+        "Miramar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Restored under city historian Eusebio Leal, Habana Vieja is centered around Plaza de Armas, Plaza de la Catedral, Plaza Vieja, Plaza de San Francisco, and Plaza del Cristo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous eight-kilometer curved seawall and coastal boulevard in Havana is known as the Living Room of the City where locals gather at sunset?",
+      "options": [
+        "Paseo del Prado",
+        "Avenida de los Presidentes",
+        "The Malecón"
+      ],
+      "correctIndex": 2,
+      "explanation": "Constructed in stages beginning in 1901, the Malecón connects Habana Vieja to the Vedado and Miramar districts, frequently splashed by Atlantic storm waves.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental neoclassical building in Havana, completed in 1929 and resembling the United States Capitol in Washington, features a 92-meter dome and the Statue of the Republic?",
+      "options": [
+        "El Capitolio",
+        "Palacio de la Revolución",
+        "Gran Teatro de La Habana"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Capitolio houses a 25-carat replica diamond set into the floor marking Kilometer Zero for all highway distances across the island of Cuba.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 16th-century star-shaped stone fortress overlooking Havana harbor is the oldest colonial stone fortress in the Americas, crowned by the bronze weathervane statue La Giraldilla?",
+      "options": [
+        "Castillo del Morro",
+        "Castillo de la Real Fuerza",
+        "Fortaleza de San Carlos de la Cabaña"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Giraldilla depicts Inés de Bobadilla, the only female governor of Cuba, who spent years searching the ocean horizon for her lost husband Hernando de Soto.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic city of San Cristóbal de la Habana officially founded by the Spanish Crown on its current harbor site?",
+      "target": 1519,
+      "metricUnit": "year",
+      "imperialDisplay": "1519 AD",
+      "explanation": "Havana was formally established at its present location on Havana Bay on November 16, 1519.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive nickname is given in Cuba to the tens of thousands of vintage 1950s American automobiles that continue to cruise the streets as shared collective taxis?",
+      "options": [
+        "Chivas",
+        "Cocotaxis",
+        "Almendrones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Almendrones (derived from 'almond' for their rounded 1950s body shapes) include iconic Chevrolets, Fords, Buicks, and Cadillacs preserved through ingenious domestic repair.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Why did Cuba become an isolated, living rolling museum of pre-1960 classic American cars following the 1959 Cuban Revolution?",
+      "options": [
+        "US trade embargo and governmental bans on importing foreign automobiles and commercial replacement parts",
+        "A national law mandating only vintage cars",
+        "Special fuel requirements only found in old engines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cut off from American parts, Cuban mechanics adapted Russian boat engines, tractor carburetors, and hand-machined parts to keep 60,000 vintage vehicles running.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What three-wheeled, bright yellow egg-shaped motorized rickshaw scooters, resembling a hollow coconut, are popular for tourist transport across Havana?",
+      "options": [
+        "Bicitaxis",
+        "Cocotaxis",
+        "Guaguas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Introduced in the late 1990s, Cocotaxis feature two passenger seats behind a motorcycle driver inside a fiberglass shell.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Spanish-Cuban word is commonly used across Cuba to refer to public city transit buses, which historically included giant converted semi-truck trailers called Camellos (Camels)?",
+      "options": [
+        "Colectivos",
+        "Camionetas",
+        "Guaguas"
+      ],
+      "correctIndex": 2,
+      "explanation": "The iconic Camello buses of the 1990s Special Period carried up to three hundred passengers inside a dual-humped steel semi-trailer pulled by a diesel truck.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American car brand is the most common among surviving vintage classic cars in Cuba, particularly 1955 to 1957 Bel Air models?",
+      "options": [
+        "Chevrolet",
+        "Ford",
+        "Plymouth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1957 Chevrolet Bel Air with its tail fins and chrome grille is the international photographic emblem of Havana retro streetscape.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "From which decade of American automotive manufacturing do the vast majority of classic vintage cars in Cuba originate?",
+      "target": 1950,
+      "metricUnit": "decade",
+      "imperialDisplay": "1950s classic cars",
+      "explanation": "Approximately 60,000 vintage vehicles from the 1950s (primarily 1950 to 1959 models) remain operational across Cuba.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning UNESCO World Heritage valley in Pinar del Río Province features flat agricultural floors framed by isolated steep-sided limestone hills called mogotes?",
+      "options": [
+        "Yumurí Valley",
+        "Viñales Valley",
+        "Valle de los Ingenios"
+      ],
+      "correctIndex": 1,
+      "explanation": "Farmers in Viñales still plow rich red soils using teams of oxen, preserving traditional methods for growing the world finest wrapper tobacco leaves.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous premium tobacco-growing region in Pinar del Río is recognized globally as the only place producing wrapper, binder, and filler leaves for authentic Habano cigars?",
+      "options": [
+        "Semi Vuelta",
+        "Vuelta Arriba",
+        "Vuelta Abajo"
+      ],
+      "correctIndex": 2,
+      "explanation": "A unique combination of microclimate, humidity, and iron-rich fertile red soils makes Vuelta Abajo tobacco leaves prized by brands like Cohiba and Montecristo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 120-meter painted rock art mural on the cliff face of Pita mogote in the Viñales Valley was commissioned in 1961 by Fidel Castro?",
+      "options": [
+        "Mural of Prehistory",
+        "Mural of the Revolution",
+        "Mural of the Mogotes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by Leovigildo González Morillo, the giant outdoor mural depicts evolutionary history from prehistoric ammonites and dinosaurs to human beings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What subterranean limestone cave in Viñales allows visitors to take an underground motorized boat ride along the subterranean flowing waters of the San Vicente River?",
+      "options": [
+        "Cueva de Santo Tomás",
+        "Cueva del Indio",
+        "Gran Caverna de Palmarito"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rediscovered in 1920, the cave was used as a sanctuary by indigenous Guanahatabey people, featuring illuminated stalactites resembling animal shapes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional wooden thatched-roof curing barns, covered in royal palm fronds (guano), are used by Cuban veguero farmers to air-dry tobacco leaves?",
+      "options": [
+        "Bohíos",
+        "Secaderos",
+        "Casas de Tabaco"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tobacco leaves are hung on wooden poles (cujes) for fifty days to undergo natural fermentation and curing from green to rich amber brown.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the breathtaking agricultural landscape of the Viñales Valley officially inscribed as a UNESCO World Heritage site?",
+      "target": 1999,
+      "metricUnit": "year",
+      "imperialDisplay": "1999 AD",
+      "explanation": "Viñales Valley was designated a UNESCO World Heritage Cultural Landscape in December 1999.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which exceptionally preserved colonial town in central Cuba, founded in 1514, is famous for pastel-painted mansions, cobblestone streets, and red clay-tiled roofs?",
+      "options": [
+        "Trinidad",
+        "Cienfuegos",
+        "Sancti Spíritus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trinidad grew immensely wealthy during the 19th-century sugarcane boom, virtually frozen in time when the sugar trade declined in the late 1800s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage valley near Trinidad contains the ruins of over seventy historic 19th-century sugar mills, slave quarters, and manor houses?",
+      "options": [
+        "Viñales Valley",
+        "Valley of the Sugar Mills",
+        "Canímar Valley"
+      ],
+      "correctIndex": 1,
+      "explanation": "At its peak in the 1830s, the valley produced thirty thousand tons of sugar annually, powered by the labor of over eleven thousand enslaved Afro-descendants.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic 45-meter, seven-story watchtower in the Valley of the Sugar Mills was built in 1816 to oversee enslaved workers in the cane fields and sound bells for work shifts?",
+      "options": [
+        "Trinidad Bell Tower",
+        "San Isidro Tower",
+        "Manaca Iznaga Tower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Visitors can climb 184 wooden steps to the top of the tower for panoramic views across the sugarcane valley to the Escambray Mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional refreshing local cocktail of Trinidad combines aguardiente (raw cane rum), fresh lime juice, water, and sweet local mountain honey, served in a terracotta cup?",
+      "options": [
+        "Canchánchara",
+        "Mojito",
+        "Daiquiri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Created by 19th-century Cuban mambí independence fighters to warm up in the trenches and fight off respiratory illnesses during the Ten Years War.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French-influenced neoclassical port city on Jagua Bay, known as the Pearl of the South, is the only city in Cuba founded by French immigrants (in 1819)?",
+      "options": [
+        "Matanzas",
+        "Cienfuegos",
+        "Cárdenas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cienfuegos UNESCO historic center features wide Parisian-style boulevards, the opulent Tomás Terry Theatre, and the eclectic Palacio de Valle.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total height in meters of the historic Manaca Iznaga watchtower in the Valley of the Sugar Mills near Trinidad?",
+      "target": 45,
+      "metricUnit": "meters",
+      "imperialDisplay": "148 feet tall (7 stories)",
+      "explanation": "The Manaca Iznaga Tower stands forty-five meters tall, built by sugar baron Alejo Iznaga in 1816.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Cuba, rising 1,974 meters in the rugged Sierra Maestra mountain range in southeastern Cuba?",
+      "options": [
+        "Pico Cuba",
+        "Gran Piedra",
+        "Pico Turquino"
+      ],
+      "correctIndex": 2,
+      "explanation": "The summit is crowned by a bronze bust of Cuban national hero and poet José Martí, sculpted by Jilma Madera and placed on the centenary of his birth in 1953.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What rugged, forested mountain range in southeastern Cuba served as the secret revolutionary mountain guerrilla stronghold for Fidel Castro and Che Guevara from 1956 to 1958?",
+      "options": [
+        "The Sierra Maestra",
+        "Sierra del Escambray",
+        "Sierra del Rosario"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guerrillas established the Comandancia General de la Plata, broadcasting revolutionary news across the island on the clandestine Radio Rebelde.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal 63,000-ton volcanic monolith boulder in the Sierra Maestra above Santiago de Cuba sits atop a mountain ridge at 1,234 meters elevation?",
+      "options": [
+        "El Yunque",
+        "La Gran Piedra",
+        "Pan de Guajaibon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recognized by Guinness as the third largest monolith in the world, visitors climb 452 stone steps to the summit, where the lights of Jamaica are visible on clear nights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What flat-topped anvil-shaped limestone table mountain (tepuy) near Baracoa in eastern Cuba was described by Christopher Columbus in his 1492 maritime logbook?",
+      "options": [
+        "Pico Turquino",
+        "Pan de Matanzas",
+        "El Yunque"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rising 575 meters through dense tropical rainforests, El Yunque is a sacred national natural monument home to rare endemic polymorphic snails (Polymita picta).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest Spanish colonial settlement in Cuba, founded in 1511 on the eastern tip of the island, known as the First City (Ciudad Primada)?",
+      "options": [
+        "Baracoa",
+        "Bayamo",
+        "Camagüey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolated by mountains until the La Farola mountain highway was built in the 1960s, Baracoa is famous for chocolate production and the Cruz de la Parra cross planted by Columbus.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Pico Turquino, the highest mountain peak in Cuba?",
+      "target": 1974,
+      "metricUnit": "meters",
+      "imperialDisplay": "6,476 feet",
+      "explanation": "Pico Turquino stands at an official elevation of 1,974 meters in the Sierra Maestra of Granma Province.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous resort peninsula in Matanzas Province features a continuous 20-kilometer stretch of powdery white sand beach along the turquoise Straits of Florida?",
+      "options": [
+        "Cayo Santa María",
+        "Varadero",
+        "Playa Ancón"
+      ],
+      "correctIndex": 1,
+      "explanation": "Varadero is the premier beach destination in the Caribbean, home to Josone Park, Ambrosio Cave with ancient pictographs, and Dupont Mansion (Xanadú).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 4,500-square-kilometer wetland biosphere reserve in southern Matanzas Province is the largest and most pristine wetland ecosystem in the entire Caribbean?",
+      "options": [
+        "Guanahacabibes",
+        "Cauto Delta",
+        "Zapata Peninsula"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Zapata Swamp is home to 900 plant species, 175 bird species (including the Zapata wren), and the Criadero de Cocodrilos crocodile breeding facility.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which critically endangered, highly aggressive crocodilian species, recognizable by its bright yellowish-black pebble patterning and bony eyebrow ridges, is endemic exclusively to Cuba?",
+      "options": [
+        "Cuban Crocodile",
+        "American Crocodile",
+        "Morelet Crocodile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Possessing strong leaping abilities to catch arboreal prey, wild populations are restricted to the freshwater marshes of the Zapata Swamp and Lanier Swamp on Isla de la Juventud.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which protected tropical coral archipelago off the southern coast of Cuba, named by Christopher Columbus in honor of Queen Isabella, is recognized as the most pristine marine reserve in the Caribbean?",
+      "options": [
+        "Jardines del Rey",
+        "Jardines de la Reina",
+        "Canarreos Archipelago"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heavily restricted to scientific researchers and limited scuba divers, the marine park harbors healthy elkhorn corals, silvertip reef sharks, and saltwater American crocodiles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous historic inlet on the Zapata Peninsula was the site of the failed April 1961 CIA-sponsored invasion by Brigade 2506 Cuban exiles?",
+      "options": [
+        "Guantánamo Bay",
+        "Mariel Bay",
+        "Bay of Pigs Bahía de Cochinos Playa Girón"
+      ],
+      "correctIndex": 2,
+      "explanation": "The invasion was defeated within seventy-two hours, commemorated today by the Playa Girón Museum displaying captured aircraft, tanks, and historical artifacts.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total continuous length in kilometers of the famous white-sand beach strip on the Hicacos Peninsula in Varadero, Cuba?",
+      "target": 20,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "12.4 miles of uninterrupted beach",
+      "explanation": "Varadero features twenty kilometers of uninterrupted white sand beach along the north coast of Cuba.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What foundational genre of Cuban popular music, originating in eastern rural Oriente in the late 19th century, fuses Spanish guitar decima melodies with African syncopated percussion?",
+      "options": [
+        "Son Cubano",
+        "Danzón",
+        "Bolero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Son Cubano is the primary ancestor of modern international Salsa, played on the tres guitar, bongos, maracas, claves, and acoustic double bass.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary ensemble of veteran Cuban musicians recorded a Grammy-winning 1997 album produced by Ry Cooder and featured in an Oscar-nominated Wim Wenders documentary?",
+      "options": [
+        "Los Van Van",
+        "Buena Vista Social Club",
+        "Irakere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Featuring masters like Ibrahim Ferrer, Compay Segundo, Omara Portuondo, and pianist Rubén González, the project revived global love for classic Cuban son and bolero.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Afro-Cuban secular music and dance tradition, inscribed on the UNESCO Intangible Cultural Heritage list in 2016, is driven by conga drums, claves, and polyrhythmic dancing?",
+      "options": [
+        "Mambo",
+        "Cha-Cha-Chá",
+        "Rumba"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rumba developed in the docks of Havana and Matanzas, consisting of three main styles: Yambú (slow, graceful), Guaguancó (fast, courtship pursuit), and Columbia (athletic male solo).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous open-air cabaret in Havana, founded in 1939 beneath towering royal palms, is celebrated for lavish feathered dancing shows and big band orchestras?",
+      "options": [
+        "Tropicana Club",
+        "Club Parisien",
+        "El Floridita"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known as the Paradise Under the Stars, Tropicana hosted legendary performers including Nat King Cole, Josephine Baker, and Celia Cruz.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What national ballroom dance of Cuba, originating in Matanzas in the 1870s from the French contredanse, is performed in formal elegance by charanga orchestras with flutes and violins?",
+      "options": [
+        "Mambo",
+        "Danzón",
+        "Cha-Cha-Chá"
+      ],
+      "correctIndex": 1,
+      "explanation": "Created by composer Miguel Faílde in 1879, Danzón was officially declared the musical and dance heritage of the Cuban nation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic, multi-million-selling Buena Vista Social Club album recorded in Havana and released internationally?",
+      "target": 1997,
+      "metricUnit": "year",
+      "imperialDisplay": "1997 AD",
+      "explanation": "Buena Vista Social Club was recorded in Havana in March 1996 and released in September 1997, winning the 1998 Grammy Award.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Cuban cocktail, invented in Havana in the 16th century by privateer Sir Francis Drake as 'El Draque', combines light rum, fresh lime juice, sugar, spearmint (hierbabuena), and club soda?",
+      "options": [
+        "The Daiquiri",
+        "Cuba Libre",
+        "The Mojito"
+      ],
+      "correctIndex": 2,
+      "explanation": "Popularized globally at the historic tavern La Bodeguita del Medio in Old Havana, where mint leaves are gently muddled to release essential aromatic oils.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What classic Cuban cocktail, created in 1898 by American mining engineer Jennings Cox in the iron-mining town of Daiquirí, blends light rum, fresh lime juice, and simple syrup shaken with shaved ice?",
+      "options": [
+        "The Daiquiri",
+        "The Mojito",
+        "Presidente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Master bartender Constantino Ribalaigua Vert perfected the Frozen Daiquiri at El Floridita bar in Havana, where a life-size bronze statue of Hemingway sits at the bar.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American Nobel laureate author lived in Cuba for over twenty years (1939 to 1960) at his estate Finca Vigía in San Francisco de Paula, writing The Old Man and the Sea?",
+      "options": [
+        "Graham Greene",
+        "Ernest Hemingway",
+        "Tennessee Williams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemingway fished aboard his wooden boat Pilar from the village of Cojímar, donating his 1954 Nobel Prize medal to the people of Cuba at the Sanctuary of El Cobre.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous cocktail created in Havana around 1900, meaning 'Free Cuba', combines Cuban light rum, cola, and fresh lime juice on the rocks?",
+      "options": [
+        "Mojito",
+        "Piña Colada",
+        "Cuba Libre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Invented by US Signal Corps soldiers and Cuban patriots celebrating liberation at the end of the Spanish-American War, toasted with the cry '¡Por Cuba Libre!'",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-leading Cuban rum brand, founded in Cárdenas in 1878 by José Arechabala and produced in San José de las Lajas, is aged in white oak barrels by master Maestros del Ron Cubano?",
+      "options": [
+        "Havana Club",
+        "Bacardi",
+        "Santiago de Cuba"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2022, the Knowledge of the Masters of Cuban Light Rum was inscribed on the UNESCO Intangible Cultural Heritage list.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Ernest Hemingway win the Nobel Prize in Literature for his Cuban fishing masterpiece The Old Man and the Sea?",
+      "target": 1954,
+      "metricUnit": "year",
+      "imperialDisplay": "1954 AD",
+      "explanation": "Ernest Hemingway received the Nobel Prize in Literature in October 1954, declaring himself a 'real Cuban'.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic city in eastern Cuba, founded in 1515, was the first capital of Cuba and is celebrated as the Cradle of the Cuban Revolution and Capital of the Caribbean?",
+      "options": [
+        "Camagüey",
+        "Santiago de Cuba",
+        "Holguín"
+      ],
+      "correctIndex": 1,
+      "explanation": "Santiago is famous for Afro-Cuban carnival traditions, the Parque Céspedes, and the Casa de Diego Velázquez (the oldest residence in Cuba, built in 1522).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental multi-level coastal fortress on a 60-meter limestone cliff guarding the entrance to Santiago harbor, designed by Italian engineer Giovanni Battista Antonelli, is a UNESCO World Heritage site?",
+      "options": [
+        "Castillo de la Real Fuerza",
+        "Castillo de Jagua",
+        "San Pedro de la Roca Castle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Constructed between 1638 and 1700, the complex features bastions, drawbridges, and gun batteries designed to repel British, French, and Dutch buccaneers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prominent cemetery in Santiago de Cuba serves as the National Pantheon of Cuba, containing the monumental mausoleums of national hero José Martí and revolutionary leader Fidel Castro?",
+      "options": [
+        "Santa Ifigenia Cemetery",
+        "Colón Cemetery",
+        "Tomás Acea Cemetery"
+      ],
+      "correctIndex": 0,
+      "explanation": "José Martí mausoleum is positioned so that sunlight strikes his wooden casket draped in the Cuban flag throughout the day, guarded by an elite honor guard.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What syncretic Afro-Cuban spiritual tradition, rooted in the Yoruba religion of West Africa combined with Roman Catholic saints, is widely practiced across Cuba?",
+      "options": [
+        "Voodoo",
+        "Santería",
+        "Candomblé"
+      ],
+      "correctIndex": 1,
+      "explanation": "Initiates (Santeros) consult the Ifá divination system and venerate divine Orishas including Changó (fire/thunder), Yemayá (ocean/motherhood), and Ochún (rivers/love).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Catholic basilica in the foothills of the Sierra Maestra near Santiago houses the miraculous 1612 statue of the Virgin of Charity (Our Lady of Charity of El Cobre), the Patron Saint of Cuba?",
+      "options": [
+        "Havana Cathedral",
+        "Camagüey Cathedral",
+        "National Sanctuary of Our Lady of Charity of El Cobre"
+      ],
+      "correctIndex": 2,
+      "explanation": "According to legend, the wooden statue was discovered floating undamaged in Nipe Bay in 1612 by two indigenous brothers and an enslaved boy known as the Three Juans.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Fidel Castro lead the historic armed assault on the Moncada Barracks in Santiago de Cuba, launching the 26th of July Movement?",
+      "target": 1953,
+      "metricUnit": "year",
+      "imperialDisplay": "1953 AD",
+      "explanation": "The attack on the Moncada Barracks occurred on July 26, 1953, celebrated as the National Day of Rebellion in Cuba.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the smallest bird species in the world, measuring just five centimeters in total length and weighing less than two grams, endemic exclusively to the forests of Cuba?",
+      "options": [
+        "Bee Hummingbird Zunzuncito",
+        "Cuban Tody",
+        "Tocororo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zunzuncito wings beat eighty to two hundred times per second, hovering like a miniature bumblebee to drink nectar from hibiscus and orchid flowers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colorful bird species, with red, white, and blue plumage matching the colors of the national flag, is the official National Bird of Cuba?",
+      "options": [
+        "Cuban Parrot",
+        "The Cuban Trogon Tocororo",
+        "Cuban Amazon"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tocororo cannot survive in captivity, symbolizing the Cuban people love of freedom and independence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative provinces (plus the special municipality of Isla de la Juventud) is the Republic of Cuba politically organized?",
+      "options": [
+        "12 Provinces and 2 Municipalities",
+        "18 Provinces and 1 Municipality",
+        "15 Provinces and 1 Special Municipality"
+      ],
+      "correctIndex": 2,
+      "explanation": "The fifteen provinces include Pinar del Río, Artemisa, La Habana, Mayabeque, Matanzas, Cienfuegos, Villa Clara, Sancti Spíritus, Ciego de Ávila, Camagüey, Las Tunas, Holguín, Granma, Santiago de Cuba, and Guantánamo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total geographical land area of the island nation of Cuba in square kilometers, making it by far the largest country in the Caribbean archipelago?",
+      "options": [
+        "109,884 Square Kilometers",
+        "45,000 Square Kilometers",
+        "180,000 Square Kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cuba spans 1,250 kilometers from Cape San Antonio in the west to Point Maisí in the east, roughly the land area of England or the US state of Virginia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second largest island in the Cuban archipelago, located fifty kilometers south of the mainland in the Gulf of Batabanó, historically known as the Isle of Pines?",
+      "options": [
+        "Cayo Coco",
+        "Isle of Youth",
+        "Cayo Largo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Famous for black sand beaches, grapefruit orchards, and the Presidio Modelo panopticon prison where Fidel Castro was imprisoned following the Moncada assault.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total body length in centimeters of the Cuban Bee Hummingbird (Zunzuncito), the smallest living bird on Earth?",
+      "target": 5,
+      "metricUnit": "centimeters",
+      "imperialDisplay": "2 inches long (weighs 1.8 grams)",
+      "explanation": "The Bee Hummingbird (Mellisuga helenae) measures approximately five centimeters from beak to tail tip.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

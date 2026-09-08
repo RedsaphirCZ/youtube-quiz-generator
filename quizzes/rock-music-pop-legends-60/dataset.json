@@ -1,0 +1,703 @@
+{
+  "id": "rock-music-pop-legends-60",
+  "theme": "Rock & Pop Music Legends: Iconic Bands & Master Albums",
+  "title": "Rock & Pop Music Legends: Iconic Bands & Master Albums",
+  "description": "A 60-question comprehensive journey through the British Invasion, Led Zeppelin, Pink Floyd, Queen, guitar virtuosos, the King of Pop, punk, grunge, Motown soul, and modern stadium record-breakers.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In which English city did The Beatles form in 1960 before launching the global phenomenon of Beatlemania?",
+      "options": [
+        "Liverpool",
+        "Manchester",
+        "Birmingham"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Lennon, Paul McCartney, George Harrison, and Ringo Starr honed their sound at Liverpool's Cavern Club and in Hamburg before achieving worldwide superstardom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1967 Beatles album is widely celebrated as a transformative milestone in rock music for its studio experimentation and concept album format?",
+      "options": [
+        "Abbey Road",
+        "Sgt. Pepper's Lonely Hearts Club Band",
+        "Revolver"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sgt. Pepper spent 27 weeks at number one in the UK and won four Grammy Awards, including the first Album of the Year for a rock record.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous pedestrian crossing in London was photographed for the cover of The Beatles' final recorded studio album in 1969?",
+      "options": [
+        "Carnaby Street",
+        "Baker Street",
+        "Abbey Road"
+      ],
+      "correctIndex": 2,
+      "explanation": "The iconic album cover shows the four Beatles walking across the zebra crossing outside EMI Studios, later renamed Abbey Road Studios.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which record producer, often referred to as the Fifth Beatle, produced almost all of The Beatles' landmark studio recordings?",
+      "options": [
+        "George Martin",
+        "Brian Epstein",
+        "Phil Spector"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir George Martin's classical training and inventive orchestrations helped realize the complex musical visions of Lennon and McCartney.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On which legendary American television variety show did The Beatles make their breakthrough US live debut on 9 February 1964?",
+      "options": [
+        "American Bandstand",
+        "The Ed Sullivan Show",
+        "The Tonight Show"
+      ],
+      "correctIndex": 1,
+      "explanation": "An estimated 73 million viewers tuned in to watch The Beatles on Ed Sullivan, sparking the British Invasion across the United States.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many number-one hit singles did The Beatles achieve on the US Billboard Hot 100 chart, an all-time band record?",
+      "target": 20,
+      "metricUnit": "number-one hits",
+      "imperialDisplay": "20 chart-topping singles",
+      "explanation": "The Beatles hold the all-time record for the most Billboard Hot 100 number-one singles by any group, achieving 20 chart-toppers between 1964 and 1970.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary English rock band featured Robert Plant, Jimmy Page, John Paul Jones, and drummer John Bonham?",
+      "options": [
+        "Deep Purple",
+        "Black Sabbath",
+        "Led Zeppelin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Formed in London in 1968, Led Zeppelin pioneered hard rock and heavy metal with epic tracks like Stairway to Heaven and Kashmir.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1973 Pink Floyd conceptual masterpiece explored themes of greed, time, and mental illness, featuring a prism dispersing light on its cover?",
+      "options": [
+        "The Dark Side of the Moon",
+        "The Wall",
+        "Wish You Were Here"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineered by Alan Parsons at Abbey Road, The Dark Side of the Moon spent a record-breaking 741 consecutive weeks on the Billboard 200 chart.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which flamboyant frontman and operatic vocalist led Queen, composing masterpieces such as Bohemian Rhapsody and We Are the Champions?",
+      "options": [
+        "Roger Daltrey",
+        "Freddie Mercury",
+        "Mick Jagger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Freddie Mercury possessed an astonishing four-octave vocal range and captivated stadium audiences with his magnetic stage presence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English rock band, fronted by Mick Jagger and guitarist Keith Richards, has performed continuously since 1962 with hits like Paint It Black?",
+      "options": [
+        "The Kinks",
+        "The Animals",
+        "The Rolling Stones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as The Greatest Rock and Roll Band in the World, The Rolling Stones defined British blues-rock with albums like Sticky Fingers and Exile on Main St.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English band created the landmark 1969 rock opera Tommy and the stadium anthem Baba O'Riley?",
+      "options": [
+        "The Who",
+        "Cream",
+        "The Yardbirds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Who, featuring Pete Townshend, Roger Daltrey, John Entwistle, and Keith Moon, were renowned for high-energy concerts and instrument-smashing finales.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Led Zeppelin release their landmark untitled fourth studio album, featuring Stairway to Heaven?",
+      "target": 1971,
+      "metricUnit": "CE",
+      "imperialDisplay": "November 1971",
+      "explanation": "Led Zeppelin IV was released on 8 November 1971, going on to sell over 37 million copies worldwide.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which left-handed guitar wizard revolutionized electric guitar playing with his band The Jimi Hendrix Experience at Monterey and Woodstock?",
+      "options": [
+        "Eric Clapton",
+        "Jimi Hendrix",
+        "Jeff Beck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hendrix expanded the sonic palette of the electric guitar using controlled feedback, wah-wah pedals, and unprecedented expressive phrasing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary guitarist was inducted into the Rock and Roll Hall of Fame three separate times: with The Yardbirds, Cream, and as a solo artist?",
+      "options": [
+        "Jimmy Page",
+        "David Gilmour",
+        "Eric Clapton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clapton earned the nickname Slowhand and created timeless classics including Layla, Crossroads, and Tears in Heaven.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which virtuoso guitarist popularized two-handed tapping and revolutionized hard rock guitar technique with his 1978 instrumental Eruption?",
+      "options": [
+        "Eddie Van Halen",
+        "Randy Rhoads",
+        "Steve Vai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eddie Van Halen's blistering finger-tapping, custom Frankenstrat guitar, and innovative harmonic pinch squeals changed rock guitar forever.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Texas blues guitarist led the band Double Trouble and revitalized modern electric blues before his tragic death in 1990?",
+      "options": [
+        "Buddy Guy",
+        "Stevie Ray Vaughan",
+        "Johnny Winter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stevie Ray Vaughan blended searing speed with soulful blues phrasing on albums like Texas Flood and Couldn't Stand the Weather.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Pink Floyd lead guitarist performed the critically acclaimed emotional solos on Comfortably Numb and Shine On You Crazy Diamond?",
+      "options": [
+        "Syd Barrett",
+        "Richard Wright",
+        "David Gilmour"
+      ],
+      "correctIndex": 2,
+      "explanation": "David Gilmour's soaring tone, distinctive vibrato, and melodic elegance produced some of the most celebrated guitar solos in rock history.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Jimi Hendrix perform his legendary distortion-laden rendition of The Star-Spangled Banner at the Woodstock Festival?",
+      "target": 1969,
+      "metricUnit": "CE",
+      "imperialDisplay": "August 1969",
+      "explanation": "Hendrix closed the Woodstock Festival on Monday morning, 18 August 1969, performing his radical sonic interpretation of the US national anthem.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary pop icon released Thriller in 1982, which became and remains the best-selling studio album in global music history?",
+      "options": [
+        "Michael Jackson",
+        "Prince",
+        "George Michael"
+      ],
+      "correctIndex": 0,
+      "explanation": "Produced by Quincy Jones, Thriller won eight Grammy Awards and featured smash hits Billie Jean, Beat It, and the revolutionary Thriller music video.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pop superstar, crowned the Queen of Pop, redefined music videos and live performance with hits like Like a Virgin and Vogue?",
+      "options": [
+        "Cyndi Lauper",
+        "Madonna",
+        "Janet Jackson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Madonna is certified by Guinness World Records as the best-selling female recording artist of all time, with over 300 million records sold.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Minneapolis multi-instrumentalist genius wrote, produced, and performed the landmark 1984 film soundtrack album Purple Rain?",
+      "options": [
+        "Stevie Wonder",
+        "Rick James",
+        "Prince"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prince played nearly all instruments on his records and effortlessly blended rock, funk, R&B, and synth-pop with flamboyant theatricality.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vocal powerhouse recorded the multi-platinum anthem I Will Always Love You for the 1992 film The Bodyguard?",
+      "options": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Celine Dion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whitney Houston's soaring performance of Dolly Parton's song spent 14 consecutive weeks at number one on the Billboard Hot 100.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which chameleon-like British musical visionary created theatrical personas such as Ziggy Stardust, Aladdin Sane, and The Thin White Duke?",
+      "options": [
+        "Elton John",
+        "David Bowie",
+        "Marc Bolan"
+      ],
+      "correctIndex": 1,
+      "explanation": "David Bowie constantly reinvented his musical style across five decades, releasing groundbreaking albums like Space Oddity, Heroes, and Blackstar.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many million certified and estimated worldwide copies has Michael Jackson's Thriller album sold?",
+      "target": 70,
+      "metricUnit": "million copies",
+      "imperialDisplay": "approx. 70M sold",
+      "explanation": "Thriller remains the highest-selling album in music history, with estimated worldwide sales exceeding 70 million copies.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Birmingham band, featuring Ozzy Osbourne and Tony Iommi, is widely credited with inventing heavy metal with their 1970 self-titled debut?",
+      "options": [
+        "Judas Priest",
+        "Motorhead",
+        "Black Sabbath"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tony Iommi's down-tuned, sinister guitar riffs and Sabbath's dark lyrical themes laid the foundational blueprint for all heavy metal subgenres.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Australian hard rock powerhouse recorded the massive-selling 1980 album Back in Black with new lead singer Brian Johnson?",
+      "options": [
+        "AC/DC",
+        "INXS",
+        "Midnight Oil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Recorded after the tragic death of singer Bon Scott, Back in Black became one of the top three highest-selling albums in world history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American band led the 1980s thrash metal movement, releasing the genre-defining 1986 album Master of Puppets?",
+      "options": [
+        "Megadeth",
+        "Metallica",
+        "Slayer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metallica's complex time signatures, aggressive speed, and James Hetfield's fierce vocals propelled them from underground thrash to global stadium headliners.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Los Angeles rock band achieved astronomical success with their 1987 debut album Appetite for Destruction, featuring Sweet Child o' Mine?",
+      "options": [
+        "Motley Crue",
+        "Poison",
+        "Guns N' Roses"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fronted by Axl Rose with Slash on lead guitar, Appetite for Destruction sold over 30 million copies, making it the best-selling debut album in US history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneering British heavy metal band created the iconic mascot Eddie and released anthems like The Number of the Beast and Run to the Hills?",
+      "options": [
+        "Iron Maiden",
+        "Def Leppard",
+        "Saxon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron Maiden, fronted by powerhouse vocalist Bruce Dickinson, became a global touring titan renowned for intricate dual-guitar harmonies.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Australian hard rock legends AC/DC release their landmark tribute album Back in Black?",
+      "target": 1980,
+      "metricUnit": "CE",
+      "imperialDisplay": "July 1980",
+      "explanation": "Back in Black was released on 25 July 1980, featuring timeless anthems Hells Bells, You Shook Me All Night Long, and the title track.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which London punk band released the ferocious anti-establishment anthem God Save the Queen during Queen Elizabeth II's Silver Jubilee in 1977?",
+      "options": [
+        "The Clash",
+        "Sex Pistols",
+        "The Damned"
+      ],
+      "correctIndex": 1,
+      "explanation": "Managed by Malcolm McLaren and fronted by Johnny Rotten, the Sex Pistols ignited the British punk movement with their lone studio album.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which politically charged British punk band blended punk with reggae, rockabilly, and ska on their landmark 1979 double album London Calling?",
+      "options": [
+        "The Jam",
+        "Buzzcocks",
+        "The Clash"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fronted by Joe Strummer and Mick Jones, The Clash earned the nickname The Only Band That Matters for their passionate social commentary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Queens, New York four-piece pioneered fast, stripped-down punk rock with three-chord anthems like Blitzkrieg Bop?",
+      "options": [
+        "Ramones",
+        "Television",
+        "Dead Boys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wearing leather jackets and ripped jeans, the Ramones standardized punk rock's high-tempo, no-frills formula during their 1970s CBGB performances.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American New Wave band, fronted by David Byrne, recorded the hit Psycho Killer and filmed the acclaimed 1984 concert movie Stop Making Sense?",
+      "options": [
+        "The Cars",
+        "Talking Heads",
+        "Devo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Talking Heads combined art school sensibilities, post-punk rhythms, and world funk grooves under Byrne's eccentric and energetic leadership.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which New York band fronted by Debbie Harry crossed over from punk to disco and pop stardom with hits like Heart of Glass and Call Me?",
+      "options": [
+        "The B-52's",
+        "The Pretenders",
+        "Blondie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blondie was a central fixture of the CBGB scene and achieved four Billboard Hot 100 number-one singles between 1979 and 1981.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many official studio albums did the English punk band Sex Pistols release before breaking up in 1978?",
+      "target": 1,
+      "metricUnit": "studio album",
+      "imperialDisplay": "1 official studio release",
+      "explanation": "The Sex Pistols released only one official studio album: Never Mind the Bollocks, Here's the Sex Pistols, issued in October 1977.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Seattle band fronted by Kurt Cobain brought grunge and alternative rock into the mainstream with their 1991 anthem Smells Like Teen Spirit?",
+      "options": [
+        "Nirvana",
+        "Pearl Jam",
+        "Soundgarden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nirvana's breakout album Nevermind knocked Michael Jackson's Dangerous off the top of the Billboard 200 chart in January 1992.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Seattle grunge band fronted by Eddie Vedder released the smash debut album Ten in 1991 featuring Alive and Jeremy?",
+      "options": [
+        "Alice in Chains",
+        "Pearl Jam",
+        "Stone Temple Pilots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ten remained on the Billboard charts for nearly five years, cementing Pearl Jam as one of the most resilient stadium rock bands in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British band led by Thom Yorke evolved from guitar rock on The Bends to experimental electronic art rock on OK Computer and Kid A?",
+      "options": [
+        "Blur",
+        "Oasis",
+        "Radiohead"
+      ],
+      "correctIndex": 2,
+      "explanation": "Radiohead's 1997 album OK Computer captured dystopian anxieties of the digital age and is frequently cited among the greatest albums ever recorded.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Manchester band led by brothers Liam and Noel Gallagher spearheaded Britpop with record-breaking albums Definitely Maybe and What's the Story Morning Glory?",
+      "options": [
+        "Oasis",
+        "Pulp",
+        "The Verve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oasis defined 1990s British youth culture, selling millions of copies and playing to 250,000 fans over two nights at Knebworth in 1996.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which powerhouse vocalist fronted Soundgarden and Audioslave, renowned for his four-octave range and hits like Black Hole Sun?",
+      "options": [
+        "Layne Staley",
+        "Chris Cornell",
+        "Scott Weiland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chris Cornell was a towering figure in the Seattle grunge scene, celebrated for his raw vocal power and intricate songwriting.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Nirvana release their game-changing multi-platinum sophomore album Nevermind?",
+      "target": 1991,
+      "metricUnit": "CE",
+      "imperialDisplay": "September 1991",
+      "explanation": "Nevermind was released on 24 September 1991 on DGC Records, igniting the global alternative rock explosion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental 1985 dual-venue charity concert organized by Bob Geldof raised millions for Ethiopian famine relief?",
+      "options": [
+        "Live 8",
+        "Farm Aid",
+        "Live Aid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Held simultaneously at Wembley Stadium in London and JFK Stadium in Philadelphia, Live Aid featured historic performances by Queen, U2, and Led Zeppelin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1969 music festival in upstate New York drew over 400,000 young people under the banner of 3 Days of Peace & Music?",
+      "options": [
+        "Woodstock",
+        "Monterey Pop Festival",
+        "Altamont Free Concert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Held on Max Yasgur's dairy farm in Bethel, New York, Woodstock became the defining countercultural event of the 1960s generation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which band's 20-minute set at Live Aid in July 1985 is widely voted the greatest live rock performance in television history?",
+      "options": [
+        "The Who",
+        "Queen",
+        "Dire Straits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Freddie Mercury led the 72,000-strong Wembley crowd in synchronized vocal call-and-response during Bohemian Rhapsody and Radio Ga Ga.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1967 California festival launched Jimi Hendrix and Janis Joplin to major stardom and was immortalized in song by Scott McKenzie?",
+      "options": [
+        "Newport Folk Festival",
+        "Isle of Wight Festival",
+        "Monterey International Pop Festival"
+      ],
+      "correctIndex": 2,
+      "explanation": "Monterey Pop set the template for modern multi-artist outdoor rock festivals and concluded with Hendrix famously setting his Stratocaster on fire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In 1965, which folk hero caused a massive uproar at the Newport Folk Festival by performing with an electric backing band?",
+      "options": [
+        "Bob Dylan",
+        "Joan Baez",
+        "Pete Seeger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dylan's high-volume electric set alienated folk purists but marked a pivotal evolution that birthed the folk-rock genre.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many thousands of people attended the legendary three-day Woodstock Music & Art Fair in August 1969?",
+      "target": 400,
+      "metricUnit": "thousand people",
+      "imperialDisplay": "approx. 400K attendees",
+      "explanation": "Over 400,000 people converged on the festival grounds after organizers were forced to open the gates and declare it a free event.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which blind musical prodigy achieved phenomenal creative autonomy at Motown, releasing masterpieces Innervisions and Songs in the Key of Life?",
+      "options": [
+        "Ray Charles",
+        "Stevie Wonder",
+        "Marvin Gaye"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stevie Wonder won Album of the Year Grammys for three consecutive album releases during his legendary 1970s classic period.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which soul legend, crowned The Queen of Soul, demanded R-E-S-P-E-C-T and became the first woman inducted into the Rock and Roll Hall of Fame?",
+      "options": [
+        "Etta James",
+        "Tina Turner",
+        "Aretha Franklin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aretha Franklin recorded timeless gospel-infused anthems including Respect, Natural Woman, and Chain of Fools for Atlantic Records.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Motown icon addressed Vietnam, poverty, and ecological decay in his groundbreaking 1971 concept album What's Going On?",
+      "options": [
+        "Marvin Gaye",
+        "Smokey Robinson",
+        "Sam Cooke"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marvin Gaye fought Motown founder Berry Gordy to release the socially conscious album, which became one of soul music's finest achievements.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dynamic showman, known as The Godfather of Soul, invented modern funk with grooves like Papa's Got a Brand New Bag and Get Up (I Feel Like Being a) Sex Machine?",
+      "options": [
+        "George Clinton",
+        "James Brown",
+        "Sly Stone"
+      ],
+      "correctIndex": 1,
+      "explanation": "James Brown's intense emphasis on the downbeat (on the one) laid the rhythmic foundations for funk, disco, and hip-hop music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Detroit record label was founded by Berry Gordy Jr. in 1959, known as Hitsville U.S.A.?",
+      "options": [
+        "Stax Records",
+        "Atlantic Records",
+        "Motown Records"
+      ],
+      "correctIndex": 2,
+      "explanation": "Motown introduced a polished soul sound that integrated Black artists into mainstream global pop charts with unparalleled success.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many competitive Grammy Awards has soul legend Stevie Wonder won throughout his illustrious career?",
+      "target": 25,
+      "metricUnit": "Grammy Awards",
+      "imperialDisplay": "25 Grammy wins",
+      "explanation": "Stevie Wonder has received 25 competitive Grammy Awards along with a Grammy Lifetime Achievement Award.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pop superstar broke all-time concert touring records between 2023 and 2024 with the multi-billion-dollar grossing Eras Tour?",
+      "options": [
+        "Taylor Swift",
+        "Beyonce",
+        "Adele"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taylor Swift's career-spanning retrospective tour became the first concert tour in history to surpass one billion dollars in gross revenue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British rock band, fronted by Chris Martin, became one of the biggest stadium acts of the 21st century with Yellow and Viva la Vida?",
+      "options": [
+        "Muse",
+        "Coldplay",
+        "The Killers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coldplay has sold over 100 million albums worldwide and pioneered immersive stadium experiences with synchronized LED wristbands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Detroit rapper became the best-selling music artist of the 2000s in the US, with diamond-certified albums The Marshall Mathers LP and The Eminem Show?",
+      "options": [
+        "Jay-Z",
+        "50 Cent",
+        "Eminem"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eminem (Marshall Mathers) achieved ten consecutive Billboard 200 number-one albums and won the Academy Award for Best Original Song for Lose Yourself.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which artist holds the record for the most total Grammy Awards won in music history, surpassing conductor Georg Solti in 2023?",
+      "options": [
+        "Beyonce",
+        "Alison Krauss",
+        "Quincy Jones"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beyonce has won an unprecedented 32 Grammy Awards across her solo career and her work with Destiny's Child.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1975 six-minute rock opera epic by Queen became the most-streamed 20th-century song across Spotify and YouTube?",
+      "options": [
+        "Stairway to Heaven",
+        "Bohemian Rhapsody",
+        "Hotel California"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bohemian Rhapsody features ballad, mock-operatic, and hard rock sections without a traditional chorus, surpassing billions of streams worldwide.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the exact running duration in seconds of Queen's iconic 1975 masterwork Bohemian Rhapsody?",
+      "target": 354,
+      "metricUnit": "seconds",
+      "imperialDisplay": "5 minutes 54 seconds",
+      "explanation": "Bohemian Rhapsody runs exactly 5 minutes and 54 seconds (354 seconds), defying 1970s radio conventions that favored 3-minute singles.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,703 @@
+{
+  "id": "inventions-that-changed-the-world-60",
+  "theme": "Revolutionary Inventions That Transformed Humanity",
+  "title": "Revolutionary Inventions That Transformed Humanity",
+  "description": "Comprehensive 60-question chronological exploration of epoch-defining human breakthroughs from the printing press and steam engine to antibiotics and the transistor.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which German goldsmith invented the movable metal type printing press in Mainz around 1440, triggering the European printing revolution?",
+      "options": [
+        "Johannes Gutenberg",
+        "Bi Sheng",
+        "Peter Schöffer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gutenberg developed durable lead-tin-antimony alloy type, oil-based ink, and a wooden screw press, printing the famous Gutenberg Bible.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Han Dynasty court official in China is traditionally credited with inventing paper in 105 CE using mulberry bark, rags, and fishing nets?",
+      "options": [
+        "Zhang Heng",
+        "Cai Lun",
+        "Shen Kuo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cai Lun papermaking process spread along the Silk Road to the Islamic world and Europe, replacing bulky bamboo strips and expensive parchment.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which essential maritime navigation instrument utilizing a magnetized lodestone needle was first invented in ancient China during the Han Dynasty?",
+      "options": [
+        "Astrolabe",
+        "Sextant",
+        "Magnetic Compass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Originally used for geomancy and feng shui, the magnetic compass was adapted for open-ocean maritime navigation by the eleventh century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which explosive chemical mixture of sulfur, charcoal, and potassium nitrate was accidentally discovered by Chinese alchemists in the ninth century?",
+      "options": [
+        "Gunpowder",
+        "Greek Fire",
+        "Nitroglycerin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known in China as huo yao or fire medicine, gunpowder revolutionized siegecraft, rocketry, and global military warfare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which wearable optical device using convex glass lenses to correct presbyopia was invented in Northern Italy in the late thirteenth century?",
+      "options": [
+        "Monocle",
+        "Eyeglasses",
+        "Binoculars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eyeglasses extended the productive working lives of craftsmen, scholars, and copyists, laying the groundwork for microscope and telescope optics.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what approximate year did Johannes Gutenberg introduce his movable metal type printing press in Mainz, Germany?",
+      "target": 1440,
+      "metricUnit": "year",
+      "imperialDisplay": "c. 1440 AD",
+      "explanation": "Historians date Gutenberg perfection of movable lead alloy type and oil-based ink to roughly 1440, completing the 42-Line Bible by 1455.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch lens grinder is celebrated alongside Zacharias Janssen for constructing early compound microscopes and discovering microscopic bacteria?",
+      "options": [
+        "Robert Hooke",
+        "Christiaan Huygens",
+        "Antonie van Leeuwenhoek"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antonie van Leeuwenhoek ground single high-power spherical lenses to observe living single-celled organisms, naming them animalcules.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian polymath constructed his own astronomical telescope in 1609, discovering four large moons orbiting Jupiter and lunar craters?",
+      "options": [
+        "Galileo Galilei",
+        "Hans Lippershey",
+        "Johannes Kepler"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galileo telescope observations provided decisive observational evidence supporting the Copernican heliocentric model of the solar system.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian physicist and mathematician invented the mercury barometer in 1643, demonstrating that atmospheric air exerts measurable weight?",
+      "options": [
+        "Blaise Pascal",
+        "Evangelista Torricelli",
+        "Otto von Guericke"
+      ],
+      "correctIndex": 1,
+      "explanation": "Torricelli inverted a tube of mercury into a dish, observing that atmospheric pressure supported a column roughly 760 millimeters high.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch scientist patented the first pendulum clock in 1656, dramatically improving timekeeping precision from minutes to seconds per day?",
+      "options": [
+        "Robert Boyle",
+        "Isaac Newton",
+        "Christiaan Huygens"
+      ],
+      "correctIndex": 2,
+      "explanation": "Huygens applied Galileo discovery of isochronism to create the first highly accurate mechanical clocks for science and navigation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English physicist designed the first practical reflecting telescope in 1668, utilizing a curved mirror instead of lenses to eliminate chromatic aberration?",
+      "options": [
+        "Sir Isaac Newton",
+        "James Gregory",
+        "John Dollond"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Newtonian telescope utilized a concave parabolic primary mirror and a flat diagonal secondary mirror, the prototype for modern giant observatories.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Galileo Galilei first construct his astronomical telescope and turn it toward the night sky?",
+      "target": 1609,
+      "metricUnit": "year",
+      "imperialDisplay": "1609 AD",
+      "explanation": "In the autumn of 1609, Galileo built a 20-power telescope and made groundbreaking astronomical discoveries published in Sidereus Nuncius in 1610.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish engineer revolutionized the steam engine in 1769 by adding a separate condenser chamber to prevent cylinder heat loss?",
+      "options": [
+        "Thomas Newcomen",
+        "James Watt",
+        "Thomas Savery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Watt separate condenser reduced coal consumption by seventy-five percent, transforming steam engines from mine pumps into universal factory drives.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English ironmonger built the world first practical commercial atmospheric steam engine in 1712 to pump water out of flooded coal mines?",
+      "options": [
+        "James Watt",
+        "Matthew Boulton",
+        "Thomas Newcomen"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Newcomen engine used atmospheric pressure acting on a vacuum created by condensing steam within the main cylinder.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British steam locomotive built by George and Robert Stephenson won the 1829 Rainhill Trials, setting the standard for railway transport?",
+      "options": [
+        "Stephenson Rocket",
+        "Locomotion No 1",
+        "Puffing Billy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Rocket utilized a multi-tubular boiler and direct blast pipe, achieving a top speed of 47 km/h on the Liverpool and Manchester Railway.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American inventor patented the mechanical cotton gin in 1793, dramatically accelerating the separation of cotton fibers from seeds?",
+      "options": [
+        "Cyrus McCormick",
+        "Eli Whitney",
+        "Samuel Slater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Whitney cotton gin could clean fifty times more cotton per day than hand labor, unintentionally expanding plantation slavery across the American South.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which multi-spindle spinning frame, invented by James Hargreaves in 1764, mechanized yarn production at the dawn of the Industrial Revolution?",
+      "options": [
+        "Water Frame",
+        "Spinning Mule",
+        "Spinning Jenny"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Spinning Jenny allowed a single worker to spin eight or more spools of cotton thread simultaneously, revolutionizing textile mills.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did James Watt receive his foundational patent for the separate condenser steam engine?",
+      "target": 1769,
+      "metricUnit": "year",
+      "imperialDisplay": "1769 AD",
+      "explanation": "Watt was granted British Patent No. 913 in January 1769 for A New Invented Method of Lessening the Consumption of Steam and Fuel in Fire Engines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian physicist invented the voltaic pile in 1800, creating the world first chemical battery capable of delivering a continuous electrical current?",
+      "options": [
+        "Alessandro Volta",
+        "Luigi Galvani",
+        "André-Marie Ampère"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volta stacked alternating zinc and copper discs separated by brine-soaked cloth, disproving Galvani animal electricity theory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English scientist discovered electromagnetic induction in 1831, proving that moving a magnet through a wire coil generates electric current?",
+      "options": [
+        "James Clerk Maxwell",
+        "Michael Faraday",
+        "Hans Christian Ørsted"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faraday discovery provided the fundamental physical principle for all modern electric power generators, dynamos, and electric motors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American inventor developed a commercially viable long-lasting incandescent light bulb in 1879 using a carbonized bamboo filament?",
+      "options": [
+        "Nikola Tesla",
+        "Alexander Lodygin",
+        "Thomas Edison"
+      ],
+      "correctIndex": 2,
+      "explanation": "Edison Menlo Park laboratory created an evacuated glass bulb that burned for over 1,200 hours, pairing it with a centralized DC power grid.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Serbian-American visionary invented the alternating current induction motor and polyphase power transmission system in 1887?",
+      "options": [
+        "Nikola Tesla",
+        "George Westinghouse",
+        "Thomas Edison"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tesla licensed his AC patents to George Westinghouse, defeating Edison direct current system in the historic War of the Currents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which electrical device invented by William Stanley in 1885 stepped AC voltage up for efficient long-distance transmission and down for safe domestic use?",
+      "options": [
+        "Capacitor",
+        "Electrical Transformer",
+        "Rotary Converter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transformers enabled power stations at Niagara Falls to transmit alternating current electricity across hundreds of kilometers with minimal line losses.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Alessandro Volta invent the voltaic pile, the world first chemical electric battery?",
+      "target": 1800,
+      "metricUnit": "year",
+      "imperialDisplay": "1800 AD",
+      "explanation": "Alessandro Volta described his breakthrough battery in a letter to the Royal Society of London in March 1800.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American portrait painter and inventor developed the commercial single-wire electric telegraph and a universal dot-and-dash signaling code in the 1830s?",
+      "options": [
+        "William Fothergill Cooke",
+        "Charles Wheatstone",
+        "Samuel Morse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Morse transmitted the famous first telegraph message What hath God wrought from Washington to Baltimore on May 24, 1844.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish-born inventor was granted US Patent No. 174,465 in March 1876 for the electric telephone, transmitting speech over wire?",
+      "options": [
+        "Alexander Graham Bell",
+        "Elisha Gray",
+        "Antonio Meucci"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bell transmitted the first intelligible voice transmission to assistant Thomas Watson with the words: Mr. Watson, come here, I want to see you.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American financier and British engineers completed the first enduring transatlantic telegraph cable across the ocean floor in 1866?",
+      "options": [
+        "Lord Kelvin",
+        "Cyrus West Field",
+        "Isambard Kingdom Brunel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brunel giant steamship SS Great Eastern successfully laid 3,000 kilometers of telegraph cable between Ireland and Newfoundland.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian electrical engineer developed practical wireless radio telegraphy, transmitting the first transatlantic radio signal across the Atlantic in 1901?",
+      "options": [
+        "Heinrich Hertz",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marconi transmitted the Morse code letter S across 3,500 kilometers from Poldhu, Cornwall, to Signal Hill in St. John, Newfoundland.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What electro-mechanical typewriter machine connected to telegraph lines allowed direct text communication between offices across the global Telex network?",
+      "options": [
+        "Teleprinter",
+        "Mimeograph",
+        "Dictaphone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Teleprinters automated commercial communications and news wire services from the 1920s until the advent of email and computerized networks.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Alexander Graham Bell granted the US patent for the electric telephone?",
+      "target": 1876,
+      "metricUnit": "year",
+      "imperialDisplay": "1876 AD",
+      "explanation": "Bell was awarded US Patent No. 174,465 on March 7, 1876, often called the most valuable patent in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English country physician developed the smallpox vaccine in 1796 using cowpox blister fluid, creating the first vaccine in human history?",
+      "options": [
+        "Louis Pasteur",
+        "Edward Jenner",
+        "Robert Koch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jenner inoculated eight-year-old James Phipps with cowpox, demonstrating immunity to smallpox and leading to global eradication in 1980.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish bacteriologist discovered penicillin in September 1928 when mold contaminated a Staphylococcus culture plate at St. Mary Hospital?",
+      "options": [
+        "Howard Florey",
+        "Ernst Chain",
+        "Alexander Fleming"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fleming observed that Penicillium notatum mold secreted a substance that dissolved surrounding bacteria, launching the antibiotic era.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German mechanical engineer and physicist discovered invisible penetrating electromagnetic radiation in 1895, naming them X-rays?",
+      "options": [
+        "Wilhelm Conrad Röntgen",
+        "Henri Becquerel",
+        "Marie Curie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Röntgen produced the first medical X-ray radiograph of his wife Anna Bertha hand, winning the inaugural Nobel Prize in Physics in 1901.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British surgeon introduced carbolic acid antiseptics in 1867 to clean surgical wounds and instruments, dramatically reducing hospital gangrene?",
+      "options": [
+        "Ignaz Semmelweis",
+        "Joseph Lister",
+        "John Snow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Applying Louis Pasteur germ theory, Lister antiseptic surgical protocols transformed surgery from a deadly gamble into a safe medical specialty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American dentist performed the first successful public demonstration of diethyl ether surgical anesthesia in October 1846 in Boston?",
+      "options": [
+        "Horace Wells",
+        "Crawford Long",
+        "William T. G. Morton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Morton demonstrated painless tumor excision in the Ether Dome at Massachusetts General Hospital, ending centuries of agony during operations.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Alexander Fleming make his serendipitous discovery of penicillin at St. Mary Hospital in London?",
+      "target": 1928,
+      "metricUnit": "year",
+      "imperialDisplay": "1928 AD",
+      "explanation": "Fleming noticed the antibiotic halo around Penicillium mold on September 28, 1928, later sharing the 1945 Nobel Prize with Florey and Chain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English engineer patented an industrial process in 1856 to mass-produce cheap steel by blasting air through molten pig iron to burn off carbon?",
+      "options": [
+        "Henry Bessemer",
+        "William Siemens",
+        "Andrew Carnegie"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bessemer Process dropped steel manufacturing costs by eighty percent, enabling the rapid construction of skyscrapers, bridges, and railways.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which chemical breakthrough developed in Germany by Fritz Haber and Carl Bosch in 1909 synthesizes ammonia fertilizer directly from atmospheric nitrogen?",
+      "options": [
+        "Ostwald Process",
+        "Haber-Bosch Process",
+        "Solvay Process"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Haber-Bosch process provides synthetic agricultural nitrogen fertilizer that sustains nearly half of the modern global human population.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American self-taught chemist discovered how to vulcanize rubber in 1839 by heating natural latex with sulfur, making it stable in heat and cold?",
+      "options": [
+        "Thomas Hancock",
+        "John Dunlop",
+        "Charles Goodyear"
+      ],
+      "correctIndex": 2,
+      "explanation": "Goodyear vulcanization process transformed sticky natural sap into a tough, waterproof elastic material essential for pneumatic vehicle tires.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Belgian-American chemist invented Bakelite in 1907, the world first fully synthetic thermosetting plastic formed from phenol and formaldehyde?",
+      "options": [
+        "Leo Baekeland",
+        "Wallace Carothers",
+        "Stephanie Kwolek"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bakelite was non-conductive, heat-resistant, and easily molded, used in early telephones, radio casings, and electrical insulators.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish chemist invented dynamite in 1867 by absorbing volatile liquid nitroglycerin into porous diatomaceous earth?",
+      "options": [
+        "Ascanio Sobrero",
+        "Alfred Nobel",
+        "Jöns Jacob Berzelius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nobel dynamite provided a safe, malleable blasting explosive that revolutionized tunnel engineering, later using his fortune to fund the Nobel Prizes.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Alfred Nobel patent dynamite as a safe blasting explosive in Sweden and Great Britain?",
+      "target": 1867,
+      "metricUnit": "year",
+      "imperialDisplay": "1867 AD",
+      "explanation": "Alfred Nobel was granted the British patent for dynamite in May 1867, manufacturing millions of sticks for worldwide infrastructure blasting.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1877 invention by Thomas Edison was the first device capable of both recording and reproducing human speech using embossed tin foil cylinders?",
+      "options": [
+        "Gramophone",
+        "Graphophone",
+        "Phonograph"
+      ],
+      "correctIndex": 2,
+      "explanation": "Edison recorded the nursery rhyme Mary had a little lamb, opening the door to the global commercial music recording industry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French brothers patented the Cinématographe in 1895, hosting the world first commercial projected motion picture screening in Paris?",
+      "options": [
+        "Auguste and Louis Lumière",
+        "Thomas Edison and W. K. L. Dickson",
+        "Georges Méliès and Alice Guy-Blaché"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Lumière brothers projected short films including Workers Leaving the Lumière Factory at the Grand Café in Paris in December 1895.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American teenage prodigy conceived the image dissector tube in 1921 and transmitted the first all-electronic television image in September 1927?",
+      "options": [
+        "Vladimir Zworykin",
+        "Philo Farnsworth",
+        "John Logie Baird"
+      ],
+      "correctIndex": 1,
+      "explanation": "Philo Farnsworth transmitted a moving image of a straight line, successfully defending his seminal television patents against RCA.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish engineer invented magnetic wire recording in 1898, which evolved into magnetic tape recording used in cassettes and computer storage?",
+      "options": [
+        "Fritz Pfleumer",
+        "Jack Mullin",
+        "Valdemar Poulsen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Poulsen Telegraphone recorded sound magnetically on steel wire, refined by German chemical firm BASF into iron-oxide-coated plastic tape.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German physicist invented the cathode-ray tube oscilloscope in 1897, which became the fundamental display screen for twentieth-century televisions?",
+      "options": [
+        "Karl Ferdinand Braun",
+        "Heinrich Hertz",
+        "Wilhelm Röntgen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Braun focused an electron beam onto a fluorescent phosphor screen, sharing the 1909 Nobel Prize in Physics with Guglielmo Marconi.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Philo Farnsworth successfully transmit the world first all-electronic television image in his San Francisco laboratory?",
+      "target": 1927,
+      "metricUnit": "year",
+      "imperialDisplay": "1927 AD",
+      "explanation": "Philo Farnsworth transmitted the electronic line image on September 7, 1927, at his laboratory on Green Street in San Francisco.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German engineer developed the industrial vapor-compression ammonia refrigeration machine in 1876, revolutionizing food preservation?",
+      "options": [
+        "Ferdinand Carré",
+        "Carl von Linde",
+        "Willis Carrier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linde mechanical refrigeration ended reliance on harvested natural lake ice, enabling refrigerated railway cars and domestic refrigerators.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Raytheon engineer accidentally discovered microwave cooking in 1945 when an active radar magnetron tube melted a chocolate bar in his pocket?",
+      "options": [
+        "Robert Watson-Watt",
+        "John Randall",
+        "Percy Spencer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spencer tested his discovery on popcorn kernels and an egg, leading Raytheon to introduce the bulky commercial Radarange oven in 1947.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian journalist patented the modern ballpoint pen in 1938, using quick-drying printer ink and a tiny rotating ball bearing in the socket tip?",
+      "options": [
+        "László Bíró",
+        "John J. Loud",
+        "Marcel Bich"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bíró pen did not leak or smudge at high altitudes, adopted widely by British Royal Air Force pilots during World War II.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish-American electrical engineer designed the modern interlocking metal-tooth zipper in 1913, patented as the Hookless Fastener?",
+      "options": [
+        "Whitcomb Judson",
+        "Gideon Sundback",
+        "Elias Howe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sundback doubled the teeth per inch and created nesting scoops, adopted on military boots and popularized by B.F. Goodrich rubber galoshes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American traveling salesman invented the safety razor with inexpensive disposable stamped steel double-edge blades in 1901?",
+      "options": [
+        "William Nickerson",
+        "Jacob Schick",
+        "King Camp Gillette"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gillette partnered with machinist William Nickerson to mass-produce razor-sharp sheet steel blades, pioneering the razor-and-blades business model.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Percy Spencer patent the radar-derived microwave cooking oven after his serendipitous magnetron discovery?",
+      "target": 1945,
+      "metricUnit": "year",
+      "imperialDisplay": "1945 AD",
+      "explanation": "Percy Spencer filed the patent for treating foodstuffs with high-frequency radar microwaves on October 8, 1945.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which three scientists were awarded the 2019 Nobel Prize in Chemistry for developing the rechargeable lithium-ion battery that powers laptops and electric vehicles?",
+      "options": [
+        "John Goodenough, Stanley Whittingham, and Akira Yoshino",
+        "Robert Noyce, Jack Kilby, and Gordon Moore",
+        "Paul Lauterbur, Peter Mansfield, and Raymond Damadian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whittingham created the first functional lithium battery, Goodenough developed high-voltage cobalt cathodes, and Yoshino made it safe with petroleum coke anodes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In 1954, which research team at Bell Labs constructed the first practical silicon photovoltaic solar cell capable of converting sunlight into electricity?",
+      "options": [
+        "John Bardeen, Walter Brattain, and William Shockley",
+        "Daryl Chapin, Calvin Fuller, and Gerald Pearson",
+        "Russell Ohl, Charles Fritts, and Edmond Becquerel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bell Solar Battery achieved six percent efficiency using p-n junction silicon wafers, powering Vanguard 1 satellite in 1958.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hughes Research Laboratories physicist built the world first operating laser in May 1960 using a synthetic ruby crystal and a flashbulb?",
+      "options": [
+        "Charles Townes",
+        "Arthur Schawlow",
+        "Theodore Maiman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maiman ruby laser emitted a concentrated beam of coherent red light at 694.3 nanometers, opening optics to telecommunications and surgery.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What supermarket item, scanned at a Marsh Supermarket in Troy, Ohio, on June 26, 1974, was the first product ever purchased using a Universal Product Code barcode?",
+      "options": [
+        "Pack of Wrigley Chewing Gum",
+        "Can of Campbell Soup",
+        "Box of Kellogg Corn Flakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invented by Norman Joseph Woodland and engineered by George Laurer at IBM, UPC barcodes transformed retail inventory and checkout automation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What satellite-based radio navigation system, developed by the US Department of Defense and initiated in 1973, provides precise global positioning to civilian devices?",
+      "options": [
+        "GLONASS",
+        "Global Positioning System",
+        "Galileo"
+      ],
+      "correctIndex": 1,
+      "explanation": "GPS utilizes a constellation of at least twenty-four satellites with onboard atomic clocks, calculating user location through trilateration.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the first commercial rechargeable lithium-ion battery released onto the consumer market by Sony and Asahi Kasei?",
+      "target": 1991,
+      "metricUnit": "year",
+      "imperialDisplay": "1991 AD",
+      "explanation": "Sony commercialized Akira Yoshino safe lithium-ion battery in 1991, powering portable camcorders, mobile phones, and laptops.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

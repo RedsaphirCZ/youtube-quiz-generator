@@ -1,0 +1,703 @@
+{
+  "id": "thailand-geography-heritage-60",
+  "theme": "Thailand: Geography, Sacred Temples & Tropical Islands",
+  "title": "Thailand: Geography, Sacred Temples & Tropical Islands",
+  "description": "A 60-question grand master assessment exploring the Chao Phraya River & Wat Pho, Chiang Mai & Doi Inthanon, Phang Nga Bay & James Bond Island (1974), Koh Samui, Ayutthaya & Sukhothai (1283), the Bridge on the River Kwai (1943), elephants, and Songkran.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What major 372-kilometer river, revered as the River of Kings, flows through Bangkok before emptying into the Gulf of Thailand?",
+      "options": [
+        "Chao Phraya River",
+        "Mekong River",
+        "Ping River"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formed by the confluence of the Ping and Nan rivers at Nakhon Sawan, the Chao Phraya is the fertile alluvial lifeblood of central Thailand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the ceremonial and official residence of the Kings of Siam and Thailand in Bangkok, established in 1782 by King Rama I?",
+      "options": [
+        "Dusit Palace",
+        "The Grand Palace Phra Borom Maha Ratcha Wang",
+        "Vimanmek Mansion"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Grand Palace complex covers 218,000 square meters, featuring gold-leaf tiered stupas, mythical Yaksha demon guardians, and throne halls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred temple inside the Grand Palace complex in Bangkok houses the highly venerated 66-centimeter palladium-carved Emerald Buddha (Phra Kaeo)?",
+      "options": [
+        "Wat Pho",
+        "Wat Arun",
+        "Wat Phra Kaew"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carved from a single block of translucent green jasper or jade, the King of Thailand personally changes the statue gold vestments three times a year to mark seasonal shifts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark riverside temple on the west bank of the Chao Phraya is celebrated for its 82-meter central prang spire decorated with colorful porcelain mosaics?",
+      "options": [
+        "Wat Arun Temple of Dawn",
+        "Wat Saket",
+        "Wat Traimit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wat Arun reflects morning sunlight along the river, encrusted with discarded Chinese porcelain plates and seashells used as ballast in ancient trading ships.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which temple complex in Bangkok is home to a colossal 46-meter-long gold-plated Reclining Buddha and serves as the historic national headquarters for traditional Thai Massage?",
+      "options": [
+        "Wat Benchamabophit",
+        "Wat Pho Wat Phra Chetuphon",
+        "Wat Suthat"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Reclining Buddha depicts the Buddha entering final Parinirvana, featuring soles of the feet inlaid with mother-of-pearl illustrating 108 auspicious laksanas (symbols).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in meters of the monumental gold-plated Reclining Buddha statue inside Wat Pho in Bangkok?",
+      "target": 46,
+      "metricUnit": "meters",
+      "imperialDisplay": "151 feet long",
+      "explanation": "The giant Reclining Buddha measures forty-six meters long and fifteen meters tall, filling the entire interior of the ordination vihara.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Thailand, rising 2,565 meters in the Thanon Thong Chai Range of Chiang Mai Province, nicknamed the Roof of Thailand?",
+      "options": [
+        "Doi Chiang Dao",
+        "Doi Suthep",
+        "Doi Inthanon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Doi Inthanon was named after King Inthawichayanon of Chiang Mai, crowned by twin royal stupas (naphamaythanidon) amid misty high-altitude mossy cloud forests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic northern city on the Ping River was founded in 1296 by King Mangrai as the new capital of the ancient Lanna Kingdom?",
+      "options": [
+        "Chiang Mai",
+        "Chiang Rai",
+        "Lampang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chiang Mai (meaning 'New City') retains its historic moated brick city walls, night bazaars, and over three hundred ornate Buddhist temples.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred mountain temple overlooking Chiang Mai from a 1,053-meter ridge features a golden gilded chedi reached by a 306-step naga serpent staircase?",
+      "options": [
+        "Wat Umong",
+        "Wat Phra That Doi Suthep",
+        "Wat Phra Singh"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to legend, a sacred white elephant carrying a holy relic of the Buddha climbed the mountain, trumpeted three times, and knelt, marking where the temple should be built.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous geopolitical region in northern Chiang Rai Province marks the confluence of the Ruak and Mekong rivers where Thailand, Laos, and Myanmar meet?",
+      "options": [
+        "The Emerald Triangle",
+        "The Three Pagodas Pass",
+        "The Golden Triangle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Historically infamous for opium cultivation, the Golden Triangle is now an agricultural center promoting highland tea, Arabica coffee, and Royal Project crops.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which striking contemporary white Buddhist temple in Chiang Rai, designed by visual artist Chalermchai Kositpipat, features an ornate bridge spanning a sea of reaching sculpted hands?",
+      "options": [
+        "Wat Rong Khun The White Temple",
+        "Wat Rong Suea Ten Blue Temple",
+        "Baan Dam Black House"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built using white plaster inlaid with mirrored glass chips, the temple combines traditional Thai Buddhist architecture with surrealist pop-culture murals.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Doi Inthanon, the highest mountain peak in Thailand?",
+      "target": 2565,
+      "metricUnit": "meters",
+      "imperialDisplay": "8,415 feet",
+      "explanation": "Doi Inthanon stands at an official elevation of 2,565 meters above sea level in northern Thailand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular bay in the Andaman Sea is world-famous for emerald-green waters and over forty vertical limestone karst towers rising sheer out of the sea?",
+      "options": [
+        "Krabi Bay",
+        "Phang Nga Bay Ao Phang Nga",
+        "Chalong Bay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phang Nga Bay was flooded by sea level rise following the last Ice Age, creating sheltered sea caves, mangrove forests, and collapsed cave lagoons (hongs).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 20-meter needle-shaped limestone karst islet in Phang Nga Bay (Ko Ta Pu) became an international tourist icon after appearing in the 1974 James Bond film The Man with the Golden Gun?",
+      "options": [
+        "Ko Panyi",
+        "Ko Yao Noi",
+        "James Bond Island Ko Ta Pu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ko Ta Pu (meaning 'Nail Island') sits adjacent to Khao Phing Kan, where villain Francisco Scaramanga solar laser weapon was hidden in the film.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning archipelago in Krabi Province, home to the enclosed limestone cove Maya Bay, was featured as the idyllic paradise in the 2000 film The Beach?",
+      "options": [
+        "Phi Phi Islands",
+        "Similan Islands",
+        "Surin Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Comprising Koh Phi Phi Don and Koh Phi Phi Leh, the islands feature transparent waters, Viking Cave bird nest harvesting, and vibrant coral reefs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous peninsula in Krabi, accessible only by longtail boat due to towering limestone cliffs, is recognized as a global capital for rock climbing?",
+      "options": [
+        "Ao Nang",
+        "Railay Beach Rai Leh",
+        "Karon Beach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Railay features over seven hundred bolted climbing routes across sheer stalactite-covered limestone overhangs overlooking Phra Nang Beach.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique Muslim fishing village in Phang Nga Bay is built entirely on wooden stilts over the ocean against the base of a towering vertical limestone rock face?",
+      "options": [
+        "Ko Lanta",
+        "Ko Muk",
+        "Ko Panyi Koh Panyee"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in the late 18th century by nomadic Indonesian fishermen, Ko Panyi features a mosque, school, seafood restaurants, and a famous floating wooden football pitch.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the James Bond film The Man with the Golden Gun released, propelling Thailand's Ko Ta Pu into a global tourist attraction?",
+      "target": 1974,
+      "metricUnit": "year",
+      "imperialDisplay": "1974 AD",
+      "explanation": "The Man with the Golden Gun hit theaters in December 1974, starring Roger Moore as 007.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second largest island in Thailand, located in the Gulf of Thailand, famous for coconut palm plantations, luxury beach resorts, and the 12-meter Big Buddha statue?",
+      "options": [
+        "Koh Samui",
+        "Phuket",
+        "Koh Chang"
+      ],
+      "correctIndex": 0,
+      "explanation": "Koh Samui was historically an isolated coconut farming community until backpackers discovered its white sand beaches like Chaweng and Lamai in the 1970s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island in the Gulf of Thailand is internationally famous for its monthly Full Moon Party, drawing tens of thousands of revellers to Haad Rin beach?",
+      "options": [
+        "Koh Tao",
+        "Koh Phangan",
+        "Koh Samet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Started in the mid-1980s as an impromptu wooden beach celebration, the Full Moon Party features neon body paint, fire dancers, and electronic music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which small rocky island in the Gulf of Thailand, meaning 'Turtle Island', is world-renowned as the primary scuba diving training and certification capital of Southeast Asia?",
+      "options": [
+        "Koh Lipe",
+        "Koh Mak",
+        "Koh Tao"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calm warm waters, abundant coral reefs, and resident whale sharks make Koh Tao the second highest certifier of PADI scuba divers in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning marine national park in the Gulf of Thailand consists of an archipelago of forty-two emerald limestone islands surrounding the emerald marine lake Talay Nai?",
+      "options": [
+        "Mu Ko Ang Thong National Marine Park",
+        "Mu Ko Chang",
+        "Mu Ko Chumphon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ang Thong (meaning 'Golden Basin') was the real-life geographical inspiration for Alex Garland bestselling novel The Beach.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest island in Thailand, located in the Andaman Sea off the southwest coast, connected to the mainland by the Sarasin Bridge?",
+      "options": [
+        "Koh Samui",
+        "Phuket",
+        "Koh Chang"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phuket grew wealthy from 19th-century tin mining, featuring Sino-Portuguese colonial shophouses in Old Phuket Town and the 45-meter marble Big Buddha.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many emerald limestone islands comprise the protected archipelago of the Mu Ko Ang Thong National Marine Park in the Gulf of Thailand?",
+      "target": 42,
+      "metricUnit": "islands",
+      "imperialDisplay": "42 islands",
+      "explanation": "Ang Thong Marine National Park spans 102 square kilometers across forty-two uninhabited limestone islets.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental ancient Siamese capital along the Chao Phraya River, founded in 1350, was one of the largest and wealthiest cosmopolitan cities on Earth before its destruction in 1767?",
+      "options": [
+        "Sukhothai",
+        "Thonburi",
+        "Historic City of Ayutthaya"
+      ],
+      "correctIndex": 2,
+      "explanation": "At its peak, the Kingdom of Ayutthaya traded with Dutch, Portuguese, French, and Japanese merchants across hundreds of gold-spired temples.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous, iconic Buddhist artifact in the ruins of Wat Mahathat in Ayutthaya features a stone Buddha head embraced by the intertwined roots of an ancient banyan tree?",
+      "options": [
+        "Buddha Head in Tree",
+        "Emerald Buddha",
+        "Golden Buddha"
+      ],
+      "correctIndex": 0,
+      "explanation": "When Burmese forces destroyed Ayutthaya in 1767, severed statues were abandoned, and a growing sacred banyan fig tree lifted the sandstone Buddha head.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 13th-century kingdom in lower northern Thailand is revered as the first unified Thai kingdom and the cradle of Thai civilization, art, and language?",
+      "options": [
+        "Lanna Kingdom",
+        "Sukhothai Kingdom",
+        "Dvaravati Kingdom"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sukhothai (meaning 'Dawn of Happiness') developed classic Thai walking Buddha bronze sculptures and the pioneering Ram Khamhaeng legal code.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year CE did King Ram Khamhaeng the Great officially invent the Thai alphabet script, recorded on the historic Ram Khamhaeng Stele in Sukhothai?",
+      "options": [
+        "1350 CE",
+        "1782 CE",
+        "1283 CE"
+      ],
+      "correctIndex": 2,
+      "explanation": "King Ram Khamhaeng adapted Old Khmer scripts to create the unique Thai writing system with forty-four consonants and sixteen vowel symbols.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which central Thai city, famous for the 13th-century Khmer three-spired prang temple Phra Prang Sam Yot, hosts an annual grand banquet feast for thousands of wild crab-eating macaques?",
+      "options": [
+        "Lopburi",
+        "Nakhon Pathom",
+        "Suphan Buri"
+      ],
+      "correctIndex": 0,
+      "explanation": "The annual Monkey Buffet Festival in November honors the sacred monkeys associated with the Hindu monkey deity Hanuman, serving tables of fresh tropical fruits.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did King Ram Khamhaeng the Great create the original Thai written alphabet in the Kingdom of Sukhothai?",
+      "target": 1283,
+      "metricUnit": "CE",
+      "imperialDisplay": "1283 AD",
+      "explanation": "King Ram Khamhaeng inscribed the invention of the Thai script on stone stele No. 1 in the year 1283 CE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which world-famous floating market in Ratchaburi Province features hundreds of wooden sampan boats piled with tropical fruits, noodles, and coconut pancakes along narrow canals?",
+      "options": [
+        "Amphawa Floating Market",
+        "Damnoen Saduak Floating Market",
+        "Taling Chan Market"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed under King Rama IV in 1866, the 32-kilometer canal connected the Tha Chin and Mae Klong rivers to facilitate rural agricultural transport.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous market in Samut Songkhram is situated directly on active railway tracks, where vendors retract their awnings and vegetable baskets seconds before passenger trains pass through?",
+      "options": [
+        "Chatuchak Weekend Market",
+        "Pak Khlong Talat",
+        "Maeklong Railway Market Talad Rom Hub"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known locally as the Umbrella Pull-Down Market, trains sound their horns eight times daily as produce baskets sit mere millimeters beneath the train carriages.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic bridge in Kanchanaburi Province, part of the World War II Death Railway built by Allied prisoners of war and Asian laborers, was immortalized in an Oscar-winning 1957 film?",
+      "options": [
+        "Bridge on the River Kwai Bridge 277",
+        "Hellfire Pass",
+        "Tham Krasae Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built in 1943 by the Imperial Japanese Army to supply their Burma campaign, over 100,000 conscripted laborers and 12,000 Allied POWs perished during railway construction.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spectacular seven-tiered emerald waterfall in Kanchanaburi National Park is named after the three-headed white elephant of Hindu mythology?",
+      "options": [
+        "Sai Yok Waterfall",
+        "Erawan Falls",
+        "Thi Lo Su Waterfall"
+      ],
+      "correctIndex": 1,
+      "explanation": "The top seventh tier of Erawan Falls is believed to resemble the multi-headed elephant god Airavata (Erawan), featuring travertine limestone pools where doctor fish nibble swimmers' skin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional name was given to Bangkok by 19th-century European travelers due to its intricate network of river canals (khlongs) serving as primary transportation thoroughfares?",
+      "options": [
+        "The Pearl of the Orient",
+        "The Paris of Asia",
+        "The Venice of the East"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before modern roadways were paved, life in Bangkok was lived almost entirely on water, with floating markets, houseboats, and longtail water taxis.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year during World War II was the famous Bridge on the River Kwai constructed across the Mae Klong (Khwae Yai) River in Kanchanaburi?",
+      "target": 1943,
+      "metricUnit": "year",
+      "imperialDisplay": "1943 AD",
+      "explanation": "The railway bridge across the River Kwai was constructed by Allied POWs under Japanese command in early 1943.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What revered animal species, deeply intertwined with royal history and Buddhism, is the official national animal and cultural symbol of the Kingdom of Thailand?",
+      "options": [
+        "The Asian Elephant Chang",
+        "The Indochinese Tiger",
+        "The King Cobra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Historically depicted on the Siamese national flag, sacred White Elephants (Chang Samkhan) belong by law to the reigning monarch as a sign of royal prosperity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the very first national park established in Thailand in 1962, covering 2,000 square kilometers of tropical rainforest and home to wild elephants and hornbills?",
+      "options": [
+        "Doi Inthanon National Park",
+        "Khao Yai National Park",
+        "Kaeng Krachan National Park"
+      ],
+      "correctIndex": 1,
+      "explanation": "Part of the UNESCO-inscribed Dong Phayayen-Khao Yai Forest Complex, it features the Haew Suwat waterfall seen in the film The Beach.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient 160-million-year-old tropical evergreen rainforest in Surat Thani surrounds the artificial emerald Cheow Lan Lake and limestone karst spires?",
+      "options": [
+        "Khao Lak",
+        "Khao Sam Roi Yot",
+        "Khao Sok National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Khao Sok is older and more biodiverse than the Amazon rainforest, famous for floating raft houses, wild tapirs, clouded leopards, and giant Rafflesia kerrii flowers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which vibrant, aggressive freshwater fish species native to the standing waters of the Chao Phraya basin was officially declared Thailand National Aquatic Animal in 2019?",
+      "options": [
+        "Siamese Fighting Fish",
+        "Mekong Giant Catfish",
+        "Giant Pangasius"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bred for over six centuries in Siam for territorial fighting behavior, Bettas breathe atmospheric air through a specialized labyrinth organ.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What critically endangered giant freshwater fish endemic to the Mekong River can grow up to three meters long and weigh over 300 kilograms?",
+      "options": [
+        "Giant Barb",
+        "Mekong Giant Catfish",
+        "Chao Phraya Giant Stingray"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Mekong giant catfish is the largest scale-less freshwater fish on Earth, heavily threatened by upstream hydroelectric dam construction.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Khao Yai National Park established as Thailand first official national park?",
+      "target": 1962,
+      "metricUnit": "year",
+      "imperialDisplay": "1962 AD",
+      "explanation": "Khao Yai National Park was formally established under the National Parks Act on September 18, 1962.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which premium fragrant, long-grain rice variety, known locally as Hom Mali, is cultivated on the semi-arid Khorat Plateau of northeastern Thailand (Isan)?",
+      "options": [
+        "Basmati Rice",
+        "Sticky Glutinous Rice",
+        "Thai Jasmine Rice Khao Dawk Mali 105"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jasmine rice naturally releases a delicate pandan and floral aroma (2-acetyl-1-pyrroline), making Thailand one of the top three global rice exporters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which spiky, pungent tropical fruit with rich custard-like yellow flesh is celebrated as the King of Fruits, heavily cultivated in Rayong and Chanthaburi?",
+      "options": [
+        "Durian Durio zibethinus",
+        "Jackfruit",
+        "Breadfruit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thailand is the world leading exporter of fresh and frozen durian (especially the Monthong or Golden Pillow cultivar), though its strong odor leads to bans in hotels and subways.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous traditional Thai street food dessert combines warm sweet coconut-infused sticky rice with freshly sliced sweet yellow ripe mangoes and roasted mung beans?",
+      "options": [
+        "Tub Tim Krob",
+        "Mango Sticky Rice Khao Niew Mamuang",
+        "Khanom Krok"
+      ],
+      "correctIndex": 1,
+      "explanation": "A national culinary treasure, the dessert highlights sweet Nam Dok Mai mangoes drizzled with salted coconut cream syrup.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What purple, thick-skinned tropical fruit with sweet, tangy white segmented segments is revered across Southeast Asia as the Queen of Fruits?",
+      "options": [
+        "Rambutan",
+        "Longan",
+        "Mangosteen Garcinia mangostana"
+      ],
+      "correctIndex": 2,
+      "explanation": "In traditional Thai medicine, mangosteen is considered a cooling fruit to balance the heating properties of rich durian.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the world natural rubber supply is tapped from the vast Hevea brasiliensis tree plantations of southern Thailand?",
+      "options": [
+        "35 Percent",
+        "15 Percent",
+        "50 Percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thailand is the world largest producer and exporter of natural rubber, harvesting over 4.7 million metric tons of latex annually.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What percentage of the global supply of natural raw rubber is produced annually by plantations in Thailand?",
+      "target": 35,
+      "metricUnit": "percent",
+      "imperialDisplay": "35% of world natural rubber",
+      "explanation": "Thailand produces approximately 35 percent of the entire global supply of natural rubber, leading global latex exports.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous three-day Thai New Year festival, celebrated nationwide every April 13 to 15, is celebrated with joyful mass public water fights and temple cleansing rites?",
+      "options": [
+        "Loy Krathong",
+        "Songkran",
+        "Yi Peng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inscribed on the UNESCO Intangible Cultural Heritage list in 2023, water splashing symbolizes washing away bad luck and sins from the previous year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What enchanting festival of lights, celebrated on the full moon of the twelfth lunar month in November, sees millions of floating decorated banana-leaf baskets (krathongs) released onto waterways?",
+      "options": [
+        "Songkran",
+        "Boon Bang Fai",
+        "Loy Krathong"
+      ],
+      "correctIndex": 2,
+      "explanation": "Loy Krathong thanks the Water Goddess Phra Mae Khongkha for her bountiful waters and asks forgiveness for polluting rivers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional martial art and national combat sport of Thailand is known as the Art of Eight Limbs for its use of fists, elbows, knees, and shins?",
+      "options": [
+        "Muay Thai",
+        "Krabi Krabong",
+        "Silat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muay Thai bouts begin with the Wai Kru Ram Muay ritual dance to pay respect to teachers, accompanied by live traditional sarama percussion and reed pipe music.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Thai respectful greeting involves pressing both palms together in front of the chest or face while executing a slight bow?",
+      "options": [
+        "The Bow",
+        "The Wai",
+        "The Namaste"
+      ],
+      "correctIndex": 1,
+      "explanation": "The height of the hands relative to the face and the depth of the bow reflect the degree of social status, age, and spiritual reverence shown to the recipient.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What percentage of the population of Thailand adheres to Theravada Buddhism, which serves as the cornerstone of Thai national culture and morality?",
+      "options": [
+        "60 Percent",
+        "75 Percent",
+        "Over 93 Percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "There are over 40,000 active Buddhist temples (wats) and 300,000 saffron-robed monks across Thailand, where young men traditionally ordain for a temporary monastic period.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many bodily striking contact points (limbs) are utilized in the traditional martial art of Muay Thai (fists, elbows, knees, shins)?",
+      "target": 8,
+      "metricUnit": "limbs",
+      "imperialDisplay": "8 limbs (Art of Eight Limbs)",
+      "explanation": "Muay Thai is called the Art of Eight Limbs because combatants use eight contact surfaces: two fists, two elbows, two knees, and two shins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive historical distinction does Thailand hold among all sovereign nations in Southeast Asia during the colonial era of the 19th and 20th centuries?",
+      "options": [
+        "Only Southeast Asian nation never colonized by European powers",
+        "First nation to establish an empire",
+        "Only nation with a queen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through skilled diplomacy under King Chulalongkorn (Rama V) and King Mongkut (Rama IV), Siam served as a neutral buffer state between British Burma/Malaya and French Indochina.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the narrowest point of the Malay Peninsula in southern Thailand, measuring just forty-four kilometers wide between the Gulf of Thailand and the Andaman Sea?",
+      "options": [
+        "Malacca Strait",
+        "The Isthmus of Kra",
+        "Phuket Neck"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Isthmus of Kra has been the proposed site for a maritime shipping canal (the Kra Canal or Thai Canal) to bypass the crowded Strait of Malacca since 1677.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into how many administrative provinces (Changwat), plus the special administrative area of the capital Bangkok, is the Kingdom of Thailand divided?",
+      "options": [
+        "60 Provinces",
+        "85 Provinces",
+        "76 Provinces"
+      ],
+      "correctIndex": 2,
+      "explanation": "The seventy-six provinces are grouped into four traditional regions: Northern, Northeastern (Isan), Central, and Southern Thailand.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest province in Thailand by geographical land area, covering over 20,000 square kilometers on the Khorat Plateau?",
+      "options": [
+        "Nakhon Ratchasima Korat",
+        "Chiang Mai",
+        "Kanchanaburi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nakhon Ratchasima is the gateway to the northeastern Isan region, famous for the Phimai Historical Park with its 11th-century Khmer temple complex.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the total geographical area of Thailand in square kilometers, ranking it as the 50th largest country in the world (roughly the size of Spain or California)?",
+      "options": [
+        "250,000 Square Kilometers",
+        "513,120 Square Kilometers",
+        "750,000 Square Kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thailand spans over 513,000 square kilometers, shaped like an elephant head with the southern Malay peninsula forming its trunk.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the minimum width in kilometers of the Isthmus of Kra, the narrowest point of the Malay Peninsula in southern Thailand?",
+      "target": 44,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "27 miles narrow",
+      "explanation": "The Isthmus of Kra measures just forty-four kilometers across at its narrowest point between Chumphon and Ranong.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

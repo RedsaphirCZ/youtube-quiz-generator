@@ -1,0 +1,703 @@
+{
+  "id": "australia-geography-heritage-60",
+  "theme": "Australia: Geography, Outback & Wildlife Heritage",
+  "title": "Australia: Geography, Outback & Wildlife Heritage",
+  "description": "A 60-question grand master assessment exploring the Great Barrier Reef, Uluru, the Great Dividing Range, Sydney & Melbourne, Tasmania, the Murray-Darling basin, Ningaloo Reef, Kakadu, the Nullarbor, and endemic marsupials.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the largest living coral reef system on Earth, stretching for over 2,300 kilometers off the northeastern coast of Queensland?",
+      "options": [
+        "Great Barrier Reef",
+        "Ningaloo Reef",
+        "Lord Howe Reef"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Great Barrier Reef comprises nearly 3,000 individual reefs and 900 islands, visible from space and home to 1,500 species of marine fish.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal Queensland city is the primary international tourism gateway to the northern Great Barrier Reef and Daintree Rainforest?",
+      "options": [
+        "Townsville",
+        "Cairns",
+        "Mackay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cairns provides high-speed catamaran access to outer reef pontoons and the scenic Kuranda Scenic Railway into tropical tablelands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What marine threat occurs when prolonged elevated sea temperatures cause coral polyps to expel their symbiotic photosynthetic zooxanthellae algae?",
+      "options": [
+        "Crown-of-Thorns Predation",
+        "Reef Acidification",
+        "Coral Bleaching"
+      ],
+      "correctIndex": 2,
+      "explanation": "Without zooxanthellae to provide food and vibrant coloration, the transparent coral tissue exposes the white calcium carbonate skeleton beneath.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which large predatory sea star feeds voraciously on living coral polyps, causing periodic destructive population outbreaks on the reef?",
+      "options": [
+        "Crown-of-Thorns Starfish",
+        "Blue Sea Star",
+        "Chocolate Chip Star"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acanthaster planci can consume up to ten square meters of living coral tissue per year, controlled by conservation culling teams.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which marginal sea of the South Pacific Ocean lies between the northeastern coast of Australia, Papua New Guinea, and the Solomon Islands?",
+      "options": [
+        "Tasman Sea",
+        "Coral Sea",
+        "Arafura Sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Coral Sea was the site of the historic May 1942 naval battle, the first in history where opposing aircraft carriers fought without visual surface contact.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the Great Barrier Reef system along the Queensland coast?",
+      "target": 2300,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "1,429 miles",
+      "explanation": "The Great Barrier Reef stretches roughly 2,300 kilometers along Australia northeastern continental shelf.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal sacred sandstone inselberg monolith in the Red Centre of the Northern Territory rises 348 meters above the desert plain?",
+      "options": [
+        "Kata Tjuta",
+        "Mount Augustus",
+        "Uluru Ayers Rock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uluru is an arkose sandstone formation sacred to the indigenous Anangu people, glowing radiant crimson at sunset due to iron mineral oxidation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What group of thirty-six rounded domed rock formations located twenty-five kilometers west of Uluru means 'many heads' in the local Pitjantjatjara language?",
+      "options": [
+        "Kata Tjuta The Olgas",
+        "Bungle Bungles",
+        "Devils Marbles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kata Tjuta consists of coarse sedimentary conglomerate and granite boulders rising up to 546 meters above the desert floor at Mount Olga.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous town serves as the primary regional transport and tourism hub of the Australian Red Centre, located midway between Darwin and Adelaide?",
+      "options": [
+        "Tennant Creek",
+        "Alice Springs",
+        "Katherine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alice Springs developed around the historic 1872 Australian Overland Telegraph Line repeater station near the gap in the MacDonnell Ranges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic canyon in Watarrka National Park, southwest of Alice Springs, features vertical 100-meter sandstone canyon walls and the lush Garden of Eden waterhole?",
+      "options": [
+        "Standley Chasm",
+        "Ormiston Gorge",
+        "Kings Canyon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Kings Canyon Rim Walk traverses weathered honeycomb sandstone domes dubbed the Lost City before descending into a protected cycad oasis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What spiky, dome-forming perennial grass species covers extensive desert sand dunes and stony plains across the Australian Outback?",
+      "options": [
+        "Spinifex Triodia",
+        "Mitchell Grass",
+        "Kangaroo Grass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spinifex produces flammable resin-coated needles that resist extreme heat and drought, binding sand dunes across seventy percent of the continent.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the height in meters of Uluru (Ayers Rock) above the surrounding flat desert plain?",
+      "target": 348,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,142 feet",
+      "explanation": "Uluru rises 348 meters above the surrounding arid plain, with a summit elevation of 863 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak on the Australian mainland, rising 2,228 meters in the Snowy Mountains of New South Wales?",
+      "options": [
+        "Mount Bogong",
+        "Mount Kosciuszko",
+        "Mount Townsend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polish explorer Paweł Edmund Strzelecki named the peak in 1840 after Polish democratic hero General Tadeusz Kościuszko due to its resemblance to the mound in Kraków.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 3,500-kilometer mountain system extends along the entire eastern coastline of Australia from Cape York down to Victoria?",
+      "options": [
+        "Flinders Ranges",
+        "Darling Range",
+        "Great Dividing Range"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Dividing Range separates coastal drainage river systems flowing into the Pacific Ocean from the interior Murray-Darling River basin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous coastal highway in Victoria winds 243 kilometers along the rugged Southern Ocean coast past the limestone Twelve Apostles sea stacks?",
+      "options": [
+        "Great Ocean Road",
+        "Captain Cook Highway",
+        "Stuart Highway"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built by returned soldiers between 1919 and 1932, the Great Ocean Road is the world largest war memorial, carved through coastal cliffs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Why do the Blue Mountains west of Sydney exhibit their distinctive blue atmospheric haze when viewed from distance?",
+      "options": [
+        "Natural blue limestone dust in the wind",
+        "Refraction through volatile eucalyptus oil droplets",
+        "Reflections from underground copper deposits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vast eucalyptus forests release volatile terpene oil droplets into the atmosphere that scatter blue wavelengths of sunlight (Rayleigh scattering).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive post-war engineering scheme in the Snowy Mountains diverted alpine river waters through tunnels to generate hydroelectricity and irrigate the Murray Basin?",
+      "options": [
+        "Ord River Scheme",
+        "Burdekin Dam Project",
+        "Snowy Mountains Scheme"
+      ],
+      "correctIndex": 2,
+      "explanation": "Constructed between 1949 and 1974 by over 100,000 migrant workers from thirty nations, it encompasses sixteen dams and 145 kilometers of trans-mountain tunnels.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters of Mount Kosciuszko, the highest peak on the Australian mainland?",
+      "target": 2228,
+      "metricUnit": "meters",
+      "imperialDisplay": "7,310 feet",
+      "explanation": "Mount Kosciuszko stands at 2,228 meters above sea level in Kosciuszko National Park in the Snowy Mountains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish architect designed the iconic Sydney Opera House with its interlocking sail-like precast concrete roof shells, opening in 1973?",
+      "options": [
+        "Jørn Utzon",
+        "Eero Saarinen",
+        "Norman Foster"
+      ],
+      "correctIndex": 0,
+      "explanation": "Utzon won an international design competition in 1957, solving the roof geometry through spherical cut segments covered with over one million Swedish ceramic tiles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital city of Australia, selected in 1908 as a purpose-built compromise capital located between rival cities Sydney and Melbourne?",
+      "options": [
+        "Adelaide",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctIndex": 1,
+      "explanation": "Canberra was planned by American architects Walter Burley Griffin and Marion Mahony Griffin around an artificial central lake (Lake Burley Griffin).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which state capital in Western Australia on the Swan River is often recognized as one of the most geographically isolated major metropolitan cities on Earth?",
+      "options": [
+        "Adelaide",
+        "Darwin",
+        "Perth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perth is closer to Jakarta, Indonesia, than to the Australian national capital Canberra, bounded by the Indian Ocean to the west and the Nullarbor desert to the east.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Victorian capital city on Port Phillip Bay is famous for its labyrinth of cobblestone street art laneways, historic trams, and coffee culture?",
+      "options": [
+        "Melbourne",
+        "Sydney",
+        "Hobart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded on the Yarra River in 1835, Melbourne grew into one of the world wealthiest cities during the Victorian Gold Rush of the 1850s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which planned capital city of South Australia was designed on a grid layout surrounded entirely by a continuous green belt of municipal parklands by Colonel William Light?",
+      "options": [
+        "Perth",
+        "Adelaide",
+        "Brisbane"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the City of Churches and Festival City, Adelaide was founded in 1836 as a planned colony for free British settlers without convict transportation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Sydney Opera House officially opened to the public by Queen Elizabeth II?",
+      "target": 1973,
+      "metricUnit": "year",
+      "imperialDisplay": "1973 AD",
+      "explanation": "Queen Elizabeth II opened the Sydney Opera House on October 20, 1973, following sixteen years of groundbreaking architectural engineering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What shallow, stormy body of water separates the island state of Tasmania from the southeastern Australian mainland of Victoria?",
+      "options": [
+        "Torres Strait",
+        "Cook Strait",
+        "Bass Strait"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after explorer George Bass who circumnavigated Tasmania with Matthew Flinders in 1798, Bass Strait averages only sixty meters in depth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which carnivorous marsupial endemic to Tasmania has been severely threatened by a contagious transmissible cancer called Devil Facial Tumor Disease?",
+      "options": [
+        "Tasmanian Devil",
+        "Thylacine Tasmanian Tiger",
+        "Quoll"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sarcophilus harrisii possesses the strongest bite force relative to body mass of any living mammalian carnivore, feeding on carrion and bones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic, jagged dolerite mountain peak in the Tasmanian Wilderness World Heritage Area towers over the glacially carved Dove Lake?",
+      "options": [
+        "Mount Wellington",
+        "Cradle Mountain",
+        "Barn Bluff"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cradle Mountain is the northern trailhead of the legendary 65-kilometer Overland Track traversing alpine button grass plains and ancient rainforests.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital city of Tasmania, nestled at the foot of Mount Wellington on the deep-water estuary of the Derwent River?",
+      "options": [
+        "Launceston",
+        "Devonport",
+        "Hobart"
+      ],
+      "correctIndex": 2,
+      "explanation": "Founded in 1804 as a penal colony, Hobart is Australia second oldest capital city, home to the historic Salamanca Market and the avant-garde MONA museum.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient, slow-growing conifer endemic to the temperate rainforests of western Tasmania can live for over 3,000 years, producing rot-resistant golden timber?",
+      "options": [
+        "Huon Pine",
+        "Kauri Pine",
+        "Bunya Pine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Huon pine contains natural aromatic methyl eugenol oils that prevent rot and marine borers, making it prized by 19th-century convict shipwrights.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate average width in kilometers of the Bass Strait separating Victoria and Tasmania?",
+      "target": 240,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "150 miles",
+      "explanation": "Bass Strait is approximately 240 kilometers wide and 500 kilometers long between the southern mainland and northern Tasmania.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the longest river in Australia, flowing 2,508 kilometers from the Australian Alps to empty into Lake Alexandrina in South Australia?",
+      "options": [
+        "Darling River",
+        "Murray River",
+        "Murrumbidgee River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Murray River forms most of the border between New South Wales and Victoria, navigated in the 19th century by historic paddle steamers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive river basin covering one million square kilometers across four states is recognized as Australia primary agricultural food bowl?",
+      "options": [
+        "Lake Eyre Basin",
+        "Fitzroy Basin",
+        "Murray-Darling Basin"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Murray-Darling Basin produces more than a third of Australia national food supply, including citrus, rice, cotton, wine grapes, and dairy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the lowest natural point in Australia, an immense endorheic salt lake in South Australia that sits fifteen meters below sea level?",
+      "options": [
+        "Lake Eyre Kati Thanda",
+        "Lake Torrens",
+        "Lake Gairdner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kati Thanda-Lake Eyre covers up to 9,500 square kilometers, filling completely only a few times per century when tropical monsoon floodwaters drain south.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive underground freshwater reservoir underlying roughly twenty-two percent of Australia is the largest and deepest artesian basin in the world?",
+      "options": [
+        "Canning Basin",
+        "Great Artesian Basin",
+        "Perth Basin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Artesian Basin holds an estimated 65,000 cubic kilometers of groundwater, tapped by thousands of pastoral boreholes to water Outback cattle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major tributary of the Murray River flows 1,545 kilometers from the Great Dividing Range in Queensland across the Outback plains of New South Wales?",
+      "options": [
+        "Lachlan River",
+        "Warrego River",
+        "Darling River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Darling River joins the Murray at Wentworth, characterized by variable arid flow regimes and sacred Aboriginal fish traps at Brewarrina.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Murray River, the longest river in Australia?",
+      "target": 2508,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "1,558 miles",
+      "explanation": "The Murray River flows for 2,508 kilometers from the Snowy Mountains to the Southern Ocean at Goolwa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What UNESCO World Heritage 260-kilometer fringing coral reef in Western Australia allows visitors to swim with gentle giant whale sharks directly from the beach?",
+      "options": [
+        "Ningaloo Reef",
+        "Great Barrier Reef",
+        "Rowley Shoals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike the Great Barrier Reef which sits miles offshore, Ningaloo is a fringing reef accessible by wading directly from the white sand shoreline.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rugged tropical wilderness region in northern Western Australia features ancient sandstone gorges, the Bungle Bungle Range, and King George Falls?",
+      "options": [
+        "The Pilbara",
+        "The Kimberley",
+        "The Gascoyne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spanning over 420,000 square kilometers, the Kimberley is traversed by the 660-kilometer unpaved Gibb River Road through boab tree savannas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What striking black-and-orange striped beehive-like sandstone karst domes are found in Purnululu National Park in the Kimberley?",
+      "options": [
+        "Devils Marbles",
+        "The Pinnacles",
+        "Bungle Bungle Range"
+      ],
+      "correctIndex": 2,
+      "explanation": "The alternating dark grey bands are caused by photosynthetic cyanobacteria growing on moist layers, while orange bands contain oxidized iron compounds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What arid mineral-rich region in northwestern Western Australia contains some of the world largest and highest-grade iron ore deposits?",
+      "options": [
+        "The Pilbara",
+        "The Goldfields",
+        "The Murchison"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Pilbara ancient 3.5-billion-year-old craton produces hundreds of millions of tons of iron ore mined in massive open pits and hauled by kilometer-long trains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island near Perth is famous for hosting a thriving wild population of friendly, photogenic quokkas (short-tailed wallabies)?",
+      "options": [
+        "Garden Island",
+        "Rottnest Island Wadjemup",
+        "Carnac Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dutch explorer Willem de Vlamingh named the island 'Rattennest' (Rat Nest) in 1696 after mistaking the smiling, friendly quokkas for giant rats.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the UNESCO-protected Ningaloo Coral Reef along the Western Australian coast?",
+      "target": 260,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "161 miles",
+      "explanation": "Ningaloo Reef extends for 260 kilometers along the North West Cape of Western Australia, the longest fringing coral reef in the world.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest national park in Australia, renowned for 65,000 years of continuous Aboriginal rock art galleries, saltwater crocodiles, and billabongs?",
+      "options": [
+        "Litchfield National Park",
+        "Karijini National Park",
+        "Kakadu National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covering nearly 20,000 square kilometers in the Northern Territory, Kakadu is jointly managed with traditional Aboriginal owners, featuring sites like Ubirr and Nourlangie.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient tropical rainforest in Far North Queensland is recognized as the oldest continuously surviving tropical rainforest on Earth at 180 million years?",
+      "options": [
+        "Daintree Rainforest",
+        "Tarkine Forest",
+        "Gondwana Rainforests"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Daintree predates the Amazon rainforest by tens of millions of years, preserving primitive flowering plant families and the flightless southern cassowary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which capital city of the Northern Territory was nearly completely flattened on Christmas Eve 1974 by the catastrophic winds of Cyclone Tracy?",
+      "options": [
+        "Broome",
+        "Darwin",
+        "Cairns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cyclone Tracy destroyed over seventy percent of Darwin homes, leading to the largest civil evacuation and modern building code reconstruction in Australian history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What large flightless rainforest bird endemic to the wet tropics of Queensland has a blue neck, a red wattle, and a protective bony helmet (casque)?",
+      "options": [
+        "Emu",
+        "Kookaburra",
+        "Southern Cassowary"
+      ],
+      "correctIndex": 2,
+      "explanation": "The southern cassowary is a vital keystone species that disperses the large seeds of over one hundred species of tropical rainforest trees.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive semi-enclosed shallow sea between northern Australia and New Guinea features the rare meteorological phenomenon of Morning Glory roll clouds?",
+      "options": [
+        "Gulf of Carpentaria",
+        "Joseph Bonaparte Gulf",
+        "Spencer Gulf"
+      ],
+      "correctIndex": 0,
+      "explanation": "During spring, solitary atmospheric wave clouds up to 1,000 kilometers long roll across the Gulf of Carpentaria near Burketown.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the devastating Category 4 Cyclone Tracy strike and flatten the city of Darwin on Christmas Eve?",
+      "target": 1974,
+      "metricUnit": "year",
+      "imperialDisplay": "1974 AD",
+      "explanation": "Cyclone Tracy tore through Darwin in the early hours of December 25, 1974, killing 66 people and destroying thousands of buildings.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast, flat, arid limestone karst plateau spanning 200,000 square kilometers across southern Australia means 'no trees' in Latin?",
+      "options": [
+        "Barkly Tableland",
+        "Nullarbor Plain",
+        "Cobar Plain"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nullarbor sits atop ancient seafloor limestone, ending abruptly at the dramatic sixty-meter vertical Bunda Cliffs over the Great Australian Bight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world record does the Trans-Australian Railway hold as it crosses the flat limestone expanse of the Nullarbor Plain?",
+      "options": [
+        "Highest altitude railway line",
+        "Fastest gravity train line",
+        "Longest straight railway track"
+      ],
+      "correctIndex": 2,
+      "explanation": "The track runs completely straight without a single curve for 478 kilometers between Ooldea in South Australia and Loongana in Western Australia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest desert in Australia, covering approximately 350,000 square kilometers across Western Australia and South Australia?",
+      "options": [
+        "Great Victoria Desert",
+        "Great Sandy Desert",
+        "Simpson Desert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Explored by Ernest Giles in 1875, the Great Victoria Desert is characterized by red sand dunes, marble gum trees, and mulga shrublands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which desert spanning the borders of the Northern Territory, Queensland, and South Australia features the world longest parallel red sand dunes?",
+      "options": [
+        "Tanami Desert",
+        "Simpson Desert",
+        "Gibson Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Simpson Desert contains over 1,100 parallel sand dunes up to forty meters high, including the famous Big Red dune near Birdsville.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Outback desert town in South Australia is known as the Opal Capital of the World, where most residents live in underground dugouts to escape desert heat?",
+      "options": [
+        "Lightning Ridge",
+        "White Cliffs",
+        "Coober Pedy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named from the Aboriginal term kupa-piti (white man in a hole), Coober Pedy produces precious white opals and features underground homes, churches, and hotels.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the length in kilometers of the world longest straight stretch of railway track across the Nullarbor Plain?",
+      "target": 478,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "297 miles perfectly straight",
+      "explanation": "The Trans-Australian Railway features a continuous, unbroken straight track spanning exactly 478 kilometers across the Nullarbor Plain.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique group of egg-laying mammals (monotremes) is represented exclusively in Australia and New Guinea by the platypus and echidna?",
+      "options": [
+        "Monotremata",
+        "Marsupialia",
+        "Placentalia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monotremes lay leathery eggs and secrete milk onto their abdominal skin patches rather than nursing through nipples.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest living marsupial in the world, capable of bounding across the arid Outback at speeds exceeding fifty kilometers per hour?",
+      "options": [
+        "Eastern Grey Kangaroo",
+        "Red Kangaroo",
+        "Western Grey Kangaroo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Male red kangaroos can stand nearly two meters tall and weigh over ninety kilograms, utilizing elastic tendons in their hind legs for energy-efficient hopping.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which arboreal herbivorous marsupial feeds almost exclusively on toxic, fibrous eucalyptus leaves, sleeping up to twenty hours per day to conserve energy?",
+      "options": [
+        "Greater Glider",
+        "Brushtail Possum",
+        "Koala"
+      ],
+      "correctIndex": 2,
+      "explanation": "Koalas possess a specialized two-meter-long cecum containing bacteria that detoxify eucalyptus oils and ferment cellulose.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What burrowing herbivorous marsupial is famous for producing unique cube-shaped feces to prevent droppings from rolling away from territorial rocks?",
+      "options": [
+        "Wombat",
+        "Bandicoot",
+        "Bilby"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wombats have backward-facing pouches so dirt does not fill the pouch while burrowing, and hardened cartilage rear shields to crush pursuing predators against tunnel roofs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which dog-like apex predator was introduced to Australia roughly 4,000 years ago, separated from domestic dog lineages by the Dingo Fence?",
+      "options": [
+        "Tasmanian Tiger",
+        "Dingo",
+        "Quoll"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 5,614-kilometer Dingo Fence was built in the 1880s to keep dingoes out of fertile sheep-grazing pastures in southeastern Australia.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total length in kilometers of the historic Australian Dingo Fence, the longest fence in the world?",
+      "target": 5614,
+      "metricUnit": "kilometers",
+      "imperialDisplay": "3,488 miles",
+      "explanation": "The Dingo Fence stretches for 5,614 kilometers from the Darling Downs in Queensland through New South Wales to the cliffs of the Nullarbor in South Australia.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

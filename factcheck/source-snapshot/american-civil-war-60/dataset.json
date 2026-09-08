@@ -1,0 +1,641 @@
+{
+  "id": "american-civil-war-60",
+  "theme": "The American Civil War: Battles, Leaders & Emancipation",
+  "title": "The American Civil War: Battles, Leaders & Emancipation",
+  "description": "A 60-question grand master assessment on the Battle of Gettysburg, Abraham Lincoln, the Emancipation Proclamation, generals Grant and Lee, Fort Sumter, and Appomattox.",
+  "category": "Modern History & Landmark Wars",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which southern state was the first to secede from the United States in December 1860 following the election of Abraham Lincoln?",
+      "options": [
+        "South Carolina",
+        "Mississippi",
+        "Virginia"
+      ],
+      "correctIndex": 0,
+      "explanation": "South Carolina unanimously passed the Ordinance of Secession on December 20, 1860, citing Northern hostility toward slavery."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was inaugurated as the first and only President of the Confederate States of America in Richmond Virginia?",
+      "options": [
+        "Alexander H. Stephens",
+        "Jefferson Davis",
+        "Robert E. Lee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Former US Secretary of War and Mississippi Senator Jefferson Davis served as Confederate president throughout the war."
+    },
+    {
+      "type": "mcq",
+      "question": "What Charleston Harbor masonry sea fortress was bombarded by Confederate batteries on April 12, 1861, starting the Civil War?",
+      "options": [
+        "Fort Pulaski",
+        "Fort Moultrie",
+        "Fort Sumter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Confederate General P.G.T. Beauregard ordered the 34-hour bombardment of Major Robert Anderson Union garrison at Fort Sumter."
+    },
+    {
+      "type": "mcq",
+      "question": "What comprehensive Union naval and economic strategy proposed by General Winfield Scott aimed to blockade Southern ports and seize the Mississippi?",
+      "options": [
+        "Anaconda Plan",
+        "Constrictor Strategy",
+        "Total War Campaign"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Anaconda Plan strangled the Confederate economy through a maritime blockade and split the Confederacy along the Mississippi River."
+    },
+    {
+      "type": "mcq",
+      "question": "Which slave states that bordered free states remained loyal to the Union during the American Civil War?",
+      "options": [
+        "Tennessee, Arkansas, and North Carolina",
+        "Delaware, Maryland, Kentucky, and Missouri",
+        "Virginia, Georgia, and Alabama"
+      ],
+      "correctIndex": 1,
+      "explanation": "These critical border states remained in the Union, providing essential manpower, industry, and strategic river networks."
+    },
+    {
+      "type": "number",
+      "question": "How many total southern states formally seceded from the Union to comprise the Confederate States of America?",
+      "target": 11,
+      "metricUnit": "states",
+      "imperialDisplay": "11 Confederate states",
+      "explanation": "Eleven states seceded: South Carolina, Mississippi, Florida, Alabama, Georgia, Louisiana, Texas, Virginia, Arkansas, North Carolina, and Tennessee."
+    },
+    {
+      "type": "mcq",
+      "question": "In which July 1861 battle near Manassas Virginia did Confederate forces rout Union troops, shattering illusions of a quick war?",
+      "options": [
+        "Battle of Shiloh",
+        "Battle of Ball Bluff",
+        "First Battle of Bull Run"
+      ],
+      "correctIndex": 2,
+      "explanation": "Also known as First Manassas, the battle saw Confederate reinforcements arrive by rail and repulse Union forces under Irvin McDowell."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Confederate general earned his famous nickname at First Bull Run when General Bee shouted that he was standing like a stone wall?",
+      "options": [
+        "Thomas J. Jackson",
+        "James Longstreet",
+        "J.E.B. Stuart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thomas Stonewall Jackson held Henry House Hill resolutely, becoming Lee most aggressive and dependable corps commander."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic naval clash in Hampton Roads in March 1862 was the world first battle between two ironclad steam warships?",
+      "options": [
+        "USS Kearsarge vs CSS Alabama",
+        "USS Monitor vs CSS Virginia",
+        "USS Hartford vs CSS Tennessee"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Monitor revolutionary rotating turret and the Virginia sloped iron casemate fought for four hours to a tactical draw."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish-American inventor engineered the radical low-freeboard design and revolving steam turret of the USS Monitor?",
+      "options": [
+        "Robert Fulton",
+        "Samuel Colt",
+        "John Ericsson"
+      ],
+      "correctIndex": 2,
+      "explanation": "John Ericsson designed and built the ironclad Monitor in just 100 days at Greenpoint Brooklyn, transforming naval warfare."
+    },
+    {
+      "type": "mcq",
+      "question": "What bloody April 1862 battle in southwestern Tennessee resulted in over 23,000 casualties and ended with a hard-fought Union victory under Grant?",
+      "options": [
+        "Battle of Shiloh",
+        "Battle of Stones River",
+        "Battle of Perryville"
+      ],
+      "correctIndex": 0,
+      "explanation": "Confederate General Albert Sidney Johnston was killed on the first day at Shiloh before Grant and Buell counterattacked on day two."
+    },
+    {
+      "type": "number",
+      "question": "How many crew members served aboard the revolutionary Union ironclad warship USS Monitor during its 1862 deployment?",
+      "target": 49,
+      "metricUnit": "men",
+      "imperialDisplay": "49 crew members",
+      "explanation": "Commanded by Lieutenant John Worden, the USS Monitor carried a tight crew of 49 officers and enlisted sailors."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Union commander organized the grand Army of the Potomac but was notoriously overly cautious and reluctant to commit troops to battle?",
+      "options": [
+        "Ulysses S. Grant",
+        "George B. McClellan",
+        "Ambrose Burnside"
+      ],
+      "correctIndex": 1,
+      "explanation": "McClellan was a brilliant organizer and drillmaster but consistently overestimated enemy strength, frustrating President Lincoln."
+    },
+    {
+      "type": "mcq",
+      "question": "What series of six major battles in summer 1862 saw Robert E. Lee drive McClellan army away from the gates of Richmond?",
+      "options": [
+        "Overland Campaign",
+        "Valley Campaign",
+        "Seven Days Battles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lee took command of the Army of Northern Virginia after Joseph Johnston was wounded, pushing Union forces back to the James River."
+    },
+    {
+      "type": "mcq",
+      "question": "What September 17 1862 clash near Sharpsburg Maryland was the single bloodiest day in American military history?",
+      "options": [
+        "Battle of Antietam",
+        "Battle of Fredericksburg",
+        "Battle of Gettysburg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Over 22,700 men were killed, wounded, or missing at Antietam in twelve hours of brutal fighting across the Cornfield and Sunken Road."
+    },
+    {
+      "type": "mcq",
+      "question": "What lost Confederate military order wrapped around three cigars was found in a clover field by Union soldiers before Antietam?",
+      "options": [
+        "Special Order 15",
+        "Special Order 191",
+        "General Order 28"
+      ],
+      "correctIndex": 1,
+      "explanation": "Special Order 191 revealed Robert E. Lee divided troop movements to McClellan, enabling Union forces to intercept him at South Mountain."
+    },
+    {
+      "type": "mcq",
+      "question": "In which December 1862 battle did Union General Ambrose Burnside suffer devastating casualties ordering futile charges against Marye Heights?",
+      "options": [
+        "Battle of Chancellorsville",
+        "Battle of Cold Harbor",
+        "Battle of Fredericksburg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Confederate defenders behind a sunken stone wall with overlapping rifle fire repulsed fourteen successive Union brigade assaults."
+    },
+    {
+      "type": "number",
+      "question": "What was the total combined number of casualties on the single bloodiest day in American military history at the Battle of Antietam?",
+      "target": 22717,
+      "metricUnit": "casualties",
+      "imperialDisplay": "22,717 casualties",
+      "explanation": "Antietam produced 22,717 combined casualties (2,108 Union dead, 1,546 Confederate dead, plus over 19,000 wounded or missing)."
+    },
+    {
+      "type": "mcq",
+      "question": "Following the Union victory at Antietam, what executive proclamation did Abraham Lincoln issue to free all enslaved people in Confederate territory?",
+      "options": [
+        "Emancipation Proclamation",
+        "Civil Rights Act",
+        "Thirteenth Amendment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Issued on January 1, 1863, the proclamation declared all enslaved persons in rebellious states forever free and authorized Black military recruitment."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous all-Black volunteer infantry regiment led by Colonel Robert Gould Shaw carried out a heroic assault on Fort Wagner in 1863?",
+      "options": [
+        "1st Kansas Colored Infantry",
+        "54th Massachusetts Infantry",
+        "10th US Cavalry"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 54th Massachusetts proved African American valor under intense fire at Fort Wagner, inspiring widespread recruitment across the North."
+    },
+    {
+      "type": "mcq",
+      "question": "Which escaped enslaved woman and Underground Railroad conductor served the Union Army as a scout, nurse, and commander of the Combahee Ferry Raid?",
+      "options": [
+        "Sojourner Truth",
+        "Phillis Wheatley",
+        "Harriet Tubman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harriet Tubman guided Union gunboats in South Carolina, liberating more than 700 enslaved people in a single armed operation."
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the prominent abolitionist, orator, and statesman who urged President Lincoln to recruit Black soldiers and demand complete emancipation?",
+      "options": [
+        "Frederick Douglass",
+        "William Lloyd Garrison",
+        "John Brown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frederick Douglass actively recruited for the 54th Massachusetts, including two of his own sons, championing citizenship through military service."
+    },
+    {
+      "type": "mcq",
+      "question": "Which African American sergeant in the 54th Massachusetts became the first Black recipient of the Medal of Honor for saving the American flag at Fort Wagner?",
+      "options": [
+        "Henry Johnson",
+        "William Harvey Carney",
+        "Alexander Thomas Augusta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despite being severely wounded three times, Carney never let the Stars and Stripes touch the ground, shouting that the old flag never touched the ground."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many African American soldiers and sailors served in the Union Armed Forces by the end of the Civil War?",
+      "target": 179000,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "179,000 African American troops",
+      "explanation": "Roughly 179,000 Black soldiers served in the US Colored Troops and 19,000 in the US Navy, comprising ten percent of total Union armed strength."
+    },
+    {
+      "type": "mcq",
+      "question": "In which May 1863 battle, considered Lee tactical masterpiece, did he divide his outnumbered army to defeat Joseph Hooker before losing Stonewall Jackson?",
+      "options": [
+        "Battle of the Wilderness",
+        "Battle of Spotsylvania",
+        "Battle of Chancellorsville"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lee sent Stonewall Jackson on a daring 12-mile flank march, routing the Union XI Corps, but Jackson was mortally wounded by friendly fire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which pivotal three-day battle fought in Pennsylvania from July 1 to July 3 1863 marked the high-water mark of the Confederacy?",
+      "options": [
+        "Battle of Gettysburg",
+        "Battle of Antietam",
+        "Battle of Chickamauga"
+      ],
+      "correctIndex": 0,
+      "explanation": "General George Meade Army of the Potomac turned back Lee second invasion of the North, producing over 50,000 casualties."
+    },
+    {
+      "type": "mcq",
+      "question": "On July 2 at Gettysburg, which Union colonel led the 20th Maine in a desperate downhill bayonet charge to save Little Round Top?",
+      "options": [
+        "Winfield Scott Hancock",
+        "Joshua Lawrence Chamberlain",
+        "John Buford"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chamberlain held the extreme left flank of the Union army with a dramatic bayonet advance, earning the Congressional Medal of Honor."
+    },
+    {
+      "type": "mcq",
+      "question": "What disastrous Confederate frontal assault on July 3 across open fields against the Union center on Cemetery Ridge resulted in massive slaughter?",
+      "options": [
+        "Burnside Assault",
+        "Hood Charge",
+        "Pickett Charge"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over 12,000 Confederate infantry under George Pickett charged into concentrated Union artillery and musket fire, suffering over 50 percent casualties."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Union cavalry general skillfully held McPherson Ridge with dismounted cavalry armed with Spencer repeating carbines on the first morning of Gettysburg?",
+      "options": [
+        "John Buford",
+        "Philip Sheridan",
+        "George Armstrong Custer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buford recognized the high ground advantages of Cemetery Ridge and delayed Confederate infantry until Union infantry corps arrived."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the Battle of Gettysburg fought, turning the tide of the American Civil War?",
+      "target": 1863,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1863 CE",
+      "explanation": "Fought from July 1 to July 3, 1863, Gettysburg ended Confederate hopes for European diplomatic recognition."
+    },
+    {
+      "type": "mcq",
+      "question": "On July 4 1863, one day after Gettysburg, what Confederate stronghold on the Mississippi River surrendered to Ulysses S. Grant after a 47-day siege?",
+      "options": [
+        "Port Hudson",
+        "Vicksburg",
+        "New Orleans"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fall of Vicksburg gave the Union complete mastery of the Mississippi River, severing Texas, Arkansas, and Louisiana from the rest of the Confederacy."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 272-word speech did Abraham Lincoln deliver on November 19 1863, dedicating a soldiers cemetery with the words Four score and seven years ago?",
+      "options": [
+        "Second Inaugural Address",
+        "Cooper Union Speech",
+        "Gettysburg Address"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lincoln redefined the war as a moral test to ensure that government of the people, by the people, for the people, shall not perish from the earth."
+    },
+    {
+      "type": "mcq",
+      "question": "In what brutal September 1863 battle in Georgia did Confederate General Braxton Bragg defeat Union forces under William Rosecrans?",
+      "options": [
+        "Battle of Chickamauga",
+        "Battle of Lookout Mountain",
+        "Battle of Kennesaw Mountain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chickamauga was the bloodiest battle of the Western Theater, where Union General George Thomas earned the title Rock of Chickamauga."
+    },
+    {
+      "type": "mcq",
+      "question": "In what November 1863 battle did Union soldiers charge up Lookout Mountain above the clouds and storm Missionary Ridge to break the siege of Chattanooga?",
+      "options": [
+        "Battle of Atlanta",
+        "Battle of Chattanooga",
+        "Battle of Franklin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grant coordinated the victory, opening the gateway for William Tecumseh Sherman subsequent invasion of Georgia."
+    },
+    {
+      "type": "mcq",
+      "question": "What high military rank, previously held only by George Washington, was revived by Lincoln in March 1864 for Ulysses S. Grant?",
+      "options": [
+        "Major General",
+        "General of the Army",
+        "Lieutenant General"
+      ],
+      "correctIndex": 2,
+      "explanation": "Promoted to Lieutenant General, Grant was given overall command of all Union armies operating in simultaneous concert."
+    },
+    {
+      "type": "number",
+      "question": "How many words make up the entire text of Abraham Lincoln timeless Gettysburg Address delivered in November 1863?",
+      "target": 272,
+      "metricUnit": "words",
+      "imperialDisplay": "272 words",
+      "explanation": "Delivered in just over two minutes, Lincoln 272-word address remains one of the most powerful and revered speeches in human history."
+    },
+    {
+      "type": "mcq",
+      "question": "In May 1864, what brutal Virginia campaign began with Grant refusing to retreat despite heavy losses in the tangled brush of the Wilderness?",
+      "options": [
+        "Overland Campaign",
+        "Peninsula Campaign",
+        "Shenandoah Campaign"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike previous Union commanders who retreated after heavy losses, Grant pushed southward toward Richmond, continually applying relentless pressure."
+    },
+    {
+      "type": "mcq",
+      "question": "At which June 1864 battle did Grant later express regret for ordering a frontal assault against entrenched Confederate works where 7,000 Union troops fell in twenty minutes?",
+      "options": [
+        "Battle of Spotsylvania",
+        "Battle of Cold Harbor",
+        "Battle of North Anna"
+      ],
+      "correctIndex": 1,
+      "explanation": "At Cold Harbor, Union soldiers pinned name tags to their uniforms so their bodies could be identified after charging fortified rifle pits."
+    },
+    {
+      "type": "mcq",
+      "question": "What lengthy 9-month siege from June 1864 to April 1865 saw Grant besiege Lee army in an extensive network of trenches south of Richmond?",
+      "options": [
+        "Siege of Atlanta",
+        "Siege of Vicksburg",
+        "Siege of Petersburg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Petersburg prefigured World War I trench warfare with miles of palisades, underground tunnels, and heavy mortar bombardment."
+    },
+    {
+      "type": "mcq",
+      "question": "In what July 1864 Petersburg operation did Pennsylvania coal miners detonate four tons of gunpowder under Confederate lines, only for attacking Union troops to be trapped in the blast crater?",
+      "options": [
+        "Battle of the Crater",
+        "Battle of Fort Stedman",
+        "Battle of Five Forks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The massive explosion created a 170-foot crater, but poor tactical execution resulted in a catastrophic Union defeat inside the pit."
+    },
+    {
+      "type": "mcq",
+      "question": "Which aggressive Union cavalry commander cleared the Shenandoah Valley in autumn 1864, destroying grain mills and livestock feeding Lee army?",
+      "options": [
+        "George Armstrong Custer",
+        "Philip Sheridan",
+        "Judson Kilpatrick"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sheridan scorched-earth campaign in the Shenandoah Valley deprived Confederate forces of their breadbasket and secured Washington."
+    },
+    {
+      "type": "number",
+      "question": "For how many total days did the Siege of Vicksburg last before Confederate Lieutenant General John C. Pemberton surrendered on July 4, 1863?",
+      "target": 47,
+      "metricUnit": "days",
+      "imperialDisplay": "47 days",
+      "explanation": "The 47-day siege forced residents and soldiers to live in subterranean caves and eat mules and rats before capitulating."
+    },
+    {
+      "type": "mcq",
+      "question": "Which critical Confederate manufacturing and rail hub fell to Union General William Tecumseh Sherman in September 1864, assuring Lincoln reelection?",
+      "options": [
+        "Savannah",
+        "Charleston",
+        "Atlanta"
+      ],
+      "correctIndex": 2,
+      "explanation": "The capture of Atlanta shattered Southern morale and secured Lincoln overwhelming electoral victory over McClellan in November 1864."
+    },
+    {
+      "type": "mcq",
+      "question": "What destructive 285-mile military campaign from Atlanta to the Atlantic coast in late 1864 saw Sherman troops destroy railways, cotton, and infrastructure?",
+      "options": [
+        "Sherman March to the Sea",
+        "Overland Campaign",
+        "Valley Forge March"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sherman waged psychological total war to break the South will to fight, presenting Savannah to Lincoln as a Christmas gift."
+    },
+    {
+      "type": "mcq",
+      "question": "What did Union soldiers call the practice of heating Confederate iron rails over bonfires and twisting them around trees so they could not be reused?",
+      "options": [
+        "Lincoln Ties",
+        "Sherman Neckties",
+        "Grant Rings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sherman neckties effectively paralyzed southern railroad logistics throughout Georgia and the Carolinas."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Confederate prison camp in Georgia was infamous for horrific overcrowding, starvation, and disease where nearly 13,000 Union prisoners died?",
+      "options": [
+        "Libby Prison",
+        "Castle Thunder",
+        "Andersonville"
+      ],
+      "correctIndex": 2,
+      "explanation": "Camp Sumter at Andersonville held over 30,000 prisoners in an open-air 26-acre stockade; its commander Henry Wirz was later executed for war crimes."
+    },
+    {
+      "type": "mcq",
+      "question": "In which December 1864 battle in Tennessee did Union General George Thomas completely destroy Confederate General John Bell Hood Army of Tennessee?",
+      "options": [
+        "Battle of Nashville",
+        "Battle of Franklin",
+        "Battle of Murfreesboro"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Battle of Nashville was one of the few decisive battlefield annihilations of the war, effectively ending Confederate military power in the West."
+    },
+    {
+      "type": "number",
+      "question": "What was the approximate width in kilometers of the destructive operational corridor swept by Sherman army during the March to the Sea?",
+      "target": 97,
+      "metricUnit": "km",
+      "imperialDisplay": "60 miles (97 km)",
+      "explanation": "Sherman four infantry corps marched abreast across a 60-mile (97 km) front, foraging off the land and destroying military supplies."
+    },
+    {
+      "type": "mcq",
+      "question": "At which April 1 1865 battle did Union forces under Sheridan crush the Confederate flank, forcing Lee to evacuate Richmond and Petersburg?",
+      "options": [
+        "Battle of Sayler Creek",
+        "Battle of Five Forks",
+        "Battle of Fort Stedman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the Waterloo of the Confederacy, Five Forks broke Lee last rail line, causing the immediate fall of the Confederate capital."
+    },
+    {
+      "type": "mcq",
+      "question": "In whose parlor at Appomattox Court House Virginia did General Robert E. Lee formally surrender the Army of Northern Virginia to Ulysses S. Grant on April 9 1865?",
+      "options": [
+        "Robert Anderson",
+        "James Longstreet",
+        "Wilmer McLean"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wilmer McLean had moved away from Manassas in 1861 after the first battle struck his farm, famously stating the war started in his front yard and ended in his parlor."
+    },
+    {
+      "type": "mcq",
+      "question": "What generous terms did Grant extend to Lee soldiers at Appomattox to promote national reconciliation?",
+      "options": [
+        "Allowed soldiers to keep their horses and return home unmolested",
+        "Imprisonment of all Confederate officers",
+        "Trial for treason without parole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grant fed the starving Confederate troops and permitted officers and cavalrymen to retain their horses for spring plowing."
+    },
+    {
+      "type": "mcq",
+      "question": "What constitutional amendment ratified in December 1865 formally abolished slavery and involuntary servitude throughout the entire United States?",
+      "options": [
+        "Fourteenth Amendment",
+        "Thirteenth Amendment",
+        "Fifteenth Amendment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Thirteenth Amendment outlawed slavery nationwide, completing the emancipation process initiated during the war."
+    },
+    {
+      "type": "mcq",
+      "question": "At which Washington theater was President Abraham Lincoln assassinated by Confederate sympathizer John Wilkes Booth on April 14 1865?",
+      "options": [
+        "National Theatre",
+        "Grover Theatre",
+        "Ford Theatre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Booth shot Lincoln during a performance of Our American Cousin just five days after Lee surrender at Appomattox."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the American Civil War formally conclude with the surrender of Confederate armies and dissolution of the Confederacy?",
+      "target": 1865,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1865 CE",
+      "explanation": "The war concluded in 1865 with Lee surrender in April and the final surrender of General Stand Watie Cherokee forces in June."
+    },
+    {
+      "type": "mcq",
+      "question": "Who succeeded to the presidency following Lincoln assassination, clashing fiercely with Radical Republicans over Southern Reconstruction?",
+      "options": [
+        "Andrew Johnson",
+        "Ulysses S. Grant",
+        "Rutherford B. Hayes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andrew Johnson was impeached by the House of Representatives in 1868 over his opposition to Reconstruction civil rights laws."
+    },
+    {
+      "type": "mcq",
+      "question": "What federal agency established in 1865 provided food, medical care, legal assistance, and schools to newly emancipated African Americans?",
+      "options": [
+        "Union Relief Corps",
+        "Freedmen Bureau",
+        "War Reconstruction Commission"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bureau of Refugees, Freedmen, and Abandoned Lands helped establish hundreds of schools and historically Black universities across the South."
+    },
+    {
+      "type": "mcq",
+      "question": "What famous speech did Lincoln deliver at his second inauguration in March 1865, calling for reconciliation with malice toward none, with charity for all?",
+      "options": [
+        "Emancipation Address",
+        "Gettysburg Address",
+        "Second Inaugural Address"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lincoln Second Inaugural urged the nation to bind up its wounds and achieve a just and lasting peace."
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous nurse organized medical supplies, treated soldiers on battlefields like Antietam, and later founded the American Red Cross?",
+      "options": [
+        "Clara Barton",
+        "Dorothea Dix",
+        "Mary Ann Bickerdyke"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known as the Angel of the Battlefield, Clara Barton provided frontline aid and later led the American Red Cross for over two decades."
+    },
+    {
+      "type": "mcq",
+      "question": "What constitutional amendment ratified in 1868 granted birthright citizenship and guaranteed equal protection of the laws to all Americans?",
+      "options": [
+        "Thirteenth Amendment",
+        "Fourteenth Amendment",
+        "Fifteenth Amendment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Fourteenth Amendment overturned the Dred Scott ruling and established constitutional guarantees of due process and equal protection."
+    },
+    {
+      "type": "number",
+      "question": "According to traditional consensus, approximately how many total American soldiers died in the Civil War from combat, accident, and disease?",
+      "target": 620000,
+      "metricUnit": "deaths",
+      "imperialDisplay": "620,000 military deaths",
+      "explanation": "Traditional estimates place deaths at 620,000 (roughly 360,000 Union and 260,000 Confederate), with recent demographic studies suggesting up to 750,000."
+    }
+  ]
+}

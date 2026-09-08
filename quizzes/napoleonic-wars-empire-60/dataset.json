@@ -1,0 +1,703 @@
+{
+  "id": "napoleonic-wars-empire-60",
+  "theme": "The Napoleonic Wars: Grand Armée, Strategy & Waterloo",
+  "title": "The Napoleonic Wars: Grand Armée, Strategy & Waterloo",
+  "description": "A 60-question grand master assessment on Napoleon Bonaparte, Austerlitz, Trafalgar, the Continental System, the Russian campaign of 1812, and the Battle of Waterloo.",
+  "category": "Modern History & Landmark Wars",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "On which Mediterranean island was Napoleon Bonaparte born in August 1769, shortly after the island was acquired by France from Genoa?",
+      "options": [
+        "Corsica",
+        "Elba",
+        "Sardinia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon was born in Ajaccio, Corsica, to a minor noble family and attended royal military academies in Brienne and Paris.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What December 1793 military engagement first brought 24-year-old artillery captain Napoleon Bonaparte to national prominence?",
+      "options": [
+        "Battle of Valmy",
+        "Siege of Toulon",
+        "Battle of Fleurus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Napoleon placement of artillery on heights overlooking the harbor forced Anglo-Spanish fleets to evacuate Toulon, earning him promotion to general.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous 1796 battle in northern Italy saw Napoleon cross a heavily defended bridge under direct Austrian fire, becoming an icon of courage?",
+      "options": [
+        "Battle of Marengo",
+        "Battle of Rivoli",
+        "Battle of the Bridge of Arcole"
+      ],
+      "correctIndex": 2,
+      "explanation": "At Arcole, Napoleon grabbed a tricolor standard and led his men forward, solidifying his mythic status as the Little Corporal.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic coup detat on November 9 1799 overthrew the French Directory and established Napoleon as First Consul?",
+      "options": [
+        "Coup of 18 Brumaire",
+        "Thermidorian Reaction",
+        "Coup of Fructidor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 18 Brumaire coup installed Napoleon at the head of a three-member Consulate, establishing near-absolute executive power.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what June 1800 battle in Piedmont did Napoleon achieve a dramatic comeback victory against the Austrian army following General Desaix late arrival?",
+      "options": [
+        "Battle of Hohenlinden",
+        "Battle of Marengo",
+        "Battle of Castiglione"
+      ],
+      "correctIndex": 1,
+      "explanation": "Desaix arrived in the nick of time, famously declaring that the battle was lost but there was time to win another, dying in the counterattack.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Napoleon Bonaparte crown himself Emperor of the French at Notre-Dame Cathedral in Paris?",
+      "target": 1804,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1804 CE",
+      "explanation": "On December 2, 1804, Napoleon took the imperial crown from Pope Pius VII and placed it upon his own head to symbolize his authority.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which December 2 1805 battle is celebrated as Napoleon greatest tactical masterpiece, where he crushed a combined Austro-Russian army?",
+      "options": [
+        "Battle of Jena",
+        "Battle of Friedland",
+        "Battle of Austerlitz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known as the Battle of the Three Emperors, Napoleon feigned weakness on his right flank before storming the central Pratzen Heights.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What high ground feature at Austerlitz did Marshal Soult IV Corps storm out of morning mist to split the allied Austro-Russian army in two?",
+      "options": [
+        "Pratzen Heights",
+        "Santon Hill",
+        "Zuran Hill"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soult seized the Pratzen Heights on Napoleon direct orders, throwing the allied center into complete disarray and encirclement.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What military organizational innovation created by Napoleon organized the Grande Armee into self-contained combined-arms units of infantry, cavalry, and artillery?",
+      "options": [
+        "Phalanx system",
+        "Corps dArmee system",
+        "Brigade detachment system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Corps system allowed French armies to march dispersed for foraging and rapid speed, then concentrate rapidly before battle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What grand imperial monument in Paris was commissioned by Napoleon in 1806 to celebrate the victorious soldiers of the Grande Armee?",
+      "options": [
+        "Vendome Column",
+        "Palais Garnier",
+        "Arc de Triomphe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inspired by Roman triumphal arches, the Arc de Triomphe at the Place de lEtoile honors French military victories and commanders.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1805 military campaign on the Danube saw Austrian General Mack surrender an entire 30,000-man army without a major pitched battle?",
+      "options": [
+        "Ulm Campaign",
+        "Bavarian Manoeuvre",
+        "Vienna Encirclement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon lightning march from the English Channel enveloped the Austrian army at Ulm, compelling its surrender on October 20, 1805.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many enemy cannons and artillery pieces were captured by French forces following the decisive victory at Austerlitz in 1805?",
+      "target": 180,
+      "metricUnit": "artillery pieces",
+      "imperialDisplay": "180 cannons",
+      "explanation": "French forces captured 180 artillery pieces and 45 enemy regimental standards at Austerlitz, shattering the Third Coalition.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic naval clash on October 21 1805 off the coast of Spain established British Royal Navy supremacy for over a century?",
+      "options": [
+        "Battle of the Nile",
+        "Battle of Trafalgar",
+        "Battle of Copenhagen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Admiral Lord Nelson broke the Franco-Spanish line in two columns aboard HMS Victory, destroying twenty enemy ships without losing one.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous flag signal did Vice-Admiral Horatio Nelson send to his fleet from HMS Victory before the clash at Trafalgar?",
+      "options": [
+        "No ship can do wrong that engages an enemy",
+        "Prepare to board with cold steel",
+        "England expects that every man will do his duty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Telegraphed using 31 signal flags, Nelson message became the most famous naval rallying signal in British history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French admiral commanded the combined Franco-Spanish fleet defeated by Lord Nelson at Trafalgar?",
+      "options": [
+        "Pierre-Charles Villeneuve",
+        "Federico Gravina",
+        "Francois-Paul Brueys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Villeneuve was captured at Trafalgar and later committed suicide after returning to France in disgrace.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What economic blockade policy declared by Napoleon in the 1806 Berlin Decree forbade all trade between continental Europe and Great Britain?",
+      "options": [
+        "Milan Decrees",
+        "Continental System",
+        "Imperial Embargo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Continental System sought to bankrupt Britain by cutting off its industrial exports, but proved difficult to enforce.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How did Great Britain retaliate against Napoleon Continental System in 1807, restricting neutral shipping and sparking overseas tensions?",
+      "options": [
+        "Boston Embargo",
+        "Navigation Acts",
+        "Orders in Council"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Orders in Council blockaded French-controlled ports and required neutral ships to pay duties in London, contributing to the War of 1812.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many British ships of the line did Admiral Lord Nelson command into battle at Trafalgar on October 21, 1805?",
+      "target": 27,
+      "metricUnit": "ships",
+      "imperialDisplay": "27 ships of the line",
+      "explanation": "Nelson 27 British warships defeated the 33 ships of the Franco-Spanish fleet without losing a single vessel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What comprehensive 1804 civil legal framework enacted by Napoleon abolished feudal privileges, instituted legal equality, and protected property rights?",
+      "options": [
+        "Napoleonic Code",
+        "Declaration of the Rights of Man",
+        "Civil Constitution"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Code Civil unified fragmented customary laws into a clear, secular code that heavily influenced legal systems across the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What premier French national order of merit and decoration was established by Napoleon in 1802 to reward civil and military bravery?",
+      "options": [
+        "Order of Saint Louis",
+        "Legion of Honour",
+        "Order of the Holy Spirit"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Legion of Honour was open to all citizens regardless of birth or social rank, based strictly on individual merit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What central banking institution did Napoleon establish in 1800 to stabilize French currency, issue bank notes, and manage public debt?",
+      "options": [
+        "Credit Lyonnais",
+        "Caisse dEpargne",
+        "Bank of France"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Bank of France and the introduction of the stable silver Franc Germinal ended hyperinflation from the Revolutionary assignat crisis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prestigious secondary educational institutions were established by Napoleon across France in 1802 to train future civil and military leaders?",
+      "options": [
+        "Lycees",
+        "Academies",
+        "Gymnasiums"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lycees provided standardized secular curricula with strict military discipline and competitive examinations for higher state service.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1801 agreement negotiated between Napoleon and Pope Pius VII restored normal relations between France and the Roman Catholic Church?",
+      "options": [
+        "Treaty of Tolentino",
+        "Concordat of 1801",
+        "Edict of Nantes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Concordat recognized Catholicism as the religion of the majority of French citizens while keeping state control over appointments.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many individual codified articles were contained in the original 1804 publication of the French Napoleonic Civil Code?",
+      "target": 2281,
+      "metricUnit": "articles",
+      "imperialDisplay": "2,281 legal articles",
+      "explanation": "The Code Civil contained 2,281 articles spanning persons, property, contracts, and torts, setting a worldwide model for civil law.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which dual battles on October 14 1806 did Napoleon and Marshal Davout decisively shatter the Prussian army in a single day?",
+      "options": [
+        "Battles of Eylau and Friedland",
+        "Battles of Lutzen and Bautzen",
+        "Battles of Jena and Auerstedt"
+      ],
+      "correctIndex": 2,
+      "explanation": "While Napoleon defeated Hohenlohe at Jena, Davout single III Corps heroically crushed the main Prussian army at Auerstedt.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What confederation of German client states was created by Napoleon in 1806, leading directly to the formal dissolution of the Holy Roman Empire?",
+      "options": [
+        "Confederation of the Rhine",
+        "Germanic Confederation",
+        "North German League"
+      ],
+      "correctIndex": 0,
+      "explanation": "Emperor Francis II abdicated the Holy Roman crown, dissolving the thousand-year empire as German princes allied with Napoleon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What peace treaties signed on a lavish pavilion raft on the Neman River in 1807 allied Napoleon with Tsar Alexander I of Russia?",
+      "options": [
+        "Treaties of Campo Formio",
+        "Treaties of Tilsit",
+        "Treaties of Schonbrunn"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Treaties of Tilsit partitioned Prussia, created the Duchy of Warsaw, and brought Russia into the Continental System.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What bloody, blizzard-swept February 1807 battle in East Prussia was Napoleon first major battlefield check against Russian forces?",
+      "options": [
+        "Battle of Friedland",
+        "Battle of Pultusk",
+        "Battle of Eylau"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eylau was a horrific bloodbath in deep snow marked by Marshal Murat colossal 10,000-man cavalry charge to save the French center.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which June 1807 battle did Napoleon decisively defeat the Russian army by trapping them against the Alle River, forcing the Treaty of Tilsit?",
+      "options": [
+        "Battle of Friedland",
+        "Battle of Eylau",
+        "Battle of Heilsberg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon exploited Russian positions with devastating massed artillery fire under General Senarmont.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many German principalities and states initially united under Napoleon protection in the Confederation of the Rhine in 1806?",
+      "target": 16,
+      "metricUnit": "states",
+      "imperialDisplay": "16 German states",
+      "explanation": "Sixteen German states seceded from the Holy Roman Empire to form the confederation, which eventually expanded to thirty-six states.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prolonged conflict from 1807 to 1814 on the Iberian Peninsula did Napoleon later refer to as his fatal Spanish Ulcer?",
+      "options": [
+        "War of the Fifth Coalition",
+        "Peninsular War",
+        "Carlist War"
+      ],
+      "correctIndex": 1,
+      "explanation": "Napoleon deposition of the Spanish Bourbons ignited vicious Spanish guerrilla resistance and opened a permanent theater for British forces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Spanish term for little war was coined during the Peninsular War to describe irregular partisan ambush tactics against French supply columns?",
+      "options": [
+        "Reconquista",
+        "Pronunciamiento",
+        "Guerrilla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spanish guerrilleros ambushed couriers, isolated garrisons, and supply trains, tying down hundreds of thousands of French soldiers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British commander, later created Duke of Wellington, brilliantly defended Portugal and drove French forces out of Spain?",
+      "options": [
+        "Arthur Wellesley",
+        "John Moore",
+        "William Beresford"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wellington perfected reverse-slope defensive tactics and constructed the impregnable Lines of Torres Vedras to protect Lisbon.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous series of fortified defense lines built by Wellington between 1809 and 1810 stopped French Marshal Massena invasion of Portugal in its tracks?",
+      "options": [
+        "Lines of Badajoz",
+        "Lines of Torres Vedras",
+        "Lines of Ciudad Rodrigo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed in total secrecy, the three lines of forts, earthworks, and scorched earth forced starving French troops to retreat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish painter immortalized the brutal executions of Spanish patriots by French troops in his masterwork The Third of May 1808?",
+      "options": [
+        "Diego Velazquez",
+        "Bartolome Esteban Murillo",
+        "Francisco Goya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Goya painting in the Prado Museum depicts French firing squads executing citizens in Madrid following the Dos de Mayo uprising.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many total years did the grinding Peninsular War rage across Spain and Portugal between 1807 and 1814?",
+      "target": 7,
+      "metricUnit": "years",
+      "imperialDisplay": "7 years (1807–1814)",
+      "explanation": "The seven-year conflict drained French military strength and diverted 300,000 veteran soldiers from other critical European fronts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which colossal July 1809 battle did Napoleon defeat Austrian Archduke Charles in the largest battle in European history up to that time?",
+      "options": [
+        "Battle of Wagram",
+        "Battle of Aspern-Essling",
+        "Battle of Eckmuhl"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wagram engaged over 300,000 men and 1,000 cannons on the Marchfeld plain, featuring Macdonald giant infantry square.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which May 1809 battle did Napoleon suffer his first personal battlefield defeat when Austrian forces broke French bridgeheads across the Danube?",
+      "options": [
+        "Battle of Eckmuhl",
+        "Battle of Aspern-Essling",
+        "Battle of Raab"
+      ],
+      "correctIndex": 1,
+      "explanation": "Archduke Charles repulsed the French, and Napoleon lost one of his closest friends and greatest marshals, Jean Lannes, to cannon fire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Austrian archduchess did Napoleon marry in 1810 to secure an imperial dynasty, after divorcing his first wife Josephine?",
+      "options": [
+        "Marie Antoinette",
+        "Maria Theresa",
+        "Marie Louise"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marie Louise of Austria gave birth to Napoleon II, who was given the title King of Rome and groomed as imperial heir.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which trusted cavalry marshal, known as the First Horseman of Europe and King of Naples, led legendary cavalry charges for Napoleon?",
+      "options": [
+        "Joachim Murat",
+        "Michel Ney",
+        "Louis-Nicolas Davout"
+      ],
+      "correctIndex": 0,
+      "explanation": "Murat was renowned for his flamboyant uniforms, fearless saber charges, and marriage to Napoleon sister Caroline Bonaparte.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which brilliant French marshal, undefeated in battle and known as the Iron Marshal, held the right wing at Austerlitz and won Auerstedt?",
+      "options": [
+        "Jean-de-Dieu Soult",
+        "Louis-Nicolas Davout",
+        "Andre Massena"
+      ],
+      "correctIndex": 1,
+      "explanation": "Davout was strict, incorruptible, and master of discipline, recognized by military historians as Napoleon most capable field marshal.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many combined French and Austrian soldiers fought across the battlefield at Wagram in July 1809?",
+      "target": 300000,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "300,000 soldiers",
+      "explanation": "Roughly 160,000 French and allied troops clashed with 140,000 Austrian troops in an unprecedented concentration of firepower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive multinational invasion force did Napoleon assemble in June 1812 to invade Russia and enforce the Continental System?",
+      "options": [
+        "Army of the Orient",
+        "Imperial Cohort",
+        "La Grande Armee"
+      ],
+      "correctIndex": 2,
+      "explanation": "Comprising over 600,000 French, German, Polish, Italian, and Austrian troops, it was the largest army ever mobilized in European history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scorched-earth military strategy did Russian generals Barclay de Tolly and Mikhail Kutuzov use to deny food and shelter to the invading French?",
+      "options": [
+        "Strategic retreat and scorched earth",
+        "Continuous frontal assault",
+        "Fortress siege defense"
+      ],
+      "correctIndex": 0,
+      "explanation": "Russian armies retreated hundreds of miles into the interior, burning crops, villages, and bridges to starve the Grande Armee.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What titanic, bloody battle fought on September 7 1812 west of Moscow resulted in over 70,000 casualties in a single day?",
+      "options": [
+        "Battle of Smolensk",
+        "Battle of Borodino",
+        "Battle of Maloyaroslavets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Borodino featured brutal frontal assaults on the Bagration Fleches and the Raevski Redoubt, allowing Napoleon to enter Moscow.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What catastrophic event occurred shortly after Napoleon occupied Moscow in September 1812, destroying three-quarters of the city?",
+      "options": [
+        "A severe earthquake",
+        "A cholera outbreak",
+        "The Great Fire of Moscow"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ordered by Governor Count Rostopchin, fires set across Moscow denied winter quarters to French troops, forcing Napoleon winter retreat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What frozen Russian river did the remnants of the Grande Armee heroically bridge under fire in late November 1812 to escape total annihilation?",
+      "options": [
+        "Berezina River",
+        "Dnieper River",
+        "Neman River"
+      ],
+      "correctIndex": 0,
+      "explanation": "French pontonniers under General Eble stood in freezing waters to build two bridges, allowing Napoleon and thousands of troops to escape.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many total soldiers marched into Russia with Napoleon Grande Armee in June 1812?",
+      "target": 600000,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "600,000 troops",
+      "explanation": "Over 600,000 troops crossed the Neman River, but fewer than 100,000 returned due to typhus, hypothermia, starvation, and Cossack raids.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal four-day clash in Saxony in October 1813 was the largest battle of the Napoleonic Wars, involving over half a million troops?",
+      "options": [
+        "Battle of Dresden",
+        "Battle of Leipzig",
+        "Battle of Hanau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the Battle of the Nations, combined Russian, Prussian, Austrian, and Swedish armies overwhelmed Napoleon, liberating Germany.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French marshal was dubbed by Napoleon the Bravest of the Brave for commanding the desperate rearguard during the 1812 retreat from Moscow?",
+      "options": [
+        "Joachim Murat",
+        "Jean Lannes",
+        "Michel Ney"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marshal Ney personally fired the last musket shot of the Russian rearguard at Kaunas and led heroic attacks at Waterloo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Following the capture of Paris by the Coalition in April 1814, to which small Mediterranean island was Napoleon exiled as sovereign ruler?",
+      "options": [
+        "Elba",
+        "Saint Helena",
+        "Corsica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon was granted sovereignty over Elba off the coast of Tuscany, where he reformed local agriculture and mines for ten months.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which diplomatic summit of European ambassadors gathered between 1814 and 1815 under Austrian Prince Klemens von Metternich to redraw European borders?",
+      "options": [
+        "Treaty of Paris",
+        "Congress of Vienna",
+        "Council of Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Congress of Vienna established the Concert of Europe and a balance of power system that prevented major continent-wide wars for decades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bourbon monarch was restored to the French throne following Napoleon 1814 abdication at Fontainebleau?",
+      "options": [
+        "Charles X",
+        "Louis-Philippe",
+        "Louis XVIII"
+      ],
+      "correctIndex": 2,
+      "explanation": "Louis XVIII, brother of the guillotined Louis XVI, ascended the throne, fleeing Paris when Napoleon returned from Elba in 1815.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Napoleon escape from the island of Elba to begin his dramatic Hundred Days return to power?",
+      "target": 1815,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1815 CE",
+      "explanation": "On February 26, 1815, Napoleon slipped past British warships aboard the brig Inconstant, landing in France to reclaim his empire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On what date was the decisive Battle of Waterloo fought in modern-day Belgium, resulting in Napoleon final defeat?",
+      "options": [
+        "June 18 1815",
+        "July 14 1815",
+        "May 5 1821"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Duke of Wellington Anglo-allied army and Marshal Blucher Prussian army defeated Napoleon in a hard-fought daylong struggle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fortified stone farmhouse on Wellington right flank was defended all day by the British Coldstream Guards against wave after wave of French assaults?",
+      "options": [
+        "La Haye Sainte",
+        "Hougoumont",
+        "Papelotte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wellington later remarked that the closing of the gates at Hougoumont was the key action that decided the entire battle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What veteran Prussian field marshal, nicknamed Marshal Forward, marched his army through mud to arrive on Napoleon flank at Waterloo?",
+      "options": [
+        "Gebhard Leberecht von Blucher",
+        "August Neidhardt von Gneisenau",
+        "Karl Philipp von Schwarzenberg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Despite being injured at Ligny two days earlier, 72-year-old Blucher kept his promise to Wellington, arriving in the afternoon to strike Plancenoit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What elite military formation of veteran soldiers made their final advance up the ridge at Waterloo, breaking and retreating for the first time in their history?",
+      "options": [
+        "The Imperial Guard",
+        "The Polish Lancers",
+        "The Old Hussars"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the Middle Guard recoiled under concentrated British musket volleys, the cry that the Guard was retreating shattered French morale.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "To which remote volcanic island in the South Atlantic Ocean was Napoleon permanently exiled until his death in 1821?",
+      "options": [
+        "Falkland Islands",
+        "Saint Helena",
+        "Ascension Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guarded by British soldiers and royal warships, Napoleon lived at Longwood House on Saint Helena, dying on May 5, 1821, at age fifty-one.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many kilometers is the isolated island of Saint Helena located from the nearest mainland of southwestern Africa?",
+      "target": 1950,
+      "metricUnit": "km",
+      "imperialDisplay": "1,210 miles (1,950 km)",
+      "explanation": "Saint Helena lies roughly 1,950 kilometers (1,210 miles) west of the coast of Angola, ensuring Napoleon could never escape again.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

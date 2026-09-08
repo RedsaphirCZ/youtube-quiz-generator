@@ -1,0 +1,703 @@
+{
+  "id": "ottoman-empire-sultans-60",
+  "theme": "The Ottoman Empire: Sultans, Sieges & Imperial Grandeur",
+  "title": "The Ottoman Empire: Sultans, Sieges & Imperial Grandeur",
+  "description": "A 60-question comprehensive assessment on Osman I, Mehmed II, Suleiman the Magnificent, Janissaries, Mimar Sinan, Topkapi, and Vienna.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who was the founder and first chieftain of the Ottoman state in northwest Anatolia around 1299 CE?",
+      "options": [
+        "Osman I",
+        "Orhan",
+        "Murad I"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osman Gazi unified Turkish frontier tribes in Bithynia, founding the Ottoman dynasty that would rule for over six centuries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan conquered Constantinople in 1453 at the age of only 21, earning the title The Conqueror?",
+      "options": [
+        "Suleiman the Magnificent",
+        "Mehmed II",
+        "Selim I"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mehmed II (Fatih) captured the Byzantine capital in 1453 and transformed it into the flourishing imperial Ottoman capital of Istanbul.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What elite standing infantry corps was formed from recruited Christian youth and served as the personal guard of the Sultan?",
+      "options": [
+        "Sipahis",
+        "Mamluks",
+        "Janissaries"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Janissaries (Yeniçeri) were recruited through the Devshirme system and became Europe first standing disciplined infantry equipped with firearms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan presided over the apex of imperial wealth, territory, and law in the 16th century, known in the West as The Magnificent?",
+      "options": [
+        "Suleiman I",
+        "Bayezid II",
+        "Murad IV"
+      ],
+      "correctIndex": 0,
+      "explanation": "Suleiman I (known as Kanuni or Lawgiver in the East) led Ottoman armies across Hungary, Rhodes, and the Persian Gulf.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What grand imperial palace complex in Istanbul served as the primary administrative and residential seat of Ottoman Sultans for nearly 400 years?",
+      "options": [
+        "Dolmabahce Palace",
+        "Topkapi Palace",
+        "Yildiz Palace"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed by Mehmed II in 1459, Topkapi Palace contained state divans, the imperial mint, treasury, and the royal harem.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Osman I formally establish the independent Ottoman principality in Anatolia?",
+      "target": 1299,
+      "metricUnit": "CE",
+      "imperialDisplay": "1299 CE",
+      "explanation": "1299 CE is traditionally regarded as the founding year of the Ottoman state by Osman I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which chief imperial architect designed over 300 masterworks including the Suleymaniye and Selimiye mosques?",
+      "options": [
+        "Sedefkar Mehmed Agha",
+        "Mimar Hayruddin",
+        "Mimar Sinan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mimar Sinan was the greatest architect of the Ottoman golden age, perfecting monumental dome engineering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What naval battle in 1571 off western Greece saw the Holy League coalition defeat the Ottoman fleet in a massive clash of galleys?",
+      "options": [
+        "Battle of Lepanto",
+        "Battle of Preveza",
+        "Battle of Navarino"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Battle of Lepanto in October 1571 involved over 400 galleys and halted Ottoman naval expansion in the western Mediterranean.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What system of recruitment drafted young Christian boys from the Balkans into imperial military and bureaucratic service?",
+      "options": [
+        "Iqta",
+        "Devshirme",
+        "Timar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Devshirme (gathering) provided education and training, producing Grand Viziers, provincial governors, and Janissaries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year did the dramatic Second Siege of Vienna take place, repelled by King John III Sobieski Polish winged hussars?",
+      "options": [
+        "1529",
+        "1703",
+        "1683"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 1683 Battle of Vienna marked the turning point after which the Ottoman Empire ceased expanding into Central Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What title was held by the chief minister and head of the imperial government who held the Sultan imperial seal?",
+      "options": [
+        "Grand Vizier",
+        "Pasha",
+        "Khedive"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Grand Vizier (Sadrazam) presided over the Imperial Council (Divan-i Humayun) and directed state affairs.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the decisive Battle of Vienna fought, where Ottoman forces under Kara Mustafa were defeated?",
+      "target": 1683,
+      "metricUnit": "CE",
+      "imperialDisplay": "1683 CE",
+      "explanation": "The Battle of Vienna took place on September 11-12, 1683, featuring the largest cavalry charge in military history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan tripled the empire territory between 1512 and 1520 by conquering Syria, Palestine, Egypt, and the Holy Cities of Mecca and Medina?",
+      "options": [
+        "Murad II",
+        "Selim I the Grim",
+        "Ahmed I"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selim I defeated the Mamluk Sultanate in 1517, bringing the Islamic Caliphate under the Ottoman sovereign dynasty.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous mosque in Istanbul, commissioned by Sultan Ahmed I, is renowned worldwide for its vivid blue Iznik ceramic tiles?",
+      "options": [
+        "Suleymaniye Mosque",
+        "Fatih Mosque",
+        "Blue Mosque"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sultan Ahmed Mosque (Blue Mosque) features six minarets and interior walls adorned with over 20,000 hand-painted Iznik tiles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What administrative autonomous community system allowed religious minorities (Christians, Jews, Armenians) self-governance in civil law?",
+      "options": [
+        "Millet System",
+        "Kanun System",
+        "Timar System"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the Millet system, each religious community was led by its own religious hierarchy with its own courts and schools.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island fortress in the Mediterranean was heroically defended by the Knights Hospitaller against Suleiman fleet in the Great Siege of 1565?",
+      "options": [
+        "Cyprus",
+        "Malta",
+        "Crete"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Siege of Malta in 1565 was one of the fiercest sieges in history, with the Knights under Jean de Valette repelling Ottoman forces.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the famous covered marketplace in Istanbul, built in 1461, that is among the oldest and largest covered markets in the world?",
+      "options": [
+        "Spice Bazaar",
+        "Khan el-Khalili",
+        "Grand Bazaar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Grand Bazaar (Kapalicarsi) encompasses over 60 covered streets and 4,000 shops attracting millions of visitors.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many hand-painted ceramic Iznik tiles decorate the interior walls of the historic Blue Mosque in Istanbul?",
+      "target": 20000,
+      "metricUnit": "tiles",
+      "imperialDisplay": "20,000 Iznik tiles",
+      "explanation": "Over 20,000 handmade ceramic tiles in floral and tulip patterns adorn the upper interior of the Sultan Ahmed Mosque.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the title of the official royal signature or monogram of the Ottoman Sultan, elaborately calligraphed on all imperial decrees?",
+      "options": [
+        "Tughra",
+        "Firman",
+        "Khatt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tughra was an intricate calligraphic seal unique to each Sultan, combining their name, patronymic, and title of the ever-victorious.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ukrainian-born concubine rose through the imperial harem to become the legal wife and chief advisor of Suleiman the Magnificent?",
+      "options": [
+        "Kosem Sultan",
+        "Hurrem Sultan",
+        "Safiye Sultan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hurrem Sultan (Roxelana) broke centuries of Ottoman precedent by marrying Suleiman and wielding immense diplomatic influence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What period of Ottoman 17th-century history was characterized by powerful queen mothers (Valide Sultans) actively governing the empire?",
+      "options": [
+        "Tulip Period",
+        "Tanzimat Era",
+        "Sultanate of Women"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sultanate of Women (Kadinlar Saltanati) saw matriarchs like Kosem Sultan and Turhan Hatice govern during young sultans reigns.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which battle in 1526 saw Suleiman destroy the medieval Kingdom of Hungary in under two hours, annexing central Hungary?",
+      "options": [
+        "Battle of Mohacs",
+        "Battle of Kosovo",
+        "Battle of Nicopolis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Battle of Mohacs in August 1526 resulted in the death of King Louis II of Hungary and partitioned the Hungarian realm.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What peaceful, culturally vibrant 18th-century Ottoman period was named after a beloved cultivated ornamental flower?",
+      "options": [
+        "Rose Period",
+        "Tulip Period",
+        "Carnation Era"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tulip Period (Lale Devri, 1718-1730) under Sultan Ahmed III prioritized diplomacy, poetry, printing, and European-style gardens.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Battle of Mohacs fought between Suleiman I and King Louis II of Hungary?",
+      "target": 1526,
+      "metricUnit": "CE",
+      "imperialDisplay": "1526 CE",
+      "explanation": "The Battle of Mohacs was fought on August 29, 1526, leading to nearly 150 years of Ottoman rule in Buda.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 19th-century modernization reform movement reorganized Ottoman law, education, and civil equality from 1839 to 1876?",
+      "options": [
+        "Meiji Restoration",
+        "Young Turk Revolution",
+        "Tanzimat"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Tanzimat (Reorganization) introduced modern secular courts, equal rights for all religious subjects, and paper currency.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman privateer and admiral served as grand admiral of the navy and established Ottoman supremacy across the Mediterranean?",
+      "options": [
+        "Hayreddin Barbarossa",
+        "Piri Reis",
+        "Turgut Reis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hayreddin Barbarossa won the Battle of Preveza in 1538, securing complete maritime mastery for the Ottoman navy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Ottoman cartographer and admiral drew an astonishingly accurate world map on gazelle skin in 1513, including South America?",
+      "options": [
+        "Evliya Celebi",
+        "Piri Reis",
+        "Katip Celebi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Piri Reis Map of 1513 incorporated Columbus lost Caribbean charts alongside Portuguese maps of the Atlantic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the land grant system where Ottoman cavalry officers were assigned revenues from rural agricultural estates in exchange for military service?",
+      "options": [
+        "Zakat",
+        "Waqf",
+        "Timar"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Timar system supported the Sipahi cavalry regiments without requiring direct cash payroll disbursements from the treasury.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan abolished the corrupt Janissary corps in 1826 in an event known as the Auspicious Incident?",
+      "options": [
+        "Mahmud II",
+        "Selim III",
+        "Abdulhamid II"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mahmud II ordered modern artillery to shell the Janissary barracks in Istanbul, disbanding the unit to form a modern Western army.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the world-famous Atlantic world map created by Ottoman navigator Piri Reis?",
+      "target": 1513,
+      "metricUnit": "CE",
+      "imperialDisplay": "1513 CE",
+      "explanation": "Piri Reis presented his magnificent map to Sultan Selim I in Cairo in 1517 after drafting it in 1513.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What beverage house institution was first opened in Istanbul in 1554, becoming a center for political debate, poetry, and chess?",
+      "options": [
+        "Tea saloon",
+        "Coffeehouse",
+        "Sherbet tavern"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ottoman kahvehane (coffeehouse) transformed social life, spreading the culture of drinking roasted coffee beans worldwide.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which celebrated 17th-century Ottoman traveler spent 40 years exploring the empire and recorded his journeys in the 10-volume Seyahatname?",
+      "options": [
+        "Ibn Battuta",
+        "Al-Idrisi",
+        "Evliya Celebi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Evliya Celebi traveled across Anatolia, Europe, Egypt, and Persia, writing one of the most vivid travelogues in world history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian engineer designed and cast the enormous bronze super-cannons that breached Constantinople land walls in 1453?",
+      "options": [
+        "Orban",
+        "Janos Hunyadi",
+        "Gabor Bethlen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orban (Urban) was an iron caster who manufactured super-heavy siege bombards that fired stone balls across the Theodosian Walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What European architectural style inspired the construction of the opulent waterfront Dolmabahce Palace in the 1850s?",
+      "options": [
+        "Gothic Revival",
+        "Neoclassical and Baroque",
+        "Bauhaus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dolmabahce Palace blends traditional Ottoman court layouts with French Baroque, Rococo, and Neoclassical grandeur.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What treaty in 1699 forced the Ottoman Empire to cede large territories including Hungary to the Habsburg Monarchy, ending its expansion in Europe?",
+      "options": [
+        "Treaty of Kuchuk Kainarji",
+        "Treaty of Passarowitz",
+        "Treaty of Karlowitz"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Treaty of Karlowitz (1699) marked the first time the Ottoman Empire was forced to negotiate peace on equal terms after defeat.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Treaty of Karlowitz signed, marking the end of Ottoman territorial advance into Central Europe?",
+      "target": 1699,
+      "metricUnit": "CE",
+      "imperialDisplay": "1699 CE",
+      "explanation": "The Treaty of Karlowitz concluded the Great Turkish War on January 26, 1699.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian border fortress held out against Suleiman army in 1566 in a heroic siege where both Suleiman and defender Miklos Zrinyi died?",
+      "options": [
+        "Szigetvar",
+        "Eger",
+        "Belgrade"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Siege of Szigetvar in 1566 was called the battle that saved civilization, halting the Ottoman advance toward Vienna.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the ceremonial entrance gate to the grand vizier office in Istanbul, which gave its name metonymically to the Ottoman government in Western diplomacy?",
+      "options": [
+        "Lion Gate",
+        "Sublime Gate",
+        "Golden Gate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sublime Porte (Bab-i Ali) was the grand gate leading to the Grand Vizier offices and foreign ministry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Sultan established the first Ottoman state printing press with Arabic type in 1727, operated by Ibrahim Muteferrika?",
+      "options": [
+        "Mahmud I",
+        "Mustafa II",
+        "Ahmed III"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ibrahim Muteferrika published maps, dictionaries, and historical chronicles, inaugurating Muslim printed literature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional form of Ottoman martial arts and wrestling involves athletes doused in olive oil competing in an open grass field?",
+      "options": [
+        "Yagli Gures",
+        "Kurash",
+        "Sambo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yagli Gures (oil wrestling) has been contested continuously at Kirkpinar since 1361, making it one of the oldest sports competitions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What town in northwest Anatolia was celebrated for producing world-renowned cobalt blue and ruby red glazed ceramic tiles for mosques?",
+      "options": [
+        "Bursa",
+        "Iznik",
+        "Edirne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iznik pottery reached its artistic summit in the late 16th century, supplying tiles for royal palaces and grand mosques.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total centuries did the Ottoman Empire endure from its founding in 1299 to its dissolution in 1922?",
+      "target": 6,
+      "metricUnit": "centuries",
+      "imperialDisplay": "6 centuries (623 years)",
+      "explanation": "The Ottoman state endured for over 620 years until the abolition of the Sultanate in 1922.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city served as the second capital of the Ottoman Empire from 1369 until the conquest of Constantinople in 1453?",
+      "options": [
+        "Bursa",
+        "Konya",
+        "Edirne"
+      ],
+      "correctIndex": 2,
+      "explanation": "Edirne (Adrianople) in Thrace served as the strategic staging ground for Ottoman conquests into the Balkans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the first capital city of the Ottoman state, captured by Orhan in 1326?",
+      "options": [
+        "Bursa",
+        "Izmir",
+        "Ankara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bursa was the first imperial capital and became a premier silk weaving and international merchant trade center.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman military order comprised religious endowments that funded schools, hospitals, public soup kitchens, and caravanserais?",
+      "options": [
+        "Divan",
+        "Waqf",
+        "Janissary Lodge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Waqf foundations managed vast philanthropic complexes (Kulliye) that provided free social and educational services across the empire.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic Ottoman military marching band with bass drums, cymbals, and shawms inspired Western composers like Mozart and Beethoven?",
+      "options": [
+        "Qawwali",
+        "Gamelan",
+        "Mehter Band"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Mehter was the world oldest military marching band, striking psychological awe on battlefield fronts.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan survived the assassination of his family by hiding in an oven and later became a formidable reformer in 1808?",
+      "options": [
+        "Mahmud II",
+        "Mustafa IV",
+        "Selim III"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mahmud II escaped palace assassins to ascend the throne and carry out sweeping military, legal, and dress reforms.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the Sultanate of the Ottoman Empire officially abolished by the Grand National Assembly of Turkey?",
+      "target": 1922,
+      "metricUnit": "CE",
+      "imperialDisplay": "1922 CE",
+      "explanation": "The Sultanate was formally abolished on November 1, 1922, followed by the declaration of the Republic of Turkey in 1923.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mountain pass fortress in Bulgaria saw heroic resistance by Russian and Bulgarian forces against Ottoman armies in 1877?",
+      "options": [
+        "Khyber Pass",
+        "Shipka Pass",
+        "Brenner Pass"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Battle of Shipka Pass determined the outcome of the Russo-Turkish War, leading to Bulgarian autonomy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which peninsula was the site of the catastrophic Allied amphibious campaign against the Ottoman army in 1915 during World War I?",
+      "options": [
+        "Crimea",
+        "Sinai",
+        "Gallipoli"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gallipoli Campaign was a decisive Ottoman defensive victory led tactically by commander Mustafa Kemal (Ataturk).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What railway constructed between 1900 and 1908 connected Damascus with Medina to facilitate the annual Hajj pilgrimage?",
+      "options": [
+        "Hejaz Railway",
+        "Trans-Siberian Railway",
+        "Orient Express"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hejaz Railway was funded by worldwide Muslim donations and built to transport pilgrims quickly across the Arabian desert.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinct felt headgear replaced the traditional turban as standard Ottoman civil and military dress under Mahmud II in 1829?",
+      "options": [
+        "Keffiyeh",
+        "Fez",
+        "Kepi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cylindrical red felt Fez was adopted to modernize imperial dress while remaining practical for Muslim prostration in prayer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which great lake in eastern Anatolia was the site of the Battle of Manzikert in 1071, opening Anatolia to Turkish migration?",
+      "options": [
+        "Lake Tuz",
+        "Lake Baikal",
+        "Lake Van"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lake Van is the largest lake in modern Turkey, located near Manzikert where the Seljuks defeated the Byzantine army.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the historic Battle of Lepanto fought in the Gulf of Patras?",
+      "target": 1571,
+      "metricUnit": "CE",
+      "imperialDisplay": "1571 CE",
+      "explanation": "The Battle of Lepanto occurred on October 7, 1571, sinking or capturing over 200 Ottoman vessels.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the official Ottoman currency coin of silver that served as the primary monetary accounting unit for centuries?",
+      "options": [
+        "Akce",
+        "Dirham",
+        "Thaler"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Akce was a small silver coin first struck under Orhan Gazi in 1326 that formed the monetary backbone of trade.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the founder and first president of the secular Republic of Turkey who led the Turkish War of Independence?",
+      "options": [
+        "Ismet Inonu",
+        "Mustafa Kemal Ataturk",
+        "Enver Pasha"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mustafa Kemal Ataturk abolished the Ottoman Sultanate and Caliphate, introducing the Latin alphabet, secularism, and women suffrage.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What grand mosque in Edirne is widely regarded by architectural historians as Mimar Sinan ultimate masterpiece?",
+      "options": [
+        "Ulu Camii",
+        "Suleymaniye Mosque",
+        "Selimiye Mosque"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sinan considered the Selimiye Mosque (built for Selim II) his masterwork, surpassing Hagia Sophia in dome harmony.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Ottoman Sultan signed the Treaty of Sevrès in 1920 before going into exile as the final Sultan of the dynasty?",
+      "options": [
+        "Mehmed VI",
+        "Abdulmecid II",
+        "Mehmed V"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mehmed VI Vahideddin was the last reigning Ottoman Sultan, departing Istanbul aboard a British warship in November 1922.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What decorative art of paper marbling, producing swirling multicolored stone patterns, was perfected in Ottoman workshops?",
+      "options": [
+        "Decoupage",
+        "Ebru",
+        "Origami"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ebru involves floating natural pigments on thickened carrageenan water and transferring the patterns onto fine paper.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many minarets surround the monumental Selimiye Mosque designed by Mimar Sinan in Edirne?",
+      "target": 4,
+      "metricUnit": "minarets",
+      "imperialDisplay": "4 soaring minarets",
+      "explanation": "The Selimiye Mosque features 4 fluted minarets standing over 70 meters tall with 3 balconies each.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

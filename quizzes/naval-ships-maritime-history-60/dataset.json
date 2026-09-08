@@ -1,0 +1,703 @@
+{
+  "id": "naval-ships-maritime-history-60",
+  "theme": "Historic Ships, Submarines & Naval Engineering",
+  "title": "Historic Ships, Submarines & Naval Engineering",
+  "description": "Comprehensive 60-question naval odyssey exploring Age of Sail flagships, ironclad clashes, tragic ocean liners, super-battleships, and nuclear submarines.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which 104-gun first-rate ship of the line served as Vice-Admiral Lord Nelson flagship at the Battle of Trafalgar in 1805?",
+      "options": [
+        "HMS Victory",
+        "HMS Dreadnought",
+        "HMS Temeraire"
+      ],
+      "correctIndex": 0,
+      "explanation": "HMS Victory is the world oldest naval vessel still in commission, preserved in dry dock at Portsmouth Historic Dockyard.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which three-masted American heavy frigate earned the nickname Old Ironsides during the War of 1812 when cannonballs bounced off its resilient live oak hull?",
+      "options": [
+        "USS Constellation",
+        "USS Constitution",
+        "USS United States"
+      ],
+      "correctIndex": 1,
+      "explanation": "Launched in 1797, USS Constitution defeated five British warships including HMS Guerriere, remaining the world oldest commissioned naval vessel afloat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which grand 64-gun Swedish warship capsized and sank in Stockholm harbor just twenty minutes into its maiden voyage in August 1628?",
+      "options": [
+        "Kronan",
+        "Svärdet",
+        "Vasa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vasa was built with excessive upper-deck weight and an inadequate ballast keel, salvaged largely intact in 1961 after 333 years underwater.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Tudor flagship of King Henry VIII sank in the Solent in 1545 and was raised in a famous maritime salvage operation in 1982?",
+      "options": [
+        "Mary Rose",
+        "Great Harry",
+        "Peter Pomegranate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mary Rose yielded thousands of well-preserved Tudor artifacts, including longbows, personal weapons, and musical instruments.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English galleon, captained by Sir Francis Drake, completed a historic global circumnavigation between 1577 and 1580?",
+      "options": [
+        "Pelican",
+        "Golden Hind",
+        "Revenge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Originally named Pelican, Drake renamed the vessel Golden Hind during the expedition, capturing immense Spanish treasure across the Pacific.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Lord Nelson defeat the combined French and Spanish fleets at the pivotal Battle of Trafalgar?",
+      "target": 1805,
+      "metricUnit": "year",
+      "imperialDisplay": "1805 AD",
+      "explanation": "The Battle of Trafalgar was fought on October 21, 1805, establishing British naval supremacy across the world oceans for a century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary passenger ship designed by Isambard Kingdom Brunel in 1843 was the world first iron-hulled, screw-propeller-driven transatlantic steamship?",
+      "options": [
+        "SS Great Western",
+        "SS Great Eastern",
+        "SS Great Britain"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SS Great Britain combined an iron hull with a thousand-horsepower steam engine and a six-bladed screw propeller, now restored in Bristol.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic 1862 American Civil War clash marked the first battle between ironclad armored warships in world history?",
+      "options": [
+        "Battle of Hampton Roads",
+        "Battle of Mobile Bay",
+        "Battle of Fort Sumter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Union USS Monitor with its revolving turret fought the Confederate CSS Virginia to a tactical draw, rendering wooden fleets obsolete overnight.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1860 British warship was the first iron-hulled, armor-plated, steam-powered ocean-going ironclad battleship ever commissioned?",
+      "options": [
+        "HMS Black Prince",
+        "HMS Warrior",
+        "HMS Inflexible"
+      ],
+      "correctIndex": 1,
+      "explanation": "HMS Warrior combined ten-centimeter wrought-iron armor plates with heavy rifled guns, rendering all contemporary French and wooden warships obsolete.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American inventor developed the steamboat Clermont, inaugurating regular commercial passenger steamboat service on the Hudson River in 1807?",
+      "options": [
+        "John Fitch",
+        "John Ericsson",
+        "Robert Fulton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fulton North River Steamboat demonstrated that steam-driven paddle wheels provided dependable, schedule-bound commercial river transportation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish-American engineer invented the revolving armored gun turret used on USS Monitor and perfected the naval screw propeller?",
+      "options": [
+        "John Ericsson",
+        "Robert Fulton",
+        "Benjamin Isherwood"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Ericsson steam and propeller innovations transformed nineteenth-century naval architecture and warship design worldwide.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the historic ironclad duel between USS Monitor and CSS Virginia take place at Hampton Roads?",
+      "target": 1862,
+      "metricUnit": "year",
+      "imperialDisplay": "1862 AD",
+      "explanation": "The two ironclads clashed on March 9, 1862, off the coast of Virginia, initiating a revolution in global armored naval warfare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary British battleship, commissioned in 1906 with an all-big-gun uniform battery and steam turbine propulsion, gave its name to an entire warship class?",
+      "options": [
+        "HMS Iron Duke",
+        "HMS Dreadnought",
+        "HMS Warspite"
+      ],
+      "correctIndex": 1,
+      "explanation": "HMS Dreadnought mounted ten 12-inch main guns and cruised at twenty-one knots, instantly rendering every pre-dreadnought battleship obsolete.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1916 naval clash in the North Sea was the largest direct battle between dreadnought battleship fleets in world history?",
+      "options": [
+        "Battle of Dogger Bank",
+        "Battle of Heligoland Bight",
+        "Battle of Jutland"
+      ],
+      "correctIndex": 2,
+      "explanation": "The British Grand Fleet and the Imperial German High Seas Fleet engaged 250 ships, with Britain retaining strategic control of the North Sea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In June 1919, where did the Imperial German High Seas Fleet deliberately scuttle fifty-two of its interned warships to prevent Allied seizure?",
+      "options": [
+        "Scapa Flow",
+        "Kiel Harbor",
+        "Wilhelmshaven"
+      ],
+      "correctIndex": 0,
+      "explanation": "Admiral Ludwig von Reuter ordered the coordinated scuttling in the Orkney Islands, sinking over 400,000 tons of battleships and cruisers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1912 American warship preserved in Houston is the only surviving dreadnought-era battleship in the world to have served in both World Wars?",
+      "options": [
+        "USS Massachusetts",
+        "USS Texas",
+        "USS North Carolina"
+      ],
+      "correctIndex": 1,
+      "explanation": "USS Texas BB-35 participated in D-Day shore bombardments at Omaha Beach and Pacific invasions at Iwo Jima and Okinawa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fast, maneuverable small naval warship class was developed in the late nineteenth century to defend battle fleets against swift torpedo boats?",
+      "options": [
+        "Corvette",
+        "Frigate",
+        "Torpedo Boat Destroyer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Originally named torpedo boat destroyers, the class shortened to destroyer, equipped with rapid-fire guns, torpedoes, and depth charges.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the revolutionary all-big-gun battleship HMS Dreadnought officially commissioned into the Royal Navy?",
+      "target": 1906,
+      "metricUnit": "year",
+      "imperialDisplay": "1906 AD",
+      "explanation": "HMS Dreadnought was completed in an astonishingly rapid four months of trials and commissioned on December 3, 1906.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British Olympic-class luxury ocean liner struck an iceberg on the night of April 14, 1912, sinking into the North Atlantic with the loss of over 1,500 lives?",
+      "options": [
+        "RMS Titanic",
+        "RMS Olympic",
+        "RMS Britannic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operated by the White Star Line, Titanic sank on its maiden voyage from Southampton to New York, leading to strict international maritime safety regulations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British passenger ocean liner was torpedoed and sunk by German submarine U-20 off the coast of Ireland in May 1915, killing 1,198 passengers?",
+      "options": [
+        "RMS Mauretania",
+        "RMS Lusitania",
+        "RMS Aquitania"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sinking of the Lusitania contributed heavily to turning American public sentiment against Germany, influencing US entry into World War I.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which grand French Art Deco speedliner won the Blue Riband in 1935 with an innovative bulbous bow hull, before tragically catching fire in New York in 1942?",
+      "options": [
+        "SS France",
+        "SS Île de France",
+        "SS Normandie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Normandie featured a breathtaking Art Deco grand dining salon and revolutionary turbo-electric propulsion generating over 160,000 horsepower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Cunard ocean liner served as a high-speed troopship nicknamed the Grey Ghost in World War II, ferrying over 800,000 soldiers across oceans?",
+      "options": [
+        "RMS Queen Mary",
+        "RMS Queen Elizabeth",
+        "SS United States"
+      ],
+      "correctIndex": 0,
+      "explanation": "Queen Mary sustained speeds over thirty knots, outrunning enemy U-boats and carrying up to 16,000 troops per crossing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American ocean liner, introduced in 1952 with secret defense funding, holds the unbroken Blue Riband record for the fastest transatlantic crossing?",
+      "options": [
+        "SS America",
+        "SS United States",
+        "SS Independence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engineered by William Francis Gibbs, the SS United States crossed the Atlantic at an average speed of 35.59 knots (over 65 km/h).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the British luxury liner RMS Titanic sink after striking an iceberg in the North Atlantic?",
+      "target": 1912,
+      "metricUnit": "year",
+      "imperialDisplay": "1912 AD",
+      "explanation": "RMS Titanic foundered in the early morning hours of April 15, 1912, at 41 degrees 43 minutes North latitude.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Imperial Japanese Navy flagship was the heaviest and most powerfully armed battleship ever built, mounting nine massive 460 mm main guns?",
+      "options": [
+        "Battleship Musashi",
+        "Battleship Nagato",
+        "Battleship Yamato"
+      ],
+      "correctIndex": 2,
+      "explanation": "Displacing over 72,000 metric tons fully loaded, Yamato was sunk by hundreds of American carrier-based dive bombers and torpedo planes in April 1945.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German battleship was hunted down and sunk in the North Atlantic in May 1941 after sinking the British battlecruiser HMS Hood?",
+      "options": [
+        "Bismarck",
+        "Tirpitz",
+        "Scharnhorst"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Fairey Swordfish biplane torpedo crippled Bismarck rudder, allowing British battleships King George V and Rodney to close and destroy it.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On the teak deck of which American Iowa-class battleship in Tokyo Bay did Japan sign the formal surrender documents ending World War II on September 2, 1945?",
+      "options": [
+        "USS Iowa",
+        "USS Missouri",
+        "USS New Jersey"
+      ],
+      "correctIndex": 1,
+      "explanation": "General Douglas MacArthur presided over the historic signing ceremony aboard Big Mo in Tokyo Bay.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German pocket battleship was scuttled by its captain outside Montevideo harbor following the 1939 Battle of the River Plate?",
+      "options": [
+        "Admiral Scheer",
+        "Deutschland",
+        "Admiral Graf Spee"
+      ],
+      "correctIndex": 2,
+      "explanation": "Captain Hans Langsdorff scuttled the ship believing a superior British force awaited outside the neutral Uruguayan port.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the caliber in inches of the colossal main battery guns mounted on the American Iowa-class fast battleships?",
+      "options": [
+        "16 inches",
+        "14 inches",
+        "18 inches"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nine 16-inch 50-caliber Mark 7 guns fired armor-piercing shells weighing up to 1,225 kilograms over a range of thirty-eight kilometers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What was the caliber in millimeters of the colossal primary battery guns mounted on the Japanese battleship Yamato?",
+      "target": 460,
+      "metricUnit": "mm",
+      "imperialDisplay": "18.1 inches",
+      "explanation": "Yamato mounted nine 460 mm (18.1-inch) Type 94 naval rifles, the largest naval guns ever fitted to any warship in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Yorktown-class aircraft carrier, nicknamed the Big E, was the most decorated American warship of World War II, earning twenty battle stars?",
+      "options": [
+        "USS Yorktown",
+        "USS Enterprise",
+        "USS Hornet"
+      ],
+      "correctIndex": 1,
+      "explanation": "USS Enterprise CV-6 survived the Pearl Harbor raid, fought at Midway, Guadalcanal, and Leyte Gulf, surviving repeated Japanese claims of sinking.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which decisive June 1942 naval clash in the central Pacific resulted in the sinking of four Japanese fleet aircraft carriers, turning the tide of the war?",
+      "options": [
+        "Battle of the Coral Sea",
+        "Battle of Leyte Gulf",
+        "Battle of Midway"
+      ],
+      "correctIndex": 2,
+      "explanation": "American SBD Dauntless dive bombers struck Akagi, Kaga, Soryu, and Hiryu in catastrophic strikes that crippled Imperial Japanese naval aviation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What British aircraft carrier, commissioned in 1924, was the world first ship designed from the keel up as an aircraft carrier?",
+      "options": [
+        "HMS Hermes",
+        "HMS Furious",
+        "HMS Ark Royal"
+      ],
+      "correctIndex": 0,
+      "explanation": "HMS Hermes featured an offset island superstructure and a full-length flight deck, setting the standard configuration for all future aircraft carriers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which May 1942 battle was the first naval engagement in history where opposing surface warships never saw or fired directly upon one another?",
+      "options": [
+        "Battle of Midway",
+        "Battle of the Coral Sea",
+        "Battle of the Philippine Sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The entire battle was fought by carrier-based aircraft, halting the Japanese naval advance toward Port Moresby, Papua New Guinea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British deck innovation, canting the landing strip eight degrees away from the centerline, allowed carriers to launch and recover aircraft simultaneously?",
+      "options": [
+        "Optical Landing Mirror",
+        "Steam Catapult",
+        "Angled Flight Deck"
+      ],
+      "correctIndex": 2,
+      "explanation": "The angled deck prevented landing aircraft that missed arrestor wires from crashing into parked planes spotted on the forward deck.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many Japanese fleet aircraft carriers were sunk by American naval aviators at the Battle of Midway in 1942?",
+      "target": 4,
+      "metricUnit": "aircraft carriers",
+      "imperialDisplay": "4 fleet carriers",
+      "explanation": "All four participating Japanese fleet carriers—Akagi, Kaga, Soryu, and Hiryu—were sunk during the historic battle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which hand-cranked, egg-shaped wooden submersible, built by David Bushnell in 1776, made the first recorded submarine attack on an enemy warship?",
+      "options": [
+        "Turtle",
+        "Nautilus",
+        "Plongeur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Piloted by Ezra Lee, the Turtle attempted to attach a gunpowder time bomb to the hull of British flagship HMS Eagle in New York Harbor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Confederate hand-cranked submarine in February 1864 became the first submarine in military history to successfully sink an enemy warship in combat?",
+      "options": [
+        "Pioneer",
+        "CSS H. L. Hunley",
+        "David"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Hunley detonated a spar torpedo against USS Housatonic off Charleston, South Carolina, but sank during its return voyage.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Irish-American engineer built the Holland 6, purchased by the US Navy in 1900 as its first practical submarine with dual petrol and electric propulsion?",
+      "options": [
+        "Simon Lake",
+        "David Bushnell",
+        "John Philip Holland"
+      ],
+      "correctIndex": 2,
+      "explanation": "Holland design combined gasoline combustion engines for surface cruising and electric storage batteries for underwater propulsion.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What optical periscope system device allows submerged submarine crews to visually scan surface waters while remaining concealed beneath the waves?",
+      "options": [
+        "Periscope",
+        "Bathometer",
+        "Sextant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Developed using prisms and optical lenses, periscopes allow visual, electronic, and infrared observation from periscope depth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What German term, short for Unterseeboot, became the universal name for the submarine fleet that waged devastating commerce warfare in both World Wars?",
+      "options": [
+        "Schnellboot",
+        "U-boat",
+        "Torpedoboot"
+      ],
+      "correctIndex": 1,
+      "explanation": "German U-boats, organized into Wolfpacks under Admiral Karl Dönitz, sank millions of tons of Allied merchant shipping in the Battle of the Atlantic.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the Confederate submarine CSS H. L. Hunley sink the USS Housatonic in Charleston Harbor?",
+      "target": 1864,
+      "metricUnit": "year",
+      "imperialDisplay": "1864 AD",
+      "explanation": "The CSS H. L. Hunley carried out its historic attack on February 17, 1864, marking the first combat submarine victory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American submarine, commissioned in 1954 under the leadership of Admiral Hyman G. Rickover, was the world first nuclear-powered vessel?",
+      "options": [
+        "USS Seawolf",
+        "USS Skate",
+        "USS Nautilus"
+      ],
+      "correctIndex": 2,
+      "explanation": "USS Nautilus famously transmitted Underway on nuclear power in 1955, and in 1958 became the first vessel to cross under the North Pole ice cap.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which nuclear submarine made history in 1960 by completing the first submerged circumnavigation of the Earth, following Ferdinand Magellan historic route?",
+      "options": [
+        "USS Triton",
+        "USS Nautilus",
+        "USS George Washington"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operation Sandblast covered over 49,000 kilometers in eighty-three days without surfacing, powered by twin nuclear reactors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Soviet ballistic missile submarine class, known in Russia as Project 941 Akula, was the largest submarine class ever constructed?",
+      "options": [
+        "Oscar class",
+        "Typhoon class",
+        "Delta class"
+      ],
+      "correctIndex": 1,
+      "explanation": "Displacing over 48,000 tons submerged, Typhoon-class submarines featured multiple pressure hulls, twenty nuclear ballistic missiles, and an indoor swimming pool.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which first-generation submarine-launched ballistic missile system deployed aboard USS George Washington in 1960 established the submarine nuclear deterrent?",
+      "options": [
+        "Poseidon",
+        "Trident",
+        "Polaris"
+      ],
+      "correctIndex": 2,
+      "explanation": "Polaris solid-fuel missiles could be launched while submerged, creating an invulnerable second-strike nuclear deterrent during the Cold War.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "The tragic loss of which American nuclear attack submarine in April 1963 with all 129 personnel led directly to the rigorous SUBSAFE quality assurance program?",
+      "options": [
+        "USS Thresher",
+        "USS Scorpion",
+        "USS Guitarro"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thresher suffered a piping failure during deep-test diving off Cape Cod, prompting strict structural certifications that prevented subsequent losses.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the world first nuclear-powered submarine, USS Nautilus, commissioned into the United States Navy?",
+      "target": 1954,
+      "metricUnit": "year",
+      "imperialDisplay": "1954 AD",
+      "explanation": "USS Nautilus SSN-571 was commissioned on September 30, 1954, revolutionizing naval warfare with unlimited underwater endurance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which class of ten nuclear-powered American aircraft carriers, led by CVN-68 commissioned in 1975, displaces roughly 100,000 metric tons?",
+      "options": [
+        "Gerald R.",
+        "Nimitz class",
+        "Kitty Hawk class"
+      ],
+      "correctIndex": 1,
+      "explanation": "Powered by twin A4W nuclear reactors, Nimitz-class supercarriers operate over eighty combat aircraft with continuous fifty-year lifespans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which new American supercarrier class introduced the Electromagnetic Aircraft Launch System to replace traditional steam-driven catapults?",
+      "options": [
+        "Nimitz class",
+        "America class",
+        "Gerald R."
+      ],
+      "correctIndex": 2,
+      "explanation": "EMALS uses linear induction motors to accelerate aircraft smoothly, reducing airframe stress and supporting diverse unmanned aerial drones.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which flagship aircraft carrier of the French Navy, commissioned in 2001, is the only nuclear-powered aircraft carrier built outside the United States?",
+      "options": [
+        "Charles de Gaulle",
+        "Clemenceau",
+        "Foch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Charles de Gaulle utilizes CATOBAR catapult operations with Rafale M fighters, powered by twin K15 pressurized water nuclear reactors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What curved ramp structure on the bow of European and Asian aircraft carriers allows short takeoff combat jets to launch without catapults?",
+      "options": [
+        "Catapult track",
+        "Ski-jump ramp",
+        "Arresting gear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ski-jump ramps convert forward speed into vertical velocity, used on British Queen Elizabeth-class and Indian INS Vikrant carriers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What heavy steel wire cables strung across an aircraft carrier flight deck catch an incoming jet tailhook to bring it to a complete halt in two seconds?",
+      "options": [
+        "Snubbing cables",
+        "Barricade nets",
+        "Arresting wires"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydraulic engines beneath the deck absorb the massive kinetic energy of a 250 km/h landing fighter in less than one hundred meters.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate full-load displacement in thousands of metric tons of a US Navy Nimitz-class nuclear supercarrier?",
+      "target": 100,
+      "metricUnit": "thousand metric tons",
+      "imperialDisplay": "100,000 tons",
+      "explanation": "A fully loaded Nimitz-class aircraft carrier displaces approximately 100,000 to 104,000 metric tons, spanning 333 meters in length.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which advanced integrated naval weapons system uses phased-array radars and computers to track and destroy hundreds of incoming aerial threats simultaneously?",
+      "options": [
+        "Aegis Combat System",
+        "Phalanx CIWS",
+        "Sea Sparrow System"
+      ],
+      "correctIndex": 0,
+      "explanation": "Developed by RCA and the US Navy, Aegis equips Ticonderoga cruisers and Arleigh Burke destroyers with automated fleet defense.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized deep-sea drillship was secretly constructed by Howard Hughes in 1974 for the CIA to salvage the sunken Soviet submarine K-129?",
+      "options": [
+        "Deepsea Challenger",
+        "Hughes Glomar Explorer",
+        "Challenger 2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Project Azorian used a colossal mechanical claw named Clementine to lift sections of the sunken submarine from 5,000 meters depth in the Pacific.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which large commercial hovercraft operated regular high-speed passenger and car ferry service across the English Channel from 1968 to 2000?",
+      "options": [
+        "LCAC",
+        "Vosper Thornycroft Hovercraft",
+        "SR.N4 Mountbatten class"
+      ],
+      "correctIndex": 2,
+      "explanation": "The British Hovercraft Corporation SR.N4 rode on a cushion of air powered by four gas turbine engines, crossing from Dover to Calais in thirty minutes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What type of high-speed marine vessel uses underwater wing-like foils that lift the boat hull completely out of the water at speed to reduce drag?",
+      "options": [
+        "Hydrofoil",
+        "Hovercraft",
+        "SWATH vessel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hydrofoils generate hydrodynamic lift as forward velocity increases, allowing swift passenger travel across choppy coastal waters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What modern naval acronym designates remote-controlled or autonomous unmanned surface drone boats used for reconnaissance and maritime strikes?",
+      "options": [
+        "UAV",
+        "USV",
+        "UUV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unmanned Surface Vessels have transformed modern littoral warfare with low visual signatures and satellite remote targeting capabilities.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did the CIA conduct the covert Project Azorian salvage operation aboard Hughes Glomar Explorer in the central Pacific?",
+      "target": 1974,
+      "metricUnit": "year",
+      "imperialDisplay": "1974 AD",
+      "explanation": "Project Azorian executed its deep-sea recovery operation in July and August 1974, recovering portions of the sunken Soviet submarine K-129.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

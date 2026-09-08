@@ -1,0 +1,703 @@
+{
+  "id": "computer-science-history-code-60",
+  "theme": "Computer Science History: Pioneers, Silicon & Algorithms",
+  "title": "Computer Science History: Pioneers, Silicon & Algorithms",
+  "description": "Comprehensive 60-question historical journey through computing pioneers, binary logic, the silicon revolution, programming languages, and foundational algorithms.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who is widely celebrated as the world first computer programmer for writing an algorithm to compute Bernoulli numbers on Charles Babbage Analytical Engine?",
+      "options": [
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Margaret Hamilton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ada Lovelace recognized that Babbage mechanical engine could process symbols and music beyond mere arithmetic calculation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English mathematician and polymath designed the Difference Engine and the general-purpose mechanical Analytical Engine in the nineteenth century?",
+      "options": [
+        "George Boole",
+        "Charles Babbage",
+        "William Stanley Jevons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charles Babbage conceptualized mechanical computing machines utilizing punch cards inspired by the Jacquard loom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British mathematician formulated the concept of a universal computing machine and cracked German Enigma ciphers at Bletchley Park during World War II?",
+      "options": [
+        "John von Neumann",
+        "Alonzo Church",
+        "Alan Turing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alan Turing 1936 paper introduced the Turing Machine, formalizing the modern mathematical foundations of computation and algorithms.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bell Labs mathematician published the landmark 1948 paper A Mathematical Theory of Communication, founding information theory?",
+      "options": [
+        "Claude Shannon",
+        "Norbert Wiener",
+        "Warren Weaver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Claude Shannon proved that electrical switches could implement Boolean logic, introducing the bit as the fundamental unit of information.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What standard computer architecture stores both program instructions and working data in the same shared physical memory space?",
+      "options": [
+        "Harvard Architecture",
+        "Von Neumann Architecture",
+        "Turing Architecture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Described by John von Neumann in 1945, this design comprises a central processing unit, control unit, memory, and input-output mechanisms.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Ada Lovelace publish her seminal translation and notes containing the first published computer algorithm?",
+      "target": 1843,
+      "metricUnit": "year",
+      "imperialDisplay": "1843 AD",
+      "explanation": "Ada Lovelace published her extensive Notes on Luigi Menabrea sketch of Babbage Analytical Engine in 1843.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneering 1945 electronic computer built at the University of Pennsylvania utilized over 17,000 vacuum tubes for artillery ballistic calculations?",
+      "options": [
+        "UNIVAC I",
+        "EDVAC",
+        "ENIAC"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by John Mauchly and J. Presper Eckert, ENIAC operated at electronic speeds a thousand times faster than electromechanical calculators.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the first commercial mass-produced electronic computer in the United States, famous for correctly predicting the 1952 presidential election on live television?",
+      "options": [
+        "UNIVAC I",
+        "IBM 701",
+        "ENIAC"
+      ],
+      "correctIndex": 0,
+      "explanation": "UNIVAC I was purchased by the US Census Bureau in 1951 and achieved nationwide fame when it projected Dwight Eisenhower landslide victory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which secret British electronic computer, designed by Tommy Flowers and deployed at Bletchley Park in 1943, cracked German Lorenz teleprinter ciphers?",
+      "options": [
+        "The Bombe",
+        "Colossus",
+        "EDSAC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colossus was the world first programmable electronic digital computer, kept strictly classified until the 1970s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British machine built at the University of Manchester in June 1948 was the world first electronic computer to execute a stored program?",
+      "options": [
+        "EDSAC",
+        "Ferranti Mark 1",
+        "Manchester Baby"
+      ],
+      "correctIndex": 2,
+      "explanation": "Also known as the Small-Scale Experimental Machine, it successfully executed a program stored in Williams-Kilburn cathode-ray tube memory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American naval officer and computer pioneer popularized the term compiler and led the development of early high-level languages like FLOW-MATIC?",
+      "options": [
+        "Grace Hopper",
+        "Jean Bartik",
+        "Adele Goldstine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rear Admiral Grace Hopper famously documented the first actual computer bug when a moth was extracted from a Mark II relay in 1947.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the ENIAC publicly unveiled and dedicated at the University of Pennsylvania?",
+      "target": 1946,
+      "metricUnit": "year",
+      "imperialDisplay": "1946 AD",
+      "explanation": "ENIAC was formally dedicated on February 15, 1946, hailed by the press as a Giant Brain capable of calculating trajectories in seconds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In December 1947, which Bell Labs research team invented the point-contact transistor, replacing bulky vacuum tubes with solid-state silicon?",
+      "options": [
+        "Robert Noyce, Jack Kilby, and Gordon Moore",
+        "John Bardeen, Walter Brattain, and William Shockley",
+        "Ted Hoff, Federico Faggin, and Stanley Mazor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The invention of the transistor earned the 1956 Nobel Prize in Physics and laid the physical foundation for all modern digital electronics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two American inventors independently developed the integrated circuit or microchip in 1958 and 1959 at Texas Instruments and Fairchild Semiconductor?",
+      "options": [
+        "Gordon Moore and Andrew Grove",
+        "William Shockley and Lee de Forest",
+        "Jack Kilby and Robert Noyce"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jack Kilby created a hybrid germanium circuit while Robert Noyce invented the monolithic silicon planar chip with interconnected aluminum tracks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the world first commercial single-chip microprocessor, released by Intel in November 1971 with 2,300 transistors on a 4-bit CPU?",
+      "options": [
+        "Intel 4004",
+        "Intel 8008",
+        "Motorola 6800"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by Federico Faggin, Ted Hoff, Stanley Mazor, and Masatoshi Shima, the 4004 condensed a room-sized computer CPU into a silicon microchip.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous empirical observation formulated by Gordon Moore in 1965 projected that the number of transistors on a microchip would double roughly every two years?",
+      "options": [
+        "Amdahl Law",
+        "Moore Law",
+        "Metcalfe Law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moore Law served as the guiding technology roadmap for the global semiconductor industry for over five decades of exponential scaling.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Northern California agricultural valley was renamed in the 1970s due to the dense concentration of semiconductor and microprocessor manufacturing firms?",
+      "options": [
+        "San Fernando Valley",
+        "Napa Valley",
+        "Silicon Valley"
+      ],
+      "correctIndex": 2,
+      "explanation": "Journalist Don Hoefler popularized the name Silicon Valley in 1971 to describe the Santa Clara Valley boom in silicon chip startups.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total transistors were integrated onto the historic Intel 4004 microprocessor in 1971?",
+      "target": 2300,
+      "metricUnit": "transistors",
+      "imperialDisplay": "2,300 transistors",
+      "explanation": "The 4-bit Intel 4004 contained exactly 2,300 p-channel silicon-gate MOS transistors operating at a clock frequency of 740 kilohertz.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1957 IBM programming language developed by John Backus was the first widely adopted high-level language designed for scientific computing?",
+      "options": [
+        "FORTRAN",
+        "COBOL",
+        "ALGOL"
+      ],
+      "correctIndex": 0,
+      "explanation": "FORTRAN, short for Formula Translation, allowed engineers to write mathematical expressions instead of raw assembly machine instructions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-level programming language designed in 1959 emphasized English-like syntax for business data processing and payroll accounting?",
+      "options": [
+        "BASIC",
+        "COBOL",
+        "PL/I"
+      ],
+      "correctIndex": 1,
+      "explanation": "COBOL, or Common Business-Oriented Language, became the backbone of banking, insurance, and federal enterprise computing systems worldwide.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which functional programming language developed by John McCarthy at MIT in 1958 became the standard language for artificial intelligence research?",
+      "options": [
+        "Prolog",
+        "APL",
+        "Lisp"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lisp introduced pioneering computer science concepts including nested lists, recursion, garbage collection, and dynamic typing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic systems programming language was developed by Dennis Ritchie at Bell Labs between 1972 and 1973 to rewrite the Unix operating system?",
+      "options": [
+        "C",
+        "B",
+        "Pascal"
+      ],
+      "correctIndex": 0,
+      "explanation": "C provided low-level memory control with high-level portability, becoming one of the most widely used and influential languages in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which structured programming language was developed by Swiss computer scientist Niklaus Wirth in 1970 to teach disciplined programming techniques?",
+      "options": [
+        "Ada",
+        "Pascal",
+        "Simula"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pascal enforced strong static typing and clear control flow, serving as the basis for Turbo Pascal and the original Apple Macintosh system software.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the foundational C programming language created by Dennis Ritchie at Bell Telephone Laboratories?",
+      "target": 1972,
+      "metricUnit": "year",
+      "imperialDisplay": "1972 AD",
+      "explanation": "Dennis Ritchie developed C around 1972 at Bell Labs as an evolution of Ken Thompson B language for the DEC PDP-11.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary multitasking operating system was created in 1969 at Bell Labs by Ken Thompson, Dennis Ritchie, and Brian Kernighan?",
+      "options": [
+        "CP/M",
+        "VMS",
+        "Unix"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unix introduced modular philosophy, hierarchical file systems, pipes, and text streams, serving as the ancestor of Linux, macOS, and Android.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which university developed the BSD variant of Unix in the late 1970s, introducing virtual memory paging and the TCP/IP networking stack?",
+      "options": [
+        "University of California, Berkeley",
+        "Stanford University",
+        "MIT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berkeley Software Distribution led by Bill Joy provided key software tools and protocols that powered the early academic Internet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In August 1991, which Finnish computer science student posted a message announcing a free hobby operating system kernel named Linux?",
+      "options": [
+        "Richard Stallman",
+        "Linus Torvalds",
+        "Andrew Tanenbaum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linus Torvalds created the monolithic Linux kernel, pairing it with GNU userland utilities to create the dominant open-source operating system.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which operating system originally purchased from Tim Paterson as QDOS was licensed by Microsoft to IBM for the 1981 IBM Personal Computer?",
+      "options": [
+        "Xenix",
+        "OS/2",
+        "MS-DOS"
+      ],
+      "correctIndex": 2,
+      "explanation": "Microsoft modified 86-DOS into PC DOS / MS-DOS, retaining non-exclusive licensing rights that propelled Microsoft into an industry giant.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pioneering 8-bit operating system created by Gary Kildall in 1974 became the industry standard for Intel 8080 microcomputers?",
+      "options": [
+        "CP/M",
+        "TRS-DOS",
+        "Apple DOS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Control Program for Microcomputers established disk operating system conventions and early hardware abstraction layers.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Linus Torvalds release his famous announcement of the Linux kernel to the comp.os.minix newsgroup?",
+      "target": 1991,
+      "metricUnit": "year",
+      "imperialDisplay": "1991 AD",
+      "explanation": "Linus Torvalds posted his historic announcement on August 25, 1991, offering Linux 0.01 as a free operating system kernel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "On October 29, 1969, between which two California university research labs was the first packet message transmitted over ARPANET?",
+      "options": [
+        "UC Berkeley and Caltech",
+        "UCLA and Stanford Research Institute",
+        "USC and UC Santa Barbara"
+      ],
+      "correctIndex": 1,
+      "explanation": "Student programmer Charley Kline attempted to type LOGIN from UCLA, but the system crashed after transmitting the first two letters, LO.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two computer scientists designed the fundamental Transmission Control Protocol and Internet Protocol networking architecture?",
+      "options": [
+        "Tim Berners-Lee and Robert Cailliau",
+        "Leonard Kleinrock and Paul Baran",
+        "Vinton Cerf and Robert Kahn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vint Cerf and Bob Kahn established open network protocols that allowed diverse heterogeneous computer networks to interoperate seamlessly.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British scientist invented the World Wide Web at CERN in 1989 by combining hypertext, TCP/IP, and universal resource identifiers?",
+      "options": [
+        "Tim Berners-Lee",
+        "Marc Andreessen",
+        "Ted Nelson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tim Berners-Lee created the first web server, the first web browser named WorldWideWeb, and the HTML markup standard.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which local area network technology, utilizing CSMA/CD to transmit data over coaxial cables, was invented by Robert Metcalfe at Xerox PARC in 1973?",
+      "options": [
+        "Token Ring",
+        "Ethernet",
+        "ARCNET"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethernet became the dominant global standard for wired computer networking, standardizing data frames and MAC addressing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which computer scientist invented the hierarchical Domain Name System in 1983, translating human-readable hostnames into IP addresses?",
+      "options": [
+        "Jon Postel",
+        "Radia Perlman",
+        "Paul Mockapetris"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paul Mockapetris developed DNS to replace centralized text-file hostname registries with a scalable distributed database.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did CERN release the World Wide Web software into the public domain on a royalty-free basis?",
+      "target": 1993,
+      "metricUnit": "year",
+      "imperialDisplay": "1993 AD",
+      "explanation": "On April 30, 1993, CERN published the statement putting World Wide Web technology in the public domain, ensuring universal open access.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch computer scientist designed the classic 1956 greedy algorithm for finding the shortest path between nodes in a weighted graph?",
+      "options": [
+        "Edsger W. Dijkstra",
+        "Tony Hoare",
+        "Donald Knuth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dijkstra algorithm is widely used in network routing protocols like OSPF and digital GPS navigation mapping systems.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which efficient divide-and-conquer sorting algorithm with an average time complexity of O n log n was invented by British scientist Tony Hoare in 1959?",
+      "options": [
+        "Mergesort",
+        "Quicksort",
+        "Heapsort"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quicksort recursively partitions an array around a selected pivot element so smaller items precede larger items.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What fundamental open question in computational complexity theory asks whether every problem whose solution can be verified quickly can also be solved quickly?",
+      "options": [
+        "Halting problem",
+        "Collatz conjecture",
+        "P versus NP problem"
+      ],
+      "correctIndex": 2,
+      "explanation": "The P versus NP question is one of the seven Millennium Prize Problems, holding profound implications for cryptography and optimization.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the worst-case time complexity of the binary search algorithm when locating a target value inside a sorted array of N elements?",
+      "options": [
+        "O log N",
+        "Linear Time O-N",
+        "Log-Linear Time O-N-log-N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Binary search repeatedly divides the search interval in half, achieving logarithmic time complexity regardless of array size.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which link-analysis algorithm created by Larry Page and Sergey Brin at Stanford in 1996 ranked webpages based on inbound hyperlink structure?",
+      "options": [
+        "HITS Algorithm",
+        "PageRank",
+        "TrustRank"
+      ],
+      "correctIndex": 1,
+      "explanation": "PageRank modeled web browsing as a random walk, interpreting a link from one page to another as an authoritative vote.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did British computer scientist Tony Hoare develop the foundational Quicksort algorithm while in Moscow?",
+      "target": 1959,
+      "metricUnit": "year",
+      "imperialDisplay": "1959 AD",
+      "explanation": "Tony Hoare invented Quicksort in 1959 while developing machine translation software for the National Physical Laboratory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which asymmetric public-key cryptosystem developed in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman relies on the difficulty of factoring large primes?",
+      "options": [
+        "Diffie-Hellman",
+        "Elliptic Curve Cryptography",
+        "RSA"
+      ],
+      "correctIndex": 2,
+      "explanation": "RSA enabled secure digital communication and digital signatures over insecure public channels without prior shared secret keys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark cryptographic protocol published in 1976 established a method for two parties to securely generate a shared secret key over a public channel?",
+      "options": [
+        "Diffie-Hellman Key Exchange",
+        "RSA Encryption",
+        "ElGamal Protocol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whitfield Diffie and Martin Hellman introduced public-key cryptography based on the computational hardness of the discrete logarithm problem.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What electromechanical codebreaking device designed by Alan Turing and Gordon Welchman deciphered German Enigma naval and military radio messages?",
+      "options": [
+        "Colossus",
+        "The Bombe",
+        "Heath Robinson"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bombe tested possible rotor wiring combinations against suspected plaintext cribs to identify daily Enigma encryption keys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What principle in modern cryptography states that a cryptographic system should remain secure even if everything about the design except the key is public?",
+      "options": [
+        "Shannon Maxim",
+        "Turing Theorem",
+        "Kerckhoffs Principle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Auguste Kerckhoffs formulated this rule in 1883, rejecting security through obscurity in favor of mathematically proven key strength.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What cryptographic hash algorithm family designed by the NSA in 2001 produces a fixed 256-bit digest widely used in SSL certificates and Bitcoin?",
+      "options": [
+        "SHA-256",
+        "MD5",
+        "SHA-1"
+      ],
+      "correctIndex": 0,
+      "explanation": "SHA-256 is a one-way cryptographic hash function engineered so that any slight input alteration generates an unpredictable output.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the RSA public-key cryptosystem publicly disclosed and submitted to the patent office?",
+      "target": 1977,
+      "metricUnit": "year",
+      "imperialDisplay": "1977 AD",
+      "explanation": "Rivest, Shamir, and Adleman published their breakthrough cryptosystem in August 1977 in an MIT technical memo and Scientific American.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which research center in Palo Alto, California, invented the graphical user interface, the computer mouse, bitmapped displays, and laser printing in the 1970s?",
+      "options": [
+        "Bell Labs",
+        "Xerox PARC",
+        "SRI International"
+      ],
+      "correctIndex": 1,
+      "explanation": "Xerox Palo Alto Research Center developed the Xerox Alto in 1973, pioneering modern desktop visual computing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1968 public demonstration by Douglas Engelbart at the Fall Joint Computer Conference introduced the computer mouse, hypertext, and video calling?",
+      "options": [
+        "The Menlo Park Keynote",
+        "The Silicon Showcase",
+        "The Mother of All Demos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Douglas Engelbart and his team demonstrated collaborative real-time digital text editing, windowing systems, and a wooden three-button mouse.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mass-market personal computer designed by Steve Wozniak in 1977 featured built-in color graphics, expansion slots, and a plastic molded case?",
+      "options": [
+        "Apple II",
+        "Commodore PET",
+        "TRS-80"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Apple II became a commercial triumph, driven into corporate offices by the first computerized spreadsheet application, VisiCalc.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which personal computer released in August 1981 established open hardware architecture standards that dominated desktop computing for decades?",
+      "options": [
+        "Apple Macintosh",
+        "IBM Personal Computer 5150",
+        "Amiga 1000"
+      ],
+      "correctIndex": 1,
+      "explanation": "The IBM PC utilized off-the-shelf components including an Intel 8088 CPU and Microsoft MS-DOS, creating the IBM-compatible ecosystem.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1984 Apple computer popularized the graphical user interface and desktop metaphor for everyday consumers, launched with a famous Ridley Scott commercial?",
+      "options": [
+        "Lisa",
+        "NeXT Computer",
+        "Macintosh"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Macintosh 128K featured a 9-inch monochrome monitor, a 3.5-inch floppy drive, and bundled MacPaint and MacWrite software.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Douglas Engelbart present his landmark 90-minute Mother of All Demos in San Francisco?",
+      "target": 1968,
+      "metricUnit": "year",
+      "imperialDisplay": "1968 AD",
+      "explanation": "On December 9, 1968, Douglas Engelbart presented the interactive NLS system before a live audience of a thousand computer professionals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which IBM researcher published the landmark 1970 paper introducing the relational model for database management, organizing data into tables?",
+      "options": [
+        "Edgar F. Codd",
+        "Peter Chen",
+        "Charles Bachman"
+      ],
+      "correctIndex": 0,
+      "explanation": "E. F. Codd applied first-order predicate logic to databases, providing the mathematical foundation for SQL and relational engines.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distributed version control system was created in 2005 by Linus Torvalds to manage the source code development of the Linux kernel?",
+      "options": [
+        "Subversion",
+        "Git",
+        "Mercurial"
+      ],
+      "correctIndex": 1,
+      "explanation": "Git was designed for high performance, non-linear branching, and decentralized code management, becoming the universal industry standard.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What object-oriented programming language developed at Xerox PARC by Alan Kay, Dan Ingalls, and Adele Goldberg pioneered pure object message passing?",
+      "options": [
+        "C++",
+        "Java",
+        "Smalltalk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smalltalk treated everything as an object, profoundly shaping modern languages such as Objective-C, Python, and Ruby.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In quantum computing, what fundamental physical unit of quantum information can exist in a superposition of both zero and one simultaneously?",
+      "options": [
+        "Qubit",
+        "Qutrit",
+        "Quon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quantum bits leverage quantum mechanical superposition and entanglement to solve specific computational problems exponentially faster.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which organization was founded in 1998 by Bruce Perens and Eric S. Raymond to promote and certify open-source software licenses?",
+      "options": [
+        "Free Software Foundation",
+        "Open Source Initiative",
+        "Apache Software Foundation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The OSI established the Open Source Definition, providing legal criteria for software redistribution, source code access, and non-discrimination.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Edgar F. Codd publish his landmark paper A Relational Model of Data for Large Shared Data Banks?",
+      "target": 1970,
+      "metricUnit": "year",
+      "imperialDisplay": "1970 AD",
+      "explanation": "E. F. Codd published his paper in June 1970 in the Communications of the ACM, transforming database management forever.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

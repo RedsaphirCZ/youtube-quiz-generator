@@ -1,0 +1,86 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "african-geography-safari-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 11,
+  "findings": [
+    {
+      "question_number": 10,
+      "severity": "critical",
+      "issue": "Factual error in answer key and explanation regarding the lake's status as a 'permanent' desert lake.",
+      "proposed_fix": "Change Answer to 'Lake Bogoria' (or remove 'permanent' from the question stem if keeping Lake Turkana). The Jade Sea is Lake Bogoria, which is alkaline and has algae blooms. Lake Turkana is the largest *desert* lake but is not typically called the 'Jade Sea' in standard geography contexts compared to Bogoria's specific 'Jade Sea' nickname due to its unique green coloration from cyanobacteria. Furthermore, Lake Turkana is often described as the largest permanent desert lake, but the specific name 'Jade Sea' strongly points to Lake Bogoria in many trivia contexts, or the question conflates two different lakes. Given the options include both, and the description fits Bogoria's nickname better while acknowledging Turkana's size, the answer key should likely be Lake Bogoria if the nickname is the primary identifier, OR the explanation must clarify that while Turkana is the largest desert lake, the 'Jade Sea' moniker specifically refers to Bogoria. However, standard trivia often cites Lake Turkana as the 'Jade Sea' due to its color. Let's re-evaluate: Lake Turkana is widely known as the 'Jade Sea'. The issue is less about the name and more about the 'permanent' descriptor which is true for Turkana but Bogoria has seasonal variations. Actually, the bigger issue is that Lake Turkana is the largest *desert* lake, but the 'Jade Sea' nickname is most strongly associated with Lake Bogoria in some contexts, yet widely applied to Turkana in others. The critical error might be subtle. Let's look closer: Is there a better candidate? No. The real issue is likely that the question implies a single unique answer. If we stick to 'Jade Sea', it usually refers to Lake Bogoria (Kenya) or Lake Turkana. Both are in Kenya. The explanation mentions Koobi Fora fossils which are at Lake Turkana. So the lake IS Turkana. Is it permanent? Yes. Is it alkaline? No, it's saline but not highly alkaline like Bogoria. Bogoria is alkaline. Turkana is saline. The question says 'shallow, alkaline'. Lake Turkana is NOT shallow (avg depth 40m) nor primarily defined as alkaline (it's saline). Lake Bogoria IS shallow and alkaline. Therefore, the answer should be Lake Bogoria, but the explanation talks about fossils at Koobi Fora (Turkana). This is a contradiction.",
+      "verification_query": "Is Lake Turkana alkaline? Is Lake Bogoria known as the Jade Sea?"
+    },
+    {
+      "question_number": 18,
+      "severity": "major",
+      "issue": "Overstated/Inaccurate numeric target. The number of wildebeest fluctuates significantly year-to-year and is rarely exactly 1.5 million during the migration peak; estimates often range between 1.2 to 1.6 million, making a fixed 'maximum recorded' or specific target of 1,500,000 potentially misleading as a definitive fact rather than an estimate.",
+      "proposed_fix": "Change Target to '1200000-1600000 wildebeest' or rephrase the question to ask for an 'estimated range' instead of a specific maximum recorded number, acknowledging the variability of the migration counts.",
+      "verification_query": "What is the most recent census count of wildebeest in the Great Migration?"
+    },
+    {
+      "question_number": 24,
+      "severity": "critical",
+      "issue": "The target value (220 meters) and display (720 feet) are factually incorrect. The Congo River's maximum depth is approximately 220 *feet* (67 meters), not meters. Stating it is 220 meters deep vastly overstates the figure and contradicts standard geographical records.",
+      "proposed_fix": "Change Target to '67' and display to '220 feet'. Update explanation to reflect depth in meters or feet correctly.",
+      "verification_query": "What is the maximum recorded depth of the Congo River in meters and feet?"
+    },
+    {
+      "question_number": 30,
+      "severity": "major",
+      "issue": "The target age (55 million years) is outdated. Recent geological studies suggest the Namib Desert's hyper-arid conditions began much later, around 13-20 million years ago, though some aridity may date back further. The '55 million years' figure is a common misconception or refers to the broader region's evolution rather than the specific desert formation.",
+      "proposed_fix": "Update target to '20' (or range '13-20') million years and adjust explanation to reflect current scientific consensus on the onset of hyper-aridity.",
+      "verification_query": "What is the most recent geological estimate for the age of the Namib Desert's hyper-arid conditions?"
+    },
+    {
+      "question_number": 36,
+      "severity": "major",
+      "issue": "The target (3.7 million sq km) and display (1.4 million sq miles) are inconsistent. 3.7 million square kilometers is approximately 1.427 million square miles, so the conversion is roughly correct but imprecise for a 'display' field which should match the target's precision or vice versa. More critically, the question asks for the area of the *drainage and rainforest region*, which often conflates the basin (larger) with the forest itself. The 3.7 million figure typically refers to the forest cover, not the entire drainage basin.",
+      "proposed_fix": "Clarify if the question targets the forest area specifically. If so, keep target at 3.7 but ensure display is consistent (e.g., '1.43 million sq miles'). If targeting the full basin, the number should be higher (~4-5 million sq km).",
+      "verification_query": "What is the precise land area in square kilometers of the Congo Basin rainforest versus its total drainage basin?"
+    },
+    {
+      "question_number": 39,
+      "severity": "minor",
+      "issue": "The explanation states Lake Natron's water reaches pH levels 'above 10.5'. While true during dry seasons, the lake is not *always* at this extreme level; it fluctuates. The phrasing implies a constant state which could be slightly misleading without qualification.",
+      "proposed_fix": "Refine explanation to: 'Lake Natron's water pH can reach levels above 10.5 during dry seasons...'",
+      "verification_query": "What is the typical pH range of Lake Natron throughout the year?"
+    },
+    {
+      "question_number": 41,
+      "severity": "critical",
+      "issue": "Factual error in the superlative claim. The Fish River Canyon is not the second-largest canyon in the world; it is widely considered the largest canyon by volume and often cited as the deepest or longest depending on the metric, but definitively not 'second to the Grand Canyon' in a general ranking context which usually cites Yarlung Tsangpo (Grand Canyon of the Brahmaputra) or others. The phrasing implies a specific global ranking that is disputed/incorrect.",
+      "proposed_fix": "Remove the claim about being the 'second-largest canyon in the world'. Rephrase to: 'Which massive canyon in southern Namibia, carved by ancient flash floods, is often cited as one of the largest canyons on Earth?'",
+      "verification_query": "Search for authoritative sources (e.g., Guinness World Records, National Geographic) ranking Fish River Canyon vs. Grand Canyon and Yarlung Tsangpo Gorge."
+    },
+    {
+      "question_number": 53,
+      "severity": "critical",
+      "issue": "Factual error in the count of nations crossed by the Equator. The explanation lists São Tomé and Príncipe (an island nation), Gabon, Republic of the Congo, DRC, Uganda, Kenya, and Somalia. This totals 7 entities. However, the question asks for 'sovereign African nations'. While São Tomé and Príncipe is geographically in Africa, some strict interpretations might exclude islands if the context implies mainland, but usually, it is included making the count 6 or 7 depending on whether you count the island nation separately from the continent's landmass definition. The bigger issue is that the explanation lists 7 items including an island nation. If the question implies 'mainland' Africa, the answer should be 6 (Gabon, Congo, DRC, Uganda, Kenya, Somalia). If it includes islands, it is 7. The ambiguity here is significant enough to flag. However, a more critical error often found in this specific trivia fact is that São Tomé and Príncipe is frequently excluded from 'African nations crossed by the equator' counts in mainland-focused quizzes, leading to an answer of 6. Let's re-verify: Gabon, Congo, DRC, Uganda, Kenya, Somalia = 6. São Tomé and Príncipe = 1. Total = 7. The explanation says 'The Equator crosses... and the island nation...'. If the answer key is 7, it is factually correct for 'African nations'. However, many sources cite 6 for mainland. Given the instruction to be conservative about superlatives/counts, this is a potential ambiguity. BUT, looking closer at Question 54: It asks the same thing as 53 but with a number target of 7. This suggests the dataset considers 7 correct. Is there an error? Actually, the standard accepted answer for 'How many African countries does the equator pass through?' is often debated between 6 (mainland) and 7 (including islands). If the quiz accepts 7, it's fine. Let's look for a clearer error. Ah, Question 53 explanation lists São Tomé. Question 54 target is 7. They are consistent. Is there another error? Wait, let's re-read Question 53 options: 5, 9, 7. Answer 7. Explanation lists 7 countries. This seems consistent. Let's look for a different error.",
+      "proposed_fix": "",
+      "verification_query": ""
+    },
+    {
+      "question_number": 53,
+      "severity": "major",
+      "issue": "Ambiguity/Disputed Fact: The count of African nations crossed by the Equator is frequently cited as 6 (mainland only) or 7 (including São Tomé and Príncipe). While the explanation includes the island nation, this specific fact is a common point of contention in geography quizzes. Depending on the strict definition of 'continental' vs 'African region', the answer could be argued as 6.",
+      "proposed_fix": "Clarify the scope in the question or options. E.g., 'How many sovereign African nations (including island nations) are intersected directly by the terrestrial Equator?' to justify the count of 7, or change the target to 6 if focusing on mainland.",
+      "verification_query": "Verify standard geographical consensus on whether São Tomé and Príncipe is included in counts of 'African nations crossed by the equator'."
+    },
+    {
+      "question_number": 54,
+      "severity": "minor",
+      "issue": "Redundancy: Question 53 and Question 54 ask the exact same question with identical answers and explanations. This is poor quiz design as it wastes a slot.",
+      "proposed_fix": "Replace Question 54 with a different geography question about Africa (e.g., regarding the Nile's source or a specific desert feature).",
+      "verification_query": ""
+    },
+    {
+      "question_number": 60,
+      "severity": "minor",
+      "issue": "Redundancy: Question 48 asks for the elevation of Toubkal. Question 60 asks for the elevation of Mount Cameroon. While different peaks, the format is repetitive. However, this is not an error. Let's re-evaluate Question 53/54 redundancy as the primary structural issue.",
+      "proposed_fix": "",
+      "verification_query": ""
+    }
+  ]
+}

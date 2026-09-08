@@ -1,0 +1,640 @@
+{
+  "id": "space-astronomy-60",
+  "theme": "Space Exploration & Celestial Wonders",
+  "title": "Space Exploration & Celestial Wonders",
+  "description": "Comprehensive 60-question cosmic journey exploring rocket science, planetary geology, deep space telescopes, Apollo missions, and astrophysicists.",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-17T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which human became the first person to travel into outer space in 1961?",
+      "options": [
+        "Yuri Gagarin",
+        "Alan Shepard",
+        "John Glenn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Soviet cosmonaut Yuri Gagarin orbited the Earth aboard Vostok 1 on April 12, 1961."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the closest star system to our Solar System at roughly 4.2 light-years distance?",
+      "options": [
+        "Sirius",
+        "Alpha Centauri",
+        "Barnards Star"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Alpha Centauri triple-star system, particularly Proxima Centauri, is our nearest stellar neighbor."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet in our solar system has the most prominent and extensive planetary ring system?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Saturn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saturn features the most massive and visually spectacular ring system composed of ice and rock particles."
+    },
+    {
+      "type": "mcq",
+      "question": "What robotic space probe launched in 1977 has traveled farthest from Earth into interstellar space?",
+      "options": [
+        "Voyager 1",
+        "Pioneer 10",
+        "New Horizons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voyager 1 crossed the heliopause in 2012 and remains the most distant human-made operational spacecraft."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive space telescope was deployed into orbit at the Sun-Earth L2 Lagrange point in December 2021?",
+      "options": [
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Spitzer Space Telescope"
+      ],
+      "correctIndex": 1,
+      "explanation": "The James Webb Space Telescope operates at L2 roughly 1.5 million kilometers from Earth."
+    },
+    {
+      "type": "number",
+      "question": "In what year did Neil Armstrong and Buzz Aldrin first land Apollo 11 on the Moon?",
+      "target": 1969,
+      "metricUnit": "CE",
+      "imperialDisplay": "July 1969",
+      "explanation": "The Apollo 11 Lunar Module Eagle touched down in the Sea of Tranquility on July 20, 1969."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet is known as the Red Planet due to iron oxide minerals on its surface?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mars features ubiquitous iron(III) oxide dust that gives its regolith and atmosphere a reddish hue."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the supermassive black hole located at the center of the Milky Way Galaxy?",
+      "options": [
+        "Sagittarius A-star",
+        "Cygnus X-1",
+        "M87-star"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sagittarius A-star is the four-million-solar-mass supermassive black hole at our galactic core."
+    },
+    {
+      "type": "mcq",
+      "question": "Which moon of Jupiter is the most volcanically active body in the Solar System?",
+      "options": [
+        "Europa",
+        "Io",
+        "Ganymede"
+      ],
+      "correctIndex": 1,
+      "explanation": "Io experiences immense tidal heating from Jupiter and sister moons, driving hundreds of active volcanoes."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of celestial object is Halley’s Comet primarily composed of?",
+      "options": [
+        "Pure iron and nickel",
+        "Molten magnesium",
+        "Ice, dust, and rock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Comets are dirty snowballs composed of volatile water ice, frozen gases, organic compounds, and rocky dust."
+    },
+    {
+      "type": "mcq",
+      "question": "Which mission carried the first American woman, Sally Ride, into space in 1983?",
+      "options": [
+        "STS-7",
+        "STS-1",
+        "STS-51-L"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sally Ride flew aboard Space Shuttle Challenger on mission STS-7 in June 1983."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many minutes does light from the Sun take to reach Earth?",
+      "target": 8,
+      "metricUnit": "minutes",
+      "imperialDisplay": "8 minutes 20 seconds",
+      "explanation": "Traveling at roughly 300,000 km/s across 150 million km, sunlight takes approximately 8.3 minutes to reach Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet rotates on its side with an axial tilt of approximately 98 degrees?",
+      "options": [
+        "Neptune",
+        "Uranus",
+        "Saturn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uranus has an extreme axial tilt of 97.77 degrees, causing its poles to point almost directly at the Sun during solstices."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest moon in the entire Solar System, even larger in diameter than the planet Mercury?",
+      "options": [
+        "Titan",
+        "Callisto",
+        "Ganymede"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ganymede, a moon of Jupiter, has a diameter of 5,268 km, surpassing Mercury and Pluto."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the boundary surrounding a black hole beyond which nothing, not even light, can escape?",
+      "options": [
+        "Event Horizon",
+        "Singularity",
+        "Photon Sphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The event horizon defines the point of no return where escape velocity exceeds the speed of light."
+    },
+    {
+      "type": "mcq",
+      "question": "Which space agency developed and operates the Ariane series of heavy rocket launch vehicles?",
+      "options": [
+        "JAXA",
+        "ESA",
+        "ISRO"
+      ],
+      "correctIndex": 1,
+      "explanation": "The European Space Agency (ESA) oversees the Ariane rocket family launched from French Guiana."
+    },
+    {
+      "type": "mcq",
+      "question": "What enormous storm system on Jupiter has been observed churning for over three centuries?",
+      "options": [
+        "Great Dark Spot",
+        "Cassini Oval",
+        "Great Red Spot"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Red Spot is a persistent anticyclonic storm larger than the diameter of Earth."
+    },
+    {
+      "type": "number",
+      "question": "How many total Apollo astronauts have walked on the surface of the Moon across all six landing missions?",
+      "target": 12,
+      "metricUnit": "astronauts",
+      "imperialDisplay": "12 moonwalkers",
+      "explanation": "Two astronauts walked on the Moon per landing across Apollo 11, 12, 14, 15, 16, and 17, totaling 12 men."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the dense core remnant left behind after a low to medium mass star sheds its outer planetary nebula?",
+      "options": [
+        "White Dwarf",
+        "Neutron Star",
+        "Black Hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stars like our Sun end their stellar lifecycle by shedding outer gas envelopes and leaving an electron-degenerate white dwarf."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Saturnian moon possesses a dense nitrogen atmosphere and liquid hydrocarbon lakes on its surface?",
+      "options": [
+        "Enceladus",
+        "Titan",
+        "Mimas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Titan is the only moon with a substantial atmosphere and surface bodies of liquid methane and ethane."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the first artificial satellite launched into Earth orbit in October 1957?",
+      "options": [
+        "Explorer 1",
+        "Vanguard 1",
+        "Sputnik 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Soviet Union launched Sputnik 1 on October 4, 1957, initiating the Space Age."
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the hottest planet in the Solar System due to an extreme runaway greenhouse effect?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venus has a thick carbon dioxide atmosphere that traps heat, maintaining surface temperatures around 465 degrees Celsius."
+    },
+    {
+      "type": "mcq",
+      "question": "What astronomical unit (AU) represents the average distance from the Earth to the Sun?",
+      "options": [
+        "About 75 million km",
+        "About 150 million km",
+        "About 300 million km"
+      ],
+      "correctIndex": 1,
+      "explanation": "One Astronomical Unit (1 AU) is defined as exactly 149,597,870.7 kilometers."
+    },
+    {
+      "type": "number",
+      "question": "What is the speed of light in vacuum in kilometers per second (rounded to nearest thousand)?",
+      "target": 300000,
+      "metricUnit": "km/s",
+      "imperialDisplay": "186,000 miles/sec",
+      "explanation": "The speed of light in vacuum is exactly 299,792.458 km/s, commonly rounded to 300,000 km/s."
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA rover landed in Jezero Crater on Mars in February 2021 with the Ingenuity helicopter?",
+      "options": [
+        "Curiosity",
+        "Opportunity",
+        "Perseverance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perseverance touched down in Jezero Crater to search for signs of ancient microbial biosignatures."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of our neighboring spiral galaxy on a gravitational collision course with the Milky Way in 4 billion years?",
+      "options": [
+        "Andromeda Galaxy",
+        "Triangulum Galaxy",
+        "Whirlpool Galaxy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Andromeda Galaxy (M31) is approaching the Milky Way at roughly 110 kilometers per second."
+    },
+    {
+      "type": "mcq",
+      "question": "Which moon of Saturn shoots plumes of water vapor and organic molecules from subsurface ocean tiger stripes?",
+      "options": [
+        "Rhea",
+        "Enceladus",
+        "Iapetus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enceladus harbors a global subsurface liquid ocean venting cryogenic geysers at its south pole."
+    },
+    {
+      "type": "mcq",
+      "question": "What type of star is our Sun classified as on the Hertzsprung-Russell diagram?",
+      "options": [
+        "Red Giant",
+        "Blue Supergiant",
+        "Yellow Dwarf"
+      ],
+      "correctIndex": 2,
+      "explanation": "Our Sun is a G-type main-sequence star, informally known as a yellow dwarf."
+    },
+    {
+      "type": "mcq",
+      "question": "Which space station has been continuously occupied by international crews since November 2000?",
+      "options": [
+        "International Space Station",
+        "Mir",
+        "Skylab"
+      ],
+      "correctIndex": 0,
+      "explanation": "The International Space Station (ISS) has hosted continuous human presence for over 25 years."
+    },
+    {
+      "type": "number",
+      "question": "In what year was the dwarf planet Pluto discovered by astronomer Clyde Tombaugh?",
+      "target": 1930,
+      "metricUnit": "CE",
+      "imperialDisplay": "February 1930",
+      "explanation": "Clyde Tombaugh identified Pluto on photographic comparison plates at Lowell Observatory in 1930."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the hypothetical spherical cloud of icy planetesimals surrounding our solar system out to 100,000 AU?",
+      "options": [
+        "Kuiper Belt",
+        "Oort Cloud",
+        "Asteroid Belt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Oort Cloud is the distant reservoir of long-period comets surrounding the outer solar system."
+    },
+    {
+      "type": "mcq",
+      "question": "Which astronomer formulated the three fundamental laws of planetary motion in the early 17th century?",
+      "options": [
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Johannes Kepler"
+      ],
+      "correctIndex": 2,
+      "explanation": "Johannes Kepler published his laws showing that planetary orbits are ellipses with the Sun at one focus."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest volcano and highest known mountain on any planet in the Solar System, located on Mars?",
+      "options": [
+        "Olympus Mons",
+        "Mauna Kea",
+        "Elysium Mons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Olympus Mons is a Martian shield volcano rising over 21 kilometers high."
+    },
+    {
+      "type": "mcq",
+      "question": "Which NASA mission performed the first close flyby of Pluto and its moon Charon in July 2015?",
+      "options": [
+        "Dawn",
+        "New Horizons",
+        "Cassini"
+      ],
+      "correctIndex": 1,
+      "explanation": "New Horizons captured high-resolution imagery of Plutos heart-shaped nitrogen ice plain, Tombaugh Regio."
+    },
+    {
+      "type": "mcq",
+      "question": "What cosmic explosion marks the energetic collapse of a massive star at the end of its thermonuclear life?",
+      "options": [
+        "Solar Flare",
+        "Coronal Mass Ejection",
+        "Supernova"
+      ],
+      "correctIndex": 2,
+      "explanation": "A core-collapse supernova disperses heavy elements and leaves behind either a neutron star or black hole."
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many kilometers above Earth does the International Space Station orbit?",
+      "target": 400,
+      "metricUnit": "km",
+      "imperialDisplay": "250 miles",
+      "explanation": "The ISS maintains a low Earth orbit at an average altitude between 370 and 420 kilometers."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the region of space between Mars and Jupiter containing millions of rocky bodies called?",
+      "options": [
+        "Main Asteroid Belt",
+        "Kuiper Belt",
+        "Scattered Disc"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Main Asteroid Belt is occupied by Ceres, Vesta, Pallas, Hygiea, and countless smaller asteroids."
+    },
+    {
+      "type": "mcq",
+      "question": "Which probe was the first spacecraft to soft-land on a comet in November 2014?",
+      "options": [
+        "Hayabusa",
+        "Philae",
+        "Stardust"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Philae lander deployed from ESAs Rosetta mothership to touch down on Comet 67P."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most abundant chemical element in the universe by mass?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hydrogen makes up roughly 74 percent of the baryonic mass of the universe, with helium accounting for most of the rest."
+    },
+    {
+      "type": "mcq",
+      "question": "Which astronomer discovered the four largest moons of Jupiter using a telescope in 1610?",
+      "options": [
+        "Galileo Galilei",
+        "Tycho Brahe",
+        "Isaac Newton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galileo discovered Io, Europa, Ganymede, and Callisto, providing evidence that not all bodies orbit Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "What phenomenon causes the mysterious accelerating expansion of the universe?",
+      "options": [
+        "Dark Matter",
+        "Dark Energy",
+        "Hawking Radiation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dark energy is the unknown form of energy constituting roughly 68 percent of the total energy-matter density of the cosmos."
+    },
+    {
+      "type": "number",
+      "question": "How many moons does the planet Mars have in its orbit?",
+      "target": 2,
+      "metricUnit": "moons",
+      "imperialDisplay": "Phobos and Deimos",
+      "explanation": "Mars is orbited by two small captured asteroids named Phobos and Deimos."
+    },
+    {
+      "type": "mcq",
+      "question": "Which space telescope launched in 1990 provided over 30 years of iconic astronomical imagery?",
+      "options": [
+        "Chandra X-ray Observatory",
+        "Kepler Space Telescope",
+        "Hubble Space Telescope"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubble was deployed by Space Shuttle Discovery and serviced multiple times in orbit."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the boundary where the solar wind is slowed by the interstellar medium?",
+      "options": [
+        "Heliopause",
+        "Magnetopause",
+        "Stratopause"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heliopause marks the outer border of the Sun’s magnetic sphere of influence."
+    },
+    {
+      "type": "mcq",
+      "question": "Which country successfully landed the robotic Chang e 4 mission on the far side of the Moon in 2019?",
+      "options": [
+        "Japan",
+        "China",
+        "India"
+      ],
+      "correctIndex": 1,
+      "explanation": "China achieved the worlds first soft landing on the lunar far side inside the South Pole-Aitken basin."
+    },
+    {
+      "type": "mcq",
+      "question": "What rapidly rotating magnetized neutron star emits beams of electromagnetic radiation from its poles?",
+      "options": [
+        "Magnetar",
+        "Quasar",
+        "Pulsar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pulsars emit regular pulses of radio waves like cosmic lighthouses as their magnetic poles sweep past Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which rocket was developed by NASA to launch the Apollo missions to the Moon?",
+      "options": [
+        "Saturn V",
+        "Atlas V",
+        "Titan IV"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three-stage Saturn V rocket stood 111 meters tall and remains one of the most powerful rockets ever flown."
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate surface temperature of the Sun in degrees Celsius?",
+      "target": 5500,
+      "metricUnit": "degrees C",
+      "imperialDisplay": "9,932 degrees F",
+      "explanation": "The solar photosphere has an effective surface temperature of roughly 5,500 degrees Celsius [5,778 Kelvin]."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the name of the first interstellar asteroid observed passing through our Solar System in 2017?",
+      "options": [
+        "Borisov",
+        "Oumuamua",
+        "Chiron"
+      ],
+      "correctIndex": 1,
+      "explanation": "1I/Oumuamua was discovered by the Pan-STARRS telescope displaying an unusual elongated shape and hyperbolic trajectory."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet possesses the famous hexagonal cloud pattern around its north pole?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Saturn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saturns north polar jet stream forms a persistent six-sided geometric wave pattern first imaged by Voyager."
+    },
+    {
+      "type": "mcq",
+      "question": "What was the name of the first living creature in orbit aboard Sputnik 2 in 1957?",
+      "options": [
+        "Laika the dog",
+        "Ham the chimpanzee",
+        "Belka the dog"
+      ],
+      "correctIndex": 0,
+      "explanation": "Laika, a Soviet space dog, became the first animal to orbit the Earth."
+    },
+    {
+      "type": "mcq",
+      "question": "Which optical instrument uses a combination of curved mirrors to collect and focus light?",
+      "options": [
+        "Refracting Telescope",
+        "Reflecting Telescope",
+        "Spectroscope"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reflecting telescopes, pioneered by Isaac Newton, use curved primary mirrors to avoid chromatic aberration."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for planets orbiting stars outside our Solar System?",
+      "options": [
+        "Planetesimals",
+        "Protoplanets",
+        "Exoplanets"
+      ],
+      "correctIndex": 2,
+      "explanation": "Astronomers have confirmed over 5,500 exoplanets across the Milky Way Galaxy."
+    },
+    {
+      "type": "number",
+      "question": "How many days does it take the Moon to complete one full orbit around Earth?",
+      "target": 27,
+      "metricUnit": "days",
+      "imperialDisplay": "27.3 days sidereal",
+      "explanation": "The Moons sidereal orbital period relative to background stars is approximately 27.3 days (synodic phase cycle is 29.5 days)."
+    },
+    {
+      "type": "mcq",
+      "question": "What cosmic microwave background radiation was discovered by Arno Penzias and Robert Wilson in 1965?",
+      "options": [
+        "Thermal echo of the Big Bang",
+        "Solar wind interference",
+        "Pulsar beacon signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The CMB is the ancient thermal remnant radiation left over from the epoch of recombination roughly 380,000 years after the Big Bang."
+    },
+    {
+      "type": "mcq",
+      "question": "Which astronaut holds the record for the first untethered spacewalk using the Manned Maneuvering Unit in 1984?",
+      "options": [
+        "Ed White",
+        "Bruce McCandless II",
+        "Michael Collins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bruce McCandless floated free from the Space Shuttle with a nitrogen-propelled jetpack."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the term for a point where the gravitational pull of two large masses equals the centripetal force?",
+      "options": [
+        "Roche Limit",
+        "Van Allen Belt",
+        "Lagrange Point"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lagrange points (L1 through L5) offer orbital positions where a small mass can remain stationary relative to two bodies."
+    },
+    {
+      "type": "mcq",
+      "question": "Which planet has the fastest rotation speed in our solar system, completing a day in under 10 hours?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jupiter rotates once on its axis in approximately 9 hours and 55 minutes."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the primary rocket propellant mixture used by the Space Shuttle Main Engines (RS-25)?",
+      "options": [
+        "Kerosene and liquid oxygen",
+        "Liquid hydrogen and liquid oxygen",
+        "Hydrazine and dinitrogen tetroxide"
+      ],
+      "correctIndex": 1,
+      "explanation": "The RS-25 burned cryogenic liquid hydrogen fuel and liquid oxygen oxidizer producing high specific impulse steam."
+    },
+    {
+      "type": "number",
+      "question": "What is the estimated age of the universe in billions of years according to standard cosmological models?",
+      "target": 14,
+      "metricUnit": "billion years",
+      "imperialDisplay": "13.8 billion years",
+      "explanation": "Measurements of the Cosmic Microwave Background by the Planck satellite determine the age of the universe at roughly 13.8 billion years (rounded to 14)."
+    }
+  ]
+}

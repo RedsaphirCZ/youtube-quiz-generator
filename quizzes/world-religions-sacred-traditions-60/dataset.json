@@ -1,0 +1,703 @@
+{
+  "id": "world-religions-sacred-traditions-60",
+  "theme": "Sacred History: World Religions, Architecture & Lore",
+  "title": "Sacred History: World Religions, Architecture & Lore",
+  "description": "A 60-question comprehensive journey exploring Hinduism, the Vedas, the Buddha's Noble Eightfold Path, Judaism and the Torah, Christian gospels and councils, Islam and the Five Pillars, Daoist harmony, Sikh Gurus, sacred architecture, and global pilgrimages.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which ancient collection of four sacred Sanskrit texts (Rigveda, Samaveda, Yajurveda, and Atharvaveda) forms the foundational scripture of Hinduism?",
+      "options": [
+        "The Vedas",
+        "The Puranas",
+        "The Agamas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Vedas are considered Shruti (that which is heard/revealed directly by cosmic seers), dating from the 2nd millennium BCE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Hindu philosophy, what Sanskrit term refers to the eternal cycle of birth, death, and rebirth driven by karma?",
+      "options": [
+        "Moksha",
+        "Samsara",
+        "Dharma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Samsara is the transmigration of the eternal soul (Atman) across successive lifetimes until spiritual liberation is attained.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the ultimate spiritual goal in Hinduism, describing liberation from the cycle of rebirth and union of the individual soul (Atman) with Brahman?",
+      "options": [
+        "Nirvana",
+        "Kaivalya",
+        "Moksha"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moksha represents the supreme realization of the illusion of separation (Maya) and absolute spiritual freedom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which philosophical spiritual dialogue within the Mahabharata features Prince Arjuna and Lord Krishna discussing duty and devotion before battle?",
+      "options": [
+        "Bhagavad Gita",
+        "Upanishads",
+        "Yoga Sutras"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 700-verse Bhagavad Gita outlines the paths of Karma Yoga (action), Jnana Yoga (knowledge), and Bhakti Yoga (devotion).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Hindu philosophical texts, forming the conclusion of the Vedas (Vedanta), explore the non-dual nature of Brahman and the inner Self?",
+      "options": [
+        "The Brahmanas",
+        "The Upanishads",
+        "The Aranyakas"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Upanishads introduced profound philosophical maxims like Tat Tvam Asi (That Thou Art), teaching that individual and universal consciousness are one.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many primary canonical Vedas make up the core Vedic sacred literature in Hinduism?",
+      "target": 4,
+      "metricUnit": "Vedas",
+      "imperialDisplay": "The 4 Vedas",
+      "explanation": "The canonical Vedic corpus comprises four texts: the Rigveda, Samaveda, Yajurveda, and Atharvaveda.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Under which sacred tree in Bodh Gaya did Prince Siddhartha Gautama meditate and attain supreme spiritual enlightenment as the Buddha?",
+      "options": [
+        "Banyan Tree",
+        "Lotus Tree",
+        "Bodhi Tree"
+      ],
+      "correctIndex": 2,
+      "explanation": "Siddhartha sat under the Ficus religiosa (Bodhi Tree) vowing not to rise until he uncovered the root cause of human suffering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What foundational Buddhist teaching identifies the truth of suffering (Dukkha), its origin (Samudaya), its cessation (Nirodha), and the path to its end (Magga)?",
+      "options": [
+        "The Four Noble Truths",
+        "The Three Jewels",
+        "The Twelve Links"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Buddha delivered his first sermon on the Four Noble Truths in the Deer Park at Sarnath to his five ascetic companions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which major branch of Buddhism, meaning Great Vehicle, emphasizes the ideal of the Bodhisattva who delays nirvana to save all sentient beings?",
+      "options": [
+        "Theravada",
+        "Mahayana",
+        "Vajrayana"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mahayana Buddhism spread widely across China, Japan, Korea, and Vietnam, promoting universal compassion and Buddha-nature.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the ultimate state of spiritual liberation in Buddhism, representing the complete extinguishing of greed, hatred, and delusion?",
+      "options": [
+        "Samsara",
+        "Bhavana",
+        "Nirvana"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nirvana translates literally to blowing out or quenching the fires of craving, liberating consciousness from future rebirth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese Buddhist school emphasizes seated meditation (Zazen) and paradoxical riddles (Koans) to awaken sudden intuitive insight?",
+      "options": [
+        "Zen Buddhism",
+        "Pure Land Buddhism",
+        "Nichiren Buddhism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originating from Chinese Chan Buddhism, Zen strips away elaborate ritualism to focus directly on mindful presence and insight into one's true nature.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many steps comprise the Noble Eightfold Path taught by the Buddha to achieve liberation from suffering?",
+      "target": 8,
+      "metricUnit": "steps",
+      "imperialDisplay": "The Eightfold Path",
+      "explanation": "The Eightfold Path divides into Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, and Concentration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What foundational Hebrew scripture comprises the first five books of the Bible (Genesis, Exodus, Leviticus, Numbers, Deuteronomy)?",
+      "options": [
+        "The Nevi'im",
+        "The Torah",
+        "The Ketuvim"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also known as the Pentateuch or Five Books of Moses, the Torah is handwritten on parchment scrolls and read weekly in synagogue liturgy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which sacred mountain in the desert did Moses receive the Ten Commandments and the divine covenant from God?",
+      "options": [
+        "Mount Carmel",
+        "Mount Zion",
+        "Mount Sinai"
+      ],
+      "correctIndex": 2,
+      "explanation": "The revelation at Mount Sinai forms the core covenantal moment in Jewish history, celebrated annually on the holiday of Shavuot.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What comprehensive multi-volume compendium of rabbinic law, ethics, and commentary consists of the Mishnah and the Gemara?",
+      "options": [
+        "The Talmud",
+        "The Midrash",
+        "The Zohar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compiled between the 3rd and 6th centuries CE in Jerusalem and Babylonia, the Talmud records centuries of vigorous dialectical rabbinic debate.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the holiest day of the year in Judaism, observed as the Day of Atonement through 25 hours of fasting and intensive prayer?",
+      "options": [
+        "Rosh Hashanah",
+        "Yom Kippur",
+        "Passover"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yom Kippur concludes the Ten Days of Repentance (Yamim Noraim) that begin on Rosh Hashanah, seeking forgiveness for sins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What weekly 25-hour Jewish Sabbath begins at Friday sunset with candle lighting and concludes Saturday evening with the Havdalah ceremony?",
+      "options": [
+        "Sukkot",
+        "Purim",
+        "Shabbat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shabbat commemorates God's rest on the seventh day of creation and liberation from Egyptian slavery, observed with festive family meals and rest from labor.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total Mitzvot (commandments) are enumerated in the Torah according to the classical rabbinic count codified by Maimonides?",
+      "target": 613,
+      "metricUnit": "commandments",
+      "imperialDisplay": "613 Mitzvot",
+      "explanation": "Rabbinic tradition enumerates exactly 613 commandments in the Torah: 248 positive commandments and 365 negative prohibitions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which four books opening the Christian New Testament provide the canonical biographical accounts of the life, ministry, death, and resurrection of Jesus?",
+      "options": [
+        "Matthew, Mark, Luke, and John",
+        "Acts, Romans, Corinthians, and Galatians",
+        "Genesis, Exodus, Leviticus, and Deuteronomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Gospels (Good News) comprise three Synoptic Gospels (Matthew, Mark, Luke) sharing similar narrative structures and the theological Gospel of John.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Jewish-Roman citizen, formerly Saul of Tarsus, experienced a dramatic vision on the road to Damascus and became the apostle to the Gentiles?",
+      "options": [
+        "Peter the Apostle",
+        "Paul the Apostle",
+        "James the Just"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paul wrote numerous foundational theological epistles to early Christian communities in Rome, Corinth, Galatia, and Ephesus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark ecumenical council convened by Emperor Constantine in 325 CE formulated the Nicene Creed confirming the divine nature of Christ?",
+      "options": [
+        "Council of Chalcedon",
+        "Council of Trent",
+        "Council of Nicaea"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Council of Nicaea affirmed that Jesus Christ is consubstantial (homoousios) with the Father, rejecting the Arian heresy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the central Christian theological doctrine affirming that God is one divine being existing eternally in three co-equal persons: Father, Son, and Holy Spirit?",
+      "options": [
+        "The Holy Trinity",
+        "Monotheletism",
+        "Docetism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trinitarian theology forms the foundational doctrinal cornerstone across Eastern Orthodox, Roman Catholic, and mainstream Protestant traditions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What principal Christian sacrament instituted at the Last Supper involves the ritual blessing and sharing of bread and wine?",
+      "options": [
+        "Baptism",
+        "Eucharist / Holy Communion",
+        "Confirmation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also known as the Divine Liturgy or Mass, the Eucharist commemorates Christ's sacrificial death and spiritual presence with the faithful.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many chosen apostles made up the original inner circle of disciples appointed by Jesus during his ministry?",
+      "target": 12,
+      "metricUnit": "apostles",
+      "imperialDisplay": "The Twelve Apostles",
+      "explanation": "Jesus chose twelve primary apostles corresponding symbolically to the twelve historical tribes of Israel, including Peter, James, and John.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who is revered in Islam as the Seal of the Prophets, receiving the divine revelations of the Quran from the Angel Gabriel starting in 610 CE?",
+      "options": [
+        "Prophet Ibrahim",
+        "Prophet Musa",
+        "Prophet Muhammad"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muhammad received revelations over a 23-year period in Mecca and Medina, uniting the Arabian peninsula under Islamic monotheism (Tawhid).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the sacred scripture of Islam, considered the literal verbatim word of Allah revealed in classical Arabic?",
+      "options": [
+        "The Quran",
+        "The Hadith",
+        "The Sunnah"
+      ],
+      "correctIndex": 0,
+      "explanation": "Composed of 114 chapters (surahs) organized roughly from longest to shortest, the Quran provides moral, spiritual, and legal guidance for Muslims worldwide.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the first and foundational Pillar of Islam, proclaiming that there is no god but Allah and Muhammad is His messenger?",
+      "options": [
+        "Salah",
+        "Shahada",
+        "Zakat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reciting the Shahada with sincere conviction before witnesses constitutes the formal entry into the global Islamic community (Ummah).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Toward which ancient cubical stone shrine in the courtyard of Masjid al-Haram in Mecca do Muslims orient their daily prayers (Qibla)?",
+      "options": [
+        "Dome of the Rock",
+        "Al-Masjid an-Nabawi",
+        "The Kaaba"
+      ],
+      "correctIndex": 2,
+      "explanation": "Islamic tradition holds that the Kaaba was originally constructed by the prophet Ibrahim (Abraham) and his son Ismail as the first house of monotheistic worship.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "During which sacred ninth month of the Islamic lunar calendar do Muslims observe daily fasting (Sawm) from dawn until sunset?",
+      "options": [
+        "Ramadan",
+        "Muharram",
+        "Shawwal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ramadan commemorates the month in which the first verses of the Quran were revealed on the Night of Power (Laylat al-Qadr).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many mandatory Pillars of Islam form the fundamental obligatory religious practices of Islamic faith?",
+      "target": 5,
+      "metricUnit": "pillars",
+      "imperialDisplay": "The Five Pillars of Islam",
+      "explanation": "The Five Pillars comprise Shahada (faith), Salah (prayer 5 times daily), Zakat (almsgiving), Sawm (fasting during Ramadan), and Hajj (pilgrimage to Mecca).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Chinese philosophical text attributed to sage Laozi opens with the famous line: The Dao that can be told is not the eternal Dao?",
+      "options": [
+        "Zhuangzi",
+        "Dao De Jing",
+        "Yijing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dao De Jing (Classic of the Way and Its Virtue) consists of 81 short poetic chapters exploring non-action, water-like flexibility, and cosmic balance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What central Daoist concept translates to effortless action or natural non-striving, acting in spontaneous alignment with the natural flow?",
+      "options": [
+        "Ren",
+        "Xiao",
+        "Wu Wei"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wu Wei teaches that true effectiveness is achieved without aggressive force, comparable to water smoothly carving through solid stone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What core virtue in Confucianism represents benevolence, human-heartedness, and compassionate love for one's fellow human beings?",
+      "options": [
+        "Ren",
+        "Li",
+        "Yi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ren is the highest moral virtue in Confucian thought, cultivated through empathy, respectful etiquette (Li), and moral self-cultivation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Confucian foundational principle demands deep respect, obedience, and devotion of children toward their parents and ancestral lineage?",
+      "options": [
+        "Wu Wei",
+        "Filial Piety Xiao",
+        "Tian"
+      ],
+      "correctIndex": 1,
+      "explanation": "Filial piety was viewed by Confucius as the root of all moral character and the bedrock of societal harmony and good governance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Chinese text of divination and cosmological wisdom uses 64 symbolic hexagrams of broken and solid lines to interpret change?",
+      "options": [
+        "Shujing",
+        "Liji",
+        "Yijing I Ching"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Yijing (Book of Changes) is one of the Five Classics, profoundly shaping both Daoist metaphysics and Confucian philosophical commentary.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many poetic chapters make up the classical Chinese text Dao De Jing attributed to Laozi?",
+      "target": 81,
+      "metricUnit": "chapters",
+      "imperialDisplay": "81 poetic chapters",
+      "explanation": "The traditional received text of the Dao De Jing is organized into exactly 81 short chapters, divided into two parts: Dao (1-37) and De (38-81).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 15th-century spiritual master founded Sikhism in the Punjab region, proclaiming: There is no Hindu, there is no Muslim?",
+      "options": [
+        "Guru Nanak",
+        "Guru Angad",
+        "Guru Gobind Singh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guru Nanak emphasized Ek Onkar (One Supreme Reality), the equality of all human beings regardless of caste or gender, and honest living.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the central holy scripture of Sikhism, installed as the eternal, living spiritual Guru for all Sikhs by Guru Gobind Singh in 1708?",
+      "options": [
+        "Dasam Granth",
+        "Guru Granth Sahib",
+        "Japji Sahib"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Guru Granth Sahib contains 1,430 pages of devotional poetry composed in musical ragas by Sikh Gurus and Hindu and Muslim saints.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What magnificent gilded Sikh gurdwara in Amritsar, Punjab, features doors on all four sides symbolizing welcoming people of every caste and creed?",
+      "options": [
+        "Takht Sri Patna Sahib",
+        "Hazur Sahib",
+        "Harmandir Sahib The Golden Temple"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harmandir Sahib sits in the center of the sacred Amrit Sarovar (Pool of Nectar), feeding tens of thousands of pilgrims free daily meals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the free community kitchen in every Sikh gurdwara where all visitors sit together on the floor to eat a shared vegetarian meal?",
+      "options": [
+        "Langar",
+        "Kirtan",
+        "Seva"
+      ],
+      "correctIndex": 0,
+      "explanation": "Instituted by Guru Nanak, Langar directly dismantled the discriminatory Hindu caste system by requiring all individuals to eat side by side.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the Five Ks (panj kakar) worn by initiated Khalsa Sikhs is the sacred steel bangle symbolizing restraint and unbreakable attachment to God?",
+      "options": [
+        "Kesh",
+        "Kara",
+        "Kirpan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Five Ks comprise Kesh (uncut hair), Kangha (wooden comb), Kara (iron bracelet), Kachera (cotton undergarment), and Kirpan (curved ceremonial dagger).",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many human spiritual Gurus guided the Sikh community between Guru Nanak and the final human Guru, Guru Gobind Singh?",
+      "target": 10,
+      "metricUnit": "Gurus",
+      "imperialDisplay": "The 10 Human Gurus",
+      "explanation": "Sikhism was shaped by exactly ten human Gurus between 1469 and 1708, after which spiritual authority was vested eternally in the Guru Granth Sahib.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal 12th-century temple complex in Cambodia was originally built as a Hindu dedication to Vishnu before transforming into a Buddhist shrine?",
+      "options": [
+        "Bayon",
+        "Ta Prohm",
+        "Angkor Wat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built under King Suryavarman II, Angkor Wat is the largest religious monument in the world, renowned for bas-reliefs and lotus towers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 9th-century monumental Mahayana Buddhist temple in Central Java, Indonesia, is built as a colossal three-dimensional cosmic mandala with 72 stupas?",
+      "options": [
+        "Borobudur",
+        "Prambanan",
+        "Mendut"
+      ],
+      "correctIndex": 0,
+      "explanation": "Borobudur features nine stacked platforms representing the path from the world of desire (Kamadhatu) to the world of formlessness (Arupadhatu).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the most sacred site in Judaism where Jews pray in the Old City of Jerusalem, the lone remaining retaining wall of the Second Temple?",
+      "options": [
+        "The Golden Gate",
+        "The Western Wall",
+        "Mount of Olives"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also known as the Kotel, the Western Wall stood outside the Temple Mount complex expanded by King Herod the Great in the 1st century BCE.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Renaissance basilica in Vatican City, standing over the traditional tomb of Saint Peter, features Michelangelo's monumental dome?",
+      "options": [
+        "St. John Lateran",
+        "Santa Maria Maggiore",
+        "St. Peter's Basilica"
+      ],
+      "correctIndex": 2,
+      "explanation": "St. Peter's Basilica is the largest Christian church building in the world by interior volume, with a capacity of over 60,000 worshippers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred Shinto shrine in Mie Prefecture, dedicated to the sun goddess Amaterasu, is ritually dismantled and rebuilt every 20 years?",
+      "options": [
+        "Ise Grand Shrine",
+        "Fushimi Inari-taisha",
+        "Itsukushima Shrine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ritual rebuilding (Shikinen Sengu) has been practiced for over 1,300 years, preserving ancient timber joinery crafts and Shinto renewal philosophy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many openwork perforated bell-shaped stupas containing Buddha statues surround the upper circular platforms of Borobudur?",
+      "target": 72,
+      "metricUnit": "stupas",
+      "imperialDisplay": "72 perforated stupas",
+      "explanation": "Borobudur's three upper circular terraces host exactly 72 perforated stupas, each housing a seated Buddha statue, surrounding the large central stupa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Iranian monotheistic religion founded by prophet Zarathustra worships Ahura Mazda as the Lord of Wisdom and battles Angra Mainyu?",
+      "options": [
+        "Manichaeism",
+        "Zoroastrianism",
+        "Mithraism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zoroastrianism was the state religion of the ancient Persian Achaemenid, Parthian, and Sasanian Empires, viewing fire as a symbol of divine purity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Japanese Shinto, what are the sacred spirits, divine powers, and spiritual essences inhabiting natural phenomena such as trees, waterfalls, and ancestors called?",
+      "options": [
+        "Yokai",
+        "Oni",
+        "Kami"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shinto teaches that humans live in sacred harmony with myriad Kami (yaoyorozu no kami) that animate the natural universe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinctive red-orange wooden gateway marks the physical boundary between the profane everyday world and sacred Shinto shrine grounds?",
+      "options": [
+        "Torii gate",
+        "Pagoda",
+        "Chorten"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passing under a Torii gate purifies visitors as they enter the sacred precinct of the kami, famously showcased at Fushimi Inari with thousands of vermilion torii.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What supreme ethical principle of radical non-violence toward all living beings is the foundational core of Jain spiritual practice?",
+      "options": [
+        "Satya",
+        "Ahimsa",
+        "Asteya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jain monks practice strict vegetarianism and sweep the ground before them with small brooms to avoid accidentally harming microscopic insects.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 6th-century BCE religious reformer and 24th Tirthankara of Jainism revitalized the path of asceticism and spiritual liberation?",
+      "options": [
+        "Parshvanatha",
+        "Rishabhanatha",
+        "Mahavira"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vardhamana Mahavira attained Kevala Jnana (omniscience) after twelve years of severe meditation, codifying Jain monastic vows.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many enlightened spiritual conquerors (Tirthankaras or Ford-makers) are recognized in the cyclical timeline of Jain tradition?",
+      "target": 24,
+      "metricUnit": "Tirthankaras",
+      "imperialDisplay": "The 24 Tirthankaras",
+      "explanation": "Jainism honors 24 Tirthankaras in the current cosmic half-cycle, beginning with Lord Rishabhanatha and concluding with Mahavira.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What annual mandatory Islamic pilgrimage to the holy city of Mecca must be performed at least once in a lifetime by every physically and financially able Muslim?",
+      "options": [
+        "Hajj",
+        "Umrah",
+        "Ziyarat"
+      ],
+      "correctIndex": 0,
+      "explanation": "During Hajj, millions of pilgrims wear uniform white garments (Ihram) to perform rituals including circumambulating the Kaaba and standing at Mount Arafat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal Hindu festival and pilgrimage, the largest human peaceful gathering on Earth, involves ritual bathing at the confluence of sacred rivers?",
+      "options": [
+        "Diwali",
+        "Kumbh Mela",
+        "Holi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Held at Prayagraj, Haridwar, Ujjain, and Nashik, the Kumbh Mela draws tens of millions of pilgrims to bathe at the Triveni Sangam to cleanse sins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which autumn Hindu Festival of Lights celebrates the victory of light over darkness and the return of Lord Rama to Ayodhya?",
+      "options": [
+        "Holi",
+        "Navratri",
+        "Diwali Deepavali"
+      ],
+      "correctIndex": 2,
+      "explanation": "Celebrated by lighting clay oil lamps (diyas), bursting fireworks, and sharing sweets, Diwali also honors Lakshmi, the goddess of prosperity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Jewish springtime festival commemorates the liberation of the Israelites from slavery in ancient Egypt with a ceremonial Seder meal?",
+      "options": [
+        "Passover Pesach",
+        "Sukkot",
+        "Shavuot"
+      ],
+      "correctIndex": 0,
+      "explanation": "During the Seder meal, families read the Haggadah, drink four cups of wine, and eat unleavened bread (matzah) to remember the Exodus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What supreme Christian feast celebrates the resurrection of Jesus Christ from the dead on the third day after his crucifixion at Calvary?",
+      "options": [
+        "Christmas",
+        "Easter Pascha",
+        "Pentecost"
+      ],
+      "correctIndex": 1,
+      "explanation": "Easter marks the culmination of Holy Week and Lent, celebrated with sunrise vigils and joyful declarations of Christ is Risen!",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Every how many years does the primary cycle of the grand Purna Kumbh Mela pilgrimage recur at each sacred Indian river location?",
+      "target": 12,
+      "metricUnit": "years",
+      "imperialDisplay": "12-year primary cycle",
+      "explanation": "The major Purna Kumbh Mela rotates every 12 years across four holy river sites based on astrological positions of Jupiter, the Sun, and the Moon.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

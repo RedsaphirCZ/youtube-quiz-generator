@@ -1,0 +1,703 @@
+{
+  "id": "theater-opera-performing-arts-60",
+  "theme": "Theater, Opera & Dramatic Performing Arts",
+  "title": "Theater, Opera & Dramatic Performing Arts",
+  "description": "A 60-question grand master assessment exploring ancient Greek tragedy, Commedia dell'arte, Monteverdi, Mozart, Verdi, Ibsen, Stanislavski, Broadway golden age musicals, Puccini verismo, Beckett absurdism, Ballets Russes, and modern blockbuster theater.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who is traditionally celebrated as history's first actor, stepping out of the Greek chorus in 534 BCE to speak dialogue as a distinct character?",
+      "options": [
+        "Thespis",
+        "Aeschylus",
+        "Sophocles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thespis introduced spoken impersonation at the City Dionysia festival in Athens, from whose name the word thespian derives.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Athenian festival held in honor of the god of wine and theater staged the great competitive tragedy trilogies of classical antiquity?",
+      "options": [
+        "Panathenaea",
+        "City Dionysia",
+        "Eleusinian Mysteries"
+      ],
+      "correctIndex": 1,
+      "explanation": "The City Dionysia featured dramatic competitions where playwrights presented three connected tragedies followed by a comedic satyr play.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which tragic Greek playwright wrote the only complete surviving tragic trilogy from antiquity, the Oresteia (Agamemnon, The Libation Bearers, and The Eumenides)?",
+      "options": [
+        "Euripides",
+        "Aristophanes",
+        "Aeschylus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aeschylus introduced the second actor, expanded dialogue, and explored cosmic justice, generational curses, and the creation of trial by jury.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Sophoclean tragedy portrays a King of Thebes who unwittingly fulfills a prophecy that he will kill his father and marry his mother?",
+      "options": [
+        "Oedipus Rex",
+        "Antigone",
+        "Ajax"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oedipus Rex (Oedipus Tyrannus) was praised by Aristotle in the Poetics as the supreme exemplar of tragic dramatic structure and recognition (anagnorisis).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the circular dancing floor and primary performance space in an ancient Greek open-air theater called?",
+      "options": [
+        "Skene",
+        "Orchestra",
+        "Theatron"
+      ],
+      "correctIndex": 1,
+      "explanation": "The orchestra was the central level ground where the dramatic chorus sang, danced, and commented upon the unfolding tragic events.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many complete tragic trilogies have survived intact from ancient classical Greek dramatic literature?",
+      "target": 1,
+      "metricUnit": "trilogy",
+      "imperialDisplay": "1 complete trilogy (The Oresteia)",
+      "explanation": "The Oresteia by Aeschylus (comprising Agamemnon, The Libation Bearers, and The Eumenides) is the sole complete tragic trilogy surviving from ancient Greece.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What professional Italian theatrical form popular from the 16th to 18th centuries relied on masked stock characters and improvised slapstick comedy (lazzi)?",
+      "options": [
+        "Opera buffa",
+        "Intermezzo",
+        "Commedia dell'arte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Commedia dell'arte featured stock archetypes like the greedy merchant Pantalone, the pompous Il Dottore, and the acrobatic trickster servant Arlecchino.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which group of Florentine Renaissance humanists, musicians, and poets sought to revive ancient Greek musical drama, inadvertently inventing opera?",
+      "options": [
+        "Florentine Camerata",
+        "Accademia dei Lincei",
+        "Arcadian Academy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gathering at the palace of Count Giovanni de' Bardi in the late 16th century, the Camerata developed monody (expressive solo singing over basso continuo).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian master's 1607 opera L'Orfeo, recounting Orpheus's descent into the underworld to rescue Eurydice, is hailed as the first operatic masterwork?",
+      "options": [
+        "Jacopo Peri",
+        "Claudio Monteverdi",
+        "Giulio Caccini"
+      ],
+      "correctIndex": 1,
+      "explanation": "Monteverdi used a large 40-piece orchestra and expressive vocal declamation to establish opera as a profound theatrical art form in Mantua.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which maritime Italian city was the world's first public commercial opera house, the Teatro San Cassiano, opened in 1637?",
+      "options": [
+        "Florence",
+        "Naples",
+        "Venice"
+      ],
+      "correctIndex": 2,
+      "explanation": "The opening of Teatro San Cassiano in Venice democratized opera, shifting it from aristocratic private court entertainment to ticketed public performance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What acrobatic, diamond-pattern-costumed Commedia dell'arte character carries a wooden slapstick and serves as a witty servant?",
+      "options": [
+        "Arlecchino Harlequin",
+        "Pantalone",
+        "Brighella"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arlecchino used physical comedy, acrobatic agility, and his slapstick bat to outwit masters and drive comic plots.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Claudio Monteverdi premiere his milestone opera L'Orfeo at the Ducal Palace of Mantua?",
+      "target": 1607,
+      "metricUnit": "CE",
+      "imperialDisplay": "February 1607",
+      "explanation": "L'Orfeo was first performed on 24 February 1607 during carnival festivities in Mantua, establishing the foundation of classical opera.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mozart comic opera features the servant Figaro outwitting his aristocratic master Count Almaviva on his wedding day?",
+      "options": [
+        "Don Giovanni",
+        "The Marriage of Figaro",
+        "Cosi fan tutte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Nozze di Figaro premiered in Vienna in 1786, setting Beaumarchais's politically subversive play with dazzling ensemble finales.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian vocal style meaning beautiful singing flourished in the early 19th century, characterized by smooth legato, agile coloratura, and vocal beauty?",
+      "options": [
+        "Verismo",
+        "Sprechstimme",
+        "Bel Canto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bel canto was perfected by Italian masters Rossini, Bellini, and Donizetti, prioritizing dazzling vocal technique and expressiveness.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Gaetano Donizetti tragic opera features one of the most famous and difficult coloratura mad scenes in operatic history, Il dolce suono?",
+      "options": [
+        "Lucia di Lammermoor",
+        "L'elisir d'amore",
+        "Don Pasquale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Based on Walter Scott's Scottish novel, Lucia murders her forced husband on their wedding night and hallucinates marrying her true love Edgardo.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Vincenzo Bellini masterpiece features the famous soprano prayer aria Casta Diva addressed to the chaste goddess of the moon?",
+      "options": [
+        "I Puritani",
+        "Norma",
+        "La Sonnambula"
+      ],
+      "correctIndex": 1,
+      "explanation": "Norma is considered a supreme summit of the bel canto soprano repertoire, demanding extraordinary dramatic intensity and vocal stamina.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the historical term for male singers castrated before puberty to preserve their high soprano or alto vocal range with adult lung capacity?",
+      "options": [
+        "Countertenors",
+        "Falsettos",
+        "Castrati"
+      ],
+      "correctIndex": 2,
+      "explanation": "Castrati like Farinelli were the international rock stars of 18th-century Baroque opera, possessing astonishing breath control and vocal power.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many legendary Italian operas did Wolfgang Amadeus Mozart compose to libretti written by Lorenzo Da Ponte?",
+      "target": 3,
+      "metricUnit": "operas",
+      "imperialDisplay": "The 3 Da Ponte Operas",
+      "explanation": "Mozart and Da Ponte created three enduring operatic masterpieces: Le Nozze di Figaro (1786), Don Giovanni (1787), and Cosi fan tutte (1790).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian opera titan composed the beloved masterworks Rigoletto, Il Trovatore, and La Traviata during his prolific middle period?",
+      "options": [
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Amilcare Ponchielli"
+      ],
+      "correctIndex": 0,
+      "explanation": "Verdi transformed Italian opera into raw human drama, matching intense emotional depth with soaring melodies that defined the 19th century.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Verdi chorus from the 1842 opera Nabucco, sung by exiled Hebrew slaves, became an unofficial anthem for Italian unification (Risorgimento)?",
+      "options": [
+        "Anvil Chorus",
+        "Va, pensiero",
+        "Triumphal March"
+      ],
+      "correctIndex": 1,
+      "explanation": "Va, pensiero (Fly, thought, on wings of gold) resonated deeply with Italians longing for independence from Austrian Habsburg rule.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In Verdi's tragic masterpiece Rigoletto, which famous aria does the frivolous Duke of Mantua sing proclaiming that woman is fickle?",
+      "options": [
+        "Nessun dorma",
+        "Questa o quella",
+        "La donna e mobile"
+      ],
+      "correctIndex": 2,
+      "explanation": "La donna e mobile is one of the most recognized tenor melodies in the world, capturing the Duke's carefree and deceitful hedonism.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which grandiose Verdi opera set in ancient Egypt features the famous Triumphal March with custom long Egyptian trumpets?",
+      "options": [
+        "Aida",
+        "Don Carlo",
+        "Otello"
+      ],
+      "correctIndex": 0,
+      "explanation": "Commissioned to celebrate the opening of the Khedivial Opera House in Cairo, Aida tells the tragic love story of an enslaved Ethiopian princess and Egyptian general Radames.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French courtesan character based on Alphonsine Plessis dies of tuberculosis in the arms of Alfredo in Verdi's La Traviata?",
+      "options": [
+        "Gilda",
+        "Violetta Valery",
+        "Desdemona"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Traviata (The Fallen Woman), based on Alexandre Dumas fils's The Lady of the Camellias, was revolutionary for staging contemporary Parisian realism.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many days did Gioachino Rossini take to compose his comic operatic masterpiece The Barber of Seville in 1816?",
+      "target": 13,
+      "metricUnit": "days",
+      "imperialDisplay": "approx. 13 days",
+      "explanation": "Rossini wrote the complete score of The Barber of Seville in an astonishingly rapid 13 days, leading to its Rome premiere on 20 February 1816.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Norwegian playwright is known as the Father of Modern Realism for groundbreaking social dramas like A Doll's House and Hedda Gabler?",
+      "options": [
+        "August Strindberg",
+        "Anton Chekhov",
+        "Henrik Ibsen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ibsen challenged Victorian bourgeois hypocrisy; Nora Helmer slamming the door as she leaves her patronizing husband shocked European society in 1879.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian dramatist and physician wrote masterpieces of subtle emotional subtext including The Seagull, Uncle Vanya, and The Cherry Orchard?",
+      "options": [
+        "Anton Chekhov",
+        "Maxim Gorky",
+        "Ivan Turgenev"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chekhov pioneered mood-driven dramaturgy where profound internal psychological shifts occur beneath everyday domestic conversations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian theater director co-founded the Moscow Art Theatre and developed the influential psychological acting system known as the Stanislavski Method?",
+      "options": [
+        "Vsevolod Meyerhold",
+        "Konstantin Stanislavski",
+        "Yevgeny Vakhtangov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stanislavski trained actors to achieve psychological realism and emotional truth through the magic if, objectives, and affective memory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swedish dramatist pioneered psychological naturalism with Miss Julie before venturing into expressionism with A Dream Play?",
+      "options": [
+        "Henrik Ibsen",
+        "Bjornstjerne Bjornson",
+        "August Strindberg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Strindberg explored intense Darwinian battles between the sexes, classes, and subconscious minds in compact, high-tension chamber plays.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dramatic theater term refers to the imaginary invisible barrier separating the performers onstage from the audience in the auditorium?",
+      "options": [
+        "The Fourth Wall",
+        "The Proscenium Arch",
+        "The Apron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Realist theater emphasized maintaining the fourth wall, whereas modernist playwrights like Brecht intentionally broke it to engage the audience critically.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many major canonical full-length plays did Russian master Anton Chekhov write before his untimely death in 1904?",
+      "target": 4,
+      "metricUnit": "plays",
+      "imperialDisplay": "The 4 Great Plays",
+      "explanation": "Chekhov's quartet of undisputed theatrical masterpieces comprises The Seagull (1896), Uncle Vanya (1898), Three Sisters (1901), and The Cherry Orchard (1904).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which landmark 1927 musical by Jerome Kern and Oscar Hammerstein II revolutionized Broadway by integrating songs seamlessly into serious social drama?",
+      "options": [
+        "Oklahoma!",
+        "Show Boat",
+        "Porgy and Bess"
+      ],
+      "correctIndex": 1,
+      "explanation": "Show Boat tackled racial miscegenation, addiction, and marital abandonment along the Mississippi River, featuring Paul Robeson's immortal Ol' Man River.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1943 musical by Richard Rodgers and Oscar Hammerstein II opened with Oh, What a Beautiful Mornin', launching the Golden Age of Broadway?",
+      "options": [
+        "Carousel",
+        "The Sound of Music",
+        "Oklahoma!"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oklahoma! pioneered the fully integrated book musical where songs, dialogue, and Agnes de Mille's dream ballet advanced character and plot.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1957 Broadway musical with music by Leonard Bernstein and lyrics by Stephen Sondheim transposed Romeo and Juliet to rival New York street gangs?",
+      "options": [
+        "West Side Story",
+        "Guys and Dolls",
+        "Cabaret"
+      ],
+      "correctIndex": 0,
+      "explanation": "West Side Story featured explosive choreography by Jerome Robbins, capturing racial tensions between the white Jets and Puerto Rican Sharks in Manhattan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which celebrated American lyricist and composer created intellectually complex theatrical masterworks like Company, Sweeney Todd, and Into the Woods?",
+      "options": [
+        "Cole Porter",
+        "Stephen Sondheim",
+        "Irving Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sondheim revolutionized modern musical theater through intricate polysyllabic rhymes, dark psychological themes, and sophisticated non-traditional song structures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Lerner and Loewe musical adapted George Bernard Shaw's play Pygmalion, featuring Eliza Doolittle and Professor Henry Higgins?",
+      "options": [
+        "Brigadoon",
+        "Camelot",
+        "My Fair Lady"
+      ],
+      "correctIndex": 2,
+      "explanation": "My Fair Lady premiered on Broadway in 1956 starring Julie Andrews and Rex Harrison, featuring classic standards like I Could Have Danced All Night.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the minimum seating capacity required for a Manhattan theater venue to be officially classified as a Broadway theatre?",
+      "target": 500,
+      "metricUnit": "seats",
+      "imperialDisplay": "500 or more seats",
+      "explanation": "The Broadway League defines Broadway theatres as professional venues in the Theater District of Manhattan containing 500 or more audience seats.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Giacomo Puccini opera set in the Latin Quarter of Paris portrays the tragic romance between the poet Rodolfo and the seamstress Mimi?",
+      "options": [
+        "La Boheme",
+        "Tosca",
+        "Madama Butterfly"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Boheme captured youthful bohemian artistic life and romantic tragedy, later serving as the direct inspiration for Jonathan Larson's rock musical Rent.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which thrilling Puccini melodrama features the fiery opera singer Floria Tosca, the painter Cavaradossi, and the corrupt police chief Baron Scarpia?",
+      "options": [
+        "Turandot",
+        "Tosca",
+        "Manon Lescaut"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tosca is celebrated for intense psychological drama, featuring Tosca's anguished prayer Vissi d'arte and Cavaradossi's E lucevan le stelle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic Puccini tenor aria from Turandot culminates with the soaring declaration Vincerò! (I will win!)?",
+      "options": [
+        "Che gelida manina",
+        "E lucevan le stelle",
+        "Nessun dorma"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nessun dorma (None shall sleep) is sung by the unknown prince Calaf, famously popularized globally by Luciano Pavarotti during the 1990 World Cup.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1875 French opera by Georges Bizet set in Seville features the famous Habanera and Seguidilla sung by a seductive cigarette factory worker?",
+      "options": [
+        "Carmen",
+        "The Pearl Fishers",
+        "Lakme"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carmen's unapologetic free spirit and tragic murder by her jealous lover Don Jose scandalized its initial audiences before becoming a global triumph.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Italian operatic movement of the late 19th century focused on raw, gritty, violent stories of working-class people rather than mythology or royalty?",
+      "options": [
+        "Bel Canto",
+        "Verismo",
+        "Opera Seria"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verismo (realism) is epitomized by Mascagni's Cavalleria Rusticana, Leoncavallo's Pagliacci, and Puccini's dramatic masterworks.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many riddles must Prince Calaf correctly solve to win the hand of the icy Princess Turandot in Puccini's opera?",
+      "target": 3,
+      "metricUnit": "riddles",
+      "imperialDisplay": "The 3 Riddles",
+      "explanation": "Princess Turandot poses three riddles to prospective suitors: Hope, Blood, and Turandot herself; Calaf solves all three to save his life.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German Marxist dramatist developed Epic Theater and the Alienation Effect (Verfremdungseffekt) to encourage critical analysis over emotional immersion?",
+      "options": [
+        "Bertolt Brecht",
+        "Heiner Muller",
+        "Ernst Toller"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brecht wrote Mother Courage and Her Children and The Threepenny Opera with Kurt Weill, intentionally reminding audiences they were watching a staged performance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Irish absurdist masterpiece by Samuel Beckett features two tramps, Vladimir and Estragon, waiting endlessly by a leafless tree for someone who never arrives?",
+      "options": [
+        "Endgame",
+        "Waiting for Godot",
+        "Krapp's Last Tape"
+      ],
+      "correctIndex": 1,
+      "explanation": "Waiting for Godot stripped away conventional plot and psychological exposition, capturing existential human waiting, routine, and resilient camaraderie.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Romanian-French absurdist playwright depicted townspeople systematically transforming into aggressive beasts in his anti-totalitarian play Rhinoceros?",
+      "options": [
+        "Jean Genet",
+        "Arthur Adamov",
+        "Eugene Ionesco"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ionesco used surreal comic grotesque situations to satirize mass conformity, herd mentality, and the rise of fascism in mid-20th-century Europe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Nobel Prize-winning English playwright was famous for tense domestic power struggles punctuated by menacing dramatic pauses and silences?",
+      "options": [
+        "Harold Pinter",
+        "Tom Stoppard",
+        "David Hare"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pinter's plays like The Homecoming and The Birthday Party coined the term Pinteresque pause for fraught silences loaded with unsaid threat.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian playwright explored subjective reality and role-playing in Six Characters in Search of an Author, winning the 1934 Nobel Prize in Literature?",
+      "options": [
+        "Dario Fo",
+        "Luigi Pirandello",
+        "Eduardo De Filippo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pirandello blurred the boundary between illusion and reality by having fictional dramatic characters disrupt an ongoing theatrical rehearsal.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many characters in Samuel Beckett's play Waiting for Godot ever meet or speak directly with Godot?",
+      "target": 0,
+      "metricUnit": "characters",
+      "imperialDisplay": "0 characters meet Godot",
+      "explanation": "Godot never appears onstage and is never met by any character throughout the entire two-act play, remaining an eternal absent figure.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French-born ballet master served as chief choreographer of the Russian Imperial Ballet, creating the iconic choreography for Swan Lake and The Nutcracker?",
+      "options": [
+        "Arthur Saint-Leon",
+        "Jules Perrot",
+        "Marius Petipa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Petipa dominated Saint Petersburg ballet for five decades, codifying the Grand Pas de Deux and choreographing masterpieces with Tchaikovsky.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which visionary Russian impresario founded the revolutionary Ballets Russes in Paris, uniting avant-garde composers, painters, and dancers?",
+      "options": [
+        "Sergei Diaghilev",
+        "Michel Fokine",
+        "Leonide Massine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diaghilev commissioned Stravinsky, Picasso, Matisse, and Coco Chanel, launching ballet into the cutting edge of 20th-century modern art.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Polish-Russian dancer stunned audiences with his gravity-defying leaps and choreographed the scandalous 1913 premiere of The Rite of Spring?",
+      "options": [
+        "Rudolf Nureyev",
+        "Vaslav Nijinsky",
+        "Mikhail Baryshnikov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nijinsky rejected classical graceful ballet positions in favor of stomping, turned-in feet, and earthy primitive rituals for Stravinsky's pagan score.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Russian-American choreographer co-founded the New York City Ballet and pioneered neoclassical plotless ballet?",
+      "options": [
+        "Jerome Robbins",
+        "Twyla Tharp",
+        "George Balanchine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Balanchine stripped away elaborate sets and narrative pantomime to focus purely on speed, musicality, and clean neoclassical line.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American modern dance pioneer developed the contraction and release technique, creating Appalachian Spring in 1944?",
+      "options": [
+        "Martha Graham",
+        "Isadora Duncan",
+        "Doris Humphrey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Martha Graham rooted modern dance in the emotional breath and pelvic core, training generations of dancers across seven decades of performance.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the legendary Parisian audience riot occur at the Theatre des Champs-Elysees during the premiere of The Rite of Spring?",
+      "target": 1913,
+      "metricUnit": "CE",
+      "imperialDisplay": "May 1913",
+      "explanation": "The Rite of Spring premiered on 29 May 1913 in Paris, where shouting and fistfights broke out between traditionalists and avant-garde supporters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English composer created record-breaking global mega-musicals including The Phantom of the Opera, Cats, Evita, and Jesus Christ Superstar?",
+      "options": [
+        "Claude-Michel Schonberg",
+        "Andrew Lloyd Webber",
+        "Stephen Schwartz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Andrew Lloyd Webber is an EGOT winner whose lush, operatic pop scores defined international blockbuster musical theater for four decades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary hip-hop and sung-through musical about founding father Alexander Hamilton was created by and starred Lin-Manuel Miranda in 2015?",
+      "options": [
+        "In the Heights",
+        "Dear Evan Hansen",
+        "Hamilton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hamilton won 11 Tony Awards and the Pulitzer Prize for Drama, casting Black and Latino performers as America's historical founding figures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What French mega-musical based on Victor Hugo's novel, with music by Claude-Michel Schonberg, features the anthems I Dreamed a Dream and Do You Hear the People Sing?",
+      "options": [
+        "Les Miserables",
+        "Miss Saigon",
+        "The Hunchback of Notre Dame"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les Miserables opened in London in 1985 and became the longest-running musical in West End history, performing continuously for nearly 40 years.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American theatrical awards, established by the American Theatre Wing in 1947, recognize excellence in Broadway theater productions?",
+      "options": [
+        "Olivier Awards",
+        "Tony Awards",
+        "Drama Desk Awards"
+      ],
+      "correctIndex": 1,
+      "explanation": "Officially named the Antoinette Perry Awards for Excellence in Broadway Theatre, the Tonys are Broadway's highest industry honors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Disney theatrical stage adaptation directed by Julie Taymor utilizes innovative African animal puppetry, masks, and shadow play?",
+      "options": [
+        "Aladdin",
+        "Beauty and the Beast",
+        "The Lion King"
+      ],
+      "correctIndex": 2,
+      "explanation": "Julie Taymor became the first woman to win the Tony Award for Best Direction of a Musical for The Lion King, Broadway's highest-grossing production in history.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total record-breaking Broadway performances did Andrew Lloyd Webber's The Phantom of the Opera play before closing in April 2023?",
+      "target": 13981,
+      "metricUnit": "performances",
+      "imperialDisplay": "13981 Broadway shows",
+      "explanation": "The Phantom of the Opera played 13,981 performances across 35 years at the Majestic Theatre, standing as the longest-running show in Broadway history.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,641 @@
+{
+  "id": "architecture-wonders-styles-60",
+  "theme": "Architecture: Gothic Cathedrals, Baroque & Modernism",
+  "title": "Architecture: Gothic Cathedrals, Baroque & Modernism",
+  "description": "A 60-question grand master assessment exploring classical antiquity, Byzantine domes, Gothic buttresses, Renaissance symmetry, Versailles Baroque, iron age landmarks, Bauhaus modernism, and contemporary megatall skyscrapers.",
+  "category": "Arts, Music, Literature & Philosophy",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Which iconic Doric temple dedicated to Athena Parthenos crowns the Acropolis of Athens, built under Pericles in the 5th century BCE?",
+      "options": [
+        "Parthenon",
+        "Erechtheion",
+        "Temple of Hephaestus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by architects Ictinus and Callicrates with Phidias as chief sculptor, the Parthenon represents the zenith of classical Greek architecture."
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Roman amphitheatre in Rome, inaugurated under Emperor Titus in 80 CE, could accommodate over 50,000 spectators?",
+      "options": [
+        "Circus Maximus",
+        "Colosseum",
+        "Theater of Marcellus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Flavian Amphitheatre (Colosseum) utilized travertine stone, tuff, and innovative concrete vaulting to stage gladiatorial spectacles."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Roman temple rebuilt by Emperor Hadrian features a massive unreinforced solid concrete dome with a central open oculus?",
+      "options": [
+        "Temple of Vesta",
+        "Temple of Saturn",
+        "Pantheon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Pantheon dome remains the world's largest unreinforced solid concrete dome almost two millennia after its completion in 125 CE."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the oldest and largest of the Giza pyramid complex monuments, constructed for Pharaoh Khufu during Egypt's Old Kingdom?",
+      "options": [
+        "Great Pyramid of Giza",
+        "Pyramid of Khafre",
+        "Pyramid of Menkaure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standing at an original height of 146.6 meters, the Great Pyramid remained the tallest human-made structure in the world for over 3,800 years."
+    },
+    {
+      "type": "mcq",
+      "question": "What massive stepped pyramid structures with exterior staircases served as sacred religious platforms in ancient Mesopotamia?",
+      "options": [
+        "Mastabas",
+        "Ziggurats",
+        "Dolmens"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built from sun-baked mudbrick with baked brick facades, ziggurats like the Great Ziggurat of Ur elevated temples toward the sky."
+    },
+    {
+      "type": "number",
+      "question": "What is the internal diameter of the unreinforced concrete dome of the Roman Pantheon in meters?",
+      "target": 43,
+      "metricUnit": "meters",
+      "imperialDisplay": "approx. 142 feet",
+      "explanation": "The interior diameter and the interior height of the Pantheon are exactly identical at 43.3 meters (142 feet), forming a perfect sphere."
+    },
+    {
+      "type": "mcq",
+      "question": "Which monumental cathedral in Istanbul, featuring a revolutionary pendentive dome, was built under Byzantine Emperor Justinian I?",
+      "options": [
+        "Hagia Irene",
+        "Church of the Holy Apostles",
+        "Hagia Sophia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Engineered by Isidore of Miletus and Anthemius of Tralles, Hagia Sophia was dedicated in 537 CE as the greatest church in Christendom."
+    },
+    {
+      "type": "mcq",
+      "question": "Which magnificent Islamic palace and fortress complex in Granada, Spain, is famous for the Court of the Lions and intricate muqarnas vaulting?",
+      "options": [
+        "Alhambra",
+        "Alcazar of Seville",
+        "Mezquita of Cordoba"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constructed by the Nasrid dynasty, the Alhambra features exquisite Arabesque plasterwork, serene reflecting pools, and poetic calligraphy."
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic ivory-white marble mausoleum on the Yamuna river in Agra was commissioned by Mughal Emperor Shah Jahan for his wife Mumtaz Mahal?",
+      "options": [
+        "Humayun's Tomb",
+        "Taj Mahal",
+        "Bibi Ka Maqbara"
+      ],
+      "correctIndex": 1,
+      "explanation": "Completed in 1653 with symmetrical gardens and minarets, the Taj Mahal stands as the pinnacle of Indo-Islamic Mughal architecture."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 7th-century Islamic shrine on the Temple Mount in Jerusalem is distinguished by its glittering octagonal gilded dome and tilework?",
+      "options": [
+        "Al-Aqsa Mosque",
+        "Umayyad Mosque",
+        "Dome of the Rock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built by the Umayyad Caliph Abd al-Malik in 691 CE, the Dome of the Rock is one of the earliest existing masterpieces of Islamic architecture."
+    },
+    {
+      "type": "mcq",
+      "question": "Which architectural element in a mosque indicates the precise direction of the qibla toward Mecca for daily prayer?",
+      "options": [
+        "Mihrab",
+        "Minbar",
+        "Muqarnas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mihrab is a semicircular decorative niche in the wall of a mosque that orients worshippers toward the Kaaba in Mecca."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the grand Byzantine cathedral Hagia Sophia completed and consecrated in Constantinople?",
+      "target": 537,
+      "metricUnit": "CE",
+      "imperialDisplay": "December 537 CE",
+      "explanation": "Justinian I inaugurated the magnificent Hagia Sophia on 27 December 537 CE, declaring: Solomon, I have surpassed thee!"
+    },
+    {
+      "type": "mcq",
+      "question": "Which structural innovation enabled Gothic cathedrals to build soaring, thin walls filled with colorful stained glass by transferring roof loads outward?",
+      "options": [
+        "Barrel vaults",
+        "Flying buttresses",
+        "Corbel arches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flying buttresses channeled the lateral thrust of stone vaults away from the walls into exterior piers, allowing towering clerestory windows."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Parisian Gothic cathedral on the Ile de la Cite is world-renowned for its rose windows, twin west towers, and gargoyles?",
+      "options": [
+        "Sainte-Chapelle",
+        "Saint-Denis Basilica",
+        "Notre-Dame de Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "Begun in 1163 under Bishop Maurice de Sully, Notre-Dame represents early and high French Gothic architectural mastery."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German Gothic masterpiece took more than six centuries to finish, possessing the largest twin-spired cathedral facade on Earth?",
+      "options": [
+        "Cologne Cathedral",
+        "Ulm Minster",
+        "Freiburg Minster"
+      ],
+      "correctIndex": 0,
+      "explanation": "Construction on Cologne Cathedral began in 1248, was halted for centuries, and was finally completed in 1880 following original medieval plans."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French High Gothic cathedral is celebrated for having nearly all of its original 13th-century cobalt-blue stained glass intact?",
+      "options": [
+        "Amiens Cathedral",
+        "Chartres Cathedral",
+        "Reims Cathedral"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chartres Cathedral is famous for Chartres blue glass and its perfectly preserved labyrinth inlaid on the nave floor."
+    },
+    {
+      "type": "mcq",
+      "question": "What architectural term refers to the stone or lead spouts carved in grotesque monstrous forms to divert rainwater away from masonry walls?",
+      "options": [
+        "Grotesques",
+        "Finials",
+        "Gargoyles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike purely decorative grotesques, functional gargoyles feature open mouths and hollow channels that eject rainwater from roofs."
+    },
+    {
+      "type": "number",
+      "question": "How many years did the construction of Cologne Cathedral take from its start in 1248 to its completion in 1880?",
+      "target": 632,
+      "metricUnit": "years",
+      "imperialDisplay": "632 total years",
+      "explanation": "Spanning from 1248 to 1880, Cologne Cathedral required 632 years to complete, surviving World War II bombings as a towering symbol of persistence."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Renaissance genius engineered the revolutionary double-shelled brick dome of the Florence Cathedral (Santa Maria del Fiore) without wooden scaffolding?",
+      "options": [
+        "Filippo Brunelleschi",
+        "Leon Battista Alberti",
+        "Donato Bramante"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brunelleschi employed a herringbone brick-laying pattern and internal stone chains to construct the largest masonry dome ever built."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Roman Baroque sculptor and architect designed the majestic elliptical colonnade embracing St. Peter's Square in the Vatican?",
+      "options": [
+        "Francesco Borromini",
+        "Gian Lorenzo Bernini",
+        "Pietro da Cortona"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bernini's monumental quadruple colonnade of 284 Doric columns was designed to symbolize the maternal arms of the church embracing humanity."
+    },
+    {
+      "type": "mcq",
+      "question": "Which opulent royal chateau expanded by King Louis XIV near Paris came to epitomize French Baroque grandiosity and absolutism?",
+      "options": [
+        "Chateau de Chambord",
+        "Chateau de Fontainebleau",
+        "Palace of Versailles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Versailles features the legendary Hall of Mirrors, sprawling axial gardens by Andre Le Notre, and over 700 rooms."
+    },
+    {
+      "type": "mcq",
+      "question": "Which English architect designed the magnificent baroque St. Paul's Cathedral in London following the Great Fire of 1666?",
+      "options": [
+        "Sir Christopher Wren",
+        "Inigo Jones",
+        "John Vanbrugh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir Christopher Wren rebuilt 52 city parish churches in London, with St. Paul's soaring triple-dome as his crowning achievement."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 16th-century Italian Renaissance architect authored The Four Books of Architecture, establishing a classical villa style that influenced global buildings?",
+      "options": [
+        "Giacomo Barozzi da Vignola",
+        "Andrea Palladio",
+        "Sebastiano Serlio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Palladian architecture, based on harmonic symmetry and Roman temple porticos, profoundly shaped British and American public architecture."
+    },
+    {
+      "type": "number",
+      "question": "What is the diameter width of the octagonal base span of Brunelleschi's Florence Cathedral dome in meters?",
+      "target": 45,
+      "metricUnit": "meters",
+      "imperialDisplay": "approx. 148 feet",
+      "explanation": "The base of the octagonal dome spans approximately 45 meters (148 feet), remaining the largest unreinforced masonry dome on the planet."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Paris monument commissioned by Napoleon Bonaparte in 1806 stands at the western end of the Champs-Elysees to honor the Grande Armee?",
+      "options": [
+        "Pantheon",
+        "La Madeleine",
+        "Arc de Triomphe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by Jean Chalgrin in neoclassical style with relief sculptures like La Marseillaise, the arch honors French soldiers who fought in the Revolution and Empire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bavarian fairy-tale castle perched on a rugged cliff was commissioned by King Ludwig II as a romanticized tribute to Richard Wagner?",
+      "options": [
+        "Neuschwanstein Castle",
+        "Hohenzollern Castle",
+        "Linderhof Palace"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neuschwanstein's Romanesque Revival towers and theatrical interiors inspired the iconic design of Walt Disney's Cinderella and Sleeping Beauty castles."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Gothic Revival complex on the River Thames in London was rebuilt by Charles Barry and Augustus Pugin after an 1834 fire?",
+      "options": [
+        "Buckingham Palace",
+        "Palace of Westminster",
+        "Hampton Court Palace"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Palace of Westminster houses the UK Parliament and includes the famous Elizabeth Tower, which houses the great bell Big Ben."
+    },
+    {
+      "type": "mcq",
+      "question": "Which neoclassical French landmark in the Latin Quarter of Paris, originally built as the Church of Sainte-Genevieve, serves as a secular mausoleum?",
+      "options": [
+        "Les Invalides",
+        "Saint-Sulpice",
+        "Pantheon"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Paris Pantheon bears the famous inscription: Aux grands hommes, la patrie reconnaissante (To great men, the grateful homeland)."
+    },
+    {
+      "type": "mcq",
+      "question": "What distinct architectural order features elaborate acanthus leaf carvings on its capital, originating in ancient Greece and favored by Rome?",
+      "options": [
+        "Corinthian order",
+        "Doric order",
+        "Ionic order"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Corinthian order is the most ornate of the three classical orders, prized for its decorative slender columns and floral capitals."
+    },
+    {
+      "type": "number",
+      "question": "What is the total height of the Arc de Triomphe in Paris in meters?",
+      "target": 50,
+      "metricUnit": "meters",
+      "imperialDisplay": "approx. 164 feet",
+      "explanation": "Standing 50 meters (164 feet) tall, the Arc de Triomphe was the tallest triumphal arch in the world until the 1980s."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 300-meter wrought-iron lattice tower was erected as the grand entrance arch for the 1889 Paris Exposition Universelle?",
+      "options": [
+        "Tokyo Tower",
+        "Eiffel Tower",
+        "Blackpool Tower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Engineered by Gustave Eiffel's company, the tower surpassed the Washington Monument to become the world's tallest human-made structure until 1930."
+    },
+    {
+      "type": "mcq",
+      "question": "Which revolutionary cast-iron and plate-glass structure designed by Joseph Paxton housed the 1851 Great Exhibition in London's Hyde Park?",
+      "options": [
+        "Palm House at Kew",
+        "Euston Station",
+        "The Crystal Palace"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paxton used prefabricated modular iron and glass components inspired by giant water lily leaves to build the massive hall in under nine months."
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic suspension bridge connecting Manhattan and Brooklyn was designed by John Augustus Roebling and completed in 1883?",
+      "options": [
+        "Brooklyn Bridge",
+        "Manhattan Bridge",
+        "Williamsburg Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Brooklyn Bridge was the first steel-wire suspension bridge in history, recognized for its massive neo-Gothic limestone towers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which French engineer designed the internal load-bearing iron truss framework that supports the copper skin of the Statue of Liberty?",
+      "options": [
+        "Eugene Viollet-le-Duc",
+        "Gustave Eiffel",
+        "Frederic-Auguste Bartholdi"
+      ],
+      "correctIndex": 1,
+      "explanation": "While Bartholdi sculpted Liberty's exterior copper form, Eiffel engineered the flexible internal pylon that allows the statue to sway safely in high winds."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American city is celebrated as the birthplace of the modern skyscraper following the Great Fire of 1871 and the Home Insurance Building in 1885?",
+      "options": [
+        "New York City",
+        "Philadelphia",
+        "Chicago"
+      ],
+      "correctIndex": 2,
+      "explanation": "William Le Baron Jenney's Home Insurance Building in Chicago pioneered internal steel-frame skeleton construction, eliminating masonry load limits."
+    },
+    {
+      "type": "number",
+      "question": "What was the original architectural height in meters of the Eiffel Tower upon its completion in 1889?",
+      "target": 300,
+      "metricUnit": "meters",
+      "imperialDisplay": "approx. 984 feet",
+      "explanation": "Upon opening in 1889, the Eiffel Tower measured exactly 300 meters, holding the record as the world's tallest structure for over 41 years."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Catalan architect designed the breathtaking, organic basilica of the Sagrada Familia in Barcelona, under construction since 1882?",
+      "options": [
+        "Antoni Gaudi",
+        "Lluis Domenech i Montaner",
+        "Josep Puig i Cadafalch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaudi's organic Art Nouveau masterpiece mimics forest canopies, hyperbolic vaults, and natural geometric curves, set for completion in the late 2020s."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 102-story Art Deco skyscraper in Midtown Manhattan held the title of world's tallest building from 1931 until 1970?",
+      "options": [
+        "Chrysler Building",
+        "Empire State Building",
+        "Rockefeller Center"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built in an astonishing 13.5 months during the Great Depression, the Empire State Building rose to 381 meters at its roof (443.2m to tip)."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Art Deco skyscraper in New York City is famous for its terraced crown of sunburst patterns crafted from Nirosta stainless steel?",
+      "options": [
+        "Woolworth Building",
+        "Flatiron Building",
+        "Chrysler Building"
+      ],
+      "correctIndex": 2,
+      "explanation": "Designed by William Van Alen, the Chrysler Building briefly took the title of world's tallest building in 1930 with its secret 56-meter spire."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German design school founded by Walter Gropius in 1919 championed functionalism and the principle that form follows function?",
+      "options": [
+        "Bauhaus",
+        "De Stijl",
+        "Wiener Werkstatte"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bauhaus revolutionized modern architecture and industrial design by uniting fine art, craft, and industrial mass production."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Belgian architect pioneered the Art Nouveau style with whip-lash curves and open ironwork in the 1893 Hotel Tassel in Brussels?",
+      "options": [
+        "Henry van de Velde",
+        "Victor Horta",
+        "Hector Guimard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Victor Horta integrated decorative ironwork, mosaics, and curved glass into unified biological aesthetic spaces."
+    },
+    {
+      "type": "number",
+      "question": "How many total commercial and observation floors comprise the main tower of the Empire State Building?",
+      "target": 102,
+      "metricUnit": "floors",
+      "imperialDisplay": "102 stories",
+      "explanation": "The Empire State Building contains 102 floors, with open-air observation decks on the 86th and 102nd floors visited by millions annually."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swiss-French modernist pioneer formulated the Five Points of Architecture and designed the iconic Villa Savoye near Paris?",
+      "options": [
+        "Ludwig Mies van der Rohe",
+        "Walter Gropius",
+        "Le Corbusier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Corbusier's Five Points included pilotis (stilts), roof gardens, open floor plans, horizontal ribbon windows, and free facade design."
+    },
+    {
+      "type": "mcq",
+      "question": "Which American master architect designed the iconic private residence Fallingwater in Pennsylvania, cantilevered over a natural waterfall?",
+      "options": [
+        "Frank Lloyd Wright",
+        "Louis Sullivan",
+        "Philip Johnson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frank Lloyd Wright's organic architecture sought harmony between human habitation and nature, using reinforced concrete trays over Bear Run."
+    },
+    {
+      "type": "mcq",
+      "question": "Which German-American architect coined the aphorisms Less is more and God is in the details, designing the minimalist Seagram Building in New York?",
+      "options": [
+        "Marcel Breuer",
+        "Ludwig Mies van der Rohe",
+        "Richard Neutra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mies van der Rohe perfected the International Style glass-and-bronze corporate tower, leaving structural elements frankly expressed."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian architect designed the futuristic civic monuments of Brasilia, including the Cathedral of Brasilia and National Congress?",
+      "options": [
+        "Lucio Costa",
+        "Roberto Burle Marx",
+        "Oscar Niemeyer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Niemeyer was renowned for sculptural reinforced concrete curves, stating he was attracted to free and sensual curves inspired by Brazil's mountains and women."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Frank Lloyd Wright masterpiece in New York City features a continuous spiraling ramp museum gallery wrapping around an open atrium?",
+      "options": [
+        "Solomon R. Guggenheim Museum",
+        "Whitney Museum",
+        "Metropolitan Museum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Completed in 1959, the Guggenheim's inverted organic ziggurat allows visitors to take an elevator to the top and descend smoothly down the spiral ramp."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Frank Lloyd Wright complete construction on his organic architectural masterpiece Fallingwater?",
+      "target": 1939,
+      "metricUnit": "CE",
+      "imperialDisplay": "circa 1939",
+      "explanation": "Fallingwater was constructed for the Kaufmann family in southwestern Pennsylvania between 1936 and 1939."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Canadian-American architect designed the titanium-clad, sculptural Guggenheim Museum in Bilbao, Spain, sparking the Bilbao Effect?",
+      "options": [
+        "Daniel Libeskind",
+        "Frank Gehry",
+        "Rem Koolhaas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gehry's 1997 undulating titanium structure transformed the decaying industrial port of Bilbao into a world-class global cultural destination."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish architect designed the world-famous Sydney Opera House, featuring iconic precast concrete shell roofs resembling billowing sails?",
+      "options": [
+        "Arne Jacobsen",
+        "Alvar Aalto",
+        "Jorn Utzon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Utzon won the international design competition in 1957; the revolutionary vaulted roof shells required years of innovative spherical geometry calculations."
+    },
+    {
+      "type": "mcq",
+      "question": "Which high-tech Parisian museum designed by Renzo Piano and Richard Rogers placed its mechanical services and colorful escalators on the exterior?",
+      "options": [
+        "Centre Pompidou",
+        "Musee d'Orsay",
+        "Fondation Louis Vuitton"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opened in 1977, the Centre Pompidou exposed color-coded pipes (blue for air, green for water, yellow for electricity, red for circulation) on the outside."
+    },
+    {
+      "type": "mcq",
+      "question": "Which British-Iraqi architect, known as the Queen of the Curve, became the first woman to win the prestigious Pritzker Architecture Prize in 2004?",
+      "options": [
+        "Kazuyo Sejima",
+        "Zaha Hadid",
+        "Yvonne Farrell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hadid pioneered parametric design with fluid, dynamic geometries in structures like the Guangzhou Opera House and London Aquatics Centre."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Chinese-American architect designed the glass-and-metal Louvre Pyramid in Paris and the National Gallery of Art East Building in Washington DC?",
+      "options": [
+        "Maya Lin",
+        "Kenzo Tange",
+        "I.M. Pei"
+      ],
+      "correctIndex": 2,
+      "explanation": "I.M. Pei's 1989 glass pyramid at the Louvre created a modern underground reception hall while contrasting boldly with historic French Renaissance facades."
+    },
+    {
+      "type": "number",
+      "question": "In what year CE was the iconic Sydney Opera House in Australia officially opened by Queen Elizabeth II?",
+      "target": 1973,
+      "metricUnit": "CE",
+      "imperialDisplay": "October 1973",
+      "explanation": "The Sydney Opera House was inaugurated on 20 October 1973, sixteen years after Jorn Utzon won the design competition in 1957."
+    },
+    {
+      "type": "mcq",
+      "question": "In which United Arab Emirates city does the Burj Khalifa, the world's tallest building standing at 828 meters, soar into the sky?",
+      "options": [
+        "Dubai",
+        "Abu Dhabi",
+        "Doha"
+      ],
+      "correctIndex": 0,
+      "explanation": "Designed by architect Adrian Smith of Skidmore, Owings & Merrill, the Burj Khalifa features a Y-shaped stepped footprint inspired by the desert Hymenocallis flower."
+    },
+    {
+      "type": "mcq",
+      "question": "Which 632-meter skyscraper in China features a twisting 120-degree cylindrical facade designed to reduce wind loads during typhoons?",
+      "options": [
+        "Ping An Finance Centre",
+        "Shanghai Tower",
+        "Canton Tower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by Gensler, Shanghai Tower possesses the world's highest observation deck and energy-efficient double-skin glass curtain walls."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Taiwanese skyscraper, shaped like a tiered bamboo stalk, held the title of world's tallest building from 2004 to 2010?",
+      "options": [
+        "Petronas Towers",
+        "Jin Mao Tower",
+        "Taipei 101"
+      ],
+      "correctIndex": 2,
+      "explanation": "Taipei 101 features a visible 660-tonne tuned mass golden pendulum damper suspended between the 87th and 92nd floors to withstand earthquakes."
+    },
+    {
+      "type": "mcq",
+      "question": "Which Malaysian twin towers in Kuala Lumpur, designed by Cesar Pelli, are connected by a double-decker skybridge on the 41st and 42nd floors?",
+      "options": [
+        "Petronas Twin Towers",
+        "Merdeka 118",
+        "The Exchange 106"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 451.9-meter Petronas Towers incorporate Islamic geometric motifs based on the Rub el Hizb eight-pointed star in their floor plates."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the primary skyscraper built on the World Trade Center site in Lower Manhattan, reaching a symbolic architectural height of 1,776 feet?",
+      "options": [
+        "Two World Trade Center",
+        "One World Trade Center",
+        "Three World Trade Center"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by David Childs of SOM, One World Trade Center's 1,776-foot height directly commemorates the year of the United States Declaration of Independence."
+    },
+    {
+      "type": "number",
+      "question": "What is the exact architectural height in meters of the Burj Khalifa in Dubai, the tallest building on Earth?",
+      "target": 828,
+      "metricUnit": "meters",
+      "imperialDisplay": "2717 feet",
+      "explanation": "The Burj Khalifa stands at an extraordinary height of 828 meters (2,717 feet), containing 163 habitable floors."
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "id": "general-knowledge-vol8-60",
+  "theme": "General Knowledge Vol 8: Wonders, Civilizations & Scientific Breakthroughs",
+  "title": "General Knowledge Vol 8: Wonders, Civilizations & Scientific Breakthroughs",
+  "description": "A 60-question grand master assessment exploring oceanography, Renaissance astronomy, monumental engineering, synthetic polymers, evolutionary biology, world deserts, classical literature, particle physics, aviation records, and seismology.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the deepest known oceanic depression on Earth, located in the western Pacific Ocean?",
+      "options": [
+        "Mariana Trench",
+        "Puerto Rico Trench",
+        "Java Trench"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mariana Trench reaches its greatest depth at the Challenger Deep, approximately eleven thousand meters below sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What mineral-rich hydrothermal vent structures on the ocean floor spew mineral plumes reaching temperatures over 400 degrees Celsius?",
+      "options": [
+        "White Pillars",
+        "Black Smokers",
+        "Basalt Chimneys"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black smokers precipitate iron sulfides when scalding geothermal fluid meets freezing abyssal seawater, supporting unique chemosynthetic ecosystems.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep-sea submersible carried Jacques Piccard and Don Walsh to the bottom of the Challenger Deep in 1960?",
+      "options": [
+        "Alvin",
+        "Nautile",
+        "Trieste"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Swiss-designed bathyscaphe Trieste withstood over one thousand atmospheres of hydrostatic pressure during its historic dive.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What extraordinary biological process allows deep-sea tubeworms at hydrothermal vents to survive without sunlight?",
+      "options": [
+        "Chemosynthesis",
+        "Thermosynthesis",
+        "Electrosynthesis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Symbiotic bacteria within giant Riftia tubeworms oxidize toxic hydrogen sulfide into organic matter, forming the base of the vent food web.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive abyssal plain occupant has the largest eyes of any living creature, measuring up to 27 centimeters across?",
+      "options": [
+        "Giant Oarfish",
+        "Colossal Squid",
+        "Sperm Whale"
+      ],
+      "correctIndex": 1,
+      "explanation": "The colossal squid Mesonychoteuthis hamiltoni possesses enormous eyes equipped with photophores to spot sperm whales in the Antarctic twilight zone.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Jacques Piccard and Don Walsh complete the first manned descent to Challenger Deep aboard the bathyscaphe Trieste?",
+      "target": 1960,
+      "metricUnit": "year",
+      "imperialDisplay": "1960 AD",
+      "explanation": "On January 23, 1960, the Trieste descended into the Pacific abyss, recording a depth of approximately 10,911 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Polish astronomer published De revolutionibus orbium coelestium in 1543, formulating the heliocentric model of the cosmos?",
+      "options": [
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "Nicolaus Copernicus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Copernicus mathematically placed the Sun rather than the Earth at the center of the universe, initiating the Scientific Revolution.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German astronomer derived three fundamental laws of planetary motion, proving planets move in elliptical orbits?",
+      "options": [
+        "Johannes Kepler",
+        "Christiaan Huygens",
+        "Galileo Galilei"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kepler analyzed Tycho Brahe precise observational data on Mars to discover that planetary orbits are ellipses with the Sun at one focus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian scientist first turned a refracting telescope toward Jupiter in 1610, discovering its four largest moons?",
+      "options": [
+        "Giovanni Cassini",
+        "Galileo Galilei",
+        "Giordano Bruno"
+      ],
+      "correctIndex": 1,
+      "explanation": "Galileo observed Io, Europa, Ganymede, and Callisto, providing decisive empirical evidence that celestial bodies orbit objects other than Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish astronomer compiled exceptionally accurate pre-telescopic planetary position catalogs on the island observatory of Uraniborg?",
+      "options": [
+        "Ole Romer",
+        "Johannes Hevelius",
+        "Tycho Brahe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tycho Brahe utilized giant brass sextants and quadrants to achieve positional accuracy within one arcminute without optical magnification.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch polymath discovered Saturn largest moon Titan and correctly deduced that Saturn was surrounded by a solid flat ring system in 1655?",
+      "options": [
+        "Christiaan Huygens",
+        "Giovanni Cassini",
+        "Edmond Halley"
+      ],
+      "correctIndex": 0,
+      "explanation": "Huygens built high-magnification compound telescopes and also invented the pendulum clock to improve astronomical timekeeping.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Galileo Galilei publish Sidereus Nuncius (The Starry Messenger) detailing his revolutionary telescopic discoveries?",
+      "target": 1610,
+      "metricUnit": "year",
+      "imperialDisplay": "1610 AD",
+      "explanation": "Published in Venice in March 1610, Sidereus Nuncius revealed lunar craters, countless new stars, and the four moons of Jupiter.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What volcanic ash ingredient gave ancient Roman concrete its extraordinary hydraulic durability and ability to set underwater?",
+      "options": [
+        "Pumice",
+        "Pozzolana",
+        "Slag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pozzolanic ash from the Bay of Naples reacted with slaked lime to form crystalline calcium aluminum silicate hydrate, strengthening with age.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which majestic three-tiered Roman aqueduct bridge in southern France spans the Gardon River, standing nearly 49 meters high?",
+      "options": [
+        "Aqueduct of Segovia",
+        "Valens Aqueduct",
+        "Pont du Gard"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Pont du Gard was built without mortar in the first century CE to carry water over fifty kilometers to the colony of Nemausus.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Inca citadel in Peru features mortarless ashlar masonry where massive granite stones fit together so tightly a knife blade cannot pass?",
+      "options": [
+        "Sacsayhuamán",
+        "Tiwanaku",
+        "Chan Chan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sacsayhuamán overlooks Cusco with colossal zigzagging limestone blocks weighing up to 120 tons, engineered to withstand powerful Andean earthquakes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What monumental tomb in Rome built by Emperor Hadrian features the world largest unreinforced concrete dome with a central oculus?",
+      "options": [
+        "Castel Sant Angelo",
+        "The Pantheon",
+        "Mausoleum of Augustus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pantheon dome spans 43.3 meters and uses progressively lighter volcanic aggregate toward the nine-meter open oculus at its apex.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Persian subterranean water management system transported groundwater across arid plateaus using gravity and vertical shafts?",
+      "options": [
+        "Norias",
+        "Shadoof",
+        "Qanat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Qanats allowed Persian agriculture and desert cities like Yazd to thrive for millennia by tapping deep alluvial aquifers without evaporation loss.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the diameter in meters of the unreinforced concrete dome of the Pantheon in Rome?",
+      "target": 43,
+      "metricUnit": "meters",
+      "imperialDisplay": "142 feet",
+      "explanation": "The Pantheon interior dome measures exactly 43.3 meters in diameter, matching its exact floor-to-ceiling vertical height.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What revolutionary synthetic thermosetting plastic was invented by Leo Baekeland in 1907, ushering in the modern Age of Plastics?",
+      "options": [
+        "Bakelite",
+        "Celluloid",
+        "Polystyrene"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bakelite was synthesized by condensing phenol with formaldehyde under heat and pressure, forming a non-conductive, heat-resistant polymer.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American chemist discovered Teflon (polytetrafluoroethylene) accidentally in 1938 while researching non-toxic refrigerants?",
+      "options": [
+        "Wallace Carothers",
+        "Roy J. Plunkett",
+        "Stephanie Kwolek"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plunkett found tetrafluoroethylene gas cylinders had polymerized into a super-slick white solid with extreme chemical resistance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which DuPont chemist invented Kevlar in 1965, creating an aramid fiber five times stronger than steel on an equal weight basis?",
+      "options": [
+        "Rosalind Franklin",
+        "Marie Daly",
+        "Stephanie Kwolek"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kwolek synthesized poly-paraphenylene terephthalamide, whose liquid crystal alignment produces immense tensile strength used in body armor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What allotrope of carbon consisting of a single layer of hexagonal carbon atoms was isolated using adhesive tape in 2004?",
+      "options": [
+        "Graphene",
+        "Fullerene",
+        "Lonsdaleite"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andre Geim and Konstantin Novoselov isolated two-dimensional graphene from graphite, winning the 2010 Nobel Prize in Physics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which synthetic polyamide fiber was developed by Wallace Carothers in 1935 and premiered publicly in women stockings at the 1939 World Fair?",
+      "options": [
+        "Rayon",
+        "Nylon",
+        "Spandex"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nylon 66 was the first fully synthetic fiber made from petrochemicals, replacing scarce silk in parachutes during World War II.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Kevlar, the high-strength synthetic aramid fiber, first invented by Stephanie Kwolek at DuPont?",
+      "target": 1965,
+      "metricUnit": "year",
+      "imperialDisplay": "1965 AD",
+      "explanation": "Stephanie Kwolek discovered liquid-crystalline polymer solutions in 1965, leading to the commercial production of Kevlar.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which lobe-finned fish, thought to have gone extinct 66 million years ago, was rediscovered alive off South Africa in 1938?",
+      "options": [
+        "Tiktaalik",
+        "Acanthostega",
+        "Coelacanth"
+      ],
+      "correctIndex": 2,
+      "explanation": "The coelacanth Latimeria chalumnae is a living fossil whose paired fins move in an alternating gait similar to four-legged land vertebrates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which unique reptile endemic to New Zealand is the sole surviving member of the ancient order Sphenodontia from the Mesozoic Era?",
+      "options": [
+        "Tuatara",
+        "Komodo Dragon",
+        "Thorny Devil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tuatara retains primitive diapsid skull arches and a photosensitive parietal third eye on the crown of its head.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient marine arthropod has blue copper-based hemocyanin blood critical for testing medical equipment for bacterial endotoxins?",
+      "options": [
+        "Nautilus",
+        "Horseshoe Crab",
+        "Triops"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horseshoe crab blood contains Limulus Amebocyte Lysate (LAL), which clots instantaneously in the presence of minute bacterial endotoxins.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What primitive egg-laying mammal (monotreme) native to eastern Australia uses electroreception to hunt underwater prey?",
+      "options": [
+        "Echidna",
+        "Numbat",
+        "Platypus"
+      ],
+      "correctIndex": 2,
+      "explanation": "The duck-billed platypus has thousands of electroreceptors in its bill that detect electric fields generated by moving crustaceans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which gymnosperm tree species, native to China, has survived unchanged for over 200 million years with distinctive fan-shaped leaves?",
+      "options": [
+        "Ginkgo biloba",
+        "Metasequoia",
+        "Welwitschia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ginkgo biloba is the only living species in the division Ginkgophyta, possessing exceptional resistance to pests, pollution, and radiation.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the live coelacanth rediscovered off the coast of East London in South Africa?",
+      "target": 1938,
+      "metricUnit": "year",
+      "imperialDisplay": "1938 AD",
+      "explanation": "Museum curator Marjorie Courtenay-Latimer spotted the preserved coelacanth specimen on a trawler deck on December 22, 1938.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What non-polar desert in South America is recognized as the driest hot desert on Earth, with some weather stations recording zero rain for decades?",
+      "options": [
+        "Namib Desert",
+        "Atacama Desert",
+        "Kalahari Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Atacama Desert in Chile is locked between the Pacific coastal range and the Andes, creating a hyper-arid rain shadow environment.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal desert in southwestern Africa contains Sossusvlei, home to some of the highest red sand dunes in the world?",
+      "options": [
+        "Gibson Desert",
+        "Taklamakan Desert",
+        "Namib Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Namib Desert is considered the world oldest desert, shaped by the cold Benguela Current creating dense ocean fog.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What vast endorheic salt flat in southwestern Bolivia covers over 10,000 square kilometers, holding the world largest lithium reserves?",
+      "options": [
+        "Salar de Uyuni",
+        "Etosha Pan",
+        "Rann of Kutch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Salar de Uyuni sits at 3,656 meters elevation, transforming into a massive natural mirror during seasonal rainfall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal desert in northwestern China is known as the Sea of Death because of its shifting sand dunes and extreme isolation?",
+      "options": [
+        "Gobi Desert",
+        "Taklamakan Desert",
+        "Karakum Desert"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Taklamakan Desert in Xinjiang is bounded by the Tian Shan, Pamir, and Kunlun mountains, traversed historically by Silk Road branches.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the lowest point on dry land on Earth, sitting roughly 430 meters below sea level on the Jordan Rift Valley?",
+      "options": [
+        "Lake Assal",
+        "Qattara Depression",
+        "Dead Sea"
+      ],
+      "correctIndex": 2,
+      "explanation": "The hypersaline Dead Sea has a salinity of roughly 34 percent, making it nearly ten times saltier than the open ocean.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many meters below sea level is the shoreline of the Dead Sea?",
+      "target": 430,
+      "metricUnit": "meters",
+      "imperialDisplay": "1,411 feet",
+      "explanation": "The surface and shores of the Dead Sea sit approximately 430 meters below mean sea level, the lowest elevation on Earth land surface.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Mesopotamian epic is widely regarded as the earliest surviving great work of literature in human history?",
+      "options": [
+        "Epic of Gilgamesh",
+        "Enuma Elish",
+        "Atrahasis Epic"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Epic of Gilgamesh recounts the King of Uruk quest for immortality following the death of his wild companion Enkidu.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which ancient Greek playwright wrote the classic tragedy Oedipus Rex and Antigone as part of the Three Theban Plays?",
+      "options": [
+        "Aeschylus",
+        "Sophocles",
+        "Euripides"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sophocles introduced a third actor to Greek dramatic productions and won twenty victories at the Dionysia festival in Athens.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 14th-century Italian poet wrote the narrative epic Divine Comedy, dividing the afterlife into Inferno, Purgatorio, and Paradiso?",
+      "options": [
+        "Francesco Petrarch",
+        "Giovanni Boccaccio",
+        "Dante Alighieri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dante composed the Divine Comedy in the Tuscan vernacular, establishing the linguistic foundation of modern standard Italian.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 11th-century Japanese noblewoman wrote The Tale of Genji, often celebrated as the world first novel?",
+      "options": [
+        "Murasaki Shikibu",
+        "Sei Shonagon",
+        "Ono no Komachi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Murasaki Shikibu served as a lady-in-waiting at the Heian Imperial Court, chronicling aristocratic romance, politics, and aesthetics.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish master wrote Don Quixote in two parts published in 1605 and 1615, pioneering the modern Western novel?",
+      "options": [
+        "Lope de Vega",
+        "Miguel de Cervantes",
+        "Pedro Calderon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cervantes satirized chivalric romances through the misadventures of the noble Alonso Quixano and his faithful squire Sancho Panza.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was Part One of Miguel de Cervantes masterwork Don Quixote first published in Madrid?",
+      "target": 1605,
+      "metricUnit": "year",
+      "imperialDisplay": "1605 AD",
+      "explanation": "El ingenioso hidalgo don Quijote de la Mancha was published in 1605, becoming an instantaneous international literary sensation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 27-kilometer underground circular particle accelerator at CERN discovered the Higgs boson in 2012?",
+      "options": [
+        "Tevatron",
+        "Super Proton Synchrotron",
+        "Large Hadron Collider"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Large Hadron Collider (LHC) collides opposing proton beams near the speed of light to explore the fundamental building blocks of matter.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Scottish mathematical physicist unified electricity, magnetism, and light into four classical electromagnetic equations in 1865?",
+      "options": [
+        "James Clerk Maxwell",
+        "Michael Faraday",
+        "Heinrich Hertz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maxwell equations demonstrated that light is an electromagnetic wave, predicting radio waves and modern telecommunications.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English experimentalist discovered electromagnetic induction in 1831, enabling electrical generators and transformers?",
+      "options": [
+        "Humphry Davy",
+        "Michael Faraday",
+        "James Prescott Joule"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faraday discovered that moving a magnetic field through a conductive coil generates an electric current, founding electrical power generation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which theoretical particle predicts how elementary particles acquire inertial mass via interactions with a universal quantum field?",
+      "options": [
+        "Graviton",
+        "Gluon",
+        "Higgs Boson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Peter Higgs and François Englert predicted the mechanism in 1964, which was confirmed experimentally at CERN forty-eight years later.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What subatomic fermions combine in groups of three to form protons (two up, one down) and neutrons (one up, two down)?",
+      "options": [
+        "Quarks",
+        "Leptons",
+        "Mesons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Murray Gell-Mann and George Zweig proposed the quark model in 1964, bound together inside hadrons by the strong nuclear force.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did CERN physicists announce the groundbreaking discovery of the Higgs boson particle?",
+      "target": 2012,
+      "metricUnit": "year",
+      "imperialDisplay": "2012 AD",
+      "explanation": "On July 4, 2012, the ATLAS and CMS collaborations at CERN announced the observation of a new particle consistent with the Higgs boson.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American pilot became the first human to officially break the sound barrier in level flight aboard the Bell X-1 in 1947?",
+      "options": [
+        "Bob Hoover",
+        "Chuck Yeager",
+        "Scott Crossfield"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yeager flew the rocket-powered Bell X-1, nicknamed Glamorous Glennis, to Mach 1.06 over the Mojave Desert on October 14, 1947.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Anglo-French turbojet airliner operated commercial supersonic passenger flights from 1976 until 2003 at Mach 2.04?",
+      "options": [
+        "Tupolev Tu-144",
+        "Boeing 2707",
+        "Concorde"
+      ],
+      "correctIndex": 2,
+      "explanation": "Concorde could cross the Atlantic Ocean from London to New York in under three and a half hours, cruising at 60,000 feet.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American aviator completed the first solo, non-stop transatlantic airplane flight from New York to Paris in 1927?",
+      "options": [
+        "Charles Lindbergh",
+        "Wiley Post",
+        "Howard Hughes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lindbergh flew the custom monoplane Spirit of St. Louis for 33.5 hours, landing to ecstatic crowds at Le Bourget airport.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary twin-engine reconnaissance aircraft built by Lockheed flew at altitudes above 85,000 feet and speeds exceeding Mach 3.2?",
+      "options": [
+        "U-2 Dragon Lady",
+        "SR-71 Blackbird",
+        "XB-70 Valkyrie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by Kelly Johnson and the Skunk Works, the SR-71 utilized titanium skin and radar-absorbing materials to outrun interceptor missiles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean, completing the flight from Newfoundland to Northern Ireland in 1932?",
+      "options": [
+        "Bessie Coleman",
+        "Amy Johnson",
+        "Amelia Earhart"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earhart piloted a red Lockheed Vega 5B across the Atlantic in fourteen hours and fifty-six minutes, winning the Distinguished Flying Cross.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Charles Lindbergh complete his historic solo non-stop flight from New York to Paris in the Spirit of St. Louis?",
+      "target": 1927,
+      "metricUnit": "year",
+      "imperialDisplay": "1927 AD",
+      "explanation": "Charles Lindbergh departed Roosevelt Field on May 20, 1927, and touched down in Paris on May 21 after flying 5,800 kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German meteorologist and geophysicist first proposed the comprehensive theory of Continental Drift in 1912?",
+      "options": [
+        "Alfred Wegener",
+        "Arthur Holmes",
+        "Harry Hess"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wegener noted the complementary fit of South America and Africa and matching fossil distributions, proposing the supercontinent Pangaea.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What seismic boundary separating the Earth crust from the underlying silicate mantle was discovered in 1909?",
+      "options": [
+        "Gutenberg Discontinuity",
+        "Mohorovičić Discontinuity",
+        "Lehmann Discontinuity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Croatian seismologist Andrija Mohorovičić observed that seismic waves accelerate abruptly when passing into the denser mantle.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Danish seismologist discovered in 1936 that the Earth core consists of a solid inner core surrounded by a molten outer core?",
+      "options": [
+        "Beno Gutenberg",
+        "Charles Richter",
+        "Inge Lehmann"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lehmann analyzed faint P-wave reflections on seismograms from New Zealand earthquakes, proving the existence of a solid inner iron-nickel core.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What scale developed in 1935 quantified earthquake magnitude based on the logarithm of seismic wave amplitudes?",
+      "options": [
+        "Richter Scale",
+        "Mercalli Scale",
+        "Moment Magnitude Scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charles Richter and Beno Gutenberg developed the logarithmic scale at Caltech using Wood-Anderson torsion seismometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive geological feature encircling the Pacific Ocean basin accounts for roughly 80 percent of the world largest earthquakes?",
+      "options": [
+        "Mid-Atlantic Ridge",
+        "Ring of Fire",
+        "Alpine Belt"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Pacific Ring of Fire is an active 40,000-kilometer horseshoe of subduction zones, volcanic arcs, and oceanic trenches.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Alfred Wegener first present his hypothesis of Continental Drift and Pangaea to the German Geological Association?",
+      "target": 1912,
+      "metricUnit": "year",
+      "imperialDisplay": "1912 AD",
+      "explanation": "Wegener delivered his landmark lecture on January 6, 1912, published fully in Die Entstehung der Kontinente und Ozeane.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

@@ -1,0 +1,703 @@
+{
+  "id": "peru-geography-heritage-60",
+  "theme": "Peru: Geography, The Incas & The Amazon Headwaters",
+  "title": "Peru: Geography, The Incas & The Amazon Headwaters",
+  "description": "A 60-question grand master assessment exploring Machu Picchu (1911), Lake Titicaca & Uros reed islands (3,812 m), the Nazca Lines, Colca Canyon (3,270 m), Mount Huascarán (6,768 m), Cusco megaliths, the Peruvian Amazon, Vinicunca, and 4,000 potato varieties.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What iconic 15th-century Inca citadel estate perches on a 2,430-meter mountain ridge above the Urubamba River valley in the Cusco region?",
+      "options": [
+        "Machu Picchu",
+        "Choquequirao",
+        "Ollantaytambo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built under Emperor Pachacuti around 1450 CE using ashlar polished dry-stone walls, Machu Picchu is one of the New 7 Wonders of the World.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what year did American explorer Hiram Bingham bring international scientific attention to the overgrown ruins of Machu Picchu?",
+      "options": [
+        "1898",
+        "1911",
+        "1924"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guided by local Quechua farmer Melchor Arteaga, Bingham photographed and cleared the ruins on a Yale University expedition on July 24, 1911.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What prominent mountain peak towers directly behind the ruins of Machu Picchu, offering aerial views of the Inca citadel?",
+      "options": [
+        "Mount Salkantay",
+        "Mount Veronica",
+        "Huayna Picchu Wayna Picchu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Huayna Picchu (Young Peak) features steep Inca stairs and the Temple of the Moon carved into a natural granite cave.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred carved granite stone at the highest point of Machu Picchu is known as the Hitching Post of the Sun?",
+      "options": [
+        "Intihuatana",
+        "Torreón",
+        "Temple of the Three Windows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inca astronomers used the Intihuatana as an astronomical clock and solar calendar to predict the exact moment of the winter solstice (Inti Raymi).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which fortress town in the Sacred Valley of the Incas is considered the only remaining living Inca town, maintaining its original urban grid plan?",
+      "options": [
+        "Pisac",
+        "Ollantaytambo",
+        "Chinchero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ollantaytambo was the royal estate of Emperor Pachacuti and site of Manco Inca historic victory over Spanish forces in 1537.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Hiram Bingham bring Machu Picchu to global attention during his Yale archaeological expedition?",
+      "target": 1911,
+      "metricUnit": "year",
+      "imperialDisplay": "1911 AD",
+      "explanation": "Hiram Bingham reached Machu Picchu on July 24, 1911, publishing his findings in a landmark 1913 National Geographic issue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 8,372-square-kilometer lake on the border of Peru and Bolivia is the highest commercially navigable lake in the world at 3,812 meters elevation?",
+      "options": [
+        "Lake Junín",
+        "Lake Poopó",
+        "Lake Titicaca Lago Titicaca"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Inca mythology, the creator god Viracocha arose from Lake Titicaca and brought forth the sun, moon, and the first Inca ancestors (Manco Cápac and Mama Ocllo).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique indigenous floating islands in Lake Titicaca are hand-crafted from dense woven layers of native totora reeds?",
+      "options": [
+        "The Uros Floating Islands",
+        "Taquile Islands",
+        "Amantaní Islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pre-Incan Uros people originally built the floating reed islands as a defensive retreat to escape aggressive Inca and Colla expansions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which island in Lake Titicaca is world-famous for its traditional male textile handweaving culture, inscribed on the UNESCO Intangible Cultural Heritage list?",
+      "options": [
+        "Amantaní Island",
+        "Taquile Island",
+        "Suasi Island"
+      ],
+      "correctIndex": 1,
+      "explanation": "On Taquile, men learn to knit intricate woolen chullo hats and calendar waistbands from childhood, with hat colors indicating their marital and social status.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which city on the shores of Lake Titicaca is renowned as the Folkloric Capital of Peru, famous for the colossal festival of the Virgen de la Candelaria?",
+      "options": [
+        "Juliaca",
+        "Arequipa",
+        "Puno"
+      ],
+      "correctIndex": 2,
+      "explanation": "Held every February, the festival features 40,000 costumed dancers performing the dramatic Diablada (Dance of the Devils) alongside thousands of brass musicians.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What unique, giant flightless grebe bird species, endemic exclusively to Lake Titicaca, dives deep to hunt native killifish (killi)?",
+      "options": [
+        "Titicaca Flightless Grebe",
+        "Andean Goose",
+        "Puna Ibis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having lost the ability to fly due to lack of natural island predators, the grebe uses strong webbed feet to swim through thick submerged macrophyte beds.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the surface elevation in meters above sea level of Lake Titicaca, the highest navigable lake on Earth?",
+      "target": 3812,
+      "metricUnit": "meters",
+      "imperialDisplay": "12,507 feet above sea level",
+      "explanation": "Lake Titicaca sits at an official mean surface elevation of 3,812 meters above sea level in the high Andean Altiplano.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What enigmatic collection of over three hundred colossal geometric figures and zoomorphic geoglyphs was scratched into the arid desert plateau of southern Peru between 500 BCE and 500 CE?",
+      "options": [
+        "The Paracas Candelabra",
+        "The Nazca Lines Líneas de Nazca",
+        "The Sajama Lines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Created by the Nazca culture by removing reddish iron-oxide pebbles to expose white gypsum subsoil, they include figures like the Hummingbird, Spider, Monkey, and Condor.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German-born mathematician and archaeologist dedicated over fifty years of her life to measuring, protecting, and interpreting the Nazca Lines?",
+      "options": [
+        "Toribio Mejía Xesspe",
+        "Paul Kosok",
+        "Maria Reiche"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known locally as the Lady of the Lines, Reiche proposed that the geoglyphs served as a giant astronomical calendar and celestial observatory.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What giant 180-meter-tall prehistoric geoglyph is carved into the ocean-facing sand cliff on the Paracas Peninsula, visible twelve miles out to sea?",
+      "options": [
+        "The Paracas Candelabra El Candelabro",
+        "The Nazca Astronaut",
+        "The Chauchilla Icon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dated to roughly 200 BCE, the trident-shaped carving is linked to the Paracas culture and served as a navigational beacon for ancient coastal sailors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which picturesque natural desert oasis lagoon surrounded by colossal 100-meter sand dunes in Ica is a world hub for sandboarding and dune buggy tours?",
+      "options": [
+        "La Huaca",
+        "Huacachina",
+        "Chilca"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built around a natural palm-fringed emerald oasis pool, local legend claims the lagoon was formed from the tears of a mourning Incan maiden.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which coastal desert in Peru and Chile, bounded by the Andes and the cold Pacific Humboldt Current, is one of the driest non-polar deserts on Earth?",
+      "options": [
+        "Monte Desert",
+        "Patagonian Desert",
+        "Sechura Desert Peruvian Coastal Desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rain shadow of the Andes combined with cold upwelling oceanic water prevents rainfall, creating dense winter coastal sea fogs known as garúa.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many distinct major animal, plant, and humanoid geoglyphs are depicted across the desert floor of the Nazca Lines in Peru?",
+      "target": 70,
+      "metricUnit": "biomorphic figures",
+      "imperialDisplay": "70 zoomorphic geoglyphs",
+      "explanation": "Along with over 10,000 geometric lines and trapezoids, the Nazca plateau features approximately seventy distinct plant, animal, and humanoid figures.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What colossal river canyon in southern Peru reaches depths of 3,270 meters, more than double the depth of the Grand Canyon in the United States?",
+      "options": [
+        "Colca Canyon",
+        "Cotahuasi Canyon",
+        "Apurímac Canyon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carved by the Colca River through the volcanic Andes, the canyon is famous for pre-Incan agricultural terraces and thermal springs.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous natural cliff viewpoint in the Colca Canyon is internationally celebrated for morning sightings of massive Andean Condors soaring on thermal updrafts?",
+      "options": [
+        "Mirador de Tapay",
+        "Cruz del Cóndor Cross of the Condor",
+        "Mirador de Antahuilque"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visitors gather at dawn to watch condors with three-meter wingspans rise effortlessly from canyon nesting ledges on warm rising air currents.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the massive wingspan in meters of the Andean Condor (Vultur gryphus), the heaviest flying bird of prey in the world?",
+      "options": [
+        "1.5 Meters",
+        "2 Meters",
+        "Over 3 Meters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Weighing up to fifteen kilograms with a wingspan reaching 3.3 meters, the Andean Condor was venerated in Inca cosmology as the messenger of the upper celestial world (Hanan Pacha).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which remote canyon in Arequipa, plunging to a depth of 3,354 meters, rivals Colca as one of the deepest river canyons on the planet Earth?",
+      "options": [
+        "Cotahuasi Canyon",
+        "Marañón Canyon",
+        "Urubamba Canyon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Formed by the Cotahuasi River between the Coropuna (6,425 m) and Solimana volcanoes, it features the 150-meter Sipia waterfall.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What volcanic white city is the second most populous metropolitan area in Peru, built almost entirely from white volcanic ignimbrite stone called sillar?",
+      "options": [
+        "Cusco",
+        "Arequipa",
+        "Trujillo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Framed by the symmetrical cone of the 5,822-meter El Misti volcano, Arequipa UNESCO historic center houses the sprawling Santa Catalina Monastery citadel.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the maximum depth in meters of the Colca Canyon in southern Peru?",
+      "target": 3270,
+      "metricUnit": "meters deep",
+      "imperialDisplay": "10,728 feet deep (twice as deep as the Grand Canyon)",
+      "explanation": "Colca Canyon reaches a maximum depth of approximately 3,270 meters from the surrounding mountain rims to the Colca River bed.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Peru and the highest peak in the entire global Tropics, rising 6,768 meters in the Cordillera Blanca?",
+      "options": [
+        "Yerupajá",
+        "Alpamayo",
+        "Mount Huascarán Nevado Huascarán"
+      ],
+      "correctIndex": 2,
+      "explanation": "Huascarán is a twin-peaked mountain (Huascarán Sur at 6,768 m and Huascarán Norte at 6,655 m), protected inside the UNESCO-inscribed Huascarán National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 200-kilometer mountain range in Ancash is the highest and most extensively glaciated tropical mountain range in the world, containing over seven hundred glaciers?",
+      "options": [
+        "Cordillera Blanca White Range",
+        "Cordillera Huayhuash",
+        "Cordillera Vilcanota"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Cordillera Blanca features sixteen peaks exceeding 6,000 meters, separating the Callejón de Huaylas from the Marañón river basin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which pyramid-shaped ice mountain in the Cordillera Blanca was voted the Most Beautiful Mountain in the World in a 1966 international scenic survey in Munich?",
+      "options": [
+        "Artesonraju",
+        "Alpamayo Nevado Alpamayo",
+        "Chacraraju"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rising 5,947 meters, Alpamayo southwest face features a fifty-degree fluted ice wall of exceptional aesthetic geometric symmetry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous turquoise-blue alpine glacial lake at 4,600 meters in Huascarán National Park is flanked by the towering ice walls of Chacraraju and Huascarán?",
+      "options": [
+        "Laguna Parón",
+        "Laguna Llanganuco",
+        "Laguna 69"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fed by glacial waterfalls cascading directly off Chacraraju, Laguna 69 is one of the most popular high-altitude day treks in the Peruvian Andes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second highest mountain peak in Peru, rising 6,635 meters in the rugged Cordillera Huayhuash, famous for extreme mountaineering epics?",
+      "options": [
+        "Yerupajá",
+        "Siula Grande",
+        "Coropuna"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nearby Siula Grande was the site of the miraculous survival story of Joe Simpson and Simon Yates, chronicled in the book and film Touching the Void.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Mount Huascarán (Nevado Huascarán Sur), the highest mountain in Peru?",
+      "target": 6768,
+      "metricUnit": "meters",
+      "imperialDisplay": "22,205 feet",
+      "explanation": "Nevado Huascarán Sur stands at an official elevation of 6,768 meters in the Department of Ancash.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which historic Andean city at 3,400 meters elevation was the imperial capital and navel of the Inca Empire (Tawantinsuyu)?",
+      "options": [
+        "Cajamarca",
+        "Cusco Cuzco",
+        "Huánuco"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inca Cusco was laid out in the shape of a sacred puma, with the fortress of Sacsayhuamán forming the head and the Coricancha temple at the center.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive citadel complex above Cusco features three tiered zigzag megalithic limestone walls fitted together so tightly without mortar that a sheet of paper cannot fit between stones?",
+      "options": [
+        "Qenqo",
+        "Puka Pukara",
+        "Sacsayhuamán"
+      ],
+      "correctIndex": 2,
+      "explanation": "The largest limestone block at Sacsayhuamán weighs an estimated 128 tons, dragged from quarries miles away using ropes, rollers, and human manpower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the most sacred temple in the Inca Empire, dedicated to the Sun God Inti, whose walls were originally covered in solid sheets of pure gold?",
+      "options": [
+        "Coricancha Qorikancha",
+        "Acllahuasi",
+        "Tambomachay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the conquest, Spanish conquistadors stripped hundreds of pounds of gold plates and erected the Church and Convent of Santo Domingo atop its polished stone foundations.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous carved green diorite stone in the exterior wall of the Archbishop Palace in Cusco features twelve perfectly interlocking carved angles?",
+      "options": [
+        "Intihuatana Stone",
+        "Twelve-Angled Stone Piedra de los Doce Ángulos",
+        "Sayhuite Monolith"
+      ],
+      "correctIndex": 1,
+      "explanation": "The twelve-angled stone is an iconic masterpiece of Inca masonry, fitting seamlessly into neighboring blocks without any adhesive or mortar.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous 42-kilometer high-altitude stone trail connects the Sacred Valley with the Sun Gate (Inti Punku) overlooking Machu Picchu?",
+      "options": [
+        "Salkantay Trek",
+        "Lares Trek",
+        "The Classic Inca Trail Camino Inca"
+      ],
+      "correctIndex": 2,
+      "explanation": "The trail crosses the 4,215-meter Dead Woman Pass (Warmiwañusqa), traversing cloud forests and Inca ruins like Runkurakay, Sayacmarca, and Wiñay Wayna.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the estimated weight in tons of the single largest megalithic limestone block fitted into the lower wall of Sacsayhuamán in Cusco?",
+      "target": 128,
+      "metricUnit": "tons",
+      "imperialDisplay": "128 tons (over 280,000 pounds)",
+      "explanation": "The largest stone block in the zigzag defensive perimeter of Sacsayhuamán measures over eight meters in height and weighs approximately 128 tons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which two major Andean rivers in Peru converge near Nauta to form the main stem of the colossal Amazon River?",
+      "options": [
+        "Marañón and Ucayali Rivers",
+        "Huallaga and Urubamba",
+        "Madre de Dios and Tambopata"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Amazon River begins its 6,400-kilometer journey to the Atlantic Ocean in Peru, holding roughly twenty percent of the world river freshwater discharge.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest city in the world that cannot be reached by road, accessible only by riverboat or airplane along the Amazon River in Loreto?",
+      "options": [
+        "Pucallpa",
+        "Iquitos",
+        "Puerto Maldonado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iquitos boomed during the 19th-century Amazon Rubber Boom, home to the Iron House (Casa de Fierro) designed by Gustave Eiffel and the floating district of Belén.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive 17,000-square-kilometer UNESCO Biosphere Reserve in Madre de Dios and Cusco preserves the highest biodiversity of any national park on Earth?",
+      "options": [
+        "Tambopata National Reserve",
+        "Bahuaja-Sonene",
+        "Manú National Park"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spanning from 4,000-meter Andean grasslands down to lowland Amazon rainforests, Manú harbors over 1,000 bird species and 15,000 plant species.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural mineral clay lick cliffs (colpas) along the Tambopata River attract hundreds of colorful macaws and parrots daily to neutralize dietary plant toxins?",
+      "options": [
+        "Macaw Clay Licks Colpa Colorado",
+        "Sandovall Clay Lick",
+        "Heath Clay Lick"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flocks of Scarlet, Red-and-Green, and Blue-and-Gold macaws congregate at sunrise to ingest mineral sodium and clay that binds to alkaloids in unripe rainforest seeds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the national bird of Peru, a vibrant Andean cotinga species where males display bright crimson-orange plumage, a bulbous crest, and lek courtship dances?",
+      "options": [
+        "Hoatzin",
+        "Andean Cock-of-the-Rock Tunqui",
+        "Harpy Eagle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rupicola peruvianus nests in secluded rocky ravines and misty cloud forests (ceja de selva) between 500 and 2,400 meters altitude.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the approximate total area in thousands of square kilometers of the UNESCO World Heritage Manú National Park in the Peruvian Amazon?",
+      "target": 17,
+      "metricUnit": "thousand square kilometers",
+      "imperialDisplay": "6,600 square miles",
+      "explanation": "Manú National Park covers approximately 17,163 square kilometers (rounded to 17k sq km), protecting an entire pristine river basin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 5,200-meter mountain in the Vilcanota Range of Cusco, known in Quechua as Vinicunca, is internationally famous for its natural turquoise, gold, and magenta mineral stripes?",
+      "options": [
+        "Palccoyo Mountain",
+        "Ausangate",
+        "Rainbow Mountain"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uncovered by melting snowpacks around 2015, the vibrant stripes were formed over millions of years by weathering of iron oxides, copper, sulfur, and phyllite clays.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Cusco region, a sacred 6,384-meter glaciated peak revered in Andean cosmovision as the most powerful Apus (mountain spirit deity)?",
+      "options": [
+        "Mount Ausangate",
+        "Salkantay",
+        "Veronica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every year, tens of thousands of indigenous Quechua pilgrims trek to the foot of Ausangate for the ancient syncretic Qoyllur Rit'i (Snow Star) festival.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stunning emerald-turquoise glacial lake at 4,200 meters sits at the foot of Mount Humantay and Salkantay, a sacred site for Pachamama offerings?",
+      "options": [
+        "Laguna Sibinacocha",
+        "Humantay Lake Laguna Humantay",
+        "Laguna Huacarpay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visitors hike up from Soraypampa, placing stone cairns (apachetas) along the trail to thank Mother Earth (Pachamama) and the mountain spirits.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient terraced salt extraction pans near Maras in the Sacred Valley have been harvested since pre-Inca times by evaporating subterranean hyper-saline spring water?",
+      "options": [
+        "Salinas Grandes",
+        "Moray Terraces",
+        "Maras Salt Mines Salineras de Maras"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over 3,000 terraced salt pans cascade down the canyon slopes of Mount Qaqawiñay, owned and hand-harvested communally by local families.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What extraordinary Inca archaeological site near Maras consists of four massive concentric circular agricultural depression terraces with microclimate temperature differences of up to 15°C?",
+      "options": [
+        "Moray",
+        "Tipón",
+        "Pikillacta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moray served as an Inca agricultural research laboratory, where scientists acclimatized wild high-altitude and lowland crops, including domesticating dozens of potato and corn varieties.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters above sea level of Vinicunca (Rainbow Mountain) in the Cusco Andes?",
+      "target": 5200,
+      "metricUnit": "meters",
+      "imperialDisplay": "17,060 feet",
+      "explanation": "The viewpoint ridge of Vinicunca (Rainbow Mountain) sits at an altitude of approximately 5,200 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many native varieties of edible potatoes (papa nativa), ranging in colors from purple and red to black and gold, are indigenous to the high Andes of Peru?",
+      "options": [
+        "500 Varieties",
+        "Over 4,000 Varieties",
+        "1,500 Varieties"
+      ],
+      "correctIndex": 1,
+      "explanation": "First domesticated around Lake Titicaca 8,000 years ago, Peru is the genetic cradle of the world potato, preserved at the International Potato Center (CIP) in Lima.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What world-famous national dish and cultural heritage of Peru consists of fresh raw fish cured in freshly squeezed lime juice, spiced with ají peppers, red onion, and served with sweet potato and choclo corn?",
+      "options": [
+        "Tiradito",
+        "Causa Rellena",
+        "Ceviche Cebiche"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 2023, UNESCO inscribed the traditional preparation and consumption of Peruvian Ceviche on the Representative List of the Intangible Cultural Heritage of Humanity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What clear grape brandy produced in the coastal valleys of Peru since the 16th century is the key ingredient in Peru national cocktail, the Pisco Sour?",
+      "options": [
+        "Pisco",
+        "Singani",
+        "Cachaça"
+      ],
+      "correctIndex": 0,
+      "explanation": "Invented in Lima in the 1920s by American bartender Victor Morris, the Pisco Sour blends pisco, fresh lime juice, simple syrup, egg whites, and Angostura bitters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What sacred Andean ancient grain, known scientifically as Chenopodium quinoa, was revered by the Incas as the Mother Grain (Chisaya Mama)?",
+      "options": [
+        "Kiwicha Amaranth",
+        "Quinoa Quinua",
+        "Kaniwa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quinoa is a complete protein containing all nine essential amino acids, grown in the high Altiplano where harsh frost and drought prevent other crops from growing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traditional Andean communal culinary feast involves burying marinated guinea pig (cuy), alpaca, potatoes, fava beans, and sweet corn under red-hot river stones in an earthen pit?",
+      "options": [
+        "Huatia",
+        "Seco de Cabrito",
+        "Pachamanca"
+      ],
+      "correctIndex": 2,
+      "explanation": "Covered with wild chincho herbs and banana leaves, Pachamanca (Earth Pot in Quechua) is prepared for harvest celebrations honoring the earth.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many native cultivated varieties of potatoes (papa) originated in the Peruvian Andes?",
+      "target": 4000,
+      "metricUnit": "potato varieties",
+      "imperialDisplay": "4,000+ native potato varieties",
+      "explanation": "Peru is the biodiversity cradle of the potato, cultivating more than 4,000 distinct varieties adapted to diverse Andean altitudes and microclimates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ancient sacred city in the Supe Valley, dating back to 3000 BCE, is recognized by UNESCO as the oldest verified urban civilization in the Americas?",
+      "options": [
+        "Sacred City of Caral-Supe",
+        "Chavín de Huántar",
+        "Chan Chan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contemporary with the Pyramids of Egypt, Caral developed monumental stone pyramid platforms, sunken circular plazas, and quipu record-keeping without warfare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Into what three distinct traditional geographical natural regions (geographic regions) is Peru divided from west to east?",
+      "options": [
+        "Pampa, Puna and Montaña",
+        "Costa, Sierra and Selva",
+        "Litoral, Altiplano and Hylea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peru spans the arid Pacific coastline (Costa), the glaciated Andean mountain highlands (Sierra), and the vast Amazonian rainforest basin (Selva).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the largest adobe mudbrick ancient city in the Americas and capital of the Chimú Empire, covering twenty square kilometers near modern Trujillo?",
+      "options": [
+        "Huacas del Sol y de la Luna",
+        "Pachacamac",
+        "Chan Chan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Built around 850 CE, Chan Chan housed an estimated 60,000 people inside nine walled royal palatial compounds adorned with carved geometric friezes of fish and pelicans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the capital and largest metropolitan city of Peru, founded in 1535 by Spanish conquistador Francisco Pizarro as the City of Kings (Ciudad de los Reyes)?",
+      "options": [
+        "Lima",
+        "Arequipa",
+        "Trujillo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Home to over ten million residents along the Pacific coast, Lima was the seat of the Spanish Viceroyalty of Peru, today renowned as the Gastronomic Capital of the Americas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What cold, nutrient-rich oceanic current flowing northward along the coast of Peru supports one of the world most productive marine ecosystems and anchoveta fisheries?",
+      "options": [
+        "The El Niño Current",
+        "The Humboldt Current Peru Current",
+        "The South Equatorial Current"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strong wind-driven upwelling brings deep Antarctic nutrients to the sunlit surface, feeding immense populations of anchoveta, sardines, sea lions, and guano seabirds.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many years BCE was the monumental Sacred City of Caral-Supe, the oldest civilization in the Americas, first established in Peru?",
+      "target": 3000,
+      "metricUnit": "BCE",
+      "imperialDisplay": "3000 BC (5,000 years ago)",
+      "explanation": "Radiocarbon dating confirms Caral-Supe was constructed around 3000 BCE, thriving as the oldest urban center in the Western Hemisphere.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

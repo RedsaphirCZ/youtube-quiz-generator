@@ -1,0 +1,703 @@
+{
+  "id": "world-football-soccer-legends-60",
+  "theme": "World Football (Soccer): World Cups & Club Legends",
+  "title": "World Football (Soccer): World Cups & Club Legends",
+  "description": "A 60-question grand master assessment exploring the FIFA World Cup from Uruguay 1930 to Qatar 2022, Pele, Diego Maradona, Cruyff and Total Football, Messi vs. Ronaldo, UEFA Champions League drama, Real Madrid royalty, Lev Yashin, and Women's World Cup icons.",
+  "category": "Sports, Records & General Knowledge",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "In which South American country was the inaugural FIFA World Cup tournament held in 1930, where the hosts defeated Argentina 4 to 2 in the final?",
+      "options": [
+        "Uruguay",
+        "Brazil",
+        "Chile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uruguay hosted the first 1930 tournament at the newly built Estadio Centenario in Montevideo to celebrate the centenary of their first constitution.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian football icon nicknamed O Rei (The King) is the only player in history to win three FIFA World Cup titles (1958, 1962, and 1970)?",
+      "options": [
+        "Garrincha",
+        "Pele",
+        "Zico"
+      ],
+      "correctIndex": 1,
+      "explanation": "Edson Arantes do Nascimento (Pele) debuted at the 1958 World Cup in Sweden at age 17, scoring six goals and leading Brazil to their first world title.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the original golden trophy awarded to FIFA World Cup champions from 1930 to 1970, named after the pioneering FIFA president?",
+      "options": [
+        "Coupe Henri Delaunay",
+        "Copa America Trophy",
+        "Jules Rimet Trophy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Depicting Nike the Greek goddess of victory, the trophy was permanently awarded to Brazil after their third title in 1970 and later stolen in 1983.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What traumatic 1950 World Cup match in Rio de Janeiro saw Uruguay defeat hosts Brazil 2 to 1 before 200,000 stunned spectators in the Maracana?",
+      "options": [
+        "The Maracanazo",
+        "The Miracle of Bern",
+        "The Aztec Miracle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alcides Ghiggia's 79th-minute winning goal for Uruguay caused widespread national grief in Brazil, prompting the team to abandon their white kits for yellow.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which bowlegged Brazilian winger, nicknamed The Joy of the People, dazzled defenders with his dribbling and led Brazil to victory in 1962 when Pele was injured?",
+      "options": [
+        "Jairzinho",
+        "Garrincha",
+        "Tostao"
+      ],
+      "correctIndex": 1,
+      "explanation": "Garrincha won both the Golden Ball as best player and Golden Boot as joint top scorer during the 1962 World Cup in Chile.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total FIFA World Cup tournament titles did Brazilian legend Pele win as a player during his international career?",
+      "target": 3,
+      "metricUnit": "World Cup titles",
+      "imperialDisplay": "3 World Cups (1958, 1962, 1970)",
+      "explanation": "Pele remains the only footballer in history to win three World Cup championship medals (Sweden 1958, Chile 1962, and Mexico 1970).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Argentine maestro led his country to World Cup glory in Mexico 1986, scoring two of the most famous goals in football history against England?",
+      "options": [
+        "Mario Kempes",
+        "Gabriel Batistuta",
+        "Diego Maradona"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maradona captained Argentina to victory over West Germany in the 1986 final, winning the Golden Ball as the undisputed player of the tournament.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What controversial phrase did Diego Maradona use to describe his unpenalized 51st-minute opening goal against England in the 1986 World Cup quarter-final?",
+      "options": [
+        "The Hand of God",
+        "The Miracle Strike",
+        "The Golden Touch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maradona famously remarked that the goal was scored a little with the head of Maradona and a little with the hand of God.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 60-meter solo dribble by Diego Maradona past five English players and goalkeeper Peter Shilton in 1986 was voted FIFA's Goal of the Century?",
+      "options": [
+        "The Maracana Run",
+        "The Goal of the Century",
+        "The Cosmic Dribble"
+      ],
+      "correctIndex": 1,
+      "explanation": "Starting in his own half, Maradona took 11 touches over 10 seconds to score what is widely regarded as the greatest individual goal in World Cup history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which southern Italian city did Diego Maradona become a deity, leading the local club to their first two historic Serie A titles in 1987 and 1990?",
+      "options": [
+        "Turin Juventus",
+        "Milan AC Milan",
+        "Naples Napoli"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maradona transformed SSC Napoli from relegation strugglers into European champions, winning the 1989 UEFA Cup; the stadium was renamed in his honor in 2020.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which flowing-haired striker scored six goals, including two in the 1978 final against the Netherlands, to lead Argentina to their first World Cup title?",
+      "options": [
+        "Mario Kempes",
+        "Daniel Passarella",
+        "Osvaldo Ardiles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mario El Matador Kempes won both the Golden Ball and Golden Boot as Argentina triumphed after extra time on home soil in Buenos Aires.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what minute of the 1986 World Cup quarter-final match against England did Diego Maradona score his iconic Goal of the Century?",
+      "target": 55,
+      "metricUnit": "minute",
+      "imperialDisplay": "55th minute",
+      "explanation": "Four minutes after the Hand of God, Maradona received the ball in the 55th minute from Hector Enrique to embark on his 60-meter solo run.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Dutch football genius perfected the fluid tactical philosophy of Total Football with Ajax, Barcelona, and the Netherlands national team?",
+      "options": [
+        "Rinus Michels",
+        "Johan Cruyff",
+        "Marco van Basten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cruyff won three Ballon d'Or awards and three consecutive European Cups with Ajax, later laying the tactical foundations for Barcelona's La Masia academy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German defensive legend nicknamed Der Kaiser won the World Cup as captain of West Germany in 1974 and as manager in 1990?",
+      "options": [
+        "Gerd Muller",
+        "Sepp Maier",
+        "Franz Beckenbauer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Beckenbauer invented the modern role of the attacking sweeper (libero), dictating play from deep defense with unmatched elegance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Hungarian goal machine captained the Mighty Magyars of the 1950s and scored 84 goals in 85 international matches, inspiring FIFA's Best Goal award?",
+      "options": [
+        "Ferenc Puskas",
+        "Sandor Kocsis",
+        "Nandor Hidegkuti"
+      ],
+      "correctIndex": 0,
+      "explanation": "Puskas led Hungary to Olympic gold in 1952 and dismantled England at Wembley in 1953 before winning three European Cups with Real Madrid.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Mozambique-born Portuguese striker nicknamed The Black Panther led Benfica to European glory and scored nine goals at the 1966 World Cup?",
+      "options": [
+        "Luis Figo",
+        "Eusebio",
+        "Mario Coluna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eusebio was renowned for his blistering speed, athletic power, and ferocious right-footed shot, winning the 1965 Ballon d'Or.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which lethal German striker nicknamed Der Bomber scored 68 goals in 62 international matches, including the 1974 World Cup winning goal?",
+      "options": [
+        "Karl-Heinz Rummenigge",
+        "Uwe Seeler",
+        "Gerd Muller"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gerd Muller possessed unmatched predatory instincts in the penalty box, holding the World Cup all-time scoring record for 32 years.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many international goals did Hungarian maestro Ferenc Puskas score in his 85 appearances for the Hungary national team?",
+      "target": 84,
+      "metricUnit": "international goals",
+      "imperialDisplay": "84 goals in 85 caps",
+      "explanation": "Puskas maintained an astonishing scoring rate of nearly one goal per game, netting 84 times for Hungary between 1945 and 1956.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Argentine wizard won a record eight Ballon d'Or awards and captained Argentina to World Cup victory at Qatar 2022?",
+      "options": [
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Luka Modric"
+      ],
+      "correctIndex": 0,
+      "explanation": "Messi scored 7 goals in Qatar 2022, becoming the first player to win the World Cup Golden Ball twice and completing his peerless trophy collection.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Portuguese superstar holds the all-time international scoring record with over 130 goals and won five UEFA Champions League titles?",
+      "options": [
+        "Bruno Fernandes",
+        "Cristiano Ronaldo",
+        "Bernardo Silva"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cristiano Ronaldo has won five Ballon d'Or awards and is the all-time top goalscorer in Champions League history with 140 goals.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary Spanish rivalry between FC Barcelona and Real Madrid was defined for a decade by the fierce individual rivalry between Messi and Ronaldo?",
+      "options": [
+        "Derbi Madrileno",
+        "Superclasico",
+        "El Clasico"
+      ],
+      "correctIndex": 2,
+      "explanation": "Between 2009 and 2018, Messi and Ronaldo shattered scoring records in El Clasico, attracting hundreds of millions of viewers across the globe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In the calendar year 2012, how many official goals did Lionel Messi score for Barcelona and Argentina to set the Guinness World Record for most goals in a year?",
+      "options": [
+        "91 goals",
+        "85 goals",
+        "75 goals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Messi surpassed Gerd Muller's 1972 record of 85 goals by scoring 91 goals in 69 games across 2012.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which international tournament did Cristiano Ronaldo win with Portugal in 2016, overcoming hosts France 1 to 0 in extra time in Paris?",
+      "options": [
+        "FIFA Confederations Cup",
+        "UEFA European Championship Euro 2016",
+        "UEFA Nations League"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despite being forced off injured early in the final, Ronaldo passionately coached his teammates from the touchline as Eder scored the winner.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many career Ballon d'Or awards has Argentine legend Lionel Messi won as of 2023?",
+      "target": 8,
+      "metricUnit": "Ballon d'Or awards",
+      "imperialDisplay": "8 Ballon d'Or trophies",
+      "explanation": "Lionel Messi holds the all-time record with 8 Ballon d'Or trophies won in 2009, 2010, 2011, 2012, 2015, 2019, 2021, and 2023.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish club holds the undisputed all-time record for the most European Cup / UEFA Champions League titles, winning their 15th title in 2024?",
+      "options": [
+        "AC Milan",
+        "Bayern Munich",
+        "Real Madrid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Real Madrid dominated the early European Cup with five consecutive titles from 1956 to 1960 and won six UCL trophies between 2014 and 2024.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French maestro scored a legendary left-footed volley from the edge of the box to win the 2002 Champions League final for Real Madrid in Glasgow?",
+      "options": [
+        "Zinedine Zidane",
+        "Thierry Henry",
+        "Michel Platini"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zidane's exquisite technique on Roberto Carlos's looping cross against Bayer Leverkusen is widely voted the greatest goal in Champions League final history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English club completed an unprecedented continental treble under Sir Alex Ferguson in 1999 with two injury-time goals against Bayern Munich?",
+      "options": [
+        "Liverpool",
+        "Manchester United",
+        "Chelsea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Teddy Sheringham and Ole Gunnar Solskjaer scored in the 91st and 93rd minutes at the Camp Nou to complete the Premier League, FA Cup, and UCL treble.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What legendary 2005 Champions League final in Istanbul saw Liverpool recover from a three-goal halftime deficit against AC Milan to win on penalties?",
+      "options": [
+        "The Battle of Rome",
+        "The Final of Kings",
+        "The Miracle of Istanbul"
+      ],
+      "correctIndex": 2,
+      "explanation": "Steven Gerrard sparked a six-minute second-half comeback with three goals, before goalkeeper Jerzy Dudek's wobbly legs secured victory in the shootout.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian manager became the first manager in history to win five UEFA Champions League titles across AC Milan and Real Madrid?",
+      "options": [
+        "Carlo Ancelotti",
+        "Jose Mourinho",
+        "Pep Guardiola"
+      ],
+      "correctIndex": 0,
+      "explanation": "Don Carlo won two titles with AC Milan (2003, 2007) and three with Real Madrid (2014, 2022, 2024), also winning league titles in all top five European leagues.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total European Cup and UEFA Champions League titles has Real Madrid won as of their 2024 triumph?",
+      "target": 15,
+      "metricUnit": "titles",
+      "imperialDisplay": "15 UCL trophies",
+      "explanation": "Real Madrid extended their dominant record to 15 European Cup/Champions League titles after defeating Borussia Dortmund at Wembley in June 2024.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which manager coached FC Barcelona's legendary Tiki-Taka team to an unprecedented six trophies (the sextuple) in a single calendar year in 2009?",
+      "options": [
+        "Frank Rijkaard",
+        "Pep Guardiola",
+        "Luis Enrique"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guardiola's Barcelona, anchored by Xavi, Iniesta, and Messi, dominated European football with suffocating ball possession and geometric passing triangles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English team went the entire 38-game 2003 to 2004 Premier League season undefeated under manager Arsene Wenger, earning the nickname The Invincibles?",
+      "options": [
+        "Chelsea",
+        "Manchester United",
+        "Arsenal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Captained by Patrick Vieira with Thierry Henry scoring 30 league goals, Arsenal won 26 matches and drew 12, receiving a unique gold Premier League trophy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian club went an astonishing 58 consecutive Serie A matches unbeaten between 1991 and 1993 under Arrigo Sacchi and Fabio Capello?",
+      "options": [
+        "AC Milan",
+        "Juventus",
+        "Inter Milan"
+      ],
+      "correctIndex": 0,
+      "explanation": "AC Milan's legendary defense featured Franco Baresi, Paolo Maldini, Alessandro Costacurta, and Mauro Tassotti.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French forward is Arsenal's all-time record goalscorer with 228 goals, renowned for his signature curling finishes into the far corner?",
+      "options": [
+        "Ian Wright",
+        "Thierry Henry",
+        "Dennis Bergkamp"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thierry Henry won four Premier League Golden Boots and was the talismanic centerpiece of Arsene Wenger's Invincibles squad.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Bavarian giant won ten consecutive Bundesliga titles between 2013 and 2022, including two continental trebles in 2013 and 2020?",
+      "options": [
+        "Borussia Dortmund",
+        "Bayer Leverkusen",
+        "Bayern Munich"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bayern Munich established supreme domestic dominance in Germany, powered by superstars like Thomas Muller, Robert Lewandowski, and Manuel Neuer.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many matches did Arsenal play without a single defeat in their historic 2003 to 2004 Invincibles Premier League season?",
+      "target": 38,
+      "metricUnit": "unbeaten matches",
+      "imperialDisplay": "38 unbeaten league games",
+      "explanation": "Arsenal played all 38 Premier League fixtures in the 2003 to 2004 season without suffering a single loss (26 wins, 12 draws).",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German striker holds the all-time record for the most career FIFA World Cup goals in history, scoring 16 goals across four tournaments?",
+      "options": [
+        "Miroslav Klose",
+        "Ronaldo Nazario",
+        "Gerd Muller"
+      ],
+      "correctIndex": 0,
+      "explanation": "Klose scored his 16th record-breaking World Cup goal during Germany's historic semi-final triumph over Brazil in Belo Horizonte in 2014.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian striker, nicknamed Il Fenomeno (R9), scored 15 World Cup goals and led Brazil to victory in 2002 with two goals in the final against Germany?",
+      "options": [
+        "Romario",
+        "Ronaldo Nazario",
+        "Rivaldo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ronaldo overcame career-threatening knee tendon ruptures to win the 2002 Golden Boot with eight goals, redeeming Brazil's 1998 final heartbreak.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French striker holds the record for the most goals scored in a single FIFA World Cup tournament, netting 13 goals in Sweden 1958?",
+      "options": [
+        "Jean-Pierre Papin",
+        "Michel Platini",
+        "Just Fontaine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fontaine scored 13 goals in just six matches in 1958, a single-tournament scoring record that has remained untouched for nearly seven decades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which French forward became the second player in history to score a hat-trick in a World Cup final during the thrilling 3 to 3 draw against Argentina in Qatar 2022?",
+      "options": [
+        "Kylian Mbappe",
+        "Antoine Griezmann",
+        "Karim Benzema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mbappe won the 2022 Golden Boot with 8 goals, scoring twice in 97 seconds to force extra time and converting his third in the 118th minute.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first player in history to score a hat-trick in a World Cup final, leading England to a 4 to 2 victory over West Germany at Wembley in 1966?",
+      "options": [
+        "Bobby Charlton",
+        "Geoff Hurst",
+        "Jimmy Greaves"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sir Geoff Hurst's controversial second goal struck the underside of the crossbar and bounced down, awarded by referee Gottfried Dienst.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the all-time career FIFA World Cup tournament scoring record held by Germany's Miroslav Klose?",
+      "target": 16,
+      "metricUnit": "goals",
+      "imperialDisplay": "16 World Cup goals",
+      "explanation": "Miroslav Klose scored 16 goals across 24 World Cup matches between 2002 and 2014, surpassing Ronaldo Nazario's mark of 15.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Soviet goalkeeper, nicknamed The Black Spider for his all-black kit and acrobatics, remains the only goalkeeper in history to win the Ballon d'Or (1963)?",
+      "options": [
+        "Dino Zoff",
+        "Gordon Banks",
+        "Lev Yashin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yashin saved an estimated 150 penalty kicks throughout his career and pioneered commanding his penalty area and punching crosses away.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which English goalkeeper made the famous Save of the Century, diving low to claw away a point-blank bouncing header from Pele in 1970?",
+      "options": [
+        "Gordon Banks",
+        "Peter Shilton",
+        "Ray Clemence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gordon Banks's breathtaking reflex save against Brazil in the searing heat of Guadalajara is universally celebrated among the greatest saves ever made.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Italian goalkeeping legend played 176 times for Italy, captained them to the 2006 World Cup, and made over 1,100 career appearances?",
+      "options": [
+        "Walter Zenga",
+        "Gianluigi Buffon",
+        "Francesco Toldo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buffon conceded only two goals (an own goal and a penalty) throughout the entire 2006 World Cup, finishing runner-up for the 2006 Ballon d'Or.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary AC Milan captain spent his entire 25-season professional career at the club, making 902 appearances and winning five European Cups?",
+      "options": [
+        "Franco Baresi",
+        "Alessandro Nesta",
+        "Paolo Maldini"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maldini was the quintessential complete defender, renowned for flawless positioning, tactical intelligence, and rarely needing to make slide tackles.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which German goalkeeper revolutionized the sweeper-keeper role, playing far outside his penalty box during Germany's 2014 World Cup triumph?",
+      "options": [
+        "Manuel Neuer",
+        "Oliver Kahn",
+        "Jens Lehmann"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neuer acted as an auxiliary sweeper with extraordinary passing and aggressive ball interception outside the box, redefining modern goalkeeping.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did legendary Soviet goalkeeper Lev Yashin win the prestigious Ballon d'Or award?",
+      "target": 1963,
+      "metricUnit": "CE",
+      "imperialDisplay": "1963 Ballon d'Or",
+      "explanation": "Lev Yashin was awarded the Ballon d'Or in December 1963, remaining the only goalkeeper to win the award in over six decades.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which country has won the most FIFA Women's World Cup titles in history, capturing four championships in 1991, 1999, 2015, and 2019?",
+      "options": [
+        "Germany",
+        "United States",
+        "Japan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The US Women's National Team (USWNT) established international dominance, propelled by stars like Michelle Akers, Mia Hamm, and Megan Rapinoe.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Brazilian legend is the all-time top goalscorer in FIFA World Cup history (men or women) with 17 goals across six tournaments?",
+      "options": [
+        "Formiga",
+        "Cristiane",
+        "Marta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marta Vieira da Silva has been named FIFA World Player of the Year six times, widely celebrated as the greatest female footballer of all time.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American soccer star scored the winning penalty in the 1999 Women's World Cup final shootout against China, famously celebrating in her sports bra?",
+      "options": [
+        "Brandi Chastain",
+        "Mia Hamm",
+        "Julie Foudy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chastain's spontaneous celebration before 90,185 fans at the Pasadena Rose Bowl became an iconic landmark photograph in women's sports history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Spanish midfielder won the 2023 FIFA Women's World Cup and consecutive Ballon d'Or Feminin awards in 2023 and 2024?",
+      "options": [
+        "Alexia Putellas",
+        "Aitana Bonmati",
+        "Jennifer Hermoso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bonmati orchestrated Spain's possession-based victory in Australia and New Zealand, winning the Golden Ball as the tournament's top player.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Asian nation made history by winning the 2011 FIFA Women's World Cup in Germany, defeating the USA in a dramatic penalty shootout?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Captained by tournament top scorer Homare Sawa, Japan's Nadeshiko provided national inspiration following the devastating 2011 tsunami.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many career FIFA Women's World Cup goals has Brazilian superstar Marta scored, setting the all-time tournament record?",
+      "target": 17,
+      "metricUnit": "goals",
+      "imperialDisplay": "17 tournament goals",
+      "explanation": "Marta has scored 17 World Cup goals across six tournament appearances between 2003 and 2023, the most by any player in World Cup history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What English referee conceived the yellow and red card disciplinary system after experiencing communication difficulties with foreign players at the 1966 World Cup?",
+      "options": [
+        "Ken Aston",
+        "Jack Taylor",
+        "Pierluigi Collina"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inspired by traffic lights while waiting at a Kensington road junction, Aston proposed color-coded cards that were introduced at Mexico 1970.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What video technology system was officially introduced to the FIFA World Cup in Russia 2018 to review clear and obvious refereeing errors?",
+      "options": [
+        "Goal-Line Technology",
+        "VAR Video Assistant Referee",
+        "Hawk-Eye"
+      ],
+      "correctIndex": 1,
+      "explanation": "VAR assists match officials on four match-changing situations: goals, penalty decisions, direct red cards, and mistaken identity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the radius of the center circle on a standard regulation association football pitch?",
+      "options": [
+        "5.5 meters",
+        "12 meters",
+        "9.15 meters 10 yards"
+      ],
+      "correctIndex": 2,
+      "explanation": "Opposing players must remain outside the 9.15-meter (10-yard) radius during kick-offs, just as defensive walls must retreat 9.15 meters on free kicks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What penalty rule was introduced in 1970 to resolve tied knockout matches, replacing coin tosses and replays?",
+      "options": [
+        "Penalty Shootout",
+        "Golden Goal",
+        "Corner Countback"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before penalty shootouts, major finals like Italy's 1968 European Championship semi-final were decided by the toss of a coin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In association football, a player cannot be penalized for an offside offense directly from which of the following set pieces?",
+      "options": [
+        "Direct free kick",
+        "Throw-in, corner kick, or goal kick",
+        "Indirect free kick"
+      ],
+      "correctIndex": 1,
+      "explanation": "Law 11 of the IFAB Laws of the Game explicitly states there is no offside offense if a player receives the ball directly from a throw-in, corner, or goal kick.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the exact distance in meters from the penalty spot to the goal line on a standard football pitch?",
+      "target": 11,
+      "metricUnit": "meters",
+      "imperialDisplay": "12 yards (10.97m)",
+      "explanation": "The penalty spot is positioned exactly 12 yards (10.97 meters, rounded to 11 meters in metric standards) from the center of the goal line.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

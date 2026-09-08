@@ -1,0 +1,8 @@
+{
+  "schema": "quizdb.gemini-triage/v1",
+  "pack_id": "american-revolution-founding-60",
+  "model": "qwen3.5:9b",
+  "question_count": 60,
+  "finding_count": 0,
+  "findings": []
+}

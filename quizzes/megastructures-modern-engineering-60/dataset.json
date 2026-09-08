@@ -1,0 +1,703 @@
+{
+  "id": "megastructures-modern-engineering-60",
+  "theme": "Megastructures: Skyscrapers, Mega-Bridges & Canals",
+  "title": "Megastructures: Skyscrapers, Mega-Bridges & Canals",
+  "description": "Comprehensive 60-question grand engineering tour of record-shattering skyscrapers, colossal suspension bridges, undersea tunnels, and mega-dams.",
+  "category": "Tech, Inventions & Engineering",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Rising 828 meters above Dubai, what is the tallest man-made building and freestanding structure in the world, designed by architect Adrian Smith?",
+      "options": [
+        "Burj Khalifa",
+        "Shanghai Tower",
+        "Merdeka 118"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Burj Khalifa features a stepped Y-shaped buttressed core inspired by the desert spider lily flower Hymenocallis.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which skyscraper in Kuala Lumpur, Malaysia, is the second-tallest building in the world at 678.9 meters, crowned by a 160-meter spire?",
+      "options": [
+        "Petronas Towers",
+        "Merdeka 118",
+        "The Exchange 106"
+      ],
+      "correctIndex": 1,
+      "explanation": "Merdeka 118 diamond-faceted glass facade commemorates the hand-raising gesture of Malaysian independence leader Tunku Abdul Rahman.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 632-meter skyscraper in Shanghai features a dramatic 120-degree twisting exterior facade engineered to reduce typhoon wind loads by 24 percent?",
+      "options": [
+        "Jin Mao Tower",
+        "Shanghai World Financial Center",
+        "Shanghai Tower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shanghai Tower contains a double-skin glass curtain wall and the world highest observation deck within a building.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous skyscraper in Taiwan utilizes a massive, visible 660-metric-ton tuned mass damper steel pendulum suspended between the 87th and 92nd floors?",
+      "options": [
+        "Taipei 101",
+        "Tuntex Sky Tower",
+        "Lotte World Tower"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tuned mass damper sways to counteract dynamic vibrations caused by intense typhoons and seismic earthquakes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Designed by Argentine architect César Pelli, what iconic twin skyscrapers in Kuala Lumpur held the title of world tallest buildings from 1998 to 2004?",
+      "options": [
+        "Menara Kuala Lumpur",
+        "Petronas Towers",
+        "CITIC Plaza"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 452-meter Petronas Towers are connected on the 41st and 42nd floors by a two-story skybridge supported by arch legs.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total architectural height in meters of the Burj Khalifa in Dubai to the tip of its pinnacle spire?",
+      "target": 828,
+      "metricUnit": "meters",
+      "imperialDisplay": "2,717 feet",
+      "explanation": "The Burj Khalifa reaches an official height of 828 meters (2,716.5 feet), containing 163 habitable floors.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 1885 ten-story building in Chicago, designed by William Le Baron Jenney, is recognized as the world first modern metal-frame skyscraper?",
+      "options": [
+        "Monadnock Building",
+        "Wainwright Building",
+        "Home Insurance Building"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Home Insurance Building utilized load-bearing structural steel and iron columns rather than heavy masonry walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic Art Deco skyscraper in New York City was completed in just 410 days and stood as the world tallest building from 1931 to 1970?",
+      "options": [
+        "Empire State Building",
+        "Chrysler Building",
+        "Woolworth Building"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rising 102 stories on Fifth Avenue, the Empire State Building was constructed with phenomenal speed during the Great Depression.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Art Deco skyscraper in Manhattan briefly held the tallest building title in 1930 after its architect secretly assembled a stainless steel spire inside?",
+      "options": [
+        "40 Wall Street",
+        "Chrysler Building",
+        "Rockefeller Center"
+      ],
+      "correctIndex": 1,
+      "explanation": "Architect William Van Alen raised the 56-meter sunburst spire through the roof in ninety minutes, surpassing 40 Wall Street.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What structural system invented by engineer Fazlur Rahman Khan was utilized to construct Chicago 108-story Willis Tower in 1973?",
+      "options": [
+        "Diagrid Truss System",
+        "Braced Core System",
+        "Bundled Tube System"
+      ],
+      "correctIndex": 2,
+      "explanation": "Khan bundled nine interconnected hollow square tubes that terminate at different heights, maximizing structural rigidity while minimizing steel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which triangular 22-story steel-framed landmark designed by Daniel Burnham in 1902 sits at the intersection of Fifth Avenue and Broadway?",
+      "options": [
+        "Flatiron Building",
+        "Singer Building",
+        "Tribune Tower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally named the Fuller Building, the Flatiron Building was celebrated for its Beaux-Arts limestone facade resembling an ocean liner.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total floors are contained within the historic Empire State Building in Midtown Manhattan?",
+      "target": 102,
+      "metricUnit": "floors",
+      "imperialDisplay": "102 stories",
+      "explanation": "The Empire State Building contains 102 floors above ground, with the 86th and 102nd floors serving as world-famous observation decks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which bridge spanning the Dardanelles Strait in Turkey holds the world record for the longest central suspension bridge span at 2,023 meters?",
+      "options": [
+        "Akashi Kaikyo Bridge",
+        "1915 Çanakkale Bridge",
+        "Xihoumen Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opened in 2022, its 2,023-meter main span commemorates the centennial year of the founding of the Turkish Republic.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Japanese suspension bridge connecting Kobe with Awaji Island survived the massive 1995 Kobe earthquake during its construction?",
+      "options": [
+        "Great Seto Bridge",
+        "Kurushima Kaikyo Bridge",
+        "Akashi Kaikyo Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The earthquake shifted the bridge towers by nearly one meter, lengthening the planned central span to 1,991 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which breathtaking cable-stayed bridge in southern France, designed by Michel Virlogeux and Norman Foster, features bridge piers taller than the Eiffel Tower?",
+      "options": [
+        "Millau Viaduct",
+        "Pont de Normandie",
+        "Vasco da Gama Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Millau Viaduct spans 2,460 meters across the Tarn River valley with its highest pylon rising 343 meters into the clouds.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which iconic art deco suspension bridge spanning the entrance to San Francisco Bay opened in 1937 with its signature International Orange color?",
+      "options": [
+        "San Francisco-Oakland Bay Bridge",
+        "Golden Gate Bridge",
+        "Mackinac Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chief engineer Joseph Strauss oversaw construction of the 1,280-meter main span suspended from two giant steel towers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What viaduct along the Beijing-Shanghai High-Speed Railway in China is recognized as the longest bridge in the world of any type at 164.8 kilometers?",
+      "options": [
+        "Tianjin Grand Bridge",
+        "Weinan Weihe Grand Bridge",
+        "Danyang-Kunshan Grand Bridge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The bridge carries high-speed trains across the Yangtze River Delta lowlands, canals, and Yangcheng Lake.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the record-breaking length in meters of the main suspension span of the 1915 Çanakkale Bridge in Turkey?",
+      "target": 2023,
+      "metricUnit": "meters",
+      "imperialDisplay": "6,637 feet",
+      "explanation": "The 1915 Çanakkale Bridge spans 2,023 meters between its twin towers, making it the longest suspension bridge span in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 55-kilometer bridge-tunnel sea crossing links Hong Kong, Zhuhai, and Macao across the Lingdingyang channel of the Pearl River estuary?",
+      "options": [
+        "Hong Kong-Zhuhai-Macao Bridge",
+        "Hangzhou Bay Bridge",
+        "Jiaozhou Bay Bridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The megastructure consists of three cable-stayed bridges, an undersea tunnel of 6.7 kilometers, and two artificial islands.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What parallel twin-span bridge in southern Louisiana holds the Guinness World Record as the longest continuous bridge over water in the world at 38.4 kilometers?",
+      "options": [
+        "Chesapeake Bay Bridge-Tunnel",
+        "Lake Pontchartrain Causeway",
+        "Manchac Swamp Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Supported by over nine thousand concrete pilings, motorists lose sight of land across the middle eight miles of the lake.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 25-kilometer series of bridges and causeways carries road traffic across the Gulf of Bahrain between Saudi Arabia and Bahrain?",
+      "options": [
+        "Sheikh Jaber Al-Ahmad Al-Sabah Causeway",
+        "King Hamad Causeway",
+        "King Fahd Causeway"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inaugurated in 1986, the causeway features an artificial Middle Island passport station and tourist observation tower.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which combined road and rail link across the Sound connects the Danish capital of Copenhagen with the Swedish city of Malmö?",
+      "options": [
+        "Øresund Bridge",
+        "Storebælt Bridge",
+        "Fehmarn Belt Fixed Link"
+      ],
+      "correctIndex": 0,
+      "explanation": "The link transitions from an eight-kilometer cable-stayed bridge to the artificial island Peberholm and a four-kilometer immersed tube tunnel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What cable-stayed bridge spanning 12.3 kilometers across the Tagus River estuary in Lisbon was Europe longest bridge when completed in 1998?",
+      "options": [
+        "25 de Abril Bridge",
+        "Vasco da Gama Bridge",
+        "Lezíria Bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built for Expo 98, the bridge was engineered to withstand an earthquake four times stronger than the historic 1755 Lisbon earthquake.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total overall length in kilometers of the Hong Kong-Zhuhai-Macao Bridge sea-crossing megastructure?",
+      "target": 55,
+      "metricUnit": "km",
+      "imperialDisplay": "34 miles",
+      "explanation": "The combined bridge and undersea tunnel system spans roughly 55 kilometers across the waters of the Pearl River estuary.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Swiss railway tunnel beneath the Alps is the longest and deepest traffic tunnel in the world, stretching 57.1 kilometers through solid granite?",
+      "options": [
+        "Lötschberg Base Tunnel",
+        "Brenner Base Tunnel",
+        "Gotthard Base Tunnel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Gotthard Base Tunnel provides a flat rail route beneath up to 2,450 meters of alpine rock, cutting Zurich-Milan travel times.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which undersea rail tunnel opened in 1994, connecting Folkestone, England, to Coquelles, France, beneath the Strait of Dover?",
+      "options": [
+        "Channel Tunnel",
+        "Seikan Tunnel",
+        "Marmaray Tunnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Also known as the Chunnel, it consists of two single-track railway tubes and a central service tunnel spanning 50.4 kilometers.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 53.85-kilometer railway tunnel in Japan connects the main island of Honshu with the northern island of Hokkaido beneath the Tsugaru Strait?",
+      "options": [
+        "Kanmon Tunnel",
+        "Seikan Tunnel",
+        "Tokyo Bay Aqua-Line"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Seikan Tunnel was built through volatile undersea volcanic rock over twenty-four years, accommodating Shinkansen bullet trains.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 24.5-kilometer tunnel in western Norway is the longest road tunnel in the world, featuring blue and yellow cave lighting to reduce driver fatigue?",
+      "options": [
+        "Ryfast Tunnel",
+        "Gudvanga Tunnel",
+        "Lærdal Tunnel"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Lærdal Tunnel links Lærdal and Aurland with three large artificial illuminated rock caves that mimic a natural sunrise.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which subsea rail project in Istanbul connects the European and Asian halves of the city through an immersed tube tunnel beneath the Bosphorus?",
+      "options": [
+        "Marmaray Tunnel",
+        "Eurasia Tunnel",
+        "Great Istanbul Tunnel"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Marmaray immersed tube sits sixty meters beneath the sea surface, engineered to resist severe earthquakes along the North Anatolian Fault.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total length in kilometers of the Gotthard Base Tunnel through the Swiss Alps?",
+      "target": 57,
+      "metricUnit": "km",
+      "imperialDisplay": "35.5 miles",
+      "explanation": "The Gotthard Base Tunnel measures exactly 57.1 kilometers, making it the longest and deepest operational rail tunnel on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What concrete gravity dam on the Yangtze River in Hubei Province, China, is the world largest hydroelectric power station by installed capacity?",
+      "options": [
+        "Baihetan Dam",
+        "Three Gorges Dam",
+        "Xiluodu Dam"
+      ],
+      "correctIndex": 1,
+      "explanation": "With thirty-two main turbines producing 22,500 megawatts, the Three Gorges Dam flooded 600 kilometers of upstream river valleys.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive hydroelectric dam on the Paraná River between Brazil and Paraguay historically set records for total annual electrical energy generated?",
+      "options": [
+        "Belo Monte Dam",
+        "Guri Dam",
+        "Itaipu Dam"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Itaipu Dam spans over seven kilometers and supplies roughly eighty percent of Paraguay and fifteen percent of Brazil total electricity.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive concrete arch-gravity dam on the Colorado River was completed in 1936, creating Lake Mead to supply water to California and Nevada?",
+      "options": [
+        "Hoover Dam",
+        "Glen Canyon Dam",
+        "Grand Coulee Dam"
+      ],
+      "correctIndex": 0,
+      "explanation": "Originally named Boulder Dam, it was built by Six Companies Inc. using innovative refrigerated pipe networks to cool curing concrete blocks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive concrete gravity dam on the Columbia River in Washington State is the largest electric power-producing facility in the United States?",
+      "options": [
+        "Bonneville Dam",
+        "Grand Coulee Dam",
+        "Chief Joseph Dam"
+      ],
+      "correctIndex": 1,
+      "explanation": "Constructed between 1933 and 1942 as part of the New Deal, Grand Coulee Dam irrigates over 670,000 acres in the Columbia Basin.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which rockfill dam constructed on the Nile River in Egypt during the 1960s captured the annual Nile flood, creating Lake Nasser?",
+      "options": [
+        "Grand Ethiopian Renaissance Dam",
+        "Sennar Dam",
+        "Aswan High Dam"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Aswan High Dam ended seasonal agricultural flooding, requiring the relocation of ancient monuments like the temples of Abu Simbel.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the historic Hoover Dam on the Colorado River officially dedicated by President Franklin D. Roosevelt?",
+      "target": 1935,
+      "metricUnit": "year",
+      "imperialDisplay": "1935 AD",
+      "explanation": "President Franklin D. Roosevelt dedicated the colossal dam on September 30, 1935, completed two years ahead of schedule.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which artificial waterway opened in 1914 across the Isthmus of Panama, cutting 13,000 kilometers from maritime voyages between the Atlantic and Pacific?",
+      "options": [
+        "Panama Canal",
+        "Suez Canal",
+        "Kiel Canal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Panama Canal raises ships eighty-five feet above sea level into Gatun Lake using a three-tier system of massive gravity-fed water locks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major 2016 engineering expansion added a third set of wider lock chambers to the Panama Canal to accommodate colossal Neopanamax vessels?",
+      "options": [
+        "Nicaragua Grand Canal",
+        "Panama Canal Expansion Project",
+        "Gatun Deepening Scheme"
+      ],
+      "correctIndex": 1,
+      "explanation": "The expansion introduced rolling gates and water-saving recapture basins that recycle sixty percent of lockage water.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Egyptian sea-level canal connecting the Mediterranean Sea to the Red Sea underwent a major expansion in 2015 adding a second parallel shipping lane?",
+      "options": [
+        "Corinth Canal",
+        "El Salam Canal",
+        "Suez Canal"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 35-kilometer New Suez Canal project doubled daily ship transit capacity and slashed vessel waiting times from eighteen to eleven hours.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which canal through northern Germany connects the North Sea at Brunsbüttel to the Baltic Sea at Kiel, operating as the world busiest artificial waterway?",
+      "options": [
+        "Kiel Canal",
+        "Elbe-Lübeck Canal",
+        "Mittelland Canal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Kiel Canal opened in 1895, allowing naval and merchant ships to bypass the stormy transit around Denmark Jutland peninsula.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which deep-water shipping system completed in 1959 uses fifteen locks to lift ocean freighters from the Atlantic Ocean up to Lake Superior?",
+      "options": [
+        "Erie Seaway",
+        "Saint Lawrence Seaway",
+        "Welland Canal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The system lifts ships over 180 meters above sea level, providing direct ocean access to Great Lakes industrial ports.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many total original lock chambers were constructed across the three lock sets of the historic 1914 Panama Canal?",
+      "target": 12,
+      "metricUnit": "locks",
+      "imperialDisplay": "12 lock chambers",
+      "explanation": "The original canal was built with 12 total lock chambers arranged in parallel pairs: 6 for up-bound and 6 for down-bound ship transits.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive Dutch coastal defense network constructed after the 1953 flood disaster was named one of the Seven Wonders of the Modern World?",
+      "options": [
+        "Zuiderzee Works",
+        "Afsluitdijk",
+        "Delta Works"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Delta Works includes dams, dykes, and the 9-kilometer Oosterscheldekering storm surge barrier with sixty-two massive steel sliding gates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What experimental flood barrier project in Venice utilizes seventy-eight yellow buoyant steel flap gates that rise from the seabed during high tides?",
+      "options": [
+        "MOSE Project",
+        "Acqua Alta Shield",
+        "Venetian Dike System"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modulo Sperimentale Elettromeccanico gates fill with compressed air to isolate the Venetian Lagoon from Adriatic storm surges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which London river defense barrier across the River Thames uses ten rotating steel sector gates to protect central London from North Sea storm surges?",
+      "options": [
+        "Woolwich Surge Gate",
+        "Thames Barrier",
+        "Severn Tidal Barrier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operational since 1982, the barrier gates rotate upright into defensive positions when high tides threaten the capital.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What storm surge barrier in Rotterdam features two colossal curved steel gates, each the size of the Eiffel Tower, that swing together across the New Waterway?",
+      "options": [
+        "Hartelkering",
+        "Oosterscheldekering",
+        "Maeslantkering"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Maeslantkering is one of the largest moving structures on Earth, resting on giant ball-and-socket joints.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which 32-kilometer enclosure dam completed in 1932 dammed the Zuiderzee inlet in the Netherlands, turning it into the freshwater Lake IJssel?",
+      "options": [
+        "Afsluitdijk",
+        "Houtribdijk",
+        "Brouwersdam"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineered by Cornelis Lely, the Afsluitdijk paved the way for the reclamation of Flevoland, the largest artificial island on Earth.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year was the Thames Barrier in London officially inaugurated by Queen Elizabeth II?",
+      "target": 1984,
+      "metricUnit": "year",
+      "imperialDisplay": "1984 AD",
+      "explanation": "Queen Elizabeth II officially opened the Thames Barrier on May 8, 1984, following its first operational closure in 1982.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which music and entertainment venue in Las Vegas, opened in 2023, is the largest spherical building on Earth at 112 meters tall and 157 meters wide?",
+      "options": [
+        "Ericsson Globe",
+        "Sphere at The Venetian Resort",
+        "Mercedes-Benz Superdome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sphere features a 54,000-square-meter exterior LED screen and a 16K wraparound interior display with beamforming audio.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which multipurpose stadium in Houston, Texas, was nicknamed the Eighth Wonder of the World when it opened in 1965 as the first domed sports stadium?",
+      "options": [
+        "Kingdome",
+        "Metrodome",
+        "Astrodome"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Astrodome pioneered indoor baseball, air-conditioned arenas, and synthetic Astroturf when natural grass failed beneath the roof.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Atlanta stadium features a unique circular retractable roof composed of eight triangular ethylene tetrafluoroethylene petals that open like a camera aperture?",
+      "options": [
+        "Mercedes-Benz Stadium",
+        "SoFi Stadium",
+        "Allegiant Stadium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercedes-Benz Stadium features a 360-degree halo board suspended beneath the mechanical roof, seating over seventy thousand fans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What famous Beijing stadium constructed for the 2008 Summer Olympics was nicknamed the Bird Nest due to its intricate, exposed structural steel lattice?",
+      "options": [
+        "Water Cube",
+        "Beijing National Stadium",
+        "Wukesong Arena"
+      ],
+      "correctIndex": 1,
+      "explanation": "Designed by Swiss architects Herzog & de Meuron and artist Ai Weiwei, the stadium consumed over 42,000 tons of structural steel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which national stadium in Singapore holds the world record for the largest free-spanning dome structure at 310 meters in diameter?",
+      "options": [
+        "AT&T Stadium",
+        "Tokyo Dome",
+        "Singapore National Stadium"
+      ],
+      "correctIndex": 2,
+      "explanation": "The dome features an ultra-thin movable roof and specialized bowl cooling that circulates cool air to every seat.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the exterior diameter in meters of the Sphere in Las Vegas, the world largest spherical structure?",
+      "target": 157,
+      "metricUnit": "meters",
+      "imperialDisplay": "516 feet",
+      "explanation": "The Sphere measures 157 meters wide at its broadest point and rises 112 meters high, wrapped in 1.2 million programmable LED pucks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which particle physics facility at CERN near Geneva is the world largest and most complex scientific machine, housed in a 27-kilometer circular tunnel?",
+      "options": [
+        "Large Hadron Collider",
+        "Tevatron",
+        "Relativistic Heavy Ion Collider"
+      ],
+      "correctIndex": 0,
+      "explanation": "The LHC accelerates proton beams to near light-speed using superconducting niobium-titanium magnets, discovering the Higgs boson in 2012.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What artificial archipelago shaped like a palm tree was constructed off the coast of Dubai using 94 million cubic meters of sand and seven million tons of rock?",
+      "options": [
+        "The World Islands",
+        "Palm Jumeirah",
+        "Palm Jebel Ali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Palm Jumeirah added seventy-eight kilometers of coastline to Dubai, stabilized by GPS satellite-guided precision dredging.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What major London railway megaproject, officially opened as the Elizabeth Line in 2022, bored 42 kilometers of new subterranean tunnels beneath central London?",
+      "options": [
+        "Thameslink",
+        "High Speed 2",
+        "Crossrail"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crossrail was one of Europe largest infrastructure undertakings, seamlessly linking Berkshire, Heathrow Airport, central London, and Essex.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What multinational modular space laboratory, orbiting 400 kilometers above Earth since 1998, is the largest human-made structure in outer space?",
+      "options": [
+        "International Space Station",
+        "Tiangong Space Station",
+        "Mir Space Station"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ISS spans 108 meters from end to end, assembled through dozens of Space Shuttle, Proton, and Soyuz rocket launches.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which nuclear fusion megaproject under construction in Cadarache, France, will house the world largest magnetic confinement tokamak reactor?",
+      "options": [
+        "JET",
+        "ITER",
+        "Wendelstein 7-X"
+      ],
+      "correctIndex": 1,
+      "explanation": "ITER is funded by thirty-five nations to demonstrate net energy gain from magnetic plasma confinement at 150 million degrees Celsius.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total circumference in kilometers of the underground Large Hadron Collider tunnel at CERN?",
+      "target": 27,
+      "metricUnit": "km",
+      "imperialDisplay": "16.6 miles",
+      "explanation": "The LHC circular ring measures exactly 26.7 kilometers (rounded to 27 km), straddling the border between Switzerland and France.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

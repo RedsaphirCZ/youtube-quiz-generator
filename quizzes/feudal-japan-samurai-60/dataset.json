@@ -1,0 +1,703 @@
+{
+  "id": "feudal-japan-samurai-60",
+  "theme": "Feudal Japan: Samurai, Shogunate & Sengoku Era",
+  "title": "Feudal Japan: Samurai, Shogunate & Sengoku Era",
+  "description": "A 60-question grand master assessment on the Kamakura and Tokugawa shogunates, Samurai bushido code, Oda Nobunaga, Toyotomi Hideyoshi, Tokugawa Ieyasu, and Edo period culture.",
+  "category": "Ancient Civilizations & Empires",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who established the Kamakura Shogunate in 1192 CE, becoming the first official Shogun of feudal Japan?",
+      "options": [
+        "Minamoto no Yoritomo",
+        "Taira no Kiyomori",
+        "Tokugawa Ieyasu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Minamoto no Yoritomo defeated the Taira clan in the Genpei War, establishing the Kamakura Bakufu and initiating warrior dominance over the imperial court.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What war between the Taira and Minamoto clans between 1180 and 1185 established the dominance of the samurai warrior class?",
+      "options": [
+        "Onin War",
+        "Genpei War",
+        "Boshin War"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Genpei War culminated in the naval Battle of Dan-no-ura in 1185, where the Minamoto decisively crushed the rival Taira clan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What term was used for the military government of Japan headed by a shogun from 1192 to 1867?",
+      "options": [
+        "Daimyate",
+        "Han",
+        "Bakufu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bakufu translates literally as tent government, reflecting the battlefield origins of military administration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which aristocratic court era preceding the rise of the samurai was renowned for cultural refinement, The Tale of Genji, and the Heian-kyo capital?",
+      "options": [
+        "Heian Period",
+        "Nara Period",
+        "Kofun Period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Heian Period in Kyoto celebrated classical aesthetics and literature while delegating regional policing to provincial warrior clans.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Buddhist sect emphasizing direct intuition, meditation, and mental discipline became deeply embraced by samurai warriors?",
+      "options": [
+        "Pure Land Buddhism",
+        "Zen Buddhism",
+        "Nichiren Buddhism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zen Buddhism appealed to samurai through its emphasis on calm focus, detachment from mortality, and rigorous self-discipline.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Emperor Go-Toba formally grant Minamoto no Yoritomo the title of Sei-i Taishogun, founding the Kamakura Shogunate?",
+      "target": 1192,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1192 CE",
+      "explanation": "In 1192 CE, Yoritomo was appointed Shogun, establishing hereditary military governance that lasted nearly seven centuries.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ethical and philosophical code of conduct, meaning Way of the Warrior, governed samurai behavior, loyalty, and honor?",
+      "options": [
+        "Shintoism",
+        "Chado",
+        "Bushido"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bushido synthesized Confucian loyalty, Zen detachment, and Shinto martial spirit, emphasizing honor, courage, and self-sacrifice.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What specialized high-purity carbon steel produced in traditional tatara clay smelting furnaces was used to forge katana blades?",
+      "options": [
+        "Tamahagane",
+        "Damascus steel",
+        "Wootz steel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tamahagane steel was forged by smelting iron sand and charcoal over three days, producing metal of variable carbon content for blade lamination.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ritual form of suicide by disembowelment did samurai perform to restore family honor or avoid capture?",
+      "options": [
+        "Kamikaze",
+        "Seppuku",
+        "Tsubame"
+      ],
+      "correctIndex": 1,
+      "explanation": "Also known as harakiri, seppuku allowed a warrior to demonstrate courage, dying with honor alongside an appointed second who delivered decapitation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What paired set of swords, consisting of the long katana and short companion wakizashi, symbolized samurai social status?",
+      "options": [
+        "Nodachi",
+        "Naginata",
+        "Daisho"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Daisho, literally big-small, was an exclusive badge of samurai nobility throughout the feudal era.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinct curved polearm weapon with a single-edged blade was famously mastered by samurai women of the bushi class and warrior monks?",
+      "options": [
+        "Naginata",
+        "Yari",
+        "Kanabo"
+      ],
+      "correctIndex": 0,
+      "explanation": "The naginata provided superior reach and sweeping cuts, making it a favored defense weapon for onna-musha female warriors.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many total layers of steel are created in a masterfully folded traditional Japanese katana blade during forging?",
+      "target": 32768,
+      "metricUnit": "layers",
+      "imperialDisplay": "32,768 folded layers",
+      "explanation": "Folding a steel billet 15 successive times doubles the grain structure repeatedly, producing 2^15 or 32,768 micro-layers of steel.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What natural weather disaster destroyed the invading Mongol-Yuan fleets in 1274 and 1281, inspiring the term Divine Wind?",
+      "options": [
+        "Tsunami",
+        "Kamikaze Typhoon",
+        "Volcanic Ash Storm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Massive typhoons battered Kublai Khan's armada in Hakata Bay, saving Japan and giving rise to the spiritual belief in Kamikaze.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What massive coastal defensive fortification did the Kamakura shogunate build along Hakata Bay to repel the second Mongol invasion?",
+      "options": [
+        "Himeji Moat",
+        "Edo Outer Palisades",
+        "Genko Borui Stone Wall"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Genko Borui was a 20-kilometer stone wall erected along the Kyushu coast, preventing Mongol landing forces from establishing a beachhead.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which regent clan held de facto political control over the Kamakura Shogunate through the position of Shikken?",
+      "options": [
+        "Hojo Clan",
+        "Ashikaga Clan",
+        "Fujiwara Clan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hojo clan governed as hereditary regents for figurehead shoguns, successfully repelling the Mongol invasions of 1274 and 1281.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What brief imperial restoration in 1333 led by Emperor Go-Daigo sought to abolish military rule before being overthrown?",
+      "options": [
+        "Meiji Restoration",
+        "Kenmu Restoration",
+        "Taika Reform"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Kenmu Restoration attempted to reassert direct imperial rule, but disillusioned samurai rallied behind Ashikaga Takauji.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who turned against Emperor Go-Daigo and established the Ashikaga Muromachi Shogunate in Kyoto in 1336?",
+      "options": [
+        "Oda Nobunaga",
+        "Minamoto no Yoritomo",
+        "Ashikaga Takauji"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ashikaga Takauji drove Go-Daigo to Yoshino and established his new military administration in the Muromachi district of Kyoto.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the second and largest Mongol invasion armada under Kublai Khan assault the coast of Kyushu?",
+      "target": 1281,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1281 CE",
+      "explanation": "The 1281 invasion fleet carried an estimated 140,000 Mongol, Chinese, and Korean troops before being devastated by typhoons.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous Zen temple in Kyoto, covered in gold leaf, was built by Ashikaga Shogun Yoshimitsu in 1397?",
+      "options": [
+        "Kinkaku-ji",
+        "Ginkaku-ji",
+        "Ryoan-ji"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kinkaku-ji, the Temple of the Golden Pavilion, exemplifies the luxurious Kitayama cultural style patronized by Ashikaga Yoshimitsu.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What stylized classical theatrical art form, characterized by wooden masks and slow movements, was perfected under Ashikaga patronage by Zeami?",
+      "options": [
+        "Kabuki",
+        "Noh",
+        "Bunraku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zeami Motokiyo refined Noh drama into a philosophical spiritual art form blending Zen principles, poetry, and masked dance.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What devastating civil conflict in Kyoto from 1467 to 1477 shattered the Ashikaga Shogunate and initiated the Warring States period?",
+      "options": [
+        "Genpei War",
+        "Boshin War",
+        "Onin War"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Onin War erupted over shogunal succession disputes, reducing Kyoto to ashes and initiating a century of decentralized civil warfare.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What era of continuous civil war and social upheaval, lasting from 1467 to roughly 1603, is known as the Country at War period?",
+      "options": [
+        "Sengoku Jidai",
+        "Edo Period",
+        "Meiji Era"
+      ],
+      "correctIndex": 0,
+      "explanation": "During Sengoku Jidai, regional warlords known as daimyo fought continuously for territorial dominance and national supremacy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What title was given to the powerful feudal lords who commanded private samurai armies and governed autonomous provincial domains?",
+      "options": [
+        "Hatamoto",
+        "Daimyo",
+        "Ronin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daimyo, meaning great name, ruled castle towns and commanded vassal retainers during the feudal era.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many total continuous years did the destructive Onin War ravage Kyoto between 1467 and 1477?",
+      "target": 10,
+      "metricUnit": "years",
+      "imperialDisplay": "10 years (1467–1477)",
+      "explanation": "The Onin War lasted ten grueling years, destroying the political authority of the Ashikaga bakufu and triggering Sengoku anarchy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first of the Three Great Unifiers of Japan, known for his ruthless pragmatism and adoption of firearms?",
+      "options": [
+        "Tokugawa Ieyasu",
+        "Toyotomi Hideyoshi",
+        "Oda Nobunaga"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oda Nobunaga unified central Japan through economic liberalization, military modernization, and crushing religious warrior bastions.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what pivotal 1560 battle did Oda Nobunaga achieve a stunning surprise victory against the vastly superior army of Imagawa Yoshimoto?",
+      "options": [
+        "Battle of Okehazama",
+        "Battle of Sekigahara",
+        "Battle of Nagashino"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nobunaga exploited a torrential rainstorm to launch a flank attack on the resting Imagawa command, instantly catapulting to prominence.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In which 1575 battle did Oda Nobunaga and Tokugawa Ieyasu deploy rotating volleys of matchlock arquebuses behind wooden palisades to crush Takeda cavalry?",
+      "options": [
+        "Battle of Kawanakajima",
+        "Battle of Nagashino",
+        "Battle of Mikatagahara"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Battle of Nagashino demonstrated the lethal superiority of synchronized firearm volley fire over traditional mounted samurai charges.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What Portuguese matchlock firearm, introduced to Japan via a shipwrecked trade vessel in 1543, revolutionized Sengoku warfare?",
+      "options": [
+        "Flintlock musket",
+        "Culverin",
+        "Tanegashima arquebus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Named after the island of Tanegashima where it arrived, Japanese metalsmiths rapidly reverse-engineered and mass-produced thousands of matchlocks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "At which Kyoto temple was Oda Nobunaga betrayed and forced to commit seppuku by his general Akechi Mitsuhide in 1582?",
+      "options": [
+        "Honno-ji",
+        "Enryaku-ji",
+        "Daitoku-ji"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Honno-ji Incident cut short Nobunaga's unification campaign just as he stood on the verge of total military mastery.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many matchlock arquebuses did Oda Nobunaga famously deploy in triple-ranked rotating volleys at the Battle of Nagashino in 1575?",
+      "target": 3000,
+      "metricUnit": "guns",
+      "imperialDisplay": "3,000 matchlocks",
+      "explanation": "Nobunaga deployed 3,000 arquebusiers behind wooden palisades, maintaining continuous fire that decimated the famed Takeda cavalry.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who rose from humble peasant origins to succeed Oda Nobunaga and become the second Great Unifier of Japan?",
+      "options": [
+        "Tokugawa Ieyasu",
+        "Toyotomi Hideyoshi",
+        "Date Masamune"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toyotomi Hideyoshi avenged Nobunaga at Yamazaki, subjugated the remaining daimyo, and completed the political unification of Japan.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What nationwide decree did Toyotomi Hideyoshi enact in 1588 to disarm the peasantry and enforce rigid social class segregation?",
+      "options": [
+        "Edict of Isolation",
+        "Five Regulations",
+        "Great Sword Hunt"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sword Hunt confiscated all weapons from farmers, declaring the metal would be melted to construct a giant Great Buddha statue.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What grand golden castle did Toyotomi Hideyoshi build as his primary power base and fortress in western Japan?",
+      "options": [
+        "Osaka Castle",
+        "Himeji Castle",
+        "Matsumoto Castle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Built in 1583 on the former site of the Ishiyama Hongan-ji, Osaka Castle was an impregnable fortress with massive granite walls.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What master tea ceremony practitioner developed the wabi-cha rustic tea aesthetic under the patronage of Oda Nobunaga and Hideyoshi?",
+      "options": [
+        "Zeami",
+        "Sen no Rikyu",
+        "Kano Eitoku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sen no Rikyu established the timeless principles of harmony, respect, purity, and tranquility before being ordered by Hideyoshi to commit seppuku.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What ambitious foreign military campaign did Toyotomi Hideyoshi launch twice in the 1590s in an attempt to conquer Ming China?",
+      "options": [
+        "Invasions of Ryukyu",
+        "Siege of Taiwan",
+        "Invasions of Korea"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Imjin War (1592-1598) devastated the Korean peninsula before Japanese forces withdrew following Hideyoshi's death.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did Toyotomi Hideyoshi launch his first massive invasion armada of over 150,000 samurai into Joseon Korea?",
+      "target": 1592,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1592 CE",
+      "explanation": "Launched in 1592, the initial Japanese campaign made rapid early gains before encountering Joseon naval resistance and Ming Chinese intervention.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which decisive battle fought on October 21, 1600, secured Tokugawa Ieyasu's undisputed mastery over Japan?",
+      "options": [
+        "Battle of Sekigahara",
+        "Battle of Kawanakajima",
+        "Battle of Shizugatake"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Battle of Sekigahara pitted Ieyasu's Eastern Army against Ishida Mitsunari's Western Army, ending in a crushing Tokugawa triumph.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which general defected mid-battle from the Western Army at Sekigahara, attacking his own allies and ensuring Tokugawa victory?",
+      "options": [
+        "Sanada Yukimura",
+        "Kobayakawa Hideaki",
+        "Mori Terumoto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kobayakawa Hideaki withheld his troops until pressured by Tokugawa gunfire, charging down Mount Matsuo to crush the Western flank.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic castle town did Tokugawa Ieyasu choose as the administrative capital of his shogunate, later renamed Tokyo?",
+      "options": [
+        "Kyoto",
+        "Kamakura",
+        "Edo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ieyasu transformed the swampy fishing village of Edo into a colossal fortified administrative center and the world's most populous city.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In what two-part siege in 1614 and 1615 did the Tokugawa Shogunate finally eliminate the Toyotomi clan and burn Osaka Castle?",
+      "options": [
+        "Siege of Osaka",
+        "Siege of Odawara",
+        "Siege of Fushimi"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Winter and Summer Sieges of Osaka eliminated Toyotomi Hideyori and established unchallenged Tokugawa supremacy.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which famous warrior, known as the Crimson Demon of War, led legendary suicidal cavalry charges against Tokugawa headquarters at Osaka?",
+      "options": [
+        "Miyamoto Musashi",
+        "Sanada Yukimura",
+        "Date Masamune"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sanada Yukimura fought with such ferocity at the Summer Siege of Osaka that Tokugawa Ieyasu praised him as the number one warrior in Japan.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "Approximately how many total combatants fought across the misty fields at the Battle of Sekigahara in October 1600?",
+      "target": 160000,
+      "metricUnit": "soldiers",
+      "imperialDisplay": "160,000 troops",
+      "explanation": "Roughly 160,000 soldiers from across Japan clashed at Sekigahara in the largest and most consequential samurai battle in history.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What system of alternate attendance forced daimyo to reside in Edo every other year and leave their families as hostages?",
+      "options": [
+        "Goningumi",
+        "Sakoku",
+        "Sankin-kotai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sankin-kotai drained daimyo financial resources through costly annual processions, preventing rebellion and centralizing shogunal control.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the strict four-tier Confucian social class hierarchy established during the Edo period called?",
+      "options": [
+        "Shinokosho",
+        "Han-batsu",
+        "Za-shiki"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shinokosho ranked society into Samurai (warriors), Farmers (producers), Artisans (makers), and Merchants (traders) at the bottom.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What term was used for a masterless samurai who had lost his lord or domain due to warfare or shogunal confiscation?",
+      "options": [
+        "Ashigaru",
+        "Ronin",
+        "Hatamoto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ronin roamed the countryside as mercenaries, teachers, bandits, or bodyguards during peacetime.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What white plaster fortress in Hyogo prefecture, nicknamed the White Heron Castle, survived centuries of warfare intact?",
+      "options": [
+        "Matsumoto Castle",
+        "Nagoya Castle",
+        "Himeji Castle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Himeji Castle is Japan's finest surviving feudal castle, featuring intricate defensive gates, stone drops, and an eight-story main keep.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary dual-wielding swordsman and philosopher authored The Book of Five Rings on martial strategy?",
+      "options": [
+        "Miyamoto Musashi",
+        "Sasaki Kojiro",
+        "Yagyu Jubei"
+      ],
+      "correctIndex": 0,
+      "explanation": "Miyamoto Musashi fought over 60 undefeated duels, developing the Niten Ichi-ryu two-sword technique before retiring to write philosophy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "For how many total years did the peaceful Tokugawa Edo Shogunate rule Japan between 1603 and 1867?",
+      "target": 264,
+      "metricUnit": "years",
+      "imperialDisplay": "264 years (1603–1867)",
+      "explanation": "The Pax Tokugawa maintained internal peace and stable military governance for 264 years until the Meiji Restoration.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What strict foreign policy of national seclusion, enacted in the 1630s, banned foreigners and forbade Japanese from leaving abroad?",
+      "options": [
+        "Sankin",
+        "Sakoku",
+        "Bushido"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sakoku restricted foreign interactions to eliminate Christian influence and monopolize foreign trade through strictly controlled ports.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What artificial fan-shaped island in Nagasaki harbor served as the sole trading post for Dutch merchants during the Sakoku era?",
+      "options": [
+        "Tsushima",
+        "Tanegashima",
+        "Dejima"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dutch traders were confined to Dejima, serving as Japan's sole window to European scientific and medical knowledge known as Rangaku.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What covert agents, trained in espionage, stealth, sabotage, and guerrilla tactics in Iga and Koga, served feudal warlords?",
+      "options": [
+        "Shinobi",
+        "Yamabushi",
+        "Sohei"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shinobi performed covert reconnaissance, infiltration, and intelligence gathering throughout the feudal era.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What popular dynamic theatrical art form featuring dramatic makeup, elaborate costumes, and all-male actors flourished during the Edo period?",
+      "options": [
+        "Noh",
+        "Kabuki",
+        "Kyogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Created by Izumo no Okuni, Kabuki evolved into vibrant urban entertainment beloved by the rising merchant class in Edo and Osaka.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What genre of Japanese woodblock prints and paintings, meaning pictures of the floating world, depicted geishas, actors, and landscapes?",
+      "options": [
+        "Suibokuga",
+        "Nihonga",
+        "Ukiyo-e"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ukiyo-e prints by master artists like Hokusai and Hiroshige captured the ephemeral pleasures and landscapes of Edo urban life.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the bloody Shimabara Rebellion of Christian peasants and ronin lead to the complete sealing of Japan under Sakoku?",
+      "target": 1637,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1637 CE",
+      "explanation": "The 1637 Shimabara Rebellion led by teenage rebel Amakusa Shiro prompted the Shogunate to outlaw Christianity and ban Portuguese trade.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What celebrated historical incident in 1703 involved 47 former samurai who avenged their master Lord Asano before committing ritual seppuku?",
+      "options": [
+        "The 47 Ronin Incident",
+        "The Honno-ji Revenge",
+        "The Sakuradamon Incident"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Ako incident exemplified ultimate samurai devotion, inspiring the classic theatrical play Chushingura.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which American naval commodore sailed four black-hulled steam warships into Edo Bay in 1853, demanding Japan open to foreign trade?",
+      "options": [
+        "Douglas MacArthur",
+        "Matthew Perry",
+        "George Dewey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Commodore Matthew Perry's Black Ships forced the signing of the Treaty of Kanagawa in 1854, ending two centuries of national isolation.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What historic transformation in 1868 abolished the Tokugawa Shogunate, returned supreme power to Emperor Meiji, and ended the samurai era?",
+      "options": [
+        "Taika Reform",
+        "Kenmu Restoration",
+        "Meiji Restoration"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Meiji Restoration dismantled feudal domain privileges, created a conscript national army, and modernized Japan into an industrial power.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which southern samurai leader led the 1877 Satsuma Rebellion, the final armed resistance of traditional samurai against the imperial government?",
+      "options": [
+        "Saigo Takamori",
+        "Kido Takayoshi",
+        "Okubo Toshimichi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saigo Takamori led thousands of disaffected samurai in Kyushu, dying in battle on Shiroyama and becoming a legendary folk hero.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What 1876 imperial decree forbade the public wearing of samurai swords, officially marking the end of warrior class privileges?",
+      "options": [
+        "Buke Shohatto",
+        "Haitorei Edict",
+        "Conscription Law"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Haitorei decree prohibited all citizens except military personnel and police from carrying swords in public, dissolving the samurai caste.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year CE did the Meiji Restoration occur, formally dissolving the centuries-old shogunate system and restoring imperial rule?",
+      "target": 1868,
+      "metricUnit": "year CE",
+      "imperialDisplay": "1868 CE",
+      "explanation": "In 1868, the last Shogun Tokugawa Yoshinobu stepped down, initiating rapid modernization and industrialization under the Meiji Emperor.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}

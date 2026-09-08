@@ -1,0 +1,703 @@
+{
+  "id": "mountains-peaks-alpinism-60",
+  "theme": "Mountains & Peaks: The Himalayas, Andes & Alpinism",
+  "title": "Mountains & Peaks: The Himalayas, Andes & Alpinism",
+  "description": "Comprehensive 60-question high-altitude odyssey exploring the 14 Eight-Thousanders, the Seven Summits, iconic alpine ascents, and mountain geology.",
+  "category": "Geography, Capitals & Landscapes",
+  "difficulty": "moderate",
+  "createdAt": "2026-08-27T00:00:00Z",
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Western and Southern Hemispheres, rising to 6,961 meters in the Argentine Andes?",
+      "options": [
+        "Aconcagua",
+        "Ojos del Salado",
+        "Huascarán"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aconcagua in Mendoza Province, Argentina, is the highest summit on Earth outside the mountain ranges of Central and South Asia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which colossal Alaskan peak is the highest mountain summit in North America, formerly known as Mount McKinley?",
+      "options": [
+        "Mount Logan",
+        "Denali",
+        "Mount Saint Elias"
+      ],
+      "correctIndex": 1,
+      "explanation": "Denali rises 6,190 meters above sea level and features one of the greatest base-to-peak vertical land rises of any mountain on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What dormant stratovolcano in Tanzania is the highest freestanding mountain above surrounding terrain on Earth?",
+      "options": [
+        "Mount Kenya",
+        "Mount Stanley",
+        "Mount Kilimanjaro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Kilimanjaro rises 5,895 meters above sea level with three volcanic cones named Kibo, Mawenzi, and Shira.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which twin-peaked dormant volcano in the Caucasus Mountains of Russia is the highest peak in Europe at 5,642 meters?",
+      "options": [
+        "Mount Elbrus",
+        "Mont Blanc",
+        "Mount Kazbek"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Elbrus in the western Caucasus surpasses Mont Blanc by nearly a thousand meters to claim the European Seven Summit title.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What remote peak in the Sentinel Range is the highest mountain summit on the continent of Antarctica?",
+      "options": [
+        "Mount Erebus",
+        "Mount Vinson",
+        "Mount Sidley"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Vinson rises 4,892 meters above sea level roughly 1,200 kilometers from the South Pole.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official height in meters above sea level of Aconcagua, the highest mountain summit outside Asia?",
+      "target": 6961,
+      "metricUnit": "meters",
+      "imperialDisplay": "22,838 feet",
+      "explanation": "Aconcagua in the Argentine Andes stands at 6,961 meters, making it the crowning peak of the Americas.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which formidable mountain on the China-Pakistan border is the second-tallest peak on Earth and known as the Savage Mountain?",
+      "options": [
+        "Kangchenjunga",
+        "Lhotse",
+        "K2"
+      ],
+      "correctIndex": 2,
+      "explanation": "K2 in the Karakoram Range rises 8,611 meters and is notorious for severe weather, technical difficulty, and extreme fatality rates.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the third-highest mountain in the world, situated along the sovereign border between Nepal and the Indian state of Sikkim?",
+      "options": [
+        "Kangchenjunga",
+        "Makalu",
+        "Cho Oyu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kangchenjunga stands at 8,586 meters and was believed to be the highest mountain on Earth until the Great Trigonometrical Survey of the 1850s.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which eight-thousander peak is directly connected to Mount Everest via the famous South Col ridge at 7,986 meters?",
+      "options": [
+        "Nuptse",
+        "Lhotse",
+        "Makalu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lhotse is the fourth-highest mountain on Earth at 8,516 meters, sharing the standard South Col route with Mount Everest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which distinct four-sided pyramid peak located twenty kilometers east of Mount Everest is the fifth-highest mountain on Earth?",
+      "options": [
+        "Dhaulagiri",
+        "Manaslu",
+        "Makalu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Makalu rises 8,485 meters and is recognized for its knife-edge ridges and challenging granite summit pyramid.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the only 8,000-meter peak located entirely within Chinese Tibetan territory without bordering Nepal or Pakistan?",
+      "options": [
+        "Shishapangma",
+        "Cho Oyu",
+        "Gasherbrum I"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shishapangma rises 8,027 meters in south-central Tibet and was the final eight-thousander to be summited in 1964.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the exact official height in meters above sea level of K2, the Savage Mountain?",
+      "target": 8611,
+      "metricUnit": "meters",
+      "imperialDisplay": "28,251 feet",
+      "explanation": "K2 stands at exactly 8,611 meters in the Karakoram Range, second only to Mount Everest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountaineering duo achieved the historic first confirmed summit of Mount Everest on May 29, 1953?",
+      "options": [
+        "George Mallory and Andrew Irvine",
+        "Edmund Hillary and Tenzing Norgay",
+        "Maurice Herzog and Louis Lachenal"
+      ],
+      "correctIndex": 1,
+      "explanation": "New Zealander Edmund Hillary and Nepali Sherpa Tenzing Norgay climbed the South Col route as part of the ninth British Everest expedition.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What was the very first 8,000-meter mountain ever successfully climbed by humans, summited by a French expedition in 1950?",
+      "options": [
+        "Nanga Parbat",
+        "K2",
+        "Annapurna I"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maurice Herzog and Louis Lachenal reached the 8,091-meter summit of Annapurna I on June 3, 1950, without bottled oxygen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which legendary Italian mountaineer became the first person to climb all fourteen 8,000-meter peaks without supplemental oxygen?",
+      "options": [
+        "Reinhold Messner",
+        "Walter Bonatti",
+        "Jerzy Kukuczka"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reinhold Messner completed all fourteen eight-thousanders between 1970 and 1986, establishing new benchmarks in alpine-style climbing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain in Pakistan earned the grim nickname Killer Mountain after thirty-one climbers died before its first ascent in 1953?",
+      "options": [
+        "Broad Peak",
+        "Nanga Parbat",
+        "Gasherbrum II"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nanga Parbat at 8,126 meters features the Rupal Face, the highest vertical mountain face in the world rising 4,600 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first woman in history to stand atop the summit of Mount Everest, achieving the feat in May 1975?",
+      "options": [
+        "Wanda Rutkiewicz",
+        "Gerlinde Kaltenbrunner",
+        "Junko Tabei"
+      ],
+      "correctIndex": 2,
+      "explanation": "Japanese mountaineer Junko Tabei reached the summit via the South Col route, leading an all-female expedition.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Maurice Herzog and Louis Lachenal reach the summit of Annapurna, completing the first ascent of an 8,000-meter peak?",
+      "target": 1950,
+      "metricUnit": "year",
+      "imperialDisplay": "1950 AD",
+      "explanation": "The French expedition stood on the summit of Annapurna on June 3, 1950, ushering in the golden age of Himalayan mountaineering.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Because of Earth equatorial bulge, the summit of which Ecuadorian volcano is the closest terrestrial point to the Moon and outer space?",
+      "options": [
+        "Mount Chimborazo",
+        "Mount Cotopaxi",
+        "Mount Cayambe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chimborazo summit sits 6,384 kilometers from Earth center, roughly two kilometers farther from the core than Mount Everest.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest active volcano on Earth, rising to 6,893 meters along the border between Chile and Argentina?",
+      "options": [
+        "Llullaillaco",
+        "Ojos del Salado",
+        "Guallatiri"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ojos del Salado in the Atacama region is the highest volcano on Earth and the second-highest peak in the Western Hemisphere.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which perfectly symmetrical snow-capped stratovolcano is one of the highest active volcanoes in the world, located south of Quito?",
+      "options": [
+        "Antisana",
+        "Tungurahua",
+        "Cotopaxi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cotopaxi stands at 5,897 meters and is sacred in indigenous Andean culture, renowned for its almost perfect cone profile.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain summit in Peru, located in the Cordillera Blanca range of the central Andes at 6,768 meters?",
+      "options": [
+        "Huascarán",
+        "Yerupajá",
+        "Coropuna"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Huascarán is the highest tropical mountain on Earth, protected inside the UNESCO-listed Huascarán National Park.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which jagged granite monolith in Patagonia on the Argentina-Chile border is named after the captain of HMS Beagle?",
+      "options": [
+        "Cerro Torre",
+        "Mount Fitz Roy",
+        "Torres del Paine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Fitz Roy, also known as Chaltén, was named by explorer Francisco Moreno in honor of Captain Robert FitzRoy.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official elevation in meters above sea level of Ojos del Salado, the world highest volcano?",
+      "target": 6893,
+      "metricUnit": "meters",
+      "imperialDisplay": "22,615 feet",
+      "explanation": "Nevado Ojos del Salado stands at 6,893 meters in the dry Andes, featuring a permanent crater lake near its summit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What iconic pyramid-shaped peak on the Swiss-Italian border was first climbed in 1865 by an expedition led by Edward Whymper?",
+      "options": [
+        "Weisshorn",
+        "Dom",
+        "Matterhorn"
+      ],
+      "correctIndex": 2,
+      "explanation": "The first ascent of the 4,478-meter Matterhorn on July 14, 1865, ended in tragedy when four climbers fell to their deaths during the descent.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Alps and Western Europe, rising on the border between France and Italy?",
+      "options": [
+        "Mont Blanc",
+        "Monte Rosa",
+        "Grand Combin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mont Blanc stands at approximately 4,808 meters, first summited in 1786 by Jacques Balmat and Michel Paccard.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain in the Bernese Alps is notorious for its sheer, 1,800-meter-high North Face nicknamed the Nordwand or Murder Wall?",
+      "options": [
+        "Mönch",
+        "Eiger",
+        "Jungfrau"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Eiger North Face was considered the most formidable climbing problem in the Alps until it was conquered by a four-man team in 1938.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Austria, rising to 3,798 meters in the High Tauern range along the Grossglockner High Alpine Road?",
+      "options": [
+        "Wildspitze",
+        "Dachstein",
+        "Grossglockner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Grossglockner is a pyramid-shaped twin peak first climbed in 1800 by a team organized by Prince-Bishop Salm-Reifferscheidt.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain in the Julian Alps is the highest peak and national symbol of Slovenia, featured on the Slovenian national flag?",
+      "options": [
+        "Triglav",
+        "Špik",
+        "Grintovec"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triglav rises 2,864 meters and features three distinct crests, with the iconic Aljaž Tower erected on its summit in 1895.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official measured elevation in meters of Mont Blanc, the highest summit in the Alps?",
+      "target": 4808,
+      "metricUnit": "meters",
+      "imperialDisplay": "15,774 feet",
+      "explanation": "Mont Blanc measured height fluctuates slightly with summit ice pack depth, officially recorded at approximately 4,808 meters.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Canada and second-highest in North America, located in Kluane National Park in Yukon?",
+      "options": [
+        "Mount Saint Elias",
+        "Mount Logan",
+        "Mount Robson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Logan rises 5,959 meters and boasts the largest base circumference of any non-volcanic mountain on Earth.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which massive glaciated stratovolcano in Washington State is the most topographically prominent mountain in the contiguous United States?",
+      "options": [
+        "Mount Shasta",
+        "Mount Hood",
+        "Mount Rainier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Rainier rises 4,392 meters and is encased in twenty-six major glaciers, looming prominently over the Seattle metropolitan area.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest summit in the contiguous United States, rising to 4,421 meters in the Sierra Nevada range of California?",
+      "options": [
+        "Mount Whitney",
+        "Mount Shasta",
+        "Mount Elbert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Whitney lies just 136 kilometers west of Badwater Basin in Death Valley, the lowest point in North America.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in the Rocky Mountains system, rising to 4,401 meters in the Sawatch Range of Colorado?",
+      "options": [
+        "Mount Massive",
+        "Mount Elbert",
+        "Pikes Peak"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Elbert is the highest of Colorado fifty-eight fourteeners, featuring a gentle ascent trail compared to technical peaks.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which peak in Wyoming is the signature mountain of Grand Teton National Park, rising dramatically without foothills above Jackson Hole?",
+      "options": [
+        "Mount Moran",
+        "Gannett Peak",
+        "Grand Teton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Grand Teton rises 4,199 meters as a classic glaciated horn, first officially summited in 1898 by Franklin Spalding and team.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the official summit elevation in meters above sea level of Denali in Alaska?",
+      "target": 6190,
+      "metricUnit": "meters",
+      "imperialDisplay": "20,310 feet",
+      "explanation": "The United States Geological Survey established the official height of Denali at 6,190 meters following high-precision GPS surveys in 2015.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the second-highest mountain summit in Africa, featuring dramatic twin volcanic peaks named Batian and Nelion?",
+      "options": [
+        "Mount Kenya",
+        "Mount Stanley",
+        "Mount Meru"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Kenya rises 5,199 meters as an extinct stratovolcano whose glaciers feed vital water systems across central Kenya.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain range along the Uganda-DRC border was identified by Ptolemy as the legendary snow-capped Mountains of the Moon?",
+      "options": [
+        "Virunga Mountains",
+        "Rwenzori Mountains",
+        "Drakensberg"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Rwenzori Mountains host Mount Stanley at 5,109 meters and are one of only three glaciated mountain ranges in Africa.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest island peak on Earth, rising 4,884 meters in the Sudirman Range on the island of New Guinea?",
+      "options": [
+        "Mount Wilhelm",
+        "Mauna Kea",
+        "Puncak Jaya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Puncak Jaya, also known as Carstensz Pyramid, is the highest peak in Oceania and the highest summit between the Himalayas and the Andes.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain summit on the mainland Australian continent, located in the Snowy Mountains of New South Wales?",
+      "options": [
+        "Mount Kosciuszko",
+        "Mount Townsend",
+        "Mount Bogong"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Kosciuszko stands at 2,228 meters, named in 1840 by Polish explorer Paweł Strzelecki in honor of military hero Tadeusz Kościuszko.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What active stratovolcano on the island of Java is known as the highest mountain on the island, rising to 3,676 meters?",
+      "options": [
+        "Mount Bromo",
+        "Mount Semeru",
+        "Mount Merapi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Semeru is an active volcano that produces regular ash plumes and is revered in Javanese Hindu-Buddhist cosmology as Mahameru.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the summit elevation in meters of Mount Kilimanjaro Uhuru Peak in Tanzania?",
+      "target": 5895,
+      "metricUnit": "meters",
+      "imperialDisplay": "19,341 feet",
+      "explanation": "Uhuru Peak on the Kibo crater rim of Mount Kilimanjaro stands at exactly 5,895 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In high-altitude mountaineering, what critical altitude threshold marks the beginning of the physiological Death Zone?",
+      "options": [
+        "7,000 meters",
+        "6,500 meters",
+        "8,000 meters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Above 8,000 meters, atmospheric pressure drops to about one-third of sea level, preventing the human body from acclimatizing.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "How many official mountain peaks on Earth surpass the 8,000-meter threshold above sea level?",
+      "options": [
+        "14",
+        "12",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "All fourteen eight-thousanders are located in the Himalayan and Karakoram ranges of Central and South Asia.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What distinct geological limestone formation sits near the very summit of Mount Everest, proving the peak was once an ancient seafloor?",
+      "options": [
+        "Tethys Dolomite Band",
+        "Qomolangma Limestone Formation",
+        "Yellow Band Siltstone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marine fossils including ordovician trilobites and crinoids have been discovered embedded in the limestone near Everest summit.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which technical granite summit in the Karakoram is named for its massive, one-and-a-half-kilometer-long summit ridge at 8,051 meters?",
+      "options": [
+        "Gasherbrum IV",
+        "Masherbrum",
+        "Broad Peak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Broad Peak, originally designated K3, was first climbed in 1957 by an Austrian team using pure alpine style without supplemental oxygen.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the steep rock step on the Northeast Ridge of Mount Everest that forms the most famous technical obstacle on the Tibetan route?",
+      "options": [
+        "Second Step",
+        "Hillary Step",
+        "Geneva Spur"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Second Step features a near-vertical thirty-meter rock wall at 8,610 meters, now equipped with a famous aluminum ladder installed in 1975.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "How many mountain peaks on Earth are officially classified as Eight-Thousanders, rising above 8,000 meters in elevation?",
+      "target": 14,
+      "metricUnit": "peaks",
+      "imperialDisplay": "14 eight-thousanders",
+      "explanation": "There are precisely 14 independent summits on Earth that exceed 8,000 meters above sea level.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "When measured from its underwater base on the Pacific Ocean floor to its summit, what is the tallest mountain on Earth?",
+      "options": [
+        "Mauna Loa",
+        "Mauna Kea",
+        "Haleakala"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mauna Kea stands 4,207 meters above sea level, but extends nearly six thousand meters beneath the ocean surface for over 10,200 meters total height.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which sacred Japanese stratovolcano is celebrated as an exceptional cultural and spiritual icon, rising to 3,776 meters on Honshu?",
+      "options": [
+        "Mount Tate",
+        "Mount Haku",
+        "Mount Fuji"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mount Fuji is the highest peak in Japan and one of Japan Three Holy Mountains, renowned for its symmetrical snow-draped volcanic cone.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the highest mountain peak in Spain, situated on the volcanic island of Tenerife in the Canary Islands?",
+      "options": [
+        "Mount Teide",
+        "Mulhacén",
+        "Pico de Aneto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mount Teide rises 3,715 meters above sea level and casts the world largest sea shadow across the Atlantic Ocean at sunrise.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which active Antarctic volcano features a persistent convecting phonolitic lava lake in its summit caldera?",
+      "options": [
+        "Mount Terror",
+        "Mount Erebus",
+        "Mount Discovery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mount Erebus on Ross Island is the southernmost active volcano on Earth, discovered in 1841 by Sir James Clark Ross.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which Cascade Range stratovolcano underwent a catastrophic lateral blast eruption on May 18, 1980, lowering its summit by 400 meters?",
+      "options": [
+        "Mount Adams",
+        "Mount Baker",
+        "Mount Saint Helens"
+      ],
+      "correctIndex": 2,
+      "explanation": "A magnitude 5.1 earthquake triggered the largest landslide in recorded history, unleashing a devastating pyroclastic blast across Washington State.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "What is the total base-to-peak height in meters of Mauna Kea from the oceanic trench floor to its summit?",
+      "target": 10210,
+      "metricUnit": "meters",
+      "imperialDisplay": "33,500 feet",
+      "explanation": "From its base on the Pacific Ocean floor at roughly 6,000 meters depth to its 4,207-meter summit, Mauna Kea spans roughly 10,210 meters total height.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In 2019, which Nepali mountaineer shattered the world record by summiting all fourteen 8,000-meter peaks in just six months and six days?",
+      "options": [
+        "Nirmal Purja",
+        "Kami Rita Sherpa",
+        "Sanu Sherpa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nirmal Nimsdai Purja completed Project Possible 14/7, smashing the previous record of seven years and eleven months.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which mountain guide holds the world record for the highest number of successful summits of Mount Everest, having summited over thirty times?",
+      "options": [
+        "Apa Sherpa",
+        "Kami Rita Sherpa",
+        "Phurba Tashi Sherpa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kami Rita Sherpa set consecutive world records by guiding commercial and research expeditions to the summit of Everest year after year.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "In January 2021, an all-Nepali team achieved the historic and long-sought first winter ascent of which formidable mountain?",
+      "options": [
+        "Nanga Parbat",
+        "Annapurna I",
+        "K2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ten Nepali mountaineers united on the final ridge to reach the summit of K2 in sub-zero winter winds on January 16, 2021.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "Which British mountaineer famously replied 'Because it is there' when asked why he wanted to climb Mount Everest, before disappearing on the peak in 1924?",
+      "options": [
+        "George Mallory",
+        "Edward Norton",
+        "Howard Somervell"
+      ],
+      "correctIndex": 0,
+      "explanation": "George Mallory and Andrew Irvine vanished high on the Northeast Ridge on June 8, 1924, sparking mountaineering greatest enduring mystery.",
+      "validated": true
+    },
+    {
+      "type": "mcq",
+      "question": "What is the classic high-altitude mountain sickness caused by rapid ascent to altitudes above 2,500 meters without proper acclimatization?",
+      "options": [
+        "High Altitude Decompression Sickness",
+        "Acute Mountain Sickness",
+        "Hypothermic Barotrauma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Mountain Sickness is caused by reduced atmospheric pressure and lower oxygen saturation, which can progress to life-threatening HAPE or HACE.",
+      "validated": true
+    },
+    {
+      "type": "number",
+      "question": "In what year did Junko Tabei become the first woman in history to successfully stand on the summit of Mount Everest?",
+      "target": 1975,
+      "metricUnit": "year",
+      "imperialDisplay": "1975 AD",
+      "explanation": "Junko Tabei reached the summit of Mount Everest on May 16, 1975, via the South Col route alongside Sherpa Ang Tshering.",
+      "validated": true
+    }
+  ],
+  "validated": true,
+  "lastValidated": "2026-08-29"
+}
