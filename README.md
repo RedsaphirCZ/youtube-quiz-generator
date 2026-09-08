@@ -44,7 +44,6 @@ npm run build:static
 - `quizzes/` — source quiz catalog
 - `factcheck/` — editorial and evidence records
 - `scripts/` — checks, generators, exporters, and maintenance tools
-- `davinci-resolve-quiz-builder/` — separate Resolve integration utility
 - `migration/` — migration tooling; local database archives are excluded from Git
 
 Generated folders such as `dist/`, `output/`, `tmp/`, `.playwright-cli/`, and `node_modules/` are excluded from Git and can be recreated.
