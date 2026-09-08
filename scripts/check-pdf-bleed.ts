@@ -75,7 +75,36 @@ const sampleQuiz = { ...sourceQuiz, questions: sourceQuiz.questions.slice(0, 1) 
 const outputDirectory = path.resolve('output', 'pdf');
 const outputPath = path.join(outputDirectory, 'bleed-proof-front-back-sample.pdf');
 fs.mkdirSync(outputDirectory, { recursive: true });
-fs.writeFileSync(outputPath, getQuizPDFBuffer(sampleQuiz));
+const pdfBuffer = getQuizPDFBuffer(sampleQuiz);
+fs.writeFileSync(outputPath, pdfBuffer);
 
-console.log(`PASS: full ${PAGE_W} x ${PAGE_H} mm artwork with ${BLEED} mm bleed and no printed trim border.`);
+const pdfSource = pdfBuffer.toString('latin1');
+const pageDictionaries = [...pdfSource.matchAll(/<</g)].map((match) => pdfSource.slice(match.index, pdfSource.indexOf('>>', match.index) + 2));
+const pageBoxes = pageDictionaries.filter((dictionary) => dictionary.includes('/Type /Page') && !dictionary.includes('/Type /Pages'));
+if (pageBoxes.length !== 2) {
+  throw new Error(`Expected 2 card pages in the proof PDF, found ${pageBoxes.length}.`);
+}
+
+const pointsPerMillimetre = 72 / 25.4;
+const expectedTrim = [BLEED, BLEED, BLEED + TRIM_W, BLEED + TRIM_H].map((value) => value * pointsPerMillimetre);
+const expectedBleed = [0, 0, PAGE_W, PAGE_H].map((value) => value * pointsPerMillimetre);
+
+const parseBox = (dictionary: string, name: 'TrimBox' | 'BleedBox'): number[] => {
+  const match = dictionary.match(new RegExp(`/${name} \\[([^\\]]+)\\]`));
+  if (!match) throw new Error(`PDF page is missing /${name}.`);
+  return match[1].trim().split(/\s+/).map(Number);
+};
+
+const assertBox = (actual: number[], expected: number[], name: string): void => {
+  if (actual.length !== 4 || actual.some((value, index) => Math.abs(value - expected[index]) > 0.01)) {
+    throw new Error(`${name} is incorrect: [${actual.join(', ')}].`);
+  }
+};
+
+pageBoxes.forEach((dictionary, index) => {
+  assertBox(parseBox(dictionary, 'TrimBox'), expectedTrim, `Page ${index + 1} TrimBox`);
+  assertBox(parseBox(dictionary, 'BleedBox'), expectedBleed, `Page ${index + 1} BleedBox`);
+});
+
+console.log(`PASS: ${TRIM_W} x ${TRIM_H} mm TrimBox plus ${BLEED} mm bleed on every side, full-page artwork, and no printed trim border.`);
 console.log(`Sample: ${outputPath}`);

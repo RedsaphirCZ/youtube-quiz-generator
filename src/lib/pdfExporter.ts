@@ -12,6 +12,42 @@ export const BLEED = 3.0;   // mm (3mm bleed on all sides)
 export const PAGE_W = TRIM_W + 2 * BLEED; // 69.5 mm
 export const PAGE_H = TRIM_H + 2 * BLEED; // 94.9 mm
 
+type PDFPageBox = {
+  bottomLeftX: number;
+  bottomLeftY: number;
+  topRightX: number;
+  topRightY: number;
+};
+
+/**
+ * Declares the physical production boxes for the current PDF page.
+ * jsPDF otherwise writes only a MediaBox, causing print software to treat the
+ * bleed-sized page as the finished trim size.
+ */
+export function applyCardPageBoxes(doc: jsPDF): void {
+  const internal = doc.internal as typeof doc.internal & {
+    getCurrentPageInfo: () => { pageContext: unknown };
+  };
+  const pointsPerMillimetre = internal.scaleFactor;
+  const pageContext = internal.getCurrentPageInfo().pageContext as {
+    bleedBox: PDFPageBox | null;
+    trimBox: PDFPageBox | null;
+  };
+
+  pageContext.bleedBox = {
+    bottomLeftX: 0,
+    bottomLeftY: 0,
+    topRightX: PAGE_W * pointsPerMillimetre,
+    topRightY: PAGE_H * pointsPerMillimetre,
+  };
+  pageContext.trimBox = {
+    bottomLeftX: BLEED * pointsPerMillimetre,
+    bottomLeftY: BLEED * pointsPerMillimetre,
+    topRightX: (BLEED + TRIM_W) * pointsPerMillimetre,
+    topRightY: (BLEED + TRIM_H) * pointsPerMillimetre,
+  };
+}
+
 // Safe margins inside cut line
 const SAFE_X = BLEED + 1.5; // 4.5 mm from page edge
 const SAFE_W = TRIM_W - 3.0; // 60.5 mm usable width
@@ -102,6 +138,7 @@ export function drawFrontCard(
   qIndex: number,
   packName: string
 ) {
+  applyCardPageBoxes(doc);
   const partNum = Math.floor(qIndex / 20) + 1;
   const partQNum = (qIndex % 20) + 1;
 
@@ -242,6 +279,7 @@ export function drawBackCard(
   qIndex: number,
   packName: string
 ) {
+  applyCardPageBoxes(doc);
   doc.setFillColor(255, 255, 255);
   doc.rect(0, 0, PAGE_W, PAGE_H, 'F');
   doc.setFillColor(27, 94, 32);

@@ -273,7 +273,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
               <div className="bg-[#fef8e7] border border-[#c59b27] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="space-y-0.5">
                   <span className="text-[11px] font-bold text-[#7c5c0a] uppercase tracking-wider block">
-                    Poker Format: 63.5 × 88.9 mm (2.5 × 3.5 in) • {printablePageCount} Pages (Alternating Front / Back)
+                    Trim: 63.5 × 88.9 mm (2.5 × 3.5 in) + 3 mm bleed • PDF page: 69.5 × 94.9 mm • {printablePageCount} Pages
                   </span>
                   <h3 className="text-sm sm:text-base font-extrabold text-[#1f1a16]">
                     Download {printablePageCount}-Page Front-Back PDF (Montax Ready)
@@ -364,7 +364,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                 <ol className="list-decimal list-inside space-y-0.5 text-[#706860] text-[11px] leading-relaxed">
                   <li>Click <b>Download {printablePageCount}-Page PDF</b> (contains {quiz.questions.length} questions × 2 sides in alternating Front/Back order).</li>
                   <li>Import the PDF into <b>Montax Imposer</b> as a Two-Sided (Duplex) job.</li>
-                  <li>Set the trim size to <b>63.5 × 88.9 mm</b>. The PDF already includes <b>3 mm bleed</b> on every side.</li>
+                  <li>The PDF declares a <b>63.5 × 88.9 mm TrimBox</b> and a <b>3 mm BleedBox</b> on every side. Keep those imported page boxes.</li>
                   <li>Add crop marks in Montax outside the trim box. Do not add a printed card border.</li>
                 </ol>
               </div>
