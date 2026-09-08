@@ -4,7 +4,9 @@ A browser-based quiz workspace for creating research prompts, importing reviewed
 
 ## Use as a website
 
-The repository includes a GitHub Pages workflow. After GitHub Pages is enabled with **GitHub Actions** as its source, every push to `main` builds and deploys the browser-only version.
+Every push to `main` builds a browser-only website package in GitHub Actions. In a private repository on GitHub Free, open the latest successful **Build static website** run, download the `youtube-quiz-generator-website` artifact, extract it, and open `index.html` in a browser.
+
+GitHub Pages cannot publish this private repository on the current account plan. If the repository is later made public or the account is upgraded to a plan that supports Pages for private source, the same workflow automatically adds the Pages deployment job.
 
 The static website is designed for computers where you cannot install software:
 
