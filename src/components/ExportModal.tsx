@@ -23,7 +23,7 @@ import { QuizDataset } from '../types';
 import { generateStandaloneQuizHTML, QuizExportAppearance, splitQuizIntoVideoParts, VideoQuizPart } from '../lib/htmlExporter';
 import { validateQuizDataset } from '../lib/validator';
 import { generateNanDeckCSV, generateNanDeckScript, generateNanDeckCardRows } from '../lib/nandeckExporter';
-import { downloadQuizPDF, generateQuizPDF } from '../lib/pdfExporter';
+import { CARD_FORMATS, CardFormatId, downloadQuizPDF, generateQuizPDF, getCardPageSize } from '../lib/pdfExporter';
 import { createQuizExportVariant, ExportAnswerChoiceMode } from '../lib/exportVariant';
 
 interface ExportModalProps {
@@ -46,6 +46,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   // Card Preview State
   const [previewCardIndex, setPreviewCardIndex] = useState<number>(0);
   const [previewSide, setPreviewSide] = useState<'front' | 'back'>('back');
+  const [cardFormat, setCardFormat] = useState<CardFormatId>('poker');
 
   if (!isOpen) return null;
 
@@ -61,6 +62,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
     .replace(/^-|-$/g, '');
   const printablePageCount = quiz.questions.length * 2;
   const quizPartCount = Math.ceil(quiz.questions.length / 20) || 1;
+  const selectedCardFormat = CARD_FORMATS[cardFormat];
+  const [pdfPageWidth, pdfPageHeight] = getCardPageSize(selectedCardFormat);
 
   const nandeckCSV = generateNanDeckCSV(quiz);
   const nandeckScript = generateNanDeckScript(quiz, `${themeSlug}-cards.csv`);
@@ -93,11 +96,11 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   };
 
   const handleDownloadPDF = () => {
-    downloadQuizPDF(quiz, `${themeSlug}-poker-cards-duplex.pdf`);
+    downloadQuizPDF(quiz, `${themeSlug}-${cardFormat}-cards-duplex.pdf`, cardFormat);
   };
 
   const handlePreviewPDF = () => {
-    const doc = generateQuizPDF(quiz);
+    const doc = generateQuizPDF(quiz, cardFormat);
     const blob = doc.output('blob');
     const url = URL.createObjectURL(blob);
     window.open(url, '_blank');
@@ -269,11 +272,29 @@ export const ExportModal: React.FC<ExportModalProps> = ({
           {/* ========================================================================= */}
           {activeTab === 'pdf' && (
             <div className="space-y-4">
+              <fieldset className="rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
+                <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Card size</legend>
+                <div className="grid grid-cols-2 gap-2">
+                  {(Object.values(CARD_FORMATS) as typeof selectedCardFormat[]).map((format) => (
+                    <button
+                      key={format.id}
+                      type="button"
+                      onClick={() => setCardFormat(format.id)}
+                      aria-pressed={cardFormat === format.id}
+                      className={`min-h-12 rounded-lg border-2 px-3 py-2 text-left transition cursor-pointer ${cardFormat === format.id ? 'border-[#8b1e1e] bg-white text-[#8b1e1e] shadow-sm' : 'border-[#ded4c3] bg-white text-[#706860] hover:border-[#8b1e1e]'}`}
+                    >
+                      <span className="block text-sm font-extrabold">{format.label}</span>
+                      <span className="block text-[10px] font-semibold">{format.trimWidth} × {format.trimHeight} mm trim</span>
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+
               {/* Primary Action Hero */}
               <div className="bg-[#fef8e7] border border-[#c59b27] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="space-y-0.5">
                   <span className="text-[11px] font-bold text-[#7c5c0a] uppercase tracking-wider block">
-                    Trim: 63.5 × 88.9 mm (2.5 × 3.5 in) + 3 mm bleed • PDF page: 69.5 × 94.9 mm • {printablePageCount} Pages
+                    {selectedCardFormat.label} trim: {selectedCardFormat.trimWidth} × {selectedCardFormat.trimHeight} mm + {selectedCardFormat.bleed} mm bleed • PDF page: {pdfPageWidth} × {pdfPageHeight} mm • {printablePageCount} Pages
                   </span>
                   <h3 className="text-sm sm:text-base font-extrabold text-[#1f1a16]">
                     Download {printablePageCount}-Page Front-Back PDF (Montax Ready)
@@ -352,7 +373,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   </div>
                 </div>
 
-                <PDFCardPreview quiz={quiz} index={previewCardIndex} side={previewSide} />
+                <PDFCardPreview quiz={quiz} index={previewCardIndex} side={previewSide} format={cardFormat} />
               </div>
 
               {/* Instructions Callout */}
@@ -364,7 +385,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                 <ol className="list-decimal list-inside space-y-0.5 text-[#706860] text-[11px] leading-relaxed">
                   <li>Click <b>Download {printablePageCount}-Page PDF</b> (contains {quiz.questions.length} questions × 2 sides in alternating Front/Back order).</li>
                   <li>Import the PDF into <b>Montax Imposer</b> as a Two-Sided (Duplex) job.</li>
-                  <li>The PDF declares a <b>63.5 × 88.9 mm TrimBox</b> and a <b>3 mm BleedBox</b> on every side. Keep those imported page boxes.</li>
+                  <li>The PDF declares a <b>{selectedCardFormat.trimWidth} × {selectedCardFormat.trimHeight} mm TrimBox</b> and a <b>{selectedCardFormat.bleed} mm BleedBox</b> on every side. Keep those imported page boxes.</li>
                   <li>Add crop marks in Montax outside the trim box. Do not add a printed card border.</li>
                 </ol>
               </div>
