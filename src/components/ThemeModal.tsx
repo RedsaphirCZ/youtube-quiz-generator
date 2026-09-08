@@ -4,8 +4,6 @@ import {
   Sparkles, 
   BookOpen, 
   CheckCircle2, 
-  AlertCircle, 
-  Loader2, 
   Sliders, 
   Layers, 
   Globe2, 
@@ -35,13 +33,12 @@ import {
    ClipboardPaste,
    ArrowLeft
  } from 'lucide-react';
-import { QuizDataset, ValidationReport } from '../types';
+import { QuizDataset } from '../types';
 import { curatedQuizzes } from '../data/curatedQuizzes';
 import { FlexibleQuizExpectation, validateQuizDataset } from '../lib/validator';
 import { getSavedQuizzes, saveQuizToLibrary, deleteSavedQuiz } from '../lib/quizStorage';
 import { generateStandaloneQuizHTML } from '../lib/htmlExporter';
 import { generateQuizCreationPrompt, parseGeneratedQuizResponse } from '../lib/quizPrompt';
-import { isStaticDeployment } from '../lib/runtimeMode';
 
 interface ThemeModalProps {
   isOpen: boolean;
@@ -70,11 +67,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
   const [cycles, setCycles] = useState<number>(4); // 4 compact cycles = 20 questions; 10 = 60-question general-knowledge series
   const [difficulty, setDifficulty] = useState<'easy' | 'moderate' | 'challenging'>('moderate');
   const [answerChoiceCount, setAnswerChoiceCount] = useState<2 | 3>(2);
-  const [aiWorkflow, setAiWorkflow] = useState<'connected' | 'prompt'>(isStaticDeployment ? 'prompt' : 'connected');
-  const [isGenerating, setIsGenerating] = useState(false);
-  const [generationStep, setGenerationStep] = useState<string>('');
-  const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [lastValidation, setLastValidation] = useState<ValidationReport | null>(null);
   const [savedQuizzes, setSavedQuizzes] = useState<QuizDataset[]>([]);
   const [curatedSearch, setCuratedSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -178,73 +170,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
     URL.revokeObjectURL(url);
   };
 
-  const handleGenerateAI = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!customTheme.trim()) return;
-
-    if (isStaticDeployment) {
-      setAiWorkflow('prompt');
-      setErrorMsg('Direct generation is available only in the private server version. Use Prompt + paste JSON on this website.');
-      return;
-    }
-
-    setIsGenerating(true);
-    setErrorMsg(null);
-    setLastValidation(null);
-    setGenerationStep('Synthesizing structured questions with Gemini AI...');
-
-    try {
-      const response = await fetch('/api/generate-quiz', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          theme: customTheme.trim(),
-          cycles: cycles,
-          difficulty: difficulty,
-          answerChoiceCount,
-        }),
-      });
-
-      if (!response.ok) {
-        const errData = await response.json().catch(() => ({}));
-        throw new Error(errData.error || `Server responded with HTTP ${response.status}`);
-      }
-
-      setGenerationStep('Running 15-point mandatory preflight validation checks...');
-      const newQuiz: QuizDataset = await response.json();
-
-      const validation = validateQuizDataset(newQuiz.questions, cycles);
-      setLastValidation(validation);
-
-      // Format-valid generation is saved as a draft; factual approval is a separate agent/human step.
-      const draftQuiz: QuizDataset = { ...newQuiz, validated: false, agentValidation: undefined };
-      saveQuizToLibrary(draftQuiz);
-      refreshSavedQuizzes();
-
-      if (validation.isValid) {
-        setGenerationStep('Format passed (15/15) and saved as a draft pending review. Loading quiz...');
-        setTimeout(() => {
-          setIsGenerating(false);
-          onSelectQuiz(draftQuiz);
-          onClose();
-        }, 600);
-      } else {
-        if (validation.errors.length > 0) {
-          setErrorMsg(`Validation detected issues: ${validation.errors.join('; ')}`);
-          setIsGenerating(false);
-        } else {
-          setIsGenerating(false);
-          onSelectQuiz(newQuiz);
-          onClose();
-        }
-      }
-    } catch (err: any) {
-      console.error(err);
-      setErrorMsg(err.message || 'Failed to generate custom quiz with AI.');
-      setIsGenerating(false);
-    }
-  };
-
   const promptConfig = {
     theme: customTheme,
     cycles,
@@ -267,11 +192,9 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
 
   const handleImportPastedQuiz = () => {
     setPromptImportStatus(null);
-    setLastValidation(null);
     try {
       const draftQuiz = parseGeneratedQuizResponse(pastedQuizJson, promptConfig);
       const validation = validateQuizDataset(draftQuiz.questions, cycles);
-      setLastValidation(validation);
       if (!validation.isValid) {
         throw new Error(`Format check failed: ${validation.errors.slice(0, 4).join('; ')}`);
       }
@@ -312,10 +235,10 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
             </div>
             <div>
               <h2 className="text-lg md:text-xl font-bold text-[#8b1e1e]">
-                Select or Generate Theme
+                Choose or Create a Quiz
               </h2>
               <p className="text-xs text-[#6b635b]">
-                Explore quiz packs, generate drafts, then run evidence review
+                Explore quiz packs, build prompts, and import drafts
               </p>
             </div>
           </div>
@@ -363,7 +286,7 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
             }`}
           >
             <Sparkles className="w-4 h-4 text-[#c59b27]" />
-            AI Theme Generator
+            Prompt Builder
           </button>
         </div>
 
@@ -667,36 +590,11 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
           )}
 
           {activeTab === 'ai' && (
-            <form onSubmit={aiWorkflow === 'connected' ? handleGenerateAI : (event) => event.preventDefault()} className="space-y-5">
-              <div className="grid grid-cols-2 gap-2 rounded-xl bg-[#eee8dc] p-1.5">
-                {isStaticDeployment ? (
-                  <div className="min-h-11 rounded-lg px-3 text-xs font-extrabold text-[#6b635b] flex items-center justify-center text-center">
-                    Website mode · no API key stored
-                  </div>
-                ) : (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setAiWorkflow('connected');
-                      setErrorMsg(null);
-                      setPromptImportStatus(null);
-                    }}
-                    className={`min-h-11 rounded-lg px-3 text-xs font-extrabold transition cursor-pointer ${aiWorkflow === 'connected' ? 'bg-white text-[#8b1e1e] shadow-sm' : 'text-[#6b635b] hover:text-[#2b2520]'}`}
-                  >
-                    Generate here
-                  </button>
-                )}
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAiWorkflow('prompt');
-                    setErrorMsg(null);
-                    setPromptImportStatus(null);
-                  }}
-                  className={`min-h-11 rounded-lg px-3 text-xs font-extrabold transition cursor-pointer ${aiWorkflow === 'prompt' ? 'bg-[#111318] text-white shadow-sm' : 'text-[#6b635b] hover:text-[#2b2520]'}`}
-                >
-                  Prompt + paste JSON
-                </button>
+            <form onSubmit={(event) => event.preventDefault()} className="space-y-5">
+              <div className="rounded-xl bg-[#eee8dc] p-1.5">
+                <div className="min-h-11 rounded-lg bg-white px-3 text-xs font-extrabold text-[#2b2520] shadow-sm flex items-center justify-center text-center">
+                  Prompt builder · works entirely in your browser
+                </div>
               </div>
 
               <div className="flex items-center justify-between flex-wrap gap-2">
@@ -704,23 +602,10 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                   Theme or Subject Topic
                 </span>
                 <div className="flex items-center gap-1.5">
-                  {aiWorkflow === 'prompt' ? (
-                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#111318] text-white border border-[#30343d]">
-                      <ClipboardPaste className="w-2.5 h-2.5" />
-                      ChatGPT or Gemini
-                    </span>
-                  ) : (
-                    <>
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#1a73e8]/10 text-[#1a73e8] border border-[#1a73e8]/20">
-                    <Search className="w-2.5 h-2.5" />
-                    Google Search Grounded
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#111318] text-white border border-[#30343d]">
+                    <ClipboardPaste className="w-2.5 h-2.5" />
+                    Any AI chat
                   </span>
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#8b1e1e]/10 text-[#8b1e1e] border border-[#8b1e1e]/20">
-                    <Sparkles className="w-2.5 h-2.5 text-[#c59b27]" />
-                    Gemini 3.7 Flash
-                  </span>
-                    </>
-                  )}
                 </div>
               </div>
               <div className="space-y-1.5">
@@ -729,7 +614,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                   placeholder="e.g. Renaissance Art, Formula 1 Racing, Coffee History..."
                   value={customTheme}
                   onChange={(e) => setCustomTheme(e.target.value)}
-                  disabled={isGenerating}
                   className="w-full border-2 border-[#e0d8cb] focus:border-[#8b1e1e] rounded-xl px-4 py-2.5 text-sm md:text-base font-semibold text-[#2b2520] outline-none transition"
                 />
               </div>
@@ -744,7 +628,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                     <button
                       type="button"
                       key={i}
-                      disabled={isGenerating}
                       onClick={() => setCustomTheme(sug)}
                       className="px-2.5 py-1 rounded-md text-xs bg-[#faf8f4] border border-[#e0d8cb] text-[#6b635b] hover:text-[#8b1e1e] hover:border-[#8b1e1e] transition cursor-pointer"
                     >
@@ -764,7 +647,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                   <select
                     value={cycles}
                     onChange={(e) => setCycles(Number(e.target.value))}
-                    disabled={isGenerating}
                     className="w-full border-2 border-[#e0d8cb] rounded-lg px-3 py-2 text-xs md:text-sm font-semibold text-[#2b2520] bg-white outline-none"
                   >
                     <option value={4}>20 Questions (theme pack)</option>
@@ -780,7 +662,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                   <select
                     value={answerChoiceCount}
                     onChange={(e) => setAnswerChoiceCount(Number(e.target.value) as 2 | 3)}
-                    disabled={isGenerating}
                     className="w-full border-2 border-[#e0d8cb] rounded-lg px-3 py-2 text-xs md:text-sm font-semibold text-[#2b2520] bg-white outline-none"
                   >
                     <option value={2}>2 Choices (relaxed)</option>
@@ -799,7 +680,6 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                   <select
                     value={difficulty}
                     onChange={(e) => setDifficulty(e.target.value as any)}
-                    disabled={isGenerating}
                     className="w-full border-2 border-[#e0d8cb] rounded-lg px-3 py-2 text-xs md:text-sm font-semibold text-[#2b2520] bg-white outline-none"
                   >
                     <option value="easy">Easy to Moderate (Engaging Trivia)</option>
@@ -809,45 +689,12 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                 </div>
               </div>
 
-              {/* Error Banner */}
-              {aiWorkflow === 'connected' && errorMsg && (
-                <div className="p-3.5 rounded-lg bg-[#ffebee] border border-[#c62828] text-xs text-[#c62828] flex items-start gap-2">
-                  <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-                  <div>
-                    <strong>Generation Note:</strong> {errorMsg}
-                  </div>
-                </div>
-              )}
-
-              {/* Generation State Animation */}
-              {aiWorkflow === 'connected' && isGenerating && (
-                <div className="p-4 rounded-xl bg-[#fef8e7] border border-[#c59b27] space-y-2 text-center">
-                  <div className="flex items-center justify-center gap-2 text-sm font-bold text-[#8c6a0c]">
-                    <Loader2 className="w-4 h-4 animate-spin text-[#8b1e1e]" />
-                    Generating {cycles === 4 ? 20 : cycles * 6} Questions with {answerChoiceCount} answer choices on "{customTheme}"
-                  </div>
-                  <p className="text-xs text-[#7c5c0a]">
-                    {generationStep}
-                  </p>
-                </div>
-              )}
-
-              {aiWorkflow === 'connected' ? (
-                <button
-                  type="submit"
-                  disabled={isGenerating || !customTheme.trim()}
-                  className="w-full py-3.5 rounded-xl font-bold text-sm md:text-base bg-[#8b1e1e] hover:bg-[#731818] text-white transition shadow-sm disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 cursor-pointer"
-                >
-                  <Sparkles className="w-4 h-4 text-[#fef8e7]" />
-                  Generate {cycles === 4 ? 20 : cycles * 6}-Question Quiz & Start
-                </button>
-              ) : (
-                <div className="rounded-2xl border border-[#30343d] bg-[#111318] text-white p-4 space-y-4 shadow-lg">
+              <div className="rounded-2xl border border-[#30343d] bg-[#111318] text-white p-4 space-y-4 shadow-lg">
                   <div className="flex items-start justify-between gap-3">
                     <div>
                       <h3 className="text-sm font-extrabold">1. Copy the ready-made prompt</h3>
                       <p className="text-[11px] text-[#aeb3bd] mt-1 leading-relaxed">
-                        Paste it into ChatGPT or Gemini. It requests the exact JSON this app accepts.
+                        Paste it into your preferred AI chat. It requests the exact JSON this app accepts.
                       </p>
                     </div>
                     <button
@@ -902,8 +749,7 @@ export const ThemeModal: React.FC<ThemeModalProps> = ({
                     <ClipboardPaste className="w-4 h-4" />
                     Import draft &amp; start quiz
                   </button>
-                </div>
-              )}
+              </div>
             </form>
           )}
         </div>

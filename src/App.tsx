@@ -7,7 +7,7 @@ import { SummaryView } from './components/SummaryView';
 import { ThemeModal } from './components/ThemeModal';
 import { ExportModal } from './components/ExportModal';
 import { ResetConfirmDialog } from './components/ResetConfirmDialog';
-import { AgenticValidatorModal } from './components/AgenticValidatorModal';
+import { InspectorLabModal } from './components/InspectorLabModal';
 import { LandingPage } from './components/LandingPage';
 import { curatedQuizzes } from './data/curatedQuizzes';
 import { QuizDataset, QuestionAnswerState } from './types';
@@ -250,7 +250,7 @@ export default function App() {
         onConfirm={handleRestartQuiz}
       />
 
-      <AgenticValidatorModal
+      <InspectorLabModal
         isOpen={isInspectorLabOpen}
         onClose={() => setIsInspectorLabOpen(false)}
         onLoadAndPlay={handleSelectQuiz}

@@ -80,7 +80,7 @@ export const Header: React.FC<HeaderProps> = ({
           <button
             onClick={onOpenInspectorLab}
             className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-black bg-white border border-[#2e7d32]/40 text-[#2e7d32] hover:bg-[#e8f5e9] transition cursor-pointer"
-            title="Agentic Quiz Review"
+            title="Quiz Quality Review"
           >
             <ShieldCheck className="w-3.5 h-3.5 text-[#2e7d32]" />
             <span className="hidden sm:inline">Review</span>

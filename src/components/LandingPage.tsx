@@ -133,7 +133,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
 
           {action === 'prompt' && (
             <div className="space-y-5">
-              <p className="text-sm text-[#6b635b]">Answer the essentials below. The downloaded prompt tells Gemini or ChatGPT to research, fact-check, audit, and return import-ready JSON.</p>
+              <p className="text-sm text-[#6b635b]">Answer the essentials below. The downloaded prompt tells your chosen AI chat to research, fact-check, audit, and return import-ready JSON. This website never needs an API key.</p>
               <label className="block"><FieldLabel>Quiz topic *</FieldLabel><input value={topic} onChange={(event) => setTopic(event.target.value)} placeholder="e.g. Cozy autumn trivia" className="w-full min-h-12 rounded-xl border-2 border-[#d9cebc] px-4 font-bold outline-none focus:border-[#8b1e1e]" /></label>
               <div className="grid sm:grid-cols-2 gap-4">
                 <label><FieldLabel>Number of questions</FieldLabel><input type="number" min={1} max={200} value={questionCount} onChange={(event) => setQuestionCount(Math.max(1, Number(event.target.value) || 1))} className="w-full min-h-11 rounded-lg border-2 border-[#d9cebc] px-3 text-sm font-bold outline-none focus:border-[#8b1e1e]" /></label>
@@ -153,7 +153,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
                 <button onClick={handleDownloadMarkdown} disabled={!markdown} className="min-h-12 rounded-xl bg-[#8b1e1e] text-white font-extrabold disabled:opacity-40 flex items-center justify-center gap-2 cursor-pointer"><Download className="w-4 h-4" /> Download research prompt .md</button>
                 <button onClick={handleCopy} disabled={!markdown} className="min-h-12 rounded-xl border-2 border-[#d9cebc] font-extrabold text-[#2b2520] disabled:opacity-40 flex items-center justify-center gap-2 cursor-pointer">{copied ? <Check className="w-4 h-4 text-[#2e7d32]" /> : <Copy className="w-4 h-4 text-[#8b1e1e]" />}{copied ? 'Copied' : 'Copy research prompt'}</button>
               </div>
-              <button onClick={() => setAction('import')} className="w-full text-sm font-bold text-[#8b1e1e] underline underline-offset-4 cursor-pointer">I already have the AI response — import it</button>
+              <button onClick={() => setAction('import')} className="w-full text-sm font-bold text-[#8b1e1e] underline underline-offset-4 cursor-pointer">I already have a response — import it</button>
             </div>
           )}
         </div>
