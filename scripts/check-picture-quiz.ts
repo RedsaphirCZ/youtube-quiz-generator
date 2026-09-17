@@ -51,6 +51,34 @@ const markdownImage = parsePictureQuizResponse(JSON.stringify({
 }));
 assert.equal(markdownImage.questions[0].image.src, 'https://example.com/mountain.jpg');
 
+const commonsFilePage = parsePictureQuizResponse(JSON.stringify({
+  title: 'Commons image',
+  questions: [{
+    type: 'picture_mcq', question: 'Which image is shown?',
+    image: {
+      url: 'https://commons.wikimedia.org/wiki/File:Example.jpg',
+      alt: 'A sample photograph',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Example.jpg',
+    },
+    options: ['Example', 'Other'], correctIndex: 0, explanation: 'This is the example image.',
+  }],
+}));
+assert.equal(commonsFilePage.questions[0].image.src, 'https://commons.wikimedia.org/wiki/Special:FilePath/Example.jpg');
+assert.equal(commonsFilePage.questions[0].image.sourceUrl, 'https://commons.wikimedia.org/wiki/File:Example.jpg');
+
+const commonsSourceOnly = parsePictureQuizResponse(JSON.stringify({
+  title: 'Commons source-only image',
+  questions: [{
+    type: 'picture_mcq', question: 'Which image is shown?',
+    image: {
+      alt: 'A sample photograph',
+      source_url: 'https://commons.wikimedia.org/wiki/File:Example.jpg',
+    },
+    options: ['Example', 'Other'], correctIndex: 0, explanation: 'This is the example image.',
+  }],
+}));
+assert.equal(commonsSourceOnly.questions[0].image.src, 'https://commons.wikimedia.org/wiki/Special:FilePath/Example.jpg');
+
 const localAsset = new Map([['shape.png', 'data:image/png;base64,AAAA']]);
 const local = parsePictureQuizResponse(JSON.stringify({
   title: 'Country Shapes',

@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ArrowLeft, BookOpen, Check, ClipboardPaste, Copy, Download, FileJson, Images, Sparkles, Upload } from 'lucide-react';
+import { ArrowLeft, BookOpen, Check, ClipboardPaste, Copy, Download, FileJson, Sparkles, Upload } from 'lucide-react';
 import { QuizDataset } from '../types';
 import { validateQuizDataset } from '../lib/validator';
 import { saveQuizToLibrary } from '../lib/quizStorage';
@@ -10,12 +10,12 @@ type LandingAction = 'home' | 'import' | 'prompt';
 interface LandingPageProps {
   onStartQuiz: (quiz: QuizDataset) => void;
   onBrowseQuizzes: () => void;
-  onOpenPictureQuiz: () => void;
+  onExitToModes: () => void;
 }
 
 const slugify = (value: string) => value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'new-quiz';
 
-export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQuizzes, onOpenPictureQuiz }) => {
+export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQuizzes, onExitToModes }) => {
   const [action, setAction] = useState<LandingAction>('home');
   const [importText, setImportText] = useState('');
   const [importFileName, setImportFileName] = useState('');
@@ -93,9 +93,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
     <main className="studio-page min-h-screen text-[#2b2520] px-4 py-8 sm:py-12 flex items-center justify-center">
       <section className="w-full max-w-4xl rounded-3xl border border-[#d9cebc] bg-white/95 shadow-xl overflow-hidden">
         <div className="border-t-[6px] border-[#8b1e1e] px-5 py-6 sm:px-9 sm:py-8 bg-[#faf8f4]">
-          {action !== 'home' && (
+          {action !== 'home' ? (
             <button onClick={goHome} className="mb-5 inline-flex min-h-10 items-center gap-2 rounded-lg border border-[#d9cebc] bg-white px-3 text-sm font-extrabold text-[#8b1e1e] hover:border-[#8b1e1e] cursor-pointer">
               <ArrowLeft className="w-4 h-4" /> Home
+            </button>
+          ) : (
+            <button onClick={onExitToModes} className="mb-5 inline-flex min-h-10 items-center gap-2 rounded-lg border border-[#d9cebc] bg-white px-3 text-sm font-extrabold text-[#8b1e1e] hover:border-[#8b1e1e] cursor-pointer">
+              <ArrowLeft className="w-4 h-4" /> Quiz modes
             </button>
           )}
           <div className="flex items-center gap-3">
@@ -114,11 +118,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
 
         <div className="px-5 py-6 sm:px-9 sm:py-8">
           {action === 'home' && (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid sm:grid-cols-3 gap-4">
               <LandingButton icon={Sparkles} title="Get prompt" description="Fill in the quiz details and download a research-ready .md prompt." onClick={() => setAction('prompt')} />
               <LandingButton icon={FileJson} title="Import" description="Paste quiz JSON or load a JSON, Markdown, or text file." onClick={() => setAction('import')} />
               <LandingButton icon={BookOpen} title="Library" description="Browse curated quizzes and your saved drafts." onClick={onBrowseQuizzes} />
-              <LandingButton icon={Images} title="Picture quizzes" description="Open the separate visual mode for brands, country shapes, flags, and more." onClick={onOpenPictureQuiz} />
             </div>
           )}
 

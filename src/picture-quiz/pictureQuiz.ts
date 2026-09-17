@@ -23,14 +23,29 @@ const extractJsonObject = (rawText: string): unknown => {
   return JSON.parse(cleaned.slice(start, end + 1));
 };
 
+const toDirectCommonsImageUrl = (value: string) => {
+  try {
+    const url = new URL(value);
+    if (url.hostname.toLowerCase() !== 'commons.wikimedia.org') return value;
+    const filePage = url.pathname.match(/^\/wiki\/File:(.+)$/i);
+    if (!filePage) return value;
+    const fileName = decodeURIComponent(filePage[1]).replace(/_/g, ' ');
+    return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName)}`;
+  } catch {
+    return value;
+  }
+};
+
 const normalizeImageSource = (value: unknown) => {
   let src = String(value || '').trim();
   const markdownImage = src.match(/^!\[[^\]]*\]\(([^\s)]+)(?:\s+"[^"]*")?\)$/);
   if (markdownImage) src = markdownImage[1];
   if (/^<[^<>]+>$/.test(src)) src = src.slice(1, -1).trim();
   if (src.startsWith('//')) src = `https:${src}`;
-  return src;
+  return toDirectCommonsImageUrl(src);
 };
+
+const isCommonsFilePage = (value: unknown) => /^https?:\/\/commons\.wikimedia\.org\/wiki\/File:/i.test(String(value || '').trim());
 
 const isSafeImageSource = (value: string) => {
   const src = value.trim();
@@ -68,10 +83,12 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
     const question = String(raw.question || '').trim();
     const explanation = String(raw.explanation || '').trim();
     const rawImage = raw.image && typeof raw.image === 'object' ? raw.image : {};
+    const sourcePageCandidate = rawImage.sourceUrl || rawImage.source_url || raw.imageSourceUrl || raw.image_source_url;
     const originalSrc = normalizeImageSource(
       typeof raw.image === 'string' ? raw.image :
         rawImage.src || rawImage.url || rawImage.imageUrl || rawImage.image_url || rawImage.path || rawImage.file ||
-        raw.imageSrc || raw.image_src || raw.imageUrl || raw.image_url || raw.imagePath || raw.image_path || raw.src,
+        raw.imageSrc || raw.image_src || raw.imageUrl || raw.image_url || raw.imagePath || raw.image_path || raw.src ||
+        (isCommonsFilePage(sourcePageCandidate) ? sourcePageCandidate : ''),
     );
     const src = resolveImageSource(originalSrc, assets);
     const alt = String(rawImage.alt || rawImage.imageAlt || rawImage.image_alt || rawImage.description || raw.imageAlt || raw.image_alt || '').trim();
@@ -92,7 +109,7 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
     }
     if (!explanation) throw new Error(`Question ${index + 1} needs an explanation.`);
 
-    const sourceUrl = String(rawImage.sourceUrl || rawImage.source_url || raw.imageSourceUrl || '').trim();
+    const sourceUrl = String(sourcePageCandidate || '').trim();
     return {
       type: 'picture_mcq',
       question,

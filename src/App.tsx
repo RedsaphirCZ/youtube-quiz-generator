@@ -9,18 +9,19 @@ import { ResetConfirmDialog } from './components/ResetConfirmDialog';
 import { InspectorLabModal } from './components/InspectorLabModal';
 import { LandingPage } from './components/LandingPage';
 import { LibraryPage } from './components/LibraryPage';
+import { ModeLandingPage } from './components/ModeLandingPage';
 import { PictureQuizStudio } from './picture-quiz/PictureQuizStudio';
 import { curatedQuizzes } from './data/curatedQuizzes';
 import { QuizDataset, QuestionAnswerState } from './types';
 
 export default function App() {
-  type AppView = 'home' | 'library' | 'pictures' | 'play' | 'summary';
+  type AppView = 'mode-select' | 'home' | 'library' | 'pictures' | 'play' | 'summary';
   const [activeQuiz, setActiveQuiz] = useState<QuizDataset>(
     curatedQuizzes.find((q) => q.id === 'roman-empire-60') || curatedQuizzes[0]
   );
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, QuestionAnswerState>>({});
-  const [appView, setAppView] = useState<AppView>('home');
+  const [appView, setAppView] = useState<AppView>('mode-select');
   const [libraryReturnView, setLibraryReturnView] = useState<AppView>('home');
 
   // Modals
@@ -144,14 +145,18 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [appView, currentIndex, currentQuestion, answers, handleNext, handlePrev, handleAnswerMCQ, isExportModalOpen, isResetConfirmOpen, isInspectorLabOpen]);
 
+  if (appView === 'mode-select') {
+    return <ModeLandingPage onOpenClassic={() => setAppView('home')} onOpenPictures={() => setAppView('pictures')} />;
+  }
+
   if (appView === 'home') {
     return (
-      <LandingPage onStartQuiz={handleSelectQuiz} onBrowseQuizzes={openLibrary} onOpenPictureQuiz={() => setAppView('pictures')} />
+      <LandingPage onStartQuiz={handleSelectQuiz} onBrowseQuizzes={openLibrary} onExitToModes={() => setAppView('mode-select')} />
     );
   }
 
   if (appView === 'pictures') {
-    return <PictureQuizStudio onExit={() => setAppView('home')} />;
+    return <PictureQuizStudio onExit={() => setAppView('mode-select')} />;
   }
 
   if (appView === 'library') {
