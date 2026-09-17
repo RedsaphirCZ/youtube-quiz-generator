@@ -15,6 +15,8 @@ const slugify = (value: string) => value
   .replace(/^-|-$/g, '')
   .slice(0, 64) || 'picture-quiz';
 
+const TWEMOJI_CDN_BASE = 'https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg';
+
 const extractJsonObject = (rawText: string): unknown => {
   const cleaned = rawText.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
   const start = cleaned.indexOf('{');
@@ -36,13 +38,26 @@ const toDirectCommonsImageUrl = (value: string) => {
   }
 };
 
+const toReliableTwemojiUrl = (value: string) => {
+  try {
+    const url = new URL(value);
+    if (url.hostname.toLowerCase() !== 'commons.wikimedia.org') return value;
+    const path = decodeURIComponent(url.pathname);
+    const twemojiFile = path.match(/^\/wiki\/(?:Special:FilePath\/|File:)Twemoji(?:14)?_([0-9a-f-]+)\.svg$/i);
+    if (!twemojiFile) return value;
+    return `${TWEMOJI_CDN_BASE}/${twemojiFile[1].toLowerCase()}.svg`;
+  } catch {
+    return value;
+  }
+};
+
 const normalizeImageSource = (value: unknown) => {
   let src = String(value || '').trim();
   const markdownImage = src.match(/^!\[[^\]]*\]\(([^\s)]+)(?:\s+"[^"]*")?\)$/);
   if (markdownImage) src = markdownImage[1];
   if (/^<[^<>]+>$/.test(src)) src = src.slice(1, -1).trim();
   if (src.startsWith('//')) src = `https:${src}`;
-  return toDirectCommonsImageUrl(src);
+  return toReliableTwemojiUrl(toDirectCommonsImageUrl(src));
 };
 
 const isCommonsFilePage = (value: unknown) => /^https?:\/\/commons\.wikimedia\.org\/wiki\/File:/i.test(String(value || '').trim());
@@ -172,6 +187,7 @@ ${categoryGuidance[config.category]}
 4. Provide useful alt text that describes the image without stating the answer.
 5. Do not use watermarked, low-resolution, misleading, or answer-revealing images.
 6. For local assets, you may instead use a relative filename such as "images/question-01.png". The user can select the JSON and image files together when importing.
+7. For Twemoji, use the verified form "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/CODEPOINT.svg". Do not invent Wikimedia Commons filenames.
 
 ## Question rules
 

@@ -79,6 +79,31 @@ const commonsSourceOnly = parsePictureQuizResponse(JSON.stringify({
 }));
 assert.equal(commonsSourceOnly.questions[0].image.src, 'https://commons.wikimedia.org/wiki/Special:FilePath/Example.jpg');
 
+const suppliedEmojiCodes = [
+  '1f480', '1f525', '1f914', '1f62d', '1f4af', '1f64f', '1f440', '1f97a', '1f4aa', '1f44c',
+  '1f643', '1f92f', '1f60e', '1f644', '1f973', '1f923', '1f60c', '1f926', '1f937', '1f92b',
+  '1f92e', '1f920', '1f974', '1f975', '1f976', '1f917', '1f929', '1f621', '1f910', '1f631',
+  '1f494', '1f389', '1f4a9', '1f47b', '1f624', '1f634', '1f609', '1f618', '1f911', '1f928',
+];
+const suppliedEmojiPack = parsePictureQuizResponse(JSON.stringify({
+  schema: 'picture-quiz/v1', title: 'Emojis', category: 'custom',
+  questions: suppliedEmojiCodes.map((code, index) => ({
+    type: 'picture_mcq', question: `Emoji question ${index + 1}`,
+    image: {
+      src: `https://commons.wikimedia.org/wiki/Special:FilePath/Twemoji_${code}.svg`,
+      alt: `Emoji ${code}`,
+      credit: 'Twitter, CC BY 4.0',
+      sourceUrl: `https://commons.wikimedia.org/wiki/File:Twemoji_${code}.svg`,
+    },
+    options: ['Meaning A', 'Meaning B'], correctIndex: index % 2,
+    explanation: `Explanation ${index + 1}.`,
+  })),
+}));
+assert.equal(suppliedEmojiPack.questions.length, 40);
+assert.ok(suppliedEmojiPack.questions.every((question, index) =>
+  question.image.src === `https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/${suppliedEmojiCodes[index]}.svg`
+));
+
 const localAsset = new Map([['shape.png', 'data:image/png;base64,AAAA']]);
 const local = parsePictureQuizResponse(JSON.stringify({
   title: 'Country Shapes',
