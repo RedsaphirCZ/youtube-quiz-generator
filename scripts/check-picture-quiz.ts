@@ -23,6 +23,34 @@ assert.equal(imported.category, 'brands');
 assert.equal(imported.questions[0].image.src, 'https://example.com/logo.png');
 assert.equal(imported.questions[0].options.length, 2);
 
+const commonImageShapes = [
+  { image: 'images/logo.png' },
+  { image: { url: '//cdn.example.com/logo.png' } },
+  { image: { image_url: 'https://example.com/logo.png' } },
+  { imageSrc: './images/logo.png' },
+];
+for (const imageFields of commonImageShapes) {
+  const variant = parsePictureQuizResponse(JSON.stringify({
+    title: 'Alias test',
+    questions: [{
+      type: 'picture_mcq', question: 'Which logo is this?', ...imageFields,
+      imageAlt: 'A logo without visible words', options: ['Alpha', 'Beta'],
+      correctIndex: 0, explanation: 'This mark belongs to Alpha.',
+    }],
+  }));
+  assert.ok(variant.questions[0].image.src);
+}
+
+const markdownImage = parsePictureQuizResponse(JSON.stringify({
+  title: 'Markdown image',
+  questions: [{
+    type: 'picture_mcq', question: 'Which place is this?',
+    image: '![A mountain](https://example.com/mountain.jpg)', imageAlt: 'A mountain',
+    options: ['Alps', 'Andes'], correctIndex: 0, explanation: 'This view is in the Alps.',
+  }],
+}));
+assert.equal(markdownImage.questions[0].image.src, 'https://example.com/mountain.jpg');
+
 const localAsset = new Map([['shape.png', 'data:image/png;base64,AAAA']]);
 const local = parsePictureQuizResponse(JSON.stringify({
   title: 'Country Shapes',
@@ -39,6 +67,11 @@ assert.throws(() => parsePictureQuizResponse(JSON.stringify({
   title: 'Bad pack',
   questions: [{ type: 'mcq', question: 'Wrong registry', imageUrl: 'https://example.com/a.png', imageAlt: 'Test', options: ['A', 'B'], correctIndex: 0, explanation: 'Test' }],
 })), /unsupported picture type/);
+
+assert.throws(() => parsePictureQuizResponse(JSON.stringify({
+  title: 'Unsafe image',
+  questions: [{ type: 'picture_mcq', question: 'Unsafe?', image: 'javascript:alert(1)', imageAlt: 'Unsafe', options: ['A', 'B'], correctIndex: 0, explanation: 'Unsafe.' }],
+})), /unsupported image source/);
 
 const prompt = generatePictureQuizPrompt({
   title: 'Exact Visual Title', topic: 'Country silhouettes', category: 'country-shapes',

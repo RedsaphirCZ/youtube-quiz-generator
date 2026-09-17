@@ -23,9 +23,21 @@ const extractJsonObject = (rawText: string): unknown => {
   return JSON.parse(cleaned.slice(start, end + 1));
 };
 
+const normalizeImageSource = (value: unknown) => {
+  let src = String(value || '').trim();
+  const markdownImage = src.match(/^!\[[^\]]*\]\(([^\s)]+)(?:\s+"[^"]*")?\)$/);
+  if (markdownImage) src = markdownImage[1];
+  if (/^<[^<>]+>$/.test(src)) src = src.slice(1, -1).trim();
+  if (src.startsWith('//')) src = `https:${src}`;
+  return src;
+};
+
 const isSafeImageSource = (value: string) => {
   const src = value.trim();
-  return /^(https?:\/\/|data:image\/|blob:|\.?\.?\/|\/)/i.test(src) && !/^javascript:/i.test(src);
+  if (!src || /[\u0000-\u001f<>]/.test(src)) return false;
+  if (/^(https?:\/\/|data:image\/(?:png|jpe?g|webp|gif|svg\+xml)[;,]|blob:)/i.test(src)) return true;
+  // A path with no URI scheme is a browser-relative or locally selected asset.
+  return !/^[a-z][a-z0-9+.-]*:/i.test(src) && !src.startsWith('#');
 };
 
 const resolveImageSource = (src: string, assets: Map<string, string>) => {
@@ -56,16 +68,19 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
     const question = String(raw.question || '').trim();
     const explanation = String(raw.explanation || '').trim();
     const rawImage = raw.image && typeof raw.image === 'object' ? raw.image : {};
-    const originalSrc = String(rawImage.src || raw.imageUrl || raw.image_url || '').trim();
+    const originalSrc = normalizeImageSource(
+      typeof raw.image === 'string' ? raw.image :
+        rawImage.src || rawImage.url || rawImage.imageUrl || rawImage.image_url || rawImage.path || rawImage.file ||
+        raw.imageSrc || raw.image_src || raw.imageUrl || raw.image_url || raw.imagePath || raw.image_path || raw.src,
+    );
     const src = resolveImageSource(originalSrc, assets);
-    const alt = String(rawImage.alt || raw.imageAlt || raw.image_alt || '').trim();
+    const alt = String(rawImage.alt || rawImage.imageAlt || rawImage.image_alt || rawImage.description || raw.imageAlt || raw.image_alt || '').trim();
     const options = Array.isArray(raw.options) ? raw.options.map((option: unknown) => String(option).trim()) : [];
     const correctIndex = Number(raw.correctIndex);
 
     if (!question) throw new Error(`Question ${index + 1} needs question text.`);
-    if (!originalSrc || !isSafeImageSource(src)) {
-      throw new Error(`Question ${index + 1} needs a safe web, data, or relative image source.`);
-    }
+    if (!originalSrc) throw new Error(`Question ${index + 1} needs an image source. Use image.src, image.url, image_url, or a relative filename.`);
+    if (!isSafeImageSource(src)) throw new Error(`Question ${index + 1} uses an unsupported image source. Use HTTPS, an image data URL, or a relative filename.`);
     if (!alt) throw new Error(`Question ${index + 1} needs image alt text.`);
     if (![2, 3].includes(options.length) || options.some((option: string) => !option) || new Set(options.map((option: string) => option.toLowerCase())).size !== options.length) {
       throw new Error(`Question ${index + 1} needs 2 or 3 distinct, non-empty options.`);
