@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ArrowLeft, BookOpen, Check, ClipboardPaste, Copy, Download, FileJson, Sparkles, Upload } from 'lucide-react';
+import { ArrowLeft, BookOpen, Check, ClipboardPaste, Copy, Download, FileJson, Images, Sparkles, Upload } from 'lucide-react';
 import { QuizDataset } from '../types';
 import { validateQuizDataset } from '../lib/validator';
 import { saveQuizToLibrary } from '../lib/quizStorage';
@@ -10,16 +10,18 @@ type LandingAction = 'home' | 'import' | 'prompt';
 interface LandingPageProps {
   onStartQuiz: (quiz: QuizDataset) => void;
   onBrowseQuizzes: () => void;
+  onOpenPictureQuiz: () => void;
 }
 
 const slugify = (value: string) => value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'new-quiz';
 
-export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQuizzes }) => {
+export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQuizzes, onOpenPictureQuiz }) => {
   const [action, setAction] = useState<LandingAction>('home');
   const [importText, setImportText] = useState('');
   const [importFileName, setImportFileName] = useState('');
   const [status, setStatus] = useState<{ kind: 'success' | 'error'; text: string } | null>(null);
   const [topic, setTopic] = useState('');
+  const [quizTitle, setQuizTitle] = useState('');
   const [questionCount, setQuestionCount] = useState(25);
   const [answerChoiceCount, setAnswerChoiceCount] = useState<2 | 3>(3);
   const [difficulty, setDifficulty] = useState<QuizResearchPromptConfig['difficulty']>('easy-medium');
@@ -31,10 +33,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
   const [copied, setCopied] = useState(false);
 
   const promptConfig = useMemo<QuizResearchPromptConfig>(() => ({
-    topic, questionCount, difficulty, answerChoiceCount, includeNumberGuesses,
+    topic, quizTitle, questionCount, difficulty, answerChoiceCount, includeNumberGuesses,
     numberGuessCount, currentInformation, language, specialInstructions,
-  }), [topic, questionCount, difficulty, answerChoiceCount, includeNumberGuesses, numberGuessCount, currentInformation, language, specialInstructions]);
-  const markdown = topic.trim() ? generateQuizResearchPromptMarkdown(promptConfig) : '';
+  }), [topic, quizTitle, questionCount, difficulty, answerChoiceCount, includeNumberGuesses, numberGuessCount, currentInformation, language, specialInstructions]);
+  const markdown = topic.trim() && quizTitle.trim() ? generateQuizResearchPromptMarkdown(promptConfig) : '';
 
   const goHome = () => { setAction('home'); setStatus(null); };
 
@@ -51,8 +53,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
     setStatus(null);
     try {
       const parsed = parseFlexibleQuizResponse(importText);
-      const expectation = parsed.cycles ?? { questionCount: parsed.quiz.questions.length, flexible: true as const };
-      const report = validateQuizDataset(parsed.quiz.questions, expectation);
+      const report = validateQuizDataset(parsed.quiz.questions, {
+        questionCount: parsed.quiz.questions.length,
+        flexible: true,
+      });
       if (!report.isValid) throw new Error(`Format check failed: ${report.errors.slice(0, 4).join('; ')}`);
       if (!saveQuizToLibrary(parsed.quiz)) throw new Error('The quiz passed format checks, but browser storage could not save it.');
       setStatus({ kind: 'success', text: 'Format passed. Saved as an unreviewed draft.' });
@@ -78,7 +82,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
     const url = URL.createObjectURL(new Blob([markdown], { type: 'text/markdown;charset=utf-8' }));
     const link = document.createElement('a');
     link.href = url;
-    link.download = `${slugify(topic)}-quiz-research-prompt.md`;
+    link.download = `${slugify(quizTitle)}-quiz-research-prompt.md`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -86,8 +90,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
   };
 
   return (
-    <main className="min-h-screen bg-[#f5f2eb] text-[#2b2520] px-4 py-8 sm:py-12 flex items-center justify-center">
-      <section className="w-full max-w-3xl rounded-3xl border border-[#d9cebc] bg-white shadow-xl overflow-hidden">
+    <main className="studio-page min-h-screen text-[#2b2520] px-4 py-8 sm:py-12 flex items-center justify-center">
+      <section className="w-full max-w-4xl rounded-3xl border border-[#d9cebc] bg-white/95 shadow-xl overflow-hidden">
         <div className="border-t-[6px] border-[#8b1e1e] px-5 py-6 sm:px-9 sm:py-8 bg-[#faf8f4]">
           {action !== 'home' && (
             <button onClick={goHome} className="mb-5 inline-flex min-h-10 items-center gap-2 rounded-lg border border-[#d9cebc] bg-white px-3 text-sm font-extrabold text-[#8b1e1e] hover:border-[#8b1e1e] cursor-pointer">
@@ -110,10 +114,11 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
 
         <div className="px-5 py-6 sm:px-9 sm:py-8">
           {action === 'home' && (
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <LandingButton icon={Sparkles} title="Get prompt" description="Fill in the quiz details and download a research-ready .md prompt." onClick={() => setAction('prompt')} />
               <LandingButton icon={FileJson} title="Import" description="Paste quiz JSON or load a JSON, Markdown, or text file." onClick={() => setAction('import')} />
               <LandingButton icon={BookOpen} title="Library" description="Browse curated quizzes and your saved drafts." onClick={onBrowseQuizzes} />
+              <LandingButton icon={Images} title="Picture quizzes" description="Open the separate visual mode for brands, country shapes, flags, and more." onClick={onOpenPictureQuiz} />
             </div>
           )}
 
@@ -134,7 +139,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
           {action === 'prompt' && (
             <div className="space-y-5">
               <p className="text-sm text-[#6b635b]">Answer the essentials below. The downloaded prompt tells your chosen AI chat to research, fact-check, audit, and return import-ready JSON. This website never needs an API key.</p>
-              <label className="block"><FieldLabel>Quiz topic *</FieldLabel><input value={topic} onChange={(event) => setTopic(event.target.value)} placeholder="e.g. Cozy autumn trivia" className="w-full min-h-12 rounded-xl border-2 border-[#d9cebc] px-4 font-bold outline-none focus:border-[#8b1e1e]" /></label>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <label><FieldLabel>Quiz name *</FieldLabel><input value={quizTitle} onChange={(event) => setQuizTitle(event.target.value)} placeholder="e.g. Autumn Nights Quiz" className="w-full min-h-12 rounded-xl border-2 border-[#d9cebc] px-4 font-bold outline-none focus:border-[#8b1e1e]" /></label>
+                <label><FieldLabel>Quiz topic *</FieldLabel><input value={topic} onChange={(event) => setTopic(event.target.value)} placeholder="e.g. Cozy autumn trivia" className="w-full min-h-12 rounded-xl border-2 border-[#d9cebc] px-4 font-bold outline-none focus:border-[#8b1e1e]" /></label>
+              </div>
               <div className="grid sm:grid-cols-2 gap-4">
                 <label><FieldLabel>Number of questions</FieldLabel><input type="number" min={1} max={200} value={questionCount} onChange={(event) => setQuestionCount(Math.max(1, Number(event.target.value) || 1))} className="w-full min-h-11 rounded-lg border-2 border-[#d9cebc] px-3 text-sm font-bold outline-none focus:border-[#8b1e1e]" /></label>
                 <PromptSelect label="Difficulty" value={difficulty} onChange={(value) => setDifficulty(value as QuizResearchPromptConfig['difficulty'])} options={[["easy", 'Easy'], ['easy-medium', 'Easy–medium'], ['medium', 'Medium'], ['challenging', 'Challenging']]} />
@@ -147,7 +155,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
                 <ToggleField checked={currentInformation} onChange={setCurrentInformation} label="Current information involved" description="Requires live verification and a verified-as-of date." />
               </div>
               <label className="block"><FieldLabel>Special themes or restrictions</FieldLabel><textarea value={specialInstructions} onChange={(event) => setSpecialInstructions(event.target.value)} placeholder="Optional: tone, must-cover areas, facts to avoid…" className="w-full h-24 resize-y rounded-xl border-2 border-[#d9cebc] px-4 py-3 text-sm outline-none focus:border-[#8b1e1e]" /></label>
-              <details className="rounded-xl border border-[#e4dbce] bg-[#111318] text-white"><summary className="px-4 py-3 text-sm font-extrabold cursor-pointer">Preview generated Markdown</summary><textarea readOnly value={markdown || 'Enter a topic to generate the research prompt.'} aria-label="Generated Markdown prompt" className="w-full h-56 resize-y border-t border-[#30343d] bg-[#08090b] px-4 py-3 font-mono text-[11px] leading-relaxed text-[#e5e7eb]" /></details>
+              <details className="rounded-xl border border-[#e4dbce] bg-[#111318] text-white"><summary className="px-4 py-3 text-sm font-extrabold cursor-pointer">Preview generated Markdown</summary><textarea readOnly value={markdown || 'Enter a quiz name and topic to generate the research prompt.'} aria-label="Generated Markdown prompt" className="w-full h-56 resize-y border-t border-[#30343d] bg-[#08090b] px-4 py-3 font-mono text-[11px] leading-relaxed text-[#e5e7eb]" /></details>
               {status && <StatusMessage status={status} />}
               <div className="grid sm:grid-cols-2 gap-3">
                 <button onClick={handleDownloadMarkdown} disabled={!markdown} className="min-h-12 rounded-xl bg-[#8b1e1e] text-white font-extrabold disabled:opacity-40 flex items-center justify-center gap-2 cursor-pointer"><Download className="w-4 h-4" /> Download research prompt .md</button>
@@ -163,7 +171,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
 };
 
 const LandingButton = ({ icon: Icon, title, description, onClick }: { icon: typeof Sparkles; title: string; description: string; onClick: () => void }) => (
-  <button onClick={onClick} className="min-h-48 rounded-2xl border-2 border-[#d9cebc] bg-[#faf8f4] p-5 text-left hover:border-[#8b1e1e] hover:bg-white hover:-translate-y-0.5 transition cursor-pointer"><span className="w-11 h-11 rounded-xl bg-[#8b1e1e] text-white flex items-center justify-center"><Icon className="w-5 h-5" /></span><span className="block mt-4 text-xl font-black text-[#8b1e1e]">{title}</span><span className="block mt-2 text-sm leading-relaxed text-[#6b635b]">{description}</span></button>
+  <button onClick={onClick} className="min-h-44 rounded-2xl border-2 border-[#d9cebc] bg-[#faf8f4] p-5 text-left hover:border-[#8b1e1e] hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition cursor-pointer"><span className="w-11 h-11 rounded-xl bg-[#8b1e1e] text-white flex items-center justify-center"><Icon className="w-5 h-5" /></span><span className="block mt-4 text-xl font-black text-[#8b1e1e]">{title}</span><span className="block mt-2 text-sm leading-relaxed text-[#6b635b]">{description}</span></button>
 );
 
 const FieldLabel = ({ children }: { children: React.ReactNode }) => <span className="block mb-1.5 text-xs font-black uppercase tracking-wider">{children}</span>;

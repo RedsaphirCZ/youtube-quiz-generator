@@ -16,7 +16,16 @@ export const JumpGrid: React.FC<JumpGridProps> = ({
 }) => {
   return (
     <section className="bg-white border-2 border-[#ded4c3] rounded-xl p-2 sm:p-2.5 shadow-xs select-none">
-      {/* Jump Header & Clean High-Contrast Legend */}
+      <details className="sm:hidden group">
+        <summary className="min-h-11 flex cursor-pointer list-none items-center justify-between gap-3 px-2 text-sm font-black text-[#4a423b]">
+          <span>Questions {currentIndex + 1} / {questions.length}</span>
+          <span className="text-xs text-[#8b1e1e] group-open:hidden">Open navigator</span>
+          <span className="text-xs text-[#8b1e1e] hidden group-open:inline">Close</span>
+        </summary>
+        <QuestionButtons questions={questions} currentIndex={currentIndex} answers={answers} onSelectIndex={onSelectIndex} mobile />
+      </details>
+
+      <div className="hidden sm:block">
       <div className="flex items-center justify-between gap-2 mb-1.5">
         <h3 className="text-xs font-black uppercase tracking-wider text-[#4a423b]">
           Navigator (Q1 – Q{questions.length})
@@ -43,8 +52,14 @@ export const JumpGrid: React.FC<JumpGridProps> = ({
         </div>
       </div>
 
-      {/* Grid of Number Buttons: Fixed height buttons for absolute layout stability */}
-      <div className="grid grid-cols-10 sm:grid-cols-15 md:grid-cols-20 gap-1">
+      <QuestionButtons questions={questions} currentIndex={currentIndex} answers={answers} onSelectIndex={onSelectIndex} />
+      </div>
+    </section>
+  );
+};
+
+const QuestionButtons: React.FC<JumpGridProps & { mobile?: boolean }> = ({ questions, currentIndex, answers, onSelectIndex, mobile }) => (
+      <div className={`grid ${mobile ? 'grid-cols-6 pb-2' : 'grid-cols-10 sm:grid-cols-15 md:grid-cols-20'} gap-1`}>
         {questions.map((q, idx) => {
           const ans = answers[idx];
           const isCurrent = idx === currentIndex;
@@ -81,6 +96,4 @@ export const JumpGrid: React.FC<JumpGridProps> = ({
           );
         })}
       </div>
-    </section>
-  );
-};
+);

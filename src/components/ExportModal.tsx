@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { PDFCardPreview } from './PDFCardPreview';
 import { 
   X, 
@@ -23,7 +23,7 @@ import { QuizDataset } from '../types';
 import { generateStandaloneQuizHTML, QuizExportAppearance, splitQuizIntoVideoParts, VideoQuizPart } from '../lib/htmlExporter';
 import { validateQuizDataset } from '../lib/validator';
 import { generateNanDeckCSV, generateNanDeckScript, generateNanDeckCardRows } from '../lib/nandeckExporter';
-import { CARD_FORMATS, CardFormatId, downloadQuizPDF, generateQuizPDF, getCardPageSize } from '../lib/pdfExporter';
+import { CARD_FORMATS, CardFormatId, CardStyle, DEFAULT_CARD_STYLE, downloadQuizPDF, generateQuizPDF, getCardPageSize } from '../lib/pdfExporter';
 import { createQuizExportVariant, ExportAnswerChoiceMode } from '../lib/exportVariant';
 
 interface ExportModalProps {
@@ -31,6 +31,14 @@ interface ExportModalProps {
   onClose: () => void;
   quiz: QuizDataset;
 }
+
+const CARD_COLOR_PRESETS = [
+  { name: 'Burgundy', value: '#8B1E1E' },
+  { name: 'Ocean', value: '#185A9D' },
+  { name: 'Forest', value: '#2E6B45' },
+  { name: 'Plum', value: '#6B3A72' },
+  { name: 'Charcoal', value: '#2F3542' },
+] as const;
 
 export const ExportModal: React.FC<ExportModalProps> = ({
   isOpen,
@@ -47,6 +55,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   const [previewCardIndex, setPreviewCardIndex] = useState<number>(0);
   const [previewSide, setPreviewSide] = useState<'front' | 'back'>('back');
   const [cardFormat, setCardFormat] = useState<CardFormatId>('poker');
+  const [cardAccentColor, setCardAccentColor] = useState(DEFAULT_CARD_STYLE.accentColor);
+  const cardStyle = useMemo<CardStyle>(() => ({ accentColor: cardAccentColor }), [cardAccentColor]);
 
   if (!isOpen) return null;
 
@@ -96,11 +106,11 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   };
 
   const handleDownloadPDF = () => {
-    downloadQuizPDF(quiz, `${themeSlug}-${cardFormat}-cards-duplex.pdf`, cardFormat);
+    downloadQuizPDF(quiz, `${themeSlug}-${cardFormat}-cards-duplex.pdf`, cardFormat, cardStyle);
   };
 
   const handlePreviewPDF = () => {
-    const doc = generateQuizPDF(quiz, cardFormat);
+    const doc = generateQuizPDF(quiz, cardFormat, cardStyle);
     const blob = doc.output('blob');
     const url = URL.createObjectURL(blob);
     window.open(url, '_blank');
@@ -290,6 +300,38 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                 </div>
               </fieldset>
 
+              <fieldset className="rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
+                <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Card color</legend>
+                <div className="flex flex-wrap items-center gap-2">
+                  {CARD_COLOR_PRESETS.map((preset) => (
+                    <button
+                      key={preset.value}
+                      type="button"
+                      onClick={() => setCardAccentColor(preset.value)}
+                      aria-label={`${preset.name} card color`}
+                      aria-pressed={cardAccentColor === preset.value}
+                      title={preset.name}
+                      className={`h-10 w-10 rounded-full border-2 cursor-pointer transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8b1e1e] ${cardAccentColor === preset.value ? 'border-white ring-2 ring-[#1f1a16] scale-105' : 'border-white shadow-sm hover:scale-105'}`}
+                      style={{ backgroundColor: preset.value }}
+                    />
+                  ))}
+                  <label className="ml-1 flex min-h-10 items-center gap-2 rounded-lg border border-[#ded4c3] bg-white px-2.5 text-xs font-bold text-[#1f1a16] cursor-pointer hover:border-[#8b1e1e]">
+                    <input
+                      type="color"
+                      value={cardAccentColor}
+                      onChange={(event) => setCardAccentColor(event.target.value.toUpperCase())}
+                      className="h-7 w-8 cursor-pointer rounded border-0 bg-transparent p-0"
+                      aria-label="Choose a custom card color"
+                    />
+                    Custom
+                    <span className="font-mono text-[10px] text-[#706860]">{cardAccentColor}</span>
+                  </label>
+                </div>
+                <p className="mt-2 text-[10px] leading-relaxed text-[#706860]">
+                  Sets the accent color on both sides of every card. Correct-answer highlights stay green for clarity.
+                </p>
+              </fieldset>
+
               {/* Primary Action Hero */}
               <div className="bg-[#fef8e7] border border-[#c59b27] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="space-y-0.5">
@@ -373,7 +415,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   </div>
                 </div>
 
-                <PDFCardPreview quiz={quiz} index={previewCardIndex} side={previewSide} format={cardFormat} />
+                <PDFCardPreview quiz={quiz} index={previewCardIndex} side={previewSide} format={cardFormat} style={cardStyle} />
               </div>
 
               {/* Instructions Callout */}

@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import type { QuizDataset } from '../types';
-import { CardFormatId, generateCardPreviewPDF } from '../lib/pdfExporter';
+import { CardFormatId, CardStyle, generateCardPreviewPDF } from '../lib/pdfExporter';
 
-export function PDFCardPreview({ quiz, index, side, format }: {
-  quiz: QuizDataset; index: number; side: 'front' | 'back'; format: CardFormatId;
+export function PDFCardPreview({ quiz, index, side, format, style }: {
+  quiz: QuizDataset; index: number; side: 'front' | 'back'; format: CardFormatId; style: CardStyle;
 }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [status, setStatus] = useState('Rendering card…');
@@ -17,7 +17,7 @@ export function PDFCardPreview({ quiz, index, side, format }: {
         const worker = await import('pdfjs-dist/build/pdf.worker.min.mjs?url');
         if (cancelled) return;
         pdfjs.GlobalWorkerOptions.workerSrc = worker.default;
-        const data = new Uint8Array(generateCardPreviewPDF(quiz, index, side, format).output('arraybuffer'));
+        const data = new Uint8Array(generateCardPreviewPDF(quiz, index, side, format, style).output('arraybuffer'));
         const task = pdfjs.getDocument({ data });
         cleanup = () => { void task.destroy(); };
         const pdf = await task.promise;
@@ -41,7 +41,7 @@ export function PDFCardPreview({ quiz, index, side, format }: {
     }
     void render();
     return () => { cancelled = true; cleanup(); };
-  }, [quiz, index, side, format]);
+  }, [quiz, index, side, format, style]);
   return <div className="flex flex-col items-center gap-2 py-2">
     {status && <p role="status" className="text-sm text-[#706860]">{status}</p>}
     <canvas ref={canvasRef} role="img" aria-label={`PDF card ${index + 1}, ${side}`}

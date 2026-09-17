@@ -1,5 +1,73 @@
 @import "tailwindcss";
 
+:root {
+  color: #2b2520;
+  background: #f5f2eb;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body { min-width: 320px; margin: 0; background: #f5f2eb; }
+button, input, select, textarea { font: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible {
+  outline: 3px solid rgba(197, 155, 39, 0.55);
+  outline-offset: 2px;
+}
+
+.studio-page {
+  background:
+    radial-gradient(circle at 85% 0%, rgba(197, 155, 39, 0.11), transparent 30rem),
+    linear-gradient(180deg, #faf8f3 0, #f5f2eb 24rem);
+}
+
+.studio-topbar { position: sticky; top: 0; z-index: 30; border-top: 5px solid #8b1e1e; border-bottom: 1px solid #d9cebc; background: rgba(250, 248, 244, 0.94); backdrop-filter: blur(14px); }
+.studio-topbar-inner { display: flex; min-height: 4.75rem; width: 100%; max-width: 80rem; align-items: center; justify-content: space-between; gap: 1rem; margin: 0 auto; padding: 0.75rem 1rem; }
+.studio-mark { display: flex; width: 2.75rem; height: 2.75rem; flex: 0 0 auto; align-items: center; justify-content: center; border-radius: 0.8rem; background: #8b1e1e; color: white; box-shadow: 0 7px 18px rgba(99, 25, 25, 0.18); }
+.studio-eyebrow { font-size: 0.68rem; font-weight: 900; letter-spacing: 0.17em; text-transform: uppercase; color: #8c6a0c; }
+
+.studio-button { display: inline-flex; min-height: 2.75rem; align-items: center; justify-content: center; gap: 0.45rem; border-radius: 0.7rem; padding: 0.6rem 0.9rem; font-size: 0.82rem; font-weight: 850; transition: 160ms ease; cursor: pointer; }
+.studio-button-primary { border: 1px solid #8b1e1e; background: #8b1e1e; color: white; }
+.studio-button-primary:hover { background: #711818; transform: translateY(-1px); }
+.studio-button-secondary { border: 1px solid #d9cebc; background: white; color: #342c26; }
+.studio-button-secondary:hover { border-color: #8b1e1e; color: #8b1e1e; }
+.studio-button-ghost { border: 1px solid transparent; color: #6b635b; }
+.studio-button-ghost:hover { background: #eee8dc; color: #8b1e1e; }
+.studio-icon-button { display: inline-flex; width: 2.5rem; height: 2.5rem; align-items: center; justify-content: center; border: 1px solid #d9cebc; border-radius: 0.7rem; background: white; color: #6b635b; transition: 160ms ease; cursor: pointer; }
+.studio-icon-button:hover { border-color: #8b1e1e; color: #8b1e1e; }
+.studio-input { width: 100%; min-height: 3rem; border: 2px solid #d9cebc; border-radius: 0.85rem; background: white; padding: 0.65rem 1rem; font-size: 0.9rem; font-weight: 650; outline: none; box-shadow: 0 5px 16px rgba(70, 55, 40, 0.04); }
+.studio-input:focus { border-color: #8b1e1e; }
+
+.studio-tab { display: inline-flex; min-height: 3.1rem; align-items: center; gap: 0.45rem; border-bottom: 3px solid transparent; padding: 0.65rem 0.8rem; font-size: 0.88rem; font-weight: 850; color: #6b635b; cursor: pointer; }
+.studio-tab:hover { color: #8b1e1e; }
+.studio-tab-active { border-bottom-color: #8b1e1e; color: #8b1e1e; }
+.studio-count { border-radius: 999px; background: #eee8dc; padding: 0.1rem 0.45rem; font-size: 0.68rem; color: #71524f; }
+.studio-filter { display: inline-flex; min-height: 2.4rem; align-items: center; gap: 0.45rem; border: 1px solid #ded4c3; border-radius: 999px; background: rgba(255,255,255,0.72); padding: 0.45rem 0.75rem; font-size: 0.75rem; font-weight: 800; color: #675e56; cursor: pointer; transition: 150ms ease; }
+.studio-filter span { font-size: 0.65rem; color: #8b1e1e; }
+.studio-filter:hover { border-color: #c59b27; background: white; }
+.studio-filter-active { border-color: #8b1e1e; background: #8b1e1e; color: white; }
+.studio-filter-active span { color: #f8e5aa; }
+
+.library-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.library-card { display: flex; min-height: 17rem; flex-direction: column; border: 1px solid #d9cebc; border-radius: 1rem; background: rgba(255,255,255,0.92); padding: 1.15rem; box-shadow: 0 8px 24px rgba(71, 53, 34, 0.055); transition: 170ms ease; }
+.library-card:hover { border-color: #c59b27; transform: translateY(-2px); box-shadow: 0 13px 30px rgba(71, 53, 34, 0.09); }
+.library-card-current { border-color: #8b1e1e; box-shadow: 0 0 0 2px rgba(139,30,30,0.08); }
+.studio-card-icon { display: flex; width: 2.5rem; height: 2.5rem; align-items: center; justify-content: center; border-radius: 0.75rem; background: #f1eadf; color: #8b1e1e; }
+.studio-badge { display: inline-flex; min-height: 1.6rem; align-items: center; gap: 0.28rem; border-radius: 999px; padding: 0.2rem 0.5rem; font-size: 0.64rem; font-weight: 850; }
+.studio-badge-active { background: #8b1e1e; color: white; }
+.studio-badge-success { border: 1px solid rgba(46,125,50,0.3); background: #e8f5e9; color: #266b2a; }
+.studio-badge-warning { border: 1px solid rgba(180,35,43,0.25); background: #ffebee; color: #a22027; }
+.studio-badge-draft { border: 1px solid rgba(197,155,39,0.35); background: #fff8e1; color: #795b0b; }
+.studio-empty { display: flex; min-height: 22rem; flex-direction: column; align-items: center; justify-content: center; gap: 0.7rem; border: 1px dashed #cdbfae; border-radius: 1rem; background: rgba(255,255,255,0.58); padding: 2rem; text-align: center; color: #6b635b; }
+
+@media (max-width: 760px) {
+  .library-grid { grid-template-columns: 1fr; }
+  .library-card { min-height: 0; }
+  .studio-topbar-inner { min-height: 4.2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}
+
 /* Keep every interactive question on the same stage. Content sizing follows the
    viewport, while unusually long revealed content scrolls inside instead of
    changing the page geometry between questions. */

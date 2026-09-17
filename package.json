@@ -13,6 +13,7 @@
     "check:quiz-validator": "tsx scripts/check-agentic-validator.ts",
     "check:html-responsive": "tsx scripts/check-html-responsive.ts",
     "check:prompt-import": "tsx scripts/check-prompt-import.ts",
+    "check:picture-quiz": "tsx scripts/check-picture-quiz.ts",
     "check:pdf-bleed": "tsx scripts/check-pdf-bleed.ts"
   },
   "dependencies": {

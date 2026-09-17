@@ -4,25 +4,26 @@ import { Header } from './components/Header';
 import { QuestionCard } from './components/QuestionCard';
 import { JumpGrid } from './components/JumpGrid';
 import { SummaryView } from './components/SummaryView';
-import { ThemeModal } from './components/ThemeModal';
 import { ExportModal } from './components/ExportModal';
 import { ResetConfirmDialog } from './components/ResetConfirmDialog';
 import { InspectorLabModal } from './components/InspectorLabModal';
 import { LandingPage } from './components/LandingPage';
+import { LibraryPage } from './components/LibraryPage';
+import { PictureQuizStudio } from './picture-quiz/PictureQuizStudio';
 import { curatedQuizzes } from './data/curatedQuizzes';
 import { QuizDataset, QuestionAnswerState } from './types';
 
 export default function App() {
+  type AppView = 'home' | 'library' | 'pictures' | 'play' | 'summary';
   const [activeQuiz, setActiveQuiz] = useState<QuizDataset>(
     curatedQuizzes.find((q) => q.id === 'roman-empire-60') || curatedQuizzes[0]
   );
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Record<number, QuestionAnswerState>>({});
-  const [isSummaryView, setIsSummaryView] = useState<boolean>(false);
-  const [isLandingPage, setIsLandingPage] = useState<boolean>(true);
+  const [appView, setAppView] = useState<AppView>('home');
+  const [libraryReturnView, setLibraryReturnView] = useState<AppView>('home');
 
   // Modals
-  const [isThemeModalOpen, setIsThemeModalOpen] = useState<boolean>(false);
   const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
   const [isResetConfirmOpen, setIsResetConfirmOpen] = useState<boolean>(false);
   const [isInspectorLabOpen, setIsInspectorLabOpen] = useState<boolean>(false);
@@ -82,29 +83,33 @@ export default function App() {
     if (currentIndex < totalQuestions - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
-      setIsSummaryView(true);
+      setAppView('summary');
     }
   }, [currentIndex, totalQuestions]);
 
   const handleJumpToQuestion = (index: number) => {
     if (index >= 0 && index < totalQuestions) {
       setCurrentIndex(index);
-      setIsSummaryView(false);
+      setAppView('play');
     }
   };
 
   const handleRestartQuiz = () => {
     setAnswers({});
     setCurrentIndex(0);
-    setIsSummaryView(false);
+    setAppView('play');
   };
 
   const handleSelectQuiz = (newQuiz: QuizDataset) => {
     setActiveQuiz(newQuiz);
     setAnswers({});
     setCurrentIndex(0);
-    setIsSummaryView(false);
-    setIsLandingPage(false);
+    setAppView('play');
+  };
+
+  const openLibrary = () => {
+    setLibraryReturnView(appView === 'play' || appView === 'summary' ? appView : 'home');
+    setAppView('library');
   };
 
   // Keyboard Shortcuts
@@ -114,7 +119,7 @@ export default function App() {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
         return;
       }
-      if (isThemeModalOpen || isExportModalOpen || isResetConfirmOpen || isInspectorLabOpen) {
+      if (appView !== 'play' || isExportModalOpen || isResetConfirmOpen || isInspectorLabOpen) {
         return;
       }
 
@@ -137,23 +142,27 @@ export default function App() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, currentQuestion, answers, handleNext, handlePrev, handleAnswerMCQ, isThemeModalOpen, isExportModalOpen, isResetConfirmOpen, isInspectorLabOpen]);
+  }, [appView, currentIndex, currentQuestion, answers, handleNext, handlePrev, handleAnswerMCQ, isExportModalOpen, isResetConfirmOpen, isInspectorLabOpen]);
 
-  if (isLandingPage) {
+  if (appView === 'home') {
     return (
-      <>
-        <LandingPage
-          onStartQuiz={handleSelectQuiz}
-          onBrowseQuizzes={() => setIsThemeModalOpen(true)}
-        />
-        <ThemeModal
-          isOpen={isThemeModalOpen}
-          onClose={() => setIsThemeModalOpen(false)}
-          onSelectQuiz={handleSelectQuiz}
-          currentQuizId={activeQuiz.id}
-          landingEntry
-        />
-      </>
+      <LandingPage onStartQuiz={handleSelectQuiz} onBrowseQuizzes={openLibrary} onOpenPictureQuiz={() => setAppView('pictures')} />
+    );
+  }
+
+  if (appView === 'pictures') {
+    return <PictureQuizStudio onExit={() => setAppView('home')} />;
+  }
+
+  if (appView === 'library') {
+    return (
+      <LibraryPage
+        currentQuizId={activeQuiz.id}
+        returnLabel={libraryReturnView === 'home' ? 'Home' : 'Back to quiz'}
+        onBack={() => setAppView(libraryReturnView)}
+        onHome={() => setAppView('home')}
+        onSelectQuiz={handleSelectQuiz}
+      />
     );
   }
 
@@ -166,7 +175,8 @@ export default function App() {
             quiz={activeQuiz}
             currentIndex={currentIndex}
             answers={answers}
-            onOpenThemeModal={() => setIsThemeModalOpen(true)}
+            onGoHome={() => setAppView('home')}
+            onBrowseLibrary={openLibrary}
             onOpenExportModal={() => setIsExportModalOpen(true)}
             onOpenResetConfirm={() => setIsResetConfirmOpen(true)}
             onOpenInspectorLab={() => setIsInspectorLabOpen(true)}
@@ -176,7 +186,7 @@ export default function App() {
         {/* Main Content Area: Question Card or Summary View */}
         <div className="flex-1 flex flex-col justify-center">
           <AnimatePresence mode="wait">
-            {isSummaryView ? (
+            {appView === 'summary' ? (
               <motion.div
                 key="summary-view"
                 initial={{ opacity: 0, scale: 0.98 }}
@@ -189,7 +199,7 @@ export default function App() {
                   quiz={activeQuiz}
                   answers={answers}
                   onRestartQuiz={handleRestartQuiz}
-                  onOpenThemeModal={() => setIsThemeModalOpen(true)}
+                  onBrowseLibrary={openLibrary}
                   onOpenExportModal={() => setIsExportModalOpen(true)}
                   onJumpToQuestion={handleJumpToQuestion}
                 />
@@ -212,7 +222,7 @@ export default function App() {
                   onCheckNumber={handleCheckNumber}
                   onPrev={handlePrev}
                   onNext={handleNext}
-                  onFinish={() => setIsSummaryView(true)}
+                  onFinish={() => setAppView('summary')}
                 />
               </motion.div>
             )}
@@ -231,13 +241,6 @@ export default function App() {
       </div>
 
       {/* Modals & Dialogs */}
-      <ThemeModal
-        isOpen={isThemeModalOpen}
-        onClose={() => setIsThemeModalOpen(false)}
-        onSelectQuiz={handleSelectQuiz}
-        currentQuizId={activeQuiz.id}
-      />
-
       <ExportModal
         isOpen={isExportModalOpen}
         onClose={() => setIsExportModalOpen(false)}

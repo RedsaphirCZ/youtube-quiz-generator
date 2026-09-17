@@ -1,4 +1,9 @@
-import { QuizDataset } from '../types';
+import { Question, QuizDataset } from '../types';
+
+const IMPORTABLE_QUESTION_TYPES: Record<Question['type'], true> = {
+  mcq: true,
+  number: true,
+};
 
 export interface QuizPromptConfig {
   theme: string;
@@ -9,6 +14,7 @@ export interface QuizPromptConfig {
 
 export interface QuizResearchPromptConfig {
   topic: string;
+  quizTitle: string;
   questionCount: number;
   difficulty: 'easy' | 'easy-medium' | 'medium' | 'challenging';
   answerChoiceCount: 2 | 3;
@@ -21,6 +27,7 @@ export interface QuizResearchPromptConfig {
 
 export function generateQuizResearchPromptMarkdown(config: QuizResearchPromptConfig): string {
   const topic = config.topic.trim();
+  const quizTitle = config.quizTitle.trim();
   const questionCount = Math.max(1, Math.round(config.questionCount));
   const numberGuessCount = config.includeNumberGuesses
     ? Math.min(questionCount, Math.max(1, Math.round(config.numberGuessCount)))
@@ -41,6 +48,7 @@ This task is only about research and structured quiz data. Do not create HTML, C
 ## 1. FILLED QUIZ REQUIREMENTS
 
 - Topic: ${topic}
+- Quiz name: ${quizTitle}
 - Exact length: ${questionCount} questions
 - Difficulty: ${config.difficulty}
 - Language: ${config.language.trim() || 'Simple natural English'}
@@ -102,7 +110,7 @@ Use this exact structure:
 {
   "id": "short-lowercase-topic-id",
   "theme": "${topic}",
-  "title": "Engaging quiz title",
+  "title": ${JSON.stringify(quizTitle)},
   "description": "One or two sentence description",
   "difficulty": "${config.difficulty}",
   "answerChoiceCount": ${config.answerChoiceCount},
@@ -136,6 +144,7 @@ correctIndex uses 0 for A, 1 for B, and${config.answerChoiceCount === 3 ? ' 2 fo
 Confirm all of the following before returning the JSON:
 
 - Exactly ${questionCount} complete questions
+- The top-level title is exactly ${JSON.stringify(quizTitle)}
 - Exactly ${mcqCount} MCQs and ${numberGuessCount} number estimates
 - Exactly ${config.answerChoiceCount} options per MCQ
 - Correct answers and explanations verified against the listed sources
@@ -225,36 +234,38 @@ function extractJsonObject(rawText: string): unknown {
 
 export function parseFlexibleQuizResponse(rawText: string): {
   quiz: QuizDataset;
-  cycles?: number;
   answerChoiceCount: 2 | 3;
+  questionTypeCounts: Partial<Record<Question['type'], number>>;
 } {
   const parsed = extractJsonObject(rawText) as Partial<QuizDataset> & { topic?: string };
   if (!parsed || !Array.isArray(parsed.questions) || parsed.questions.length === 0) {
     throw new Error('The imported file needs a non-empty questions array.');
   }
 
-  const mcqQuestions = parsed.questions.filter((question) => question.type === 'mcq');
-  if (mcqQuestions.length === 0) {
-    throw new Error('The imported quiz needs multiple-choice questions.');
-  }
+  const questionTypeCounts = parsed.questions.reduce<Partial<Record<Question['type'], number>>>((counts, question, index) => {
+    const type = typeof question?.type === 'string' ? question.type.trim() : '';
+    if (!type) {
+      throw new Error(`Question ${index + 1} needs a JSON "type" field.`);
+    }
+    if (!(type in IMPORTABLE_QUESTION_TYPES)) {
+      throw new Error(`Question ${index + 1} uses unsupported type "${type}".`);
+    }
+    const questionType = type as Question['type'];
+    counts[questionType] = (counts[questionType] ?? 0) + 1;
+    return counts;
+  }, {});
 
+  const mcqQuestions = parsed.questions.filter((question) => question.type === 'mcq');
   const optionCounts = new Set(mcqQuestions.map((question) =>
     Array.isArray(question.options) ? question.options.length : 0
   ));
-  if (optionCounts.size !== 1 || !optionCounts.has(2) && !optionCounts.has(3)) {
+  if (mcqQuestions.length > 0 && (optionCounts.size !== 1 || !optionCounts.has(2) && !optionCounts.has(3))) {
     throw new Error('Every multiple-choice question must consistently use either 2 or 3 answer choices.');
   }
 
-  const answerChoiceCount = [...optionCounts][0] as 2 | 3;
-  const questionCount = parsed.questions.length;
-  const followsPattern = (cycleLength: number, mcqsPerCycle: number) => parsed.questions?.every(
-    (question, index) => index % cycleLength < mcqsPerCycle ? question.type === 'mcq' : question.type === 'number'
-  );
-  const cycles = questionCount === 20 && followsPattern(5, 4)
-    ? 4
-    : questionCount > 0 && questionCount % 6 === 0 && followsPattern(6, 5)
-      ? questionCount / 6
-      : undefined;
+  const answerChoiceCount = mcqQuestions.length > 0
+    ? [...optionCounts][0] as 2 | 3
+    : parsed.answerChoiceCount === 2 ? 2 : 3;
 
   const difficulty = parsed.difficulty === 'easy' || parsed.difficulty === 'challenging'
     ? parsed.difficulty
@@ -262,15 +273,15 @@ export function parseFlexibleQuizResponse(rawText: string): {
   const theme = String(parsed.theme || parsed.topic || parsed.title || 'Imported Quiz').trim();
 
   return {
-    quiz: normalizeGeneratedQuiz(parsed, { theme, cycles, difficulty, answerChoiceCount }),
-    cycles,
+    quiz: normalizeGeneratedQuiz(parsed, { theme, difficulty, answerChoiceCount }),
     answerChoiceCount,
+    questionTypeCounts,
   };
 }
 
 function normalizeGeneratedQuiz(
   parsed: Partial<QuizDataset> & { topic?: string },
-  config: QuizPromptConfig
+  config: Pick<QuizPromptConfig, 'theme' | 'difficulty' | 'answerChoiceCount'>
 ): QuizDataset {
   if (!parsed || !Array.isArray(parsed.questions) || parsed.questions.length === 0) {
     throw new Error('The JSON needs a non-empty questions array.');

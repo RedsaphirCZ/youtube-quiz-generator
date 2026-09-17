@@ -1,12 +1,13 @@
 import React from 'react';
-import { Sparkles, Download, RotateCcw, Award, CheckCircle2, HelpCircle, ShieldCheck } from 'lucide-react';
+import { BookOpen, Download, Home, RotateCcw, CheckCircle2, HelpCircle, ShieldCheck } from 'lucide-react';
 import { QuizDataset, QuestionAnswerState } from '../types';
 
 interface HeaderProps {
   quiz: QuizDataset;
   currentIndex: number;
   answers: Record<number, QuestionAnswerState>;
-  onOpenThemeModal: () => void;
+  onGoHome: () => void;
+  onBrowseLibrary: () => void;
   onOpenExportModal: () => void;
   onOpenResetConfirm: () => void;
   onOpenInspectorLab: () => void;
@@ -16,7 +17,8 @@ export const Header: React.FC<HeaderProps> = ({
   quiz,
   currentIndex,
   answers,
-  onOpenThemeModal,
+  onGoHome,
+  onBrowseLibrary,
   onOpenExportModal,
   onOpenResetConfirm,
   onOpenInspectorLab,
@@ -48,7 +50,10 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="bg-white border-2 border-[#ded4c3] border-t-4 border-t-[#8b1e1e] rounded-xl p-2.5 sm:p-3 shadow-xs">
       <div className="flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2 min-w-0">
+        <div className="flex items-center gap-1.5 min-w-0">
+          <button onClick={onGoHome} className="studio-icon-button shrink-0" title="Home" aria-label="Home">
+            <Home className="w-4 h-4" />
+          </button>
           <h1 className="text-base sm:text-lg font-black text-[#8b1e1e] tracking-tight truncate">
             {quiz.title || quiz.theme}
           </h1>
@@ -60,12 +65,12 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Clean Action Buttons */}
         <div className="flex items-center gap-1.5 shrink-0">
           <button
-            onClick={onOpenThemeModal}
+            onClick={onBrowseLibrary}
             className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-black bg-[#8b1e1e] text-white hover:bg-[#731818] transition cursor-pointer active:scale-95"
-            title="Themes"
+            title="Quiz library"
           >
-            <Sparkles className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Themes</span>
+            <BookOpen className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Library</span>
           </button>
 
           <button

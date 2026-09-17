@@ -16,7 +16,7 @@ interface SummaryViewProps {
   quiz: QuizDataset;
   answers: Record<number, QuestionAnswerState>;
   onRestartQuiz: () => void;
-  onOpenThemeModal: () => void;
+  onBrowseLibrary: () => void;
   onOpenExportModal: () => void;
   onJumpToQuestion: (index: number) => void;
 }
@@ -25,7 +25,7 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
   quiz,
   answers,
   onRestartQuiz,
-  onOpenThemeModal,
+  onBrowseLibrary,
   onOpenExportModal,
   onJumpToQuestion,
 }) => {
@@ -140,11 +140,11 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
         </button>
 
         <button
-          onClick={onOpenThemeModal}
+          onClick={onBrowseLibrary}
           className="inline-flex items-center gap-2 px-5 py-3 rounded-lg font-bold text-sm md:text-base bg-[#faf8f4] border border-[#e0d8cb] text-[#2b2520] hover:border-[#8b1e1e] hover:bg-white transition cursor-pointer"
         >
           <Sparkles className="w-4 h-4 text-[#8b1e1e]" />
-          Generate New Theme
+          Browse Library
         </button>
       </div>
 

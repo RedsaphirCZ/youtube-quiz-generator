@@ -3,6 +3,41 @@ import { QuizDataset, Question } from '../types';
 
 export type CardFormatId = 'poker' | 'tarot';
 
+export interface CardStyle {
+  accentColor: string;
+}
+
+export const DEFAULT_CARD_STYLE: CardStyle = { accentColor: '#8B1E1E' };
+
+type RGBColor = [number, number, number];
+
+function normalizeHexColor(value: string): string {
+  const trimmed = value.trim();
+  const expanded = /^#[0-9a-f]{3}$/i.test(trimmed)
+    ? `#${trimmed.slice(1).split('').map((character) => character + character).join('')}`
+    : trimmed;
+  return /^#[0-9a-f]{6}$/i.test(expanded) ? expanded.toUpperCase() : DEFAULT_CARD_STYLE.accentColor;
+}
+
+function hexToRgb(value: string): RGBColor {
+  const normalized = normalizeHexColor(value);
+  return [
+    Number.parseInt(normalized.slice(1, 3), 16),
+    Number.parseInt(normalized.slice(3, 5), 16),
+    Number.parseInt(normalized.slice(5, 7), 16),
+  ];
+}
+
+function readableTextColor(background: RGBColor): RGBColor {
+  const [red, green, blue] = background.map((channel) => {
+    const value = channel / 255;
+    return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * red + 0.7152 * green + 0.0722 * blue > 0.42
+    ? [31, 26, 22]
+    : [255, 255, 255];
+}
+
 export interface CardFormat {
   id: CardFormatId;
   label: string;
@@ -155,7 +190,8 @@ export function drawFrontCard(
   q: Question,
   qIndex: number,
   packName: string,
-  format: CardFormat = CARD_FORMATS.poker
+  format: CardFormat = CARD_FORMATS.poker,
+  style: CardStyle = DEFAULT_CARD_STYLE
 ) {
   const [pageWidth, pageHeight] = getCardPageSize(format);
   const safeX = format.bleed + CARD_SAFE_MARGIN;
@@ -163,6 +199,8 @@ export function drawFrontCard(
   applyCardPageBoxes(doc, format);
   const partNum = Math.floor(qIndex / 20) + 1;
   const partQNum = (qIndex % 20) + 1;
+  const accent = hexToRgb(style.accentColor);
+  const accentText = readableTextColor(accent);
 
   // 1. Full-bleed background. The PDF page itself includes the 3 mm bleed.
   // Do not draw a trim rectangle here: it would become a visible border on the card.
@@ -171,7 +209,7 @@ export function drawFrontCard(
 
   // 2. Top Header Banner (bleeds to the top, left, and right page edges)
   const headerH = format.bleed + 11.5;
-  doc.setFillColor(139, 30, 30); // #8B1E1E
+  doc.setFillColor(...accent);
   doc.rect(0, 0, pageWidth, headerH, 'F');
 
   // Line 1: Pack Title (Autoscaled)
@@ -181,13 +219,13 @@ export function drawFrontCard(
     fontStyle: 'bold',
     allowMultiLine: false,
   });
-  doc.setTextColor(255, 255, 255);
+  doc.setTextColor(...accentText);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(packFit.fontSize);
   doc.text(packFit.lines[0], pageWidth / 2, format.bleed + 3.8, { align: 'center' });
 
   // Line 2: Part & Question # (x/20)
-  doc.setTextColor(255, 224, 130); // Warm Gold (#FFE082)
+  doc.setTextColor(...accentText);
   doc.setFontSize(8.5);
   doc.text(`PART ${partNum}  •  QUESTION ${partQNum}`, pageWidth / 2, format.bleed + 8.5, { align: 'center' });
 
@@ -241,7 +279,7 @@ export function drawFrontCard(
       doc.rect(safeX, optY, safeWidth, optH, 'FD');
 
       // Letter Badge
-      doc.setTextColor(139, 30, 30);
+      doc.setTextColor(...accent);
       doc.setFont('helvetica', 'bold');
       doc.setFontSize(11.5);
       doc.text(`${optLetters[o]}:`, safeX + 2.8, optY + optH / 2 + 1.3);
@@ -300,18 +338,21 @@ export function drawBackCard(
   q: Question,
   qIndex: number,
   packName: string,
-  format: CardFormat = CARD_FORMATS.poker
+  format: CardFormat = CARD_FORMATS.poker,
+  style: CardStyle = DEFAULT_CARD_STYLE
 ) {
   const [pageWidth, pageHeight] = getCardPageSize(format);
   const safeX = format.bleed + CARD_SAFE_MARGIN;
   const safeWidth = format.trimWidth - 2 * CARD_SAFE_MARGIN;
+  const accent = hexToRgb(style.accentColor);
+  const accentText = readableTextColor(accent);
   applyCardPageBoxes(doc, format);
   doc.setFillColor(255, 255, 255);
   doc.rect(0, 0, pageWidth, pageHeight, 'F');
-  doc.setFillColor(27, 94, 32);
+  doc.setFillColor(...accent);
   doc.rect(0, 0, pageWidth, 14.5, 'F');
   const title = fitTextToBox(doc, packName.toUpperCase(), safeWidth, 4, { minFontSize: 4, maxFontSize: 8, allowMultiLine: false });
-  doc.setTextColor(255, 255, 255);
+  doc.setTextColor(...accentText);
   doc.setFontSize(title.fontSize);
   doc.text(title.lines, pageWidth / 2, 7, { align: 'center' });
   doc.setFontSize(8.5);
@@ -364,7 +405,11 @@ export function drawBackCard(
  * (Page 1: Q1 Front, Page 2: Q1 Back, Page 3: Q2 Front, Page 4: Q2 Back...)
  * ready for direct imposition in Montax Imposer.
  */
-export function generateQuizPDF(quiz: QuizDataset, formatId: CardFormatId = 'poker'): jsPDF {
+export function generateQuizPDF(
+  quiz: QuizDataset,
+  formatId: CardFormatId = 'poker',
+  style: CardStyle = DEFAULT_CARD_STYLE
+): jsPDF {
   const format = CARD_FORMATS[formatId];
   const [pageWidth, pageHeight] = getCardPageSize(format);
   const doc = new jsPDF({
@@ -383,11 +428,11 @@ export function generateQuizPDF(quiz: QuizDataset, formatId: CardFormatId = 'pok
     if (i > 0) {
       doc.addPage([pageWidth, pageHeight], 'portrait');
     }
-    drawFrontCard(doc, q, i, packName, format);
+    drawFrontCard(doc, q, i, packName, format, style);
 
     // Page 2*i + 2: BACK Card Face (Answer)
     doc.addPage([pageWidth, pageHeight], 'portrait');
-    drawBackCard(doc, q, i, packName, format);
+    drawBackCard(doc, q, i, packName, format, style);
   }
 
   return doc;
@@ -396,8 +441,13 @@ export function generateQuizPDF(quiz: QuizDataset, formatId: CardFormatId = 'pok
 /**
  * Downloads the generated 120-page Front-Back PDF directly in browser.
  */
-export function downloadQuizPDF(quiz: QuizDataset, customFilename?: string, formatId: CardFormatId = 'poker') {
-  const doc = generateQuizPDF(quiz, formatId);
+export function downloadQuizPDF(
+  quiz: QuizDataset,
+  customFilename?: string,
+  formatId: CardFormatId = 'poker',
+  style: CardStyle = DEFAULT_CARD_STYLE
+) {
+  const doc = generateQuizPDF(quiz, formatId, style);
   const themeSlug = (quiz.theme || quiz.title || 'quiz')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
@@ -409,27 +459,41 @@ export function downloadQuizPDF(quiz: QuizDataset, customFilename?: string, form
 /**
  * Returns PDF Data URI string for iframe preview in browser.
  */
-export function getQuizPDFDataUri(quiz: QuizDataset, formatId: CardFormatId = 'poker'): string {
-  const doc = generateQuizPDF(quiz, formatId);
+export function getQuizPDFDataUri(
+  quiz: QuizDataset,
+  formatId: CardFormatId = 'poker',
+  style: CardStyle = DEFAULT_CARD_STYLE
+): string {
+  const doc = generateQuizPDF(quiz, formatId, style);
   return doc.output('datauristring');
 }
 
 /**
  * Returns raw PDF ArrayBuffer for saving in Node.js scripts.
  */
-export function getQuizPDFBuffer(quiz: QuizDataset, formatId: CardFormatId = 'poker'): Buffer {
-  const doc = generateQuizPDF(quiz, formatId);
+export function getQuizPDFBuffer(
+  quiz: QuizDataset,
+  formatId: CardFormatId = 'poker',
+  style: CardStyle = DEFAULT_CARD_STYLE
+): Buffer {
+  const doc = generateQuizPDF(quiz, formatId, style);
   const arrayBuffer = doc.output('arraybuffer');
   return Buffer.from(arrayBuffer);
 }
 
 /** One face using exactly the same drawing functions as the full download. */
-export function generateCardPreviewPDF(quiz: QuizDataset, index: number, side: 'front' | 'back', formatId: CardFormatId = 'poker'): jsPDF {
+export function generateCardPreviewPDF(
+  quiz: QuizDataset,
+  index: number,
+  side: 'front' | 'back',
+  formatId: CardFormatId = 'poker',
+  style: CardStyle = DEFAULT_CARD_STYLE
+): jsPDF {
   const format = CARD_FORMATS[formatId];
   const pageSize = getCardPageSize(format);
   const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: pageSize });
   const question = quiz.questions[index];
   if (!question) throw new Error('No card available to preview.');
-  (side === 'front' ? drawFrontCard : drawBackCard)(doc, question, index, quiz.theme || quiz.title || 'Quiz Pack', format);
+  (side === 'front' ? drawFrontCard : drawBackCard)(doc, question, index, quiz.theme || quiz.title || 'Quiz Pack', format, style);
   return doc;
 }
