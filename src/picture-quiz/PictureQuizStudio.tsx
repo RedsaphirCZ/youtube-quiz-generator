@@ -181,7 +181,7 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
                 <TextField label="Quiz name *" value={config.title} placeholder="World Brand Challenge" onChange={(title) => setConfig({ ...config, title })} />
                 <TextField label="Topic *" value={config.topic} placeholder="Recognizable global brand logos" onChange={(topic) => setConfig({ ...config, topic })} />
                 <SelectField label="Picture category" value={config.category} onChange={(category) => setConfig({ ...config, category: category as PictureQuizCategory })} options={[
-                  ['brands', 'Brands'], ['country-shapes', 'Country shapes'], ['flags', 'Flags'], ['landmarks', 'Landmarks'], ['people', 'People'], ['objects', 'Objects'], ['custom', 'Custom'],
+                  ['brands', 'Brands'], ['country-shapes', 'Country shapes'], ['emoji', 'Emoji'], ['flags', 'Flags'], ['landmarks', 'Landmarks'], ['people', 'People'], ['objects', 'Objects'], ['custom', 'Custom'],
                 ]} />
                 <SelectField label="Difficulty" value={config.difficulty} onChange={(difficulty) => setConfig({ ...config, difficulty: difficulty as PicturePromptConfig['difficulty'] })} options={[
                   ['easy', 'Easy'], ['easy-medium', 'Easy-medium'], ['medium', 'Medium'], ['challenging', 'Challenging'],

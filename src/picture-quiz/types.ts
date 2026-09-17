@@ -1,6 +1,7 @@
 export type PictureQuizCategory =
   | 'brands'
   | 'country-shapes'
+  | 'emoji'
   | 'flags'
   | 'landmarks'
   | 'people'

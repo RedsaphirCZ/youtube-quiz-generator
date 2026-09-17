@@ -133,6 +133,18 @@ const prompt = generatePictureQuizPrompt({
 assert.match(prompt, /Exact Visual Title/);
 assert.match(prompt, /country silhouettes or map outlines/i);
 assert.match(prompt, /"type": "picture_mcq"/);
+
+const emojiPrompt = generatePictureQuizPrompt({
+  title: 'Emoji Meanings', topic: 'Emoji meanings and symbolism', category: 'emoji',
+  questionCount: 40, answerChoiceCount: 2, difficulty: 'easy-medium', specialInstructions: '',
+});
+assert.match(emojiPrompt, /cdnjs\.cloudflare\.com\/ajax\/libs\/twemoji\/14\.0\.2\/svg\/CODEPOINT\.svg/);
+assert.match(emojiPrompt, /"src": "https:\/\/cdnjs\.cloudflare\.com\/ajax\/libs\/twemoji\/14\.0\.2\/svg\/1f914\.svg"/);
+assert.doesNotMatch(emojiPrompt, /direct-image-url\.example/);
+assert.match(emojiPrompt, /HTTP 200 after redirects/);
+assert.match(emojiPrompt, /Content-Type beginning with image\//);
+assert.match(emojiPrompt, /Never infer, invent, or autocomplete an asset filename/);
+assert.match(emojiPrompt, /replace it\. Never return placeholders or guessed URLs/);
 assert.equal(pictureQuizDemo.questions.length, 3);
 assert.ok(pictureQuizDemo.questions.every((question) => question.image.src.startsWith('data:image/svg+xml')));
 

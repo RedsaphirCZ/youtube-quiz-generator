@@ -5,7 +5,7 @@ export const PICTURE_QUESTION_TYPES = {
 } as const;
 
 const CATEGORIES = new Set<PictureQuizCategory>([
-  'brands', 'country-shapes', 'flags', 'landmarks', 'people', 'objects', 'custom',
+  'brands', 'country-shapes', 'emoji', 'flags', 'landmarks', 'people', 'objects', 'custom',
 ]);
 
 const slugify = (value: string) => value
@@ -155,6 +155,7 @@ export function generatePictureQuizPrompt(config: PicturePromptConfig): string {
   const categoryGuidance: Record<PictureQuizCategory, string> = {
     brands: 'Use recognizable brand marks or products without answer text visible in the image.',
     'country-shapes': 'Use clean country silhouettes or map outlines with no labels, flags, or neighboring-country clues.',
+    emoji: `Use official Twemoji artwork. Build every image URL from its Unicode code point using exactly ${TWEMOJI_CDN_BASE}/CODEPOINT.svg (for example, ${TWEMOJI_CDN_BASE}/1f914.svg). Do not guess Wikimedia Commons Twemoji filenames.`,
     flags: 'Use accurate flag images with no captions.',
     landmarks: 'Use clear landmark photographs that do not contain giveaway captions.',
     people: 'Use appropriately licensed portraits and avoid sensitive or private-person identification.',
@@ -162,6 +163,19 @@ export function generatePictureQuizPrompt(config: PicturePromptConfig): string {
     custom: 'Choose images that test visual recognition and do not reveal the answer in visible text.',
   };
   const optionExample = Array.from({ length: config.answerChoiceCount }, (_, index) => `"Option ${String.fromCharCode(65 + index)}"`).join(', ');
+  const exampleImage = config.category === 'emoji'
+    ? {
+        src: `${TWEMOJI_CDN_BASE}/1f914.svg`,
+        alt: 'Yellow thinking face resting its chin on one hand',
+        credit: 'Twemoji contributors, CC BY 4.0',
+        sourceUrl: 'https://github.com/jdecked/twemoji',
+      }
+    : {
+        src: 'https://direct-image-url.example/image.jpg',
+        alt: 'Neutral description without the answer',
+        credit: 'Creator, license',
+        sourceUrl: 'https://source-page.example/file',
+      };
 
   return `# PICTURE QUIZ RESEARCH AND ASSET BRIEF
 
@@ -181,13 +195,14 @@ ${categoryGuidance[config.category]}
 
 ## Image rules
 
-1. Every question must use a direct HTTPS image URL that a browser can display, not a search-results or webpage URL.
-2. Prefer Wikimedia Commons or another source that clearly permits reuse. Put the file page in sourceUrl and the attribution in credit.
-3. Verify that every direct image URL loads before returning the JSON.
+1. Every question must use a direct HTTPS image URL that a browser can display, not a search-results page, article page, or HTML file.
+2. Prefer Wikimedia Commons or another source that clearly permits reuse. Put the human-readable file page in sourceUrl and the direct image asset in src.
+3. Open or fetch EVERY src URL before returning the JSON. It must return HTTP 200 after redirects and a Content-Type beginning with image/. Never infer, invent, or autocomplete an asset filename.
 4. Provide useful alt text that describes the image without stating the answer.
 5. Do not use watermarked, low-resolution, misleading, or answer-revealing images.
 6. For local assets, you may instead use a relative filename such as "images/question-01.png". The user can select the JSON and image files together when importing.
 7. For Twemoji, use the verified form "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/CODEPOINT.svg". Do not invent Wikimedia Commons filenames.
+8. If a candidate URL returns 403, 404, HTML, or any non-image response, replace the asset before producing the final JSON. Do not leave a broken URL in the quiz.
 
 ## Question rules
 
@@ -212,10 +227,10 @@ Return only one valid JSON object, with no Markdown fence or commentary:
       "type": "picture_mcq",
       "question": "What does this picture show?",
       "image": {
-        "src": "https://direct-image-url.example/image.jpg",
-        "alt": "Neutral description without the answer",
-        "credit": "Creator, license",
-        "sourceUrl": "https://source-page.example/file"
+        "src": ${JSON.stringify(exampleImage.src)},
+        "alt": ${JSON.stringify(exampleImage.alt)},
+        "credit": ${JSON.stringify(exampleImage.credit)},
+        "sourceUrl": ${JSON.stringify(exampleImage.sourceUrl)}
       },
       "options": [${optionExample}],
       "correctIndex": 0,
@@ -224,7 +239,18 @@ Return only one valid JSON object, with no Markdown fence or commentary:
   ]
 }
 
-Before returning, confirm the exact title and question count, load every image URL, check licensing/credit, and validate every correctIndex.`;
+## Mandatory final asset audit
+
+Before returning the JSON:
+
+- Confirm the exact title and question count.
+- Fetch every image.src individually and confirm HTTP 200 plus an image Content-Type.
+- Confirm that every image actually depicts the intended answer and does not reveal it through visible text.
+- Confirm every credit and sourceUrl. A sourceUrl may be a webpage; image.src must be the direct image asset.
+- Confirm every correctIndex.
+- If even one asset cannot be verified, replace it. Never return placeholders or guessed URLs.
+
+Return the JSON only after every line above passes.`;
 }
 
 const svgDataUrl = (body: string) => `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(body)}`;
