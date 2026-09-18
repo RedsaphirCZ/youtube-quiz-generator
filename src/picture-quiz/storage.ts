@@ -1,16 +1,21 @@
 import { PictureQuizDataset } from './types';
 import { parsePictureQuizResponse } from './pictureQuiz';
 const key = 'picture-quiz-library-v1';
+function parseStored(items: unknown): PictureQuizDataset[] {
+  if (!Array.isArray(items)) return [];
+  return items.flatMap((item: unknown) => {
+    try {
+      if (!item || typeof item !== 'object') return [];
+      const metadata = item as Record<string, unknown>;
+      const quiz = parsePictureQuizResponse(JSON.stringify(item));
+      return [{ ...quiz, id: typeof metadata.id === 'string' ? metadata.id : quiz.id, createdAt: typeof metadata.createdAt === 'string' ? metadata.createdAt : quiz.createdAt }];
+    } catch { return []; }
+  });
+}
 function readLegacy(): PictureQuizDataset[] {
   try {
     const stored: unknown = JSON.parse(localStorage.getItem(key) || '[]');
-    if (!Array.isArray(stored)) return [];
-    return stored.flatMap(item => {
-      try {
-        const quiz = parsePictureQuizResponse(JSON.stringify(item));
-        return [{ ...quiz, id: typeof item.id === 'string' ? item.id : quiz.id, createdAt: typeof item.createdAt === 'string' ? item.createdAt : quiz.createdAt }];
-      } catch { return []; }
-    });
+    return parseStored(stored);
   } catch { return []; }
 }
 function openDatabase(): Promise<IDBDatabase> {
@@ -28,9 +33,11 @@ export async function loadPictureLibrary(): Promise<PictureQuizDataset[]> {
   const db = await openDatabase();
   try {
     const saved = await new Promise<PictureQuizDataset[]>((resolve, reject) => {
-      const request = db.transaction('quizzes').objectStore('quizzes').getAll();
-      request.onsuccess = () => resolve(request.result);
-      request.onerror = () => reject(request.error);
+      const transaction = db.transaction('quizzes');
+      const request = transaction.objectStore('quizzes').getAll();
+      transaction.oncomplete = () => resolve(parseStored(request.result));
+      transaction.onerror = () => reject(transaction.error);
+      transaction.onabort = () => reject(transaction.error || new Error('Load cancelled.'));
     });
     return [...saved, ...legacy.filter(item => !saved.some(project => project.id === item.id))];
   } finally { db.close(); }

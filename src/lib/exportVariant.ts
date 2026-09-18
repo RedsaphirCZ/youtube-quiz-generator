@@ -19,6 +19,7 @@ export function createQuizExportVariant(
 
     const currentMcqIndex = mcqIndex++;
     const correctOption = question.options[question.correctIndex];
+    if (correctOption === undefined) throw new Error('Cannot export a question with an invalid correct answer.');
     const distractorIndexes = question.options
       .map((_, index) => index)
       .filter((index) => index !== question.correctIndex);

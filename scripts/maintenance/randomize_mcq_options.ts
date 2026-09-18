@@ -58,8 +58,10 @@ for (const quiz of curatedQuizzes) {
   for (let i = 0; i < quiz.questions.length; i++) {
     const q = quiz.questions[i];
     if (q.type === 'mcq') {
+      if (q.options.length !== 3) throw new Error('This catalog maintenance script requires three-choice questions.');
       const oldCorrectIdx = q.correctIndex;
       const correctText = q.options[oldCorrectIdx];
+      if (correctText === undefined) throw new Error('Question has an invalid correct answer index.');
       const newCorrectIdx = targetSlots[mcqIdx];
       mcqIdx++;
 

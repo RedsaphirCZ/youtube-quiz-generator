@@ -2,8 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, BookOpen, CheckCircle2, Download, Home, Library, Play, Search, ShieldAlert, ShieldCheck, Sparkles, Trash2, Upload, X } from 'lucide-react';
 import { curatedQuizzes } from '../data/curatedQuizzes';
 import { generateStandaloneQuizHTML } from '../lib/htmlExporter';
-import { deleteSavedQuiz, getSavedQuizzes, saveQuizToLibrary } from '../lib/quizStorage';
-import { FlexibleQuizExpectation, validateQuizDataset } from '../lib/validator';
+import { deleteSavedQuiz, getSavedQuizzes, saveQuizToLibrary, validateLibraryQuiz } from '../lib/quizStorage';
+import { parseFlexibleQuizResponse } from '../lib/quizPrompt';
 import { QuizDataset } from '../types';
 
 interface LibraryPageProps {
@@ -26,13 +26,6 @@ const CATEGORY_LABELS: Record<string, string> = {
   'Tech, Inventions & Engineering': 'Tech & engineering',
   'Arts, Music, Literature & Philosophy': 'Arts & culture',
   'Sports, Records & General Knowledge': 'Sports & general',
-};
-
-const inferExpectation = (questionCount: number): number | FlexibleQuizExpectation | undefined => {
-  if (questionCount === 20) return 4;
-  if (questionCount > 0 && questionCount % 6 === 0) return questionCount / 6;
-  if (questionCount > 0) return { questionCount, flexible: true };
-  return undefined;
 };
 
 const downloadQuiz = (quiz: QuizDataset) => {
@@ -82,9 +75,7 @@ export const LibraryPage: React.FC<LibraryPageProps> = ({ currentQuizId, returnL
     let skipped = 0;
     for (const file of files) {
       try {
-        const parsed = JSON.parse(await file.text()) as QuizDataset;
-        if (!parsed || !Array.isArray(parsed.questions) || !parsed.questions.length) { skipped += 1; continue; }
-        const quiz: QuizDataset = { ...parsed, id: parsed.id || `imported-${Date.now()}-${imported}`, title: parsed.title || parsed.theme || file.webkitRelativePath || file.name, theme: parsed.theme || parsed.title || 'Imported Quiz', description: parsed.description || 'Imported quiz dataset.', createdAt: parsed.createdAt || new Date().toISOString(), validated: false };
+        const { quiz } = parseFlexibleQuizResponse(await file.text());
         if (saveQuizToLibrary(quiz)) imported += 1; else skipped += 1;
       } catch { skipped += 1; }
     }
@@ -158,7 +149,7 @@ interface QuizCardProps { quiz: QuizDataset; isCurrent: boolean; saved?: boolean
 const QuizCard: React.FC<QuizCardProps> = ({ quiz, isCurrent, saved, onPlay, onExport, onDelete }) => {
   const mcqCount = quiz.questions.filter((question) => question.type === 'mcq').length;
   const estimateCount = quiz.questions.length - mcqCount;
-  const report = saved ? validateQuizDataset(quiz.questions, inferExpectation(quiz.questions.length)) : null;
+  const report = saved ? validateLibraryQuiz(quiz) : null;
   const reviewed = quiz.agentValidation?.verdict === 'ready_for_human_review' || quiz.validated;
   const hasIssues = quiz.agentValidation?.verdict === 'blocked' || (report ? !report.isValid : false);
   return <article className={`library-card ${isCurrent ? 'library-card-current' : ''}`}><div className="flex items-start justify-between gap-3"><div className="studio-card-icon">{saved ? <Sparkles className="w-5 h-5" /> : <BookOpen className="w-5 h-5" />}</div><div className="flex flex-wrap justify-end gap-1.5">{isCurrent && <span className="studio-badge studio-badge-active">Active</span>}{saved && <span className={`studio-badge ${hasIssues ? 'studio-badge-warning' : reviewed ? 'studio-badge-success' : 'studio-badge-draft'}`}>{hasIssues ? <ShieldAlert className="w-3 h-3" /> : reviewed ? <ShieldCheck className="w-3 h-3" /> : <CheckCircle2 className="w-3 h-3" />}{hasIssues ? 'Needs attention' : reviewed ? 'Reviewed' : 'Unreviewed draft'}</span>}</div></div><div className="mt-4 flex-1"><p className="text-[11px] font-black uppercase tracking-[0.11em] text-[#8c6a0c]">{CATEGORY_LABELS[quiz.category || ''] || quiz.category || (saved ? 'Custom quiz' : 'Quiz pack')}</p><h3 className="mt-1.5 text-lg font-black leading-snug text-[#211b17] line-clamp-2">{quiz.title}</h3><p className="mt-2 text-sm leading-relaxed text-[#6b635b] line-clamp-2">{quiz.description}</p></div><div className="mt-5 flex items-center justify-between gap-3 border-t border-[#e6ddd0] pt-4"><p className="text-xs font-bold text-[#756b62]">{quiz.questions.length} questions · {mcqCount} choice · {estimateCount} estimate</p><div className="flex items-center gap-1.5 shrink-0">{onExport && <button onClick={onExport} className="studio-icon-button" aria-label={`Export ${quiz.title}`} title="Export HTML"><Download className="w-4 h-4" /></button>}{onDelete && <button onClick={onDelete} className="studio-icon-button hover:!border-[#b4232b] hover:!text-[#b4232b]" aria-label={`Delete ${quiz.title}`} title="Delete"><Trash2 className="w-4 h-4" /></button>}<button onClick={onPlay} className="studio-button studio-button-primary"><Play className="w-4 h-4 fill-current" /> Open</button></div></div></article>;

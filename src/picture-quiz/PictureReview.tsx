@@ -57,7 +57,7 @@ export function PictureReview({ initialQuiz, onSave, onPlay }: {
   }, [initialQuiz]);
 
   const ready = states.filter(state => state.kind === 'ready').length;
-  const mismatch = (index: number) => { const question = quiz.questions[index]; const answer = findCountry(question.options[question.correctIndex]); return !!(question.image.countryCode && answer && answer.iso2 !== question.image.countryCode); };
+  const mismatch = (index: number) => { const question = quiz.questions[index]; const answer = findCountry(question.options[question.correctIndex] ?? ''); return !!(question.image.countryCode && answer && answer.iso2 !== question.image.countryCode); };
   const allReady = ready === quiz.questions.length && !quiz.questions.some((_, index) => mismatch(index));
   const save = async (play: boolean) => {
     setBusy(true); setNotice('');

@@ -1,4 +1,10 @@
 import { QuizDataset } from '../types';
+import { isStoredQuiz } from './quizSchema';
+import { validateQuizDataset } from './validator';
+
+export function validateLibraryQuiz(quiz: QuizDataset) {
+  return validateQuizDataset(quiz.questions, { questionCount: quiz.questions.length, flexible: true });
+}
 
 const STORAGE_KEY = 'quiz_factory_saved_quizzes_v1';
 
@@ -11,7 +17,7 @@ export function getSavedQuizzes(): QuizDataset[] {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
-    return parsed;
+    return parsed.filter(isStoredQuiz);
   } catch (err) {
     console.error('Failed to load saved quizzes from localStorage:', err);
     return [];
@@ -24,6 +30,7 @@ export function getSavedQuizzes(): QuizDataset[] {
  */
 export function saveQuizToLibrary(quiz: QuizDataset): boolean {
   try {
+    if (!isStoredQuiz(quiz)) return false;
     const existing = getSavedQuizzes();
     const index = existing.findIndex((q) => q.id === quiz.id);
     

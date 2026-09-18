@@ -1,4 +1,5 @@
 import { Question, QuizDataset } from '../types';
+import { assertQuestions } from './quizSchema';
 
 const IMPORTABLE_QUESTION_TYPES: Record<Question['type'], true> = {
   mcq: true,
@@ -247,7 +248,7 @@ export function parseFlexibleQuizResponse(rawText: string): {
     if (!type) {
       throw new Error(`Question ${index + 1} needs a JSON "type" field.`);
     }
-    if (!(type in IMPORTABLE_QUESTION_TYPES)) {
+    if (!Object.hasOwn(IMPORTABLE_QUESTION_TYPES, type)) {
       throw new Error(`Question ${index + 1} uses unsupported type "${type}".`);
     }
     const questionType = type as Question['type'];
@@ -297,6 +298,8 @@ function normalizeGeneratedQuiz(
     );
   }
 
+  assertQuestions(parsed.questions);
+
   const title = String(parsed.title || parsed.theme || config.theme).trim();
   const theme = String(parsed.theme || parsed.topic || config.theme).trim();
   const safeIdBase = String(parsed.id || title || theme)
@@ -311,6 +314,7 @@ function normalizeGeneratedQuiz(
     theme,
     title,
     description: String(parsed.description || `A ${config.difficulty} quiz about ${theme}.`),
+    category: typeof parsed.category === 'string' ? parsed.category : undefined,
     difficulty: config.difficulty,
     answerChoiceCount: config.answerChoiceCount,
     questions: parsed.questions,

@@ -9,7 +9,7 @@
     "build:static": "vite build --base=./ --mode static",
     "preview": "vite preview",
     "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
-    "lint": "tsc --noEmit",
+    "lint": "npm run typecheck",
     "check:quiz-validator": "tsx scripts/check-agentic-validator.ts",
     "check:html-responsive": "tsx scripts/check-html-responsive.ts",
     "check:prompt-import": "tsx scripts/check-prompt-import.ts",
@@ -17,7 +17,12 @@
     "check:studio-settings": "tsx scripts/check-studio-settings.ts",
     "check:pdf-bleed": "tsx scripts/check-pdf-bleed.ts",
     "check:picture-assets": "tsx scripts/check-picture-assets.ts",
-    "check:flag-card-studio": "tsx scripts/check-flag-card-studio.ts"
+    "check:flag-card-studio": "tsx scripts/check-flag-card-studio.ts",
+    "typecheck": "tsc --noEmit",
+    "check:card-part-numbering": "tsx scripts/check-card-part-numbering.ts",
+    "check:library": "tsx scripts/check-library.ts",
+    "check:indexeddb": "tsx scripts/check-indexeddb.ts",
+    "check": "npm run typecheck && npm run check:quiz-validator && npm run check:html-responsive && npm run check:prompt-import && npm run check:picture-quiz && npm run check:studio-settings && npm run check:pdf-bleed && npm run check:picture-assets && npm run check:flag-card-studio && npm run check:card-part-numbering && npm run check:library && npm run check:indexeddb"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
@@ -33,7 +38,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
+    "fake-indexeddb": "^6.2.5",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
