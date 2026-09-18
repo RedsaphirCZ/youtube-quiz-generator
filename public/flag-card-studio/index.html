@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143f3a">
+  <title>Flag Card Studio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=20260918-1">
+</head>
+<body>
+  <header class="topbar">
+    <button id="homeButton" class="brand" type="button" aria-label="Go home">
+      <span class="brand-mark">F</span>
+      <span><strong>Flag Card Studio</strong><small>Cards and write-under worksheets</small></span>
+    </button>
+    <div class="topbar-actions">
+      <a class="button quiet suite-link" href="../" aria-label="Return to YouTube Quiz Studio"><span class="wide-label">← Quiz Studio</span><span class="short-label">← Studio</span></a>
+      <button id="deckButton" class="button quiet" type="button">Deck <span id="deckCountBadge">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="homeView" class="view home-view">
+      <div class="hero">
+        <p class="eyebrow">OFFLINE CARD MAKER</p>
+        <h1>Build a flag set. Print it your way.</h1>
+        <p>Find countries by a flag feature—two colours, an animal, a sun, or your own idea—then turn the same set into cards or A4/A5 write-under worksheets.</p>
+      </div>
+      <div class="start-grid">
+        <button class="start-card" type="button" data-open="promptView">
+          <span class="start-number">01</span><strong>Get Gemini prompt</strong><small>Define a flag criterion, copy a research prompt, then import the matching country set.</small>
+        </button>
+        <button class="start-card" type="button" data-open="importView">
+          <span class="start-number">02</span><strong>Import country set</strong><small>Paste plain JSON or a fenced code block. Choose cards or sheets after import.</small>
+        </button>
+        <button class="start-card" type="button" data-open="randomView">
+          <span class="start-number">03</span><strong>Random picker</strong><small>Choose cards or worksheets first, then see only the settings that belong to that format.</small>
+        </button>
+      </div>
+      <div class="format-note"><strong>Print format</strong><span>Poker or Tarot cards</span><span>A4 or A5 write-under worksheets</span><span>PDF: activity then matching answers</span></div>
+    </section>
+
+    <section id="promptView" class="view panel-view" hidden>
+      <div class="view-heading"><button class="back-button" type="button" data-open="homeView">← Home</button><div><p class="eyebrow">GEMINI WORKFLOW</p><h2>Build a prompt</h2></div></div>
+      <div class="two-column">
+        <form id="promptForm" class="panel form-panel">
+          <label>Flag feature or criterion<textarea id="promptCriterion" rows="3" required placeholder="Examples: uses exactly two visible colours; features an animal; includes a sun"></textarea></label>
+          <label>Continent<select id="promptContinent" class="continent-select"></select></label>
+          <label class="check-label"><input id="promptAllMatches" type="checkbox" checked><span>Find every confident match</span></label>
+          <label id="promptLimitField" hidden>Maximum countries<input id="promptCountryLimit" type="number" min="2" max="195" value="24"></label>
+          <label>Extra rule <textarea id="promptExtra" rows="2" placeholder="Optional: ignore colours inside coats of arms"></textarea></label>
+          <button class="button primary wide" type="submit">Generate prompt</button>
+        </form>
+        <div class="panel output-panel">
+          <div class="panel-title"><div><p class="eyebrow">READY TO SEND</p><h3>Gemini prompt</h3></div><button id="copyPromptButton" class="button quiet" type="button">Copy</button></div>
+          <textarea id="promptOutput" class="code-output" readonly aria-label="Generated Gemini prompt"></textarea>
+          <p id="promptStatus" class="status-line">Choose your settings and generate the prompt.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="importView" class="view panel-view" hidden>
+      <div class="view-heading"><button class="back-button" type="button" data-open="homeView">← Home</button><div><p class="eyebrow">GEMINI WORKFLOW</p><h2>Import a country set</h2></div></div>
+      <div class="two-column">
+        <div class="panel form-panel">
+          <label>Paste Gemini JSON<textarea id="jsonInput" class="json-input" rows="18" spellcheck="false" placeholder='{"title":"Flags with an animal","criteria":"Features an animal","countries":["Bhutan","Mexico","Uganda"]}'></textarea></label>
+          <div class="button-row"><button id="importButton" class="button primary" type="button">Validate & import</button><button id="loadExampleButton" class="button quiet" type="button">Load example</button></div>
+        </div>
+        <div class="panel help-panel">
+          <p class="eyebrow">ACCEPTED FORMAT</p><h3>Simple and forgiving</h3>
+          <pre><code>{
+  "title": "Two-colour flags",
+  "criteria": "Uses exactly two visible colours",
+  "countries": ["Ukraine", "Poland", "Japan"]
+}</code></pre>
+          <p>Use one flat <code>countries</code> or <code>flags</code> list. Each entry may be a country name, ISO-2 code, ISO-3 code, or an object with <code>name</code> / <code>iso2</code>. Older grouped-card JSON still works.</p>
+          <div id="importReport" class="report neutral">No JSON checked yet.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="randomView" class="view panel-view" hidden>
+      <div class="view-heading"><button class="back-button" type="button" data-open="homeView">← Home</button><div><p class="eyebrow">QUICK START</p><h2>Random picker</h2></div></div>
+      <form id="randomForm" class="panel random-form">
+        <label>Make<select id="randomOutputMode"><option value="cards" selected>Guessing cards</option><option value="worksheet">Write-under worksheets</option></select></label>
+        <label data-random-mode="cards">Number of cards<input id="randomCardCount" type="number" min="1" max="200" value="4"></label>
+        <label data-random-mode="cards">Flags on each card<select id="randomFlagsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
+        <label data-random-mode="worksheet" hidden>Paper size<select id="randomWorksheetSize"><option value="a4" selected>A4</option><option value="a5">A5</option></select></label>
+        <label data-random-mode="worksheet" hidden>Flags per sheet<select id="randomWorksheetItems"></select></label>
+        <label data-random-mode="worksheet" hidden>Number of worksheets<input id="randomWorksheetCount" type="number" min="1" max="100" value="2"></label>
+        <label>Difficulty<select id="randomDifficulty"><option value="mixed">Balanced mix</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></label>
+        <label>Continent<select id="randomContinent" class="continent-select"></select></label>
+        <label class="check-label"><input id="allowRepeats" type="checkbox"><span id="allowRepeatsLabel">Allow countries to repeat between cards</span></label>
+        <button id="randomSubmitButton" class="button primary" type="submit">Generate cards</button>
+      </form>
+      <p id="randomStatus" class="status-line centered">Uses the built-in set of 195 countries.</p>
+    </section>
+
+    <section id="deckView" class="view panel-view" hidden>
+      <div class="view-heading"><button class="back-button" type="button" data-open="homeView">← Home</button><div><p class="eyebrow">PRINT WORKSPACE</p><h2 id="deckTitle">Your deck</h2><p id="deckCriteria" class="deck-criteria" hidden></p></div></div>
+      <div id="emptyDeck" class="empty-state"><h3>No country set yet</h3><p>Use the Gemini prompt/import workflow or the random picker to choose countries.</p><button class="button primary" type="button" data-open="homeView">Choose a starting point</button></div>
+      <div id="deckWorkspace" hidden>
+        <div class="deck-toolbar panel">
+          <label>Mode<select id="outputMode"><option value="cards" selected>Cards</option><option value="worksheet">Write-under sheets</option></select></label>
+          <label>Size<select id="printSize"></select></label>
+          <label data-output-mode="cards">Flags per card<select id="outputItemsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
+          <label data-output-mode="worksheet" hidden>Flags per sheet<select id="worksheetItemsPerPage"></select></label>
+          <label>Front content<select id="frontMode"><option value="flags" selected>Flags</option><option value="silhouettes">Country silhouettes</option></select></label>
+          <label>Orientation<select id="cardOrientation"><option value="portrait">Vertical</option><option value="landscape" selected>Horizontal</option></select></label>
+          <label>Background colour<div class="color-field"><input id="backgroundColor" type="color" value="#e6e8e5" aria-label="Background colour"><button id="randomColorButton" class="button quiet" type="button">Random muted</button></div></label>
+          <div class="toolbar-actions"><button id="shuffleButton" class="button quiet" type="button">Shuffle</button><button id="downloadJsonButton" class="button quiet" type="button">Download JSON</button><button id="exportPdfButton" class="button primary" type="button">Export PDF</button></div>
+        </div>
+        <div id="pdfNote" class="pdf-note"><strong>PDF order:</strong> Activity 1, matching answers 1, activity 2, matching answers 2.</div>
+        <div id="deckSummary" class="deck-summary"></div>
+        <div id="cardList" class="card-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=20260918-1"></script>
+</body>
+</html>

@@ -146,7 +146,11 @@ export default function App() {
   }, [appView, currentIndex, currentQuestion, answers, handleNext, handlePrev, handleAnswerMCQ, isExportModalOpen, isResetConfirmOpen, isInspectorLabOpen]);
 
   if (appView === 'mode-select') {
-    return <ModeLandingPage onOpenClassic={() => setAppView('home')} onOpenPictures={() => setAppView('pictures')} />;
+    return <ModeLandingPage
+      onOpenClassic={() => setAppView('home')}
+      onOpenPictures={() => setAppView('pictures')}
+      onOpenFlagCards={() => window.location.assign(new URL('flag-card-studio/', document.baseURI).href)}
+    />;
   }
 
   if (appView === 'home') {

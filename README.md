@@ -6,6 +6,8 @@ A browser-based quiz workspace for creating research prompts, importing reviewed
 
 Open the public app at **https://redsaphircz.github.io/youtube-quiz-generator/**. Every push to `main` rebuilds and deploys it through GitHub Actions.
 
+The landing page also includes **Flag Card Studio** at `flag-card-studio/`, with Poker/Tarot card and A4/A5 write-under PDF workflows. It shares the bundled 195-country flag and silhouette library used by Picture Quiz.
+
 The static website is designed for computers where you cannot install software:
 
 - Get a downloadable or copyable research prompt.

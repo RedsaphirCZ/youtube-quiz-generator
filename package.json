@@ -16,7 +16,8 @@
     "check:picture-quiz": "tsx scripts/check-picture-quiz.ts",
     "check:studio-settings": "tsx scripts/check-studio-settings.ts",
     "check:pdf-bleed": "tsx scripts/check-pdf-bleed.ts",
-    "check:picture-assets": "tsx scripts/check-picture-assets.ts"
+    "check:picture-assets": "tsx scripts/check-picture-assets.ts",
+    "check:flag-card-studio": "tsx scripts/check-flag-card-studio.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
