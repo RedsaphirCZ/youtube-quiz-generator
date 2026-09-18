@@ -60,6 +60,16 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   const [complementaryBack, setComplementaryBack] = useState(true);
   const cardStyle = useMemo<CardStyle>(() => ({ accentColor: cardAccentColor, backAccentColor: complementaryBack ? complementaryCardColor(cardAccentColor) : backColor }), [cardAccentColor, backColor, complementaryBack]);
 
+  const chooseIndependentBackColor = (color: string) => {
+    setBackColor(color.toUpperCase());
+    setComplementaryBack(false);
+  };
+
+  const enableIndependentBackColor = () => {
+    if (complementaryBack) setBackColor(cardStyle.backAccentColor!);
+    setComplementaryBack(false);
+  };
+
   if (!isOpen) return null;
 
   const exportOptions = { answerChoiceMode, appearance };
@@ -206,15 +216,15 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-      <div role="dialog" aria-modal="true" aria-label="Quiz export" className="quiz-export-dialog bg-white border border-[#e2d9cc] rounded-2xl w-full max-w-3xl max-h-[94dvh] flex flex-col shadow-2xl overflow-hidden">
+      <div role="dialog" aria-modal="true" aria-label="Quiz export" className="quiz-export-dialog bg-white border border-[#e2d9cc] rounded-2xl w-full max-w-5xl max-h-[94dvh] flex flex-col shadow-2xl overflow-hidden">
         
         {/* Header */}
-        <div className="shrink-0 p-4 sm:p-5 border-b border-[#e8dfd2] bg-[#faf8f4] flex items-center justify-between">
-          <div className="flex items-center gap-3">
+        <div className="shrink-0 p-4 sm:p-5 border-b border-[#e8dfd2] bg-[#faf8f4] flex items-start justify-between gap-3">
+          <div className="flex min-w-0 items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#8b1e1e] text-white flex items-center justify-center shadow-xs">
               <FileText className="w-5 h-5" />
             </div>
-            <div>
+            <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-2">
                 <h2 className="text-base sm:text-lg font-extrabold text-[#1f1a16]">
                   Printable Cards & Quiz Export
@@ -223,7 +233,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   {quiz.questions.length} Cards
                 </span>
               </div>
-              <p className="text-xs text-[#706860]">
+              <p className="mt-0.5 line-clamp-2 text-[11px] leading-snug text-[#706860] sm:text-xs">
                 {quiz.title || quiz.theme} • Recording-ready HTML, video parts & printable cards
               </p>
             </div>
@@ -284,7 +294,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
           {/* ========================================================================= */}
           {activeTab === 'pdf' && (
             <div className="space-y-4">
-              <fieldset className="rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
+              <div className="grid gap-3 lg:grid-cols-[0.8fr_1fr_1fr]">
+              <fieldset className="min-w-0 rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
                 <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Card size</legend>
                 <div className="grid grid-cols-2 gap-2">
                   {(Object.values(CARD_FORMATS) as typeof selectedCardFormat[]).map((format) => (
@@ -302,7 +313,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                 </div>
               </fieldset>
 
-              <fieldset className="rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
+              <fieldset className="min-w-0 rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
                 <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Front color</legend>
                 <div className="flex flex-wrap items-center gap-2">
                   {CARD_COLOR_PRESETS.map((preset) => (
@@ -313,7 +324,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                       aria-label={`${preset.name} card color`}
                       aria-pressed={cardAccentColor === preset.value}
                       title={preset.name}
-                      className={`h-10 w-10 rounded-full border-2 cursor-pointer transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8b1e1e] ${cardAccentColor === preset.value ? 'border-white ring-2 ring-[#1f1a16] scale-105' : 'border-white shadow-sm hover:scale-105'}`}
+                      className={`h-9 w-9 rounded-full border-2 cursor-pointer transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8b1e1e] ${cardAccentColor === preset.value ? 'border-white ring-2 ring-[#1f1a16] scale-105' : 'border-white shadow-sm hover:scale-105'}`}
                       style={{ backgroundColor: preset.value }}
                     />
                   ))}
@@ -333,11 +344,56 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   Sets the front accent. Correct-answer highlights stay green for clarity.
                 </p>
               </fieldset>
-              <fieldset className="rounded-xl border border-[#e8dfd2] p-4 space-y-3">
-                <legend className="px-1 text-sm font-bold">Back color</legend>
-                <label className="flex min-h-11 items-center gap-3 text-sm font-semibold"><input type="checkbox" checked={complementaryBack} onChange={event => { setBackColor(cardStyle.backAccentColor!); setComplementaryBack(event.target.checked); }} />Use complementary back color</label>
-                <label className="flex min-h-11 items-center gap-3 text-sm"><input type="color" aria-label="Back card color" disabled={complementaryBack} value={cardStyle.backAccentColor} onChange={event => setBackColor(event.target.value.toUpperCase())} className="h-11 w-14 disabled:opacity-60" />{cardStyle.backAccentColor}<span>{complementaryBack ? 'Linked to front' : 'Custom back'}</span></label>
+              <fieldset className="min-w-0 rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
+                <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Back color</legend>
+                <div className="grid grid-cols-2 gap-2 rounded-lg bg-[#e9e3d9] p-1">
+                  <button
+                    type="button"
+                    onClick={() => setComplementaryBack(true)}
+                    aria-pressed={complementaryBack}
+                    className={`min-h-10 cursor-pointer rounded-md px-2 text-xs font-extrabold transition ${complementaryBack ? 'bg-white text-[#8b1e1e] shadow-sm' : 'text-[#706860] hover:bg-white/70'}`}
+                  >
+                    Complementary
+                  </button>
+                  <button
+                    type="button"
+                    onClick={enableIndependentBackColor}
+                    aria-pressed={!complementaryBack}
+                    className={`min-h-10 cursor-pointer rounded-md px-2 text-xs font-extrabold transition ${!complementaryBack ? 'bg-white text-[#8b1e1e] shadow-sm' : 'text-[#706860] hover:bg-white/70'}`}
+                  >
+                    Choose separately
+                  </button>
+                </div>
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  {CARD_COLOR_PRESETS.map((preset) => (
+                    <button
+                      key={preset.value}
+                      type="button"
+                      onClick={() => chooseIndependentBackColor(preset.value)}
+                      aria-label={`${preset.name} back color`}
+                      aria-pressed={!complementaryBack && backColor === preset.value}
+                      title={`${preset.name} back`}
+                      className={`h-9 w-9 rounded-full border-2 cursor-pointer transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8b1e1e] ${!complementaryBack && backColor === preset.value ? 'border-white ring-2 ring-[#1f1a16] scale-105' : 'border-white shadow-sm hover:scale-105'}`}
+                      style={{ backgroundColor: preset.value }}
+                    />
+                  ))}
+                  <label className="ml-1 flex min-h-10 items-center gap-2 rounded-lg border border-[#ded4c3] bg-white px-2.5 text-xs font-bold text-[#1f1a16] cursor-pointer hover:border-[#8b1e1e]">
+                    <input
+                      type="color"
+                      value={cardStyle.backAccentColor}
+                      onChange={(event) => chooseIndependentBackColor(event.target.value)}
+                      className="h-7 w-8 cursor-pointer rounded border-0 bg-transparent p-0"
+                      aria-label="Custom back card color"
+                    />
+                    Custom
+                    <span className="font-mono text-[10px] text-[#706860]">{cardStyle.backAccentColor}</span>
+                  </label>
+                </div>
+                <p className="mt-2 text-[10px] leading-relaxed text-[#706860]">
+                  {complementaryBack ? 'Calculated from the front. Pick any color above to unlink it.' : 'Independent from the front color.'}
+                </p>
               </fieldset>
+              </div>
 
               {/* Primary Action Hero */}
               <div className="bg-[#fef8e7] border border-[#c59b27] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -375,8 +431,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
               {/* Live Card Mockup & Controls */}
               <div className="bg-[#faf8f4] border border-[#e4ded5] rounded-xl p-4 space-y-3">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#e4ded5] pb-3">
-                  <div className="flex items-center gap-2">
+                <div className="grid gap-3 border-b border-[#e4ded5] pb-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+                  <div className="flex min-w-0 flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
                     <label htmlFor="preview-card" className="shrink-0 text-xs font-bold text-[#706860]">Preview Card:</label>
                     <select id="preview-card"
                       value={previewCardIndex}
@@ -396,10 +452,10 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   </div>
 
                   {/* Front/Back Switcher */}
-                  <div className="flex items-center gap-1 bg-[#ede7dc] p-1 rounded-lg">
+                  <div className="grid grid-cols-2 items-stretch gap-1 rounded-lg bg-[#ede7dc] p-1">
                     <button
                       onClick={() => setPreviewSide('front')}
-                      className={`px-3 py-1 rounded-md text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
+                      className={`min-h-10 justify-center rounded-md px-3 py-1 text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
                         previewSide === 'front'
                           ? 'bg-[#8b1e1e] text-white shadow-xs'
                           : 'text-[#706860] hover:text-[#1f1a16]'
@@ -410,7 +466,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                     </button>
                     <button
                       onClick={() => setPreviewSide('back')}
-                      className={`px-3 py-1 rounded-md text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
+                      className={`min-h-10 justify-center rounded-md px-3 py-1 text-xs font-bold transition cursor-pointer flex items-center gap-1.5 ${
                         previewSide === 'back'
                           ? 'bg-[#2e7d32] text-white shadow-xs'
                           : 'text-[#706860] hover:text-[#1f1a16]'
