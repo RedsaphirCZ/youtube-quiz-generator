@@ -1,22 +1,23 @@
 import React from 'react';
-import { ArrowRight, Flag, Images, ListChecks } from 'lucide-react';
+import { ArrowRight, Flag, Images, Languages, ListChecks } from 'lucide-react';
 
 interface ModeLandingPageProps {
   onOpenClassic: () => void;
   onOpenPictures: () => void;
   onOpenFlagCards: () => void;
+  onOpenLanguages: () => void;
 }
 
-export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards }) => (
+export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages }) => (
   <main className="min-h-screen bg-[#f1eee7] px-4 py-8 text-[#201c18] sm:py-12 flex items-center justify-center">
     <section className="w-full max-w-5xl overflow-hidden rounded-[2rem] border border-[#d6ccbd] bg-white shadow-xl">
       <header className="px-6 pb-6 pt-8 text-center sm:px-10 sm:pb-8 sm:pt-10">
         <p className="text-[11px] font-black uppercase tracking-[0.24em] text-[#8b1e1e]">YouTube Quiz Studio</p>
         <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">Choose your studio</h1>
-        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#6b635b] sm:text-base">Build playable quizzes, visual rounds, or print-ready flag cards and worksheets.</p>
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#6b635b] sm:text-base">Build playable quizzes, visual rounds, language practice, or print-ready flag cards and worksheets.</p>
       </header>
 
-      <div className="grid gap-4 border-t border-[#e5ddd1] bg-[#faf8f4] p-5 md:grid-cols-3 md:gap-5 sm:p-8">
+      <div className="grid gap-4 border-t border-[#e5ddd1] bg-[#faf8f4] p-5 md:grid-cols-2 md:gap-5 sm:p-8">
         <ModeButton
           icon={ListChecks}
           eyebrow="Text and numbers"
@@ -33,6 +34,9 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
           accent="pictures"
           onClick={onOpenPictures}
         />
+        <ModeButton icon={Languages} eyebrow="Words and conversation" title="Language Quiz"
+          description="Create prompts, import language rounds, and practise vocabulary, translation, grammar, and everyday phrases across 22 languages."
+          accent="languages" onClick={onOpenLanguages} />
         <ModeButton
           icon={Flag}
           eyebrow="Print workshop"
@@ -51,18 +55,19 @@ const ModeButton = ({ icon: Icon, eyebrow, title, description, accent, onClick }
   eyebrow: string;
   title: string;
   description: string;
-  accent: 'classic' | 'pictures' | 'cards';
+  accent: 'classic' | 'pictures' | 'cards' | 'languages';
   onClick: () => void;
 }) => {
   const pictureMode = accent === 'pictures';
   const cardMode = accent === 'cards';
-  const borderClass = pictureMode
+  const languageMode = accent === 'languages';
+  const borderClass = languageMode ? 'border-violet-200 bg-violet-50 hover:border-violet-700' : pictureMode
     ? 'border-cyan-200 bg-[#eef9fb] hover:border-cyan-700'
     : cardMode
       ? 'border-emerald-200 bg-[#f1f8f4] hover:border-[#143f3a]'
       : 'border-[#decfbd] bg-white hover:border-[#8b1e1e]';
-  const accentClass = pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
-  const textClass = pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
+  const accentClass = languageMode ? 'bg-violet-700' : pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
+  const textClass = languageMode ? 'text-violet-800' : pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
   return (
     <button
       onClick={onClick}

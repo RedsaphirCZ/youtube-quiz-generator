@@ -22,7 +22,8 @@
     "check:card-part-numbering": "tsx scripts/check-card-part-numbering.ts",
     "check:library": "tsx scripts/check-library.ts",
     "check:indexeddb": "tsx scripts/check-indexeddb.ts",
-    "check": "npm run typecheck && npm run check:quiz-validator && npm run check:html-responsive && npm run check:prompt-import && npm run check:picture-quiz && npm run check:studio-settings && npm run check:pdf-bleed && npm run check:picture-assets && npm run check:flag-card-studio && npm run check:card-part-numbering && npm run check:library && npm run check:indexeddb"
+    "check": "npm run typecheck && npm run check:quiz-validator && npm run check:html-responsive && npm run check:prompt-import && npm run check:picture-quiz && npm run check:studio-settings && npm run check:pdf-bleed && npm run check:picture-assets && npm run check:flag-card-studio && npm run check:card-part-numbering && npm run check:library && npm run check:indexeddb && npm run check:language-quiz",
+    "check:language-quiz": "tsx scripts/check-language-quiz.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
