@@ -14,7 +14,9 @@
     "check:html-responsive": "tsx scripts/check-html-responsive.ts",
     "check:prompt-import": "tsx scripts/check-prompt-import.ts",
     "check:picture-quiz": "tsx scripts/check-picture-quiz.ts",
-    "check:pdf-bleed": "tsx scripts/check-pdf-bleed.ts"
+    "check:studio-settings": "tsx scripts/check-studio-settings.ts",
+    "check:pdf-bleed": "tsx scripts/check-pdf-bleed.ts",
+    "check:picture-assets": "tsx scripts/check-picture-assets.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",

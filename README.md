@@ -47,3 +47,30 @@ npm run build:static
 - `migration/` — migration tooling; local database archives are excluded from Git
 
 Generated folders such as `dist/`, `output/`, `tmp/`, `.playwright-cli/`, and `node_modules/` are excluded from Git and can be recreated.
+
+
+## Reliable picture quizzes
+
+Choose **Picture Quiz → Get prompt**. For **Flags** and **Country shapes**, the prompt asks for ISO country codes, and the app supplies local pictures for 195 countries. No AI-generated image URLs are needed. The Library includes flag and country-shape starters.
+
+For other categories, the prompt asks for picture descriptions and filenames. Import the JSON, then use **Upload / replace picture** on each review card. You can also select JSON and matching image files together. Old image URLs are copied into the project only if they can be fetched and decoded; inaccessible links stay blocked for replacement.
+
+Review every picture against the displayed correct answer, confirm the review, and choose **Save & play**. Saved pictures live in IndexedDB in this browser. **Download project + pictures** creates a portable JSON backup with embedded images and bundled-asset credits; import that file on another computer. Clearing browser data removes local projects, so keep a downloaded backup. Saved/prepared rounds play without image-network access once the app is open; the hosted app shell is not an offline-installed PWA.
+
+Individual uploaded images may be up to 12 MB. Assets are retained at their original resolution. The country artwork and license are in `public/picture-assets/`.
+
+Additional checks:
+
+```text
+npm run check:picture-quiz
+npm run check:picture-assets
+npm run check:studio-settings
+```
+
+Browser regression: run the asset check above to prepare its corrupt-file fixture, start the app or production preview, open it using Playwright CLI, then run:
+
+```text
+npx --yes --package @playwright/cli playwright-cli run-code --filename scripts/browser-picture-assets.cjs
+```
+
+This creates QA-only drafts in that test browser and covers review gating, mismatched countries, embedded downloads/reimport, offline playback, persistence, broken/corrupt image replacement, storage-failure recovery, and narrow-screen layout.

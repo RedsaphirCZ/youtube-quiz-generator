@@ -138,14 +138,27 @@ const emojiPrompt = generatePictureQuizPrompt({
   title: 'Emoji Meanings', topic: 'Emoji meanings and symbolism', category: 'emoji',
   questionCount: 40, answerChoiceCount: 2, difficulty: 'easy-medium', specialInstructions: '',
 });
-assert.match(emojiPrompt, /cdnjs\.cloudflare\.com\/ajax\/libs\/twemoji\/14\.0\.2\/svg\/CODEPOINT\.svg/);
-assert.match(emojiPrompt, /"src": "https:\/\/cdnjs\.cloudflare\.com\/ajax\/libs\/twemoji\/14\.0\.2\/svg\/1f914\.svg"/);
-assert.doesNotMatch(emojiPrompt, /direct-image-url\.example/);
-assert.match(emojiPrompt, /HTTP 200 after redirects/);
-assert.match(emojiPrompt, /Content-Type beginning with image\//);
-assert.match(emojiPrompt, /Never infer, invent, or autocomplete an asset filename/);
-assert.match(emojiPrompt, /replace it\. Never return placeholders or guessed URLs/);
+assert.match(emojiPrompt, /user will upload pictures/i);
+assert.match(emojiPrompt, /searchHint/);
+assert.doesNotMatch(emojiPrompt, /https:\/\//);
+assert.match(prompt, /countryCode/);
+assert.match(prompt, /JP=Japan/);
 assert.equal(pictureQuizDemo.questions.length, 3);
 assert.ok(pictureQuizDemo.questions.every((question) => question.image.src.startsWith('data:image/svg+xml')));
 
 console.log('Picture quiz checks passed.');
+
+const countryPack = (category: string, image: object, answer = 'Japan') => JSON.stringify({title:'Country assets',category,questions:[{type:'picture_mcq',question:'Which country?',image,options:[answer,'Canada'],correctIndex:0,explanation:'A country.'}]});
+for (const [category,folder] of [['flags','flags'],['country-shapes','silhouettes']]) {
+ const resolved = parsePictureQuizResponse(countryPack(category,{countryCode:'JP'}));
+ assert.equal(resolved.questions[0].image.src, `picture-assets/${folder}/jp.png`);
+ assert.equal(resolved.questions[0].image.countryCode, 'jp');
+ const legacy = parsePictureQuizResponse(countryPack(category,{src:'https://invalid.example/guessed.png'}));
+ assert.equal(legacy.questions[0].image.src, `picture-assets/${folder}/jp.png`);
+ const embedded = parsePictureQuizResponse(countryPack(category,{countryCode:'JP',src:'data:image/png;base64,AAAA'}));
+ assert.equal(embedded.questions[0].image.src,'data:image/png;base64,AAAA');
+}
+assert.equal(parsePictureQuizResponse(countryPack('flags',{countryCode:'ZZ'})).questions[0].image.src,'');
+assert.equal(parsePictureQuizResponse(countryPack('objects',{searchHint:'A red apple'})).questions[0].image.searchHint,'A red apple');
+assert.equal(parsePictureQuizResponse(countryPack('objects',{})).questions[0].image.src,'');
+console.log('PASS: country references, legacy URL replacement, portable images and repairable missing assets.');

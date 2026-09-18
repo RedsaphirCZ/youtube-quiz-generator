@@ -97,3 +97,28 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
     height: clamp(31rem, 68dvh, 38rem);
   }
 }
+
+/* Shared project navigation keeps the two quiz modes consistent. */
+.studio-menu { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.studio-menu-button { display: flex; flex-direction: column; gap: 1rem; min-width: 0; padding: 1.25rem; border: 2px solid #d9cebc; border-radius: 1rem; background: #faf8f4; text-align: left; cursor: pointer; color: #2b2520; }
+.studio-menu-button:hover { border-color: #8b1e1e; background: white; }
+.studio-menu-button > svg { flex-shrink: 0; color: #8b1e1e; width: 28px; height: 28px; }
+.studio-menu-button strong { display: block; font-size: 1.25rem; }
+.studio-menu-button span span { display: block; margin-top: .4rem; font-size: .875rem; line-height: 1.5; color: #6b635b; }
+.picture-studio { overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .studio-menu { grid-template-columns: 1fr; gap: .75rem; }
+  .studio-menu-button { flex-direction: row; align-items: center; padding: 1rem; }
+  .studio-page, .picture-studio { padding: 1rem .75rem; }
+  input:not([type=checkbox]):not([type=color]), select, textarea { font-size: 16px; min-width: 0; }
+  .picture-studio h1 { font-size: 1.4rem; }
+  .picture-studio header > div { min-width: 0; }
+}
+
+.export-tabs button { min-width: 0; min-height: 44px; padding: .65rem .4rem; justify-content: center; }
+@media (max-width: 640px) {
+  .export-tabs button { font-size: .75rem; }
+  .export-tabs svg { display: none; }
+  .quiz-export-dialog > div:first-child p { display: none; }
+  .quiz-export-dialog button { min-height: 44px; }
+}

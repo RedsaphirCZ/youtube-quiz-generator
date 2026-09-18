@@ -5,6 +5,7 @@ export type CardFormatId = 'poker' | 'tarot';
 
 export interface CardStyle {
   accentColor: string;
+  backAccentColor?: string;
 }
 
 export const DEFAULT_CARD_STYLE: CardStyle = { accentColor: '#8B1E1E' };
@@ -344,7 +345,7 @@ export function drawBackCard(
   const [pageWidth, pageHeight] = getCardPageSize(format);
   const safeX = format.bleed + CARD_SAFE_MARGIN;
   const safeWidth = format.trimWidth - 2 * CARD_SAFE_MARGIN;
-  const accent = hexToRgb(style.accentColor);
+  const accent = hexToRgb(style.backAccentColor ?? style.accentColor);
   const accentText = readableTextColor(accent);
   applyCardPageBoxes(doc, format);
   doc.setFillColor(255, 255, 255);
@@ -496,4 +497,11 @@ export function generateCardPreviewPDF(
   if (!question) throw new Error('No card available to preview.');
   (side === 'front' ? drawFrontCard : drawBackCard)(doc, question, index, quiz.theme || quiz.title || 'Quiz Pack', format, style);
   return doc;
+}
+
+/** Rotate hue by 180 degrees while preserving saturation and lightness. */
+export function complementaryCardColor(color: string): string {
+  const channels = hexToRgb(color);
+  const sum = Math.max(...channels) + Math.min(...channels);
+  return '#' + channels.map(channel => (sum - channel).toString(16).padStart(2, '0')).join('').toUpperCase();
 }

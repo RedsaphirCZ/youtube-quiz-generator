@@ -1,3 +1,4 @@
+import { StudioMenu } from './StudioMenu';
 import React, { useMemo, useState } from 'react';
 import { ArrowLeft, BookOpen, Check, ClipboardPaste, Copy, Download, FileJson, Sparkles, Upload } from 'lucide-react';
 import { QuizDataset } from '../types';
@@ -118,11 +119,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
 
         <div className="px-5 py-6 sm:px-9 sm:py-8">
           {action === 'home' && (
-            <div className="grid sm:grid-cols-3 gap-4">
-              <LandingButton icon={Sparkles} title="Get prompt" description="Fill in the quiz details and download a research-ready .md prompt." onClick={() => setAction('prompt')} />
-              <LandingButton icon={FileJson} title="Import" description="Paste quiz JSON or load a JSON, Markdown, or text file." onClick={() => setAction('import')} />
-              <LandingButton icon={BookOpen} title="Library" description="Browse curated quizzes and your saved drafts." onClick={onBrowseQuizzes} />
-            </div>
+            <StudioMenu onPrompt={() => setAction('prompt')} onImport={() => setAction('import')} onLibrary={onBrowseQuizzes} />
           )}
 
           {action === 'import' && (
@@ -172,10 +169,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartQuiz, onBrowseQ
     </main>
   );
 };
-
-const LandingButton = ({ icon: Icon, title, description, onClick }: { icon: typeof Sparkles; title: string; description: string; onClick: () => void }) => (
-  <button onClick={onClick} className="min-h-44 rounded-2xl border-2 border-[#d9cebc] bg-[#faf8f4] p-5 text-left hover:border-[#8b1e1e] hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition cursor-pointer"><span className="w-11 h-11 rounded-xl bg-[#8b1e1e] text-white flex items-center justify-center"><Icon className="w-5 h-5" /></span><span className="block mt-4 text-xl font-black text-[#8b1e1e]">{title}</span><span className="block mt-2 text-sm leading-relaxed text-[#6b635b]">{description}</span></button>
-);
 
 const FieldLabel = ({ children }: { children: React.ReactNode }) => <span className="block mb-1.5 text-xs font-black uppercase tracking-wider">{children}</span>;
 const StatusMessage = ({ status }: { status: { kind: 'success' | 'error'; text: string } }) => <div className={`rounded-lg border px-3 py-2.5 text-xs font-semibold ${status.kind === 'success' ? 'border-[#2e7d32]/30 bg-[#e8f5e9] text-[#2e7d32]' : 'border-[#c62828]/30 bg-[#ffebee] text-[#b4232b]'}`}>{status.text}</div>;

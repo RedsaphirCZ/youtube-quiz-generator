@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import { complementaryCardColor, generateCardPreviewPDF } from '../src/lib/pdfExporter';
+import { curatedQuizzes } from '../src/data/curatedQuizzes';
+import { loadPictureLibrary, savePictureQuiz } from '../src/picture-quiz/storage';
+import { pictureQuizDemo } from '../src/picture-quiz/pictureQuiz';
+assert.equal(complementaryCardColor('#8B1E1E'), '#1E8B8B');
+assert.equal(complementaryCardColor('#f00'), '#00FFFF');
+assert.equal(complementaryCardColor('#777777'), '#777777');
+for (const color of ['#123456','#ABCDEF','#00FF00']) assert.equal(complementaryCardColor(complementaryCardColor(color)), color);
+const quiz = curatedQuizzes[0];
+for (const format of ['poker','tarot'] as const) {
+  const render = (side: 'front'|'back', backAccentColor: string) => generateCardPreviewPDF(quiz,0,side,format,{accentColor:'#FF0000',backAccentColor}).output().match(/stream[\s\S]*?endstream/)![0];
+  assert.equal(render('front','#0000FF'), render('front','#00FF00'), 'Back changes must not affect front');
+  assert.notEqual(render('back','#0000FF'), render('back','#00FF00'), 'Back must render its selected color');
+  assert.match(render('front','#0000FF'), /1\. 0\. 0\. rg/);
+  assert.match(render('back','#0000FF'), /0\. 0\. 1\. rg/);
+}
+let value: string | null = null;
+Object.defineProperty(globalThis, 'localStorage', { configurable:true, value:{ getItem:()=>value, setItem:(_key:string,next:string)=>{value=next;} } });
+assert.deepEqual((await loadPictureLibrary()), []);
+await savePictureQuiz(pictureQuizDemo);
+const loaded = (await loadPictureLibrary());
+assert.equal(loaded[0].id,pictureQuizDemo.id);
+assert.deepEqual(JSON.parse(JSON.stringify(loaded[0].questions)),pictureQuizDemo.questions);
+assert.equal((await savePictureQuiz({...pictureQuizDemo,title:'Updated'})).length,1);
+assert.equal((await loadPictureLibrary())[0].title,'Updated');
+value = 'invalid'; assert.deepEqual((await loadPictureLibrary()),[]);
+value = '[{}]'; assert.deepEqual((await loadPictureLibrary()),[]);
+Object.defineProperty(globalThis,'localStorage',{value:{getItem:()=>null,setItem:()=>{throw new Error('Quota exceeded');}}});
+await assert.rejects(()=>savePictureQuiz(pictureQuizDemo),/Quota exceeded/);
+console.log('PASS: complementary colors, independent PDF faces in both formats, picture storage round-trip, deduplication, corrupt data and quota failure.');

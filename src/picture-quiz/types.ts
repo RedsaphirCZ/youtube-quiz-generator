@@ -11,6 +11,8 @@ export type PictureQuizCategory =
 export interface PictureQuestionImage {
   src: string;
   alt: string;
+  countryCode?: string;
+  searchHint?: string;
   credit?: string;
   sourceUrl?: string;
 }

@@ -23,7 +23,7 @@ import { QuizDataset } from '../types';
 import { generateStandaloneQuizHTML, QuizExportAppearance, splitQuizIntoVideoParts, VideoQuizPart } from '../lib/htmlExporter';
 import { validateQuizDataset } from '../lib/validator';
 import { generateNanDeckCSV, generateNanDeckScript, generateNanDeckCardRows } from '../lib/nandeckExporter';
-import { CARD_FORMATS, CardFormatId, CardStyle, DEFAULT_CARD_STYLE, downloadQuizPDF, generateQuizPDF, getCardPageSize } from '../lib/pdfExporter';
+import { complementaryCardColor, CARD_FORMATS, CardFormatId, CardStyle, DEFAULT_CARD_STYLE, downloadQuizPDF, generateQuizPDF, getCardPageSize } from '../lib/pdfExporter';
 import { createQuizExportVariant, ExportAnswerChoiceMode } from '../lib/exportVariant';
 
 interface ExportModalProps {
@@ -56,7 +56,9 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   const [previewSide, setPreviewSide] = useState<'front' | 'back'>('back');
   const [cardFormat, setCardFormat] = useState<CardFormatId>('poker');
   const [cardAccentColor, setCardAccentColor] = useState(DEFAULT_CARD_STYLE.accentColor);
-  const cardStyle = useMemo<CardStyle>(() => ({ accentColor: cardAccentColor }), [cardAccentColor]);
+  const [backColor, setBackColor] = useState(DEFAULT_CARD_STYLE.accentColor);
+  const [complementaryBack, setComplementaryBack] = useState(true);
+  const cardStyle = useMemo<CardStyle>(() => ({ accentColor: cardAccentColor, backAccentColor: complementaryBack ? complementaryCardColor(cardAccentColor) : backColor }), [cardAccentColor, backColor, complementaryBack]);
 
   if (!isOpen) return null;
 
@@ -204,16 +206,16 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-      <div className="bg-white border border-[#e2d9cc] rounded-2xl w-full max-w-3xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
+      <div role="dialog" aria-modal="true" aria-label="Quiz export" className="quiz-export-dialog bg-white border border-[#e2d9cc] rounded-2xl w-full max-w-3xl max-h-[94dvh] flex flex-col shadow-2xl overflow-hidden">
         
         {/* Header */}
-        <div className="p-4 sm:p-5 border-b border-[#e8dfd2] bg-[#faf8f4] flex items-center justify-between">
+        <div className="shrink-0 p-4 sm:p-5 border-b border-[#e8dfd2] bg-[#faf8f4] flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#8b1e1e] text-white flex items-center justify-center shadow-xs">
               <FileText className="w-5 h-5" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <h2 className="text-base sm:text-lg font-extrabold text-[#1f1a16]">
                   Printable Cards & Quiz Export
                 </h2>
@@ -229,14 +231,14 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
           <button
             onClick={onClose}
-            className="w-8 h-8 rounded-lg flex items-center justify-center text-[#706860] hover:text-[#8b1e1e] hover:bg-[#eee8dc] transition cursor-pointer"
+            aria-label="Close export" className="shrink-0 w-11 h-11 rounded-lg flex items-center justify-center text-[#706860] hover:text-[#8b1e1e] hover:bg-[#eee8dc] transition cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Clean Tab Bar */}
-        <div className="flex border-b border-[#e8dfd2] bg-[#fbf9f5] px-4 sm:px-6 pt-2 gap-2 overflow-x-auto">
+        <div className="export-tabs shrink-0 grid grid-cols-3 border-b border-[#e8dfd2] bg-[#fbf9f5] px-2 sm:px-6 pt-2 gap-1">
           <button
             onClick={() => setActiveTab('pdf')}
             className={`px-4 py-2.5 text-xs sm:text-sm font-bold border-b-2 transition cursor-pointer flex items-center gap-2 shrink-0 ${
@@ -246,7 +248,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
             }`}
           >
             <FileText className="w-4 h-4 text-[#8b1e1e]" />
-            Printable PDF Cards
+            PDF Cards
           </button>
 
           <button
@@ -258,7 +260,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
             }`}
           >
             <Layers className="w-4 h-4 text-[#c59b27]" />
-            Interactive Web App (.html)
+            Quiz HTML
           </button>
 
           <button
@@ -275,7 +277,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
         </div>
 
         {/* Modal Content */}
-        <div className="p-4 sm:p-6 overflow-y-auto space-y-5">
+        <div className="min-h-0 p-4 sm:p-6 overflow-y-auto overflow-x-hidden space-y-5">
           
           {/* ========================================================================= */}
           {/* TAB 1: PRINTABLE PDF CARDS (FRONT-BACK DUPLEX) */}
@@ -301,7 +303,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
               </fieldset>
 
               <fieldset className="rounded-xl border border-[#e2d9cc] bg-[#faf8f4] p-3.5">
-                <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Card color</legend>
+                <legend className="px-1 text-[11px] font-extrabold uppercase tracking-wider text-[#706860]">Front color</legend>
                 <div className="flex flex-wrap items-center gap-2">
                   {CARD_COLOR_PRESETS.map((preset) => (
                     <button
@@ -321,15 +323,20 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                       value={cardAccentColor}
                       onChange={(event) => setCardAccentColor(event.target.value.toUpperCase())}
                       className="h-7 w-8 cursor-pointer rounded border-0 bg-transparent p-0"
-                      aria-label="Choose a custom card color"
+                      aria-label="Front card color"
                     />
                     Custom
                     <span className="font-mono text-[10px] text-[#706860]">{cardAccentColor}</span>
                   </label>
                 </div>
                 <p className="mt-2 text-[10px] leading-relaxed text-[#706860]">
-                  Sets the accent color on both sides of every card. Correct-answer highlights stay green for clarity.
+                  Sets the front accent. Correct-answer highlights stay green for clarity.
                 </p>
+              </fieldset>
+              <fieldset className="rounded-xl border border-[#e8dfd2] p-4 space-y-3">
+                <legend className="px-1 text-sm font-bold">Back color</legend>
+                <label className="flex min-h-11 items-center gap-3 text-sm font-semibold"><input type="checkbox" checked={complementaryBack} onChange={event => { setBackColor(cardStyle.backAccentColor!); setComplementaryBack(event.target.checked); }} />Use complementary back color</label>
+                <label className="flex min-h-11 items-center gap-3 text-sm"><input type="color" aria-label="Back card color" disabled={complementaryBack} value={cardStyle.backAccentColor} onChange={event => setBackColor(event.target.value.toUpperCase())} className="h-11 w-14 disabled:opacity-60" />{cardStyle.backAccentColor}<span>{complementaryBack ? 'Linked to front' : 'Custom back'}</span></label>
               </fieldset>
 
               {/* Primary Action Hero */}
@@ -346,7 +353,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                   </p>
                 </div>
 
-                <div className="flex items-center gap-2 shrink-0">
+                <div className="flex flex-wrap items-center gap-2 shrink-0">
                   <button
                     onClick={handleDownloadPDF}
                     className="py-2.5 px-4 rounded-xl font-extrabold text-xs sm:text-sm bg-[#8b1e1e] hover:bg-[#731818] text-white transition flex items-center justify-center gap-2 shadow-sm cursor-pointer active:scale-95"
@@ -370,11 +377,11 @@ export const ExportModal: React.FC<ExportModalProps> = ({
               <div className="bg-[#faf8f4] border border-[#e4ded5] rounded-xl p-4 space-y-3">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#e4ded5] pb-3">
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-bold text-[#706860]">Preview Card:</span>
-                    <select
+                    <label htmlFor="preview-card" className="shrink-0 text-xs font-bold text-[#706860]">Preview Card:</label>
+                    <select id="preview-card"
                       value={previewCardIndex}
                       onChange={(e) => setPreviewCardIndex(Number(e.target.value))}
-                      className="text-xs font-bold bg-white border border-[#ded4c3] rounded-lg px-2.5 py-1 text-[#1f1a16] focus:outline-none focus:border-[#8b1e1e]"
+                      className="min-w-0 w-full min-h-11 text-xs font-bold bg-white border border-[#ded4c3] rounded-lg px-2.5 py-1 text-[#1f1a16] focus:outline-none focus:border-[#8b1e1e]"
                     >
                       {quiz.questions.map((q, idx) => {
                         const part = Math.floor(idx / 20) + 1;
@@ -586,7 +593,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                         </p>
                       </div>
 
-                      <div className="flex items-center gap-2 shrink-0">
+                      <div className="flex flex-wrap items-center gap-2 shrink-0">
                         <button
                           onClick={() => handleDownloadFile(part.htmlContent, part.filename)}
                           className="py-1.5 px-3 rounded-lg text-xs font-bold bg-[#8b1e1e] text-white hover:bg-[#731818] transition flex items-center gap-1.5 cursor-pointer"

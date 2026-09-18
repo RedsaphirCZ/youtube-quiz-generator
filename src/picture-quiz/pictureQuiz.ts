@@ -1,3 +1,4 @@
+import { countryAssetPath, countryCatalog, findCountry } from './countryAssets';
 import { PicturePromptConfig, PictureQuestion, PictureQuizCategory, PictureQuizDataset } from './types';
 
 export const PICTURE_QUESTION_TYPES = {
@@ -91,7 +92,7 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
   const questions = parsed.questions.map((rawQuestion, index): PictureQuestion => {
     const raw = rawQuestion as Record<string, any>;
     const type = String(raw?.type || '').trim();
-    if (!(type in PICTURE_QUESTION_TYPES)) {
+    if (!Object.hasOwn(PICTURE_QUESTION_TYPES, type)) {
       throw new Error(`Question ${index + 1} uses unsupported picture type "${type || 'missing'}".`);
     }
 
@@ -105,14 +106,25 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
         raw.imageSrc || raw.image_src || raw.imageUrl || raw.image_url || raw.imagePath || raw.image_path || raw.src ||
         (isCommonsFilePage(sourcePageCandidate) ? sourcePageCandidate : ''),
     );
-    const src = resolveImageSource(originalSrc, assets);
-    const alt = String(rawImage.alt || rawImage.imageAlt || rawImage.image_alt || rawImage.description || raw.imageAlt || raw.image_alt || '').trim();
+    let src = resolveImageSource(originalSrc, assets);
+    let alt = String(rawImage.alt || rawImage.imageAlt || rawImage.image_alt || rawImage.description || raw.imageAlt || raw.image_alt || '').trim();
     const options = Array.isArray(raw.options) ? raw.options.map((option: unknown) => String(option).trim()) : [];
     const correctIndex = Number(raw.correctIndex);
+    const isCountry = category === 'flags' || category === 'country-shapes';
+    const requestedCode = String(rawImage.countryCode || raw.countryCode || '').trim();
+    const country = isCountry ? findCountry(requestedCode || String(options[correctIndex] || '')) : undefined;
+    // Preserve uploaded/embedded pictures; resolve country references ahead of AI URLs.
+    const countryCode = isCountry && (requestedCode || !src.startsWith('data:')) ? country?.iso2 || requestedCode : undefined;
+    if (countryCode && !src.startsWith('data:image/')) {
+      src = countryAssetPath(countryCode, category);
+      alt ||= category === 'flags' ? 'An unlabeled national flag' : 'An unlabeled country silhouette';
+    }
+    const searchHint = String(rawImage.searchHint || raw.imageSearch || '').trim();
+    alt ||= searchHint || 'Quiz picture';
+
 
     if (!question) throw new Error(`Question ${index + 1} needs question text.`);
-    if (!originalSrc) throw new Error(`Question ${index + 1} needs an image source. Use image.src, image.url, image_url, or a relative filename.`);
-    if (!isSafeImageSource(src)) throw new Error(`Question ${index + 1} uses an unsupported image source. Use HTTPS, an image data URL, or a relative filename.`);
+    if (src && !isSafeImageSource(src)) throw new Error(`Question ${index + 1} uses an unsupported image source. Use HTTPS, an image data URL, or a relative filename.`);
     if (!alt) throw new Error(`Question ${index + 1} needs image alt text.`);
     if (![2, 3].includes(options.length) || options.some((option: string) => !option) || new Set(options.map((option: string) => option.toLowerCase())).size !== options.length) {
       throw new Error(`Question ${index + 1} needs 2 or 3 distinct, non-empty options.`);
@@ -131,6 +143,8 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
       image: {
         src,
         alt,
+        countryCode,
+        searchHint: searchHint || undefined,
         credit: String(rawImage.credit || raw.imageCredit || '').trim() || undefined,
         sourceUrl: /^https?:\/\//i.test(sourceUrl) ? sourceUrl : undefined,
       },
@@ -152,36 +166,13 @@ export function parsePictureQuizResponse(rawText: string, assets = new Map<strin
 }
 
 export function generatePictureQuizPrompt(config: PicturePromptConfig): string {
-  const categoryGuidance: Record<PictureQuizCategory, string> = {
-    brands: 'Use recognizable brand marks or products without answer text visible in the image.',
-    'country-shapes': 'Use clean country silhouettes or map outlines with no labels, flags, or neighboring-country clues.',
-    emoji: `Use official Twemoji artwork. Build every image URL from its Unicode code point using exactly ${TWEMOJI_CDN_BASE}/CODEPOINT.svg (for example, ${TWEMOJI_CDN_BASE}/1f914.svg). Do not guess Wikimedia Commons Twemoji filenames.`,
-    flags: 'Use accurate flag images with no captions.',
-    landmarks: 'Use clear landmark photographs that do not contain giveaway captions.',
-    people: 'Use appropriately licensed portraits and avoid sensitive or private-person identification.',
-    objects: 'Use clear object photographs on uncluttered backgrounds.',
-    custom: 'Choose images that test visual recognition and do not reveal the answer in visible text.',
-  };
-  const optionExample = Array.from({ length: config.answerChoiceCount }, (_, index) => `"Option ${String.fromCharCode(65 + index)}"`).join(', ');
-  const exampleImage = config.category === 'emoji'
-    ? {
-        src: `${TWEMOJI_CDN_BASE}/1f914.svg`,
-        alt: 'Yellow thinking face resting its chin on one hand',
-        credit: 'Twemoji contributors, CC BY 4.0',
-        sourceUrl: 'https://github.com/jdecked/twemoji',
-      }
-    : {
-        src: 'https://direct-image-url.example/image.jpg',
-        alt: 'Neutral description without the answer',
-        credit: 'Creator, license',
-        sourceUrl: 'https://source-page.example/file',
-      };
+  const countryMode = ['flags', 'country-shapes'].includes(config.category);
+  const image = countryMode
+    ? { countryCode: 'JP', alt: config.category === 'flags' ? 'An unlabeled national flag' : 'An unlabeled country silhouette' }
+    : { src: 'question-01.png', alt: 'Neutral description without the answer', searchHint: 'Describe the exact subject the user should find or photograph' };
+  return `# PICTURE QUIZ RESEARCH BRIEF
 
-  return `# PICTURE QUIZ RESEARCH AND ASSET BRIEF
-
-Create an import-ready visual quiz for a YouTube quiz video.
-
-## Requirements
+Create a visual-recognition quiz. The app supplies or matches the pictures; do not invent image URLs.
 
 - Quiz name: ${config.title.trim()}
 - Topic: ${config.topic.trim()}
@@ -191,66 +182,18 @@ Create an import-ready visual quiz for a YouTube quiz video.
 - Answer choices: Exactly ${config.answerChoiceCount} per question
 - Special instructions: ${config.specialInstructions.trim() || 'None.'}
 
-${categoryGuidance[config.category]}
+## Pictures
+${countryMode ? `Use image.countryCode with an ISO 3166-1 alpha-2 code from the supported list below. The app bundles flags and country silhouettes or map outlines. No URLs or downloads are required. The code MUST identify the country named by options[correctIndex]. Do not include image.src.
+Supported countries: ${countryCatalog.map(c => `${c.iso2.toUpperCase()}=${c.name}`).join('; ')}` : `The user will upload pictures in the review screen. Use filenames question-01.png, question-02.png, etc., and image.searchHint describing the intended subject. Do not supply remote URLs, fabricated filenames from websites, or claim to have verified images. Choose subjects the user can reasonably illustrate. Provide neutral alt text without giving away the answer. Image matching is completed by the user after import.`}
 
-## Image rules
-
-1. Every question must use a direct HTTPS image URL that a browser can display, not a search-results page, article page, or HTML file.
-2. Prefer Wikimedia Commons or another source that clearly permits reuse. Put the human-readable file page in sourceUrl and the direct image asset in src.
-3. Open or fetch EVERY src URL before returning the JSON. It must return HTTP 200 after redirects and a Content-Type beginning with image/. Never infer, invent, or autocomplete an asset filename.
-4. Provide useful alt text that describes the image without stating the answer.
-5. Do not use watermarked, low-resolution, misleading, or answer-revealing images.
-6. For local assets, you may instead use a relative filename such as "images/question-01.png". The user can select the JSON and image files together when importing.
-7. For Twemoji, use the verified form "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/CODEPOINT.svg". Do not invent Wikimedia Commons filenames.
-8. If a candidate URL returns 403, 404, HTML, or any non-image response, replace the asset before producing the final JSON. Do not leave a broken URL in the quiz.
-
-## Question rules
-
-- Use only the declared type "picture_mcq".
-- Ask one clear visual-recognition question per image.
-- Use concise, parallel, plausible options and one unambiguous correct answer.
-- Balance correctIndex positions and avoid a visible pattern.
-- Give a short factual explanation. Verify factual claims and avoid facts likely to change.
+## Questions
+Use only picture_mcq. Give exactly ${config.answerChoiceCount} distinct plausible options, one correctIndex, and a short fact-checked explanation. Vary correct-answer positions. Avoid questions requiring details that cannot be seen in the intended picture. ${countryMode ? 'Use country names as answers, not capitals or regions.' : 'Avoid watermarks, visible answer text, and ambiguous subjects.'}
 
 ## Required JSON
+Return one valid JSON object:
+${JSON.stringify({schema:'picture-quiz/v1', title:config.title.trim(), category:config.category, questions:[{type:'picture_mcq', question:countryMode ? 'Which country is shown?' : 'What does this picture show?', image, options:countryMode ? ['Japan','Sweden','Canada'].slice(0,config.answerChoiceCount) : ['Option A','Option B','Option C'].slice(0,config.answerChoiceCount), correctIndex:0, explanation:'A short verified explanation.'}]},null,2)}
 
-Return only one valid JSON object, with no Markdown fence or commentary:
-
-{
-  "schema": "picture-quiz/v1",
-  "id": "short-lowercase-id",
-  "title": ${JSON.stringify(config.title.trim())},
-  "description": "One sentence description",
-  "category": "${config.category}",
-  "questions": [
-    {
-      "type": "picture_mcq",
-      "question": "What does this picture show?",
-      "image": {
-        "src": ${JSON.stringify(exampleImage.src)},
-        "alt": ${JSON.stringify(exampleImage.alt)},
-        "credit": ${JSON.stringify(exampleImage.credit)},
-        "sourceUrl": ${JSON.stringify(exampleImage.sourceUrl)}
-      },
-      "options": [${optionExample}],
-      "correctIndex": 0,
-      "explanation": "A short verified explanation."
-    }
-  ]
-}
-
-## Mandatory final asset audit
-
-Before returning the JSON:
-
-- Confirm the exact title and question count.
-- Fetch every image.src individually and confirm HTTP 200 plus an image Content-Type.
-- Confirm that every image actually depicts the intended answer and does not reveal it through visible text.
-- Confirm every credit and sourceUrl. A sourceUrl may be a webpage; image.src must be the direct image asset.
-- Confirm every correctIndex.
-- If even one asset cannot be verified, replace it. Never return placeholders or guessed URLs.
-
-Return the JSON only after every line above passes.`;
+Before returning: check the exact title, length, distinct options, every correctIndex${countryMode ? ', and that every countryCode matches the correct answer' : ', and a useful image searchHint for every question'}. The example is a schema illustration; create the requested complete quiz.`;
 }
 
 const svgDataUrl = (body: string) => `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(body)}`;
@@ -281,5 +224,15 @@ export const pictureQuizDemo: PictureQuizDataset = {
       options: ['Denmark', 'Switzerland', 'Georgia'], correctIndex: 1,
       explanation: 'Switzerland uses a square red flag with a centered white cross.',
     },
+  ],
+};
+
+export const countryShapeDemo: PictureQuizDataset = {
+  schema: 'picture-quiz/v1', id: 'country-shapes-demo', title: 'Country Shapes Starter',
+  description: 'Three bundled silhouettes, no image links needed.', category: 'country-shapes', createdAt: '2026-09-17T00:00:00.000Z',
+  questions: [
+    { type:'picture_mcq', question:'Which country is this?', image:{countryCode:'it',src:countryAssetPath('it','country-shapes'),alt:'An unlabeled country silhouette'}, options:['Italy','France','Spain'],correctIndex:0,explanation:'This outline shows Italy, including Sicily and Sardinia.' },
+    { type:'picture_mcq', question:'Which country is this?', image:{countryCode:'br',src:countryAssetPath('br','country-shapes'),alt:'An unlabeled country silhouette'}, options:['Argentina','Brazil','Colombia'],correctIndex:1,explanation:'This outline shows Brazil.' },
+    { type:'picture_mcq', question:'Which country is this?', image:{countryCode:'jp',src:countryAssetPath('jp','country-shapes'),alt:'An unlabeled country silhouette'}, options:['Indonesia','Philippines','Japan'],correctIndex:2,explanation:'This outline shows Japan.' },
   ],
 };

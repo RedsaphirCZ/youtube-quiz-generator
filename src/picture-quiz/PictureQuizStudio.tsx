@@ -1,28 +1,27 @@
+import { PictureReview } from './PictureReview';
+import { readImageFile } from './imageAssets';
+import { StudioMenu } from '../components/StudioMenu';
+import { loadPictureLibrary, savePictureQuiz } from './storage';
 import React, { useMemo, useState } from 'react';
 import {
   ArrowLeft, ArrowRight, Check, Copy, Download, FileImage, FileJson,
   Home, ImageOff, Images, Play, RotateCcw, Sparkles, Upload, X,
 } from 'lucide-react';
-import { generatePictureQuizPrompt, parsePictureQuizResponse, pictureQuizDemo } from './pictureQuiz';
+import { generatePictureQuizPrompt, parsePictureQuizResponse, pictureQuizDemo, countryShapeDemo } from './pictureQuiz';
 import { PicturePromptConfig, PictureQuizCategory, PictureQuizDataset } from './types';
 
-type StudioView = 'home' | 'import' | 'prompt' | 'play' | 'summary';
+type StudioView = 'home' | 'review' | 'library' | 'import' | 'prompt' | 'play' | 'summary';
 type ImportStatus = { kind: 'success' | 'error'; text: string } | null;
 
 interface PictureQuizStudioProps {
   onExit: () => void;
 }
 
-const fileToDataUrl = (file: File) => new Promise<string>((resolve, reject) => {
-  const reader = new FileReader();
-  reader.onload = () => resolve(String(reader.result));
-  reader.onerror = () => reject(new Error(`Could not read ${file.name}.`));
-  reader.readAsDataURL(file);
-});
-
 const slugify = (value: string) => value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'picture-quiz';
 
 export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) => {
+  const [library, setLibrary] = useState<PictureQuizDataset[]>([]);
+  React.useEffect(() => { void loadPictureLibrary().then(setLibrary).catch(() => setStatus({kind:'error',text:'Browser storage is unavailable. You can still review and download your project.'})); }, []);
   const [view, setView] = useState<StudioView>('home');
   const [quiz, setQuiz] = useState<PictureQuizDataset>(pictureQuizDemo);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,7 +32,7 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
   const [status, setStatus] = useState<ImportStatus>(null);
   const [copied, setCopied] = useState(false);
   const [config, setConfig] = useState<PicturePromptConfig>({
-    title: '', topic: '', category: 'brands', questionCount: 20,
+    title: '', topic: '', category: 'flags', questionCount: 20,
     answerChoiceCount: 3, difficulty: 'easy-medium', specialInstructions: '',
   });
 
@@ -59,7 +58,7 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
       let nextText = importText;
       for (const file of files) {
         if (file.type.startsWith('image/')) {
-          const dataUrl = await fileToDataUrl(file);
+          const dataUrl = await readImageFile(file);
           nextAssets.set(file.name, dataUrl);
           nextAssets.set(file.webkitRelativePath || file.name, dataUrl);
         } else if (/\.(json|md|txt)$/i.test(file.name)) {
@@ -77,7 +76,10 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
 
   const handleImport = () => {
     try {
-      startQuiz(parsePictureQuizResponse(importText, assetMap));
+      const imported = parsePictureQuizResponse(importText, assetMap);
+      setQuiz(imported);
+      setStatus(null);
+      setView('review');
     } catch (error) {
       setStatus({ kind: 'error', text: error instanceof Error ? error.message : 'Could not import this picture quiz.' });
     }
@@ -107,10 +109,10 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
   if (view === 'play' || view === 'summary') {
     const score = Object.entries(answers).filter(([index, answer]) => quiz.questions[Number(index)]?.correctIndex === answer).length;
     return (
-      <main className="min-h-screen bg-[#10151f] text-white px-4 py-5 sm:py-8">
+      <main className="picture-studio min-h-screen bg-[#10151f] text-white px-4 py-5 sm:py-8">
         <div className="mx-auto max-w-5xl">
           <header className="mb-5 flex flex-wrap items-center justify-between gap-3">
-            <button onClick={() => setView('home')} className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 font-bold hover:bg-white/10 cursor-pointer"><ArrowLeft className="w-4 h-4" /> Picture studio</button>
+            <button onClick={() => setView('home')} className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 font-bold hover:bg-white/10 cursor-pointer"><ArrowLeft className="w-4 h-4" /> Home</button>
             <div className="text-right"><p className="text-xs font-black uppercase tracking-[0.18em] text-cyan-300">Picture quiz</p><h1 className="text-xl sm:text-2xl font-black">{quiz.title}</h1></div>
           </header>
 
@@ -121,7 +123,7 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
               <p className="mt-3 text-slate-300">Replay the set or load a different picture pack.</p>
               <div className="mt-7 flex flex-col sm:flex-row justify-center gap-3">
                 <button onClick={() => startQuiz(quiz)} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-cyan-300 px-5 font-black text-[#10151f] cursor-pointer"><RotateCcw className="w-4 h-4" /> Play again</button>
-                <button onClick={() => setView('home')} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-white/25 px-5 font-black cursor-pointer"><Images className="w-4 h-4" /> Picture studio</button>
+                <button onClick={() => setView('home')} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-white/25 px-5 font-black cursor-pointer"><Images className="w-4 h-4" /> Home</button>
               </div>
             </section>
           ) : (
@@ -140,46 +142,47 @@ export const PictureQuizStudio: React.FC<PictureQuizStudioProps> = ({ onExit }) 
   }
 
   return (
-    <main className="min-h-screen bg-[#eef5f7] text-[#16212b] px-4 py-8 sm:py-12">
+    <main className="picture-studio min-h-screen bg-[#eef5f7] text-[#16212b] px-4 py-8 sm:py-12">
       <section className="mx-auto max-w-5xl overflow-hidden rounded-3xl border border-[#c9d9de] bg-white shadow-xl">
         <header className="border-t-[6px] border-cyan-700 bg-[#f7fbfc] px-5 py-6 sm:px-9 sm:py-8">
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-cyan-700 text-white"><Images className="w-5 h-5" /></span>
-              <div><p className="text-[11px] font-black uppercase tracking-[0.2em] text-cyan-700">Separate visual mode</p><h1 className="text-2xl sm:text-3xl font-black">Picture Quiz Studio</h1></div>
+              <div><p className="text-[11px] font-black uppercase tracking-[0.2em] text-cyan-700">YouTube Quiz Studio</p><h1 className="text-2xl sm:text-3xl font-black">Picture Quiz Studio</h1></div>
             </div>
-            <button onClick={onExit} aria-label="Return to main quiz studio" className="flex h-11 w-11 items-center justify-center rounded-xl border border-[#c9d9de] hover:border-cyan-700 cursor-pointer"><Home className="w-5 h-5" /></button>
+            <button onClick={onExit} aria-label="Quiz modes" className="flex shrink-0 h-11 w-11 items-center justify-center rounded-xl border border-[#c9d9de] hover:border-cyan-700 cursor-pointer"><Home className="w-5 h-5" /></button>
           </div>
           <p className="mt-4 max-w-2xl text-sm sm:text-base text-slate-600">Build visual rounds for brands, country shapes, flags, landmarks, people, objects, or your own category. This mode has its own import format and player.</p>
         </header>
 
         <div className="px-5 py-6 sm:px-9 sm:py-8">
-          {view !== 'home' && <button onClick={() => { setView('home'); setStatus(null); }} className="mb-5 inline-flex min-h-10 items-center gap-2 rounded-lg border border-[#c9d9de] px-3 text-sm font-black text-cyan-800 cursor-pointer"><ArrowLeft className="w-4 h-4" /> Picture studio</button>}
+          {view !== 'home' && <button onClick={() => { setView('home'); setStatus(null); }} className="mb-5 inline-flex min-h-10 items-center gap-2 rounded-lg border border-[#c9d9de] px-3 text-sm font-black text-cyan-800 cursor-pointer"><ArrowLeft className="w-4 h-4" /> Home</button>}
 
+          {status && view !== 'import' && view !== 'prompt' && <StatusMessage status={status} />}
           {view === 'home' && (
-            <div className="grid gap-4 sm:grid-cols-3">
-              <StudioButton icon={Play} title="Try demo" description="Play a three-question offline flag round." onClick={() => startQuiz(pictureQuizDemo)} />
-              <StudioButton icon={Upload} title="Import picture quiz" description="Choose JSON plus optional local image files, or paste JSON." onClick={() => setView('import')} />
-              <StudioButton icon={Sparkles} title="Create research prompt" description="Download a prompt for brands, country shapes, landmarks, and more." onClick={() => setView('prompt')} />
-            </div>
+            <StudioMenu onPrompt={() => setView('prompt')} onImport={() => setView('import')} onLibrary={() => setView('library')} />
           )}
 
+          {view === 'library' && <section className="space-y-4"><h2 className="text-2xl font-black">Library</h2><p className="text-sm text-slate-600">Saved in this browser. Imported quizzes are unreviewed drafts.</p><div className="grid gap-4 sm:grid-cols-2"><StudioButton icon={Play} title={pictureQuizDemo.title} description="Sample · Three-question offline flag round" onClick={() => { setQuiz(pictureQuizDemo); setView('review'); }} /><StudioButton icon={Images} title={countryShapeDemo.title} description="Sample · Three bundled country shapes" onClick={() => { setQuiz(countryShapeDemo); setView('review'); }} />{library.map(item => <div key={item.id}><StudioButton icon={Images} title={item.title} description={`Unreviewed draft · ${item.questions.length} questions`} onClick={() => { setQuiz(item); setView('review'); }} /></div>)}</div></section>}
+
+          {view === 'review' && <PictureReview initialQuiz={quiz} onSave={async project => { setLibrary(await savePictureQuiz(project)); }} onPlay={startQuiz} />}
           {view === 'import' && (
             <div className="space-y-4">
-              <div className="rounded-xl border border-cyan-200 bg-cyan-50 p-4 text-sm text-cyan-950"><strong>Two ways to supply pictures:</strong> use direct HTTPS URLs in the JSON, or select the JSON and its local image files together. Local files are kept only for this browser session.</div>
+              <div className="rounded-xl border border-cyan-200 bg-cyan-50 p-4 text-sm text-cyan-950"><strong>Reliable pictures:</strong> flags and country shapes use the built-in country library. For other subjects, select local pictures or match them after import. Existing URLs are checked and embedded when possible. Uploaded pictures are saved with the project.</div>
               <label className="inline-flex min-h-12 items-center gap-2 rounded-xl border-2 border-[#c9d9de] px-4 font-black text-cyan-800 hover:border-cyan-700 cursor-pointer"><FileImage className="w-5 h-5" /> Select JSON + pictures<input className="hidden" type="file" multiple accept=".json,.md,.txt,image/*" onChange={handleFiles} /></label>
               {loadedFiles.length > 0 && <p className="text-xs text-slate-500">Loaded: {loadedFiles.join(', ')}</p>}
               <textarea value={importText} onChange={(event) => { setImportText(event.target.value); setStatus(null); }} aria-label="Picture quiz JSON" placeholder={'Paste picture-quiz/v1 JSON here, or select a JSON file above.'} className="h-64 w-full resize-y rounded-xl border-2 border-[#26323b] bg-[#10151f] px-4 py-3 font-mono text-xs leading-relaxed text-white outline-none focus:border-cyan-400" />
               {status && <StatusMessage status={status} />}
-              <button onClick={handleImport} disabled={!importText.trim()} className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-cyan-700 px-5 font-black text-white disabled:opacity-40 cursor-pointer"><FileJson className="w-4 h-4" /> Import and play</button>
+              <button onClick={handleImport} disabled={!importText.trim()} className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-cyan-700 px-5 font-black text-white disabled:opacity-40 cursor-pointer"><FileJson className="w-4 h-4" /> Import &amp; review pictures</button>
             </div>
           )}
 
           {view === 'prompt' && (
             <div className="space-y-5">
+              <p className="rounded-xl bg-cyan-50 p-4 text-sm text-cyan-950">Flags and country shapes come from 195 bundled country assets. For other categories, the prompt requests questions and picture descriptions; you supply the pictures during review.</p>
               <div className="grid gap-4 sm:grid-cols-2">
-                <TextField label="Quiz name *" value={config.title} placeholder="World Brand Challenge" onChange={(title) => setConfig({ ...config, title })} />
-                <TextField label="Topic *" value={config.topic} placeholder="Recognizable global brand logos" onChange={(topic) => setConfig({ ...config, topic })} />
+                <TextField label="Quiz name *" value={config.title} placeholder="World Flag Challenge" onChange={(title) => setConfig({ ...config, title })} />
+                <TextField label="Topic *" value={config.topic} placeholder="Flags of countries around the world" onChange={(topic) => setConfig({ ...config, topic })} />
                 <SelectField label="Picture category" value={config.category} onChange={(category) => setConfig({ ...config, category: category as PictureQuizCategory })} options={[
                   ['brands', 'Brands'], ['country-shapes', 'Country shapes'], ['emoji', 'Emoji'], ['flags', 'Flags'], ['landmarks', 'Landmarks'], ['people', 'People'], ['objects', 'Objects'], ['custom', 'Custom'],
                 ]} />
@@ -214,8 +217,8 @@ const PicturePlayer = ({ quiz, index, selected, onSelect, onPrevious, onNext }: 
     <section className="overflow-hidden rounded-3xl border border-white/15 bg-white/8 shadow-2xl">
       <div className="flex items-center justify-between gap-3 border-b border-white/10 px-5 py-4"><span className="rounded-lg bg-cyan-300 px-3 py-1 text-sm font-black text-[#10151f]">IMAGE {index + 1}</span><span className="font-bold text-slate-300">{index + 1} / {quiz.questions.length}</span></div>
       <div className="grid lg:grid-cols-[1.08fr_.92fr]">
-        <div className="flex min-h-72 items-center justify-center bg-[#080b10] p-4 sm:p-6">
-          {imageFailed ? <div className="text-center text-slate-400"><ImageOff className="mx-auto mb-3 h-12 w-12" /><p className="font-bold">This image could not be loaded.</p>{question.image.sourceUrl && <a href={question.image.sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-block text-cyan-300 underline">Open source page</a>}</div> : <img src={question.image.src} alt={question.image.alt} onError={() => setImageFailed(true)} className="max-h-[52vh] w-full rounded-xl object-contain" />}
+        <div className={`flex min-h-40 sm:min-h-72 items-center justify-center p-4 sm:p-6 ${quiz.category === 'country-shapes' ? 'bg-slate-100' : 'bg-[#080b10]'}`}>
+          {imageFailed ? <div className="text-center text-slate-400"><ImageOff className="mx-auto mb-3 h-12 w-12" /><p className="font-bold">This image could not be loaded.</p>{question.image.sourceUrl && <a href={question.image.sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-block text-cyan-300 underline">Open source page</a>}</div> : <img src={question.image.src} alt={question.image.alt} onError={() => setImageFailed(true)} className="max-h-[30dvh] sm:max-h-[52vh] w-full rounded-xl object-contain" />}
         </div>
         <div className="p-5 sm:p-7">
           <h2 className="text-2xl sm:text-4xl font-black leading-tight">{question.question}</h2>
@@ -226,7 +229,7 @@ const PicturePlayer = ({ quiz, index, selected, onSelect, onPrevious, onNext }: 
             return <button key={option} disabled={answered} onClick={() => onSelect(optionIndex)} className={`flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-4 text-left text-lg font-black transition cursor-pointer ${state}`}><span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/10">{String.fromCharCode(65 + optionIndex)}</span>{option}{answered && correct && <Check className="ml-auto text-emerald-300" />}{answered && chosen && !correct && <X className="ml-auto text-rose-300" />}</button>;
           })}</div>
           {answered && <div className="mt-5 rounded-xl border border-cyan-300/25 bg-cyan-300/10 p-4 text-sm leading-relaxed text-slate-200"><strong className="text-cyan-200">Answer:</strong> {question.explanation}{question.image.credit && <span className="mt-2 block text-xs text-slate-400">Image: {question.image.credit}</span>}</div>}
-          <div className="mt-6 flex gap-3"><button onClick={onPrevious} disabled={index === 0} className="min-h-12 rounded-xl border border-white/20 px-4 font-black disabled:opacity-30 cursor-pointer"><ArrowLeft className="w-4 h-4" /></button><button onClick={onNext} disabled={!answered} className="inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl bg-cyan-300 px-5 font-black text-[#10151f] disabled:opacity-30 cursor-pointer">{index === quiz.questions.length - 1 ? 'See score' : 'Next picture'} <ArrowRight className="w-4 h-4" /></button></div>
+          <div className="mt-6 flex gap-3"><button aria-label="Previous question" onClick={onPrevious} disabled={index === 0} className="min-h-12 rounded-xl border border-white/20 px-4 font-black disabled:opacity-30 cursor-pointer"><ArrowLeft className="w-4 h-4" /></button><button onClick={onNext} disabled={!answered} className="inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl bg-cyan-300 px-5 font-black text-[#10151f] disabled:opacity-30 cursor-pointer">{index === quiz.questions.length - 1 ? 'See score' : 'Next picture'} <ArrowRight className="w-4 h-4" /></button></div>
         </div>
       </div>
     </section>
