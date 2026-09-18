@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#143f3a">
   <title>Flag Card Studio</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260918-1">
+  <link rel="stylesheet" href="styles.css?v=20260918-2">
 </head>
 <body>
   <header class="topbar">
@@ -85,12 +85,13 @@
       <form id="randomForm" class="panel random-form">
         <label>Make<select id="randomOutputMode"><option value="cards" selected>Guessing cards</option><option value="worksheet">Write-under worksheets</option></select></label>
         <label data-random-mode="cards">Number of cards<input id="randomCardCount" type="number" min="1" max="200" value="4"></label>
-        <label data-random-mode="cards">Flags on each card<select id="randomFlagsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
+        <label data-random-mode="cards">Items on each card<select id="randomFlagsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
         <label data-random-mode="worksheet" hidden>Paper size<select id="randomWorksheetSize"><option value="a4" selected>A4</option><option value="a5">A5</option></select></label>
-        <label data-random-mode="worksheet" hidden>Flags per sheet<select id="randomWorksheetItems"></select></label>
+        <label data-random-mode="worksheet" hidden>Items per sheet<select id="randomWorksheetItems"></select></label>
         <label data-random-mode="worksheet" hidden>Number of worksheets<input id="randomWorksheetCount" type="number" min="1" max="100" value="2"></label>
         <label>Difficulty<select id="randomDifficulty"><option value="mixed">Balanced mix</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></label>
-        <label>Continent<select id="randomContinent" class="continent-select"></select></label>
+        <fieldset class="choice-field content-choice"><legend>Question content</legend><label><input class="random-content" type="checkbox" value="flags" checked><span>Flags</span></label><label><input class="random-content" type="checkbox" value="silhouettes"><span>Silhouettes</span></label><label><input class="random-content" type="checkbox" value="capitals"><span>Capital names</span></label></fieldset>
+        <fieldset class="choice-field continent-choice"><legend>Continents</legend><label><input id="randomAllContinents" type="checkbox" checked><span>All</span></label><label><input class="random-continent" type="checkbox" value="Africa"><span>Africa</span></label><label><input class="random-continent" type="checkbox" value="Asia"><span>Asia</span></label><label><input class="random-continent" type="checkbox" value="Europe"><span>Europe</span></label><label><input class="random-continent" type="checkbox" value="North America"><span>North America</span></label><label><input class="random-continent" type="checkbox" value="South America"><span>South America</span></label><label><input class="random-continent" type="checkbox" value="Oceania"><span>Oceania</span></label></fieldset>
         <label class="check-label"><input id="allowRepeats" type="checkbox"><span id="allowRepeatsLabel">Allow countries to repeat between cards</span></label>
         <button id="randomSubmitButton" class="button primary" type="submit">Generate cards</button>
       </form>
@@ -104,9 +105,9 @@
         <div class="deck-toolbar panel">
           <label>Mode<select id="outputMode"><option value="cards" selected>Cards</option><option value="worksheet">Write-under sheets</option></select></label>
           <label>Size<select id="printSize"></select></label>
-          <label data-output-mode="cards">Flags per card<select id="outputItemsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
-          <label data-output-mode="worksheet" hidden>Flags per sheet<select id="worksheetItemsPerPage"></select></label>
-          <label>Front content<select id="frontMode"><option value="flags" selected>Flags</option><option value="silhouettes">Country silhouettes</option></select></label>
+          <label data-output-mode="cards">Items per card<select id="outputItemsPerCard"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label>
+          <label data-output-mode="worksheet" hidden>Items per sheet<select id="worksheetItemsPerPage"></select></label>
+          <label>Front content<select id="frontMode"><option value="flags" selected>Flags</option><option value="silhouettes">Country silhouettes</option><option value="capitals">Capital names</option><option value="mixed">Keep generated mix</option></select></label>
           <label>Orientation<select id="cardOrientation"><option value="portrait">Vertical</option><option value="landscape" selected>Horizontal</option></select></label>
           <label>Background colour<div class="color-field"><input id="backgroundColor" type="color" value="#e6e8e5" aria-label="Background colour"><button id="randomColorButton" class="button quiet" type="button">Random muted</button></div></label>
           <div class="toolbar-actions"><button id="shuffleButton" class="button quiet" type="button">Shuffle</button><button id="downloadJsonButton" class="button quiet" type="button">Download JSON</button><button id="exportPdfButton" class="button primary" type="button">Export PDF</button></div>
@@ -119,6 +120,6 @@
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js?v=20260918-1"></script>
+  <script src="app.js?v=20260918-2"></script>
 </body>
 </html>

@@ -2,18 +2,18 @@
 
 A browser app for researching a country set by a flag criterion, then laying the
 same set out as Poker- or Tarot-size guessing cards or A4/A5 write-under
-worksheets. It is hosted as a
-static GitHub Pages site and continues to work without an account, API, or
-server-side processing.
+worksheets. It is embedded in YouTube Quiz Generator and continues to work
+without an account, API, or server-side processing.
 
-## Online
+## Open
 
-https://redsaphircz.github.io/flag-card-studio/
+Open **Flag Card Studio** from the YouTube Quiz Generator landing page. In the
+static build, its route is `flag-card-studio/`.
 
 ## Start
 
-Open the online version above, double-click `run-card-studio.bat`, or run a local
-web server in this folder and open `http://localhost:8765`.
+Open it from YouTube Quiz Generator, double-click `run-card-studio.bat`, or run
+a local web server in this folder and open `http://localhost:8765`.
 
 ## Card format
 
@@ -46,6 +46,8 @@ web server in this folder and open `http://localhost:8765`.
 - Choose the paper size first, then choose how many flags appear on each sheet
 - The full country set is automatically flowed across as many sheets as required
 - Random picker asks for the output mode first. Worksheet mode asks for paper size, flags per sheet, and number of worksheet pages; card-specific counts stay hidden.
+- Random picker can use flags, country silhouettes, capital-name boxes, or a balanced mix of all selected clue types.
+- Continents are multi-select checkboxes, so one random set can combine any chosen regions.
 - Every flag or silhouette has a clean blank line directly underneath for writing the country name
 - Every worksheet is followed by a matching answer-key page with the names in the same positions
 - Worksheet and answer previews are stacked at a readable full-page width instead of being squeezed side by side

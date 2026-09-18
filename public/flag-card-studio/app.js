@@ -13,6 +13,7 @@ const WORKSHEET_FORMATS = {
   a5: { id: "a5", label: "A5", optionLabel: "A5 — 148 × 210 mm", trimW: 148, trimH: 210, kind: "worksheet", bleedMm: 0, safeMarginMm: 10, defaultItemsPerPage: 6, itemsPerPageOptions: [2, 4, 6] }
 };
 const CONTINENTS = ["Any continent", "Africa", "Asia", "Europe", "North America", "South America", "Oceania"];
+const FRONT_MODES = ["flags", "silhouettes", "capitals"];
 const EASY_ISO = new Set([
   "ar","au","at","be","br","ca","cl","cn","co","hr","cu","cz","dk","eg","fi","fr","de","gr","is","in","id","ie","il","it","jp","mx","ma","nl","nz","no","pl","pt","ru","za","kr","es","se","ch","tr","ua","gb","us","va","vn"
 ]);
@@ -104,6 +105,12 @@ function wireForms() {
   });
   $("#randomOutputMode").addEventListener("change", updateRandomModeFields);
   $("#randomWorksheetSize").addEventListener("change", populateRandomWorksheetItems);
+  $("#randomAllContinents").addEventListener("change", (event) => {
+    $$(".random-continent").forEach((checkbox) => { if (event.target.checked) checkbox.checked = false; });
+  });
+  $$(".random-continent").forEach((checkbox) => checkbox.addEventListener("change", () => {
+    $("#randomAllContinents").checked = !$$('.random-continent:checked').length;
+  }));
   $("#outputMode").addEventListener("change", (event) => {
     if (state.outputMode === "worksheet") state.worksheetOrientation = state.orientation;
     else state.cardOrientation = state.orientation;
@@ -217,8 +224,9 @@ function getDifficulty(country) {
 }
 
 function getPool(difficulty, continent) {
+  const selected = Array.isArray(continent) ? continent : continent === "any" || !continent ? [] : [continent];
   return state.countries.filter((country) => {
-    const continentMatch = continent === "any" || country.continent === continent;
+    const continentMatch = !selected.length || selected.includes(country.continent);
     const difficultyMatch = difficulty === "mixed" || getDifficulty(country) === difficulty;
     return continentMatch && difficultyMatch;
   });
@@ -289,7 +297,7 @@ function resolveCountry(entry) {
 }
 
 function getPlacements() {
-  return state.cards.flatMap((card) => card.countries.map((country, index) => ({ country, shapeColor: card.shapeColors?.[index] })));
+  return state.cards.flatMap((card) => card.countries.map((country, index) => ({ country, shapeColor: card.shapeColors?.[index], frontMode: card.frontModes?.[index] || (FRONT_MODES.includes(state.frontMode) ? state.frontMode : "flags") })));
 }
 
 function packPlacementsIntoCards(placements, preferredSize = state.itemsPerCard) {
@@ -304,10 +312,11 @@ function packPlacementsIntoCards(placements, preferredSize = state.itemsPerCard)
     const group = placements.slice(cursor, cursor + groupSize);
     const countries = group.map((placement) => placement.country);
     const suppliedColors = group.map((placement) => placement.shapeColor);
+    const frontModes = group.map((placement) => FRONT_MODES.includes(placement.frontMode) ? placement.frontMode : "flags");
     cards.push({
       difficulty: inferCardDifficulty(countries),
       countries,
-      shapeColors: normalizeShapeColors(suppliedColors, countries.length)
+      shapeColors: normalizeShapeColors(suppliedColors, countries.length), frontModes
     });
     cursor += groupSize;
   }
@@ -335,8 +344,8 @@ function importDeck(raw) {
     const importedOutputMode = legacyWorksheetSize ? "worksheet" : importedFormat.outputMode;
     const importedCardFormat = legacyWorksheetSize ? null : importedFormat.cardFormat;
     const importedWorksheetSize = legacyWorksheetSize || importedFormat.worksheetSize;
-    if (importedFrontMode != null && !["flags", "silhouettes"].includes(importedFrontMode)) {
-      throw new Error('format.frontMode must be either "flags" or "silhouettes".');
+    if (importedFrontMode != null && ![...FRONT_MODES, "mixed"].includes(importedFrontMode)) {
+      throw new Error('format.frontMode must be "flags", "silhouettes", "capitals", or "mixed".');
     }
     if (importedOutputMode != null && !["cards", "worksheet"].includes(importedOutputMode)) {
       throw new Error('format.outputMode must be either "cards" or "worksheet".');
@@ -377,7 +386,9 @@ function importDeck(raw) {
       }).filter(Boolean);
       if (new Set(countries.map((country) => country.iso2)).size !== countries.length) errors.push("The country set contains a repeated country.");
       importedCountryCount = countries.length;
-      cards = packPlacementsIntoCards(countries.map((country) => ({ country })), importedItemsPerCard);
+      const suppliedModes = Array.isArray(importedFormat.frontModes) ? importedFormat.frontModes : [];
+      if (suppliedModes.some((mode) => !FRONT_MODES.includes(mode))) errors.push("format.frontModes contains an unsupported content type.");
+      cards = packPlacementsIntoCards(countries.map((country, index) => ({ country, frontMode: suppliedModes[index] || (FRONT_MODES.includes(importedFrontMode) ? importedFrontMode : "flags") })), importedItemsPerCard);
     } else {
       if (!Array.isArray(inputCards) || !inputCards.length) throw new Error("The JSON needs a non-empty countries list (or a legacy cards array).");
       if (inputCards.length > 200) throw new Error("A deck may contain at most 200 cards.");
@@ -397,7 +408,9 @@ function importDeck(raw) {
         const suppliedDifficulty = Array.isArray(item) ? "mixed" : String(item.difficulty || "mixed").toLowerCase();
         const difficulty = ["easy", "medium", "hard", "mixed"].includes(suppliedDifficulty) ? suppliedDifficulty : "mixed";
         const suppliedColors = Array.isArray(item) ? null : item.shapeColors;
-        return { difficulty, countries, shapeColors: normalizeShapeColors(suppliedColors, countries.length) };
+        const suppliedModes = Array.isArray(item) ? null : item.frontModes;
+        if (suppliedModes != null && (!Array.isArray(suppliedModes) || suppliedModes.length !== countries.length || suppliedModes.some((mode) => !FRONT_MODES.includes(mode)))) errors.push(`Card ${cardIndex + 1}: frontModes must match the countries and use flags, silhouettes, or capitals.`);
+        return { difficulty, countries, shapeColors: normalizeShapeColors(suppliedColors, countries.length), frontModes: Array.isArray(suppliedModes) ? suppliedModes : countries.map(() => FRONT_MODES.includes(importedFrontMode) ? importedFrontMode : "flags") };
       }).filter(Boolean);
       importedCountryCount = cards.reduce((sum, card) => sum + card.countries.length, 0);
     }
@@ -451,9 +464,15 @@ function generateRandomDeck(options = null) {
   const totalItems = worksheet ? worksheetCount * worksheetItemsPerPage : cardCount * flagsPerCard;
   const groupSize = worksheet ? 6 : flagsPerCard;
   const difficulty = options?.difficulty ?? $("#randomDifficulty").value;
-  const continent = options?.continent ?? $("#randomContinent").value;
+  const legacyContinent = options?.continent;
+  const continents = options?.continents ?? (legacyContinent ? (legacyContinent === "any" ? [] : [legacyContinent]) : $$(".random-continent:checked").map((checkbox) => checkbox.value));
+  const frontModes = options?.frontModes ?? $$(".random-content:checked").map((checkbox) => checkbox.value);
+  if (!frontModes.length || frontModes.some((mode) => !FRONT_MODES.includes(mode))) {
+    $("#randomStatus").textContent = "Choose at least one question content type.";
+    return null;
+  }
   const allowRepeats = options?.allowRepeats ?? $("#allowRepeats").checked;
-  const pool = getPool(difficulty, continent);
+  const pool = getPool(difficulty, continents);
   if (pool.length < groupSize) {
     $("#randomStatus").textContent = `Only ${pool.length} countries match. Choose a wider filter.`;
     return null;
@@ -462,6 +481,8 @@ function generateRandomDeck(options = null) {
   const cards = [];
   let recycled = false;
   let remaining = totalItems;
+  let modeBag = [];
+  const takeFrontMode = () => { if (!modeBag.length) modeBag = shuffle([...frontModes]); return modeBag.pop(); };
   while (remaining > 0) {
     const countries = [];
     const targetSize = Math.min(groupSize, remaining);
@@ -473,10 +494,12 @@ function generateRandomDeck(options = null) {
       let candidate = allowRepeats ? pool[Math.floor(Math.random() * pool.length)] : bag.pop();
       if (!countries.some((country) => country.iso2 === candidate.iso2)) countries.push(candidate);
     }
-    cards.push({ difficulty: difficulty === "mixed" ? inferCardDifficulty(countries) : difficulty, countries, shapeColors: createShapeColors(countries.length) });
+    cards.push({ difficulty: difficulty === "mixed" ? inferCardDifficulty(countries) : difficulty, countries, shapeColors: createShapeColors(countries.length), frontModes: countries.map(takeFrontMode) });
     remaining -= targetSize;
   }
   state.cards = cards;
+  state.frontMode = frontModes.length === 1 ? frontModes[0] : "mixed";
+  $("#frontMode").value = state.frontMode;
   state.outputMode = outputMode;
   if (worksheet) {
     state.worksheetSize = worksheetFormat.id;
@@ -486,12 +509,13 @@ function generateRandomDeck(options = null) {
     state.itemsPerCard = flagsPerCard;
     state.orientation = state.cardOrientation;
   }
-  const scope = continent === "any" ? "World" : continent;
-  state.title = worksheet ? `${scope} flag worksheets` : `${scope} flag mix`;
-  state.criteria = `Random ${scope.toLowerCase()} selection${difficulty === "mixed" ? "" : `, ${difficulty} recognition`}`;
+  const scope = !continents.length ? "World" : continents.length <= 2 ? continents.join(" + ") : `${continents.length} continents`;
+  const contentLabel = frontModes.length === 1 ? ({ flags: "flag", silhouettes: "silhouette", capitals: "capital" })[frontModes[0]] : "country clue";
+  state.title = worksheet ? `${scope} ${contentLabel} worksheets` : `${scope} ${contentLabel} mix`;
+  state.criteria = `Random ${scope.toLowerCase()} selection using ${frontModes.join(", ")}${difficulty === "mixed" ? "" : `, ${difficulty} recognition`}`;
   state.deckId = createDeckId();
   if (worksheet) {
-    $("#randomStatus").textContent = `${worksheetCount} ${worksheetFormat.id.toUpperCase()} worksheet${worksheetCount === 1 ? "" : "s"} generated with ${worksheetItemsPerPage} flags per sheet (${totalItems} placements total)${recycled ? "; the matching pool was reused after every country appeared once" : ""}.`;
+    $("#randomStatus").textContent = `${worksheetCount} ${worksheetFormat.id.toUpperCase()} worksheet${worksheetCount === 1 ? "" : "s"} generated with ${worksheetItemsPerPage} clues per sheet (${totalItems} placements total)${recycled ? "; the matching pool was reused after every country appeared once" : ""}.`;
   } else {
     $("#randomStatus").textContent = recycled
       ? `${cardCount} cards generated. The matching pool was reused after every country appeared once.`
@@ -540,7 +564,7 @@ function renderDeck() {
   $("#cardList").classList.toggle("worksheet-list", worksheet);
   const itemTotal = state.cards.reduce((sum, card) => sum + card.countries.length, 0);
   const uniqueTotal = new Set(state.cards.flatMap((card) => card.countries.map((country) => country.iso2))).size;
-  const itemLabel = state.frontMode === "silhouettes" ? "shape placements" : "flag placements";
+  const itemLabel = state.frontMode === "silhouettes" ? "shape clues" : state.frontMode === "capitals" ? "capital clues" : state.frontMode === "mixed" ? "mixed clues" : "flag clues";
   $("#deckSummary").innerHTML = [
     `<span class="summary-chip"><strong>${activityCount}</strong> ${worksheet ? `worksheet page${activityCount === 1 ? "" : "s"}` : `card${activityCount === 1 ? "" : "s"}`}</span>`,
     `<span class="summary-chip"><strong>${itemTotal}</strong> ${itemLabel}</span>`,
@@ -565,10 +589,8 @@ function previewCard(card, index) {
   const number = String(index + 1).padStart(2, "0");
   const background = state.backgroundColor;
   const ink = readableTextColor(background);
-  const frontItems = state.frontMode === "silhouettes"
-    ? card.countries.map((country, countryIndex) => silhouetteMarkup(country, card.shapeColors[countryIndex], "silhouette-tile")).join("")
-    : card.countries.map((country) => `<div class="flag-tile"><img src="${country.flag}" alt=""></div>`).join("");
-  const answers = card.countries.map((country, countryIndex) => state.frontMode === "silhouettes"
+  const frontItems = card.countries.map((country, countryIndex) => previewVisual(country, card.shapeColors[countryIndex], getFrontMode(card, countryIndex))).join("");
+  const answers = card.countries.map((country, countryIndex) => getFrontMode(card, countryIndex) === "silhouettes"
     ? `<div class="answer-row silhouette-answer">${silhouetteMarkup(country, card.shapeColors[countryIndex], "answer-shape")}<img class="answer-flag" src="${country.flag}" alt=""><span>${escapeHtml(country.name)}</span></div>`
     : `<div class="answer-row"><img class="answer-flag" src="${country.flag}" alt=""><span>${escapeHtml(country.name)}</span></div>`).join("");
   const geometry = getGeometry();
@@ -576,7 +598,7 @@ function previewCard(card, index) {
   return `<article class="card-pair">
     <div class="card-pair-heading"><span>Card ${number} · ${escapeHtml(card.difficulty)}</span><button type="button" data-remove-card="${index}">Remove</button></div>
     <div class="faces">
-      <div class="card-face front ${state.orientation}" style="${faceStyle}"><div class="preview-items ${state.frontMode} count-${card.countries.length}">${frontItems}</div></div>
+      <div class="card-face front ${state.orientation}" style="${faceStyle};color:${ink}"><div class="preview-items ${state.frontMode} count-${card.countries.length}">${frontItems}</div></div>
       <div class="card-face back ${state.orientation}" style="${faceStyle};color:${ink}"><div class="answer-list">${answers}</div><div class="back-meta"><span>${escapeHtml(state.deckId)}</span><span>${index + 1} / ${state.cards.length}</span></div></div>
     </div>
   </article>`;
@@ -584,11 +606,11 @@ function previewCard(card, index) {
 
 function getWorksheetPages() {
   const capacity = state.worksheetItemsPerPage;
-  const placements = state.cards.flatMap((card) => card.countries.map((country, index) => ({ country, shapeColor: card.shapeColors[index] })));
+  const placements = getPlacements();
   const pages = [];
   for (let index = 0; index < placements.length; index += capacity) {
     const slice = placements.slice(index, index + capacity);
-    pages.push({ countries: slice.map((item) => item.country), shapeColors: slice.map((item) => item.shapeColor), difficulty: "mixed" });
+    pages.push({ countries: slice.map((item) => item.country), shapeColors: slice.map((item) => item.shapeColor), frontModes: slice.map((item) => item.frontMode), difficulty: "mixed" });
   }
   return pages;
 }
@@ -600,21 +622,17 @@ function previewWorksheetPage(page, index, pageTotal) {
   const columns = getWorksheetColumns(page.countries.length, geometry);
   const faceStyle = `--card-ratio:${geometry.pageW} / ${geometry.pageH};background:${background}`;
   const worksheetItems = page.countries.map((country, countryIndex) => {
-    const visual = state.frontMode === "silhouettes"
-      ? silhouetteMarkup(country, page.shapeColors[countryIndex], "silhouette-tile")
-      : `<div class="flag-tile"><img src="${country.flag}" alt=""></div>`;
+    const visual = previewVisual(country, page.shapeColors[countryIndex], getFrontMode(page, countryIndex));
     return `<div class="write-under-item">${visual}<span class="write-line" aria-label="Blank answer line"></span></div>`;
   }).join("");
   const answerItems = page.countries.map((country, countryIndex) => {
-    const visual = state.frontMode === "silhouettes"
-      ? silhouetteMarkup(country, page.shapeColors[countryIndex], "silhouette-tile")
-      : `<div class="flag-tile"><img src="${country.flag}" alt=""></div>`;
+    const visual = previewVisual(country, page.shapeColors[countryIndex], getFrontMode(page, countryIndex));
     return `<div class="write-under-item answer-item">${visual}<strong>${escapeHtml(country.name)}</strong></div>`;
   }).join("");
   return `<article class="card-pair worksheet-pair">
     <div class="card-pair-heading"><span>Worksheet ${String(index + 1).padStart(2, "0")} · ${page.countries.length} items</span></div>
     <div class="faces">
-      <div class="card-face worksheet ${geometry.formatId} front ${state.orientation}" style="${faceStyle}"><div class="worksheet-grid count-${page.countries.length}" style="--worksheet-cols:${columns}">${worksheetItems}</div></div>
+      <div class="card-face worksheet ${geometry.formatId} front ${state.orientation}" style="${faceStyle};color:${ink}"><div class="worksheet-grid count-${page.countries.length}" style="--worksheet-cols:${columns}">${worksheetItems}</div></div>
       <div class="card-face worksheet ${geometry.formatId} back ${state.orientation}" style="${faceStyle};color:${ink}"><div class="worksheet-grid count-${page.countries.length}" style="--worksheet-cols:${columns}">${answerItems}</div><div class="back-meta"><span>ANSWERS</span><span>${index + 1} / ${pageTotal}</span></div></div>
     </div>
   </article>`;
@@ -622,6 +640,13 @@ function previewWorksheetPage(page, index, pageTotal) {
 
 function silhouetteMarkup(country, color, className) {
   return `<canvas class="silhouette-canvas ${className}" data-silhouette-src="${escapeHtml(country.silhouette)}" data-shape-color="${color}" aria-hidden="true"></canvas>`;
+}
+
+function getFrontMode(card, index) { return state.frontMode === "mixed" ? (card.frontModes?.[index] || "flags") : state.frontMode; }
+function previewVisual(country, color, mode) {
+  if (mode === "silhouettes") return silhouetteMarkup(country, color, "silhouette-tile");
+  if (mode === "capitals") return `<div class="capital-tile">${escapeHtml(country.capital || "No official capital")}</div>`;
+  return `<div class="flag-tile"><img src="${country.flag}" alt=""></div>`;
 }
 
 async function renderPreviewSilhouettes() {
@@ -678,24 +703,24 @@ async function renderCardCanvas(card, side, cardIndex, pageTotal = state.cards.l
   ctx.imageSmoothingEnabled = true;
   ctx.imageSmoothingQuality = "high";
   const flagImages = await Promise.all(card.countries.map((country) => loadImage(country.flag)));
-  const silhouetteImages = state.frontMode === "silhouettes"
+  const needsSilhouettes = card.countries.some((_, index) => getFrontMode(card, index) === "silhouettes");
+  const silhouetteImages = needsSilhouettes
     ? await Promise.all(card.countries.map((country) => loadImage(country.silhouette)))
     : [];
   if (geometry.kind === "worksheet") {
-    const visualImages = state.frontMode === "silhouettes" ? silhouetteImages : flagImages;
-    drawWorksheetPage(ctx, card, visualImages, side === "back", cardIndex, pageTotal);
-  } else if (side === "front") drawFront(ctx, card, state.frontMode === "silhouettes" ? silhouetteImages : flagImages);
+    drawWorksheetPage(ctx, card, flagImages, silhouetteImages, side === "back", cardIndex, pageTotal);
+  } else if (side === "front") drawFront(ctx, card, flagImages, silhouetteImages);
   else drawBack(ctx, card, flagImages, silhouetteImages, cardIndex);
   return canvas;
 }
 
-function drawWorksheetPage(ctx, card, images, showAnswers, cardIndex, pageTotal) {
+function drawWorksheetPage(ctx, card, flagImages, silhouetteImages, showAnswers, cardIndex, pageTotal) {
   const w = ctx.canvas.width;
   const h = ctx.canvas.height;
   const mm = PX_PER_MM;
   const geometry = getGeometry();
   const safe = geometry.safeMarginMm * mm;
-  const count = images.length;
+  const count = card.countries.length;
   const cols = getWorksheetColumns(count, geometry);
   const rows = Math.ceil(count / cols);
   const gapX = (geometry.formatId === "a4" ? 8 : 7) * mm;
@@ -709,21 +734,20 @@ function drawWorksheetPage(ctx, card, images, showAnswers, cardIndex, pageTotal)
   const ink = readableTextColor(state.backgroundColor);
   ctx.fillStyle = state.backgroundColor;
   ctx.fillRect(0, 0, w, h);
-  images.forEach((image, index) => {
+  card.countries.forEach((country, index) => {
     const col = cols === 1 ? 0 : index % cols;
     const row = cols === 1 ? index : Math.floor(index / cols);
     const x = safe + col * (cellW + gapX);
     const y = safe + row * (cellH + gapY);
     const visualH = Math.max(1, cellH - answerH - 2 * mm);
-    if (state.frontMode === "silhouettes") drawSilhouetteTile(ctx, image, x, y, cellW, visualH, card.shapeColors[index]);
-    else drawFlagTile(ctx, image, x, y, cellW, visualH);
+    drawVisualTile(ctx, country, getFrontMode(card, index), flagImages[index], silhouetteImages[index], x, y, cellW, visualH, card.shapeColors[index]);
     const lineY = y + cellH - answerH * .42;
     if (showAnswers) {
       ctx.fillStyle = ink;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
-      ctx.font = fitFont(ctx, card.countries[index].name, 6 * mm, 3.2 * mm, cellW * .92, "700", "Arial");
-      ctx.fillText(card.countries[index].name, x + cellW / 2, lineY, cellW * .92);
+      ctx.font = fitFont(ctx, country.name, 6 * mm, 3.2 * mm, cellW * .92, "700", "Arial");
+      ctx.fillText(country.name, x + cellW / 2, lineY, cellW * .92);
       ctx.textAlign = "left";
       ctx.textBaseline = "alphabetic";
     } else {
@@ -762,14 +786,14 @@ function getWorksheetColumns(count, geometry = getGeometry()) {
   return 3;
 }
 
-function drawFront(ctx, card, images) {
+function drawFront(ctx, card, flagImages, silhouetteImages) {
   const w = ctx.canvas.width;
   const h = ctx.canvas.height;
   const mm = PX_PER_MM;
   const safe = (BLEED_MM + SAFE_MARGIN_MM) * mm;
   ctx.fillStyle = state.backgroundColor;
   ctx.fillRect(0, 0, w, h);
-  const count = images.length;
+  const count = card.countries.length;
   const landscape = w > h;
   const cols = landscape ? (count <= 3 ? count : count === 4 ? 2 : 3) : (count <= 3 ? 1 : 2);
   const rows = Math.ceil(count / cols);
@@ -781,14 +805,30 @@ function drawFront(ctx, card, images) {
   const gridH = gridBottom - gridTop;
   const cellW = (gridW - gapX * (cols - 1)) / cols;
   const cellH = (gridH - gapY * (rows - 1)) / rows;
-  images.forEach((image, index) => {
+  card.countries.forEach((country, index) => {
     const col = cols === 1 ? 0 : index % cols;
     const row = cols === 1 ? index : Math.floor(index / cols);
     const x = safe + col * (cellW + gapX);
     const y = gridTop + row * (cellH + gapY);
-    if (state.frontMode === "silhouettes") drawSilhouetteTile(ctx, image, x, y, cellW, cellH, card.shapeColors[index]);
-    else drawFlagTile(ctx, image, x, y, cellW, cellH);
+    drawVisualTile(ctx, country, getFrontMode(card, index), flagImages[index], silhouetteImages[index], x, y, cellW, cellH, card.shapeColors[index]);
   });
+}
+
+function drawVisualTile(ctx, country, mode, flagImage, silhouetteImage, x, y, w, h, color) {
+  if (mode === "silhouettes") drawSilhouetteTile(ctx, silhouetteImage, x, y, w, h, color);
+  else if (mode === "capitals") drawCapitalTile(ctx, country.capital || "No official capital", x, y, w, h);
+  else drawFlagTile(ctx, flagImage, x, y, w, h);
+}
+
+function drawCapitalTile(ctx, capital, x, y, w, h) {
+  const mm = PX_PER_MM;
+  const ink = readableTextColor(state.backgroundColor);
+  const inset = Math.min(2.2 * mm, w * .06, h * .1);
+  ctx.save(); ctx.strokeStyle = ink; ctx.fillStyle = ink; ctx.globalAlpha = .94; ctx.lineWidth = Math.max(1, .55 * mm);
+  roundRect(ctx, x + inset, y + inset, w - inset * 2, h - inset * 2, Math.min(3 * mm, h * .12)).stroke();
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  ctx.font = fitFont(ctx, capital, Math.min(9 * mm, h * .24), 3.2 * mm, w - inset * 4, "800", "Arial");
+  ctx.fillText(capital, x + w / 2, y + h / 2, w - inset * 4); ctx.restore();
 }
 
 function drawFlagTile(ctx, image, x, y, w, h) {
@@ -885,7 +925,7 @@ function drawBack(ctx, card, flagImages, silhouetteImages, cardIndex) {
     const flagH = rowH - 2.4 * mm;
     let textX;
     let maxTextW;
-    if (state.frontMode === "silhouettes") {
+    if (getFrontMode(card, index) === "silhouettes") {
       const shapeW = Math.min(8.5 * mm, rowW * .18);
       const flagW = Math.min(11 * mm, rowW * .22);
       const itemGap = 1.5 * mm;
@@ -1016,13 +1056,14 @@ function buildPdf(jpegPages, imageWidth, imageHeight, pageWidthMm = getGeometry(
 
 function downloadDeckJson() {
   const geometry = getGeometry();
-  const countries = getPlacements().map((placement) => placement.country.name);
+  const placements = getPlacements();
+  const countries = placements.map((placement) => placement.country.name);
   const data = {
     title: state.title,
     criteria: state.criteria,
     deckId: state.deckId,
     countries,
-    format: { outputMode: state.outputMode, cardFormat: state.cardFormat, worksheetSize: state.worksheetSize, worksheetItemsPerPage: state.worksheetItemsPerPage, itemsPerCard: state.itemsPerCard, frontMode: state.frontMode, orientation: state.orientation, trimMm: [geometry.trimW, geometry.trimH], bleedMm: geometry.bleedMm, safeMarginMm: geometry.safeMarginMm, backgroundColor: state.backgroundColor }
+    format: { outputMode: state.outputMode, cardFormat: state.cardFormat, worksheetSize: state.worksheetSize, worksheetItemsPerPage: state.worksheetItemsPerPage, itemsPerCard: state.itemsPerCard, frontMode: state.frontMode, frontModes: placements.map((placement) => placement.frontMode), orientation: state.orientation, trimMm: [geometry.trimW, geometry.trimH], bleedMm: geometry.bleedMm, safeMarginMm: geometry.safeMarginMm, backgroundColor: state.backgroundColor }
   };
   downloadBlob(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }), `${fileSafe(state.title)}.json`);
 }

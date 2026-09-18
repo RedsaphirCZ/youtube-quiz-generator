@@ -11,6 +11,11 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data', 'countries.json'
 assert.match(html, /href="\.\.\/"[^>]*aria-label="Return to YouTube Quiz Studio"/);
 assert.match(html, /Cards and write-under worksheets/);
 assert.match(app, /fetch\("data\/countries\.json"\)/);
+assert.match(html, /id="randomAllContinents"/);
+assert.match(html, /class="random-content" type="checkbox" value="capitals"/);
+assert.match(html, /option value="mixed">Keep generated mix/);
+assert.match(app, /function drawCapitalTile/);
+assert.match(app, /frontModes: countries\.map\(takeFrontMode\)/);
 assert.doesNotMatch(app, /https?:\/\//);
 assert.match(styles, /@media \(max-width: 560px\)/);
 assert.equal(data.schema, 'quiet-atlas/v1');
@@ -22,6 +27,7 @@ for (const country of data.countries) {
   assert.equal(country.silhouette, `../picture-assets/silhouettes/${country.iso2}.png`);
   assert.ok(fs.existsSync(path.resolve('public', country.flag.replace(/^\.\.\//, ''))));
   assert.ok(fs.existsSync(path.resolve('public', country.silhouette.replace(/^\.\.\//, ''))));
+  assert.equal(typeof country.capital, 'string');
 }
 
-console.log('PASS: Flag Card Studio route, return navigation, mobile styles, 195-country data, and 390 shared local assets.');
+console.log('PASS: Flag Card Studio route, mixed clue controls, continent checkboxes, 195 capitals, and 390 shared local assets.');
