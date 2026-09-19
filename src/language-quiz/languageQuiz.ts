@@ -5,7 +5,8 @@ export const languages = [
   ['ko', 'Korean', 'Medium'], ['da', 'Danish', 'Medium'], ['pl', 'Polish', 'Medium'],
   ['hr', 'Croatian', 'Medium'], ['es', 'Spanish', 'Medium'], ['fr', 'French', 'Medium'],
   ['it', 'Italian', 'Medium'], ['pt', 'Portuguese', 'Medium'], ['hu', 'Hungarian', 'Medium'],
-  ['he', 'Hebrew', 'Medium'], ['cs', 'Czech', 'Low'], ['sk', 'Slovak', 'Low'], ['sl', 'Slovenian', 'Low'],
+  ['he', 'Hebrew', 'Medium'], ['ro', 'Romanian', 'Medium'], ['tr', 'Turkish', 'Medium'],
+  ['cs', 'Czech', 'Low'], ['sk', 'Slovak', 'Low'], ['sl', 'Slovenian', 'Low'],
 ] as const;
 export type LanguageCode = typeof languages[number][0];
 export const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
