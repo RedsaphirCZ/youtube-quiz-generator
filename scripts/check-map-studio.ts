@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { buildMapShapes, mapProjectSvg } from '../src/map-quiz/mapGeometry';
+import { colorForCountry, defaultMapProject, generateMapPrompt, loadMapLibrary, mapRegions, nextHighlightColor, parseMapProject, saveMapProject } from '../src/map-quiz/mapStudio';
+import type { MapCountry } from '../src/map-quiz/mapStudio';
+
+const source = JSON.parse(readFileSync('public/flag-card-studio/data/countries.json', 'utf8')) as { countries: MapCountry[] };
+const countries = source.countries;
+assert.equal(countries.length, 195);
+assert.deepEqual(mapRegions, ['World', 'Europe', 'Asia', 'Africa', 'North America', 'South America', 'Oceania']);
+assert.equal(colorForCountry('cz'), colorForCountry('cz'));
+const project = defaultMapProject();
+assert.equal(new Set(project.highlights.map(item => item.color)).size, project.highlights.length, 'Default highlights must use different colours.');
+const manyColours: string[] = [];
+for (let index = 0; index < 80; index += 1) manyColours.push(nextHighlightColor(manyColours.map((color, country) => ({ country: String(country), color, label: '' }))));
+assert.equal(new Set(manyColours).size, 80, 'Up to 80 selected countries should receive unique default colours.');
+const europeShapes = buildMapShapes(countries, project);
+assert.ok(europeShapes.length >= 45, `Expected broad Europe coverage, found ${europeShapes.length}.`);
+assert.ok(europeShapes.some(item => item.iso2 === 'cz' && item.d.startsWith('M')));
+const worldProject = { ...project, region: 'World' as const };
+assert.ok(buildMapShapes(countries, worldProject).length >= 190, 'The 50m atlas should cover nearly all recognized countries.');
+const svg = mapProjectSvg(project, countries);
+assert.match(svg, /<svg/);
+assert.match(svg, new RegExp(project.highlights[0].color));
+assert.match(svg, />Czechia<\/text>/);
+assert.doesNotMatch(mapProjectSvg({ ...project, showLabels: false }, countries), /<text/);
+
+const prompt = generateMapPrompt('European Union members', 'EU map', 'Europe', countries, 12);
+assert.match(prompt, /map-highlight\/v1/);
+assert.match(prompt, /cz: Czechia/);
+assert.doesNotMatch(prompt, /jp: Japan/);
+assert.match(prompt, /no more than 12 countries/);
+const imported = parseMapProject('```json\n' + JSON.stringify(project) + '\n```', countries);
+assert.equal(imported.region, 'Europe');
+assert.equal(imported.highlights.length, 3);
+assert.notEqual(imported.id, project.id);
+const bad = (changes: object) => JSON.stringify({ ...project, ...changes });
+for (const changes of [{ schema: 'language-quiz/v1' }, { region: 'Atlantis' }, { title: '' }, { highlights: [] }, { backgroundColor: 'red' }]) assert.throws(() => parseMapProject(bad(changes), countries));
+assert.throws(() => parseMapProject(bad({ highlights: [{ country: 'jp', color: '#123456', label: 'Japan' }] }), countries), /not available in Europe/);
+assert.throws(() => parseMapProject(bad({ highlights: [{ country: 'cz', color: '#123456', label: 'Czechia' }, { country: 'cz', color: '#654321', label: 'Czechia' }] }), countries), /Duplicate/);
+
+const stores = new Map<string, string>(); let quota = false;
+Object.defineProperty(globalThis, 'localStorage', { value: { getItem: (key: string) => stores.get(key) ?? null, setItem: (key: string, value: string) => { if (quota) throw new Error('Quota exceeded'); stores.set(key, value); } } });
+assert.deepEqual(loadMapLibrary(countries), []);
+assert.equal(saveMapProject(project, countries).length, 1);
+assert.equal(loadMapLibrary(countries)[0].title, project.title);
+quota = true;
+assert.throws(() => saveMapProject(project, countries), /Quota/);
+
+console.log(`PASS: 7 map regions, ${europeShapes.length} Europe shapes, offline world atlas, distinct highlights, labels, strict prompt/import, SVG export and saved drafts.`);

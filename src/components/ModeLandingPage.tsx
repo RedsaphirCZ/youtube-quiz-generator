@@ -1,20 +1,21 @@
 import React from 'react';
-import { ArrowRight, Flag, Images, Languages, ListChecks } from 'lucide-react';
+import { ArrowRight, Flag, Images, Languages, ListChecks, MapPinned } from 'lucide-react';
 
 interface ModeLandingPageProps {
   onOpenClassic: () => void;
   onOpenPictures: () => void;
   onOpenFlagCards: () => void;
   onOpenLanguages: () => void;
+  onOpenMaps: () => void;
 }
 
-export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages }) => (
+export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages, onOpenMaps }) => (
   <main className="min-h-screen bg-[#f1eee7] px-4 py-8 text-[#201c18] sm:py-12 flex items-center justify-center">
     <section className="w-full max-w-5xl overflow-hidden rounded-[2rem] border border-[#d6ccbd] bg-white shadow-xl">
       <header className="px-6 pb-6 pt-8 text-center sm:px-10 sm:pb-8 sm:pt-10">
         <p className="text-[11px] font-black uppercase tracking-[0.24em] text-[#8b1e1e]">YouTube Quiz Studio</p>
         <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">Choose your studio</h1>
-        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#6b635b] sm:text-base">Build playable quizzes, visual rounds, language practice, or print-ready flag cards and worksheets.</p>
+        <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-[#6b635b] sm:text-base">Build playable quizzes, visual rounds, language practice, coloured country maps, or print-ready cards and worksheets.</p>
       </header>
 
       <div className="grid gap-4 border-t border-[#e5ddd1] bg-[#faf8f4] p-5 md:grid-cols-2 md:gap-5 sm:p-8">
@@ -37,6 +38,9 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
         <ModeButton icon={Languages} eyebrow="Words and conversation" title="Language Quiz"
           description="Research learning quizzes or translate one phrase into 24 languages with IPA, Czech pronunciation, colours and printable cards."
           accent="languages" onClick={onOpenLanguages} />
+        <ModeButton icon={MapPinned} eyebrow="Country highlighting" title="Map Quiz Studio"
+          description="Show World, Europe, Asia and other continent maps with permanent colours, labels, Gemini research and SVG/PNG export."
+          accent="maps" onClick={onOpenMaps} />
         <ModeButton
           icon={Flag}
           eyebrow="Print workshop"
@@ -55,19 +59,20 @@ const ModeButton = ({ icon: Icon, eyebrow, title, description, accent, onClick }
   eyebrow: string;
   title: string;
   description: string;
-  accent: 'classic' | 'pictures' | 'cards' | 'languages';
+  accent: 'classic' | 'pictures' | 'cards' | 'languages' | 'maps';
   onClick: () => void;
 }) => {
   const pictureMode = accent === 'pictures';
   const cardMode = accent === 'cards';
   const languageMode = accent === 'languages';
-  const borderClass = languageMode ? 'border-violet-200 bg-violet-50 hover:border-violet-700' : pictureMode
+  const mapMode = accent === 'maps';
+  const borderClass = mapMode ? 'border-teal-200 bg-teal-50 hover:border-teal-700' : languageMode ? 'border-violet-200 bg-violet-50 hover:border-violet-700' : pictureMode
     ? 'border-cyan-200 bg-[#eef9fb] hover:border-cyan-700'
     : cardMode
       ? 'border-emerald-200 bg-[#f1f8f4] hover:border-[#143f3a]'
       : 'border-[#decfbd] bg-white hover:border-[#8b1e1e]';
-  const accentClass = languageMode ? 'bg-violet-700' : pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
-  const textClass = languageMode ? 'text-violet-800' : pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
+  const accentClass = mapMode ? 'bg-teal-700' : languageMode ? 'bg-violet-700' : pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
+  const textClass = mapMode ? 'text-teal-800' : languageMode ? 'text-violet-800' : pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
   return (
     <button
       onClick={onClick}
