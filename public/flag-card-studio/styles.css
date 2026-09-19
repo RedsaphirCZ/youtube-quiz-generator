@@ -78,6 +78,7 @@ pre { overflow: auto; padding: 20px; border-radius: 14px; background: #112c29; c
 .choice-field legend { padding: 0 5px; font-size: 12px; font-weight: 800; color: var(--muted); }
 .choice-field label { display: inline-flex; flex-direction: row; align-items: center; gap: 6px; margin: 4px 12px 4px 0; font-size: 14px; font-weight: 700; cursor: pointer; }
 .choice-field input { width: 18px; height: 18px; margin: 0; accent-color: var(--green); }
+.choice-field small { display: block; margin-top: 7px; color: var(--muted); font-size: 11px; font-weight: 500; line-height: 1.35; }
 .content-choice, .continent-choice { grid-column: span 2; }
 .check-label { display: flex; align-items: center; gap: 9px; cursor: pointer; }
 .check-label input { width: 18px; height: 18px; accent-color: var(--forest); }
@@ -147,10 +148,10 @@ pre { overflow: auto; padding: 20px; border-radius: 14px; background: #112c29; c
 .card-face.landscape .back-meta { left: 8%; right: 8%; bottom: 7%; }
 .card-face.worksheet { padding: 5%; border-radius: 7px; }
 .card-face.worksheet .worksheet-grid { width: 100%; height: 100%; display: grid; grid-template-columns: repeat(var(--worksheet-cols, 3), minmax(0, 1fr)); gap: 5% 6%; align-content: center; }
-.write-under-item { min-width: 0; min-height: 0; display: grid; grid-template-rows: minmax(0, 1fr) auto; place-items: stretch center; gap: 8%; }
+.write-under-item { min-width: 0; min-height: 0; display: grid; grid-template-rows: minmax(0, 1fr) minmax(20px, 15%); place-items: stretch center; gap: 5%; }
 .write-under-item .flag-tile, .write-under-item .silhouette-tile, .write-under-item .capital-tile { width: 100%; height: 100%; aspect-ratio: auto; }
 .write-under-item .capital-tile { font-size: clamp(11px, 2vw, 24px); }
-.write-line { display: block; width: 86%; border-bottom: 1px solid currentColor; opacity: .66; }
+.write-line { display: block; width: 86%; height: 100%; border-bottom: 1px solid currentColor; opacity: .66; }
 .answer-item strong { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: clamp(6px, 1.1vw, 11px); text-align: center; }
 .card-face.worksheet .back-meta { left: 5%; right: 5%; bottom: 3%; }
 .empty-state { text-align: center; padding: 90px 20px; border: 1px dashed #b9b9ae; border-radius: 20px; }

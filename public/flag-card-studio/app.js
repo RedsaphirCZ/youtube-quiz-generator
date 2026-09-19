@@ -14,6 +14,9 @@ const WORKSHEET_FORMATS = {
 };
 const CONTINENTS = ["Any continent", "Africa", "Asia", "Europe", "North America", "South America", "Oceania"];
 const FRONT_MODES = ["flags", "silhouettes", "capitals"];
+const NATO_ISO = new Set(["al","be","bg","ca","hr","cz","dk","ee","fi","fr","de","gr","hu","is","it","lv","lt","lu","me","nl","mk","no","pl","pt","ro","sk","si","es","se","tr","gb","us"]);
+const EU_ISO = new Set(["at","be","bg","hr","cy","cz","dk","ee","fi","fr","de","gr","hu","ie","it","lv","lt","lu","mt","nl","pl","pt","ro","sk","si","es","se"]);
+const COUNTRY_GROUPS = { nato: NATO_ISO, eu: EU_ISO };
 const EASY_ISO = new Set([
   "ar","au","at","be","br","ca","cl","cn","co","hr","cu","cz","dk","eg","fi","fr","de","gr","is","in","id","ie","il","it","jp","mx","ma","nl","nz","no","pl","pt","ru","za","kr","es","se","ch","tr","ua","gb","us","va","vn"
 ]);
@@ -69,7 +72,7 @@ async function init() {
       silhouette: country.silhouette || `assets/silhouettes/${country.iso2}.png`
     }));
     buildLookup();
-    $("#randomStatus").textContent = `${state.countries.length} countries loaded. Ready to generate.`;
+    updateRandomAvailability();
   } catch (error) {
     $("#randomStatus").textContent = "Country data could not be loaded. Start the app with run-card-studio.bat.";
     showToast(error.message);
@@ -88,6 +91,7 @@ function wireNavigation() {
 function showView(id) {
   $$(".view").forEach((view) => { view.hidden = view.id !== id; });
   window.scrollTo({ top: 0, behavior: "smooth" });
+  if (id === "deckView" && state.cards.length) void nextFrame().then(renderPreviewSilhouettes);
 }
 
 function wireForms() {
@@ -104,13 +108,28 @@ function wireForms() {
     generateRandomDeck();
   });
   $("#randomOutputMode").addEventListener("change", updateRandomModeFields);
-  $("#randomWorksheetSize").addEventListener("change", populateRandomWorksheetItems);
+  $("#randomWorksheetSize").addEventListener("change", () => { populateRandomWorksheetItems(); updateRandomAvailability(); });
   $("#randomAllContinents").addEventListener("change", (event) => {
     $$(".random-continent").forEach((checkbox) => { if (event.target.checked) checkbox.checked = false; });
+    updateRandomAvailability();
   });
   $$(".random-continent").forEach((checkbox) => checkbox.addEventListener("change", () => {
     $("#randomAllContinents").checked = !$$('.random-continent:checked').length;
+    updateRandomAvailability();
   }));
+  $("#randomRecognized").addEventListener("change", (event) => {
+    $$(".random-group").forEach((checkbox) => { if (event.target.checked) checkbox.checked = false; });
+    if (!event.target.checked && !$$('.random-group:checked').length) event.target.checked = true;
+    updateRandomAvailability();
+  });
+  $$(".random-group").forEach((checkbox) => checkbox.addEventListener("change", () => {
+    $("#randomRecognized").checked = !$$('.random-group:checked').length;
+    updateRandomAvailability();
+  }));
+  ["randomDifficulty", "randomFlagsPerCard", "randomWorksheetItems", "randomCardCount", "randomWorksheetCount", "allowRepeats"].forEach((id) => {
+    $("#" + id).addEventListener("change", updateRandomAvailability);
+  });
+  $("#useAllCountries").addEventListener("change", () => { updateRepeatFields(); updateRandomAvailability(); });
   $("#outputMode").addEventListener("change", (event) => {
     if (state.outputMode === "worksheet") state.worksheetOrientation = state.orientation;
     else state.cardOrientation = state.orientation;
@@ -165,6 +184,17 @@ function updateRandomModeFields() {
   $("#allowRepeatsLabel").textContent = worksheet ? "Allow countries to repeat across worksheets" : "Allow countries to repeat between cards";
   $("#randomSubmitButton").textContent = worksheet ? "Generate worksheets" : "Generate cards";
   populateRandomWorksheetItems();
+  updateRepeatFields();
+  updateRandomAvailability();
+}
+
+function updateRepeatFields() {
+  const useAll = $("#useAllCountries").checked;
+  const worksheet = $("#randomOutputMode").value === "worksheet";
+  $("#allowRepeats").disabled = useAll;
+  if (useAll) $("#allowRepeats").checked = false;
+  $("#randomCardCount").disabled = useAll && !worksheet;
+  $("#randomWorksheetCount").disabled = useAll && worksheet;
 }
 
 function populateRandomWorksheetItems() {
@@ -223,13 +253,46 @@ function getDifficulty(country) {
   return "medium";
 }
 
-function getPool(difficulty, continent) {
+function getPool(difficulty, continent, groups = ["recognized"]) {
   const selected = Array.isArray(continent) ? continent : continent === "any" || !continent ? [] : [continent];
+  const selectedGroups = Array.isArray(groups) ? groups : [groups];
   return state.countries.filter((country) => {
     const continentMatch = !selected.length || selected.includes(country.continent);
     const difficultyMatch = difficulty === "mixed" || getDifficulty(country) === difficulty;
-    return continentMatch && difficultyMatch;
+    const groupMatch = !selectedGroups.length || selectedGroups.includes("recognized") || selectedGroups.some((group) => COUNTRY_GROUPS[group]?.has(country.iso2));
+    return continentMatch && difficultyMatch && groupMatch;
   });
+}
+
+function getSelectedContinents() { return $$(".random-continent:checked").map((checkbox) => checkbox.value); }
+function getSelectedGroups() {
+  const groups = $$(".random-group:checked").map((checkbox) => checkbox.value);
+  return groups.length ? groups : ["recognized"];
+}
+
+function updateRandomAvailability() {
+  if (!$("#randomStatus")) return;
+  if (!state.countries.length) {
+    $("#randomStatus").textContent = "Loading the built-in country library…";
+    return;
+  }
+  const worksheet = $("#randomOutputMode").value === "worksheet";
+  const difficulty = $("#randomDifficulty").value;
+  const pool = getPool(difficulty, getSelectedContinents(), getSelectedGroups());
+  const format = WORKSHEET_FORMATS[$("#randomWorksheetSize").value] || WORKSHEET_FORMATS.a4;
+  const selectedWorksheetItems = Number($("#randomWorksheetItems").value);
+  const itemsPerActivity = worksheet
+    ? (format.itemsPerPageOptions.includes(selectedWorksheetItems) ? selectedWorksheetItems : format.defaultItemsPerPage)
+    : Number($("#randomFlagsPerCard").value);
+  const allCountryActivities = Math.max(1, Math.ceil(pool.length / Math.max(1, itemsPerActivity)));
+  const maximumFullActivities = Math.max(1, Math.floor(pool.length / Math.max(1, itemsPerActivity)));
+  const countInput = worksheet ? $("#randomWorksheetCount") : $("#randomCardCount");
+  countInput.max = $("#allowRepeats").checked ? (worksheet ? "100" : "200") : String(maximumFullActivities);
+  const useAll = $("#useAllCountries").checked;
+  const activityLabel = worksheet ? "worksheet" : "card";
+  $("#randomStatus").textContent = useAll
+    ? `${pool.length} countries match. All will be used once across ${allCountryActivities} ${activityLabel}${allCountryActivities === 1 ? "" : "s"}.`
+    : `${pool.length} countries match — maximum ${pool.length} unique clues. Repeats are off by default.`;
 }
 
 function generatePrompt() {
@@ -461,20 +524,31 @@ function generateRandomDeck(options = null) {
   const worksheetCount = clampInt(options?.worksheetCount ?? $("#randomWorksheetCount").value, 1, 100);
   const cardCount = clampInt(options?.cardCount ?? $("#randomCardCount").value, 1, 200);
   const flagsPerCard = clampInt(options?.flagsPerCard ?? $("#randomFlagsPerCard").value, 2, 6);
-  const totalItems = worksheet ? worksheetCount * worksheetItemsPerPage : cardCount * flagsPerCard;
-  const groupSize = worksheet ? 6 : flagsPerCard;
+  const requestedItems = worksheet ? worksheetCount * worksheetItemsPerPage : cardCount * flagsPerCard;
+  const groupSize = worksheet ? worksheetItemsPerPage : flagsPerCard;
   const difficulty = options?.difficulty ?? $("#randomDifficulty").value;
   const legacyContinent = options?.continent;
-  const continents = options?.continents ?? (legacyContinent ? (legacyContinent === "any" ? [] : [legacyContinent]) : $$(".random-continent:checked").map((checkbox) => checkbox.value));
+  const continents = options?.continents ?? (legacyContinent ? (legacyContinent === "any" ? [] : [legacyContinent]) : getSelectedContinents());
+  const groups = options?.groups ?? getSelectedGroups();
   const frontModes = options?.frontModes ?? $$(".random-content:checked").map((checkbox) => checkbox.value);
   if (!frontModes.length || frontModes.some((mode) => !FRONT_MODES.includes(mode))) {
     $("#randomStatus").textContent = "Choose at least one question content type.";
     return null;
   }
   const allowRepeats = options?.allowRepeats ?? $("#allowRepeats").checked;
-  const pool = getPool(difficulty, continents);
-  if (pool.length < groupSize) {
-    $("#randomStatus").textContent = `Only ${pool.length} countries match. Choose a wider filter.`;
+  const useAllCountries = options?.useAllCountries ?? $("#useAllCountries").checked;
+  const pool = getPool(difficulty, continents, groups);
+  const totalItems = useAllCountries ? pool.length : requestedItems;
+  if (pool.length < 2) {
+    $("#randomStatus").textContent = `Only ${pool.length} country matches. Choose a wider filter.`;
+    return null;
+  }
+  if (allowRepeats && pool.length < Math.min(groupSize, totalItems)) {
+    $("#randomStatus").textContent = `Only ${pool.length} countries match, which is not enough to keep one card or sheet free of duplicates.`;
+    return null;
+  }
+  if (!allowRepeats && totalItems > pool.length) {
+    $("#randomStatus").textContent = `${pool.length} countries match, but ${totalItems} clues were requested. Reduce the count, enable repeats, or use every matching country once.`;
     return null;
   }
   let bag = shuffle([...pool]);
@@ -488,10 +562,14 @@ function generateRandomDeck(options = null) {
     const targetSize = Math.min(groupSize, remaining);
     while (countries.length < targetSize) {
       if (!bag.length) {
+        if (!allowRepeats) {
+          $("#randomStatus").textContent = `All ${pool.length} matching countries have already been used once.`;
+          return null;
+        }
         recycled = true;
         bag = shuffle([...pool]);
       }
-      let candidate = allowRepeats ? pool[Math.floor(Math.random() * pool.length)] : bag.pop();
+      const candidate = bag.pop();
       if (!countries.some((country) => country.iso2 === candidate.iso2)) countries.push(candidate);
     }
     cards.push({ difficulty: difficulty === "mixed" ? inferCardDifficulty(countries) : difficulty, countries, shapeColors: createShapeColors(countries.length), frontModes: countries.map(takeFrontMode) });
@@ -509,21 +587,25 @@ function generateRandomDeck(options = null) {
     state.itemsPerCard = flagsPerCard;
     state.orientation = state.cardOrientation;
   }
-  const scope = !continents.length ? "World" : continents.length <= 2 ? continents.join(" + ") : `${continents.length} continents`;
+  const groupLabels = groups.filter((group) => group !== "recognized").map((group) => group.toUpperCase());
+  const geographicScope = !continents.length ? "World" : continents.length <= 2 ? continents.join(" + ") : `${continents.length} continents`;
+  const scope = groupLabels.length ? `${groupLabels.join(" + ")} ${geographicScope}` : geographicScope;
   const contentLabel = frontModes.length === 1 ? ({ flags: "flag", silhouettes: "silhouette", capitals: "capital" })[frontModes[0]] : "country clue";
   state.title = worksheet ? `${scope} ${contentLabel} worksheets` : `${scope} ${contentLabel} mix`;
   state.criteria = `Random ${scope.toLowerCase()} selection using ${frontModes.join(", ")}${difficulty === "mixed" ? "" : `, ${difficulty} recognition`}`;
   state.deckId = createDeckId();
   if (worksheet) {
-    $("#randomStatus").textContent = `${worksheetCount} ${worksheetFormat.id.toUpperCase()} worksheet${worksheetCount === 1 ? "" : "s"} generated with ${worksheetItemsPerPage} clues per sheet (${totalItems} placements total)${recycled ? "; the matching pool was reused after every country appeared once" : ""}.`;
+    const generatedWorksheetCount = cards.length;
+    $("#randomStatus").textContent = `${generatedWorksheetCount} ${worksheetFormat.id.toUpperCase()} worksheet${generatedWorksheetCount === 1 ? "" : "s"} generated with ${totalItems} unique clue${totalItems === 1 ? "" : "s"}${recycled ? "; the full matching pool was used before repeats began" : ", with no repeats"}.`;
   } else {
+    const generatedCardCount = cards.length;
     $("#randomStatus").textContent = recycled
-      ? `${cardCount} cards generated. The matching pool was reused after every country appeared once.`
-      : `${cardCount} cards generated without repeats between cards.`;
+      ? `${generatedCardCount} cards generated. The full matching pool was used before repeats began.`
+      : `${generatedCardCount} cards generated with ${totalItems} unique countries and no repeats.`;
   }
   updateDeckUI();
   showView("deckView");
-  showToast(worksheet ? `${worksheetCount} worksheets generated` : `${cardCount} cards generated`);
+  showToast(worksheet ? `${cards.length} worksheets generated` : `${cards.length} cards generated`);
   return cards;
 }
 
@@ -730,7 +812,7 @@ function drawWorksheetPage(ctx, card, flagImages, silhouetteImages, showAnswers,
   const gridH = h - safe * 2 - footerH;
   const cellW = (gridW - gapX * (cols - 1)) / cols;
   const cellH = (gridH - gapY * (rows - 1)) / rows;
-  const answerH = (geometry.formatId === "a4" ? 10 : 9) * mm;
+  const answerH = (geometry.formatId === "a4" ? 14 : 12) * mm;
   const ink = readableTextColor(state.backgroundColor);
   ctx.fillStyle = state.backgroundColor;
   ctx.fillRect(0, 0, w, h);
@@ -741,7 +823,7 @@ function drawWorksheetPage(ctx, card, flagImages, silhouetteImages, showAnswers,
     const y = safe + row * (cellH + gapY);
     const visualH = Math.max(1, cellH - answerH - 2 * mm);
     drawVisualTile(ctx, country, getFrontMode(card, index), flagImages[index], silhouetteImages[index], x, y, cellW, visualH, card.shapeColors[index]);
-    const lineY = y + cellH - answerH * .42;
+    const lineY = y + cellH - 2.5 * mm;
     if (showAnswers) {
       ctx.fillStyle = ink;
       ctx.textAlign = "center";

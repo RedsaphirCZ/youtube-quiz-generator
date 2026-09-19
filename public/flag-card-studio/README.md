@@ -48,6 +48,9 @@ a local web server in this folder and open `http://localhost:8765`.
 - Random picker asks for the output mode first. Worksheet mode asks for paper size, flags per sheet, and number of worksheet pages; card-specific counts stay hidden.
 - Random picker can use flags, country silhouettes, capital-name boxes, or a balanced mix of all selected clue types.
 - Continents are multi-select checkboxes, so one random set can combine any chosen regions.
+- Recognized countries, all 32 NATO members, and all 27 EU members can be selected as complete bundled sets.
+- Disputed territories are intentionally not offered until a complete flag and silhouette asset set is available.
+- Repeats are off by default. The picker shows the current maximum and can use every matching country exactly once.
 - Every flag or silhouette has a clean blank line directly underneath for writing the country name
 - Every worksheet is followed by a matching answer-key page with the names in the same positions
 - Worksheet and answer previews are stacked at a readable full-page width instead of being squeezed side by side

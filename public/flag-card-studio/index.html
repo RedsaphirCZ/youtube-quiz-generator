@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#143f3a">
   <title>Flag Card Studio</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260918-2">
+  <link rel="stylesheet" href="styles.css?v=20260919-1">
 </head>
 <body>
   <header class="topbar">
@@ -92,6 +92,8 @@
         <label>Difficulty<select id="randomDifficulty"><option value="mixed">Balanced mix</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></label>
         <fieldset class="choice-field content-choice"><legend>Question content</legend><label><input class="random-content" type="checkbox" value="flags" checked><span>Flags</span></label><label><input class="random-content" type="checkbox" value="silhouettes"><span>Silhouettes</span></label><label><input class="random-content" type="checkbox" value="capitals"><span>Capital names</span></label></fieldset>
         <fieldset class="choice-field continent-choice"><legend>Continents</legend><label><input id="randomAllContinents" type="checkbox" checked><span>All</span></label><label><input class="random-continent" type="checkbox" value="Africa"><span>Africa</span></label><label><input class="random-continent" type="checkbox" value="Asia"><span>Asia</span></label><label><input class="random-continent" type="checkbox" value="Europe"><span>Europe</span></label><label><input class="random-continent" type="checkbox" value="North America"><span>North America</span></label><label><input class="random-continent" type="checkbox" value="South America"><span>South America</span></label><label><input class="random-continent" type="checkbox" value="Oceania"><span>Oceania</span></label></fieldset>
+        <fieldset class="choice-field group-choice"><legend>Country sets</legend><label><input id="randomRecognized" type="checkbox" value="recognized" checked><span>Recognized (195)</span></label><label><input class="random-group" type="checkbox" value="nato"><span>NATO (32)</span></label><label><input class="random-group" type="checkbox" value="eu"><span>EU (27)</span></label><small>Disputed territories are not offered because the complete asset set is not available.</small></fieldset>
+        <label class="check-label"><input id="useAllCountries" type="checkbox"><span>Use every matching country once</span></label>
         <label class="check-label"><input id="allowRepeats" type="checkbox"><span id="allowRepeatsLabel">Allow countries to repeat between cards</span></label>
         <button id="randomSubmitButton" class="button primary" type="submit">Generate cards</button>
       </form>
@@ -120,6 +122,6 @@
   </main>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js?v=20260918-2"></script>
+  <script src="app.js?v=20260919-1"></script>
 </body>
 </html>
