@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { generateLanguagePrompt, languageDemo, languageDirection, languages, loadLanguageLibrary, parseLanguageQuiz, questionTypes, saveLanguageQuiz } from '../src/language-quiz/languageQuiz';
 import type { LanguagePromptConfig } from '../src/language-quiz/languageQuiz';
-import { flagPath, generatePhrasePrompt, loadPhraseLibrary, parsePhraseDeck, phraseDeckHTML, phraseProfiles, savePhraseDeck } from '../src/language-quiz/phraseCards';
+import { flagPath, generatePhrasePrompt, loadPhraseLibrary, parsePhraseDeck, phraseCardTheme, phraseDeckHTML, phraseProfiles, savePhraseDeck } from '../src/language-quiz/phraseCards';
 
 assert.equal(languages.length, 24);
 assert.equal(new Set(languages.map(item => item[0])).size, 24);
@@ -57,9 +57,12 @@ assert.match(phrasePrompt, /24 language flashcards/);
 assert.match(phrasePrompt, /ro: Romanian; Standard Romanian/);
 assert.match(phrasePrompt, /tr: Turkish; Standard Turkish/);
 assert.match(phrasePrompt, /full-phrase|ENTIRE translated phrase/);
+assert.match(phrasePrompt, /czechPronunciation/);
+assert.match(phrasePrompt, /á, é, í, ó, ú\/ů, ý, š, č, ž, ň, ť, ď, ř, ch and dž/);
+assert.match(phrasePrompt, /Czech j sounds like English y/);
 const phraseJSON = {
   schema: 'phrase-flashcards/v1', title: phraseConfig.title, sourcePhrase: phraseConfig.phrase, sourceLanguage: phraseConfig.sourceLanguage, context: phraseConfig.context,
-  cards: languages.map(([language]) => ({ language, phrase: `Phrase ${language}`, ipa: `/ipa ${language}/`, variety: phraseProfiles[language].variety })),
+  cards: languages.map(([language]) => ({ language, phrase: `Phrase ${language}`, ipa: `/ipa ${language}/`, czechPronunciation: `česká výslovnost ${language}`, variety: phraseProfiles[language].variety })),
 };
 const phraseDeck = parsePhraseDeck('```json\n' + JSON.stringify(phraseJSON) + '\n```');
 assert.equal(phraseDeck.cards.length, 24);
@@ -68,6 +71,12 @@ assert.equal(phraseDeck.reviewed, false);
 assert.throws(() => parsePhraseDeck(JSON.stringify({ ...phraseJSON, cards: phraseJSON.cards.slice(1) })), /exactly 24 cards/);
 assert.throws(() => parsePhraseDeck(JSON.stringify({ ...phraseJSON, cards: phraseJSON.cards.map((card, i) => i === 1 ? { ...card, language: 'en' } : card) })), /Duplicate language/);
 assert.throws(() => parsePhraseDeck(JSON.stringify({ ...phraseJSON, cards: phraseJSON.cards.map((card, i) => i === 0 ? { ...card, ipa: 'English respelling' } : card) })), /complete IPA/);
+assert.throws(() => parsePhraseDeck(JSON.stringify({ ...phraseJSON, cards: phraseJSON.cards.map((card, i) => i === 0 ? { ...card, czechPronunciation: '' } : card) })), /Czech pronunciation/);
+assert.equal(phraseDeck.design.backgroundMode, 'language');
+assert.notEqual(phraseCardTheme(phraseDeck, 'ro').background, phraseCardTheme(phraseDeck, 'tr').background);
+const singleColourDeck = parsePhraseDeck(JSON.stringify({ ...phraseJSON, design: { backgroundMode: 'set', setColor: '#123456' } }));
+assert.equal(phraseCardTheme(singleColourDeck, 'ro').background, '#123456');
+assert.equal(phraseCardTheme(singleColourDeck, 'tr').background, '#123456');
 const flagCodes = [...new Set(Object.values(phraseProfiles).flatMap(profile => profile.flags))];
 for (const code of flagCodes) assert.ok(existsSync(resolve('public', flagPath(code))), `Missing bundled flag: ${code}`);
 const embeddedFlags = Object.fromEntries(flagCodes.map(code => [code, 'data:image/png;base64,AAAA']));
@@ -76,6 +85,9 @@ assert.match(html, /Print \/ Save as PDF/);
 assert.match(html, /lang="ar" dir="rtl"/);
 assert.match(html, /Romanian/);
 assert.match(html, /Turkish/);
+assert.match(html, /Česky:/);
+assert.match(html, /česká výslovnost ro/);
+assert.match(html, /--card-bg:/);
 stores.delete('phrase-flashcard-library-v1');
 assert.deepEqual(loadPhraseLibrary(), []);
 assert.equal(savePhraseDeck(phraseDeck).length, 1);
@@ -83,4 +95,4 @@ assert.equal(loadPhraseLibrary()[0].cards.length, 24);
 quota = true;
 assert.throws(() => savePhraseDeck(phraseDeck), /Quota/);
 
-console.log('PASS: two language modes, 24 languages, research and phrase prompts, strict imports, IPA, bundled flags, printable PDF HTML, RTL, draft storage and failure handling.');
+console.log('PASS: two modes, 24 languages, IPA plus Czech pronunciation, permanent colour themes, bundled flags, printable PDF HTML, strict imports, RTL and draft storage.');

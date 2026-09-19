@@ -35,7 +35,7 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
           onClick={onOpenPictures}
         />
         <ModeButton icon={Languages} eyebrow="Words and conversation" title="Language Quiz"
-          description="Research learning quizzes or translate one phrase into 24 languages with IPA and printable cards."
+          description="Research learning quizzes or translate one phrase into 24 languages with IPA, Czech pronunciation, colours and printable cards."
           accent="languages" onClick={onOpenLanguages} />
         <ModeButton
           icon={Flag}
