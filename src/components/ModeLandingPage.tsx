@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Flag, Images, Languages, ListChecks, MapPinned } from 'lucide-react';
+import { ArrowRight, Boxes, Flag, Images, Languages, ListChecks, MapPinned } from 'lucide-react';
 
 interface ModeLandingPageProps {
   onOpenClassic: () => void;
@@ -7,9 +7,10 @@ interface ModeLandingPageProps {
   onOpenFlagCards: () => void;
   onOpenLanguages: () => void;
   onOpenMaps: () => void;
+  onOpenCountryAssets: () => void;
 }
 
-export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages, onOpenMaps }) => (
+export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages, onOpenMaps, onOpenCountryAssets }) => (
   <main className="min-h-screen bg-[#f1eee7] px-4 py-8 text-[#201c18] sm:py-12 flex items-center justify-center">
     <section className="w-full max-w-5xl overflow-hidden rounded-[2rem] border border-[#d6ccbd] bg-white shadow-xl">
       <header className="px-6 pb-6 pt-8 text-center sm:px-10 sm:pb-8 sm:pt-10">
@@ -41,6 +42,9 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
         <ModeButton icon={MapPinned} eyebrow="Country highlighting" title="Map Quiz Studio"
           description="Show World, Europe, Asia and other continent maps with permanent colours, labels, Gemini research and SVG/PNG export."
           accent="maps" onClick={onOpenMaps} />
+        <ModeButton icon={Boxes} eyebrow="Central country library" title="Country Asset Hub"
+          description="Choose any country, inspect everything bundled about it, and download its flag, silhouette, data, or complete ZIP."
+          accent="assets" onClick={onOpenCountryAssets} />
         <ModeButton
           icon={Flag}
           eyebrow="Print workshop"
@@ -59,20 +63,21 @@ const ModeButton = ({ icon: Icon, eyebrow, title, description, accent, onClick }
   eyebrow: string;
   title: string;
   description: string;
-  accent: 'classic' | 'pictures' | 'cards' | 'languages' | 'maps';
+  accent: 'classic' | 'pictures' | 'cards' | 'languages' | 'maps' | 'assets';
   onClick: () => void;
 }) => {
   const pictureMode = accent === 'pictures';
   const cardMode = accent === 'cards';
   const languageMode = accent === 'languages';
   const mapMode = accent === 'maps';
-  const borderClass = mapMode ? 'border-teal-200 bg-teal-50 hover:border-teal-700' : languageMode ? 'border-violet-200 bg-violet-50 hover:border-violet-700' : pictureMode
+  const assetMode = accent === 'assets';
+  const borderClass = assetMode ? 'border-amber-200 bg-amber-50 hover:border-amber-700' : mapMode ? 'border-teal-200 bg-teal-50 hover:border-teal-700' : languageMode ? 'border-violet-200 bg-violet-50 hover:border-violet-700' : pictureMode
     ? 'border-cyan-200 bg-[#eef9fb] hover:border-cyan-700'
     : cardMode
       ? 'border-emerald-200 bg-[#f1f8f4] hover:border-[#143f3a]'
       : 'border-[#decfbd] bg-white hover:border-[#8b1e1e]';
-  const accentClass = mapMode ? 'bg-teal-700' : languageMode ? 'bg-violet-700' : pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
-  const textClass = mapMode ? 'text-teal-800' : languageMode ? 'text-violet-800' : pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
+  const accentClass = assetMode ? 'bg-amber-700' : mapMode ? 'bg-teal-700' : languageMode ? 'bg-violet-700' : pictureMode ? 'bg-cyan-700' : cardMode ? 'bg-[#143f3a]' : 'bg-[#8b1e1e]';
+  const textClass = assetMode ? 'text-amber-800' : mapMode ? 'text-teal-800' : languageMode ? 'text-violet-800' : pictureMode ? 'text-cyan-800' : cardMode ? 'text-[#285b51]' : 'text-[#8b1e1e]';
   return (
     <button
       onClick={onClick}
