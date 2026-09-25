@@ -7,10 +7,11 @@ interface ModeLandingPageProps {
   onOpenFlagCards: () => void;
   onOpenLanguages: () => void;
   onOpenMaps: () => void;
+  onOpenSubdivisions: () => void;
   onOpenCountryAssets: () => void;
 }
 
-export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages, onOpenMaps, onOpenCountryAssets }) => (
+export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic, onOpenPictures, onOpenFlagCards, onOpenLanguages, onOpenMaps, onOpenSubdivisions, onOpenCountryAssets }) => (
   <main className="min-h-screen bg-[#f1eee7] px-4 py-8 text-[#201c18] sm:py-12 flex items-center justify-center">
     <section className="w-full max-w-5xl overflow-hidden rounded-[2rem] border border-[#d6ccbd] bg-white shadow-xl">
       <header className="px-6 pb-6 pt-8 text-center sm:px-10 sm:pb-8 sm:pt-10">
@@ -42,6 +43,9 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
         <ModeButton icon={MapPinned} eyebrow="Country highlighting" title="Map Quiz Studio"
           description="Show World, Europe, Asia and other continent maps with permanent colours, labels, Gemini research and SVG/PNG export."
           accent="maps" onClick={onOpenMaps} />
+        <ModeButton icon={MapPinned} eyebrow="States and regions" title="Subdivision Atlas"
+          description="Export an old-atlas map of states, cantons, kraje, or other regions, with English names or blank outlines."
+          accent="maps" onClick={onOpenSubdivisions} />
         <ModeButton icon={Boxes} eyebrow="Central country library" title="Country Asset Hub"
           description="Choose any country, inspect everything bundled about it, and download its flag, silhouette, data, or complete ZIP."
           accent="assets" onClick={onOpenCountryAssets} />

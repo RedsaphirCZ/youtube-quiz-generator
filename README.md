@@ -50,6 +50,12 @@ npm run build:static
 
 Generated folders such as `dist/`, `output/`, `tmp/`, `.playwright-cli/`, and `node_modules/` are excluded from Git and can be recreated.
 
+## Subdivision maps
+
+Open **Subdivision Atlas** from the mode chooser to export first-level divisions as SVG or PNG. Choose a country and export an old-atlas-style map with English names (the default) or just the region outlines. Small Swiss cantons use numbered margin labels. Maps can be saved in the browser or exported as project JSON. The 193 bundled country files are loaded only when selected; they need no third-party map API. A local copy served from this repository can work without internet. The hosted site still needs access to uncached files. Monaco and Vatican City have no usable multi-area ADM1 map in this dataset. The US map includes the 50 states and omits DC and overseas territories.
+
+Boundaries come from [geoBoundaries gbOpen ADM1](https://www.geoboundaries.org/api.html). English labels are reconciled with [Natural Earth](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/) and [Unicode CLDR](https://github.com/unicode-org/cldr/blob/main/common/subdivisions/en.xml), with selected manual corrections. When no English equivalent is matched, the source spelling is retained and listed for review in the editor. Source year and original boundary license vary by country and appear in the export. Refresh the catalog and geometry with `node scripts/build-subdivision-catalog.mjs` and `node scripts/build-subdivision-geometry.mjs`, then run `node scripts/enrich-subdivision-names.mjs` in a network-enabled environment. Run `npm run check:subdivision-map` after refreshing data.
+
 
 ## Reliable picture quizzes
 
