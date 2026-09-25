@@ -44,7 +44,7 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
           description="Show World, Europe, Asia and other continent maps with permanent colours, labels, Gemini research and SVG/PNG export."
           accent="maps" onClick={onOpenMaps} />
         <ModeButton icon={MapPinned} eyebrow="States and regions" title="Subdivision Atlas"
-          description="Export an old-atlas map of states, cantons, kraje, or other regions, with English names or blank outlines."
+          description="Export black-and-white maps of states, cantons, kraje, and other regions, with editable English names or blank outlines."
           accent="maps" onClick={onOpenSubdivisions} />
         <ModeButton icon={Boxes} eyebrow="Central country library" title="Country Asset Hub"
           description="Choose any country, inspect everything bundled about it, and download its flag, silhouette, data, or complete ZIP."

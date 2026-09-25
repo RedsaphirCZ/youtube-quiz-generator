@@ -25,14 +25,15 @@ export interface DivisionMapProject {
   borderColor: string;
   highlightColor: string;
   highlighted: string[];
+  labelOverrides: Record<string, string>;
   createdAt: string;
 }
 
 export function newDivisionMap(country: string, name: string): DivisionMapProject {
   return {
     schema: 'subdivision-map/v1', id: `division-${crypto.randomUUID()}`, title: name, country,
-    showNames: true, waterColor: '#f2ead8', landColor: '#dfcfab', borderColor: '#735f43', highlightColor: '#c4ad7c',
-    highlighted: [], createdAt: new Date().toISOString(),
+    showNames: true, waterColor: '#ffffff', landColor: '#ffffff', borderColor: '#171717', highlightColor: '#171717',
+    highlighted: [], labelOverrides: {}, createdAt: new Date().toISOString(),
   };
 }
 
@@ -49,13 +50,34 @@ export function parseDivisionProject(raw: string, entries: DivisionCatalogEntry[
   for (const key of ['waterColor', 'landColor', 'borderColor', 'highlightColor'] as const) if (!color(project[key])) throw new Error(`${key} must be a six-digit hex colour.`);
   if (!Array.isArray(project.highlighted) || project.highlighted.some(id => typeof id !== 'string')) throw new Error('Highlighted divisions must be a list of IDs.');
   if (new Set(project.highlighted).size !== project.highlighted.length) throw new Error('A division is highlighted more than once.');
+  const rawOverrides = project.labelOverrides ?? {};
+  if (!rawOverrides || typeof rawOverrides !== 'object' || Array.isArray(rawOverrides)) throw new Error('Name edits must be an object of division IDs and labels.');
+  const labelOverrides: Record<string, string> = {};
+  for (const [id, value] of Object.entries(rawOverrides)) {
+    if (!id || id.length > 100 || typeof value !== 'string' || !value.trim() || value.length > 80) throw new Error('Each edited name must be 1–80 characters.');
+    labelOverrides[id] = value.trim();
+  }
   return {
     schema: 'subdivision-map/v1', id: preserveId && typeof project.id === 'string' ? project.id : `division-${crypto.randomUUID()}`,
     title: project.title.trim(), country: entry.iso3, showNames: project.showNames !== false,
     waterColor: project.waterColor as string, landColor: project.landColor as string, borderColor: project.borderColor as string,
-    highlightColor: project.highlightColor as string, highlighted: project.highlighted,
+    highlightColor: project.highlightColor as string, highlighted: project.highlighted, labelOverrides,
     createdAt: preserveId && typeof project.createdAt === 'string' ? project.createdAt : new Date().toISOString(),
   };
+}
+
+const czechShortNames: Record<string, string> = {
+  'Central Bohemian Region': 'Central Bohemia',
+  'South Bohemian Region': 'South Bohemia',
+  'South Moravian Region': 'South Moravia',
+  'Moravian-Silesian Region': 'Moravian-Silesia',
+};
+
+export function divisionDisplayName(feature: DivisionCollection['features'][number], country: string, overrides: Record<string, string> = {}) {
+  const fullName = feature.properties.nameEn || feature.properties.name;
+  if (overrides[feature.properties.id]) return overrides[feature.properties.id];
+  if (country === 'CZE') return czechShortNames[fullName] || fullName;
+  return fullName;
 }
 
 export function validateDivisionCollection(value: unknown): DivisionCollection {

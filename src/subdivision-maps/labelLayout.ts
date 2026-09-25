@@ -63,20 +63,22 @@ function insideRegion(region: Region, projection: GeoProjection, box: Box, edges
 function renderInside(name: string, cx: number, cy: number, lines: string[], size: number, id: string) {
   const lineHeight = size * 1.17;
   const text = lines.map((line, index) => `<tspan x="${fixed(cx)}" y="${fixed(cy + (index - (lines.length - 1) / 2) * lineHeight)}">${xml(line)}</tspan>`).join('');
-  return `<text data-label-id="${xml(id)}" data-label-kind="inside" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="${size}" fill="#332b21" stroke="#e6d4ad" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">${text}</text>`;
+  return `<text data-label-id="${xml(id)}" data-label-kind="inside" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="${size}" fill="#111111" stroke="#ffffff" stroke-width="2.4" stroke-linejoin="round" paint-order="stroke">${text}</text>`;
 }
 
-export function layoutMapLabels(features: Region[], projection: GeoProjection, path: ReturnType<typeof geoPath>, crowded: boolean, swissMargins: boolean, canvas = { width: 1600, top: 205, bottom: 816 }) {
+export function layoutMapLabels(features: Region[], projection: GeoProjection, path: ReturnType<typeof geoPath>, crowded: boolean, swissMargins: boolean, canvas = { width: 1600, top: 205, bottom: 816 }, labelFor: (region: Region) => string = region => region.properties.nameEn || region.properties.name) {
   const labels: string[] = [];
   const placements: LabelPlacement[] = [];
   const occupied: Box[] = [];
   const callouts: Region[] = [];
+  const mapLeft = Math.min(...features.map(region => path.bounds(region)[0][0]));
+  const mapRight = Math.max(...features.map(region => path.bounds(region)[1][0]));
   const ordered = [...features].sort((a, b) => path.area(b) - path.area(a));
   for (const region of ordered) {
     const bounds = path.bounds(region);
     const regionWidth = bounds[1][0] - bounds[0][0];
     if ((swissMargins && path.area(region) < 9000 && regionWidth < 145) || (path.area(region) < 3000 && regionWidth < 80)) { callouts.push(region); continue; }
-    const name = region.properties.nameEn || region.properties.name;
+    const name = labelFor(region);
     const edges = projectedEdges(region, projection);
     const centroid = path.centroid(region);
     const midpoint = [(bounds[0][0] + bounds[1][0]) / 2, (bounds[0][1] + bounds[1][1]) / 2];
@@ -129,12 +131,12 @@ export function layoutMapLabels(features: Region[], projection: GeoProjection, p
       if (!Number.isFinite(x) || !Number.isFinite(y)) return;
       const labelY = positions[index] - overflow;
       const number = side === 'left' ? index + 1 : leftCount + index + 1;
-      const nameLines = wrapped(region.properties.nameEn || region.properties.name, 17);
-      const labelX = side === 'left' ? (canvas.width > 1600 ? 300 : 282) : canvas.width - (canvas.width > 1600 ? 300 : 282);
+      const nameLines = wrapped(labelFor(region), 17);
+      const labelX = side === 'left' ? mapLeft - 20 : mapRight + 20;
       const anchor = side === 'left' ? 'end' : 'start';
       const rows = nameLines.map((line, row) => `<tspan x="${labelX}" y="${fixed(labelY + (row - (nameLines.length - 1) / 2) * 18 + 5)}">${row === 0 ? String(number).padStart(2, '0') + ' · ' : ''}${xml(line)}</tspan>`).join('');
-      labels.push(`<circle cx="${fixed(x)}" cy="${fixed(y)}" r="11.5" fill="#f4e9d0" stroke="#765f3e" stroke-width="1"/><text x="${fixed(x)}" y="${fixed(y + 4)}" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#3b3022">${number}</text><text data-label-id="${xml(region.properties.id)}" data-label-kind="callout" text-anchor="${anchor}" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#3b3022">${rows}</text>`);
-      placements.push({ id: region.properties.id, kind: 'callout', box: { left: side === 'left' ? 76 : labelX, top: labelY - nameLines.length * 10, right: side === 'left' ? labelX : canvas.width - 76, bottom: labelY + nameLines.length * 10 } });
+      labels.push(`<circle cx="${fixed(x)}" cy="${fixed(y)}" r="11.5" fill="#ffffff" stroke="#111111" stroke-width="1"/><text x="${fixed(x)}" y="${fixed(y + 4)}" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#111111">${number}</text><text data-label-id="${xml(region.properties.id)}" data-label-kind="callout" text-anchor="${anchor}" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#111111">${rows}</text>`);
+      placements.push({ id: region.properties.id, kind: 'callout', box: { left: side === 'left' ? 0 : labelX, top: labelY - nameLines.length * 10, right: side === 'left' ? labelX : canvas.width, bottom: labelY + nameLines.length * 10 } });
     });
   }
   return { svg: labels.join(''), placements };
