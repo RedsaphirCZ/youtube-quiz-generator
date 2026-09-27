@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee2c8">
+  <meta name="description" content="Guess 195 countries from their borders, flags, or a clue that's half flag and half border. A free, simple geography game.">
+  <title>The Geographer’s Atlas — borders & flags</title>
+  <link rel="icon" href="../flag-card-studio/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="The Geographer’s Atlas home"><span class="brand-mark" aria-hidden="true">✥</span><span>THE GEOGRAPHER’S ATLAS<small>A cabinet of geographical curiosities</small></span></a>
+      <div class="top-actions"><a href="#about" id="about-link">About</a><a href="../">Quiz Studio <span aria-hidden="true">↗</span></a><button id="fullscreen" class="icon-button" aria-label="Toggle fullscreen" title="Fullscreen">⛶</button></div>
+    </header>
+    <nav id="continents" class="continent-nav" aria-label="Choose a continent"><button data-region="all" aria-current="page">World</button><button data-region="Africa">Africa</button><button data-region="Americas">Americas</button><button data-region="Asia">Asia</button><button data-region="Oceania">Oceania</button><button data-region="Europe">Europe</button></nav>
+    <main>
+      <section id="setup" aria-labelledby="title">
+        <div class="intro"><div><p class="eyebrow">An invitation to explore</p><h1 id="title">How well do you<br>know the world?</h1><p class="lead">Trace a border. Recognise a flag. Follow your curiosity<br class="desktop-break"> through a collection of country guessing games.</p></div><div class="compass" aria-hidden="true"><span class="north">N</span><span class="west">W</span><span class="east">E</span><span class="south">S</span><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="78"/><circle cx="100" cy="100" r="68"/><circle cx="100" cy="100" r="37"/><path d="M100 6L112 88L194 100L112 112L100 194L88 112L6 100L88 88Z"/><path d="M100 6L100 100L112 88ZM194 100L100 100L112 112ZM100 194L100 100L88 112ZM6 100L100 100L88 88Z" class="compass-fill"/><path d="M47 47L92 83L153 47L117 92L153 153L108 117L47 153L83 108Z"/><circle cx="100" cy="100" r="7" class="compass-fill"/></svg></div></div>
+        <div class="collection-heading"><span id="collection-region">The World Collection</span><span id="country-count">195 lands to discover</span></div>
+        <div class="setup-grid">
+          <div class="settings">
+            <div class="modes" role="group" aria-label="Clue mode">
+              <button class="mode" data-mode="border" aria-pressed="false"><span class="plate"><canvas id="preview-border" width="720" height="520" aria-hidden="true"></canvas><span class="plate-number">PLATE I</span></span><span class="mode-copy"><span class="mode-kicker">The cartographer’s eye</span><strong>Country Borders</strong><small>Recognise a land by its outline.</small><span class="card-action">Choose this game <span aria-hidden="true">→</span></span></span></button>
+              <button class="mode" data-mode="flag" aria-pressed="false"><span class="plate"><canvas id="preview-flag" width="720" height="520" aria-hidden="true"></canvas><span class="plate-number">PLATE II</span></span><span class="mode-copy"><span class="mode-kicker">The herald’s colours</span><strong>Country Flags</strong><small>Match the colours to their country.</small><span class="card-action">Choose this game <span aria-hidden="true">→</span></span></span></button>
+              <button class="mode" data-mode="mixed" aria-pressed="true"><span class="plate"><canvas id="preview-mixed" width="720" height="520" aria-hidden="true"></canvas><span class="plate-number">PLATE III</span></span><span class="mode-copy"><span class="mode-kicker">A curious combination</span><strong>Half Flag, Half Border</strong><small>Two clues, joined in a single shape.</small><span class="card-action">Selected <span aria-hidden="true">✓</span></span></span></button>
+            </div>
+            <div class="expedition"><div class="expedition-title"><span class="eyebrow">Plan your expedition</span><span id="selected-game">Half Flag, Half Border</span></div><div class="selects"><label>Your destination<select id="region"><option value="all">Whole world</option></select></label><label>Length of journey<select id="rounds"><option value="10">10 countries</option><option value="20">20 countries</option><option value="all">Every country</option></select></label></div><button id="start" class="primary" disabled>Loading countries…</button></div>
+            <p class="quiet" id="setup-note">Four choices per country · No time limit · No account required</p>
+          </div>
+        </div>
+      </section>
+      <section id="game" hidden aria-label="Guess the country">
+        <div class="game-top"><button id="quit" class="text-button">← New game</button><span id="game-mode" class="eyebrow"></span><span id="score" class="score">0 correct</span></div>
+        <div class="progress-track"><div id="progress"></div></div>
+        <div class="question-head"><p id="round-label" class="eyebrow"></p><h1 class="question-title">Name this country.</h1></div>
+        <div class="clue-card"><canvas id="clue" width="720" height="520" role="img" aria-label="Country clue — choose one of the four answers below"></canvas><p id="clue-error" hidden></p><button id="retry" class="text-button" hidden>Retry clue</button></div>
+        <div id="answers" class="answers" role="group" aria-label="Country choices"></div>
+        <div class="answer-footer"><div id="feedback" role="status" aria-live="polite"></div><button id="next" class="primary" hidden>Next country →</button></div>
+        <p class="keyboard-tip">Keys 1–4 to choose · Enter to continue</p>
+      </section>
+      <section id="results" hidden aria-labelledby="result-title">
+        <p class="eyebrow">The world, a little more familiar</p><h1 id="result-title">Expedition complete.</h1>
+        <div class="result-score"><span id="result-score"></span><span id="result-total"></span></div><p id="result-message" class="lead"></p><p id="best" class="quiet"></p>
+        <div class="result-actions"><button id="again" class="primary">Play again →</button><button id="change" class="secondary">Change mode</button></div>
+        <div id="review" class="review"></div>
+      </section>
+      <p id="load-error" role="alert" hidden>Country data could not load. Check your connection and <button id="reload" class="text-button">try again</button>.</p>
+      <section id="about" class="about" hidden><p class="eyebrow">Notes from the geographer</p><h1>Welcome, explorer.</h1><p>Test your knowledge of 195 countries through their borders, flags, or a clue that combines both. Choose the whole world or a continent, then embark on a short expedition or visit every country.</p><p>Choose one of four answers. Each answer reveals the country and its capital, and your expedition ends with a review of every stop. Best scores are saved only in this browser. Nothing is sent to an account.</p><p>Flags: flag-icons / FlagCDN (MIT). Country outlines: Natural Earth (public domain). Country names and capitals: bundled REST Countries snapshot. The catalogue includes 193 UN member states, Palestine and Vatican City. Maps are learning illustrations, not authoritative boundary maps.</p><button id="about-back" class="secondary">← Back to the atlas</button></section>
+    </main>
+    <footer><span>THE GEOGRAPHER’S ATLAS <span aria-hidden="true">✦</span> A small game for a big world.</span><a href="../flag-card-studio/CREDITS.md">Sources & credits</a></footer>
+  </div>
+</body>
+</html>

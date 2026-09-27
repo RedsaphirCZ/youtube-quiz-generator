@@ -49,6 +49,9 @@ export const ModeLandingPage: React.FC<ModeLandingPageProps> = ({ onOpenClassic,
         <ModeButton icon={Boxes} eyebrow="Central country library" title="Country Asset Hub"
           description="Choose any country, inspect everything bundled about it, and download its flag, silhouette, data, or complete ZIP."
           accent="assets" onClick={onOpenCountryAssets} />
+        <ModeButton icon={Flag} eyebrow="Play a geography game" title="The Geographer’s Atlas"
+          description="Guess countries by their borders, flags, or half flag and half border. Explore every continent in an antique atlas."
+          accent="assets" onClick={() => window.location.assign(new URL('country-guess/index.html', document.baseURI).href)} />
         <ModeButton
           icon={Flag}
           eyebrow="Print workshop"
