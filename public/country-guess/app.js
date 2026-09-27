@@ -1,7 +1,9 @@
 import { makeRounds } from './engine.js';
+import { visibleAreas, pickConcealment } from './clue-layout.js';
 
 const $ = selector => document.querySelector(selector);
 const titles = { border: 'Country Borders', flag: 'Country Flags', mixed: 'Half Flag, Half Border' };
+const hidingTitles = { none: 'Full clues', horizontal: 'Horizontal half', vertical: 'Vertical half', diagonal: 'Diagonal half', strips: 'Alternating strips', windows: 'Checkerboard windows', random: 'Different hiding each country' };
 let countries = [], mode = 'mixed', rounds = [], index = 0, score = 0, ready = false, answered = false;
 let history = [], settings, renderVersion = 0;
 const images = new Map();
@@ -29,33 +31,51 @@ function contained(image, width, height, padding = 45) {
   const scale = Math.min((width - padding * 2) / image.width, (height - padding * 2) / image.height);
   return [(width - image.width * scale) / 2, (height - image.height * scale) / 2, image.width * scale, image.height * scale];
 }
-async function renderClue(canvas, country, clueMode, isCurrent = () => true) {
+async function renderClue(canvas, country, clueMode, isCurrent = () => true, concealment = 'none', seed = 0) {
   const flag = clueMode !== 'border' ? await imageFor(country.flag) : null;
   const shape = clueMode !== 'flag' ? await imageFor(country.silhouette) : null;
   if (!isCurrent()) return;
   const { width, height } = canvas;
   const ctx = canvas.getContext('2d');
   ctx.clearRect(0, 0, width, height);
-  if (clueMode === 'flag') {
-    const rect = contained(flag, width, height, 75);
-    ctx.save(); ctx.shadowColor = '#50381635'; ctx.shadowBlur = 16; ctx.shadowOffsetY = 6;
-    ctx.drawImage(flag, ...rect); ctx.restore();
-    ctx.strokeStyle = '#6d513c'; ctx.lineWidth = 1.5; ctx.strokeRect(...rect);
-    return;
+  if (clueMode === 'mixed') {
+    const paneHeight = (height - 64) / 2;
+    const flagPane = layer(width, paneHeight), borderPane = layer(width, paneHeight);
+    drawFlag(flagPane, flag, concealment, seed);
+    drawBorder(borderPane, shape, concealment, seed + 1, canvas.id.startsWith('preview'));
+    ctx.drawImage(flagPane, 0, 24); ctx.drawImage(borderPane, 0, paneHeight + 56);
+    ctx.strokeStyle = '#a18a6255'; ctx.setLineDash([4, 5]); ctx.beginPath();
+    ctx.moveTo(55, height / 2); ctx.lineTo(width - 55, height / 2); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle = '#8a7050'; ctx.font = '13px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText('F L A G', width / 2, 19); ctx.fillText('B O R D E R', width / 2, height / 2 + 21);
+  } else if (clueMode === 'flag') drawFlag(canvas, flag, concealment, seed);
+  else drawBorder(canvas, shape, concealment, seed, canvas.id.startsWith('preview'));
+}
+function clipAreas(ctx, rect, style, seed) {
+  const [x, y, w, h] = rect;
+  ctx.beginPath();
+  for (const area of visibleAreas(style, seed)) {
+    if (area.points) {
+      ctx.moveTo(x + area.points[0][0] * w, y + area.points[0][1] * h);
+      for (const point of area.points.slice(1)) ctx.lineTo(x + point[0] * w, y + point[1] * h);
+      ctx.closePath();
+    } else ctx.rect(x + area.x * w, y + area.y * h, area.w * w, area.h * h);
   }
+  ctx.clip();
+}
+function drawFlag(canvas, image, concealment, seed) {
+  const ctx = canvas.getContext('2d'), rect = contained(image, canvas.width, canvas.height, 28);
+  ctx.save(); clipAreas(ctx, rect, concealment, seed); ctx.drawImage(image, ...rect);
+  ctx.strokeStyle = '#6d513c'; ctx.lineWidth = 1.5; ctx.strokeRect(...rect); ctx.restore();
+}
+function drawBorder(canvas, shape, concealment, seed, preview) {
+  const { width, height } = canvas, ctx = canvas.getContext('2d');
+  const rect = contained(shape, width, height, 25);
   const mask = layer(width, height), maskCtx = mask.getContext('2d', { willReadFrequently: true });
-  maskCtx.drawImage(shape, ...contained(shape, width, height, 35));
+  maskCtx.drawImage(shape, ...rect);
   const pixels = maskCtx.getImageData(0, 0, width, height), alpha = new Uint8Array(width * height);
   for (let i = 0; i < alpha.length; i++) alpha[i] = pixels.data[i * 4 + 3];
-  if (clueMode === 'mixed') {
-    const filled = layer(width, height), fillCtx = filled.getContext('2d');
-    // Preserve the complete flag's design in the shape before revealing its left half.
-    fillCtx.drawImage(flag, 35, 35, width - 70, height - 70);
-    fillCtx.globalCompositeOperation = 'destination-in'; fillCtx.drawImage(mask, 0, 0);
-    ctx.save(); ctx.beginPath(); ctx.rect(0, 0, width / 2, height); ctx.clip();
-    ctx.drawImage(filled, 0, 0); ctx.restore();
-  }
-  const stroke = canvas.id.startsWith('preview') ? 5 : 3;
+  const stroke = preview ? 4 : 3;
   for (let y = 0; y < height; y++) for (let x = 0; x < width; x++) {
     const i = y * width + x, p = i * 4;
     if (!alpha[i]) continue;
@@ -64,7 +84,8 @@ async function renderClue(canvas, country, clueMode, isCurrent = () => true) {
     pixels.data[p] = 82; pixels.data[p + 1] = 58; pixels.data[p + 2] = 37;
     pixels.data[p + 3] = edge ? alpha[i] : 0;
   }
-  maskCtx.putImageData(pixels, 0, 0); ctx.drawImage(mask, 0, 0);
+  maskCtx.putImageData(pixels, 0, 0);
+  ctx.save(); clipAreas(ctx, rect, concealment, seed); ctx.drawImage(mask, 0, 0); ctx.restore();
 }
 function getPool() {
   const region = $('#region').value;
@@ -84,8 +105,9 @@ async function previews() {
   const pool = getPool();
   const example = pool.find(c => c.iso2 === 'it') || pool.find(c => c.iso2 === 'jp') || pool[0];
   if (!example) return;
-  const region = $('#region').value;
-  await Promise.allSettled(['border', 'flag', 'mixed'].map(clueMode => renderClue($(`#preview-${clueMode}`), example, clueMode, () => $('#region').value === region)));
+  const region = $('#region').value, hiding = $('#hiding').value;
+  await Promise.allSettled(['border', 'flag', 'mixed'].map(clueMode => renderClue($(`#preview-${clueMode}`), example, clueMode,
+    () => $('#region').value === region && $('#hiding').value === hiding, pickConcealment(hiding, 0), 0)));
 }
 function chooseMode(nextMode) {
   mode = nextMode;
@@ -98,18 +120,23 @@ function chooseMode(nextMode) {
 }
 function start() {
   if (!countries.length) return;
-  settings = { mode, region: $('#region').value, count: $('#rounds').value };
+  settings = { mode, region: $('#region').value, count: $('#rounds').value, hiding: $('#hiding').value };
   rounds = makeRounds(getPool(), { ...settings, region: 'all' });
+  rounds.forEach(round => { round.seed = Math.floor(Math.random() * 10000); round.concealment = pickConcealment(settings.hiding, round.seed); });
   index = score = 0; history = [];
   show('game'); renderRound();
 }
 async function renderRound() {
   ready = answered = false;
   const version = ++renderVersion, round = rounds[index];
+  $('#reveal').hidden = true;
   $('#next').hidden = true; $('#feedback').replaceChildren(); $('#clue-error').hidden = $('#retry').hidden = true;
-  $('#clue').getContext('2d').clearRect(0, 0, 720, 520);
+  $('#clue').height = settings.mode === 'mixed' ? 640 : 520;
+  $('#clue').classList.toggle('stacked', settings.mode === 'mixed');
   $('#clue').setAttribute('aria-busy', 'true');
   $('#game-mode').textContent = titles[settings.mode];
+  $('#clue-description').textContent = `${settings.mode === 'mixed' ? 'Flag above · Border below · ' : ''}${hidingTitles[round.concealment]}`;
+  $('#clue').setAttribute('aria-label', `${settings.mode === 'mixed' ? 'Flag clue above, border clue below' : titles[settings.mode]} — ${hidingTitles[round.concealment]}. Choose a country below.`);
   $('#round-label').textContent = `Country ${index + 1} of ${rounds.length}`;
   $('#score').textContent = `${score} correct`;
   $('#progress').style.width = `${index / rounds.length * 100}%`;
@@ -121,7 +148,7 @@ async function renderRound() {
     return button;
   }));
   try {
-    await renderClue($('#clue'), round.country, settings.mode, () => version === renderVersion);
+    await renderClue($('#clue'), round.country, settings.mode, () => version === renderVersion, round.concealment, round.seed);
     if (version !== renderVersion) return;
     ready = true;
     for (const button of $('#answers').children) button.disabled = false;
@@ -151,6 +178,7 @@ function guess(choice) {
   $('#progress').style.width = `${(index + 1) / rounds.length * 100}%`;
   $('#next').textContent = index + 1 === rounds.length ? 'See results →' : 'Next country →';
   $('#next').hidden = false;
+  $('#reveal').hidden = rounds[index].concealment === 'none';
   $('#next').focus({ preventScroll: true });
 }
 function next() {
@@ -162,7 +190,7 @@ function results() {
   $('#result-score').textContent = String(score); $('#result-total').textContent = ` / ${rounds.length}`;
   const ratio = score / rounds.length;
   $('#result-message').textContent = ratio === 1 ? 'A flawless journey. You know your way around the atlas.' : ratio >= .7 ? 'A fine expedition. There is always another corner to discover.' : 'Every journey teaches something. Review your stops and set out again.';
-  const key = `geographer-atlas:best:${settings.mode}:${settings.region}:${rounds.length}`;
+  const key = `geographer-atlas:best:v2:${settings.mode}:${settings.hiding}:${settings.region}:${rounds.length}`;
   try {
     const stored = Number(localStorage.getItem(key)), best = Math.max(score, Number.isFinite(stored) && stored >= 0 && stored <= rounds.length ? stored : 0);
     localStorage.setItem(key, String(best)); $('#best').textContent = `Best for this journey: ${best} / ${rounds.length}`;
@@ -185,6 +213,17 @@ for (const button of document.querySelectorAll('[data-region]')) button.addEvent
   $('#region').value = button.dataset.region; updateRegion(); home();
 });
 $('#region').addEventListener('change', updateRegion);
+$('#hiding').addEventListener('change', previews);
+$('#reveal').addEventListener('click', async () => {
+  if (!answered || !ready) return;
+  const version = renderVersion, round = rounds[index];
+  try {
+    await renderClue($('#clue'), round.country, settings.mode, () => version === renderVersion, 'none', round.seed);
+    if (version !== renderVersion) return;
+    $('#reveal').hidden = true; $('#clue-description').textContent = 'Full clues revealed';
+    $('#clue').setAttribute('aria-label', `Full clues for ${round.country.name}`);
+  } catch { $('#clue-description').textContent = 'Could not reveal full clues. Try again.'; }
+});
 $('#start').addEventListener('click', start); $('#again').addEventListener('click', start);
 $('#next').addEventListener('click', next); $('#retry').addEventListener('click', renderRound);
 $('#quit').addEventListener('click', home); $('#change').addEventListener('click', home);
