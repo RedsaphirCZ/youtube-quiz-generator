@@ -1,5 +1,5 @@
 import { makeRounds } from './engine.js';
-import { visibleAreas, pickConcealment } from './clue-layout.js';
+import { visibleAreas, pickConcealment, hidingForMode } from './clue-layout.js';
 
 const $ = selector => document.querySelector(selector);
 const titles = { border: 'Country Borders', flag: 'Country Flags', mixed: 'Half Flag, Half Border' };
@@ -32,6 +32,7 @@ function contained(image, width, height, padding = 45) {
   return [(width - image.width * scale) / 2, (height - image.height * scale) / 2, image.width * scale, image.height * scale];
 }
 async function renderClue(canvas, country, clueMode, isCurrent = () => true, concealment = 'none', seed = 0) {
+  concealment = hidingForMode(clueMode, concealment);
   const flag = clueMode !== 'border' ? await imageFor(country.flag) : null;
   const shape = clueMode !== 'flag' ? await imageFor(country.silhouette) : null;
   if (!isCurrent()) return;
@@ -107,10 +108,11 @@ async function previews() {
   if (!example) return;
   const region = $('#region').value, hiding = $('#hiding').value;
   await Promise.allSettled(['border', 'flag', 'mixed'].map(clueMode => renderClue($(`#preview-${clueMode}`), example, clueMode,
-    () => $('#region').value === region && $('#hiding').value === hiding, pickConcealment(hiding, 0), 0)));
+    () => $('#region').value === region && $('#hiding').value === hiding, pickConcealment(hidingForMode(clueMode, hiding), 0), 0)));
 }
 function chooseMode(nextMode) {
   mode = nextMode;
+  $('.hiding-setting').hidden = mode !== 'mixed';
   for (const button of document.querySelectorAll('[data-mode]')) {
     const selected = button.dataset.mode === mode;
     button.setAttribute('aria-pressed', String(selected));
@@ -120,7 +122,7 @@ function chooseMode(nextMode) {
 }
 function start() {
   if (!countries.length) return;
-  settings = { mode, region: $('#region').value, count: $('#rounds').value, hiding: $('#hiding').value };
+  settings = { mode, region: $('#region').value, count: $('#rounds').value, hiding: hidingForMode(mode, $('#hiding').value) };
   rounds = makeRounds(getPool(), { ...settings, region: 'all' });
   rounds.forEach(round => { round.seed = Math.floor(Math.random() * 10000); round.concealment = pickConcealment(settings.hiding, round.seed); });
   index = score = 0; history = [];

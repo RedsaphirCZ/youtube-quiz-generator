@@ -1,5 +1,9 @@
 export const concealments = ['none', 'horizontal', 'vertical', 'diagonal', 'strips', 'windows'];
 
+export function hidingForMode(mode, hiding) {
+  return mode === 'mixed' ? hiding : 'none';
+}
+
 // Normalised visible areas, so the same concealment works at every screen size.
 export function visibleAreas(style, seed = 0) {
   const side = Math.abs(seed) % 2;

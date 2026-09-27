@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { makeRounds } from '../public/country-guess/engine.js';
-import { concealments, visibleAreas, pickConcealment } from '../public/country-guess/clue-layout.js';
+import { concealments, visibleAreas, pickConcealment, hidingForMode } from '../public/country-guess/clue-layout.js';
 
 const countries = JSON.parse(readFileSync('public/flag-card-studio/data/countries.json', 'utf8')).countries;
 let checks = 0;
@@ -40,5 +40,11 @@ for (const style of concealments) for (const seed of [0, 1, 21, 48]) {
   assert.equal(pickConcealment(style, seed), style);
 }
 assert.deepEqual(new Set(Array.from({ length: 50 }, (_, i) => pickConcealment('random', i))), new Set(concealments.slice(1)));
+for (const hiding of [...concealments, 'random']) {
+  assert.equal(hidingForMode('border', hiding), 'none');
+  assert.equal(hidingForMode('flag', hiding), 'none');
+  assert.equal(hidingForMode('mixed', hiding), hiding);
+}
 console.log(`PASS: Country Guess — ${countries.length} countries, all assets, no repeated targets, four unique choices, continent filters, flag ambiguity checks (${checks} rounds/assets checked).`);
 console.log('PASS: All hiding styles reveal half the clue, stay within bounds, and random mode covers every hiding style.');
+console.log('PASS: Regular border and flag modes always show full clues; only combined mode uses hiding.');
